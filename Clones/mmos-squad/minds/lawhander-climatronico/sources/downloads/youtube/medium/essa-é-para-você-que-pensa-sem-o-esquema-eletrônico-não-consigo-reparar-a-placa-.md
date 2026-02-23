@@ -1,0 +1,14 @@
+# Essa é para você que pensa: Sem o esquema eletrônico não consigo reparar a placa. #AME
+
+- **Video ID:** KHs3h59KLuU
+- **URL:** https://www.youtube.com/watch?v=KHs3h59KLuU
+- **Duration:** 3 min
+- **Views:** 259
+- **Published:** 2020-04-15T15:00:09Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+o primeiro primeiro primeira coisa comida detalhe esquema eletrônico dificilmente você vai achar tá isso queima eletrônico dificilmente você vai achar você não achar música eletrônica as conexões algumas marcas disponibilizam e tem alguns sites até falando de uma nosso manualslib.com você consegue achar né algum site de manual e internacional nada no brasil você achar você pode até sair no whatsapp aí tem alguns esquemas eletronicos algumas marcas foi visa outras eu nunca ouvi falar dois queima eletrônico tá até porque a quando ela disse-me sistema eletrônico que eu faço a cópia baixa o cara que saber só a programação eles não querem disponibilizar isso tá então eles vão facilitam isso aí pessoal não é só a refrigeração é em todo mercado tá eu viu na indústria indústria piores raspavam os componentes então é é que a gente descer você raspar componente mas eu nunca vi ah tá então um deixe não eu trabalho de noite deixe de procurar mas aprendam enquanto não tem por ser bagunça eu nunca vi isso eletronico da consul a me dera nunca vi isso lembrando que a ideia então se encontram tem a gente trabalha com que a gente tem é o que não tem solução solucionado está que não tem remédio remediado está tá então isso não tem esquema eletrônico vou ficar morrendo alto quer eu não posso época não tem esquema eletrônico é complicado aí você não trabalho com quase uma placa na verdade eu não tenho alguns esquemas eletrônicos por exemplo um samsung e fujitsu a gente consegue achar mas o mal utilizo alguns efeitos bem pontuais eu vou lá volta alguns efeitos tem que só sai com uma com o esquema eletrônico tá quer um resistor que abriu ali e você não tem noção dá para fazer serviço não dá mais pra te ver eu não corre mais risco demora mais tá mas eu já de todos os equipados que você tem a grande e a minoria é que eu utilizei nenhum esquema eletrônico para poder você tá então se desapegue nisso que se você quer trabalhar com uma das eletrônica se você quer gabriel gustavo placa você tem que aprender a se virar você tem que levantar o circuito levantar na mão entender mas tipo de funciona é é que tá a base eletrônica que é que tá a teoria eletrônica se você leva dar um circuito e não sabe como é que é a a teoria da época que eu funciona e levar ao circuito fora então é deixem dessa visão de tirar não tem esquema eletrônico cadastrado com essa placa seu estômago e não consigo

@@ -1,0 +1,14 @@
+# Um resistor SMD, queimou o IPM e o circuito do IGBT. #AME
+
+- **Video ID:** h-vsrfSYnxo
+- **URL:** https://www.youtube.com/watch?v=h-vsrfSYnxo
+- **Duration:** 4 min
+- **Views:** 805
+- **Published:** 2020-06-20T15:00:15Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+é por causa pode tá usando 15 minutos cavando 15 volts rodeio dela pela frente ah [ __ ] vamos jogar tava gerando os 12 volts dela e os 15 18 volts né e os 12 volts eram sei que vou diz que gera que gera 3.3 que gera 1.8 que alimento único controlar louco por favor peço extensões que está fonte da boa né cara falou que tá bom tá gerando está gerando errado beleza porque ele tá achando errado e vamos lá ver que você pensa aqui comigo porque tá gerado pode ser eu sei que tem um feedback da fonte chaveada tá que eu não vou colocar na frente a vela aqui não mas tem um feedback da fonte chaveada esse livro é que ele mantém a fonte ele mesmo que vai 19 manda uma extenção o tipo assim fico mais tempo um positivo e outro negativo ele vai aumentar as tensões do secundario tão ele é que diz atenção tá ok ou não secundária então pode ser que alguma algum circuito de feedback diz para o chaveador qual o extensão que tomar no secundário possibilita alterado você tava errado e aí eu preciso testar e aí eu tô eu quero só que você pega a rocha da coisa mas se a testar alguns resistores capacitores eletrolíticos capacitores de cerâmica do circuito de feedback oi e aí cheguei no resistor smd em eu cheguei meses para cima dele o que que você estivesse me ver ele ele eu estava sem marcação dele do valor é ser um valor marcado e achei estranho ela medi ele eu ponho ele não tá marcado achei estranho mas vocês não pegar marcação ficar que é essa é uma coisa assim medi ele e tá dando valor na placa eu peguei se vocês copiaram estão tudo aqui conferido por um fato aceito troca tira eles me de fora tava no valor não é qual o valor mas eu peguei uma placa igual do cliente e fui ver o ao da extensão original estava dava para ver do cliente pvc classificação e vi que o resistor estava realmente estava alterado tá não tava aberto sem por centro eu parti a placa sem ser estou ela não deus lá no século lá então vi que era ó não levantei o circuito achar o circuito bonitinho tá ok como leva até eu fiz o que tira eu estou me ligue a placa eu vi que não deu nem nada não sei que a gente estamos então esse tô tem super a ver com a fonte sentir ele e ele não deixou a a fonte partindo eu nem não tensão no secundário então ele é importante aqui e é ficar valor correto e substitua correto quando substituir voltou a dar 15 volts lá no de outro b

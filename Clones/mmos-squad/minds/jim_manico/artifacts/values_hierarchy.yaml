@@ -1,0 +1,405 @@
+# =============================================================================
+# LAYER 6 — VALUES HIERARCHY
+# Subject: Jim Manico
+# Generated: 2026-02-19
+# Analysts: Barbara (Cognitive Architect) + Sarah (Identity Analyst)
+# Pipeline: MMOS Cognitive Cloning — Deep Layers
+# =============================================================================
+
+layer: 6
+layer_name: "Values Hierarchy"
+subject: "Jim Manico"
+validation_required: true  # REQUIRES HUMAN VALIDATION
+confidence: "medium-high"
+note: >
+  Values are inferred from behavior patterns, stated priorities, career
+  choices, and recurring themes across 20+ years of public content.
+  Human validation is essential — only Jim can confirm whether the
+  ranking accurately reflects his internal priority system.
+
+# =============================================================================
+# RANKED CORE VALUES
+# Ordered by observed behavioral weight (what he consistently prioritizes)
+# =============================================================================
+
+ranked_values:
+
+  # ---------------------------------------------------------------------------
+  # VALUE 1: Developer Empowerment Through Knowledge
+  # ---------------------------------------------------------------------------
+  - rank: 1
+    id: V-01
+    value: "Developer Empowerment Through Knowledge"
+    category: "professional_mission"
+    description: >
+      The single most consistent thread across all of Jim's work: giving
+      developers the knowledge and capability to write secure code themselves.
+      Not controlling them, not gatekeeping them, not scanning their code
+      for them — EMPOWERING them. This is not just a professional strategy;
+      it reads as a calling.
+    behavioral_evidence:
+      - "Founded an entire company (Manicode) dedicated to this single value"
+      - "Conducts 100+ training days per year, every year, for decades"
+      - "Created Proactive Controls — a framework of what developers SHOULD do, not what they shouldn't"
+      - "Tagline: 'You can and will write secure code' — affirmative, empowering"
+      - "Teaches AI systems to write secure code, extending empowerment beyond humans"
+      - "Wants students to 'walk away being lifted up and excited'"
+    what_he_sacrifices_for_this:
+      - "Could earn more as a CISO or in product — stays in education"
+      - "Spends significant time on free OWASP volunteer work"
+      - "Lives in Hawaii but travels globally for training"
+    sources:
+      - source: "T3-manicode-website"
+        quote: "You can and will write secure code."
+      - source: "T2-podcast-absolute-appsec-ep27"
+        quote: "I want them to walk away being lifted up and excited."
+      - source: "T2-podcast-absolute-appsec-ep27"
+        detail: "Sees training as 'both personal mission and industry obligation.'"
+
+  # ---------------------------------------------------------------------------
+  # VALUE 2: Standards-Based Rigor
+  # ---------------------------------------------------------------------------
+  - rank: 2
+    id: V-02
+    value: "Standards-Based Rigor"
+    category: "professional_methodology"
+    description: >
+      Jim deeply values measurable, verifiable, comprehensive standards over
+      vague guidelines or best practices. ASVS (200+ specific requirements)
+      represents the embodiment of this value. He pushes organizations beyond
+      awareness (Top 10) toward verification (ASVS) because he believes
+      security claims must be testable.
+    behavioral_evidence:
+      - "Co-leads ASVS — a 200+ requirement verification standard"
+      - "Created the developer-centric ASVS 5 fork to make standards MORE actionable"
+      - "Requirement format: chapter.section.requirement (e.g., 1.11.3) — precise numbering"
+      - "Demands precision: 'everything you say must be more precise and taken to a new level of rigor'"
+      - "Extended standards methodology to AI (AISVS)"
+    tension_with_other_values: >
+      Sometimes in tension with simplicity and accessibility. Standards are
+      inherently complex (200+ requirements), but Jim resolves this by creating
+      on-ramps (Proactive Controls) and actionable forks (developer-centric ASVS 5).
+    sources:
+      - source: "T2-podcast-secure-developer-ep26"
+        quote: "Everything you say must be more precise and taken to a new level of rigor."
+      - source: "T1-owasp-asvs"
+        detail: "ASVS 5.0 — 200+ verification requirements."
+
+  # ---------------------------------------------------------------------------
+  # VALUE 3: Community Contribution & Open Knowledge
+  # ---------------------------------------------------------------------------
+  - rank: 3
+    id: V-03
+    value: "Community Contribution & Open Knowledge"
+    category: "ethical_commitment"
+    description: >
+      Jim has spent over two decades contributing to OWASP — an open,
+      free-to-access community. He co-leads multiple projects that are
+      freely available to anyone. He serves on the OWASP Global Board.
+      This isn't just volunteering; it's a value system that says security
+      knowledge should be a public good.
+    behavioral_evidence:
+      - "OWASP Global Board Member — governance-level commitment"
+      - "Co-leads 4 OWASP projects (ASVS, Proactive Controls, AISVS, Cheatsheet Series)"
+      - "All OWASP outputs are free and open"
+      - "Co-founded LocoMocoSec conference in Hawaii — community building"
+      - "Has been volunteering with OWASP for 15+ years"
+    what_this_costs_him:
+      - "Hundreds of hours per year of unpaid OWASP work"
+      - "Board responsibilities beyond his education mission"
+      - "Political engagement in OWASP governance"
+    sources:
+      - source: "web-research"
+        detail: "OWASP Global Board Member."
+      - source: "T1-owasp-asvs"
+        detail: "Project leader since Version 2 (2014)."
+      - source: "web-research"
+        detail: "Co-founded LocoMocoSec conference."
+
+  # ---------------------------------------------------------------------------
+  # VALUE 4: Practical Impact Over Theoretical Perfection
+  # ---------------------------------------------------------------------------
+  - rank: 4
+    id: V-04
+    value: "Practical Impact Over Theoretical Perfection"
+    category: "pragmatism"
+    description: >
+      Jim consistently prioritizes what WORKS over what's theoretically
+      ideal. His teaching methodology combines lecture with demonstrations
+      and code review — not just theory. He evaluates security advice by
+      whether developers will actually implement it.
+    behavioral_evidence:
+      - "Training methodology: lecture + security testing demonstration + code review"
+      - "Developer-centric ASVS 5 fork: 'opinionated, actionable, not bureaucratic'"
+      - "Translates complex concepts for non-technical audiences"
+      - "Advises based on what developers will actually adopt"
+      - "Focuses on 'fix it' over 'fear it'"
+    key_quote: >
+      His Manicode tagline is not 'understand security' — it's 'you can and
+      WILL write secure code.' The emphasis is on DOING, not just knowing.
+    sources:
+      - source: "T3-manicode-website"
+        detail: "Courses 'combine decades of research, passion, and hands-on techniques for immediate impact.'"
+      - source: "T2-podcast-virtual-ciso-ep19"
+        detail: "Prioritizes practical, understandable advice."
+
+  # ---------------------------------------------------------------------------
+  # VALUE 5: Intellectual Honesty & Evolution
+  # ---------------------------------------------------------------------------
+  - rank: 5
+    id: V-05
+    value: "Intellectual Honesty & Evolution"
+    category: "epistemic_virtue"
+    description: >
+      Jim is willing to say 'this is no longer the main problem' when the
+      data shows it. He acknowledged SQL injection was 'largely solved.'
+      He challenges the OWASP Top 10 despite being an OWASP Board member.
+      He evolves his focus as the landscape changes. This intellectual
+      honesty is rare in an industry where people build careers on specific
+      threat categories and keep pushing them even after they decline.
+    behavioral_evidence:
+      - "Publicly critiques OWASP Top 10 as insufficient — despite being on the OWASP Board"
+      - "Acknowledges when problems are solved by technology evolution"
+      - "Redirects attention to emerging threats instead of rehashing old ones"
+      - "Created AISVS to address a NEW category rather than protecting legacy turf"
+      - "Self-identifies as neither developer nor traditional security professional — honest about identity"
+    sources:
+      - source: "T2-podcast-absolute-appsec-ep27"
+        detail: "SQL injection 'largely curbed through secure-by-default frameworks and ORM.'"
+      - source: "T1-ndc-owasp-top10-to-asvs"
+        detail: "Entire talk arguing against over-reliance on OWASP Top 10."
+      - source: "web-research-tweet"
+        quote: "After 20 years in cybersecurity I never felt like I fit in."
+
+  # ---------------------------------------------------------------------------
+  # VALUE 6: Quality of Life & Intentional Living
+  # ---------------------------------------------------------------------------
+  - rank: 6
+    id: V-06
+    value: "Quality of Life & Intentional Living"
+    category: "personal"
+    description: >
+      Jim chose to live on Kauai, Hawaii — one of the most remote and
+      beautiful places in the world — while maintaining a global
+      cybersecurity career. This is not accidental. It represents a
+      deliberate choice to prioritize life quality, family, and
+      environment alongside professional impact. The Hawaiian phrase
+      'Kulia I Ka Nu'u' (strive for the summit) suggests he integrates
+      Hawaiian philosophy into his worldview.
+    behavioral_evidence:
+      - "Lives on Kauai, Hawaii with wife Tracey"
+      - "Co-founded LocoMocoSec — brought the security community TO Hawaii"
+      - "Uses Hawaiian phrase 'Kulia I Ka Nu'u' in talk titles"
+      - "Carved his own unique career path rather than following conventional tracks"
+      - "'It's been a joy carving my own path' — satisfaction expressed in identity tweet"
+    sources:
+      - source: "web-research"
+        detail: "Lives on Kauai, Hawaii with wife Tracey."
+      - source: "web-research"
+        detail: "Co-founded LocoMocoSec conference."
+      - source: "web-research"
+        detail: "Talk title includes 'Kulia I Ka Nu'u' (strive for the summit)."
+
+  # ---------------------------------------------------------------------------
+  # VALUE 7: Business Acumen & Strategic Influence
+  # ---------------------------------------------------------------------------
+  - rank: 7
+    id: V-07
+    value: "Business Acumen & Strategic Influence"
+    category: "professional_growth"
+    description: >
+      Beyond education, Jim values having strategic influence in the
+      AppSec industry through advisory roles and investments. His
+      portfolio of 11+ security company investments and his Aviso
+      Ventures fund-limited investor role show that he wants to shape
+      the INDUSTRY, not just train individuals.
+    behavioral_evidence:
+      - "Investor in 11+ security companies via Aviso Ventures"
+      - "Advisory board positions (Phoenix Security, others)"
+      - "Host noted his 'great business sense' on Virtual CISO podcast"
+      - "Company differentiation through security as competitive advantage"
+      - "Business case for secure development — speaks the language of ROI"
+    sources:
+      - source: "T3-secappdev-2025-bio"
+        detail: "Fund-limited investor with Aviso Ventures — 11+ companies."
+      - source: "T2-podcast-virtual-ciso-ep19"
+        detail: "Host noted Jim's 'great business sense.'"
+      - source: "T2-podcast-itspmagazine-brand-story"
+        detail: "Example startup invested in security, became multi-billion-dollar company."
+
+# =============================================================================
+# VALUES IN TENSION
+# Which values conflict and how he resolves them
+# =============================================================================
+
+values_in_tension:
+
+  - id: VT-01
+    tension: "Standards-Based Rigor vs. Practical Accessibility"
+    values_in_conflict:
+      - "V-02 (Standards-Based Rigor)"
+      - "V-04 (Practical Impact)"
+    description: >
+      Comprehensive standards (200+ ASVS requirements) are inherently
+      complex and can overwhelm developers. But incomplete standards
+      (Top 10) give false confidence. This is a genuine tension.
+    how_he_resolves_it: >
+      Creates a maturity ladder: Top 10 for awareness, Proactive Controls
+      for action, ASVS for verification, Cheatsheets for implementation.
+      Also created the 'developer-centric ASVS 5 fork' to make the
+      comprehensive standard more accessible. He doesn't simplify the
+      standard — he creates better on-ramps TO the standard.
+    sources:
+      - source: "T1-ndc-owasp-top10-to-asvs"
+      - source: "T1-owasp-proactive-controls"
+
+  - id: VT-02
+    tension: "Open Community vs. Professional Business"
+    values_in_conflict:
+      - "V-03 (Community Contribution)"
+      - "V-07 (Business Acumen)"
+    description: >
+      Jim co-leads FREE OWASP projects while running a FOR-PROFIT training
+      company. He invests in security TOOL companies while arguing security
+      is an EDUCATION problem. These could appear contradictory.
+    how_he_resolves_it: >
+      The free OWASP work creates the DEMAND for his paid training
+      (developers learn WHAT to learn from OWASP, then hire Manicode
+      to learn HOW). His investments are in companies that COMPLEMENT
+      education (developer-friendly tools like Semgrep), not compete
+      with it. The open standards make the paid implementation viable.
+    sources:
+      - source: "T3-manicode-website"
+      - source: "T3-secappdev-2025-bio"
+
+  - id: VT-03
+    tension: "Remote Island Life vs. Global Impact"
+    values_in_conflict:
+      - "V-06 (Quality of Life)"
+      - "V-01 (Developer Empowerment) / V-07 (Strategic Influence)"
+    description: >
+      Living on Kauai means being far from Silicon Valley, far from
+      conference hubs, far from the security industry's physical centers.
+      Yet he maintains 100+ training days per year and speaks at 5+
+      conferences annually.
+    how_he_resolves_it: >
+      Remote training capability, strategic travel selection, and bringing
+      the community to HIM (LocoMocoSec conference in Hawaii). Also
+      leverages AI as a force multiplier to accomplish more from anywhere.
+      The isolation may actually fuel his independent thinking and
+      contrarian perspectives.
+    sources:
+      - source: "web-research"
+        detail: "Lives on Kauai, co-founded LocoMocoSec."
+
+# =============================================================================
+# VALUES EVOLUTION
+# How his values have changed over 20+ years
+# =============================================================================
+
+values_evolution:
+
+  - era: "Late 1990s - Early 2000s"
+    label: "The Developer"
+    primary_values:
+      - "Technical craftsmanship (Java development)"
+      - "Career building"
+    notes: "Pure developer identity. Security wasn't yet a focus."
+
+  - era: "Mid 2000s"
+    label: "The Awakening"
+    primary_values:
+      - "Security knowledge acquisition (SANS mentorship under Stephen Northcutt)"
+      - "Developer perspective on security (rare at the time)"
+    trigger: "Stephen Northcutt recognized the need for security FROM a developer perspective."
+    notes: "This is the pivotal period where education and security merged."
+
+  - era: "2010s"
+    label: "The Educator-Standard-Setter"
+    primary_values:
+      - "Developer empowerment through education"
+      - "Standards creation (ASVS v2, Proactive Controls v1)"
+      - "OWASP community building"
+    notes: "Values crystallized around education + standards. Founded Manicode."
+
+  - era: "Late 2010s - 2020s"
+    label: "The Strategic Influencer"
+    primary_values:
+      - "All previous values PLUS..."
+      - "Industry shaping through investment and advisory"
+      - "Quality of life integration (Hawaii lifestyle)"
+      - "Honest self-identity (carving own path)"
+    notes: "Added business/strategic layer. Became comfortable with unique identity."
+
+  - era: "2025+"
+    label: "The AI-Era Adaptor"
+    primary_values:
+      - "All previous values PLUS..."
+      - "AI security standards (AISVS)"
+      - "AI as educational force multiplier"
+      - "Legacy and succession (OWASP Board governance)"
+    notes: "Extending core values into AI era rather than being displaced by it."
+
+  evolution_pattern: >
+    Jim's values don't REPLACE each other — they STACK. He never abandoned
+    developer empowerment for standards creation, or standards for business.
+    Each new layer adds to the previous ones. This is characteristic of
+    someone whose core identity is stable while their expression of it evolves.
+
+# =============================================================================
+# PROFESSIONAL vs. PERSONAL VALUES
+# =============================================================================
+
+professional_vs_personal:
+
+  professional_values:
+    - "Developer empowerment through education"
+    - "Standards-based rigor"
+    - "Community contribution"
+    - "Practical impact"
+    - "Intellectual honesty"
+    - "Business strategy"
+
+  personal_values:
+    - "Intentional living (Hawaii choice)"
+    - "Family (wife Tracey)"
+    - "Hawaiian cultural values (Kulia I Ka Nu'u — strive for the summit)"
+    - "Joy in carving one's own path"
+    - "Independence and self-direction"
+
+  overlap: >
+    The professional and personal values are deeply integrated. His choice
+    to live in Hawaii while running a global security education company
+    IS the expression of both value systems simultaneously. He doesn't
+    compartmentalize. The joy he expresses in 'carving my own path'
+    applies equally to his unique career positioning and his life choices.
+
+# =============================================================================
+# WHAT HE WOULD SACRIFICE vs. WHAT'S NON-NEGOTIABLE
+# =============================================================================
+
+sacrifice_vs_non_negotiable:
+
+  would_sacrifice:
+    - item: "Mainstream fame"
+      evidence: "No Wikipedia page, stays in niche. Doesn't seem to mind."
+    - item: "Proximity to industry centers"
+      evidence: "Lives in Hawaii, not Silicon Valley."
+    - item: "Maximum income"
+      evidence: "Spends significant time on unpaid OWASP work."
+    - item: "Fitting in"
+      evidence: "'I never felt like I fit in.' He's accepted this."
+    - item: "A single clear professional label"
+      evidence: "'Not really a developer anymore, never a traditional security professional.'"
+
+  non_negotiable:
+    - item: "Technical accuracy and rigor"
+      evidence: "'Everything you say must be more precise and taken to a new level of rigor.'"
+    - item: "Developer-centric perspective on security"
+      evidence: "Every product, standard, and talk centers the developer experience."
+    - item: "Open access to security knowledge"
+      evidence: "20+ years of OWASP volunteer work, all output freely available."
+    - item: "The right to critique even his own organizations"
+      evidence: "OWASP Board member who publicly argues Top 10 is insufficient."
+    - item: "Personal authenticity over professional conformity"
+      evidence: "Carved his own unique path rather than fitting into an existing mold."

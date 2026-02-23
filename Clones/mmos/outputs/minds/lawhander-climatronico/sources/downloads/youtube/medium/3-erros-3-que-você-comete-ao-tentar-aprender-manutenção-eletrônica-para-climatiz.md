@@ -1,0 +1,14 @@
+# 3 ERROS 3 que você comete ao tentar aprender manutenção eletrônica para climatização
+
+- **Video ID:** gRqPU5oeFwc
+- **URL:** https://www.youtube.com/watch?v=gRqPU5oeFwc
+- **Duration:** 3 min
+- **Views:** 1,834
+- **Published:** 2025-05-08T23:00:43Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+Três exemp erros que você comete ao tentar aprender manutenção eletrônica para climatização. Primeiro deles, focar na ferramenta e querer comprar um monte de ferramenta. Primeiro, você não sabe que as ferramentas que você precisa. Segundo, você não sabe utilizar muitas delas, tá? Mas esse é o pensamento comum de quem vai abrir um negócio, de quem vai abrir uma um projeto. Pensa que tem que ter tem que ter todo ferramental, tudo para começar. E não é bem assim que você tem que seguir, tá? Compre o mínimo necessário e vá para cima das manutenções. Segundo erro que multi vocês cometem é querer sempre o caminho mais fácil, tá? Fácil. Não tô falando de simples, tô falando de fácil. E por querer o caminho mais fácil, você às vezes acaba escolhendo caminhos errados no aprendizado da manutenção eletrônica. O cara até quer aprender, mas ele quer aprender da maneira mais fácil possível. E tem coisas na eletrônica que não tem como ser facilitadas, tem ter uma barreira a entrada e é bom que filtros curiosos, mas se você for buscar só o caminho mais fácil, certamente vai se frustrar na jornada. A dica que eu posso dar sobre isso é: "Busque aprender com quem vive, com quem te traz uma realidade e modele e aprenda com essa pessoa." Esse aqui é o mais fácil. O cara mostrou que é meio mais fácil. Parece ser mais fácil aqui. Então vai ser mais fácil. Vou pro mais fácil. Cuidado. Um bom parâmetro para você ver se a pessoa que tá lhe ensinando vai lhe ensinar a coisa certa, se ela vive daquilo que ela fala. Por qu? Pergunta o seguinte: é tão bom porque tu não faz para ti? Dá para ganhar dinheiro com com mando tua eletrônica? Dá. E tu ganha quanto por mês comando tuação eletrônica? Ah, não, só dou aula. Ah, por que que tu faz para ti? Então você é tão bom assim. E o terceiro erro, não se divulgar, achar que pelo fato de você trabalhar com eletrônica ou queer já mexer com eletrônica, por si só, já vai ser o grande queira a questão, todo mundo vai lhe conhecer. Você esquece de se mostrar para o mercado, dizer quem é você, dizer o que é que você faz. Muitos de vocês até sabem reparar placa, mas pecam na divulgação do serviço de vocês e aí trava quando não tem cliente. Toda empresa que não tem cliente quebra. Então vocês pecam muito nesses três pontos, porque se não se divulgar, se não tiver aparecendo pr seus clientes, seus clientes vão saber que você existe. Aí você não tem como ganhar dinheiro com reparo de placa.

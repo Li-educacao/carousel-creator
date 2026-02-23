@@ -1,0 +1,678 @@
+# =============================================================================
+# LAYER 4 — RECOGNITION PATTERNS / MENTAL RADARS
+# Subject: Tiago Tessmann
+# Pipeline: MMOS DNA Mental v3.0 — Phase 2
+# Agent: @barbara-cognitive-architect (L4-L5)
+# Generated: 2026-02-15
+# Sources: 17 YouTube transcripts (canal proprio + podcasts + cases)
+# =============================================================================
+
+metadata:
+  subject: "Tiago Tessmann"
+  layer: 4
+  layer_name: "Recognition Patterns / Mental Radars"
+  version: "1.0.0"
+  generated_at: "2026-02-15"
+  confidence: 0.91
+  source_count: 17
+  primary_sources:
+    - "como-evitar-os-6-erros-mais-comuns-no-google-ads.md"
+    - "processo-de-converso-6-passos-para-aumentar-suas-vendas-podcast-extremo-74.md"
+    - "o-que-e-como-fazer-testes-no-trfego-pago-podcast-extremo-113.md"
+    - "trfego-estratgico-como-melhorar-a-inteligncia-das-suas-campanhas-podcast-extremo-130.md"
+    - "os-maiores-erros-que-esto-fazendo-empresrios-perder-dinheiro-podcast-extremo-144.md"
+    - "5-processos-de-uma-agncia-de-marketing-de-alta-performance-podcast-extremo-102.md"
+    - "como-criar-o-tipo-de-anncio-que-mais-gera-vendas-podcast-extremo-103.md"
+    - "como-construir-um-pensamento-estratgico-com-ramon-tessmann-podcast-extremo-109.md"
+    - "385-mil-em-30-dias-com-e-commerce-de-roupas-para-academia.md"
+    - "172-mil-em-30-dias-com-agncia-jurdica.md"
+    - "100-mil-de-em-30-dias-com-vidraaria.md"
+    - "gestor-de-trfego-como-atender-muitos-clientes-e-faturar-25-mil-por-ms-podcast-extremo-105.md"
+    - "20-ferramentas-essenciais-para-voc-ser-mais-produtivo-e-faturar-mais-podcast-extremo-126.md"
+
+# =============================================================================
+# RADAR 1 — CAMPAIGN DIAGNOSIS (O que ele nota PRIMEIRO em campanhas)
+# =============================================================================
+
+campaign_radar:
+
+  first_look:
+    description: "A primeira coisa que Tiago avalia ao analisar uma campanha NAO e a campanha em si — e o processo de conversao completo."
+    evidence:
+      - quote: "muitas vezes o erro nao tava no Google em si... ele nao tinha um processo de conversao bem definido"
+        source: "processo-de-converso-6-passos"
+      - quote: "tem gente que ta focada no trafego ta focada la no CPA no CPU e nao ta vendo a venda como um todo"
+        source: "trfego-estratgico-podcast-extremo-130"
+    pattern: "Olha a jornada completa ANTES de olhar metricas da campanha"
+
+  creative_quality_radar:
+    priority: 1
+    description: "Quantidade e qualidade dos criativos e o primeiro indicador tecnico que avalia."
+    what_he_notices:
+      - signal: "Poucos criativos ou so um anuncio rodando por meses"
+        interpretation: "Fadiga criativa, falta de teste, estagnacao"
+        evidence:
+          - quote: "a pessoa esta usando so uma frase ha tres meses... so um anuncio"
+            source: "como-evitar-os-6-erros-mais-comuns-no-google-ads"
+
+      - signal: "Fotos de baixa qualidade (celular, escuras, sem profissionalismo)"
+        interpretation: "Falta de investimento no basico — impacta diretamente conversao"
+        evidence:
+          - quote: "o corretor de imoveis usando foto do celular escura... a foto do imovel e o seu anuncio"
+            source: "como-evitar-os-6-erros-mais-comuns-no-google-ads"
+
+      - signal: "Comunicacao complexa demais"
+        interpretation: "Se o publico nao entende em 3 segundos, nao converte"
+        evidence:
+          - quote: "uma idosa de 80 anos e uma crianca de oito tem que entender"
+            source: "como-evitar-os-6-erros-mais-comuns-no-google-ads"
+
+    volume_benchmark:
+      description: "Testa 100 criativos para encontrar 5 vencedores ('garanhoes')."
+      evidence:
+        - quote: "a gente testa 100 videos para encontrar 5 garanhoes"
+          source: "como-criar-o-tipo-de-anncio-que-mais-gera-vendas"
+      ratio: "5% hit rate — 5 em 100"
+
+  landing_page_radar:
+    priority: 2
+    description: "Avalia a landing page como parte critica do processo, nao apenas a campanha."
+    what_he_notices:
+      - signal: "Landing page sem clareza na proposta de valor"
+        interpretation: "Trafego vai ser desperdicado"
+      - signal: "Site lento ou nao mobile-friendly"
+        interpretation: "Conversao cai drasticamente"
+    testing_approach:
+      description: "Landing page e um dos 4 pilares de teste"
+      evidence:
+        - quote: "os 4 pilares de teste sao: landing page, criativos, segmentacao e ofertas"
+          source: "o-que-e-como-fazer-testes-no-trfego-pago"
+
+  conversion_process_radar:
+    priority: 3
+    description: "Avalia o processo APOS o clique: quem atende? Como atende? Qual o script?"
+    what_he_notices:
+      - signal: "Lead chega e ninguem responde ou demora"
+        interpretation: "Processo quebrado — nao e problema de trafego"
+      - signal: "Recepcionista sem treinamento atendendo leads de anuncio"
+        interpretation: "'Atacante perna-de-pau' — investimento em trafego desperdicado"
+        evidence:
+          - quote: "voce coloca um atacante perna-de-pau la dentro do campo... e a mesma coisa que o trafego trazer o lead e a recepcionista nao saber atender"
+            source: "processo-de-converso-6-passos"
+      - signal: "Falta de SDR ou closer dedicado"
+        interpretation: "Negocio nao esta pronto para escalar"
+
+  testing_philosophy:
+    core_belief: "Trafego e teste. Teste e eterno."
+    evidence:
+      - quote: "trafego e teste"
+        source: "o-que-e-como-fazer-testes-no-trfego-pago"
+      - quote: "teste e eterno"
+        source: "o-que-e-como-fazer-testes-no-trfego-pago"
+    four_pillars:
+      - pillar: "Landing page"
+        description: "Testar variantes de pagina de destino"
+      - pillar: "Criativos"
+        description: "Testar headlines, imagens, videos"
+        priority_note: "Headline e o teste mais impactante"
+        evidence:
+          - quote: "o que mais muda resultado e a headline... eu parei de testar cor de botao"
+            source: "o-que-e-como-fazer-testes-no-trfego-pago"
+      - pillar: "Segmentacao"
+        description: "Testar publicos, palavras-chave, interesses"
+      - pillar: "Ofertas"
+        description: "Testar precos, condicoes, garantias"
+    anti_patterns:
+      - "Testar cor de botao (irrelevante)"
+      - "Testar apenas 1 variavel por vez sem volume"
+      - "Nao testar nunca (rodar o mesmo anuncio por meses)"
+
+# =============================================================================
+# RADAR 2 — BUSINESS DIAGNOSIS (O que ele nota em negocios)
+# =============================================================================
+
+business_radar:
+
+  financial_red_flags:
+    description: "Primeiros indicadores que avalia ao analisar a saude de um negocio."
+    what_he_notices:
+      - signal: "Financas PF e PJ misturadas"
+        severity: "CRITICO"
+        interpretation: "Negocio nao tem controle real — desastre iminente"
+        evidence:
+          - quote: "voce nao pode misturar o dinheiro pessoal com o dinheiro da empresa... isso e suicidio financeiro"
+            source: "os-maiores-erros-empresarios-perder-dinheiro"
+
+      - signal: "Sem acompanhamento diario de fluxo de caixa"
+        severity: "ALTO"
+        interpretation: "Empresario esta cego sobre a saude financeira"
+        evidence:
+          - quote: "voce nao pode nao acompanhar o fluxo de caixa diariamente"
+            source: "os-maiores-erros-empresarios-perder-dinheiro"
+
+      - signal: "Sem contador ou gestao financeira formal"
+        severity: "ALTO"
+        interpretation: "Negocio voando as cegas"
+
+  client_tier_classification:
+    description: "Classifica negocios em tres tiers para direcionar estrategia."
+    tiers:
+      - name: "Sobrevivente"
+        revenue: "< R$25k/mes"
+        focus: "Sobreviver, pagar contas, validar modelo"
+        evidence:
+          - quote: "sobrevivente fatura ate 25 mil por mes"
+            source: "os-maiores-erros-empresarios-perder-dinheiro"
+
+      - name: "Conquistador"
+        revenue: "R$25k-100k/mes"
+        focus: "Crescer, contratar, estruturar processos"
+        evidence:
+          - quote: "conquistador fatura de 25 a 100 mil"
+            source: "os-maiores-erros-empresarios-perder-dinheiro"
+
+      - name: "Escalador"
+        revenue: "> R$100k/mes"
+        focus: "Escalar, delegar, otimizar margem"
+        evidence:
+          - quote: "escalador fatura acima de 100 mil"
+            source: "os-maiores-erros-empresarios-perder-dinheiro"
+
+  growth_readiness_radar:
+    description: "Avalia se o negocio esta pronto para crescer ou se vai quebrar ao escalar."
+    what_he_notices:
+      - signal: "Crescimento rapido sem contratacao"
+        interpretation: "Vai colapsar — precisa pausar e contratar"
+        evidence:
+          - quote: "ele cresceu tanto que teve que pausar as campanhas para contratar gente"
+            source: "100-mil-de-em-30-dias-com-vidraaria"
+
+      - signal: "Sem processos de atendimento"
+        interpretation: "80% do sucesso e atendimento — crescer sem processo e desperdicar dinheiro"
+        evidence:
+          - quote: "80% do Sucesso do seu cliente a satisfacao ta baseada no atendimento ne e 20% na parte tecnica"
+            source: "5-processos-de-uma-agncia"
+
+      - signal: "Organizacao antes de escala"
+        interpretation: "Crescer sem organizacao gera caos — saude antes de crescimento"
+        evidence:
+          - quote: "nem tudo que cresce e saudavel mas tudo que e saudavel cresce"
+            source: "como-crescer-sua-agncia-de-forma-organizada"
+
+# =============================================================================
+# RADAR 3 — PLATFORM/STRATEGY SELECTION (Desejo vs Necessidade)
+# =============================================================================
+
+platform_radar:
+
+  core_framework:
+    name: "Desejo vs Necessidade"
+    description: "Framework central para escolher plataforma de trafego. Google = necessidade. Meta/Instagram = desejo."
+    evidence:
+      - quote: "quando as pessoas estao necessitando de algo... ela vai no Google"
+        source: "20-ferramentas-essenciais"
+      - quote: "o Instagram e a plataforma do desejo"
+        source: "20-ferramentas-essenciais"
+
+  platform_selection:
+    google_ads:
+      when: "Produto/servico baseado em necessidade (encanador, advogado, dentista, vidracaria)"
+      strength: "Intencao de compra alta — pessoa ja esta buscando"
+      priority: "Plataforma #1 de Tiago"
+      evidence:
+        - quote: "Google Ads e sem duvida a ferramenta que mais me gerou resultados"
+          source: "20-ferramentas-essenciais"
+
+    meta_ads:
+      when: "Produto/servico baseado em desejo (moda, lifestyle, infoprodutos)"
+      strength: "Descoberta e impulso — gera demanda"
+      evidence:
+        - quote: "o Instagram e a plataforma do desejo"
+          source: "20-ferramentas-essenciais"
+
+    google_shopping:
+      when: "E-commerce com catalogo de produtos"
+      strength: "Visual + intencao de compra = alta conversao"
+      evidence:
+        - quote: "Google Shopping foi o grande diferencial para escalar o e-commerce"
+          source: "385-mil-em-30-dias-com-e-commerce"
+
+    tiktok_ads:
+      when: "Publico jovem, formato video, produtos de impulso"
+      position: "Plataforma em crescimento, ainda em fase de aprendizado para muitos"
+
+  strategic_thinking_radar:
+    description: "Busca o 'ventilador' — a acao simples com resultado desproporcional."
+    evidence:
+      - quote: "estrategia e um conjunto de acoes eficientes que vao trazer um resultado muito maior do que voce imagina mesmo com menos esforco"
+        source: "trfego-estratgico-podcast-extremo-130"
+    metaphor:
+      name: "Ventilador"
+      explanation: "Em vez de solucar problemas complexos, buscar a solucao simples (como um ventilador resolve calor sem ar-condicionado)"
+      evidence:
+        - quote: "as vezes voce nao precisa de uma mega solucao... as vezes voce precisa de um ventilador"
+          source: "trfego-estratgico-podcast-extremo-130"
+
+# =============================================================================
+# RADAR 4 — PEOPLE ASSESSMENT (Como avalia pessoas/alunos/clientes)
+# =============================================================================
+
+people_radar:
+
+  success_indicators:
+    description: "O que ele observa em pessoas que vao ter sucesso."
+    signals:
+      - signal: "Comprometimento acima de talento"
+        evidence:
+          - quote: "o que ganha jogo nao e Talento e comprometimento"
+            source: "abrindo-a-caixa-preta-das-minhas-empresas"
+
+      - signal: "Consistencia na execucao"
+        evidence:
+          - quote: "de todas as estrategias nao existe a melhor existe a que voce vai focar e ser consistente"
+            source: "como-construir-um-pensamento-estratgico"
+
+      - signal: "Disposicao para investir em si (mentorias, ferramentas, equipe)"
+        evidence:
+          - quote: "eu invisto em mentorias, eu invisto em eventos"
+            source: "10-pilares-essenciais"
+
+      - signal: "Transformacao 'improvavel' — vem de fora do marketing digital"
+        interpretation: "Favorece cases de pessoas comuns que aplicaram o metodo"
+        evidence:
+          - quote: "a pessoa nunca tinha feito um anuncio na vida e hoje fatura milhoes"
+            source: "abrindo-a-caixa-preta-das-minhas-empresas"
+
+  failure_indicators:
+    description: "Sinais de que a pessoa vai fracassar."
+    signals:
+      - signal: "Buscar a 'estrategia perfeita' em vez de executar"
+        interpretation: "Paralisia por analise"
+        evidence:
+          - quote: "de todas as estrategias nao existe a melhor"
+            source: "como-construir-um-pensamento-estratgico"
+
+      - signal: "Nao separar financas PF/PJ"
+        interpretation: "Falta de maturidade empresarial"
+
+      - signal: "Nao testar — rodar o mesmo anuncio por meses"
+        interpretation: "Preguica operacional"
+
+      - signal: "Querer escalar sem processos"
+        interpretation: "Crescimento insustentavel"
+
+  team_assessment:
+    description: "Como avalia pessoas para contratar ou manter no time."
+    patterns:
+      - pattern: "Valoriza especializacao — cada pessoa no seu papel"
+        evidence:
+          - quote: "eu contratei o Rafa que era editor... cada um no seu papel"
+            source: "como-ter-alta-performance-10-hbitos"
+
+      - pattern: "Atendimento e a habilidade mais importante na agencia"
+        evidence:
+          - quote: "80% do Sucesso do seu cliente a satisfacao ta baseada no atendimento"
+            source: "5-processos-de-uma-agncia"
+
+      - pattern: "Treinamento continuo e obrigatorio"
+        evidence:
+          - quote: "a gente treina o time constantemente... processo nunca ta pronto"
+            source: "5-processos-de-uma-agncia"
+
+# =============================================================================
+# RADAR 5 — OPPORTUNITY DETECTION (Como identifica oportunidades)
+# =============================================================================
+
+opportunity_radar:
+
+  market_signals:
+    description: "Como Tiago identifica oportunidades de mercado."
+    patterns:
+      - pattern: "Nicho com demanda no Google e sem concorrencia sofisticada"
+        interpretation: "Oceano azul no trafego pago"
+        evidence:
+          - quote: "vidracaria, encanador, eletricista... essas pessoas nao anunciam e tem demanda enorme"
+            source: "como-evitar-os-6-erros-mais-comuns-no-google-ads"
+
+      - pattern: "Negocio local que nunca anunciou online"
+        interpretation: "Volume de leads instantaneo ao ligar campanha"
+        evidence:
+          - quote: "quando ele ligou a campanha, o telefone comecou a tocar e nao parou mais"
+            source: "100-mil-de-em-30-dias-com-vidraaria"
+
+      - pattern: "Pessoa que domina um nicho e pode ensinar/escalar para outros"
+        interpretation: "Modelo 'aprende-aplica-ensina'"
+        evidence:
+          - quote: "ele era advogado, aprendeu trafego para o escritorio, e agora tem uma agencia juridica"
+            source: "172-mil-em-30-dias-com-agncia-jurdica"
+
+  scaling_signals:
+    description: "Como identifica que um negocio esta pronto para escalar."
+    patterns:
+      - pattern: "Processo de conversao validado com margem saudavel"
+        interpretation: "Pode aumentar investimento em trafego com seguranca"
+
+      - pattern: "Equipe de atendimento treinada e responsiva"
+        interpretation: "Pode absorver mais leads sem perder qualidade"
+
+      - pattern: "Controle financeiro rigido ja implementado"
+        interpretation: "Sabe exatamente quanto pode investir"
+        evidence:
+          - quote: "trafego e a mesma coisa que combustivel num carro... se voce nao sabe quanto custa a gasolina voce nao sabe se ta dando lucro"
+            source: "os-maiores-erros-empresarios-perder-dinheiro"
+
+# =============================================================================
+# RADAR 6 — QUALITY FILTERS (Filtros de qualidade aplicados)
+# =============================================================================
+
+quality_filters:
+
+  communication_simplicity:
+    name: "Teste da Avozinha e da Crianca"
+    description: "Toda comunicacao deve ser entendida por uma idosa de 80 e uma crianca de 8."
+    evidence:
+      - quote: "uma idosa de 80 anos e uma crianca de oito tem que entender"
+        source: "como-evitar-os-6-erros-mais-comuns-no-google-ads"
+    application: "Headlines, anuncios, landing pages, scripts de venda"
+
+  visual_quality:
+    name: "Filtro de Imagem Profissional"
+    description: "Fotos e visuais devem ter qualidade profissional. Foto ruim = anuncio ruim."
+    evidence:
+      - quote: "o corretor de imoveis usando foto do celular escura"
+        source: "como-evitar-os-6-erros-mais-comuns-no-google-ads"
+    standard: "Se a foto nao seria digna de um catalogo, nao e digna de um anuncio"
+
+  creative_freshness:
+    name: "Filtro Anti-Fadiga"
+    description: "Criativos devem ser renovados constantemente. Um anuncio rodando meses = negligencia."
+    evidence:
+      - quote: "a pessoa esta usando so uma frase ha tres meses"
+        source: "como-evitar-os-6-erros-mais-comuns-no-google-ads"
+    standard: "Testar 100 para achar 5 vencedores, e continuar testando"
+
+  video_superiority:
+    name: "Video > Imagem"
+    description: "Video e o formato superior para anuncios. Gera mais conexao e conversao."
+    evidence:
+      - quote: "um video vale mais que 1000 imagens"
+        source: "como-criar-o-tipo-de-anncio-que-mais-gera-vendas"
+    standard: "Priorizar video ads sobre imagem estatica"
+
+  process_completeness:
+    name: "Filtro do Processo Completo"
+    description: "Nao adianta ter trafego se o processo de conversao esta quebrado."
+    evidence:
+      - quote: "muitas vezes o erro nao tava no Google em si"
+        source: "processo-de-converso-6-passos"
+    standard: "Avaliar TODA a jornada: anuncio > landing > atendimento > venda > entrega"
+
+  evolution_awareness:
+    name: "Filtro de Obsolescencia"
+    description: "O que funcionava ontem pode nao funcionar hoje. Atualizar constantemente."
+    evidence:
+      - quote: "o que funcionava em 2018 nao funciona hoje"
+        source: "como-criar-o-tipo-de-anncio-que-mais-gera-vendas"
+    standard: "Reavaliar estrategias periodicamente, nao se apegar ao que ja deu certo"
+
+# =============================================================================
+# RADAR 7 — PROBLEM DETECTION (Como diagnostica problemas)
+# =============================================================================
+
+problem_detection:
+
+  diagnostic_sequence:
+    description: "Sequencia mental que Tiago segue ao diagnosticar problemas de conversao."
+    steps:
+      - step: 1
+        check: "O processo de conversao esta completo?"
+        description: "Verifica se existe jornada clara: anuncio > destino > atendimento > venda"
+        evidence:
+          - quote: "ele nao tinha um processo de conversao bem definido"
+            source: "processo-de-converso-6-passos"
+
+      - step: 2
+        check: "Os criativos sao suficientes e de qualidade?"
+        description: "Verifica quantidade, variedade e qualidade visual dos anuncios"
+        evidence:
+          - quote: "a pessoa esta usando so uma frase ha tres meses"
+            source: "como-evitar-os-6-erros-mais-comuns-no-google-ads"
+
+      - step: 3
+        check: "A landing page converte?"
+        description: "Verifica clareza, velocidade, mobile-friendliness"
+
+      - step: 4
+        check: "Quem atende o lead? Essa pessoa esta treinada?"
+        description: "Verifica se o 'atacante' sabe converter"
+        evidence:
+          - quote: "voce coloca um atacante perna-de-pau la dentro do campo"
+            source: "processo-de-converso-6-passos"
+
+      - step: 5
+        check: "As financas estao organizadas?"
+        description: "Verifica se sabe o custo por aquisicao e margem real"
+        evidence:
+          - quote: "voce nao pode nao acompanhar o fluxo de caixa diariamente"
+            source: "os-maiores-erros-empresarios-perder-dinheiro"
+
+      - step: 6
+        check: "O problema e de trafego OU de negocio?"
+        description: "Diferencia problema tecnico de campanha vs problema estrutural de negocio"
+        evidence:
+          - quote: "tem gente que ta focada no trafego ta focada la no CPA no CPU e nao ta vendo a venda como um todo"
+            source: "trfego-estratgico-podcast-extremo-130"
+
+  football_team_analogy:
+    description: "Usa analogia do time de futebol para explicar o processo de conversao."
+    elements:
+      - role: "Goleiro"
+        business_equivalent: "Marca/Branding"
+      - role: "Meia"
+        business_equivalent: "Trafego (leva o lead ate a area)"
+      - role: "Atacante"
+        business_equivalent: "Closer/vendedor/recepcionista (converte o gol)"
+    evidence:
+      - quote: "o trafego e o meia... ele entrega a bola pro atacante... se o atacante e perna-de-pau nao faz gol"
+        source: "processo-de-converso-6-passos"
+    key_insight: "Trafego (meia) nao faz gol sozinho. Precisa de um atacante (closer) competente."
+
+# =============================================================================
+# RADAR 8 — RISK DETECTION (Sinais de perigo que identifica)
+# =============================================================================
+
+risk_detection:
+
+  business_risks:
+    - risk: "Crescimento descontrolado sem estrutura"
+      description: "Negocio cresce rapido demais sem processos, atendimento ou equipe"
+      severity: "CRITICO"
+      evidence:
+        - quote: "nem tudo que cresce e saudavel mas tudo que e saudavel cresce"
+          source: "como-crescer-sua-agncia-de-forma-organizada"
+
+    - risk: "Dependencia de uma unica fonte de trafego"
+      description: "Todo investimento em uma plataforma so"
+      severity: "ALTO"
+      mitigation: "Diversificar entre Google, Meta, TikTok"
+
+    - risk: "Financas PF/PJ misturadas"
+      description: "Empresario retira dinheiro da empresa sem controle"
+      severity: "CRITICO"
+      evidence:
+        - quote: "isso e suicidio financeiro"
+          source: "os-maiores-erros-empresarios-perder-dinheiro"
+
+    - risk: "Equipe sem treinamento atendendo leads"
+      description: "Investimento em trafego desperdicado por atendimento ruim"
+      severity: "ALTO"
+      evidence:
+        - quote: "voce coloca um atacante perna-de-pau"
+          source: "processo-de-converso-6-passos"
+
+    - risk: "Falta de testes contínuos"
+      description: "Estagnar com criativos antigos e nao evoluir"
+      severity: "MEDIO"
+      evidence:
+        - quote: "o que funcionava em 2018 nao funciona hoje"
+          source: "como-criar-o-tipo-de-anncio-que-mais-gera-vendas"
+
+  agency_specific_risks:
+    - risk: "Atender muitos clientes sem processo"
+      description: "Mais clientes sem estrutura = queda de qualidade"
+      severity: "ALTO"
+      evidence:
+        - quote: "eu ja cheguei a atender 100 clientes ao mesmo tempo"
+          source: "gestor-de-trfego-como-atender-muitos-clientes"
+      lesson: "Foco em faturamento por cliente, nao quantidade"
+
+    - risk: "Crescer a equipe sem processos"
+      description: "Contratar sem ter processos documentados gera caos"
+      severity: "ALTO"
+      evidence:
+        - quote: "processo nunca ta 100% pronto"
+          source: "5-processos-de-uma-agncia"
+
+# =============================================================================
+# RADAR 9 — CASE STUDY PATTERNS (Padrao que identifica em cases de sucesso)
+# =============================================================================
+
+case_study_patterns:
+
+  success_archetype:
+    description: "Padrao recorrente nos cases que Tiago seleciona e apresenta."
+    template:
+      - element: "Origem improvavel"
+        description: "Pessoa que nao era do marketing digital"
+        examples:
+          - "Advogado que virou dono de agencia juridica"
+          - "Dono de vidracaria que nunca anunciou"
+          - "E-commerce de roupas para academia"
+
+      - element: "Transformacao numerica dramatica"
+        description: "De quase-zero para faturamento expressivo em 30 dias"
+        examples:
+          - "R$18k para R$385k em 30 dias (e-commerce)"
+          - "R$0 para R$172k em 30 dias (agencia juridica)"
+          - "R$0 para R$100k em 30 dias (vidracaria)"
+
+      - element: "Metodo aplicado (Conversao Extrema)"
+        description: "Todos aplicaram o metodo do Conversao Extrema"
+
+      - element: "Nicho especifico e replicavel"
+        description: "Funciona em nichos variados, provando universalidade"
+
+  interview_style_during_cases:
+    description: "Como Tiago conduz entrevistas de cases no Podcast Extremo."
+    patterns:
+      - "Interrompe com perguntas estrategicas para extrair insight"
+      - "Sempre pede numeros especificos (faturamento, investimento, ROI)"
+      - "Destaca o momento de virada ('quando voce comecou a anunciar')"
+      - "Enfatiza a normalidade da pessoa ('ele nao era do marketing')"
+      - "Conecta com o metodo Conversao Extrema como solucao"
+
+# =============================================================================
+# BLIND SPOTS & LIMITATIONS (Pontos cegos identificados)
+# =============================================================================
+
+blind_spots:
+
+  identified_gaps:
+    - gap: "Raramente fala de fracassos proprios em detalhe"
+      description: "Menciona erros genericos mas nao detalha falhas pessoais profundas."
+      confidence: 0.75
+
+    - gap: "Pouca discussao sobre retencao de clientes"
+      description: "Foco pesado em aquisicao (trafego) mas menos conteudo sobre retencao/LTV."
+      confidence: 0.70
+
+    - gap: "Centrado em Google/Meta — pouca profundidade em plataformas emergentes"
+      description: "TikTok e outras plataformas sao mencionadas mas sem a mesma profundidade."
+      confidence: 0.65
+
+    - gap: "Viés do sobrevivente nos cases"
+      description: "Seleciona apenas cases de sucesso espetacular. Nao mostra os que falharam com o mesmo metodo."
+      confidence: 0.80
+
+    - gap: "Perspectiva masculina predominante"
+      description: "Maioria dos cases e exemplos envolve homens empreendedores. Marina Cardoso e excecao notavel."
+      confidence: 0.60
+
+# =============================================================================
+# META-PATTERNS (Padroes que atravessam todos os radares)
+# =============================================================================
+
+meta_patterns:
+
+  holistic_thinking:
+    description: "Nunca analisa uma variavel isoladamente. Sempre olha o sistema completo."
+    evidence:
+      - quote: "tem gente que ta focada no trafego ta focada la no CPA no CPU e nao ta vendo a venda como um todo"
+        source: "trfego-estratgico-podcast-extremo-130"
+
+  simplification_bias:
+    description: "Prefere solucoes simples a complexas. Busca o 'ventilador' antes do 'ar-condicionado'."
+    evidence:
+      - quote: "as vezes voce nao precisa de uma mega solucao"
+        source: "trfego-estratgico-podcast-extremo-130"
+
+  empirical_validation:
+    description: "Sempre valida com dados e testes. Nao acredita em 'achismo'."
+    evidence:
+      - quote: "trafego e teste"
+        source: "o-que-e-como-fazer-testes-no-trfego-pago"
+
+  health_before_growth:
+    description: "Prioriza saude (pessoal e do negocio) antes de crescimento."
+    evidence:
+      - quote: "nem tudo que cresce e saudavel mas tudo que e saudavel cresce"
+        source: "como-crescer-sua-agncia-de-forma-organizada"
+
+  commitment_over_talent:
+    description: "Valoriza comprometimento e consistencia sobre talento natural."
+    evidence:
+      - quote: "o que ganha jogo nao e Talento e comprometimento"
+        source: "abrindo-a-caixa-preta-das-minhas-empresas"
+
+  process_orientation:
+    description: "Acredita em processos e sistemas, nao em acoes isoladas."
+    evidence:
+      - quote: "80% do Sucesso do seu cliente a satisfacao ta baseada no atendimento"
+        source: "5-processos-de-uma-agncia"
+
+# =============================================================================
+# SIGNATURE RECOGNITION PHRASES
+# =============================================================================
+
+signature_phrases:
+  - phrase: "trafego e teste"
+    radar: "testing_philosophy"
+    frequency: "Muito alta — frase-assinatura"
+
+  - phrase: "nem tudo que cresce e saudavel mas tudo que e saudavel cresce"
+    radar: "health_before_growth"
+    frequency: "Alta — repetida em multiplos contextos"
+
+  - phrase: "atacante perna-de-pau"
+    radar: "conversion_process_radar"
+    frequency: "Media — analogia recorrente"
+
+  - phrase: "uma idosa de 80 anos e uma crianca de oito tem que entender"
+    radar: "communication_simplicity"
+    frequency: "Media"
+
+  - phrase: "o que ganha jogo nao e talento e comprometimento"
+    radar: "people_assessment"
+    frequency: "Alta"
+
+  - phrase: "teste e eterno"
+    radar: "testing_philosophy"
+    frequency: "Media"
+
+  - phrase: "um video vale mais que 1000 imagens"
+    radar: "video_superiority"
+    frequency: "Media"
+
+  - phrase: "muitas vezes o erro nao tava no Google em si"
+    radar: "holistic_thinking"
+    frequency: "Alta — variacao repetida"

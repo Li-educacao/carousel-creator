@@ -1,0 +1,39 @@
+{
+  "batch": "tier1_critical_interviews",
+  "count": 3,
+  "sources": [
+    {
+      "id": "source_006",
+      "title": "Marketing in 2025 with Molly Pittman",
+      "source": "Parker T Nash Podcast",
+      "date": "2024-12-01",
+      "url": "https://www.parkertnash.com/podcast-14-molly-pittman-smart-marketer/",
+      "duration_minutes": 45,
+      "status": "QUEUED",
+      "priority": "HIGHEST",
+      "notes": "Most recent - 2025 strategic thinking"
+    },
+    {
+      "id": "source_007",
+      "title": "Real Talk With Molly Pittman: Fueled By Passion, Balance, And Service",
+      "source": "Smart Marketer Podcast, Ep 105",
+      "date": "2024-06-01",
+      "url": "https://podcasts.apple.com/gb/podcast/real-talk-with-molly-pittman-fueled-by-passion-balance/id1522629407?i=1000570291548",
+      "duration_minutes": 50,
+      "status": "QUEUED",
+      "priority": "HIGHEST",
+      "notes": "CORE values interview - essential for Layer 6"
+    },
+    {
+      "id": "source_008",
+      "title": "The Paid Traffic Tectonic Shift with Molly Pittman",
+      "source": "Marketing Speak Podcast",
+      "date": "2025-02-01",
+      "url": "https://www.marketingspeak.com/the-paid-traffic-tectonic-shift-with-molly-pittman/",
+      "duration_minutes": 60,
+      "status": "QUEUED",
+      "priority": "HIGHEST",
+      "notes": "Current market analysis"
+    }
+  ]
+}

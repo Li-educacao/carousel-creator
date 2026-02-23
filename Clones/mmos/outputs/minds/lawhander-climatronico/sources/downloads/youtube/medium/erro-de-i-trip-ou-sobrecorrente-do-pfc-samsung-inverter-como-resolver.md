@@ -1,0 +1,14 @@
+# ERRO DE I-TRIP OU SOBRECORRENTE DO PFC | SAMSUNG INVERTER | COMO RESOLVER?
+
+- **Video ID:** zTZ4mwizeZw
+- **URL:** https://www.youtube.com/watch?v=zTZ4mwizeZw
+- **Duration:** 3 min
+- **Views:** 440
+- **Published:** 2024-11-16T19:00:07Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+ó essa aqui é a plaquinha da Samsung você vai olhar ela abrir a tampa dela vai tá assim tá porém o circuito que eu quero que você analise é um circuito que tá vai tá debaixo do do dissipador vai ter que tirar até o dissipador que é esse circuitinho aqui ó desses dois resistores esse aqui é o módulo PFC tá módulo LGBT o circuito do PFC aqui é o IPM que parte compressor aqui é o PFC do lado do PFC tem esses dois componentes aqui são dois resistores chantes aqui eles ó tá dois resistores chantes aqui resistor de 01 ohms então se você for medir ele seu multímetro você vai botar na escala de resistência tá você pega aqui e vem medir a resistência deles primeiro ó segundo 03 tem que dar um curto tem que dar uma baixíssima resistência se ele tiver aberto ou alterado o valor valor a mais do que isso vai dar erro Trip vai dar erro de sobrecorrente do PFC porque esse circuito é quem ler a corrente do PFC esses dois resistores são eles dois quem leem a corrente do PFC então erro de Trip ou sobre corrente do PFC tem a ver com corrente quem ele é a corrente esse dois resistores e esse componente aqui pode ser até o PFC tá tem circuitos internos dele que pode causar esse erro então o módulo igbt ou PFC que tá aqui dentro pode também cusar esse erro porém é mais fácil você medir esses dois resistores porque resistores estiverem OK aí você pode pensar em substituir esse componente aqui que é o componente do PFC Tá ok então e Trip este circuitinho aqui esse componente e esses resistores sobre corrente de PFC ou itrip já sabe que tem a ver com esse circuito aqui nessa região é isso agora me bota aí nos comentários se te ajudou alguma maneira se tu conseguiu resolver né mediu essou deu OK tá aberto tá fechado tá em curto tá aberto ou bota aqui nos comentários se deu certo o CEST que eu te falei aqui e se solucionou se não solucionou se solucionou de alguma maneira diferente bota também como foi que solucionou vamos compartilhar quar isso aqui é um é um vídeo pra gente se ajudar tá gratuito pra gente se ajudar aqui nesse mercado então se você reparou de outra maneira bota aí nos comentários não conseguiu reparar também bota nos comentários não consegui porque ainda tá do mesmo jeito tá dando er Trip parte o compressor e dá o rtpo não parte nenhum compressor Quem sabe a gente consegue te ajudar aí nos comentários Beleza se te ajudou esse vídeo deixa o joinha e se inscreve para não perder mais nenhum conteúdo Desse Canal nós nos vemos no próximo vídeo fique com Deus um abraço valeu

@@ -1,0 +1,14 @@
+# O CARA VIRA UMA MÁQUINA QUANDO JUNTA ESSES DOIS CONHECIMENTOS | Lawhander Climatrônico | #12 #AME
+
+- **Video ID:** Htpnqu6BPAg
+- **URL:** https://www.youtube.com/watch?v=Htpnqu6BPAg
+- **Duration:** 3 min
+- **Views:** 231
+- **Published:** 2023-10-01T17:00:11Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+agora cara você fala do CL climatronic é o cara que trabalha na climatização e com reparo de placas é só que é o seguinte eu posso ser um técnico que não vou trabalhar 100% com placas consertando placa ou para mim ou para outra pessoa mas hoje por exemplo você já tem clientes que é do segmento da climatização e fez o curso para consertar suas próprias placas tem e esse aí cara outra surpresa que acontece na jornada Olha aí eh eu tava até conversando com Job outro dia sobre isso porque e quando junta o conteúdo de refrigeração se lá um cara mecânico mecânico bom lá desenrolado brabo desenrolado pega qualquer tipo de máquina compressor ele monta desmonta de todo jeito e esse cara que é bom em mecânica ali com conhecimento do climatronic ele vira uma máquina meu irmão não ele vira uma máquina técnica do mercado é louco que eu vou te dizer por é louco eu já perdi entre aspas desculpa a comparação mas eu digo que que o que os meus Funcionários São aquelas gostosonas na praia de biquinho frental no mercado porque o que os caras leva cantada cantada eu se eu mandar um técnico meu para visitar um cliente meu vai lá botar a placa no local e se ele for com técnico junto já era os Car aí cara lá quer trabalhar com a gente aqui não o que falta nas empresas agora por quê Porque não tem esse profissional cara entendeu é o profissional que ele vai analisar uma máquina e Entenda você que trabalha com feração se você trabalha com ação hoje e não entende de eletrônica não tô dizend reparar a placa eletrônica entender eletrônica você tá você não entende da máquina que você trabalha é tá fado ao fracasso não tem vai ficar limitado entendeu Por Toda máquina toda máquina Toda Toda máquina toda marca toda máquina tem uma placa eletrônica a da convencional a inverte a vrf a chiller né Toda máquina tem uma placa eletrônica e a placa eletrônica ela é um dispositivo que se eu tirasse Ah posso tirar e ela vai a máquina vai rodar normal se eu tirar a máquina não roda não roda entendeu não funciona então para todo um sistema já já cheguei em e e é triste falar isso mas eu cheguei em hospital que tava metade do hospital parado por causa de uma placa eletrônica isso é doido entendeu Então se o cara hoje trabalha com refrigeração e ele não entende da parte eletrônica como eu sei que tem muitos muitos eu tô jogando esse jogo Meu principal cliente é o instalador entendeu demais o cara tá limitado

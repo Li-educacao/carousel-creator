@@ -1,0 +1,273 @@
+# APEX Viability Assessment - Bruce Schneier
+# Generated: 2026-02-19
+# Analyst: Mind Mapper (MMOS Pipeline)
+# Mode: Full (APEX + ICP)
+
+mind:
+  name: "Bruce Schneier"
+  slug: "bruce_schneier"
+  source_type: "public"
+  workflow: "greenfield"
+
+# ============================================================
+# DIMENSION 1: AVAILABILITY (Max: 20)
+# ============================================================
+
+availability_score:
+  books_published: 5  # /5 — 14+ books as primary/co-author
+  long_form_content: 5  # /5 — Blog since 2004, Crypto-Gram since 1998, 250K+ readers
+  interviews_appearances: 5  # /5 — 50+ interviews (RSA, NPR, TED, podcasts, media)
+  social_media_activity: 2  # /3 — Active @schneierblog on X, substantive but mostly links to blog
+  video_content: 2  # /2 — TED talk, RSA keynotes, YouTube appearances, conference talks
+  total: 19  # /20
+
+  evidence:
+    books:
+      - "Applied Cryptography (1994, 2nd ed 1996) — THE reference"
+      - "Protect Your Macintosh (1994)"
+      - "The Electronic Privacy Papers (1997, co-author)"
+      - "Secrets and Lies: Digital Security in a Networked World (2000)"
+      - "Beyond Fear: Thinking Sensibly About Security (2003)"
+      - "Practical Cryptography (2003, co-author)"
+      - "Schneier on Security (2008)"
+      - "Cryptography Engineering (2010, co-author)"
+      - "Liars and Outliers (2012)"
+      - "Carry On (2013)"
+      - "Data and Goliath (2015)"
+      - "Click Here to Kill Everybody (2018)"
+      - "A Hacker's Mind (2023) — NYT Bestseller"
+      - "Rewiring Democracy (2025, co-author with Nathan E. Sanders, MIT Press)"
+    podcasts:
+      - "Plutopia News Network (Dec 2025)"
+      - "Brian Kilmeade Show (Oct & Dec 2025)"
+      - "Future Hindsight (Oct 2025)"
+      - "8th Layer Insights"
+      - "Firewalls Don't Stop Dragons (recurring)"
+      - "New Books Network (2025)"
+      - "Rational Reminder"
+      - "50+ total across career"
+    interviews:
+      - "NPR (What Does It Take To Feel Secure?)"
+      - "RSA Conference (regular speaker)"
+      - "MIT Technology Review (multiple articles)"
+      - "The Economist (profiled as 'security guru')"
+      - "Countless media appearances"
+    social: "Active @schneierblog on X — substantive security commentary, links to blog posts"
+    video: "TED talk 'The Security Mirage', RSA Conference keynotes, YouTube talks on AI & democracy"
+
+  notes: "Exceptional availability. 14 books spanning 30+ years. Blog/newsletter with 250K+ readership running since 1998. One of the most documented security thinkers alive."
+
+# ============================================================
+# DIMENSION 2: PUBLIC PERSONA (Max: 15)
+# ============================================================
+
+public_persona_score:
+  recognition_level: 5  # /5 — Globally recognized, "security guru" (The Economist)
+  media_coverage: 5  # /5 — NYT, The Economist, NPR, Forbes, MIT Tech Review, WSJ
+  teaching_presence: 5  # /5 — Harvard Kennedy School Lecturer, TED, RSA keynotes, courses
+  total: 15  # /15
+
+  evidence:
+    media:
+      - "The Economist: called 'security guru'"
+      - "NYT Bestselling author (A Hacker's Mind)"
+      - "NPR: featured multiple times"
+      - "MIT Technology Review: regular contributor"
+      - "CSMonitor, Forbes, WSJ coverage"
+    wikipedia: "yes — comprehensive article"
+    courses:
+      - "Harvard Kennedy School — Lecturer in Public Policy"
+      - "Berkman Klein Center for Internet & Society — Fellow"
+      - "Belfer Center for Science and International Affairs"
+    speaking: "World-class keynote speaker — TED, RSA Conference, Leading Authorities roster, Aurum Speakers Bureau"
+
+  assessment: "Maximum public persona. One of the most recognized names in cybersecurity globally. Institutional backing from Harvard adds immense credibility."
+
+# ============================================================
+# DIMENSION 3: EXPERTISE DEPTH (Max: 20)
+# ============================================================
+
+expertise_depth_score:
+  demonstrated_results: 7  # /7 — Extraordinary: defined the field of applied cryptography
+  domain_tenure: 5  # /5 — 30+ years (since early 1990s)
+  methodology_development: 5  # /5 — Schneier's Law, 5-step security analysis, "security theater" concept, attack trees
+  peer_recognition: 3  # /3 — Schneier's Law is named after him, cited universally in security
+  total: 20  # /20
+
+  evidence:
+    results: |
+      - Applied Cryptography: THE foundational reference for cryptographic implementation
+      - Designed Blowfish cipher (1993) — still in use
+      - Designed Twofish cipher — AES finalist
+      - Co-founded Counterpane Internet Security (acquired by BT Group)
+      - Influenced US government cybersecurity policy
+      - Board member: EFF, AccessNow, EPIC, VerifiedVoting.org
+      - NYT Bestselling author
+    tenure: "30+ years in cryptography and computer security (since ~1993)"
+    frameworks:
+      - "Schneier's Law: 'Anyone can create a system so clever they can't see how to break it'"
+      - "5-step Security Risk Analysis (Beyond Fear)"
+      - "'Security Theater' concept — widely adopted term"
+      - "Attack trees methodology for threat modeling"
+      - "'Hacker's Mind' framework — applying hacking mentality across systems"
+    citations: "Schneier's Law has its own Wiktionary entry. Universally cited in security literature, policy discussions, and academic papers."
+
+  assessment: "Maximum credibility. Bruce Schneier literally defined applied cryptography for a generation and coined fundamental security concepts that became standard vocabulary."
+
+# ============================================================
+# DIMENSION 4: X-FACTOR (Max: 15)
+# ============================================================
+
+x_factor_score:
+  contrarian_thinking: 5  # /5 — Consistently challenges security orthodoxy
+  storytelling_communication: 4  # /5 — Excellent clarity, witty, accessible but more analytical than narrative
+  pattern_synthesis: 5  # /5 — Bridges crypto, policy, economics, psychology, sociology, AI, law
+  total: 14  # /15
+
+  evidence:
+    contrarian_examples:
+      - "'Security theater' — challenged TSA and post-9/11 security measures as largely performative"
+      - "Argued against government crypto backdoors when industry pressure was strong"
+      - "Challenged blockchain/crypto hype as security expert"
+      - "Questioned AI safety theater while engaging deeply with real AI risks"
+      - "'A Hacker's Mind': reframed hacking as universal systems exploitation (tax, finance, law)"
+    communication_style: "Clear, direct, witty prose. Makes complex crypto/security accessible to laypeople. Essay-driven analytical style with memorable one-liners. Not a storyteller per se, but a master explainer."
+    synthesis_examples:
+      - "Cryptography + Public Policy (entire career arc)"
+      - "Security + Psychology (Beyond Fear — how fear distorts risk perception)"
+      - "Hacking + Economics + Law + Finance ('A Hacker's Mind')"
+      - "AI + Democracy + Governance ('Rewiring Democracy')"
+      - "Trust + Sociology (Liars and Outliers — societal trust systems)"
+
+  unique_qualities: "Rare combination of deep technical expertise (cipher design) with broad policy/societal thinking. Can explain cryptographic protocols AND testify before Congress. Evolves his thinking publicly over decades, creating a documented intellectual journey."
+
+# ============================================================
+# DIMENSION 5: TEMPORAL RELEVANCE (Max: 15)
+# ============================================================
+
+temporal_relevance_score:
+  current_activity: 5  # /5 — Published 'Rewiring Democracy' Oct 2025, active blog/podcast circuit 2026
+  trend_alignment: 5  # /5 — AI governance, cybersecurity, privacy — all top trends
+  future_applicability: 5  # /5 — Timeless principles (trust, trade-offs) + bleeding-edge application (AI+democracy)
+  total: 15  # /15
+
+  evidence:
+    last_activity: "February 2026 — active blog posts, ongoing book tour for Rewiring Democracy"
+    trend_assessment: "Cybersecurity = permanent growth industry. AI governance = exploding. Privacy = increasing regulation (GDPR, AI Act). Schneier sits at intersection of all three."
+    longevity: "Core principles (security trade-offs, trust models, systems thinking) are timeless. Application areas (AI, quantum computing, surveillance) are cutting-edge."
+
+  relevance_window: "10+ years — principles are evergreen, current applications are trending upward"
+
+# ============================================================
+# DIMENSION 6: VALUE DENSITY (Max: 15)
+# ============================================================
+
+value_density_score:
+  actionable_frameworks: 5  # /6 — Several proven frameworks, strong but not quite a 'toolkit' packaged for deployment
+  tactical_specificity: 4  # /5 — Mix of strategic + tactical. Blog is very tactical. Books range from technical to strategic.
+  case_studies_examples: 4  # /4 — Every blog post references real incidents. Books are case-study-rich.
+  total: 13  # /15
+
+  evidence:
+    frameworks:
+      - "5-Step Security Risk Analysis (Beyond Fear)"
+      - "Schneier's Law (self-assessment heuristic)"
+      - "Attack Trees (threat modeling)"
+      - "Security Trade-off Framework (cost vs benefit of security measures)"
+      - "'Hacker's Mind' system exploitation lens"
+      - "Trust taxonomy (Liars and Outliers)"
+    specificity_level: "mixed — technical books are extremely tactical (code-level), policy books are more strategic with tactical case studies"
+    examples_count: 500  # Conservative estimate across 14 books + 20+ years of daily blog
+
+  practical_value: "High. Schneier provides both theoretical frameworks and real-world examples. Blog serves as daily case study feed. Technical books include actual code. Policy books include actionable analysis frameworks."
+
+# ============================================================
+# TOTAL APEX SCORE
+# ============================================================
+
+apex_total_score:
+  availability: 19  # /20
+  public_persona: 15  # /15
+  expertise_depth: 20  # /20
+  x_factor: 14  # /15
+  temporal_relevance: 15  # /15
+  value_density: 13  # /15
+
+  total: 96  # /100
+  percentage: 96
+
+automated_decision:
+  threshold_auto_reject: 50
+  threshold_human_review: 75
+  threshold_auto_approve: 75
+
+  decision: "AUTO-APPROVE"
+  rationale: "Bruce Schneier scores 96/100 — one of the highest APEX scores possible. 30+ year career with 14 books, globally recognized as THE security thought leader, active and relevant in 2026 with AI/democracy work. Exceptional source availability across all categories. Near-perfect candidate for cognitive cloning."
+
+# ============================================================
+# ICP — IDEAL CLONE PROFILE
+# ============================================================
+
+potential_use_cases:
+  - use_case: "Cybersecurity Strategy Advisor"
+    target_audience: "CISOs, security architects, policy makers"
+    primary_value: "Security thinking frameworks, risk analysis, trade-off decisions"
+    match_strength: "High"
+
+  - use_case: "Technology Policy Consultant"
+    target_audience: "Government officials, regulators, think tanks"
+    primary_value: "Tech-informed policy analysis, AI governance, privacy frameworks"
+    match_strength: "High"
+
+  - use_case: "Security Education Mentor"
+    target_audience: "Security professionals, CS students, developers"
+    primary_value: "Cryptography fundamentals, security mindset, threat modeling"
+    match_strength: "High"
+
+  - use_case: "AI Governance Advisor"
+    target_audience: "AI researchers, tech companies, democratic institutions"
+    primary_value: "AI impact analysis, democracy preservation, responsible AI frameworks"
+    match_strength: "High"
+
+  - use_case: "Critical Thinking Coach (Systems Hacking)"
+    target_audience: "Entrepreneurs, strategists, anyone analyzing systems"
+    primary_value: "'Hacker's Mind' approach to finding exploits in any system (legal, financial, social)"
+    match_strength: "Medium"
+
+# ============================================================
+# ROI PROJECTION
+# ============================================================
+
+roi_projection:
+  investment_estimate:
+    time: "20-30 hours (with parallelization)"
+    tokens: "3-5M tokens"
+    cost_estimate: "$15-25 (at ~$5/M input tokens)"
+
+  expected_value:
+    use_case_value: "High-fidelity security thinking advisor accessible 24/7"
+    audience_size: "250K+ existing readership, millions of security professionals globally"
+    value_per_use: "High — security decisions have enormous financial impact"
+
+  roi_assessment: "Very High"
+  recommendation: "PROCEED"
+
+# ============================================================
+# RISKS
+# ============================================================
+
+risks:
+  - risk: "Schneier's technical depth (crypto algorithms) may be hard to clone without losing nuance"
+    probability: "Medium"
+    impact: "Medium"
+    mitigation: "Focus on conceptual frameworks over mathematical proofs"
+
+  - risk: "Evolving views over 30 years — older positions may contradict newer ones"
+    probability: "High"
+    impact: "Low"
+    mitigation: "Weight recent content (2018+) higher; document evolution explicitly in Layer 8 (paradoxes)"
+
+  - risk: "Blog content volume is massive — may need selective sampling"
+    probability: "High"
+    impact: "Low"
+    mitigation: "Focus on books + curated blog posts + interviews rather than exhaustive blog scraping"

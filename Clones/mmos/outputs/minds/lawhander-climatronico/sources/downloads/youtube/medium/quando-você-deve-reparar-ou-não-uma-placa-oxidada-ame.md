@@ -1,0 +1,14 @@
+# Quando você deve reparar ou não uma placa oxidada #AME
+
+- **Video ID:** Gy0pHW1U4O8
+- **URL:** https://www.youtube.com/watch?v=Gy0pHW1U4O8
+- **Duration:** 4 min
+- **Views:** 174
+- **Published:** 2020-06-05T15:00:08Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+o primeiro detalhe aonde a oxidação vale a pena consertar o sempre digo que depende e a pior resposta que existe né mas depende porque por exemplo cito o exemplo do acusado que do meu laboratório é eu reparei ele a placa dele foi a parada e era apenas uma trilha aberta tá pequena trilha aberta e não queria que começou a parte se funciona há mais de um ano tá rodando aqui esta máquina e sem problema nenhum tá e ela não era nova tá quando percebeu consertei para conversando aqui então não sei nem quanto tempo que essa máquina mas é a está funcionando aqui há um ano e isso é uma trilha aberta então vale muito a pena mas se tivesse pago tá uma pessoa consertar já que se paga por que já tá rodando há mais de um ano mais de um ano exatamente tá então é percebo que em caso de casa tem calça que já peguei que eu consertei a trilha aberta mandei para o cliente ou um mês o outro garantia de 3 meses serviço então eu não dou um mês parou garantia voltou eu vi gato ele que eu tinha parado tava okay mas abriu a trilha em outro local e aí na placa eletrônica ela tem duas a placa eletrônica ela tem pq a placa certo oi e aí olha aqui de lado nem para esse feito a vista lateral da placa tem aqui uma camada de cobre ah tá desenhos bem perfeito uma camada de cobre em cima embaixo dupla face e interessa fácil é essa tem umas trilhas internas o que fazem o contato certo seja pequenos pontos em que atravessa o fenolite né que é o material que é feita a placa então a camada de cobra de cima ciclométrico toalha cobre de baixo por canais entre a placa perfurada placa beleza já deve ter visto para uma próxima observar bem isso daí que acontece essa larga acharam do itachi suas técnicas tão ao com ela ela ela tava abrindo nesse ponto aqui ó esse aqui abri eu pego uma conexão aqui que é difícil demais achar esse essa trilha aberta aqui porque ela interna pô ela tá lá dentro da placa você vai ter que medir eu gripo daqui para cá e vejo que não tá limpando a tinha que ficar lá não tá limpando aí ela betão ela precisa é chato de achar nesse caso voltou voltou uma vez eu vi que ele acaba outro ponto aberto é fiz manda ele tem de volta rodou mais ou menos um mês de novo e deu defeito e resolveu não dar continuidade no reparo tá e resolveu para ali não deixa sei lá fiquei com crédito enfim não te deu o pt né então nesse caso porque tava bem recorrente ele vieram as trilhas desse nível tá as três que fica ali entre as duas

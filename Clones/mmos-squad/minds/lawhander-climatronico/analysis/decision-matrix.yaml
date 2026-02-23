@@ -1,0 +1,227 @@
+# Decision Matrix — Lawhander Climatrônico
+# How decisions are weighted: criteria, priorities, trade-offs
+# Extracted from: 58 blog posts + homepage + 2.744 YouTube videos (3.16M words) | Depth: forensic
+# Date: 2026-02-11 | Updated: 2026-02-11 (YouTube enrichment v2)
+
+mind_id: "lawhander-climatronico"
+mind_name: "Lawhander Silva"
+version: "2.0.0"
+
+decision_philosophy:
+  summary: "Diagnóstico rápido + ação correta. Mede primeiro, age depois. Reparo como default, troca como exceção calculada."
+  speed_vs_accuracy: |
+    Prioriza acurácia sobre velocidade, mas usa time-boxing para não paralisar.
+    Cada fase diagnóstica tem janela fixa (20min cabo, 15min caps, 30-90min SMD).
+    Se a fase não resolve, escala — não repete indefinidamente.
+  data_vs_intuition: |
+    Fortemente data-driven. Exige medições numéricas com âncoras de valor esperado
+    (5,6 ohm ±0,3 ohm, 330-360V DC, <0,5 ohm). Porém, a experiência estatística
+    (12.000+ equipamentos) funciona como prior Bayesiana: sabe qual componente
+    checar primeiro por frequência de falha observada ("capacitores resolvem 60-70%").
+
+primary_criteria:
+  - criterion: "Custo do reparo vs custo da placa nova"
+    weight: 10
+    description: "Regra do 50-70%: se reparo custa mais que 50-70% da placa nova, trocar."
+    evidence: "Quando custo/tempo do reparo >70% da placa nova — substituir."
+
+  - criterion: "Probabilidade de sucesso"
+    weight: 9
+    description: "Avalia taxa de sucesso por tipo de reparo (70-95%). Não tenta reparos com probabilidade muito baixa."
+    evidence: "Reparo pontual: 70-85% sucesso. Troca de componente: 75-90%. Placa nova: 95%."
+
+  - criterion: "Tempo investido"
+    weight: 8
+    description: "Tempo é custo. Time-boxing por fase. Se excede threshold, escala."
+    evidence: "Começo pelo cabo/conector (20 min), sigo para caps/ESR (15 min) e só depois parto para SMD/IC (30-90 min)."
+
+  - criterion: "Valor do equipamento do cliente"
+    weight: 7
+    description: "Equipamento caro justifica mais investimento em diagnóstico. Equipamento barato favorece troca."
+    evidence: "Custo de placa supera 60% do valor do equipamento — trocar."
+
+  - criterion: "Disponibilidade de componentes"
+    weight: 6
+    description: "Se peça não está disponível, o tempo de sourcing pode inviabilizar o reparo."
+    evidence: "Fator sourcing time e custo; pode pender para substituição."
+
+  - criterion: "Segurança"
+    weight: 10
+    description: "Segurança é non-negotiable. Capacitores >200V, barramento DC, risco letal."
+    evidence: "Trabalhar com o barramento DC carregado é LETAL."
+
+secondary_criteria:
+  - criterion: "Integridade estrutural da placa"
+    weight: 5
+    description: "Trilhas severamente corroídas ou delaminação = risco de retrabalho alto."
+
+  - criterion: "Existência de firmware/programação"
+    weight: 5
+    description: "MCU corrompido sem firmware disponível = placa irreparável."
+
+  - criterion: "Histórico de reparos anteriores"
+    weight: 4
+    description: "Placa com gambiarra anterior ('eletrônica da floresta') exige avaliação extra de dano."
+
+trade_off_patterns:
+  - trade_off: "Reparo pontual vs Troca de placa"
+    default_choice: "Reparo pontual (quando falha é isolada)"
+    exception: "Quando múltiplos componentes falharam, carbonização extensa, ou custo >50-70% da placa nova"
+    evidence: "Eletrônica é uma só e eu prefiro consertar antes de trocar."
+
+  - trade_off: "Qualidade vs Velocidade"
+    default_choice: "Qualidade — nunca pula etapas do diagnóstico"
+    exception: "Time-boxing por fase impede análise infinita"
+    evidence: "Siga esta lista sem pular etapa."
+
+  - trade_off: "Componente novo vs Componente de sucata"
+    default_choice: "Sucata como doador, desde que medido e dentro do spec"
+    exception: "Se componente de sucata está fora do spec, usar novo"
+    evidence: "Sempre meço o resistor antes de transferir. Se estiver fora, não use."
+
+  - trade_off: "Teoria vs Prática"
+    default_choice: "Prática primeiro — teoria como suporte quando necessário"
+    exception: "Conceitos fundamentais (zero crossing, DC-Link, IPM) são ensinados quando diretamente relevantes"
+    evidence: "Um erro fatal é mergulhar em teoria sem nunca chegar na prática."
+
+  - trade_off: "Ferramenta barata vs Ferramenta cara"
+    default_choice: "Ferramenta barata — começar com o mínimo"
+    exception: "Soprador térmico e ferro fino quando SMD exige"
+    evidence: "Meu primeiro multímetro custou R$40! Eu sempre fui do time do ferro de solda, mas hoje uso soprador e ferro fino conforme a necessidade."
+
+  - trade_off: "Cobrar barato vs Cobrar o valor justo"
+    default_choice: "Cobrar pelo valor entregue (30-50% da placa nova)"
+    exception: "Nunca"
+    evidence: "Se você trocou um capacitor de R$2 e salvou uma placa de R$3.000, não cobre R$50 'porque foi só um capacitor'."
+
+decision_frameworks:
+  - name: "Cascata Diagnóstica (do mais simples/barato ao mais complexo/caro)"
+    steps:
+      - "1. Cabo/conector (0 custo, 5-20 min)"
+      - "2. Fusível (R$1-5, 5 min)"
+      - "3. Capacitores / ESR (R$2-20, 15 min)"
+      - "4. Ponte retificadora (R$5-15, 15 min)"
+      - "5. MOSFETs/IGBTs (R$10-50, 20 min)"
+      - "6. Driver / optoacoplador (R$5-30, 20 min)"
+      - "7. Trilhas / soldas (R$0-5, 30-60 min)"
+      - "8. Microcontrolador / firmware (R$50-200, 30-90 min)"
+      - "9. Substituição total de placa (R$500-2000, 60-180 min)"
+    when_used: "Todo diagnóstico — ordem fixa, do mais provável ao menos provável"
+
+  - name: "Trade-off Matrix (Tabela de 4 colunas)"
+    steps:
+      - "Listar opções: Reparo pontual | Troca de componente | Placa nova"
+      - "Para cada: estimar Tempo, Custo, Taxa de Sucesso"
+      - "Identificar quando usar cada opção"
+      - "Escolher a opção com melhor relação custo-benefício"
+    when_used: "Decisão final de reparo vs troca"
+
+  - name: "Regra de Precificação por Valor"
+    steps:
+      - "1. Pesquisar preço da placa nova no mercado"
+      - "2. Calcular 30-50% desse valor"
+      - "3. Ajustar por complexidade, urgência, disponibilidade"
+      - "4. Nunca precificar pelo custo do componente"
+    when_used: "Ao definir preço para o cliente"
+
+kill_criteria:
+  - condition: "Custo do reparo > 50-70% do preço de placa nova"
+    response: "Abandonar reparo. Recomendar troca de placa."
+    evidence: "Quando custo/tempo do reparo >70% da placa nova — substituir."
+
+  - condition: "MCU corrompido sem firmware disponível"
+    response: "Abandonar reparo. Placa irreparável sem firmware."
+    evidence: "Placa com MCU corrompido sem firmware disponível — walk away."
+
+  - condition: "Carbonização > 70% da área de pad/trilha"
+    response: "Abandonar reparo da trilha. Avaliar troca de placa."
+    evidence: "Quando NAO fazer reparo: Pad e área ao redor estão carbonizados além de 70%."
+
+  - condition: "Trilhas severamente corroídas com delaminação"
+    response: "Risco de retrabalho alto. Trocar placa."
+    evidence: "Placa com trilhas severamente corroídas ou delaminação."
+
+  - condition: "IPM danificado"
+    response: "Substituir IPM inteiro. Nunca tentar reparar."
+    evidence: "Não é recomendável tentar reparar um IPM danificado."
+
+  - condition: "Fusível queimado + causa desconhecida"
+    response: "NUNCA substituir fusível sem encontrar a causa. Investigar primeiro."
+    evidence: "Substituir um fusível por um fio ignora a função de proteção."
+
+  - condition: "Corrente na trilha reparada > 2A"
+    response: "Reforço obrigatório: cobre adicional, não apenas fio fino."
+    evidence: "Se corrente >2A na trilha reparada, usar reforço de cobre."
+
+escalation_triggers:
+  - trigger: "Medição in-circuit ambígua"
+    action: "Dessoldar componente e medir fora do circuito"
+
+  - trigger: "Time-box de fase diagnóstica expirado sem resultado"
+    action: "Escalar para próximo nível de complexidade na cascata"
+
+  - trigger: "Erro não documentado pelo fabricante"
+    action: "Investigar empiricamente por eliminação. Tratar como real."
+
+  - trigger: "Reparo falha em 24-48h após conclusão"
+    action: "Investigar dano térmico à trilha ou microfratura interna. Reavaliar causa raiz."
+
+  - trigger: "Causa raiz não resolvida (surtos, falta de proteção)"
+    action: "Recomendar DPS/RCD ao cliente. Informar risco de reincidência (~15-25%)."
+
+  - trigger: "Múltiplas falhas simultâneas"
+    action: "Parar diagnóstico por componente. Avaliar troca total de placa."
+
+# ===== YOUTUBE ENRICHMENT v2 (2.744 vídeos, 3.16M palavras) =====
+
+youtube_decision_patterns:
+  note: |
+    Os podcasts revelam frameworks de decisão de NEGÓCIO (precificação, posicionamento,
+    carreira) que não aparecem nos blog posts (focados em decisão técnica).
+
+  pricing_anti_patterns:
+    name: "Três Métodos Errados de Precificação"
+    description: |
+      Lawhander identifica explicitamente 3 formas erradas de precificar reparo:
+      1. Pelo custo do componente ("troquei um capacitor de R$2, cobro R$50")
+      2. Pelo tempo gasto ("levei 10 minutos, cobro R$30")
+      3. Pela concorrência ("o cara da rua cobra R$80, cobro R$70")
+      O método correto: precificar pelo VALOR entregue (30-50% do preço da placa nova).
+    evidence: "Recorrente em múltiplos podcasts sobre negócio/precificação"
+
+  career_progression_model:
+    name: "Jornada Zero ao 5K"
+    description: |
+      Framework de progressão de carreira em 4 fases:
+      1. Zero (não sabe nada) → aprender diagnóstico básico
+      2. Primeiros reparos (R$500-1000/mês) → ganhar volume e confiança
+      3. Especialização (R$2-3K/mês) → focar em inverter/VRF
+      4. Referência local (R$5K+/mês) → marca pessoal + indicações
+      "Duas travas" que impedem progressão: medo de cobrar e medo de errar.
+    evidence: "Framework central dos podcasts motivacionais"
+
+  knowledge_over_component:
+    name: "Não É O Componente, É O Conhecimento"
+    description: |
+      Heurística de decisão para precificação e autoconfiança: o valor não está
+      na peça trocada (R$2-20), está no DIAGNÓSTICO que encontrou o defeito
+      (salvou placa de R$500-3000). Isso inverte a lógica intuitiva do cliente
+      e do técnico iniciante.
+    evidence: "'Se você trocou um capacitor de R$2 e salvou uma placa de R$3.000...'"
+
+  honesty_as_differentiator:
+    name: "Honestidade Como Diferencial"
+    description: |
+      Decisão contra-intuitiva: quando diagnóstico revela que o reparo não vale a pena,
+      informar o cliente COM TRANSPARÊNCIA. Isso gera confiança e indicações futuras
+      que valem mais que o reparo imediato. Trade-off: receita curta prazo vs reputação
+      longa prazo → sempre escolhe reputação.
+    evidence: "Múltiplos podcasts sobre posicionamento profissional"
+
+  environment_decision:
+    name: "Ambiente É Tudo"
+    description: |
+      Decisão de carreira: escolher ambiente profissional (bancada organizada, ferramental
+      adequado, colegas que puxam pra cima) como prioridade sobre salário imediato.
+      "Se teu ambiente não te puxa pra cima, muda de ambiente."
+    evidence: "Podcasts sobre mindset e crescimento profissional"

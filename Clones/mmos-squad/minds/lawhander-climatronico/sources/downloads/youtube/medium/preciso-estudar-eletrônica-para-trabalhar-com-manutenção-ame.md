@@ -1,0 +1,14 @@
+# Preciso estudar ELETRÔNICA para trabalhar com MANUTENÇÃO? #AME
+
+- **Video ID:** xr_AZeZ-OBQ
+- **URL:** https://www.youtube.com/watch?v=xr_AZeZ-OBQ
+- **Duration:** 3 min
+- **Views:** 473
+- **Published:** 2022-01-13T15:00:36Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+e se você apertar teoria eletrônicos em um colchão completo o gol defendido estudou podcast hoje teoria diferente de prática tá você aprende teoria de eletrônica fundamentos eletrônica você ficou muito bom eletrônica porque Existe diferença entre eletrônica teórica e manutenção eletrônica digital a diferença entre eletrônica prática e manutenção da tunning por exemplo eu fiz faculdade eu assisti a aula teoria eletrônica e é para parte eletronico montar circuito testar circuito fazer o ciclo de amplificadores dessa transistores fazer teste com os seus estudos que funcionamento é retificação é fonte linear não tava esse círculo de todos em bancada tu tinha prática eletrônica tira teoria também porque pode fazer a parte interna teoria mas não tinha a manutenção eletrônica é que na aprendi na prática que é um jogo diferente o jogo da manutenção eletrônica um jogo diferente entendeu então o instalador preciso saber a tônica sim saber de qual eletrônica pode ser química teórica sabe manutenção eletrônica não é sabiamente tá quero ser climatronic você vai aprender as tô lá para ele vai para manutenção é tudo olha só o instalador e por isso também já tô não precisa não necessariamente aniversário tudo diferenciam a manutenção eletrônica da do saber eletrônica O que é ensinado no geral as escolas que estão eletrônica nas faculdades e até embaixo prática eu tive a parte prática mas ele tá perdendo o pessoal é bonita mesmo trabalhamos com manutenção eletrônica que os meus leitores são muitas a diferente a teoria barra prática de eletrônica é diferente que manutenção tem suas no a cirurgias seus testes diferenciados das práticas funcionais e que na prática dá para fazer lá na prática da mas amanhã a gente estuda a gente só quer validar a teoria né estuda a teoria e valer a teoria da prática de maneira geral como se estuda Então se vocês e claro nessa diferença mas sabendo Um dos fatores que é diferente saber eletrônica para saber o nome dos fatores que essa barato ainda tem a nossa mente quando você eletrônica eu sei manter a turma eu era professor de escola técnica eu tinha feito todas as cabeças pelo que na faculdade tinha conhecimento legal sobre teoria eletrônica sobre plástica até mas não sabe manutenção entendeu então de novo o que que você quer ser que é sempre uma Pronto tem também interessante Olha eu quero ser um cara trabalho com instalação entende de eletrônica não necessariamente sem saber muito ciumento

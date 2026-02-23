@@ -1,0 +1,106 @@
+# Sources Master — Lawhander Climatronico
+# Mind Clone: Especialista em reparo de placas eletrônicas de ar-condicionado
+
+mind_name: "lawhander-climatronico"
+display_name: "Lawhander Silva"
+domain: "Reparo de placas eletrônicas de ar-condicionado / Climatização"
+language: "pt"
+collection_date: "2026-02-11"
+status: "pending"
+
+sources:
+
+  blogs:
+    - url: "https://climatronico.com.br/"
+      platform: "astro"
+      priority: high
+      notes: "Blog técnico principal — 61 posts + 25 notícias. Conteúdo local em climatronico-blog/src/content/"
+      local_path: "/Users/lawhander/Projetos com IA/climatronico-blog/src/content/posts/"
+    - url: "https://lawhander.com.br/"
+      platform: "generic"
+      priority: medium
+      notes: "Site pessoal com páginas de cursos (AME, Workshop Profissão Climatronico, Arquivo Secreto)"
+
+  youtube:
+    - url: "https://www.youtube.com/@lawhander"
+      type: "channel"
+      priority: high
+      transcript_method: "whisper"
+      notes: "Canal principal — 190+ aulas sobre reparo de placas de AC"
+    - url: "https://www.youtube.com/watch?v=5fKWuaaSP-k"
+      type: "video"
+      priority: high
+      transcript_method: "auto"
+      notes: "Daikin Erro U4 — referenciado no blog"
+    - url: "https://www.youtube.com/watch?v=cNXr89__bJg"
+      type: "video"
+      priority: high
+      transcript_method: "auto"
+      notes: "10 Motivos para escolher a tecnologia inverter [AULA 01]"
+
+  podcasts: []
+
+  books: []
+
+  social:
+    - url: "https://www.instagram.com/lawhander/"
+      platform: "instagram"
+      content_type: "profile"
+      priority: high
+      notes: "Perfil pessoal — conteúdo educativo de climatização"
+    - url: "https://www.instagram.com/lawteckeletronica/"
+      platform: "instagram"
+      content_type: "profile"
+      priority: medium
+      notes: "Perfil da empresa Lawteck Eletrônica"
+    - url: "https://www.instagram.com/lawteckpecas/"
+      platform: "instagram"
+      content_type: "profile"
+      priority: low
+      notes: "Perfil de vendas de peças"
+    - url: "https://www.tiktok.com/@lawhander"
+      platform: "tiktok"
+      content_type: "profile"
+      priority: medium
+      notes: "Conteúdo curto sobre reparo de placas"
+    - url: "https://www.threads.com/@lawhander/"
+      platform: "threads"
+      content_type: "profile"
+      priority: low
+      notes: "Posts em Threads"
+    - url: "https://www.facebook.com/Lawhander/"
+      platform: "facebook"
+      content_type: "profile"
+      priority: low
+      notes: "Página do Facebook"
+    - url: "https://t.me/lawhander"
+      platform: "telegram"
+      content_type: "profile"
+      priority: medium
+      notes: "Canal/grupo no Telegram"
+
+  other:
+    - url: "https://lawhander.com.br/ame-listadeespera"
+      type: "course-landing"
+      priority: high
+      notes: "Academia da Manutenção Eletrônica (AME) — principal produto educativo"
+    - url: "https://lawhander.com.br/wpc02-fb"
+      type: "course-landing"
+      priority: high
+      notes: "Workshop Profissão Climatrônico"
+    - url: "https://lawhander.com.br/arquivosecreto"
+      type: "course-landing"
+      priority: medium
+      notes: "Arquivo Secreto"
+    - url: "https://www.scribd.com/document/948855990/Catalogo-LawTeck-Pecas"
+      type: "catalog-pdf"
+      priority: low
+      notes: "Catálogo de peças LawTeck no Scribd"
+
+# Post-collection metadata (filled by ETL squad)
+collection_results:
+  total_sources: 0
+  total_downloaded: 0
+  total_failed: 0
+  total_word_count: 0
+  coverage_gaps: []

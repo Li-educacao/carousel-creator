@@ -1,0 +1,14 @@
+# COMO LIDAR COM FRETES CAROS EM COMPRAS ONLINE? #AME
+
+- **Video ID:** -XrNIrjW08U
+- **URL:** https://www.youtube.com/watch?v=-XrNIrjW08U
+- **Duration:** 3 min
+- **Views:** 433
+- **Published:** 2021-12-11T15:00:00Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+e quem paga o concorrente ou frete do componente é o cliente não é você ter um gasto que você não gasto variável que você tem por causa do serviço a cliente então tentar investir um serviço o cliente a hora mas vai ficar muito caro porque o frete é muito caro que vai decidir isso é claro não tem cliente falou do frete a capa do valor do componente é caro se tem noção tô pagando outros ensaios em vídeo com panos que eu mando ele da China eu precisava com urgência uma semana com a seleção de imposto Então se ter noção 20 vinte componentes que eu comprei 16 mais caro constante E aí o preço do frete com o imposto de apertar no Brasil ou essa essa bagatela um dólar 150 160 só que se eu tô pagando é o cliente está pagando eu queria estar visitando urgência ah ah mas o cliente que é o gente quer pagar barato aí não é com raiva de quem quer ser atendido prontamente e você usar Dias médicas parece que eu for mais cedo que que é a linha totalmente mal quando tal e olhe lá eu não tem que pulsos ela Fiquei esperando ser atendido Então essa dinâmica de precificação em cima do componente é uma cartão do serviço é um gasto é um investimento que é devido ao serviço do cliente entendeu só que para o Felipe sei lá na região carro eu levo meu carro levo lá e defende tem que ser novo não não tem um me perdoar o trabalho feito em trocar o motor promoção gigantesco porque eu preço do motor é autista Nossa próximo sábado em mim abra eu academia quando eu acabar eu escolher se eu vou fazer ou não Então essas questões de afo muito caro ela tem casquinha de avisa que eu quero falar com meu filho aqui ficar acho que inviabiliza Como assim não por exemplo fiz o orçamento do cliente e era uma placa foi ao sábado Um fabricante da placa de 19 mil nossas reais então com 19 anos atrás eu tocava as três mas e na frente lá ainda não sou máquina para ela que já Brisa tá E é isso mas beleza é um caso não é exceção e não deixa ela com o projeto embaraços e Cara essa férias trazer pra vocês aqui foi caro formato Fast fresh e impostos a celulite E aí você já pode aproveitar que vai fazer um pedido e pedir coisas a mais né já que os componentes são baratinhos a seja até escrito por exemplo se você recebeu uma outra placa mas na frente que deve ser igual né e o problema esteja nesse mesmo componente então o capacitor o resistor Vale a pena comprar de muito aproveita logo o frete e já pede logo alguns para informando o seu estoque interno

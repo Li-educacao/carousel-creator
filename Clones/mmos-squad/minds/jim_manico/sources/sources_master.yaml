@@ -1,0 +1,536 @@
+# Sources Master - Jim Manico
+# Generated: 2026-02-19
+# Phase: 1 - Research Collection (Discovery)
+# Status: DISCOVERY COMPLETE — Collection pending
+
+mind_name: "Jim Manico"
+slug: "jim_manico"
+compilation_date: "2026-02-19"
+
+metadata:
+  total_sources: 38
+  sources_by_tier:
+    tier_1: 10
+    tier_2: 18
+    tier_3: 10
+  sources_by_type:
+    books: 2
+    owasp_projects: 4
+    interviews_podcasts: 14
+    conference_talks: 8
+    articles_blogs: 4
+    courses_training: 3
+    social_media: 3
+  temporal_span: "2014 - 2026"
+
+# ============================================================
+# TIER 1 — High Confidence (Authoritative, primary sources)
+# ============================================================
+
+sources:
+
+  # --- BOOKS ---
+
+  - id: T1-book-iron-clad-java
+    title: "Iron-Clad Java: Building Secure Web Applications"
+    type: book
+    tier: 1
+    author: "Jim Manico, August Detlefsen"
+    publisher: "Oracle Press / McGraw-Hill"
+    year: 2014
+    url: "https://www.amazon.com/Iron-Clad-Java-Building-Secure-Applications/dp/0071835881"
+    isbn: "9780071835886"
+    pages: ~300
+    key_topics: ["Java security", "authentication", "access control", "data protection", "attack prevention", "error handling", "secure web applications"]
+    collection_method: "Purchase/download digital copy"
+    priority: 1
+    notes: "Primary-author book. Core reference for Jim's security philosophy and methodology. Available on Internet Archive."
+
+  - id: T1-book-tribe-of-hackers
+    title: "Tribe of Hackers: Cybersecurity Advice from the Best Hackers in the World (Chapter 42)"
+    type: book_chapter
+    tier: 1
+    author: "Marcus J. Carey, Jennifer Jin (eds.)"
+    publisher: "Wiley"
+    year: 2019
+    url: "https://www.oreilly.com/library/view/tribe-of-hackers/9781119643371/c42.xhtml"
+    key_topics: ["personal philosophy", "career advice", "cybersecurity worldview", "personal values"]
+    collection_method: "Extract chapter 42"
+    priority: 2
+    notes: "Personal Q&A format — excellent for values, philosophy, and personal perspective."
+
+  # --- OWASP PROJECTS (Jim co-leads) ---
+
+  - id: T1-owasp-asvs
+    title: "OWASP Application Security Verification Standard (ASVS)"
+    type: owasp_project
+    tier: 1
+    url: "https://owasp.org/www-project-application-security-verification-standard/"
+    github: "https://github.com/OWASP/ASVS"
+    version: "5.0 (current development)"
+    key_topics: ["200+ security requirements", "verification standard", "security levels", "web application security"]
+    collection_method: "Download full standard document + GitHub README"
+    priority: 1
+    notes: "Jim is co-lead. THE framework that defines his methodology. ASVS 5.0 is his current major project."
+
+  - id: T1-owasp-proactive-controls
+    title: "OWASP Top 10 Proactive Controls"
+    type: owasp_project
+    tier: 1
+    url: "https://owasp.org/www-project-proactive-controls/"
+    pdf: "https://wiki.owasp.org/images/0/07/OWASP_Proactive_Controls_v1.pdf"
+    key_topics: ["defensive coding", "security by design", "top 10 security techniques", "developer-centric security"]
+    collection_method: "Download full document"
+    priority: 1
+    notes: "Jim is co-lead with Katy Anton and Jim Bird. Defines his defensive coding philosophy."
+
+  - id: T1-owasp-cheatsheet-series
+    title: "OWASP Cheat Sheet Series"
+    type: owasp_project
+    tier: 1
+    url: "https://cheatsheetseries.owasp.org/"
+    github: "https://github.com/OWASP/CheatSheetSeries"
+    key_topics: ["practical security guides", "implementation how-tos", "security patterns"]
+    collection_method: "Download index + key cheat sheets"
+    priority: 2
+    notes: "Jim is co-leader and core committer. Practical security guidance."
+
+  - id: T1-owasp-aisvs
+    title: "OWASP AI Security Verification Standard (AISVS)"
+    type: owasp_project
+    tier: 1
+    url: "https://owasp.org/www-project-ai-security-verification-standard/"
+    key_topics: ["AI security", "LLM security", "AI verification", "security-centric prompting"]
+    collection_method: "Download current draft/documentation"
+    priority: 1
+    notes: "Jim is co-leader. NEW project reflecting his evolution into AI security."
+
+  # --- MAJOR CONFERENCE TALKS ---
+
+  - id: T1-ndc-owasp-top10-to-asvs
+    title: "From the OWASP Top Ten to the OWASP ASVS - Jim Manico (NDC)"
+    type: conference_talk
+    tier: 1
+    url: "https://www.classcentral.com/course/youtube-from-the-owasp-top-ten-s-to-the-owasp-asvs-jim-manico-140444"
+    platform: "YouTube (NDC Conferences)"
+    key_topics: ["OWASP Top 10 limitations", "ASVS superiority", "security standards comparison"]
+    collection_method: "YouTube transcript extraction"
+    priority: 1
+    notes: "KEY talk — Jim's core argument: ASVS > Top 10. Essential for mental models."
+
+  - id: T1-owasp-lisbon-2024-keynote
+    title: "OWASP Global AppSec Lisbon 2024 — ASVS Keynote"
+    type: conference_talk
+    tier: 1
+    url: "https://owasp.org/www-project-application-security-verification-standard/"
+    date: "2024-06-27"
+    key_topics: ["ASVS reintroduction", "ASVS 5.0 roadmap", "project background"]
+    collection_method: "YouTube transcript extraction (if recorded)"
+    priority: 1
+    notes: "Opening keynote — Jim reintroducing ASVS to the community."
+
+  # --- TRAINING ---
+
+  - id: T1-manicode-catalog
+    title: "Manicode Secure Coding Education Catalog"
+    type: training_material
+    tier: 1
+    url: "https://manicode.com/ManicodeCatalog.pdf"
+    key_topics: ["training methodology", "course offerings", "secure coding curriculum", "teaching approach"]
+    collection_method: "Download PDF"
+    priority: 1
+    notes: "Defines Jim's teaching methodology and curriculum structure."
+
+  - id: T1-antisyphon-owasp-top10
+    title: "OWASP Top 10 Training — Antisyphon Training with Jim Manico"
+    type: course
+    tier: 1
+    url: "https://www.antisyphontraining.com/product/owasp-top-10-with-jim-manico/"
+    key_topics: ["OWASP Top 10 2021-2025", "defensive perspective", "developer training"]
+    collection_method: "Extract course description and available materials"
+    priority: 2
+    notes: "Paid training course — captures teaching approach and content focus."
+
+# ============================================================
+# TIER 2 — Medium Confidence (Podcasts, interviews, articles)
+# ============================================================
+
+  # --- PODCASTS / INTERVIEWS ---
+
+  - id: T2-podcast-secure-developer-ep26
+    title: "The Secure Developer Ep. 26 — Security Education with Jim Manico"
+    type: podcast
+    tier: 2
+    url: "https://www.heavybit.com/library/podcasts/the-secure-developer/ep-26-security-education-with-jim-manico/"
+    alt_url: "https://snyk.io/podcasts/the-secure-developer/security-education-with-jim-manico/"
+    platform: "Heavybit / Snyk"
+    key_topics: ["security education", "developer training", "career insights", "AppSec philosophy"]
+    collection_method: "Transcript extraction"
+    priority: 2
+    notes: "Deep dive on security education philosophy."
+
+  - id: T2-podcast-absolute-appsec-ep27
+    title: "Absolute AppSec Ep. 27 — Secure Code Best Practices with Jim Manico"
+    type: podcast
+    tier: 2
+    url: "https://news.absoluteappsec.com/p/episode-27-w-jim-manico"
+    platform: "Absolute AppSec"
+    year: 2018
+    key_topics: ["secure coding practices", "career journey", "late 90s Java beginnings", "SANS experience"]
+    collection_method: "Transcript extraction"
+    priority: 2
+    notes: "Rich career history — journey into AppSec from Java development."
+
+  - id: T2-podcast-resilient-cyber
+    title: "Resilient Cyber — Enhancing Software Security in the Era of AI"
+    type: podcast
+    tier: 2
+    url: "https://www.resilientcyber.io/p/resilient-cyber-w-jim-manico-enhancing"
+    platform: "Resilient Cyber"
+    key_topics: ["AI and AppSec", "security-centric prompting", "AI force multiplier", "future of secure development"]
+    collection_method: "Transcript extraction"
+    priority: 2
+    notes: "CRITICAL for AI security perspective — Jim's evolving views on AI+AppSec."
+
+  - id: T2-podcast-virtual-ciso-ep19
+    title: "The Virtual CISO Podcast Ep. 19 — Jim Manico: AppSec is a Team Sport"
+    type: podcast
+    tier: 2
+    url: "https://www.pivotpointsecurity.com/podcasts/the-virtual-ciso-podcast-ep19-jim-manico-it-security-how-to-do-more-with-less-copy/"
+    platform: "Pivot Point Security"
+    key_topics: ["AppSec team dynamics", "security program building", "business perspective"]
+    collection_method: "Transcript extraction"
+    priority: 3
+
+  - id: T2-podcast-cscp-phoenix
+    title: "CSCP S03E07 — AppSec in Modern World and DevSecOps Methodologies"
+    type: podcast
+    tier: 2
+    url: "https://phoenix.security/podcast/cscp-s03e07-jim-manico-appsec-in-modern-world-and-devsecops-methodologies/"
+    platform: "Phoenix Security"
+    key_topics: ["DevSecOps", "modern AppSec", "methodology evolution"]
+    collection_method: "Transcript extraction"
+    priority: 3
+
+  - id: T2-podcast-tromzo-owasp-top10
+    title: "Future of AppSec Podcast — Jim Manico on OWASP Top Ten Issues"
+    type: podcast
+    tier: 2
+    url: "https://tromzo.com/podcasts/owasp-top-ten-issues-through-better-security-and-developer-partnerships"
+    platform: "Tromzo"
+    key_topics: ["OWASP Top 10 challenges", "SSRF", "access control", "developer-security partnership", "logging"]
+    collection_method: "Transcript extraction"
+    priority: 2
+
+  - id: T2-podcast-owasp-portland-kulia
+    title: "OWASP Portland — Kūlia I Ka Nu'u: To Be Your Best in Security"
+    type: podcast
+    tier: 2
+    url: "https://www.buzzsprout.com/775379/5820922"
+    platform: "OWASP Portland Chapter / Buzzsprout"
+    key_topics: ["personal philosophy", "Hawaiian culture influence", "being your best", "security career"]
+    collection_method: "Transcript extraction"
+    priority: 2
+    notes: "CRITICAL — personal philosophy + Hawaiian cultural influence. Unique perspective."
+
+  - id: T2-podcast-appsec-builders
+    title: "AppSec Builders — Jim Manico on Training Developers for Secure Applications"
+    type: podcast
+    tier: 2
+    url: "https://podcasts.apple.com/ca/podcast/appsec-builders/id1535238655"
+    platform: "AppSec Builders"
+    key_topics: ["developer training", "secure application building", "education methodology"]
+    collection_method: "Transcript extraction"
+    priority: 3
+
+  - id: T2-podcast-manico-secure-coding
+    title: "Jim Manico on Secure Coding, OWASP and Being a Decent Human"
+    type: podcast
+    tier: 2
+    url: "https://podcasts.apple.com/us/podcast/jim-manico-on-secure-coding-owasp-and-being-a-decent-human/id1576267010?i=1000559522311"
+    platform: "Apple Podcasts"
+    key_topics: ["secure coding", "OWASP", "being a decent human", "personal values", "ethics"]
+    collection_method: "Transcript extraction"
+    priority: 2
+    notes: "CRITICAL — 'being a decent human' is a values layer gold mine."
+
+  - id: T2-podcast-itspmagazine-brand-story
+    title: "ITSPmagazine Brand Story — Turning Developers into Security Champions"
+    type: interview
+    tier: 2
+    url: "https://www.itspmagazine.com/their-stories/turning-developers-into-security-champions-the-business-case-for-secure-development-a-manicode-brand-story-with-jim-manico"
+    platform: "ITSPmagazine"
+    key_topics: ["security champions model", "business case for secure development", "developer empowerment"]
+    collection_method: "Web scrape article"
+    priority: 2
+    notes: "Business case perspective — rare strategic content from Jim."
+
+  # --- CONFERENCE TALKS ---
+
+  - id: T2-talk-appsec-ca-2017
+    title: "AppSec California 2017 — Java LangSec: New Security Controls in Java 8 and 9"
+    type: conference_talk
+    tier: 2
+    url: "https://archive.org/details/youtube-hJ5AcWV-_Ng"
+    platform: "Internet Archive / YouTube"
+    year: 2017
+    key_topics: ["Java security", "Java 8/9 security controls", "language-level security"]
+    collection_method: "YouTube transcript extraction"
+    priority: 3
+
+  - id: T2-talk-secappdev-2023
+    title: "SecAppDev 2023 — Jim Manico Talk"
+    type: conference_talk
+    tier: 2
+    url: "https://secappdev.org/2023/speakers/jimmanico/"
+    year: 2023
+    key_topics: ["secure development", "training", "latest AppSec trends"]
+    collection_method: "Check for recordings/transcripts"
+    priority: 3
+
+  - id: T2-talk-secappdev-2024
+    title: "SecAppDev 2024 — Jim Manico Talk"
+    type: conference_talk
+    tier: 2
+    url: "https://secappdev.org/2024/speakers/jimmanico/"
+    year: 2024
+    key_topics: ["secure development", "ASVS evolution", "AI security"]
+    collection_method: "Check for recordings/transcripts"
+    priority: 3
+
+  - id: T2-talk-ndc-security-2025
+    title: "NDC Security 2025 — Mastering the 2022 OWASP Top Ten"
+    type: conference_talk
+    tier: 2
+    url: "https://ndc-security.com/workshops/owasp-top-ten-2022-release-0yx7/f3b3cedc3859"
+    year: 2025
+    key_topics: ["OWASP Top 10 2022", "workshop format", "hands-on training"]
+    collection_method: "Check for recordings/transcripts"
+    priority: 2
+
+  - id: T2-talk-owasp-podcast-archive
+    title: "OWASP Podcast — Mark Miller and Jim Manico"
+    type: podcast
+    tier: 2
+    url: "https://archive.org/details/youtube-fdZBHjJE_uU"
+    platform: "Internet Archive / YouTube"
+    key_topics: ["OWASP history", "project management", "community"]
+    collection_method: "YouTube transcript extraction"
+    priority: 3
+
+  # --- ARTICLES / BLOG POSTS ---
+
+  - id: T2-articles-dark-reading
+    title: "Jim Manico — Dark Reading Author Column"
+    type: articles
+    tier: 2
+    url: "https://www.darkreading.com/author/jim-manico"
+    platform: "Dark Reading"
+    key_topics: ["security commentary", "industry analysis", "secure coding"]
+    collection_method: "Scrape author page + all articles"
+    priority: 2
+    notes: "Industry publication — more formal/strategic voice."
+
+  - id: T2-articles-cobalt-blog
+    title: "Cobalt Blog — Rethinking Application Security"
+    type: article
+    tier: 2
+    url: "https://www.cobalt.io/blog/author/jim-manico"
+    platform: "Cobalt"
+    key_topics: ["rethinking AppSec", "security philosophy"]
+    collection_method: "Scrape blog posts"
+    priority: 2
+
+  # --- COURSES ---
+
+  - id: T2-udemy-ai-risk-security
+    title: "Udemy — AI Risk & Security: Secure Coding"
+    type: course
+    tier: 2
+    url: "https://www.udemy.com/course/ai-risk-security-secure-coding/"
+    platform: "Udemy"
+    key_topics: ["AI security", "AI-driven code generation", "security-centric prompting", "best practices"]
+    collection_method: "Extract course description, syllabus, preview content"
+    priority: 2
+    notes: "Bridges AI and secure coding — key for temporal relevance."
+
+  - id: T2-udemy-owasp-top10
+    title: "Udemy — Crack the Code: Mastering the OWASP Top 10 (2021-2025)"
+    type: course
+    tier: 2
+    url: "https://www.udemy.com/course/introduction-to-the-owasp-top-10-2021/"
+    platform: "Udemy"
+    key_topics: ["OWASP Top 10", "vulnerability analysis", "defensive coding"]
+    collection_method: "Extract course description, syllabus, preview content"
+    priority: 3
+
+# ============================================================
+# TIER 3 — Validation Needed (Social media, secondary sources)
+# ============================================================
+
+  - id: T3-twitter-manicode
+    title: "X/Twitter @manicode — Jim Manico's Social Media"
+    type: social_media
+    tier: 3
+    url: "https://x.com/manicode"
+    platform: "X (Twitter)"
+    key_topics: ["real-time opinions", "ASVS updates", "AI+AppSec", "community engagement", "personal reflections"]
+    collection_method: "Extract substantive threads and posts (filter noise)"
+    priority: 3
+    notes: "Active account. Key tweet: 'After 20 years in cybersecurity I never felt like I fit in...' — Layer 8 gold."
+
+  - id: T3-linkedin-jmanico
+    title: "LinkedIn — Jim Manico Profile & Posts"
+    type: social_media
+    tier: 3
+    url: "https://www.linkedin.com/in/jmanico/"
+    platform: "LinkedIn"
+    key_topics: ["professional updates", "career milestones", "advisory roles", "thought leadership"]
+    collection_method: "Extract key posts and professional data"
+    priority: 4
+
+  - id: T3-github-jmanico
+    title: "GitHub — jmanico Profile & Contributions"
+    type: social_media
+    tier: 3
+    url: "https://github.com/jmanico"
+    platform: "GitHub"
+    key_topics: ["code contributions", "OWASP projects", "developer-centric ASVS fork"]
+    collection_method: "Extract profile README, contribution patterns, key repos"
+    priority: 3
+    notes: "Developer-centric ASVS 5 fork expected to be released here."
+
+  - id: T3-slideshare-jimmanico
+    title: "SlideShare — Jim Manico Presentations"
+    type: presentations
+    tier: 3
+    url: "https://www.slideshare.net/JimManico"
+    platform: "SlideShare"
+    key_topics: ["conference slides", "presentation materials", "visual frameworks"]
+    collection_method: "Download/extract key presentations"
+    priority: 4
+
+  - id: T3-manicode-website
+    title: "Manicode Security Website (manicode.com)"
+    type: website
+    tier: 3
+    url: "https://manicode.com"
+    key_topics: ["company positioning", "training offerings", "professional philosophy"]
+    collection_method: "Web scrape full site"
+    priority: 3
+
+  - id: T3-secappdev-2025-bio
+    title: "SecAppDev 2025 — Jim Manico Speaker Bio"
+    type: biography
+    tier: 3
+    url: "https://secappdev.org/2025/speakers/jimmanico/"
+    key_topics: ["latest bio", "current roles", "self-description"]
+    collection_method: "Web scrape"
+    priority: 4
+
+  - id: T3-ndc-london-2026-bio
+    title: "NDC London 2026 — Jim Manico Speaker Profile"
+    type: biography
+    tier: 3
+    url: "https://ndclondon.com/speakers/jimmanico"
+    key_topics: ["latest bio", "talk description", "current focus"]
+    collection_method: "Web scrape"
+    priority: 4
+
+  - id: T3-phoenix-security-advisory
+    title: "Phoenix Security — Jim Manico Advisory Board"
+    type: article
+    tier: 3
+    url: "https://phoenix.security/phoenix-security-jim-manico-board/"
+    key_topics: ["advisory role", "security industry perspective", "company evaluation"]
+    collection_method: "Web scrape"
+    priority: 4
+
+  - id: T3-edgescan-role
+    title: "Edgescan — Jim Manico Profile"
+    type: biography
+    tier: 3
+    url: "https://www.linkedin.com/in/jmanico/"
+    key_topics: ["advisory role", "professional activities"]
+    collection_method: "Extract from LinkedIn"
+    priority: 5
+
+  - id: T3-hawaii-bulletin-locomocosec
+    title: "Hawaii Bulletin — Loco Moco Security Conference"
+    type: article
+    tier: 3
+    url: "https://www.hawaiibulletin.com/p/loco-moco-security-conference"
+    key_topics: ["LocoMocoSec founding", "Hawaii community", "conference philosophy"]
+    collection_method: "Web scrape"
+    priority: 3
+    notes: "Reveals community-building values and Hawaii connection."
+
+# ============================================================
+# TEMPORAL CONTEXT
+# ============================================================
+
+temporal_context:
+  career_phases:
+    - phase: "Java Developer"
+      years: "1997-2006"
+      sources: ["T2-podcast-absolute-appsec-ep27"]
+      themes: ["Java programming", "web development", "early security awareness"]
+
+    - phase: "Security Education Pioneer"
+      years: "2006-2014"
+      sources: ["T2-talk-owasp-podcast-archive", "T1-owasp-proactive-controls"]
+      themes: ["SANS training", "OWASP involvement", "security specialization", "Proactive Controls creation"]
+
+    - phase: "Manicode & OWASP Leadership"
+      years: "2014-2022"
+      sources: ["T1-book-iron-clad-java", "T1-owasp-asvs", "T2-podcast-secure-developer-ep26", "T1-antisyphon-owasp-top10"]
+      themes: ["Manicode founding", "OWASP Board", "ASVS leadership", "global training", "conference circuit"]
+
+    - phase: "AI Security Evolution"
+      years: "2023-present"
+      sources: ["T1-owasp-aisvs", "T2-podcast-resilient-cyber", "T2-udemy-ai-risk-security"]
+      themes: ["AI+AppSec", "AISVS creation", "security-centric prompting", "ASVS 5.0", "NDC AI talks"]
+
+  evolution_notes: "Jim evolved from Java developer → security specialist → educator/standards leader → AI security pioneer. His core thesis (developer education > tooling) has remained consistent for 20+ years, but the APPLICATION has evolved with technology."
+
+# ============================================================
+# ANALYSIS READINESS
+# ============================================================
+
+analysis_readiness:
+  layer_1_behavioral: "adequate"     # Conference talks, training methodology, OWASP participation
+  layer_2_communication: "adequate"  # Book, articles, podcasts, social media — multiple registers
+  layer_3_routine: "limited"         # Conference schedule known, training patterns, but daily routine sparse
+  layer_4_recognition: "adequate"    # Code review demos, security pattern identification
+  layer_5_mental_models: "adequate"  # ASVS>Top10, developer-centric security, multiple frameworks
+  layer_6_values: "adequate"         # "Being a decent human", OWASP volunteering, education focus
+  layer_7_obsessions: "adequate"     # Making developers write secure code, OWASP standards adoption
+  layer_8_paradoxes: "adequate"      # "Never fit in", educator challenging own org's Top 10, etc.
+
+  overall_status: "READY"
+
+recommendations_for_analysis:
+  strongest_sources_for_deep_layers:
+    - "T1-book-tribe-of-hackers (personal Q&A — values, philosophy)"
+    - "T2-podcast-owasp-portland-kulia (Hawaiian philosophy, personal growth)"
+    - "T2-podcast-manico-secure-coding (being a decent human — ethics, values)"
+    - "T3-twitter-manicode ('never fit in' tweet — Layer 8)"
+    - "T2-podcast-absolute-appsec-ep27 (career origin story)"
+    - "T2-podcast-resilient-cyber (AI evolution thinking)"
+
+  triangulation_opportunities:
+    - "ASVS vs Top 10 argument: NDC talk + Tromzo podcast + Dark Reading articles"
+    - "Teaching methodology: Manicode catalog + Udemy courses + SecAppDev bios"
+    - "AI security evolution: AISVS project + Resilient Cyber podcast + Udemy AI course"
+    - "Personal values: Tribe of Hackers + 'Decent Human' podcast + Portland talk"
+
+  gap_areas:
+    - "Daily routine and habits (limited personal content)"
+    - "Pre-2006 career details (early Java years)"
+    - "Family/personal life (mentioned wife Tracey in Kauai, but limited data)"
+
+collection_statistics:
+  discovery_time: "45 minutes"
+  sources_identified: 38
+  collection_pending: true
+  estimated_collection_time: "4-6 hours"

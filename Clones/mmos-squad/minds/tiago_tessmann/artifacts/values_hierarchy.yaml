@@ -1,0 +1,330 @@
+# =============================================================================
+# LAYER 6 - VALUES HIERARCHY
+# Mind: Tiago Tessmann
+# Phase: 2 (Deep Identity Layers)
+# Status: DRAFT - Pending Human Checkpoint Validation
+# Extracted from: 20+ YouTube transcript sources
+# =============================================================================
+
+values_hierarchy:
+
+  # -------------------------------------------------------------------------
+  # TOP TIER VALUES (Non-negotiable, sacrifices everything else for these)
+  # -------------------------------------------------------------------------
+  top_tier:
+
+    - value: "Fe / Espiritualidade (Relacionamento com Deus)"
+      priority: 1
+      stated_evidence:
+        - source: "o-poder-da-f-nos-negcios-podcast-extremo-140"
+          quote: "a fe e o principio para voce construir coisas impossiveis Grandes Negocios Grandes projetos"
+        - source: "como-ficar-rico-em-9-passos"
+          quote: "o temor do senhor e o principio da sabedoria conhecimento do Santo resulta em discernimento"
+        - source: "como-ficar-rico-em-9-passos"
+          quote: "voce pode ter tudo na vida mas nunca voce vai ter tudo por completo Se voce ignorar o mais importante o seu lado espiritual"
+        - source: "mudana-de-vida-os-12-princpios-de-provrbios-me-fizeram-prosperar"
+          quote: "Eu sempre gosto de ler proverbios pelo menos uma vez a cada dois meses"
+      demonstrated_evidence:
+        - behavior: "Usa Proverbios de Salomao como framework principal para decisoes de negocios e vida"
+          frequency: "Em praticamente todos os episodios de conteudo profundo"
+        - behavior: "Referencia biblica constante em contextos de negocios (fe como musculo, proverbios como guia de riqueza)"
+          frequency: "Presente em 80%+ dos conteudos analisados"
+        - behavior: "Participa ativamente de louvor na igreja, ensaios com o irmao Ramon"
+          frequency: "Historico de longa data"
+        - behavior: "Saiu de grupo de WhatsApp da familia por conteudo inapropriado, citando principios"
+          frequency: "Decisao pontual mas reveladora"
+      triangulation: "6/6 sources confirmam - valor mais consistente em todo o corpus"
+      confidence: high
+
+    - value: "Familia como Fundamento e Verdadeira Riqueza"
+      priority: 2
+      stated_evidence:
+        - source: "mudana-de-vida-os-12-princpios-de-provrbios-me-fizeram-prosperar"
+          quote: "a verdadeira riqueza e ter uma familia forte unida e juntos voces conquistarao o que desejarem ninguem enriquece perdendo sua familia"
+        - source: "abrindo-a-caixa-preta-podcast-extremo-129"
+          quote: "a verdadeira riqueza e quando voce conquista algo e tem alguem para comemorar junto com voce e isso esse alguem e a sua familia"
+        - source: "abrindo-a-caixa-preta-podcast-extremo-129"
+          quote: "a gente nao fala so de negocio a gente fala tambem de familia porque no decorrer dos anos nos percebemos tambem que tem muita gente que consegue crescer financeiramente mas a familia ta quebrada"
+        - source: "voc-tem-medo-de-ser-rico"
+          quote: "uma pessoa rica e aquela pessoa que tem em abundancia em todas as areas da sua vida entao ela tem saude em abundancia ela tem amigos em abundancia ela tem um casamento com muito amor em abundancia"
+      demonstrated_evidence:
+        - behavior: "Comprou casa para os pais junto com Ramon"
+          frequency: "Marco de vida citado com orgulho"
+        - behavior: "Levou pai e mae para viajar como realizacao pessoal"
+          frequency: "Citado como conquista significativa"
+        - behavior: "Saiu de grupo de WhatsApp por respeito a esposa Larissa"
+          frequency: "Decisao imediata sem hesitacao"
+        - behavior: "Envolveu esposa Larissa na analise estrategica de canais de conteudo"
+          frequency: "Rotina de trabalho"
+      triangulation: "5/5 sources - valor indissociavel da identidade"
+      confidence: high
+
+    - value: "Comprometimento Acima de Talento"
+      priority: 3
+      stated_evidence:
+        - source: "abrindo-a-caixa-preta-podcast-extremo-129"
+          quote: "o que ganha jogo nao e Talento e comprometimento"
+        - source: "abrindo-a-caixa-preta-podcast-extremo-129"
+          quote: "eu nunca fui uma pessoa assim talentosa nao sou ne ramor Eu sou ruim no futebol sou ruim na musica sou ruim em tudo que eu mas eu decidi me comprometer"
+        - source: "abrindo-a-caixa-preta-podcast-extremo-129"
+          quote: "o comprometimento ele faz voce aprender qualquer materia que voce deseja desde que voce tem a consistencia"
+        - source: "7-principios-podcast-extremo-111"
+          quote: "voce esta ocupado nao significa produtivo"
+      demonstrated_evidence:
+        - behavior: "Trabalha no marketing digital desde 2011 - 15 anos no mesmo campo"
+          frequency: "Carreira inteira"
+        - behavior: "Começou como motoboy na empresa do pai, depois DJ, depois digital - sempre se comprometeu 100%"
+          frequency: "Trajetoria de vida"
+        - behavior: "Posta conteudo quase todos os dias, live toda quarta-feira"
+          frequency: "Semanal/diario consistente"
+        - behavior: "Virava noites para aprender no inicio da carreira digital"
+          frequency: "Periodo formativo"
+      triangulation: "5/5 sources - mantra pessoal repetido obsessivamente"
+      confidence: high
+
+    - value: "Integridade e Honestidade como Base de Tudo"
+      priority: 4
+      stated_evidence:
+        - source: "como-ficar-rico-em-9-passos"
+          quote: "e melhor ser pobre e honesto do que ser rico e desonesto"
+        - source: "como-ficar-rico-em-9-passos"
+          quote: "jamais eu vou prosperar quebrando principios quebrando minha honestidade"
+        - source: "como-se-tornar-um-lder"
+          quote: "eu poderia mentir fazer mais dinheiro muito mais eu posso ter menos dinheiro que muita gente hoje mas quem tem principios e valores abencoa toda a sua geracao"
+        - source: "abrindo-a-caixa-preta-podcast-extremo-129"
+          quote: "crescer sem perder a sua essencia sem perder integridade honestidade criar negocios duradouros"
+        - source: "como-ficar-rico-em-9-passos"
+          quote: "a boa reputacao vale mais que grandes riquezas ser estimado e melhor que prata e ouro"
+      demonstrated_evidence:
+        - behavior: "Recusa negociar integridade por dinheiro - declaracao publica"
+          frequency: "Principio de vida"
+        - behavior: "Valoriza reputacao acima de faturamento como metrica de sucesso"
+          frequency: "Tema recorrente"
+        - behavior: "Abertamente fala sobre fracassos e prejuizos (R$500 mil em distribuicao)"
+          frequency: "Transparencia consistente"
+      triangulation: "5/5 sources"
+      confidence: high
+
+  # -------------------------------------------------------------------------
+  # SECOND TIER VALUES (Very important, guides daily decisions)
+  # -------------------------------------------------------------------------
+  second_tier:
+
+    - value: "Sabedoria / Educacao Continua como Motor de Riqueza"
+      priority: 5
+      stated_evidence:
+        - source: "mudana-de-vida-os-12-princpios-de-provrbios-me-fizeram-prosperar"
+          quote: "a sabedoria da mais lucro que a prata e rende mais que o ouro"
+        - source: "mudana-de-vida-os-12-princpios-de-provrbios-me-fizeram-prosperar"
+          quote: "uma coisa na minha vida que eu nunca economizei e nunca vou economizar e investir em mim porque voce e o seu melhor patrimonio"
+        - source: "como-ficar-rico-em-9-passos"
+          quote: "nos vamos economizar em tudo nessa vida... so que jamais economizaremos em conhecimento em cursos em mentorias"
+      demonstrated_evidence:
+        - behavior: "Participa de mentorias pagas desde 2014 continuamente"
+          frequency: "Anual, investimento constante"
+        - behavior: "Le Proverbios a cada 2 meses"
+          frequency: "Bimestral"
+        - behavior: "Pede conselhos constantemente via WhatsApp a empresarios maiores"
+          frequency: "Diario/semanal"
+      triangulation: "5/5 sources"
+      confidence: high
+
+    - value: "Transformacao do Proximo / Impacto Social"
+      priority: 6
+      stated_evidence:
+        - source: "abrindo-a-caixa-preta-podcast-extremo-129"
+          quote: "voce pode impactar outras pessoas de varias maneiras inclusive obras sociais o qual eu e Ramon somos muito envolvidos"
+        - source: "abrindo-a-caixa-preta-podcast-extremo-129"
+          quote: "a missao do nosso negocio e realmente de fato entregar o maior valor para o cliente"
+        - source: "dei-um-carro-0km-para-um-aluno"
+          quote: "para mim e uma satisfacao enorme de poder contribuir com essa comunidade"
+      demonstrated_evidence:
+        - behavior: "Deu carro 0km para aluno do Conversao Extrema"
+          frequency: "Acao pontual mas significativa"
+        - behavior: "Criou ecossistema completo (cursos, mentorias, comunidade) focado em transformacao"
+          frequency: "Core business"
+        - behavior: "Envolvimento com obras sociais declarado"
+          frequency: "Continuo"
+      triangulation: "4/4 sources"
+      confidence: high
+
+    - value: "Foco / Simplicidade Operacional"
+      priority: 7
+      stated_evidence:
+        - source: "7-principios-podcast-extremo-111"
+          quote: "cara quando tu foca numa coisa so num projeto so por vez e dedica ali Toda energia cara tem muito mais chance de dar muito certo"
+        - source: "7-principios-podcast-extremo-111"
+          quote: "para mim foco eu tenho a imagem na minha cabeca de uma lupa... concentra os raios solares todos num so ponto capaz de produzir fogo"
+      demonstrated_evidence:
+        - behavior: "Ficou 15 anos no marketing digital / Google Ads como especialidade central"
+          frequency: "Carreira inteira"
+        - behavior: "Admite que falta de foco atrasou resultados nos primeiros anos"
+          frequency: "Autocritica recorrente"
+      triangulation: "3/3 sources"
+      confidence: high
+
+    - value: "Comunidade / Ambiente como Acelerador"
+      priority: 8
+      stated_evidence:
+        - source: "mentes-solitarias-perdem-podcast-extremo-123"
+          quote: "Voce pode ser muito bom no que voce faz no ambiente errado voce vai se ferrar"
+        - source: "mudana-de-vida-os-12-princpios-de-provrbios-me-fizeram-prosperar"
+          quote: "o seu futuro depende da mesa que voce senta hoje"
+        - source: "como-ficar-rico-em-9-passos"
+          quote: "eu decidi andar com sabios por que Porque se eu ando com sabios eu me torno Sabio"
+      demonstrated_evidence:
+        - behavior: "Entrou em primeira mentoria em 2014 mesmo relutante, transformou seus resultados"
+          frequency: "Ponto de virada declarado"
+        - behavior: "Criou Extremo Black, Extremo Mind como programas de comunidade high-ticket"
+          frequency: "Core business"
+        - behavior: "13.341 mentorias individuais realizadas em 2023 no Extremo Black"
+          frequency: "Escala massiva"
+      triangulation: "4/4 sources"
+      confidence: high
+
+  # -------------------------------------------------------------------------
+  # THIRD TIER VALUES (Important, but secondary to the above)
+  # -------------------------------------------------------------------------
+  third_tier:
+
+    - value: "Humildade como Pre-requisito de Crescimento"
+      priority: 9
+      stated_evidence:
+        - source: "mudana-de-vida-os-12-princpios-de-provrbios-me-fizeram-prosperar"
+          quote: "o orgulho leva a desgraca mas com a humildade vem a sabedoria"
+        - source: "mentes-solitarias-perdem-podcast-extremo-123"
+          quote: "Po o Thiago parece inteligente Eu So pareco e porque eu ando com as pessoas certas"
+      demonstrated_evidence:
+        - behavior: "Se auto-declara 'burro' e 'sem talento' repetidamente"
+          frequency: "Muito frequente"
+        - behavior: "Pede conselhos ativamente a pessoas com resultados maiores"
+          frequency: "Habito declarado"
+      triangulation: "3/3 sources"
+      confidence: high
+
+    - value: "Vida Simples / Anti-Luxo"
+      priority: 10
+      stated_evidence:
+        - source: "como-ficar-rico-em-9-passos"
+          quote: "eu nao amo o luxo Eu amo a Deus o proximo meus amigos"
+        - source: "como-ficar-rico-em-9-passos"
+          quote: "quem ama o luxo nunca enriquecera"
+        - source: "3-livros-que-mudaram-minha-forma-de-pensar-sobre-dinheiro"
+          quote: "de 2011 ate 2020 eu vivia com o minimo do minimo e o resto eu guardava tudo"
+      demonstrated_evidence:
+        - behavior: "Escolheu investir R$500 mil em distribuicao de conteudo ao inves de comprar BMW"
+          frequency: "Decisao de investimento real"
+        - behavior: "Viveu com minimo de 2011 a 2020, guardando 80-90% da renda"
+          frequency: "Decada inteira"
+      triangulation: "3/3 sources"
+      confidence: high
+
+    - value: "Resiliencia Emocional"
+      priority: 11
+      stated_evidence:
+        - source: "a-verdade-chocante-sobre-os-fracassos-podcast-extremo-136"
+          quote: "voce pode estudar tudo sobre marketing sobre vendas crescimento de negocio mas sem o emocional alinhado voce nao vai conseguir crescer voce vai desistir"
+        - source: "a-verdade-chocante-sobre-os-fracassos-podcast-extremo-136"
+          quote: "desmoronar no lugar certo... tipo assim poxa voce e um empreendedor aqui nao da para voce desmoronar emocionalmente porque aqui as coisas dependem de voce"
+      demonstrated_evidence:
+        - behavior: "Se avalia 6/10 em controle emocional - honestidade sobre proprias fraquezas"
+          frequency: "Autodeclaracao"
+        - behavior: "Quando esta mal, fica quieto ao inves de jogar emocao nos outros"
+          frequency: "Padrao comportamental"
+      triangulation: "3/3 sources"
+      confidence: medium
+
+  # -------------------------------------------------------------------------
+  # VALUE CONFLICTS (Stated vs. Demonstrated Tension Points)
+  # -------------------------------------------------------------------------
+  value_conflicts:
+
+    - conflict: "Agressividade Comercial vs. Autenticidade Relacional"
+      description: >
+        Tiago prega autenticidade e integridade acima de tudo, mas opera
+        em um mercado de infoprodutos com tecnicas agressivas de lancamento,
+        urgencia, escassez e high-ticket. O modelo de negocios exige tacticas
+        de persuasao que podem tensionar o valor de 'ser autentico'.
+      stated_value: "crescer sem perder a sua essencia sem perder integridade honestidade"
+      demonstrated_behavior: "Usa funis de venda complexos, scarcity, eventos de conversao, high-ticket"
+      resolution_pattern: >
+        Resolve pela crenca de que vender e servir - se o produto transforma,
+        a venda agressiva e um ato de amor. 'Se voce nao aprender a vender
+        voce vai ser vendido pelo preco mais baixo possivel.'
+      confidence: high
+
+    - conflict: "Simplicidade Pessoal vs. Escala Empresarial"
+      description: >
+        Prega vida simples e anti-luxo, mas construiu um ecossistema
+        empresarial complexo (Conversao Extrema, Blueberry, Extremo Black,
+        Extremo Mind) com faturamento de R$30M e centenas de colaboradores.
+      stated_value: "ter uma vida simples... gastar menos do que ganha"
+      demonstrated_behavior: "Opera multiplas empresas com estrutura complexa e equipe grande"
+      resolution_pattern: >
+        Simplicidade e pessoal (custo de vida baixo), complexidade e empresarial
+        (reinvestimento). 'Economizar em tudo menos em conhecimento.'
+      confidence: medium
+
+    - conflict: "Fe Biblica vs. Ambicao Financeira Explicita"
+      description: >
+        Cita 'o temor do Senhor e o principio da sabedoria' e 'e melhor ser
+        pobre e honesto do que rico e desonesto', mas tambem declara
+        abertamente 'to mesmo riquinho' e defende agressivamente a busca
+        por riqueza financeira.
+      stated_value: "voce pode ter tudo na vida mas nunca vai ter tudo por completo Se voce ignorar o mais importante o seu lado espiritual"
+      demonstrated_behavior: "Metas financeiras agressivas, fala abertamente sobre ser rico, defende riqueza"
+      resolution_pattern: >
+        Resolve via teologia da prosperidade/Proverbios: riqueza e bencao divina
+        para quem segue principios. O dinheiro e ferramenta, nao idolo.
+        'O dinheiro e bom nas maos dos sabios.'
+      confidence: high
+
+  # -------------------------------------------------------------------------
+  # TEMPORAL EVOLUTION (How values shifted over time)
+  # -------------------------------------------------------------------------
+  temporal_evolution:
+
+    phase_1_2007_2013:
+      label: "Fase Exploratoria - Sobrevivencia e Busca"
+      dominant_values:
+        - "Trabalho duro como escape da pobreza"
+        - "Empreendedorismo como unica opcao (nunca cogitou CLT)"
+        - "Foco em habilidade tecnica (trafego, Google Ads)"
+      context: >
+        Empresa do pai faliu em 2010. Comecou como DJ com R$1000 de limite.
+        Entrou na Blueberry do Ramon em 2011. Virava noites aprendendo.
+        Resistia a mentorias, achava que era 'so para pegar dinheiro'.
+
+    phase_2_2014_2019:
+      label: "Fase de Transformacao - Virada de Chave"
+      dominant_values:
+        - "Abertura para mentorias e comunidade (virada em 2014)"
+        - "Investimento em educacao como prioridade maxima"
+        - "Vida austera - guardava 80-90% do que ganhava"
+      context: >
+        Entrou na primeira mentoria (do Erico) por insistencia do Ramon.
+        'Isso mudou o meu jogo eu to aqui ate por causa daquela pequena decisao.'
+        Crescimento acelerou enormemente. Criou base financeira solida.
+
+    phase_3_2020_presente:
+      label: "Fase Madura - Proposito e Legado"
+      dominant_values:
+        - "Fe e familia como centro absoluto"
+        - "Transformacao do proximo como missao divina"
+        - "Riqueza holistica (todas as areas, nao so dinheiro)"
+        - "Principios e valores inegociaveis"
+      context: >
+        Faturamento de R$30M. Independencia financeira para filhos e netos.
+        'Deus tenha colocado essa missao na nossa vida.' Percepcao de que o
+        negocio transforma familias, nao apenas faz dinheiro. Conteudo cada
+        vez mais espiritual e de principios.
+
+    key_shift_moments:
+      - moment: "Falencia do pai (2010)"
+        impact: "Cristalizou mentalidade empreendedora - 'em nenhum momento da minha vida cogitei ser CLT'"
+      - moment: "Entrada na mentoria do Erico (2014)"
+        impact: "Destruiu preconceito com mentorias, abriu visao de escala"
+      - moment: "Feedback dos alunos sobre transformacao familiar"
+        impact: "Mudou entendimento do proposito do negocio de 'ensinar trafego' para 'transformar familias'"
+      - moment: "Prejuizo de R$500 mil em distribuicao (2021)"
+        impact: "Reforçou valor de 'aprender com erros' e 'pedir conselhos antes'"

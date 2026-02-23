@@ -1,0 +1,14 @@
+# AS 4 FERRAMENTAS QUE VOCÊ PRECISA PARA FAZER CONSERTOS EM PLACAS DE AR CONDICIONADO #AME
+
+- **Video ID:** q-GUBJkiyds
+- **URL:** https://www.youtube.com/watch?v=q-GUBJkiyds
+- **Duration:** 3 min
+- **Views:** 599
+- **Published:** 2021-12-31T15:00:44Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+o nível zero saindo do zero como é que o mundo Zé Você vai precisar ter festa bem missão para a extensão e confia em mim aí aqui já fez isso algumas vezes é precisar de um frango e solta com as ondas se assentou olhos Family metragem lado qualquer largura de solda só um baixo consumir solda tubos em Cristóvão quer que seja solda sugador aqui eu vou utilizar qualquer furador aconselho a utilizar o Master da afr com o produtor de pico é melhor tem aonde é caro na verdade o corpo de 20 pontos de 15 contei bota só uma borracha na ponta protetor de bico é dois reais e vai para cima tá jogador e multímetro Qual o time do Lauane cara de início ao quem eu usei menos do Espírito aí cara vem faz um igual vestido de chilito aí canal marcando relativamente boa aí me lascou a minha recomendação então qualquer multímetro você começar qualquer um é do que a qualidade motivo de saber como utilizar o motivo aqui que eu me chamar ele não sabe é utilizar o multímetro então principal saber utilizar e texto Realmente são quatro ferramentas que você enviar e uma mesa um bancada aonde o bancada um mês cara e madeira Talvez uma dele bota só ela tá mais de metal você não vai fazer que eu fui lá já cometi essa atrocidade eu lembro que eu sabia sossega né pronto vai dormir 15 eu peguei televisão paga segunda chapa de metal foi um papocado de fogos mais 2 mais lindo do mundo ele sabe o porquê que tava botando isso aí ó se eu fiz estou aqui eu vou aproveitar essa família porque eu sou essas quatro ferramentas e um bocado uma cada um mês de madeira tá então uma tomada perto você energias das placas e posição nós vamos aprender a montar o teste série então parece série e você inicia tem um áudio Onde eu compro Isso aí foi perguntado você compra Oi livre vai no mercado livre.com.br e você acha tudo isso a Rê tudo isso no MercadoLivre barato o cálculo uma vez deu r$ 150 menos menos r$ 150 calculando todos os mais baratos possíveis deu 120 e poucos reais aí você começa um negócio que você Tente pouco aí de material Ah não depois aí depois eu pensei em comprar uma fonte de bancada aí você precisa comprar um time melhor foi esse procedimento não fiz eu usava tudo meu pai o último de mim para o meu pai os olhos do meu pai meu permite usar vários uma pistola primeira coisa que eu fiz foi comprar várias horas de solda na da marca que eu achava que era melhor na época comprei um jogador bom ele tava massa FR e foi Atlético é o último

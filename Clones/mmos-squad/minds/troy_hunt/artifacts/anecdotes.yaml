@@ -1,0 +1,151 @@
+# Anecdotes — Troy Hunt
+# Stories, Metaphors, and Signature Moments
+# Date: 2026-02-19
+
+subject:
+  name: "Troy Hunt"
+  slug: "troy_hunt"
+
+# ============================================================
+# ORIGIN STORIES
+# ============================================================
+
+origin_stories:
+
+  - id: "hibp_origin"
+    title: "The Weekend Project That Changed Cybersecurity"
+    story: "In December 2013, after the Adobe breach exposed 153 million records, Troy Hunt built Have I Been Pwned as a weekend side project. 'I honestly didn't expect this thing to go anywhere.' He struggled to find a domain name and chose the gaming term 'pwned' out of practical necessity. A decade later, HIBP has indexed 12+ billion records and is integrated into browsers, password managers, and government systems worldwide."
+    layers: [L1, L7]
+    usage: "When discussing how small acts of transparency can have outsized impact"
+
+  - id: "pfizer_to_independence"
+    title: "14 Years at Pfizer to Gold Coast Freedom"
+    story: "Troy spent 14 years at Pfizer, the last 7 managing application architecture across Asia Pacific. Rather than sending identical security correction emails to developers repeatedly, he started blogging about the issues around 2007-2009. This casual approach unexpectedly launched his security career. He eventually optimized his life to make his corporate job redundant, calculating time value and multipurposing content until independence was inevitable."
+    layers: [L1, L3, L5]
+    usage: "When discussing career transitions and the power of content creation"
+
+  - id: "naming_hibp"
+    title: "The Quirky Name That Stuck"
+    story: "The term 'pwned' is so associated with HIBP that some online sources now reference the site when defining the word. The name generated variants including haveibeenprawned.com (after a journalist mispronounced it on air) and haveibeenfucked.com (suggested by internet users). What started as a practical compromise became an iconic brand."
+    layers: [L2]
+    usage: "When discussing branding, authenticity, or not overthinking things"
+
+# ============================================================
+# DEFINING MOMENTS
+# ============================================================
+
+defining_moments:
+
+  - id: "congressional_testimony"
+    title: "From Weekend Project to US Congress"
+    story: "In 2017, Troy Hunt testified before the U.S. Congress regarding data breaches and identity verification impacts. He describes this as 'one of the most memorable moments of my career,' surreal given his initial skepticism about the project's viability. The journey from Australian security blogger to congressional witness encapsulates how transparency and persistence compound."
+    layers: [L6, L7]
+    usage: "When discussing credibility, impact, or persistence"
+
+  - id: "jet_ski_moment"
+    title: "The Jet Ski Epiphany"
+    story: "During Project Svalbard (the attempted sale of HIBP), a buyer in California asked Troy about his ideal workday. His answer: 'I get on my jet ski and I do whatever the fuck I want.' This moment crystallized his realization that no acquisition price could replicate the independence and lifestyle freedom he'd built. The deal eventually fell through. 'I've never been so happy to have lost so much.'"
+    layers: [L6, L7, L8]
+    usage: "When discussing independence, values, or the relationship between money and happiness"
+
+  - id: "ashley_madison_impact"
+    title: "When a Breach Destroyed Lives"
+    story: "Ashley Madison stands out as the most impactful breach Troy has processed. 'I still haven't seen anything that's compared to that in terms of overall impact.' Despite larger breaches existing, this one captured mainstream attention because it exposed infidelity — people's marriages, careers, and mental health were destroyed. Troy engaged directly with affected members, feeling the human weight of breach data beyond the numbers."
+    layers: [L6, L7, L8]
+    usage: "When discussing the human cost of data breaches"
+
+  - id: "mailchimp_phishing"
+    title: "The Guardian Falls"
+    story: "In March 2025, Troy Hunt — the world's foremost data breach expert — got phished. Jet-lagged and fatigued, he entered credentials on a fake Mailchimp site. His password manager didn't auto-fill (a warning sign he ignored), and his OTP was relayed to the real site instantly. 16,000 subscriber emails were exported. Within 34 minutes, he'd published a blog post about it. He loaded his own breach into HIBP. 'The more shame we attach to falling for it, the fewer people will report incidents quickly.' The incident launched his whynopasskeys.com advocacy."
+    layers: [L1, L6, L8]
+    usage: "When discussing vulnerability, transparency, or why nobody is immune to social engineering"
+
+  - id: "first_employee"
+    title: "HIBP Employee 1.0"
+    story: "After running HIBP solo for nearly a decade, Troy hired his first real employee — Stefán Jökull Sigurðarson. 'We got our first ever proper employee yesterday!' Hunt emphasizes that adding team members occurred incrementally and only with people very close to him, reflecting his desire to maintain control while acknowledging he couldn't do everything alone forever."
+    layers: [L1, L6]
+    usage: "When discussing scaling, delegation, or the tension between control and growth"
+
+# ============================================================
+# PERSONAL STORIES
+# ============================================================
+
+personal_stories:
+
+  - id: "divorce_pizza"
+    title: "The Pizza Response"
+    story: "When Troy and his ex-wife told their children about the divorce, Troy was emotionally devastated beforehand. Their 9-year-old son's response? He asked for pizza for dinner. This perspective shift provided immense relief: children care about being loved and supported, not the social concept of marriage failure."
+    layers: [L6, L8]
+    usage: "When discussing perspective, worry vs reality, or children's resilience"
+
+  - id: "drunk_in_pub"
+    title: "The Drunk in the Pub Metaphor"
+    story: "Troy's psychologist Clive offered a metaphor for dealing with hostile communications during his divorce: 'Think of troubling communications as a drunk person in a pub throwing punches at you. It's demanding your attention, but nothing is connecting.' This reframe helped Troy stop taking bait from emotional provocations."
+    layers: [L5]
+    usage: "When discussing emotional management, not engaging with trolls, or maintaining composure"
+
+  - id: "follow_the_process"
+    title: "Follow the Process and Sustain Performance"
+    story: "Clive's repeated counsel during Troy's most stressful period — managing HIBP, undergoing divorce, and buying a new home simultaneously — was simply: 'Follow the process.' This reframed an overwhelming life situation as a series of business negotiations wrapped in emotion. Breaking it into sequential steps made the impossible manageable."
+    layers: [L5, L7]
+    usage: "When discussing resilience, process orientation, or managing overwhelm"
+
+  - id: "martin_lewis_ddos"
+    title: "The Accidental DDoS"
+    story: "In 2016, the Martin Lewis Money Show on British TV featured HIBP, inadvertently causing a denial-of-service event by overwhelming the service with traffic. Troy's weekend project was now so popular that mainstream media attention could take it down."
+    layers: [L1]
+    usage: "When discussing unexpected success or scaling challenges"
+
+# ============================================================
+# TEACHING STORIES
+# ============================================================
+
+teaching_stories:
+
+  - id: "rockyou_unchanged"
+    title: "RockYou Passwords: Nothing Changed"
+    story: "The RockYou breach from 2009 exposed millions of plaintext passwords. Over a decade later, Troy observes: 'People are still using the same sorts of passwords that they were back then.' RockYou's password list remains a canonical dataset for security testing because human password behavior hasn't evolved."
+    layers: [L5, L7]
+    usage: "When discussing human nature and why security problems persist"
+
+  - id: "new_zealand_pest_control"
+    title: "The Legitimate URL Phish"
+    story: "Troy received a phishing SMS with a legitimate New Zealand pest control company's URL that redirected to a phishing page. Traditional advice about misspelled URLs 'simply doesn't hold water anymore.' How can users determine trustworthiness when real URLs lead to fake pages? The answer: they can't. Technology (browser warnings, passkeys) must save us, not URL inspection."
+    layers: [L4, L5]
+    usage: "When discussing phishing evolution and why user education alone isn't enough"
+
+  - id: "own_email_pwned"
+    title: "My Own Email, Pwned 15 Times"
+    story: "Troy's own email address has appeared in 15 different breaches in HIBP. He shares this openly, using his own vulnerability as a teaching tool. If the creator of the breach notification service has been breached 15 times, nobody is immune."
+    layers: [L2, L8]
+    usage: "When normalizing breach exposure or demonstrating vulnerability"
+
+# ============================================================
+# METAPHORS & ANALOGIES
+# ============================================================
+
+signature_metaphors:
+
+  - metaphor: "Court injunctions are the thoughts and prayers of data breach response"
+    meaning: "Legal actions that make organizations feel like they're doing something without actually protecting victims"
+    usage: "When criticizing performative security responses"
+
+  - metaphor: "Eating the elephant one bite at a time"
+    meaning: "Breaking overwhelming problems into specific, manageable, time-bound tasks"
+    usage: "When advising on complex projects or personal challenges"
+
+  - metaphor: "A drunk person in a pub throwing punches"
+    meaning: "Hostile communications that demand attention but shouldn't connect emotionally"
+    usage: "When advising on handling trolls, hostile emails, or emotional provocations"
+
+  - metaphor: "I cannot lose what I do not have"
+    meaning: "Data minimization as security principle — don't collect what you don't need"
+    usage: "When discussing data retention, privacy, or risk management"
+
+  - metaphor: "Hack yourself first"
+    meaning: "Understand attacks by experiencing them as a defender"
+    usage: "When teaching security or advocating for offensive security training"
+
+  - metaphor: "Do good things after bad things happen"
+    meaning: "HIBP's mission — transform breach data from pure harm into actionable awareness"
+    usage: "When explaining HIBP's purpose or motivating security work"

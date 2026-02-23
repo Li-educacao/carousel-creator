@@ -1,0 +1,14 @@
+# Preciso ter osciloscópio para começar a reparar? #AME
+
+- **Video ID:** EvPqGPtqfyQ
+- **URL:** https://www.youtube.com/watch?v=EvPqGPtqfyQ
+- **Duration:** 3 min
+- **Views:** 157
+- **Published:** 2021-01-16T15:00:11Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+se você precisa da sua própria para começar Definitivamente não por que tá o sufocamento diagnóstico a família avançada de Diagnósticos que eu falo avançada porque me disse que acha que tem pela sua só pra poder trabalhar com outras eletrônica o Raquel obrigado se você acha que precisa para poder trabalhar no segmento de informática eletrônica crônico você não não sabe que pensar Você precisa tá porque uma forma está avançada não adianta nada do teu a sua mesma coisa falei uns minutinhos vai desse lado tem um multímetro e não saber utilizar tô aqui utilizar o multímetro ou sobre mais difícil a ele utilizar tá minha bota no medo não é porque escalas de aprendizado você aprenda a ser um multímetro ele pôs em tem um motivo então E aí você vai para o Paço Imperial Stop entender como é que tem que onda que eu só pra ele mede ondas e extenção tá me faz medições de onda de tensão Beleza ela não vai te corrente não só se você só se você modificar as outras lá que eu escutei de férias não consegue ninguém mas eu ia geral médio ondas de tensão Ah tá Se você não sabe qual o formato de ouro tem que ter aquele povo do circuito De que adianta pelas suas próprias e que adiantou suas fotos você não sabe que onde que tem que ir aquele outro certo não não não é nem falo com você só que não tem nem áudio a sua foto no meu canal porque eu acho que distância muito não tem que pegar ou faz algo a sua top faz ela com suas cópias eu não consigo como mexer no curso para ficar mais aulas ou até fazer mais novos as suas fotos no curso mas porque lá os sempre é um livro que Malu tá usei o seu é para botar ali nas suas costas e no YouTube eu não relacionar mais uma cena todas as ondas exatamente no canal ondas eu nem saber qual formato eu usei uma ponte retificadora qual formato da política a qual o senhor tem que deitar lá purificadora como é que tem texto formato de onda como é que tem que funcionar tá é se você não sabe disso hein é que tá encontros a teoria tá no sentido não tem teoria tô sem não sábio aí possa criaturas com 60 eu iria é o seu olha só só para você pô cara a teoria Não tava mentindo não é verdade é um sim mas tem que saber que não tem condição de perna tão osciloscópio é como forma de Diagnóstico é sensacional A análise mais avançados só consegue fazer com suas fotos sentar informações perfeitas o sistema o processo Eu já falei com suas próprio vários testes da fazer com a sua falta mas não precisa para começar não precisa suas próprias você acha que você não trabalha com isso que eu sou eu tô só praticamente enganado

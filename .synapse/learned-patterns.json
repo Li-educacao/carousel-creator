@@ -1,0 +1,52 @@
+{
+  "commands": {
+    "@dev:*help": {
+      "count": 1,
+      "lastUsed": "2026-02-14T15:50:00Z",
+      "nextCommands": {
+        "*task": 1
+      },
+      "contexts": ["{}"]
+    },
+    "@aios-master:*help": {
+      "count": 2,
+      "lastUsed": "2026-02-14T15:45:00Z",
+      "nextCommands": {
+        "*create": 1,
+        "*workflow": 1
+      },
+      "contexts": ["{}"]
+    }
+  },
+  "workflows": {
+    "story-development-cycle": {
+      "count": 3,
+      "steps": [
+        "@pm:*create-story",
+        "@dev:*task",
+        "@dev:*run-lint",
+        "@qa:*test",
+        "@devops:*push"
+      ]
+    }
+  },
+  "agents": {
+    "@dev": {
+      "count": 45,
+      "lastUsed": "2026-02-14T15:50:00Z"
+    },
+    "@qa": {
+      "count": 12,
+      "lastUsed": "2026-02-14T15:40:00Z"
+    },
+    "@aios-master": {
+      "count": 8,
+      "lastUsed": "2026-02-14T15:45:00Z"
+    },
+    "@devops": {
+      "count": 5,
+      "lastUsed": "2026-02-14T15:30:00Z"
+    }
+  },
+  "timestamp": "2026-02-14T15:50:00Z"
+}

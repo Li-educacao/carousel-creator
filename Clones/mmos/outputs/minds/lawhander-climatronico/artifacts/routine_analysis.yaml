@@ -1,0 +1,222 @@
+---
+# Layer 3: Routine & Habits (Temporal Patterns) - Lawhander Climatrônico
+# DNA Mental 8-Layer Analysis
+# Created: 2026-02-11
+# Sources: 58 blog posts + 2.744 YouTube videos (3.16M palavras)
+# Confidence: MEDIUM (inferido de conteudo, nao observacao direta)
+
+mind: "lawhander-climatronico"
+layer: 3
+layer_name: "Routine & Habits (Temporal Patterns)"
+extraction_date: "2026-02-11"
+source_count: 2802
+confidence_level: "medium"
+
+note: |
+  Lawhander nao documenta rotina pessoal diretamente. Padroes inferidos
+  do volume de producao, horarios de publicacao, e mencoes nos podcasts.
+  A "rotina de bancada" e bem documentada nos posts diagnosticos.
+
+---
+
+## ROTINA DE BANCADA (Bem documentada)
+
+### Fluxo Diagnostico Padrao
+description: |
+  Quando uma placa chega na bancada, Lawhander segue SEMPRE a mesma sequencia.
+  Nao importa a marca, modelo ou defeito — o metodo e universal.
+
+steps:
+  - step: 1
+    name: "Recepcao e Historico"
+    time: "2-5 min"
+    action: "Coletar informacoes: sintomas, historico, codigo de erro, reparos anteriores"
+    tools: "Nenhum — conversa com cliente/tecnico"
+
+  - step: 2
+    name: "Inspecao Visual e Olfativa"
+    time: "2-5 min"
+    action: "Procurar trilhas queimadas, capacitores estufados, sinais de superaquecimento, oxidacao"
+    tools: "Olhos, nariz, lupa"
+
+  - step: 3
+    name: "Medicoes Passivas (circuito DESLIGADO)"
+    time: "5-15 min"
+    action: "Continuidade, resistencia, teste de diodo, ESR de capacitores"
+    tools: "Multimetro, ESR meter"
+
+  - step: 4
+    name: "Medicoes Ativas (circuito LIGADO)"
+    time: "10-20 min"
+    action: "Tensao, corrente — comparar com valores esperados"
+    tools: "Multimetro, fonte de bancada"
+    safety: "⚠️ DESCARREGAR CAPACITORES ANTES. Tensoes >200V = LETAL."
+
+  - step: 5
+    name: "Isolamento de Componente"
+    time: "10-30 min"
+    action: "Dessoldar terminal e medir fora do circuito se necessario"
+    tools: "Ferro de solda, soprador termico"
+
+  - step: 6
+    name: "Reparo / Substituicao"
+    time: "15-60 min"
+    action: "Substituir componente defeituoso. Seguir projeto original."
+    tools: "Ferro de solda, soprador, componente de reposicao"
+
+  - step: 7
+    name: "Teste Pos-Reparo"
+    time: "20-30 min (+ 24-48h burn-in)"
+    action: "Rodar sob carga, monitorar temperatura, verificar medicoes"
+    tools: "Multimetro, termometro"
+
+### Time-Boxing por Tipo de Diagnostico
+schedule:
+  - type: "Cabo/conector"
+    time_box: "20 min"
+    frequency: "40-50% dos casos"
+
+  - type: "Capacitores/ESR"
+    time_box: "15 min"
+    frequency: "60-70% das falhas inverter"
+
+  - type: "SMD/IC"
+    time_box: "30-90 min"
+    frequency: "Casos complexos"
+
+---
+
+## ROTINA DE PRODUCAO DE CONTEUDO (Inferida)
+
+### Volume de Producao
+description: |
+  2.744 videos publicados = media de ~4-5 videos/semana ao longo de anos.
+  Sugere ROTINA DE PRODUCAO CONSISTENTE, nao esporadica.
+
+breakdown:
+  - type: "Shorts"
+    count: 1094
+    note: "Conteudo rapido, provavelmente batch-produced"
+  - type: "Videos medios"
+    count: 980
+    note: "Tutoriais e demonstracoes"
+  - type: "Tutoriais longos"
+    count: 461
+    note: "Passo-a-passo detalhado"
+  - type: "Podcasts (>=30min)"
+    count: 313
+    note: "Bate-papo Climatronico com alunos"
+
+### Blog Posts
+frequency: "~58 posts em ~2 anos = ~2-3 posts/mes"
+note: "Posts de 2024 provavelmente LLM-assisted (tom mais formal que voz oral)"
+
+---
+
+## ROTINA DE ENSINO (AME)
+
+### Bate-papo Climatronico (Podcast)
+frequency: "~313 episodios = media semanal"
+format: |
+  1. Abertura: "E ai cara, beleza? Conta ai a tua historia"
+  2. Historia do aluno: origem, dificuldades, primeiros reparos
+  3. Celebracao: "Show de bola! Parabens!"
+  4. Dicas praticas: precificacao, clientes, posicionamento
+  5. Fechamento: "Valeu ai, patrao! Sucesso ai! Tamo junto!"
+
+### Cursos AME
+products:
+  - name: "AME (Academia da Manutencao Eletronica)"
+    type: "Curso principal"
+  - name: "WPC02"
+    type: "Curso complementar"
+  - name: "Arquivo Secreto"
+    type: "Material avancado"
+
+---
+
+## FERRAMENTAS DE BANCADA (Rotina de uso)
+
+### Uso Diario (Indispensaveis)
+tools:
+  - name: "Multimetro digital"
+    usage: "TODA medicao — e o 'estetoscopio eletronico'"
+    note: "Comecou com um de R$40"
+  - name: "Ferro de solda (com controle termico)"
+    usage: "Substituicao de componentes"
+    settings: "330-360°C para lead-free"
+  - name: "ESR meter"
+    usage: "Teste de capacitores sem remocao"
+
+### Uso Frequente
+tools:
+  - name: "Soprador termico (estacao de ar quente)"
+    usage: "Reflow SMD, remocao de componentes"
+    settings: "300-350°C, 20-60s"
+  - name: "Fonte de bancada"
+    usage: "Testes com corrente limitada"
+  - name: "Lupa / microscopia"
+    usage: "Inspecao visual de trilhas e SMD"
+
+### Consumiveis
+items:
+  - "Fio esmaltado 0.2mm (reparo de trilhas)"
+  - "Flux / breu (localizacao de curto, reflow)"
+  - "Estanho (solda)"
+  - "Alcool isopropilico (limpeza)"
+
+---
+
+## PADROES TEMPORAIS INFERIDOS
+
+### Energia
+description: |
+  Nos conteudos, Lawhander demonstra ENERGIA CONSTANTE alta.
+  Nao ha evidencia de picos/vales significativos. A consistencia
+  de producao (4-5 videos/semana) sugere disciplina robusta.
+
+### Ritmo de Trabalho
+description: |
+  Baseado no volume de reparos (R$500-600/dia com ritmo organizado),
+  estima-se 3-5 reparos completos por dia util, alternando com
+  producao de conteudo.
+
+estimated_daily:
+  reparos: "3-5 placas/dia (mix de complexidades)"
+  conteudo: "1-2 videos/dia (incluindo edicao)"
+  ensino: "Interacoes com comunidade AME"
+
+---
+
+## HEALTH & SAFETY HABITS
+
+### Seguranca Eletrica (Bem documentada)
+habits:
+  - "SEMPRE descarregar capacitores antes de manipular placa"
+  - "Verificar com multimetro ANTES de tocar"
+  - "Usar resistor de 100kΩ/5W para descarga"
+  - "Nunca trabalhar em barramento DC energizado"
+
+### Ergonomia de Bancada (Inferida)
+note: "Nao documentada explicitamente nos sources. Gap de dados."
+
+---
+
+## TEMPORAL EVOLUTION
+
+### Inicio de Carreira
+routine: "Bancada pura — volume de reparos para acumular experiencia"
+focus: "Diagnosticar e reparar (construir base empirica)"
+
+### Fase Intermediaria
+routine: "Bancada + inicio de producao de conteudo"
+focus: "Sistematizar metodo (OET) e comecar a ensinar"
+
+### Fase Atual
+routine: "Bancada + conteudo em escala + ensino AME"
+focus: "Democratizacao em escala — formar Climatronicos"
+
+evolution_pattern: |
+  De EXECUTAR (reparar placas) para ENSINAR (formar tecnicos) para
+  ESCALAR (AME, YouTube, comunidade). Cada fase mantem a anterior
+  e adiciona nova camada.

@@ -1,0 +1,12 @@
+{
+  "provider": "railway",
+  "workspace_token": "1abb9039-d8f9-4695-bfe8-5f3fd4cbd391",
+  "endpoint": "https://backboard.railway.com/graphql/v2",
+  "projects": {
+    "charming-sparkle": "0a12cf14-8772-4a8a-80eb-d4296176bf1b",
+    "n8n-li-educacao": "700b5347-0d2f-4d65-a09b-664ff48048f4"
+  },
+  "created_at": "2026-02-15",
+  "last_validated": "2026-02-15",
+  "api_notes": "Requires User-Agent header to work. Endpoint is https://backboard.railway.com/graphql/v2"
+}

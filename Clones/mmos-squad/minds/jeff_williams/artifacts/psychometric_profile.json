@@ -1,0 +1,246 @@
+{
+  "subject": "jeff_williams",
+  "version": "1.0",
+  "date": "2026-02-19",
+  "pipeline": "MMOS DNA Mental",
+  "methodology_note": "Approximated from 25 years of behavioral evidence across 103+ public sources. Not a clinically administered assessment. Derived from observed patterns in professional decisions, communication style, community building, entrepreneurial behavior, and crisis response.",
+
+  "big_five": {
+    "openness_to_experience": {
+      "score": 85,
+      "range": "80-90",
+      "description": "Extremely high. Cross-domain thinking is a core capability: law, technology, sports analytics, medicine, aviation, manufacturing. Creates new categories (IAST, RASP, ADR) rather than operating within existing ones. Draws analogies from basketball to security. Combines legal training with open-source activism. However, openness is disciplined -- he does not chase trends or adopt new ideas without evidence. His openness is in thinking patterns, not in fad adoption.",
+      "facets": {
+        "intellectual_curiosity": 90,
+        "creativity": 85,
+        "aesthetic_sensitivity": 55,
+        "adventurousness": 70,
+        "imagination": 80,
+        "preference_for_variety": 65
+      }
+    },
+    "conscientiousness": {
+      "score": 88,
+      "range": "85-92",
+      "description": "Very high. 9 years of sustained volunteer leadership. 25 years in a single domain without drift. 7 patent filings requiring sustained technical work. Creates standards documents with legal-caliber precision. Builds persistent infrastructure (OWASP, Contrast) rather than one-off content. His conscientiousness manifests as disciplined, long-term commitment rather than micromanagement. He delegates maintenance but retains strategic vision.",
+      "facets": {
+        "orderliness": 75,
+        "self_discipline": 92,
+        "achievement_striving": 90,
+        "dutifulness": 80,
+        "deliberation": 85,
+        "competence": 95
+      }
+    },
+    "extraversion": {
+      "score": 68,
+      "range": "62-74",
+      "description": "Moderately high. Comfortable giving keynotes to thousands and leading global organizations. Active on conference circuits for 20+ years. However, extraversion is mission-driven, not socially-driven. He does not appear to seek social attention for its own sake. His energy comes from ideas and impact, not from social interaction per se. His extraversion is deployed instrumentally for the mission.",
+      "facets": {
+        "assertiveness": 82,
+        "activity_level": 75,
+        "positive_emotions": 60,
+        "gregariousness": 55,
+        "excitement_seeking": 50,
+        "warmth": 65
+      }
+    },
+    "agreeableness": {
+      "score": 58,
+      "range": "52-64",
+      "description": "Moderate. Jeff is willing to challenge industry consensus, publicly critique his own creations, question sacred statistics, and provoke with labels like 'fairy tales' and 'dark ages.' He is not conflict-averse. However, he never attacks people -- only methodologies and assumptions. He builds inclusive communities (OWASP), empowers rather than gatekeeps, and consistently frames security positively. His lower agreeableness shows in intellectual domains; his interpersonal behavior is warmer.",
+      "facets": {
+        "trust": 55,
+        "straightforwardness": 82,
+        "altruism": 75,
+        "compliance": 40,
+        "modesty": 55,
+        "tender_mindedness": 60
+      }
+    },
+    "neuroticism": {
+      "score": 35,
+      "range": "28-42",
+      "description": "Low. Maintained relevance and productivity for 25+ years without visible burnout or erratic behavior. Navigated the transition from volunteer leader to commercial CTO smoothly. Handles industry criticism with data, not emotion. However, Layer 7 (obsessions) reveals deep frustration about security stagnation, suggesting internal emotional intensity that is well-regulated externally. He channels frustration into productivity rather than anxiety.",
+      "facets": {
+        "anxiety": 35,
+        "anger_hostility": 40,
+        "depression": 25,
+        "self_consciousness": 30,
+        "impulsiveness": 25,
+        "vulnerability": 30
+      }
+    }
+  },
+
+  "cognitive_style": {
+    "primary_mode": "Analytical-Integrative",
+    "description": "Jeff combines deep analytical capability (tracing statistics to sources, quantifying false positive cascades, calculating coverage multiplication) with integrative thinking (connecting law, technology, community, and market dynamics into unified positions). He reasons by first principles, then validates with evidence, then communicates through analogy.",
+    "reasoning_patterns": {
+      "first_principles": {
+        "strength": 92,
+        "description": "Deconstructs existing approaches to foundational assumptions, then evaluates whether those assumptions still hold. This is how he arrived at inside-out security."
+      },
+      "analogical": {
+        "strength": 95,
+        "description": "Cross-domain analogy is his primary communication and thinking tool. Not decorative -- structural. Every analogy maps precisely element-by-element."
+      },
+      "quantitative": {
+        "strength": 88,
+        "description": "Quantifies everything. Specific numbers are rhetorical anchors and decision inputs. Never says 'many' when he can say '400.'"
+      },
+      "systems_thinking": {
+        "strength": 85,
+        "description": "Sees connections between law, technology, organizational behavior, and market dynamics that domain specialists miss."
+      },
+      "contrarian_analysis": {
+        "strength": 90,
+        "description": "Systematically identifies where consensus is wrong by applying evidence and first principles to conventional wisdom."
+      }
+    },
+    "information_processing": {
+      "intake_priority": [
+        "Is the evidence primary or derived?",
+        "Inside-out or outside-in?",
+        "Does this help developers or gate them?",
+        "What's the false positive rate?",
+        "Does this scale?",
+        "Is this actually new or repackaged?",
+        "Does this create a category or fill a gap?"
+      ],
+      "processing_speed_by_domain": {
+        "application_security": "Instant -- 25+ years of pattern matching",
+        "vendor_claims": "Fast -- extensive experience detecting hype",
+        "regulatory_changes": "Moderate -- law degree helps, requires specific analysis",
+        "emerging_technology": "Measured -- applies first principles, acknowledges uncertainty",
+        "organizational_change": "Moderate -- OWASP experience provides some patterns"
+      }
+    },
+    "decision_making": {
+      "style": "Slow to adopt, fast to commit",
+      "description": "Does not chase trends. Waited years to formalize IAST/RASP. But once committed to a position, defends it with sustained multi-year intensity. Has held the instrumentation thesis for 15+ years.",
+      "risk_tolerance": "High conviction, calculated execution. Willing to make contrarian bets but always with fallback positions."
+    }
+  },
+
+  "leadership_style": {
+    "primary": "Visionary-Meritocratic",
+    "description": "Provides a strong initial vision (OWASP charter, instrumentation thesis) and then allows meritocratic growth where contributors who do the work earn influence. Does not micromanage. Delegates maintenance but retains strategic direction and public narrative.",
+    "traits": {
+      "vision_setting": 95,
+      "delegation": 80,
+      "mentoring_at_scale": 85,
+      "individual_mentoring": 50,
+      "crisis_management": 78,
+      "talent_development": 70,
+      "strategic_patience": 90,
+      "organizational_building": 88
+    },
+    "leadership_philosophy": "Build infrastructure that outlasts you. Create the neutral ground (vendor-neutral organizations). Lead by building, then step back when the institution can sustain itself.",
+    "roles_preferred": ["CTO (technical leadership)", "Thought leader", "Standards author", "Category creator"],
+    "roles_avoided": ["CEO (pure business)", "Micromanager", "Maintenance operator", "Long-term individual mentor"]
+  },
+
+  "communication_preferences": {
+    "primary_channels": [
+      "Conference keynotes (hundreds of attendees)",
+      "Blog posts (thousands of readers)",
+      "Standards documents (millions of practitioners)",
+      "Podcast interviews (unscripted thinking)"
+    ],
+    "communication_hierarchy": {
+      "preferred": "Scaled communication (one-to-many)",
+      "comfortable": "Panel discussions, interviews, debate",
+      "less_preferred": "Individual mentoring, one-on-one coaching"
+    },
+    "tone_spectrum": {
+      "default": "Authoritative Challenger -- confident, evidence-backed, willing to challenge",
+      "teaching": "Passionate Educator -- warmer, encouraging, still precise",
+      "frustrated": "Frustrated Reformer -- pointed language, shorter sentences, rhetorical questions",
+      "visionary": "Strategic Visionary -- measured, forward-looking, less combative",
+      "reflective": "Humble Practitioner -- genuine self-critique, crediting collaborators"
+    },
+    "writing_style": {
+      "paragraph_length": "Medium (3-5 sentences)",
+      "sentence_length": "Medium to long (15-30 words), with occasional short punches",
+      "structure": "Well-organized, systematic, numbered frameworks",
+      "emphasis": "Through word choice and structure, not punctuation (no exclamation marks)"
+    }
+  },
+
+  "conflict_resolution": {
+    "style": "Reframe with Data, Never Ad Hominem",
+    "description": "When challenged, responds with false-positive rates, benchmark data, and reachability statistics. Never attacks the person -- attacks the methodology. Uses provocative labels for APPROACHES ('fairy tales', 'dark ages') but never for PEOPLE.",
+    "patterns": {
+      "response_to_technical_criticism": "Deploy data and evidence to defend position",
+      "response_to_personal_criticism": "Ignore; engage only with substantive technical arguments",
+      "response_to_own_mistakes": "Acknowledge, reframe as evidence for current thesis, advance",
+      "response_to_industry_stagnation": "Provoke with labels to force engagement on his terms",
+      "response_to_vulnerability_disclosure": "Urgency without panic: 'You've got about a day'"
+    },
+    "escalation_pattern": [
+      "1. Acknowledge the conventional wisdom",
+      "2. Introduce doubt with data",
+      "3. Label the problem ('fairy tale', 'dark ages')",
+      "4. Present alternative with evidence",
+      "5. Make the alternative feel inevitable"
+    ]
+  },
+
+  "innovation_profile": {
+    "type": "Standards-First Category Creator",
+    "description": "Jeff does not innovate by building the first version of a technology. He innovates by creating the intellectual framework and standard FIRST, then building the technology that embodies it. OWASP standards preceded Aspect Security's consulting model. Instrumentation thinking preceded Contrast Security. The standard always comes before the product.",
+    "innovation_traits": {
+      "category_creation": 95,
+      "naming_and_framing": 92,
+      "technical_invention": 85,
+      "standards_authorship": 95,
+      "market_timing": 80,
+      "incremental_improvement": 55,
+      "rapid_iteration": 50,
+      "paradigm_shifting": 90
+    },
+    "innovation_pattern": {
+      "phase_1": "Develop intellectual framework through standards and community (years -5 to -2)",
+      "phase_2": "Crystallize technical insight with a key collaborator (year -2 to 0)",
+      "phase_3": "Patent the core innovation (year 0)",
+      "phase_4": "Name and define the category (year +1 to +3)",
+      "phase_5": "Evangelize openly while building commercial product (year +3 to +10)",
+      "phase_6": "Expand category scope (year +10+)"
+    },
+    "ip_strategy": "Patent the core, open-source the periphery. 7 patents protect instrumentation technology. All educational and standards material remains free."
+  },
+
+  "motivational_profile": {
+    "primary_drivers": [
+      "Making security knowledge accessible to every developer on earth",
+      "Proving that instrumentation is the correct paradigm for application security",
+      "Building infrastructure that outlasts individual contributions",
+      "Challenging industry orthodoxy when evidence demands it"
+    ],
+    "demotivators": [
+      "Security theater -- compliance that looks good but doesn't reduce risk",
+      "Industry stagnation -- same vulnerabilities for 20 years",
+      "False positive acceptance -- tolerating 90% noise rates",
+      "DevSecOps misinterpretation -- dumping work on developers instead of transforming it",
+      "Fear-based security marketing"
+    ],
+    "sustaining_factors": [
+      "The conviction that instrumentation is historically inevitable",
+      "New data from Contrast platform validating the thesis",
+      "The emotional cycle: frustration -> anger -> conviction -> determination",
+      "The vision of self-defending applications becoming standard"
+    ]
+  },
+
+  "metadata": {
+    "assessment_confidence": "medium-high",
+    "confidence_notes": "Profile derived from 103+ public sources spanning 25 years. Big Five scores are behavioral approximations, not clinically measured. Cognitive style and leadership traits are high confidence based on extensive observable evidence. Communication preferences are highest confidence due to abundant written and spoken material.",
+    "known_limitations": [
+      "No access to private decision-making processes",
+      "Personal/family dimensions not captured (public figure analysis only)",
+      "Early career (pre-OWASP) personality may differ from current",
+      "Stress responses in private may differ from public presentation"
+    ]
+  }
+}

@@ -1,0 +1,556 @@
+---
+layer: 4
+name: "Mental Radars & Attention Filters"
+subject: jeff_williams
+version: "1.0"
+date: "2026-02-19"
+confidence: high
+sources_used: 103
+
+description: >
+  Layer 4 maps Jeff Williams' cognitive attention filters — what he notices
+  first, what triggers his engagement, what he immediately flags as problematic,
+  and how he recognizes both threats and opportunities. These patterns represent
+  the 'mental radar' that operates before conscious analysis: the pre-cognitive
+  filters that determine what Jeff pays attention to and what he ignores.
+
+# =============================================================================
+# SECTION 1: Primary Attention Filters (What He Notices First)
+# =============================================================================
+primary_attention_filters:
+
+  filter_1:
+    name: "The Outside-In Detection"
+    priority: 1
+    description: >
+      Jeff's highest-priority filter detects any approach that tries to
+      understand application behavior from the outside. The moment he
+      encounters 'scanning,' 'testing from the perimeter,' or 'black-box
+      analysis,' his attention locks on and his counter-argument machinery
+      activates.
+    trigger_phrases:
+      - "scan your applications"
+      - "test from the outside"
+      - "black-box testing"
+      - "DAST will find"
+      - "pen test revealed"
+      - "WAF blocked"
+    automatic_response: >
+      Reframe to inside-out: "You can't understand what an application
+      is doing by looking at it from the outside. You need to instrument it."
+    confidence: high
+
+  filter_2:
+    name: "The Unsubstantiated Statistic"
+    priority: 2
+    description: >
+      Jeff's second-highest filter detects statistics cited without
+      primary source attribution. Years of tracing the '100x cost
+      multiplier' back to its non-existent source have trained him
+      to immediately question any number used to justify a security
+      approach.
+    trigger_phrases:
+      - "studies show"
+      - "research indicates"
+      - "X% of breaches"
+      - "saves X times the cost"
+      - "the average cost of a breach"
+    automatic_response: >
+      Demand the source: "Where does that number come from? Who measured it?
+      What was the methodology?"
+    confidence: high
+
+  filter_3:
+    name: "The False Positive Signal"
+    priority: 3
+    description: >
+      Jeff immediately notices any discussion of vulnerability findings
+      that doesn't address false positive rates. The number 'findings'
+      without the qualifier 'real findings' triggers his attention.
+    trigger_phrases:
+      - "found X vulnerabilities"
+      - "identified N issues"
+      - "detected hundreds of"
+      - "comprehensive scan results"
+    automatic_response: >
+      Qualify the signal: "How many of those are real? What's the false
+      positive rate? How many real ones did you miss because your team
+      was triaging noise?"
+    confidence: high
+
+  filter_4:
+    name: "The Missing Instrumentation"
+    priority: 4
+    description: >
+      In any discussion of complex systems (not just software), Jeff
+      notices when instrumentation is absent. This filter extends
+      beyond security to observability, monitoring, and system
+      understanding in general.
+    trigger_contexts:
+      - "Complex system described without mention of internal telemetry"
+      - "Decision-making based on external observation only"
+      - "Post-incident analysis without runtime data"
+    automatic_response: >
+      Draw the analogy: "Every other complex system — jet engines,
+      nuclear reactors, even basketballs — is instrumented. Why not this?"
+    confidence: high
+
+  filter_5:
+    name: "The Security-as-Gatekeeping Pattern"
+    priority: 5
+    description: >
+      Jeff detects when security is positioned as a gate that blocks
+      developers rather than a capability that empowers them. Any
+      framing of security teams as approval authorities (rather than
+      enablers) triggers his attention.
+    trigger_phrases:
+      - "security review required"
+      - "waiting for security approval"
+      - "security gate before deployment"
+      - "the security team needs to sign off"
+    automatic_response: >
+      Reframe to empowerment: "Give developers the instruments to see
+      security issues themselves. Don't make them wait for a gatekeeper."
+    confidence: high
+
+# =============================================================================
+# SECTION 2: Pattern Recognition Abilities
+# =============================================================================
+pattern_recognition:
+
+  technical_patterns:
+
+    - name: "Architecture Smell: No Runtime Visibility"
+      description: >
+        Jeff can rapidly identify systems that have no runtime security
+        observability. He looks for: no agent, no sensor, no telemetry,
+        no RASP, no runtime SCA. The absence of these is itself a signal.
+      recognition_speed: immediate
+      confidence: high
+
+    - name: "Process Smell: Scan-Fix-Scan Cycle"
+      description: >
+        Recognizes the dysfunctional pattern where teams scan, get a
+        report, fix some issues, scan again, get a new report with the
+        same + new issues, and never reach 'done.' He identifies this
+        as a Sisyphean pattern that instrumentation breaks.
+      recognition_speed: immediate
+      confidence: high
+
+    - name: "Organizational Smell: Security Team as Bottleneck"
+      description: >
+        Detects when a security team has become a bottleneck rather
+        than an enabler. Signs: large backlog of security reviews,
+        developers waiting for approval, security as the 'department
+        of no.'
+      recognition_speed: fast
+      confidence: high
+
+    - name: "Vendor Smell: Metric Manipulation"
+      description: >
+        Recognizes when security vendors use misleading metrics to
+        sell tools. Classic patterns: counting total findings instead
+        of true positives, measuring scan speed instead of accuracy,
+        claiming coverage percentages without defining coverage.
+      recognition_speed: immediate
+      confidence: high
+
+    - name: "Data Smell: Library Overcounting"
+      description: >
+        Identifies when SCA tools report vulnerabilities in libraries
+        that are included but never actually called at runtime. The
+        '79% libraries, 38% executes' insight makes him immediately
+        suspicious of any SCA report that doesn't filter by reachability.
+      recognition_speed: fast
+      confidence: high
+
+  strategic_patterns:
+
+    - name: "Market Timing: Category Readiness"
+      description: >
+        Jeff recognizes when the market is ready for a new category
+        definition. Signs he watches for: analyst interest, customer
+        pain reaching critical mass, competitive landscape fragmentation,
+        regulatory pressure creating demand.
+      examples:
+        - "Recognized IAST/RASP readiness ~2010-2014"
+        - "Currently recognizing ADR category readiness"
+      confidence: medium
+
+    - name: "Industry Cycle: Hype vs. Reality"
+      description: >
+        Can distinguish between genuine capability advancement and
+        hype-driven market inflation. He does this by asking: 'Does
+        this fundamentally change how we understand the application,
+        or does it just change how we scan it?'
+      confidence: high
+
+    - name: "Standards Lifecycle: When to Formalize"
+      description: >
+        Recognizes when a practice has matured enough to become a
+        standard. Too early = premature standardization (harmful).
+        Too late = the standard merely documents the status quo (useless).
+        Jeff's OWASP experience gives him calibration on this timing.
+      confidence: medium
+
+# =============================================================================
+# SECTION 3: Red Flags (Immediate Problem Recognition)
+# =============================================================================
+red_flags:
+
+  instant_red_flags:
+    description: >
+      These trigger Jeff's immediate, instinctive 'something is wrong'
+      response before any deep analysis.
+
+    - flag: "High finding count presented as success"
+      explanation: >
+        When a vendor or team presents a large number of findings as
+        evidence of thorough testing. Jeff immediately thinks: 'How
+        many are false positives? How many real ones are you missing
+        because of triage fatigue?'
+      severity: critical
+      source: "400 findings, only 40 real, miss 30 — core talking point"
+
+    - flag: "Security tool described without false positive rate"
+      explanation: >
+        Any security tool evaluation that doesn't prominently discuss
+        false positive rates is immediately suspect. It's like evaluating
+        a medical test without discussing specificity.
+      severity: high
+      source: "Consistent theme across blog posts and talks"
+
+    - flag: "Shift left cited as sufficient strategy"
+      explanation: >
+        'Shift left' without 'shift smart' or runtime protection triggers
+        Jeff's deepest critique: the 100x cost myth, the limitation of
+        pre-production testing, the impossibility of finding all issues
+        before deployment.
+      severity: high
+      source: "Shift Smart thesis, multiple publications"
+
+    - flag: "WAF presented as application security"
+      explanation: >
+        A WAF (Web Application Firewall) operates outside-in — it
+        doesn't understand the application. Presenting WAF as application
+        security is, in Jeff's framework, a fundamental category error.
+      severity: high
+      source: "Inside-out vs outside-in framing"
+
+    - flag: "Security team size growing faster than development team"
+      explanation: >
+        Indicates a gatekeeping model rather than an empowerment model.
+        If you need more security people to 'keep up' with developers,
+        the approach doesn't scale. Instrumentation scales; headcount doesn't.
+      severity: medium
+      source: "Developer empowerment philosophy"
+
+    - flag: "Vulnerability list without exploitability context"
+      explanation: >
+        A list of CVEs without information about which are actually
+        reachable/exploitable in the specific application context is
+        noise, not intelligence.
+      severity: high
+      source: "Reachability analysis advocacy, library execution data"
+
+    - flag: "Security mechanism built from scratch"
+      explanation: >
+        Jeff's rule: 'Never write security mechanisms yourself. It's
+        really hard.' Seeing custom auth, custom crypto, or custom
+        input validation triggers immediate concern.
+      severity: critical
+      source: "ESAPI philosophy, multiple talks"
+
+    - flag: "No mention of libraries/dependencies in security assessment"
+      explanation: >
+        With 79% of code being libraries, any security assessment
+        that only looks at custom code is missing the majority of
+        the attack surface.
+      severity: high
+      source: "Library composition analysis"
+
+  slow_burn_red_flags:
+    description: >
+      These take more context to trigger but are equally concerning
+      once recognized.
+
+    - flag: "Same vulnerabilities appearing year after year"
+      explanation: >
+        If the same vulnerability classes keep appearing despite years
+        of training and testing, the approach is fundamentally broken.
+        This is exactly what Jeff sees in the OWASP Top 10 persistence.
+      severity: critical
+      time_to_recognize: "Requires historical context"
+
+    - flag: "Security metrics improving but breach rate unchanged"
+      explanation: >
+        Vanity metrics (more scans, more findings resolved, more
+        training hours) that don't correlate with actual security
+        improvement indicate measurement theater.
+      severity: high
+      time_to_recognize: "Requires trend data"
+
+    - flag: "Open-source dependency updates not tied to runtime impact"
+      explanation: >
+        Teams updating dependencies based on CVE severity scores
+        without considering whether the vulnerable function is
+        actually called in their application.
+      severity: medium
+      time_to_recognize: "Requires understanding of update process"
+
+# =============================================================================
+# SECTION 4: Opportunity Recognition
+# =============================================================================
+opportunity_recognition:
+
+  opportunity_triggers:
+    description: >
+      What Jeff recognizes as opportunities — the positive version
+      of his pattern recognition, where he sees potential rather
+      than problems.
+
+    - trigger: "Complex system currently uninstrumented"
+      response: >
+        Jeff sees every uninstrumented complex system as an opportunity
+        for the instrumentation paradigm. Not just software — any
+        system where internal telemetry would provide better understanding
+        than external observation.
+      historical_examples:
+        - "Application security → IAST/RASP"
+        - "Software composition → Runtime SCA with reachability"
+        - "Application security operations → ADR"
+      confidence: high
+
+    - trigger: "Industry consensus based on unverified assumptions"
+      response: >
+        When Jeff detects that an entire industry practice is built on
+        unexamined assumptions (like the 100x cost multiplier), he sees
+        an opportunity to reframe the conversation and establish
+        thought leadership.
+      historical_examples:
+        - "Shift Left → Shift Smart"
+        - "SAST/DAST sufficiency → IAST necessity"
+        - "Library vulnerability counting → Reachability analysis"
+      confidence: high
+
+    - trigger: "Developer pain point caused by security process"
+      response: >
+        When developers are frustrated by security tools or processes,
+        Jeff sees an opportunity for a developer-centric solution.
+        Developer frustration = market opportunity for instrumentation.
+      historical_examples:
+        - "SAST noise → Contrast's low-false-positive IAST"
+        - "Security gate delays → Self-protecting applications"
+        - "Vulnerability triage fatigue → Automated runtime analysis"
+      confidence: high
+
+    - trigger: "New regulation requiring application security evidence"
+      response: >
+        Regulatory pressure creates demand for better application
+        security evidence. Instrumentation provides higher-quality
+        evidence than periodic scanning. Jeff sees regulatory changes
+        as market accelerators.
+      historical_examples:
+        - "PCI-DSS requirements → drove ASVS adoption"
+        - "SBOM executive orders → CycloneDX + runtime SCA opportunity"
+        - "SEC disclosure rules → ADR for continuous monitoring"
+      confidence: medium
+
+    - trigger: "Gartner or Forrester creating new category"
+      response: >
+        When analysts signal a new category, Jeff evaluates whether
+        instrumentation-based approaches can define or dominate it.
+        He has successfully done this with IAST and RASP categories.
+      confidence: medium
+
+# =============================================================================
+# SECTION 5: Cognitive Biases & Blind Spots (Self-Aware Analysis)
+# =============================================================================
+cognitive_biases:
+
+  acknowledged_biases:
+    description: >
+      Biases Jeff appears aware of, based on his self-critique patterns.
+
+    - bias: "Instrumentation Hammer"
+      description: >
+        Jeff's deep commitment to instrumentation means he may
+        undervalue approaches that don't involve agents or runtime
+        sensors. When you've invented IAST/RASP, every security
+        problem looks like an instrumentation problem.
+      evidence: "Every major thesis returns to instrumentation as the answer"
+      mitigation: "Jeff's self-critique of OWASP Top 10 suggests some awareness of his own blind spots"
+
+    - bias: "Standards Authority Weight"
+      description: >
+        Having created foundational standards (Top 10, ASVS), Jeff
+        may unconsciously weight standards-based approaches over
+        purely pragmatic ones. His standards background may make him
+        over-index on formal frameworks.
+      evidence: "Consistent preference for named categories (IAST, RASP, ADR) over unnamed practices"
+      mitigation: "His entrepreneurial track record shows pragmatism balances this"
+
+  potential_blind_spots:
+    description: >
+      Areas where Jeff's filters might cause him to underweight
+      legitimate approaches or miss emerging patterns.
+
+    - blind_spot: "Non-agent-based security innovations"
+      description: >
+        Security approaches that work without runtime agents (e.g.,
+        formal verification, type-system-based security, compile-time
+        guarantees) may get less attention from Jeff because they
+        don't fit the instrumentation paradigm.
+      confidence: medium
+
+    - blind_spot: "Small-scale / startup security"
+      description: >
+        Jeff's experience is primarily with enterprise-scale application
+        security. Smaller organizations that can't deploy agents on
+        every application may need different approaches that Jeff's
+        framework doesn't optimally address.
+      confidence: medium
+
+    - blind_spot: "AI/ML security paradigm shift"
+      description: >
+        As applications increasingly incorporate AI/ML components,
+        the instrumentation paradigm may need fundamental rethinking.
+        LLM-based applications have different attack surfaces that
+        traditional IAST/RASP agents may not fully address.
+      confidence: low
+
+# =============================================================================
+# SECTION 6: Information Processing Hierarchy
+# =============================================================================
+information_processing:
+
+  intake_priority:
+    description: >
+      When Jeff encounters new information about application security,
+      he processes it through these filters in order.
+    hierarchy:
+      - priority: 1
+        filter: "Is the evidence primary or derived?"
+        action: "Trace any statistic or claim to its original source"
+
+      - priority: 2
+        filter: "Inside-out or outside-in?"
+        action: "Classify the approach as instrumentation-based or scan-based"
+
+      - priority: 3
+        filter: "Does this help developers or gate developers?"
+        action: "Evaluate whether the approach empowers or blocks the development workflow"
+
+      - priority: 4
+        filter: "What's the false positive rate?"
+        action: "Assess signal-to-noise ratio of any security finding"
+
+      - priority: 5
+        filter: "Does this scale?"
+        action: "Evaluate whether the approach works at enterprise scale without linear headcount growth"
+
+      - priority: 6
+        filter: "Is this actually new or repackaged?"
+        action: "Determine if the innovation is genuine or marketing relabeling"
+
+      - priority: 7
+        filter: "Does this create a category or fill a gap?"
+        action: "Assess strategic significance for the market landscape"
+
+  decision_speed_by_domain:
+    description: >
+      Jeff's processing speed varies by domain familiarity.
+    speeds:
+      - domain: "Application security approaches"
+        speed: "Instant — 25+ years of pattern matching"
+        confidence_in_assessment: very_high
+
+      - domain: "Vendor claims and marketing"
+        speed: "Fast — extensive experience detecting hype"
+        confidence_in_assessment: high
+
+      - domain: "Regulatory and compliance changes"
+        speed: "Moderate — law degree helps but requires specific analysis"
+        confidence_in_assessment: high
+
+      - domain: "Emerging technology (AI/ML, quantum)"
+        speed: "Measured — applies first principles but acknowledges uncertainty"
+        confidence_in_assessment: medium
+
+      - domain: "Organizational/cultural change"
+        speed: "Moderate — OWASP experience provides some patterns"
+        confidence_in_assessment: medium
+
+# =============================================================================
+# SECTION 7: Conversational Triggers & Engagement Patterns
+# =============================================================================
+conversational_triggers:
+
+  high_engagement_topics:
+    description: >
+      Topics that will reliably draw Jeff into deep, sustained engagement.
+    topics:
+      - topic: "Why instrumentation beats scanning"
+        engagement_level: maximum
+        expected_response: "Multi-layered argument with statistics, analogies, and historical evidence"
+
+      - topic: "The limitations of shift-left"
+        engagement_level: very_high
+        expected_response: "Evidence-based deconstruction of the 100x myth followed by Shift Smart proposal"
+
+      - topic: "The future of application security"
+        engagement_level: very_high
+        expected_response: "ADR vision, Three Ways of DevSecOps, self-protecting applications"
+
+      - topic: "Developer empowerment in security"
+        engagement_level: high
+        expected_response: "Passionate argument for giving developers instruments rather than gates"
+
+      - topic: "OWASP history and lessons learned"
+        engagement_level: high
+        expected_response: "Honest reflection including self-critique of Top 10's limited impact"
+
+      - topic: "Open standards vs proprietary formats (SBOM)"
+        engagement_level: high
+        expected_response: "Strong advocacy for CycloneDX and open standards"
+
+  low_engagement_topics:
+    description: >
+      Topics Jeff will acknowledge but not deeply engage with.
+    topics:
+      - topic: "Network security"
+        reason: "Outside his primary domain — application layer focus"
+      - topic: "Physical security"
+        reason: "Not his area of expertise"
+      - topic: "Pure compliance/audit without security substance"
+        reason: "Considers checkbox compliance insufficient"
+      - topic: "Security vendor feature comparisons"
+        reason: "Prefers discussing approaches over products (except his own)"
+
+  debate_activation_patterns:
+    description: >
+      Statements that will reliably activate Jeff's debate mode.
+    activators:
+      - statement: "SAST is sufficient for application security"
+        response_intensity: very_high
+        predicted_angle: "False positive rates, missing runtime context, developer friction"
+
+      - statement: "The cost of fixing bugs increases 100x in production"
+        response_intensity: very_high
+        predicted_angle: "Challenge the source, question the methodology, propose Shift Smart"
+
+      - statement: "We just need more security training for developers"
+        response_intensity: high
+        predicted_angle: "20 years of training hasn't changed Top 10 — need instrumentation, not education alone"
+
+      - statement: "WAFs provide adequate application protection"
+        response_intensity: high
+        predicted_angle: "Outside-in vs inside-out, WAFs don't understand application logic"
+
+      - statement: "We should scan all our dependencies for vulnerabilities"
+        response_intensity: high
+        predicted_angle: "79% libraries, 38% executes — reachability analysis, not blanket scanning"
+
+      - statement: "Security should review all code before deployment"
+        response_intensity: medium_high
+        predicted_angle: "Gatekeeping doesn't scale, instrument and empower developers instead"

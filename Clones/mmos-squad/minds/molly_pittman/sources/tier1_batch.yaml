@@ -1,0 +1,126 @@
+batch_configuration: tier1_critical
+description: "Tier 1 sources - Highest confidence for deep cognitive mapping"
+mind_name: "Molly Pittman"
+parallelization: true
+max_concurrent: 3
+
+sources:
+  # BOOKS (Highest Priority)
+  - id: source_001
+    type: book
+    title: "Click Happy: Your Guide to a Meaningful Life & Career in the Digital Era"
+    author: "Molly Pittman"
+    publication_date: "2021-01-01"
+    urls:
+      amazon: "https://www.amazon.com/Click-Happy-Meaningful-Career-Digital/dp/1734745401"
+      official: "https://mollypittman.com/"
+    available_format: "ebook/paperback"
+    priority: 1
+    notes: "Primary authored work - critical for Layer 6-8 values/obsessions"
+
+  - id: source_002
+    type: book
+    title: "Co-authored book with Ryan Deiss"
+    author: "Molly Pittman & Ryan Deiss"
+    publication_date: "2014-06-24"
+    urls:
+      amazon: "https://www.amazon.com/Books-Molly-Pittman/s?rh=n:283155,p_27:Molly%2BPittman"
+    priority: 2
+    notes: "Historical context from early career phase"
+
+  # MAJOR PUBLICATIONS
+  - id: source_004
+    type: article_collection
+    title: "Forbes & Entrepreneur Magazine Features"
+    publication_date: "2018-2025"
+    urls:
+      forbes: "https://money.com/author/molly-pittman/"
+    priority: 1
+    notes: "Multiple articles - collect all available"
+
+  # BLOG ARCHIVE (CRITICAL)
+  - id: source_005
+    type: blog
+    title: "Official Blog - mollypittman.com"
+    url: "https://mollypittman.com/blog/"
+    post_count: "100+"
+    publication_date: "2012-2025"
+    priority: 1
+    notes: "Comprehensive archive - tactical knowledge + philosophy evolution"
+    collection_strategy:
+      - "Collect ALL posts if < 150 total"
+      - "Focus on featured/top posts if > 150"
+      - "Last 3 years + top 20 all-time minimum"
+
+  # RECENT HIGH-VALUE INTERVIEWS
+  - id: source_006
+    type: interview
+    title: "Marketing in 2025 with Molly Pittman"
+    source: "Parker T Nash Podcast"
+    publication_date: "2024-12-01"
+    url: "https://www.parkertnash.com/podcast-14-molly-pittman-smart-marketer/"
+    format: "audio + transcript"
+    priority: 1
+    notes: "Most recent - captures 2025 strategic thinking"
+
+  - id: source_007
+    type: interview
+    title: "Real Talk With Molly Pittman: Fueled By Passion, Balance, And Service"
+    source: "Smart Marketer Podcast, Ep 105"
+    publication_date: "2024-06-01"
+    url: "https://podcasts.apple.com/gb/podcast/real-talk-with-molly-pittman-fueled-by-passion-balance/id1522629407?i=1000570291548"
+    format: "audio + transcript"
+    duration_minutes: 50
+    priority: 1
+    notes: "Core values interview - essential for Layer 6 values mapping"
+
+  - id: source_008
+    type: interview
+    title: "The Paid Traffic Tectonic Shift with Molly Pittman"
+    source: "Marketing Speak Podcast"
+    publication_date: "2025-02-01"
+    url: "https://www.marketingspeak.com/the-paid-traffic-tectonic-shift-with-molly-pittman/"
+    format: "audio + transcript"
+    priority: 1
+    notes: "Current market analysis - shows strategic thinking process"
+
+  # PERPETUAL TRAFFIC ARCHIVE (GOLDMINE)
+  - id: source_011
+    type: podcast_series
+    title: "Perpetual Traffic Podcast (Co-host Archive)"
+    url: "https://perpetualtraffic.com/"
+    episode_count: "100+"
+    publication_date: "2015-2025"
+    priority: 1
+    notes: |
+      CRITICAL: This is the richest source for daily communication style + decision patterns.
+      Collect last 50 episodes minimum + any "best of" compilations.
+      Episodes reveal authentic voice vs. polished interviews.
+
+collection_requirements:
+  expected_outputs:
+    - "Book PDFs or ebook content (Click Happy mandatory)"
+    - "Blog posts as Markdown files with metadata"
+    - "Podcast transcripts (YouTube auto-captions or AssemblyAI transcription)"
+    - "Interview transcripts"
+
+  metadata_preservation:
+    - Publication date
+    - Author/source
+    - Word count / duration
+    - Key topics/tags
+    - Direct quotes (sample)
+
+estimated_time: "4-6 hours with parallelization"
+estimated_tokens: "150K-200K tokens"
+success_criteria:
+  - "All 8 sources collected completely"
+  - "100+ blog posts captured"
+  - "All podcast transcripts extracted"
+  - "Metadata preserved for each source"
+  - "Files organized in sources/{type}/ structure"
+
+notes: |
+  This batch is CRITICAL for cognitive mapping. Prioritize Click Happy +
+  Perpetual Traffic archive + recent interviews. These three alone provide
+  comprehensive Layer 1-8 coverage. Other sources fill gaps and triangulate.

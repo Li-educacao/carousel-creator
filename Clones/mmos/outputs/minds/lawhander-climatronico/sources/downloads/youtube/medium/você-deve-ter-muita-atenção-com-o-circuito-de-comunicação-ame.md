@@ -1,0 +1,14 @@
+# Você deve ter muita atenção com o circuito de comunicação! #AME
+
+- **Video ID:** VHHAqArh0vk
+- **URL:** https://www.youtube.com/watch?v=VHHAqArh0vk
+- **Duration:** 3 min
+- **Views:** 314
+- **Published:** 2020-09-23T15:00:08Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+a beleza por esse caso lembrando porque deu um erro dois aonde hoje 99 tem um erro existe Falo sim né Eu acredito que eu acho que devido a menores aqui e o neném empírica aqui ó por esse circuito aqui ele é responsável pelo pela comunicação cara se alteram esse nele aí vem informação errada para cá Que consequência vai mandar um formação nada para cá E aí eu não sei fato qual qual dos dois micros responsável pelo pelo código de erro você é só um só o outros são os dois mas como os resistores estavam alterados estavam causando mandando informação errada estava de Tupã na comunicação E aí ele pode causar um erro não tem nada a ver não é que nem tava eu entendo na tabela por mais que não tem mas pode ser seja um erro não seja nada mesmo eu posso até hoje de comunicação né pô tá ruim a comunicação o círculo de comunicação tava danificado tinha defeito os custos com educação então será que o erro dos meios de comunicação eu não sei Se você souber deixa os comentários aí mas qual o signo que pelo fato de ter um defeito 15 de comunicação te alguma informação errada sendo enviada para o micro e essa informação errada acabou gerando você pode vir diferentão tá Então essa é o que eu acho sobre esse defeito mas não é o certo não tá eu trago sempre que a gente vive aqui e maneira bem empírico que a gente vê no dia a dia então a gente reparou esse circuito da comunicação E realmente sumiu código de erro dois e às vezes dava 99 também né Então a nossa circuito a gente conseguiu elucidar esse problema a Olha só esse circuito causa de erro de novo não tá pode ter descido outros circuitos que a gente estudou várias coisas também esse damos um micro quem sabe se o resto da unmik no Fechar o contato tava faltando enche o saco que tava Evidente aqui era antes dos resistores que estavam abertos são sempre parece erros nada a ver não alisa circuito todo de comunicação aqui ó a todos os resistores ó para computadores que fazem parte desse circuito que você vai ter uma noção melhor talvez tem algum de Feitoria esse tipo de aqui também ó aqui embaixo que faz comunicação percepção aqui já peguei defeito nele aqui e não deixava esses três leves acender outra coisa se esse milho aqui ele e alimentado com 5 volts já esse aqui é alimentado com 3,3 e 1.8 esse daqui ele é só sabe por lei os sensores e ele fez com esses três LED seus aqui já isso daqui ele assim esses outros dois leves Tá então não ligou esse aqui provavelmente a extenção tá ruim ou esse mico não está processando a ligou esse extrema negócios dois pode ser uma coisa assim mesmo aqui então sempre fica tem essa visão geral aqui nessa parte da Consul

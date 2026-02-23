@@ -1,0 +1,14 @@
+# APRENDER ISSO.... O TÉCNICO EM MANUTENÇÃO ELETRÔNICA TOMA UM CAMINHO SEM VOLTA | CLIMATRÔNICO | #13
+
+- **Video ID:** HnvXIwWLbvY
+- **URL:** https://www.youtube.com/watch?v=HnvXIwWLbvY
+- **Duration:** 3 min
+- **Views:** 150
+- **Published:** 2023-10-02T22:04:59Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+se o cara hoje trabalha com refrigeração e ele não entende da plasta eletrônica como eu sei que tem muitos muitos eu tô jogando esse jogo Meu principal cliente é o instalador entendeu demais o cara tá limitado entendeu E aí Que bom que tem um climatronic mas se o cara junta esses dois mundos o cara se tornou máquina velho PR Antes aqui eu passei um um ano ano passado mexendo com parte mecânica eu em um ano mexendo com a parte mecânica com essa mentalidade que eu tenho de climatronic em um ano de parte mecânica eu mexi com chile com vrf com chil e e parafuso scroll centrífugo coisas que gente que tá na refrigeração há 10 meu pai que tá H 10 anos nunca mexeu por qu por causa da parte eletrônica a parte eletrônica que me fez entrar cara eu cheguei para mexer no Chile York de um de um shopping eu não cheguei para mexer na parte mecânica eu cheguei o cara ei amigão defeito na placa o placa é comigo meu amigo lá entrei aí Ei cara o cara deixa a gente à vontade ali posso dar uminha na tua máquina aí eu fui entender a máquina né ô aqui É vá de expansão aqui é o co Ô legal aí eu tinha uma noção zinha de mecânica E aí caraca você estuda na prática porque a eletrônica abriu porta Então hoje se o cara tem mecânico o cara é bom de mecânico tem lá 30 40 20 anos de mecânica ele agrega um conhecimento de eletrônica cara ele virou a máquina e eu sei que no nosso mercado os caras gostam de ser técnico eu digo para meus alunos Às vezes o climatronic quando eu treino o cara quando eu treino cara climatronic eu treino além da competência técnica Isso é uma sacada que eu tive de treinar os caras por qu nós somos treinados a ser técnico a vida toda ser técnico tu estura tecnicidades na escola tecnicidades na faculdade e como a gente tava conversando anteriormente né o cara aprende a vender você estou hoje aqui não aprende a vender não aprend marketing não aprende a gerir a empresa não aprende precificar pronto precificar em eletrônica prato os caras precificam olha que louco ó componente eletrônico é muito barato muito barato precificação sof bastante no meu mercado e eu descobri que o meu modo de precificar era diferente do mercado quando eu fui mostrar pro mercado meu modo de precio ficar e até um negócio que que eu aprendi contigo ó o hh mas no meu mercado é um pouquinho diferente não pera aí para tudo para tudo aqui para tudo aqui que a gente precisa se exibir no momento certo esse cara é meu aluno gente tá de brincadeira

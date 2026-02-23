@@ -1,0 +1,14 @@
+# É POR ISSO QUE MUITOS TÉCNICOS REFRIGERISTAS NÃO SABEM FATURAR BEM NO SEU SERVIÇO | #18 #AME
+
+- **Video ID:** l5HVeJDADXQ
+- **URL:** https://www.youtube.com/watch?v=l5HVeJDADXQ
+- **Duration:** 3 min
+- **Views:** 94
+- **Published:** 2023-10-09T22:00:09Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+tem defeitos que eu acho que é pro mecânico reparar por exemplo eu de sensor sensor não é para Na minha opinião não é pro climatronic reparar é pro cara tá em campo lá viu o sensor corrige o defeito do sensor velho tu tem como testar um sensor tem um ter mím Testa o sensor mas eu já eu já parei e eu me revoltava com isso eu parei uma vez com um cliente meu da ltec disse cara vem cá vou te ensinar a testar um sensor e eu eu que explicando prato com toda a vontade do mundo eu olhava pro cara e o cara tava Nárnia a cabeça dele e ele não queria aprender eu disse não saber tá certo V próxima vez F sen traz para mim que eu reparo eu ganho meu dinheiro e tu ganho tu ganho o teu aí tá tudo bem isso é isso então se tu não quer eu vou est aqui para te eu dig com meus alunos disse cara ainda bem Tem uma galera que não quer estudar nesse mercado porque eles é que faz eles que são nossos clientes é infelizmente e no o mundo hoje tá tão doido né as inovações estão chegando e tem muita gente nova no mercado que tá nadando de braçada e tu pega um cara às vezes com 30 anos de empresa eu ten alguns alunos que sei lá tem aluno com 20 anos de empresa ele chega na mentoria e fala Prado Tá difícil cara tá cada vez mais difícil aí eu pergunto mas o que qual é o problema fal Prado a quantidade de trabalho tá cada vez diminuindo F como que é hoje aa prospec o cara o que é isso veja bem como eu tô muito tempo no mercado eu trabalho mais com indicação F então seu abençoado me diz uma coisa como que tu vaiar o teu crescimento se você depende que alguém indique o teu trabalho então não vai rolar Qual o problema dessa molecada tá chegando agora o cara chega com a mentalidade do digital total é um moleque que tem muita habilidade com as redes sociais Ele já sabe que o jogo tá ali sim aí ele abre uma empresa e vai lá faz tráfego faz Google meu negócio e aí meu irmão o cara que tá lá com 30 anos com a porta aberta fica esperando um cliente lembrar dele indicar esse moleque tá entrando no celular de um monte de gente e aí não tem como né porque aí fica uma briga que é é é insustentável porque quando eu dependo de indicação eu esse tava falando uma mentoria fi car como é que você planeja por exemplo 2024 como é que tu diz contanto que tu vai crescer sabe como é que um cara que faz estratégia eh resolve isso é o seguinte a gente liga para 10 pessoas por dia isso fechamos dois é isso aí a gente quer fechar 10 vai ter que ligar para 100 total aí então 2024 nós vamos passar vamos montar uma estrutura para ligar para 100 pessoas aí a gente vai deixar de fechar dois vamos fechar 10 e quando quiser fechar 20 é só te se virar e ligar para

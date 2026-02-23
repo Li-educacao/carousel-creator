@@ -1,0 +1,35 @@
+# Linguistic Patterns — Mind DNA Template
+# Voice, tone, vocabulary, rhetorical devices
+
+mind_id: ""
+mind_name: ""
+version: "0.1.0"
+
+voice:
+  tone: ""               # e.g., authoritative, conversational, provocative
+  register: ""           # e.g., formal, informal, technical, colloquial
+  personality: ""        # How the voice feels to the reader/listener
+
+vocabulary:
+  signature_words: []    # Words they use frequently
+  avoided_words: []      # Words they never use
+  jargon: []             # Domain-specific terms they favor
+  power_phrases: []      # High-impact phrases they repeat
+
+sentence_structure:
+  avg_length: ""         # short, medium, long
+  preferred_patterns: [] # e.g., "question-then-answer", "bold-claim-then-proof"
+  punctuation_style: ""  # e.g., heavy em-dashes, ellipsis, exclamation
+
+rhetorical_devices:
+  primary: []            # e.g., metaphor, anaphora, antithesis, tricolon
+  examples: []
+
+storytelling:
+  narrative_arc: ""      # How they structure stories
+  hooks: []              # How they open (pattern starters)
+  closers: []            # How they end (CTAs, callbacks, cliffhangers)
+
+emotional_range:
+  default: ""            # Baseline emotional tone
+  triggers: []           # What shifts their tone (urgency, empathy, frustration)

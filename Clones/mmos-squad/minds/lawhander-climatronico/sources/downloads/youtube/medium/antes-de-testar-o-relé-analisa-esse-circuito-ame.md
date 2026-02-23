@@ -1,0 +1,14 @@
+# Antes de testar o relé analisa esse circuito! #AME
+
+- **Video ID:** Tr8djCU1iI8
+- **URL:** https://www.youtube.com/watch?v=Tr8djCU1iI8
+- **Duration:** 3 min
+- **Views:** 335
+- **Published:** 2020-04-12T15:00:13Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+oi ó esses atores aqui ó estão bem oxidados tá de fato a gente vai medir aonde nos diodos zeners aqui ó laranjinhas estou usando esse em paralelo com a bobina então cima de nele e que vai a tensão de 12 volts que a samsung acionamento é para o relé estacionados tiver atenção viver e não tiver batendo pode ser feito um relé tá antes de tirar o é que eu posso tirar o relé me de fora também tá até uma hora já no canal e eu explico como testar um relé vamo tirar ela é meio de fora mas antes eu tirar o relevo eu vou ver se vai tá mandando não sinal por um relé que pode ser que não seja nem mandando aí se tiver mandando um sinal para relé e ele não tiver batendo aí não tiver nenhuma atenção aqui porque esse diodo aqui na nacional por esse relé e esse diodo ou desculpa esse jogo aqui está entrando a colombina desse relé esse de ouro aqui está parado com bobina desse relógio então eu acho que me disse mundo diodo a gente consegue me dá atenção tá na bobina se não tem nada na bobina e era para tá acionado pois é o leandro tava sem internet chegar a atenção se não tá chegando aqui vai resolver esse problema de não tá chegando então pessoal nem nem já tô aqui ainda tô só alucinando aqui que ele pode tá acontecendo se não tiver chegando então isso tirar o relé a gente deu teu trabalho de tirar de dicionário ela é eu vou e ver se está chegando atenção se tiver chegando aí eu vou passar respeitado o relé ela tá chegando 12 volts que não resetar seu não ele não tá batendo não tá sendo atenção aqui não morrem então pode ser o relé eu vou tirar o relevo a senhora tá bom não tá mas antes a gente vai analisar aqui o circuito ver se o circuito está chegando atenção eu vou medir atenção nesse diodo e nesse jogo aqui tá esse o geralmente na zona dá uma volta de reversão mas esse que colocou pessoa entrar parece que está acionado ela tá chegando 12 volts a querer-se relé que ele é que manda sinal aqui para o conector do ventilador tá como é que eu saio lá onde possa vir aqui ó e a gente e no caso a trilha aqui ó a caracteriza pelo outro lado tá não é para ver mas a gente tá por aqui a trilha de baixo se verniz a gente bipado aqui para cá ó ele vai limpar com o relé só mostrando aqui ó ó o que o quarto ventilador tá esses três temos aqui e aonde você vai limpar com em qual relegação na ilha e não é esse esse daqui ó tá e esse relé e esse será que o segundo não de fora de fora que aciona o ventilador tá

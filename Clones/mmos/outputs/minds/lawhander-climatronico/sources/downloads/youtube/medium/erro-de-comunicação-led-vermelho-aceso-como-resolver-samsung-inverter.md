@@ -1,0 +1,14 @@
+# Erro de comunicação | Led vermelho aceso | Como resolver? | Samsung Inverter
+
+- **Video ID:** Doq1dN9Cf4g
+- **URL:** https://www.youtube.com/watch?v=Doq1dN9Cf4g
+- **Duration:** 3 min
+- **Views:** 497
+- **Published:** 2024-11-02T15:00:13Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+Se liga só a comunicação ela vem nesse conector aqui ó na placa da condensadora nesse conector aqui ó tá ela vem nesse conector e aqui ela tem um circuito dela aqui ó esse aqui é um circuito da comunicação Tem um circuitinho aqui que é pelo circuito da comunicação claro todo esse circuito ele pode causar esse problema de ER de comunicação vou te trazer o que mais dá problema o que que mais apresenta defeito vou dar até um zoom aqui ó essa trilhazinha Inclusive essa bla aqui ó tá recuperada essa trilha essa trilhazinha aqui ó tá vendo tá até refeita aqui ó essa trilha ela vem aqui passa aqui por esse circuito e bem quec ela some ela atravessa aqui de um lado pro outro essa trilha é a trilha de comunicação ela vem aqui é todo um caminho dela aqui e vem pro micro micro tá desse lado de cá tá tá bem que assim ó então ela vem aqui passa por esse caminho vem para cá caminho chega aqui do outro lado do micro vem pro microcontrolador ela abre aqui ó essa aqui tá aberta ó por exemplo Então se ela abrir aqui você você vai refaz essa trilha e a comunicação volta a comunicar Então não é que o problema é que a comunicação não tá chegando no micro muitas das vezes muitas das vezes o problema é que a comunicação não está chegando no micro se a comunicação não tá chegando no micro aí vai dar erro de comunicação obviamente tá então hoje eu Trago essa cara da trilha mas de novo todo o circuito da comunicação todo esse circuito aqui ele pode causar de Comunicação tá detalhe os LEDs estão acendendo leds vem que assim ó três leds bem que assim esses três leds estão acesos se os LED não tiver acesos vai dar R de comunicação porque a fonte não tá ligando Inclusive tem AL tem vídeo aqui no canal explicando quando esses três leds não estão acendendo o que fazer então verificar se esses LED estão acendendo dá erro de comunicação aqui no display dá show se ficar ou vermelho aceso ou vermelho e verde aceso é erro de comunicação você vai verificar o circuito e principalmente essa trilha aqui da comunicação beleza pega essa sacada aí ó então é isso me diz aqui nos comentários se tu conseguiu solucionar o teu erro de de comunicação na tua Samsung o que que foi né se tu conseguiu solucionar e o que que foi qual foi a solução bota aqui nos comentários gostaria de saber e não esquece de se inscrever para não perder mais nenhum conteúdo como esse né e seg assistindo mais vídeos aqui no canal a gente se vê no próximo vídeo de análise de defeitos fique com Deus um abraço valeu

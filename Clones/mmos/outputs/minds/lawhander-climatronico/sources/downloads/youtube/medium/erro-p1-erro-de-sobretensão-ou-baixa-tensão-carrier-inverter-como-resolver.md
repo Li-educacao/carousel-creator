@@ -1,0 +1,14 @@
+# ERRO P1 | ERRO DE SOBRETENSÃO OU BAIXA TENSÃO | CARRIER INVERTER | COMO RESOLVER
+
+- **Video ID:** 2OqQiqRC3PQ
+- **URL:** https://www.youtube.com/watch?v=2OqQiqRC3PQ
+- **Duration:** 3 min
+- **Views:** 1,144
+- **Published:** 2024-11-12T22:00:01Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+olha aqui pra placa a placa é essa placa Carrier bateu olho nessa placa ó muitos componentes né muitos circuitos se vai olhar para apenas um esse azulzinho bem que assim ó este carinha aqui é um resistor de 2 MM vou dar um zoom nele aqui tá ó esse resistor aqui eu resistor aqui 2 MM e esse resistor ele é por ler a tensão eu vou medir ele aqui ó escala de resistência Vou ver na placa quanto que ele tem dá tá dando aberto aqui na placa tá tá dando aberto aqui na placa você vai o quê vai tirar ele levantar aqui ó levantar aqui um pino dele e vai medir ele fora da placa ele tem escrito 2m 2 m tem que dar 2 m tá tira ele tira um terminal dele aqui levanta o terminal dele Mega ele fora se ele der alterado tem que dar 2 megas se ele der 1 m se ele der 2,5 m 1,5 M alterado troqueo por quê Porque esse esse resistor ele é de precisão ele tem que dar o valor correto tá eu medi aqui na placa deu aberto Tiraria levantaria um pino dele aqui mediria fora Med tira ele da placa e mede ele fora se ele der aberto na placa pode ser que de aberto mesmo porque tem ele tá medindo até um capacitor Zinho aqui não CONSEG você não conseguir fazer medição tá precisa então para isso você vai tirar ele da placa vai medir ele Fora esse resistor é o resistor responsável pela leitura de tensão se ele der se ele der alterado Se der algum problema nele tiver alterado ele vai ler da maneira errada então Mesmo não tendo atenção ele vai ler a atenção de maneira errada Beleza então simples assim deu erro P1 deu erro P1 vai nesse circuito que é batata show então espero que tenha curtido essa aula esse vídeo aqui vídeo rápido dica rápida implemente aí me diga se deu certo bota aqui nos comentários se deu certo se você gost reparar de outra maneira bota aqui nos comentários também porque fica o histórico aqui pros próximos que vão vir assistir esse vídeo e se Ah não apliquei o que L falou não não consegui resolver mas nos comentários tem algum colega aí que assistiu e Conseguiu resolver vai ajudar outras pessoas se você não conseguiu também bota nos comentários lá onde não consegui E aí faço o que agora aí eu posso te dar outras dicas aí para você seguir analisando este defeito beleza definitivamente o erro P1 ele tem solução ele tem reparo na grande maioria das vezes vai ter reparo sim beleza se inscreve ativa a notificação deixa o joinha também não esquece de deixar o like se inscreve aí para que você não perca mais nenhum conteúdo desse canal nos vemos no próximo vídeo fique com Deus um abraço valeu

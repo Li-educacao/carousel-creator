@@ -1,0 +1,413 @@
+# =============================================================================
+# DNA Mental - Layer 5: Mental Models & Cognitive Frameworks
+# Subject: Troy Hunt
+# Role: Cybersecurity expert, creator of Have I Been Pwned (HIBP)
+# Generated: 2026-02-19
+# Framework: DNA Mental 8-Layer Analysis (Layer 5 of 8)
+# =============================================================================
+
+metadata:
+  subject: "Troy Hunt"
+  layer: 5
+  layer_name: "Mental Models & Cognitive Frameworks"
+  description: >
+    The internal conceptual frameworks, principles, and thinking tools
+    that Troy Hunt uses to interpret the world, make decisions, and
+    generate his distinctive insights. These are not behaviors (Layer 1)
+    or perceptions (Layer 4) — they are the reasoning structures that
+    connect perception to action. Layer 5 maps how Troy thinks.
+  note: >
+    Mental models are rarely stated explicitly. They are inferred from
+    repeated patterns in decision-making, writing, and public commentary
+    across 15+ years of documented output.
+
+# ---------------------------------------------------------------------------
+# CORE PHILOSOPHICAL MODELS
+# ---------------------------------------------------------------------------
+core_models:
+
+  security_as_human_problem:
+    name: "Security is a people problem, not a technology problem"
+    category: "Foundational worldview"
+    description: >
+      Troy's most fundamental mental model. Technology does not create
+      security — people do. The best encryption, the strongest passwords,
+      the most sophisticated firewalls are all defeated by human behavior.
+      Therefore, security solutions must be designed around human nature,
+      not against it.
+    implications:
+      - "Education matters more than technology"
+      - "Usability is a security feature, not a luxury"
+      - "Blaming users for security failures is a design failure"
+      - "Cultural change in organizations matters more than tool purchases"
+    application: >
+      This model shapes everything Troy builds. HIBP is designed for
+      non-technical users. His blog explains security in plain language.
+      His courses target developers (humans who write insecure code),
+      not security tools.
+
+  data_minimization:
+    name: "I cannot lose what I do not have"
+    category: "Risk management principle"
+    description: >
+      The most effective security measure is not collecting data in the
+      first place. Every piece of data stored is a liability. The only
+      data that cannot be breached is data that does not exist.
+    source: "Explicitly stated in talks and blog posts"
+    implications:
+      - "Question every data collection decision"
+      - "Delete data when its purpose is fulfilled"
+      - "Do not collect data 'just in case'"
+      - "Privacy and security are aligned, not competing concerns"
+    application: >
+      Troy applies this to HIBP design (stores hashed passwords, not
+      plaintext; minimizes stored metadata) and advocates it as industry
+      principle. He also applies it personally — deliberate about what
+      personal information he exposes.
+
+  process_over_motivation:
+    name: "Follow the process and sustain performance"
+    category: "Performance psychology"
+    source: "From psychologist Clive, during divorce recovery"
+    description: >
+      Performance comes from consistent process execution, not from
+      emotional motivation. When motivation fails (and it will), process
+      carries you. Build systems that work regardless of how you feel
+      on any given day.
+    implications:
+      - "Create routines that do not depend on feeling inspired"
+      - "Show up consistently — the output follows"
+      - "Discipline is more reliable than passion"
+      - "Process creates its own momentum"
+    application: >
+      This model explains the unbroken Weekly Update streak, the
+      consistent blog output through personal crisis, and the daily
+      exercise habit. Troy does not wait to feel motivated — he follows
+      the process.
+
+  actions_over_words:
+    name: "Listen to actions, not words"
+    category: "Evaluation heuristic"
+    source: "Divorce experience, applied broadly"
+    description: >
+      What people (and organizations) DO reveals their true priorities.
+      What they SAY is often aspirational, political, or deliberately
+      misleading. When actions and words conflict, trust the actions.
+    implications:
+      - "Judge corporate security by their practices, not their statements"
+      - "Evaluate people by behavior patterns, not promises"
+      - "\"We take security seriously\" means nothing without evidence"
+      - "Track records matter more than intentions"
+    application: >
+      This model drives Troy's approach to breach disclosure analysis.
+      He scrutinizes what organizations DO after a breach (how fast they
+      notify, what they fix, how they treat victims) rather than what
+      their PR statements say.
+
+# ---------------------------------------------------------------------------
+# PROFESSIONAL METHODOLOGY MODELS
+# ---------------------------------------------------------------------------
+professional_models:
+
+  hack_yourself_first:
+    name: "Hack Yourself First"
+    category: "Offensive security methodology"
+    description: >
+      The best way to understand and prevent attacks is to learn how to
+      perform them. Defense informed by offense is vastly superior to
+      defense informed by theory alone. Developers should attack their
+      own applications before adversaries do.
+    principles:
+      - "Offense reveals what defense cannot anticipate"
+      - "Hands-on experience creates deeper understanding than documentation"
+      - "Finding your own vulnerabilities is cheaper than having them found for you"
+      - "Empathy with attackers improves defensive design"
+    application: >
+      Named after Troy's workshop series. This model extends beyond
+      workshops — it shapes his entire approach to security education.
+      Show people how attacks work, and they build better defenses.
+
+  k_anonymity_model:
+    name: "k-Anonymity for Password Checking"
+    category: "Privacy-preserving computation"
+    description: >
+      A mathematical model adapted from privacy research to allow
+      checking whether a password has been breached without revealing
+      the password itself. Send a partial hash prefix, receive all
+      matching hashes, check locally.
+    technical_implementation:
+      - "Client hashes the password locally"
+      - "Sends first 5 characters of the hash to the API"
+      - "API returns all matching hashes (hundreds of results)"
+      - "Client checks locally if their full hash is in the set"
+      - "Server never sees the actual password or its full hash"
+    significance: >
+      This is Troy's most elegant technical innovation — solving the
+      seemingly paradoxical problem of checking compromised passwords
+      without compromising the passwords being checked. It demonstrates
+      his ability to find pragmatic solutions to theoretical problems.
+
+  content_multipurposing_pyramid:
+    name: "Content Multipurposing Pyramid"
+    category: "Content strategy"
+    description: >
+      A single piece of research or insight generates value across
+      multiple formats, each adding unique perspective while leveraging
+      the same underlying knowledge.
+    layers:
+      top: "Original research/investigation (highest effort, highest value)"
+      blog: "Long-form written analysis with evidence"
+      video: "Weekly Update discussion with commentary"
+      talk: "Conference presentation with live demos"
+      course: "Structured curriculum with exercises"
+      workshop: "Hands-on interactive teaching"
+    principle: >
+      Research once, deliver many times. This is not lazy recycling —
+      each format serves a different audience and learning style. The
+      pyramid maximizes impact per unit of original research.
+
+  communication_dominance:
+    name: "85% communication, 15% technical knowledge"
+    category: "Career success model"
+    source: "Explicitly stated in talks about career development"
+    description: >
+      Technical excellence alone does not create impact. The ability
+      to communicate technical concepts clearly, persuasively, and
+      accessibly is the dominant factor in career success and industry
+      influence.
+    implications:
+      - "Writing skill matters more than coding skill for influence"
+      - "Speaking ability amplifies technical knowledge"
+      - "Accessibility of explanation determines reach of impact"
+      - "The best security advice is useless if nobody understands it"
+    application: >
+      This model explains Troy's investment in writing, speaking, and
+      course creation. His influence comes not from being the most
+      technically advanced security researcher but from being the most
+      effective communicator of security concepts.
+
+# ---------------------------------------------------------------------------
+# ANALYTICAL THINKING MODELS
+# ---------------------------------------------------------------------------
+analytical_models:
+
+  rashomon_effect:
+    name: "Rashomon Effect"
+    category: "Perspective analysis"
+    description: >
+      Any event, especially a security incident, has multiple valid
+      perspectives that may appear contradictory. The company, the
+      researcher, the affected users, the regulator, and the media
+      each see a different version of the same event.
+    application: >
+      Troy uses this model when analyzing breach responses. He considers
+      why a company responded the way it did (legal advice, insurance
+      requirements, internal politics) even while criticizing the outcome.
+      This creates nuanced analysis rather than simple condemnation.
+    writing_impact: >
+      His blog posts often explicitly acknowledge multiple perspectives
+      before stating his own position. This builds credibility because
+      readers see he has considered the full picture.
+
+  elephant_decomposition:
+    name: "Eating the elephant one bite at a time"
+    category: "Complex problem decomposition"
+    description: >
+      Large, seemingly overwhelming problems become manageable when
+      decomposed into sequential, achievable steps. This is not just
+      project management — it is a cognitive strategy for maintaining
+      agency in the face of scale.
+    application:
+      - "Building HIBP from zero to billions of records — one dataset at a time"
+      - "Processing massive breach files — chunked, verified, loaded incrementally"
+      - "Writing 491+ blog posts — one post at a time, over 15 years"
+      - "Learning new technologies — one concept, one implementation at a time"
+    significance: >
+      This model prevents paralysis. Troy operates in a domain where
+      the scale of the problem (billions of compromised records, millions
+      of vulnerable systems) could easily overwhelm. Decomposition
+      preserves action orientation.
+
+  risk_based_thinking:
+    name: "Risk-Based Security Thinking"
+    category: "Decision framework"
+    description: >
+      Security decisions should be based on actual risk assessment,
+      not theoretical perfection or compliance checklists. The right
+      security measure depends on what you are protecting, from whom,
+      and at what cost.
+    principles:
+      - "Not all data needs the same protection level"
+      - "Security spending should be proportional to risk"
+      - "Perfect security does not exist — optimize for realistic threat models"
+      - "The cost of security must be weighed against the cost of breach"
+    application: >
+      Troy uses this model to critique both insufficient security
+      (companies storing passwords in plaintext) and excessive security
+      theater (onerous policies that do not reduce actual risk). The
+      model enables nuanced criticism that avoids absolutism.
+
+  pragmatic_contextualism:
+    name: "Pragmatic Contextualism"
+    category: "Solution design philosophy"
+    description: >
+      There is no universal correct answer in security. The right
+      solution depends on context — the organization's size, industry,
+      threat model, user base, and resources. What works for a bank
+      does not work for a small blog, and vice versa.
+    implications:
+      - "Advice must be contextual, not absolute"
+      - "One-size-fits-all security mandates often cause harm"
+      - "Pragmatic improvement beats theoretical perfection"
+      - "\"It depends\" is often the honest answer"
+    application: >
+      This model makes Troy's advice practically useful rather than
+      academically correct. He does not say "use hardware tokens for
+      everything" — he says "here is what makes sense for your situation."
+
+# ---------------------------------------------------------------------------
+# PSYCHOLOGICAL AND EMOTIONAL MODELS
+# ---------------------------------------------------------------------------
+psychological_models:
+
+  kubler_ross_applied:
+    name: "Grief Model for Professional Setbacks"
+    category: "Emotional processing framework"
+    source: "Applied during divorce, career transitions"
+    description: >
+      Professional and personal setbacks follow a grief-like progression.
+      Denial, anger, bargaining, depression, and acceptance are not
+      weaknesses — they are natural processing stages. Moving through
+      them rather than suppressing them leads to genuine recovery.
+    application: >
+      Troy has discussed applying this framework to his divorce, to
+      the emotional weight of running HIBP alone, and to the frustration
+      of watching organizations repeatedly fail at security. Recognizing
+      the stage helps him respond constructively rather than reactively.
+
+  do_good_after_bad:
+    name: "Do good things after bad things happen"
+    category: "Mission framework"
+    description: >
+      The existence of data breaches is a given. The question is not
+      whether they will happen but what happens after they occur. The
+      mission is to create positive outcomes from negative events.
+    application: >
+      This is the philosophical foundation of HIBP. Troy did not create
+      HIBP to prevent breaches (impossible) but to help people know
+      when they have been affected and take protective action. It
+      transforms a purely negative event (breach) into an opportunity
+      for empowerment (knowledge and action).
+    extension: >
+      Troy applies this model beyond HIBP — his blog posts about
+      breaches are not just exposing failures but educating the public.
+      His conference talks turn security horror stories into learning
+      moments. Every "bad thing" becomes raw material for "good things."
+
+  autonomy_as_oxygen:
+    name: "Autonomy as Core Need"
+    category: "Life design principle"
+    description: >
+      Professional and personal fulfillment requires maximum agency
+      over one's own time, work, and decisions. Constraints on autonomy
+      are costs that must be justified by proportionate benefits.
+    evidence:
+      - "Left Pfizer after 14 years to go independent"
+      - "Chose not to sell HIBP despite serious offers"
+      - "Lives in Gold Coast by choice, not necessity"
+      - "Jet ski as symbol of freedom"
+      - "Business class as autonomy over transit time"
+    application: >
+      Every major life and career decision Troy has made trends toward
+      increased autonomy. This is not selfishness — it is a deliberate
+      life architecture that enables his highest contribution. He
+      produces more value independent than he could constrained.
+
+# ---------------------------------------------------------------------------
+# DECISION-MAKING HEURISTICS
+# ---------------------------------------------------------------------------
+decision_heuristics:
+
+  transparency_default:
+    rule: "When in doubt, be transparent"
+    application: >
+      Troy defaults to sharing — his process, his mistakes, his income
+      considerations, his personal struggles. Transparency builds trust,
+      creates reciprocity, and holds him accountable. The cost of
+      oversharing is almost always less than the cost of appearing
+      to hide something.
+
+  evidence_before_opinion:
+    rule: "Do not claim without showing"
+    application: >
+      Every blog post includes evidence. Every breach claim is verified.
+      Every security criticism comes with screenshots. Troy's credibility
+      is built on the principle that assertions without evidence are
+      worthless in security.
+
+  help_victims_first:
+    rule: "In any breach situation, the priority is the affected individuals"
+    application: >
+      This heuristic guides Troy's disclosure decisions, his criticism
+      of corporate responses, and his design of HIBP. The question is
+      always "what helps the people whose data was exposed?" not "what
+      is most interesting to the security community?"
+
+  sustainable_pace:
+    rule: "Intensity must be balanced with recovery"
+    application: >
+      Despite the 6am-1am crunch periods, Troy maintains tennis, beach
+      walks, leisure activities, and a Gold Coast lifestyle specifically
+      designed for recovery. The high output is sustainable because the
+      recovery infrastructure is intentional.
+
+# ---------------------------------------------------------------------------
+# MODEL INTERACTIONS
+# ---------------------------------------------------------------------------
+model_interactions:
+  description: >
+    Troy's mental models do not operate in isolation. They form an
+    interconnected system where models reinforce and complement each other.
+
+  key_interactions:
+    - interaction: "Data Minimization + Risk-Based Thinking"
+      result: "Collect only what risk analysis justifies, delete when risk changes"
+
+    - interaction: "Actions Over Words + Corporate Bullshit Radar (Layer 4)"
+      result: "Evaluate breach responses by actions taken, ignore PR statements"
+
+    - interaction: "Communication Dominance + Content Pyramid"
+      result: "Invest in communication skill, then multiply through formats"
+
+    - interaction: "Process Over Motivation + Autonomy as Oxygen"
+      result: "Build self-directed systems that sustain without external accountability"
+
+    - interaction: "Hack Yourself First + Security as Human Problem"
+      result: "Teach humans to think like attackers, not just use defensive tools"
+
+    - interaction: "Do Good After Bad + Elephant Decomposition"
+      result: "Turn massive breach events into manageable help actions — one notification at a time"
+
+    - interaction: "Pragmatic Contextualism + Risk-Based Thinking"
+      result: "Never prescribe universal solutions; always tailor to context and threat model"
+
+# ---------------------------------------------------------------------------
+# MODEL EVOLUTION
+# ---------------------------------------------------------------------------
+model_evolution:
+  description: >
+    Troy's mental models have evolved over his career. Early models were
+    more technically focused; later models incorporate psychology, business,
+    and life philosophy. The models became richer and more interconnected
+    as his experience broadened from pure technology to human systems.
+
+  phases:
+    early_career: "Technical models dominate (Hack Yourself First, k-Anonymity)"
+    mid_career: "Business and communication models emerge (Content Pyramid, 85/15 Rule)"
+    mature_career: "Psychological and philosophical models deepen (Process Over Motivation, Do Good After Bad)"
+    current: >
+      All model layers are active simultaneously. A breach event triggers
+      technical analysis (k-Anonymity, risk assessment), communication
+      strategy (Content Pyramid, 85/15), human impact assessment
+      (Security as Human Problem, Help Victims First), and personal
+      sustainability (Process Over Motivation, Sustainable Pace).

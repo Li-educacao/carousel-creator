@@ -1,0 +1,100 @@
+batch_configuration: tier2_important
+description: "Tier 1-2 interviews, courses, case studies - triangulation sources"
+mind_name: "Molly Pittman"
+parallelization: true
+max_concurrent: 5
+depends_on: "tier1_batch (optional - can run in parallel)"
+
+sources:
+  # ADDITIONAL HIGH-VALUE INTERVIEWS
+  - id: source_009
+    type: interview
+    title: "How To Win On Social Media With Molly Pittman"
+    source: "James Schramko Podcast"
+    publication_date: "2019-06-01"
+    url: "https://www.jamesschramko.com/blog/630-how-to-win-on-social-media-with-molly-pittman"
+    duration_minutes: 55
+    priority: 1
+
+  - id: source_010
+    type: interview
+    title: "Molly Pittman - Facebook Ads Phenom, CEO of Smart Marketer"
+    source: "Wild Business Growth Podcast"
+    publication_date: "2020-08-01"
+    url: "https://podcasts.apple.com/us/podcast/molly-pittman-facebook-ads-phenom-ceo-of-smart-marketer/id1422144338?i=1000470157989"
+    duration_minutes: 65
+    priority: 1
+    notes: "Career journey interview - shows values + obsessions evolution"
+
+  - id: source_012
+    type: interview
+    title: "Reverse Interview: Our Social Media Plan with Molly Pittman"
+    source: "Chris Harder Podcast, Ep 222"
+    publication_date: "2021-01-01"
+    url: "https://chrisharder.me/episode222/"
+    duration_minutes: 45
+    priority: 2
+
+  - id: source_013
+    type: interview
+    title: "How To Train a Media Buyer"
+    source: "Alex Fedotoff Interview"
+    publication_date: "2020-01-01"
+    url: "https://www.alexfedotoff.com/molly-pittman-interview/"
+    duration_minutes: 40
+    priority: 2
+
+  # SMART MARKETER CURRICULUM (Important for Layer 5 - Mental Models)
+  - id: source_014
+    type: course
+    title: "Smart Marketer Training Courses & Certifications"
+    url: "https://smartmarketer.com/"
+    publication_date: "2015-2025"
+    priority: 1
+    collection_strategy:
+      - "Collect course syllabus/outlines (publicly available)"
+      - "If possible, transcripts of free webinars/samples"
+      - "Course descriptions that reveal frameworks"
+      - "Student testimonials from success-stories page"
+    notes: "Frameworks and methodologies = Layer 5 mental models"
+
+  # YOUTUBE CHANNEL
+  - id: source_015
+    type: video
+    title: "Smart Marketer YouTube Channel (@thesmartmarketer)"
+    url: "https://www.youtube.com/@thesmartmarketer"
+    video_count: "50+"
+    publication_date: "2015-2025"
+    priority: 2
+    collection_strategy:
+      - "Download last 20 videos (most recent)"
+      - "If available, use captions or generate transcripts"
+      - "Extract key frameworks from video content"
+
+  # KEY ARTICLE - Frameworks
+  - id: source_003
+    type: article
+    title: "5 Key Elements of the Perfect Facebook Ad"
+    source: "Buffer Magazine"
+    publication_date: "2019-01-01"
+    url: "https://buffer.com/resources/facebook-ad-molly-pittman/"
+    priority: 1
+    notes: "Demonstrates tactical framework teaching"
+
+  # CASE STUDIES
+  - id: source_016
+    type: case_study_collection
+    title: "Smart Marketer Success Stories Archive"
+    url: "https://mollypittman.com/success-stories/"
+    case_study_count: "20+"
+    priority: 2
+    notes: "Student results demonstrate values + teaching philosophy"
+
+estimated_time: "3-4 hours (can run parallel with Batch 1)"
+estimated_tokens: "100K-150K tokens"
+success_criteria:
+  - "All 8 sources collected"
+  - "Podcast transcripts complete"
+  - "Course frameworks documented"
+  - "YouTube videos transcribed"
+  - "Case studies compiled"

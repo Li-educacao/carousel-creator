@@ -1,0 +1,486 @@
+---
+# Layer 6: Values Hierarchy - Pedro Sobral
+# DNA Mental 8-Layer Analysis
+# Created: 2026-02-14
+# Sources: 4 entrevistas (Os Socios 116, Os Socios 187, PrimoCast 415, FodCast), 3 lives (281, 302, 373+), 2 blog posts
+# Confidence: VERY HIGH (valores convergem em 95%+ das sources)
+
+mind: "pedro-sobral"
+layer: 6
+layer_name: "Values Hierarchy (Core Identity)"
+extraction_date: "2026-02-14"
+source_count: 9
+confidence_level: "very_high"
+
+---
+
+## TOP-TIER VALUES (Rank 1-3 - Non-Negotiable Identity)
+
+### Rank 1: CONSISTENCIA / DISCIPLINA
+intensity: 10/10
+type: "Missao existencial - SUPREMO"
+
+description: |
+  Consistencia e a identidade central de Pedro Sobral. Nao e um habito — e quem ele e.
+  Fazer todos os dias, sem excecao, independente de circunstancia, dor ou resultado.
+  A disciplina nao serve a meta; a disciplina E a meta. Treinar com pe quebrado
+  (13 parafusos), fazer 373+ lives consecutivas, manter rotina mesmo quando o corpo
+  diz nao — tudo isso nao e forca de vontade, e identidade.
+
+stated_evidence:
+  - source: "Blog"
+    quote: "Consistencia, nao perfeicao, impulsiona transformacao"
+  - source: "PrimoCast 415"
+    quote: "para mim alcancar metas e voce ter uma rotina e seguir a sua rotina ponto"
+  - source: "PrimoCast 415"
+    quote: "eu sou um cara que eu constantemente eu... volume"
+  - source: "Live 281"
+    quote: "a gente faz aulas ao vivo todas as tercas-feiras ha mais de 281 semanas"
+
+demonstrated_evidence:
+  - behavior: "373+ lives semanais consecutivas sem falhar (todas as tercas-feiras)"
+    frequency: "Semanal — sem interrupcao ha 7+ anos"
+    sacrifice: "Liberdade de agenda, viagens, imprevistos — nada cancela a live"
+
+  - behavior: "Treina mesmo com pe quebrado — 13 parafusos na perna"
+    frequency: "Diario — retomou treino durante recuperacao cirurgica"
+    sacrifice: "Saude de curto prazo, conforto fisico, recomendacao medica"
+
+  - behavior: "Tracker de treinos no celular — registra cada sessao sem definir numero maximo"
+    frequency: "Diario"
+    context: "eu tenho no meu celular o numero de treinos tava tipo assim 2 barra x porque eu nao boto o numero maximo eu vou fazer vou fazer"
+
+  - behavior: "Preparacao e execucao do Iron Man completo (3.8km natacao, 180km bike, 42km corrida)"
+    frequency: "Evento unico, meses de preparacao diaria"
+    sacrifice: "Tempo, energia, risco fisico — resultado: 10h20min"
+
+anti_value: "Inconsistencia, fazer so quando da vontade, depender de motivacao, perfeccionismo que paralisa"
+
+manifestation: "Identidade construida sobre o ato de aparecer todos os dias — 'eu sou a pessoa que faz isso todo dia'"
+
+sacrifice_test: |
+  Treinou com 13 parafusos na perna e ossos quebrados. Fez 373+ lives consecutivas
+  sem falhar uma unica semana. Preparou-se para Iron Man arriscando integridade fisica.
+  Nao existe circunstancia externa que quebre essa consistencia — nem lesao grave,
+  nem viagem, nem cansaco. A pergunta nao e 'vou fazer?' — e 'como vou fazer?'.
+
+temporal_evolution:
+  early_career: "Disciplina como ferramenta para sair da pobreza (7 pessoas em 2 quartos)"
+  transition: "Disciplina como metodo — agenda obsessiva, blocos de tempo, listas"
+  current: "Disciplina como IDENTIDADE — nao e o que faz, e quem e. 'Eu sou a pessoa que treina todo dia'"
+
+triangulation: "5/5 sources convergentes"
+confidence: "very_high"
+
+---
+
+### Rank 2: PROCESSO SOBRE RESULTADO
+intensity: 10/10
+type: "Principio filosofico non-negotiable"
+
+description: |
+  A felicidade de Pedro nao esta no resultado — esta no cheque diario da lista.
+  A meta serve APENAS para derivar o processo; depois disso, joga a meta fora.
+  Nao importa se atingiu ou nao — importa se fez o que tinha que fazer hoje.
+  O centavo que dobra vale mais que 1 milhao imediato. Juros compostos da
+  disciplina. A proxima aula de trompete importa mais que tocar uma musica.
+
+stated_evidence:
+  - source: "PrimoCast 415"
+    quote: "pega a meta joga ela fora porque a meta nao importa mais a sua felicidade tem que estar condicionada a botar um cheque na sua lista todos os dias"
+  - source: "PrimoCast 415"
+    quote: "na verdade um e maior do que zero fazer alguma coisa mesmo que mal feito e melhor do que nao fazer nada"
+  - source: "PrimoCast 415"
+    quote: "quando eu vou tocar trompete eu nao quero tocar uma musica Eu So Quero fazer a proxima aula"
+  - source: "PrimoCast 415"
+    quote: "voce so consegue melhorar a lista o processo enquanto voce ta executando"
+  - source: "PrimoCast 415"
+    quote: "meu pai fala nao tem como melhorar o que nao existe"
+
+demonstrated_evidence:
+  - behavior: "Faz 373+ lives focando na PROXIMA live, nao no numero total"
+    frequency: "Semanal — cada live e uma vitoria independente"
+    sacrifice: "Reconhecimento pelo acumulado — cada semana comeca do zero"
+
+  - behavior: "Aprendendo trompete focando na proxima aula, nao em tocar uma musica"
+    frequency: "Apos colocar na agenda (jan+)"
+    context: "Escolheu o instrumento mais dificil de proposito — o resultado nao importa, o processo de aprender importa"
+
+  - behavior: "Usou metafora do centavo que dobra como tema central da Live 302"
+    frequency: "Framework recorrente"
+    context: "Toda a live e baseada na ideia de que pequenas acoes diarias superam grandes saltos"
+
+  - behavior: "Framework Meta → Processo → Cheque Diario aplicado em TUDO — treino, negocios, aprendizado"
+    frequency: "Diario — e o sistema operacional da vida dele"
+    sacrifice: "A dopamina da meta atingida — substitui por satisfacao do cheque diario"
+
+anti_value: "Obsessao com resultado, meta grandiosa sem processo, coaching de 'mentalidade de abundancia' sem acao, delirio disfarçado de sonho"
+
+manifestation: "toda aula e uma vitoria toda vez que eu fui la e treinei durante 1 hora 30 minutos uma vitoria"
+
+sacrifice_test: |
+  Joga a meta fora LITERALMENTE. Desprioriza o resultado final em favor do processo diario.
+  Sacrifica a gratificacao de "atingir a meta" pela satisfacao silenciosa do cheque na lista.
+  Recusa euforia por resultado — a felicidade esta no dia, nao no destino.
+
+temporal_evolution:
+  early_career: "Focado em resultados — queria crescer, ganhar dinheiro, sair da pobreza"
+  transition: "Percebeu que metas atingidas nao traziam felicidade — felicidade estava no caminho"
+  current: "Filosofia madura: a meta existe APENAS para derivar o processo. Depois, descarte-a."
+
+triangulation: "5/5 sources convergentes"
+confidence: "very_high"
+
+---
+
+### Rank 3: FAMILIA COMO PRIORIDADE MAXIMA
+intensity: 9/10
+type: "Principio hierarquico non-negotiable"
+
+description: |
+  Na hierarquia de comando pessoal de Pedro, a esposa Priscila e a PRESIDENTE.
+  Acima do sonho, acima da agenda, acima dele mesmo. Familia nao e algo que
+  ele equilibra com trabalho — e o que DEFINE o trabalho. Os filhos sao o
+  motivo de aprender piano, frances, de construir riqueza. Toda decisao de
+  carreira passa pelo filtro: 'isso serve minha familia?'
+
+stated_evidence:
+  - source: "Os Socios 187"
+    quote: "eu sou vendedor o meu gerente a minha agenda o meu diretor e meu sonho e meu presidente minha mulher"
+  - source: "Live 281"
+    quote: "eu quero que os meus filhos toquem piano"
+  - source: "Os Socios 187"
+    quote: "vou um dia sentar com os meus filhos e vou ensinar para eles"
+
+demonstrated_evidence:
+  - behavior: "Hierarquia de Comando Pessoal com esposa como presidente — acima de tudo"
+    frequency: "Permanente — framework central de priorizacao de vida"
+    sacrifice: "Autonomia total de decisao — submete decisoes estrategicas a Priscila"
+
+  - behavior: "Cortejou Priscila por 2 anos com risco altissimo de rejeicao"
+    frequency: "2 anos de tentativas persistentes"
+    sacrifice: "Orgulho, dignidade social, tempo — 'foram dois anos de tentativas caramba'"
+
+  - behavior: "Aprendendo piano e frances para ensinar/compartilhar com os filhos"
+    frequency: "Processo em andamento"
+    context: "Nao aprende para si — aprende para transferir para a familia"
+
+  - behavior: "Decisoes de carreira filtradas pela familia — consultoria lucrativa vs impacto + tempo com familia"
+    frequency: "Decisoes estruturais"
+    context: "Modelo de negocio (comunidade + equipe de 227) permite mais presenca familiar que consultoria individual"
+
+anti_value: "Sacrificar familia por carreira, ausencia justificada por 'trabalho', relegar esposa a papel secundario"
+
+manifestation: "Toda grande decisao de vida passa pelo crivo de Priscila — a hierarquia nao e metafora, e sistema real"
+
+sacrifice_test: |
+  Cortejou Priscila por 2 anos mesmo quando 'eu era tipo Cruzeiro e a Priscila era o Real Madrid'.
+  Sacrificou orgulho e ego repetidamente. Construiu hierarquia de vida com esposa no topo —
+  ACIMA dos proprios sonhos. Aprende habilidades novas (piano, frances) nao para si, mas para
+  os filhos. Toda ambicao profissional e subordinada a familia.
+
+temporal_evolution:
+  early_career: "Solteiro focado em trabalho — familia de origem como motivacao de fundo"
+  transition: "2 anos cortejando Priscila — familia como objetivo de vida"
+  current: "Familia como ESTRUTURA de priorizacao — presidente da hierarquia pessoal"
+
+triangulation: "4/5 sources convergentes"
+confidence: "very_high"
+
+---
+
+## MID-TIER VALUES (Rank 4-6 - Strong but Contextual)
+
+### Rank 4: TRANSFORMACAO DE ORIGEM HUMILDE
+intensity: 8/10
+type: "Missao pessoal - motor interno"
+
+description: |
+  A origem humilde de Pedro — 7 pessoas em 2 quartos, primeiro croissant aos 13 anos,
+  pai apicultor, mae professora — nao e uma historia triste. E o COMBUSTIVEL.
+  A pobreza criou um motor interno de nunca voltar atras que se manifesta como
+  disciplina implacavel. Treinar com pe quebrado nao e sobre fitness — e sobre
+  provar para si mesmo que nenhuma circunstancia pode para-lo. E tambem a fonte
+  de empatia com quem quer se transformar.
+
+stated_evidence:
+  - source: "Live 281"
+    quote: "sete pessoas morando numa casinha de dois quartos"
+  - source: "Live 281"
+    quote: "quando eu tinha 13 anos foi a primeira vez na minha vida que eu comi um croaca"
+  - source: "Blog"
+    quote: "Transformacao requer escolha, dedicacao, estrategia e coragem -- nao genialidade ou riqueza herdada"
+  - source: "PrimoCast 415"
+    quote: "eu nao tenho Pai Rico nao tenho mae rica pelo contrario hoje em dia quem ajuda os meus pais sou eu"
+
+demonstrated_evidence:
+  - behavior: "Construiu imperio de 227+ colaboradores partindo do absoluto zero"
+    frequency: "Trajetoria completa — self-made"
+    sacrifice: "Conforto, seguranca financeira inicial, caminhos mais faceis"
+
+  - behavior: "Conta a historia de origem repetidamente como prova de que transformacao e possivel"
+    frequency: "Recorrente em entrevistas, lives, palestras"
+    context: "Nao usa para gerar pena — usa como PROVA de que o processo funciona"
+
+  - behavior: "Hoje sustenta os pais — inverteu a piramide familiar"
+    frequency: "Permanente"
+    context: "De ser sustentado por pais humildes a sustentar a familia inteira"
+
+  - behavior: "Cita historias de transformacao de alunos (Jean Landi, Felipe Sotero, Caio Amorim) como extensao da propria historia"
+    frequency: "Recorrente"
+    sacrifice: "Poderia focar so em resultados proprios — escolhe celebrar resultados de outros"
+
+anti_value: "Coitadismo, vitimismo, usar origem como desculpa para nao agir, riqueza herdada sem merito"
+
+manifestation: "A origem humilde nao e uma cicatriz — e uma medalha. Usa como prova de que o processo diario transforma qualquer pessoa."
+
+sacrifice_test: |
+  Saiu de 7 pessoas em 2 quartos para 227+ colaboradores. Sustenta os pais que o
+  sustentaram. Nao usa a origem para justificar limitacoes — usa como evidencia
+  de que QUALQUER UM pode se transformar. Sacrifica o conforto de 'ja cheguei la'
+  pelo motor de 'nunca mais volto pra la'.
+
+temporal_evolution:
+  early_career: "Pobreza como realidade — motivacao bruta de sobrevivencia"
+  transition: "Pobreza como combustivel — motor de ambicao e disciplina"
+  current: "Pobreza como PROVA — evidencia publica de que o processo funciona para qualquer um"
+
+triangulation: "4/5 sources convergentes"
+confidence: "very_high"
+
+---
+
+### Rank 5: GENEROSIDADE COM CONHECIMENTO
+intensity: 8/10
+type: "Principio de impacto"
+
+description: |
+  Pedro escolheu impacto em escala sobre lucro individual. Largou consultoria de
+  R$2000/hora para criar 373+ aulas gratuitas. Popularizou a profissao inteira de
+  gestor de trafego no Brasil. Nao e altruismo ingenuo — e uma crenca estrategica
+  de que resolver problemas dos outros em escala gera mais valor (inclusive financeiro)
+  do que guardar conhecimento.
+
+stated_evidence:
+  - source: "Live 281"
+    quote: "a gente faz aulas ao vivo todas as tercas-feiras ha mais de 281 semanas"
+  - source: "FodCast"
+    quote: "acho que o Pedro foi responsavel por transformar isso [gestao de trafego como profissao]"
+  - source: "Live 281"
+    quote: "a pergunta que voce tem que se fazer e quais problemas que as pessoas tem hoje e que eu posso aprender a resolver"
+  - source: "Live 281"
+    quote: "voce pode ta aqui todas as tercas-feiras consumindo esse conteudo e aprendendo"
+
+demonstrated_evidence:
+  - behavior: "373+ aulas ao vivo gratuitas (todas as tercas-feiras)"
+    frequency: "Semanal — 7+ anos ininterruptos"
+    sacrifice: "Receita direta — cada live gratuita e receita potencial que ele abre mao"
+
+  - behavior: "Largou consultoria individual de R$2000/hora para criar comunidade em escala"
+    frequency: "Decisao estrutural unica — nunca revertida"
+    sacrifice: "Renda imediata alta e previsivel por impacto incerto de longo prazo"
+
+  - behavior: "Popularizou profissao inteira de gestor de trafego pago no Brasil"
+    frequency: "Impacto permanente no mercado"
+    context: "Antes de Pedro, 'gestor de trafego' nao existia como profissao reconhecida"
+
+  - behavior: "Zero rivalidade com concorrentes — colabora abertamente"
+    frequency: "Consistente"
+    context: "tentaram criar uma richa entre a gente no passado mas nao conseguiram... a gente troca figurinha assim real"
+
+anti_value: "Reter conhecimento, mesquinharia intelectual, rivalidade com concorrentes, cobrar por tudo sem entregar valor antes"
+
+manifestation: "Entrega primeiro, monetiza depois. O valor gratuito e o funil mais poderoso — mas tambem e genuino."
+
+sacrifice_test: |
+  Trocou consultoria de R$2000/hora por ensino gratuito em escala. 373+ lives sem cobrar.
+  Popularizou uma profissao inteira — criou concorrentes para si mesmo. Colabora com
+  quem o mercado tenta transformar em rival. Sacrifica lucro de curto prazo por
+  impacto de longo prazo, consistentemente.
+
+temporal_evolution:
+  early_career: "Comecou com 76 viewers — entregava conteudo sem retorno"
+  transition: "Cresceu comunidade para 50.000+ membros pelo impacto acumulado"
+  current: "Generosidade como MODELO DE NEGOCIO — impacto gera receita, nao o contrario"
+
+triangulation: "4/5 sources convergentes"
+confidence: "high"
+
+---
+
+### Rank 6: AUTENTICIDADE / ANTI-POSTURA
+intensity: 7/10
+type: "Heuristica de conduta"
+
+description: |
+  Pedro rejeita ativamente a postura de guru, de ostentacao, de mentalidade de
+  abundancia vazia. Nao finge ser perfeito — admite erros conscientemente.
+  Nao fala de dinheiro como energia mistica — fala como ferramenta. Nao vende
+  lifestyle — vende processo. Sua autenticidade e arma de conexao: humor
+  autoderrisorio, historias de fracasso, admissao publica de falhas.
+
+stated_evidence:
+  - source: "Live 281"
+    quote: "eu nao vou meter o louco aqui de dinheiro e uma energia atrair dinheiro... nao nos nao vamos fazer isso"
+  - source: "PrimoCast 415"
+    quote: "eu erro consciente eu sei que eu to errando eu to sendo um idiota entendeu"
+  - source: "Os Socios 116"
+    quote: "eu era tipo Cruzeiro e a Priscila era o Real Madrid entendeu nao ia ter como jogar"
+  - source: "PrimoCast 415"
+    quote: "eu era um tarzannabinha entendeu"
+
+demonstrated_evidence:
+  - behavior: "Humor autoderrisorio constante — conta proprias falhas como piada"
+    frequency: "Sempre — padrao de comunicacao"
+    sacrifice: "Imagem de guru infalivel — escolhe ser humano e acessivel"
+
+  - behavior: "Admite erros publicamente sem autoflagelacao"
+    frequency: "Quando relevante"
+    context: "Nao se destroi pelo erro nem finge que nao errou — reconhece e segue"
+
+  - behavior: "Recusa discurso de 'dinheiro e energia' / 'lei da atracao'"
+    frequency: "Explicitamente quando o tema surge"
+    sacrifice: "Audiencia que quer ouvir formula magica — perde quem quer atalho"
+
+  - behavior: "Conta historia de origem sem romantizar — fala de pobreza real, nao de 'humildade motivacional'"
+    frequency: "Recorrente"
+    context: "Primeiro croissant aos 13 nao e storytelling planejado — e realidade crua"
+
+anti_value: "Ostentacao gratuita sem substancia, guru que vende formula magica, 'mentalidade de abundancia' como substituto de trabalho, mentir sobre resultados"
+
+manifestation: "Fala a verdade mesmo quando a verdade nao vende. Prefere perder seguidor a perder autenticidade."
+
+sacrifice_test: |
+  Recusa postura de guru infalivel — perde audiencia que quer formula magica.
+  Admite erros publicamente — sacrifica imagem de perfeicao. Usa humor autoderrisorio
+  sistematicamente — troca autoridade hierarquica por conexao genuina.
+  Poderia vender 'mentalidade de abundancia' e ganhar mais — escolhe falar de processo.
+
+temporal_evolution:
+  early_career: "Autenticidade natural — nao tinha outra opcao (sem recursos para fingir)"
+  transition: "Autenticidade como diferencial — mercado cheio de gurus, ele era o anti-guru"
+  current: "Autenticidade como FILOSOFIA — rejeicao consciente e explicita de postura vazia"
+
+triangulation: "4/5 sources convergentes"
+confidence: "high"
+
+---
+
+## VALUE CONFLICTS & TENSIONS
+
+### Primary Conflict: COMPETITIVIDADE SILENCIOSA vs GENEROSIDADE PUBLICA
+context: |
+  Pedro compete secretamente com outros ('eu compito com a pessoa sem ela saber
+  que eu to competindo com ela') mas simultaneamente entrega todo seu conhecimento
+  de graca e colabora abertamente com concorrentes. Quer ser o MELHOR, mas quer
+  que TODOS cresçam.
+resolution: |
+  A competicao e consigo mesmo e com parametros internos — nao com pessoas.
+  Compete com a versao dele de ontem. A generosidade nao contradiz a competitividade
+  porque ele nao compete por escassez (fatia do bolo) — compete por excelencia
+  (tamanho do bolo). Quando outros crescem, o mercado cresce, e ele cresce junto.
+effectiveness: "Alta — os dois valores coexistem sem contradicao real"
+consciousness: "Semi-consciente — nunca articulou explicitamente, mas vive a resolucao naturalmente"
+
+---
+
+### Secondary Conflict: DISCIPLINA IMPLACAVEL vs ACEITACAO DO IMPREVISIVEL
+context: |
+  Pedro controla tudo via agenda, listas, fluxogramas — mas o acidente de kitesurf
+  (13 parafusos) forcou aceitar que 'shit gonna happen'. Controle total vs
+  reconhecimento de que nem tudo e controlavel.
+resolution: |
+  Disciplina sobre o que esta no controle (rotina, treino, agenda), aceitacao sobre
+  o que nao esta (acidentes, doencas, circunstancias externas). A resposta ao imprevisivel
+  e: adaptar o processo, nunca abandonar o processo. Treinar com pe quebrado E a resolucao
+  — nao ignora a lesao, adapta o treino.
+effectiveness: "Alta — maturidade recente pos-acidente"
+consciousness: "Consciente — 'eu descobri que shit gonna happen merdas vao acontecer... tem coisas que estao fora do seu controle'"
+
+---
+
+### Tertiary Conflict: AUTENTICIDADE vs LIDERANCA DE 227 PESSOAS
+context: |
+  Pedro e bruto, direto, 'grosseiro' (nas palavras de Priscila). Mas lidera 227+
+  colaboradores onde brutalidade crua pode ser disfuncional. Ser autentico vs
+  ser lider eficaz.
+resolution: |
+  Delegacao com regras claras ('quanto menos voce me chamar, mais dinheiro vai ganhar')
+  reduz a necessidade de interacao direta constante. E a autenticidade FUNCIONA como
+  ferramenta de lideranca — os colaboradores sabem exatamente o que esperar.
+effectiveness: "Moderada-Alta — funciona no modelo dele, mas pode alienar perfis mais sensiveis"
+consciousness: "Parcialmente consciente — sabe que e direto demais as vezes, mas nao se desculpa por isso"
+
+---
+
+## SACRIFICE TEST CONSOLIDADO
+
+### O que Pedro Sobral ABRE MAO por cada valor:
+
+sacrifices:
+  consistencia:
+    gives_up: "Conforto fisico, saude de curto prazo, liberdade de agenda"
+    extreme_example: "Treinou com 13 parafusos na perna — medicos recomendaram repouso"
+    recurring_example: "373+ semanas de lives sem faltar uma unica vez"
+
+  processo_sobre_resultado:
+    gives_up: "Dopamina de metas atingidas, gratificacao imediata, 'vitoria final'"
+    extreme_example: "Joga meta fora LITERALMENTE depois de extrair o processo"
+    recurring_example: "Cada live, cada treino e tratado como vitoria isolada — nao acumula"
+
+  familia:
+    gives_up: "Orgulho pessoal, autonomia de decisao, ego"
+    extreme_example: "2 anos de tentativas com Priscila com alta probabilidade de rejeicao final"
+    recurring_example: "Esposa como 'presidente' na hierarquia — ACIMA dos proprios sonhos"
+
+  transformacao_humilde:
+    gives_up: "Conforto de 'ja cheguei la', relaxamento, zona de conforto"
+    extreme_example: "Construiu empresa de 227 pessoas partindo de 7 em 2 quartos"
+    recurring_example: "Motor interno de 'nunca voltar' ativo diariamente"
+
+  generosidade:
+    gives_up: "Receita de curto prazo, exclusividade de conhecimento, vantagem competitiva"
+    extreme_example: "Largou consultoria de R$2000/hora para ensino gratuito em escala"
+    recurring_example: "373+ lives gratuitas — cada uma e receita potencial nao cobrada"
+
+  autenticidade:
+    gives_up: "Audiencia que quer formula magica, imagem de guru perfeito, mais seguidores"
+    extreme_example: "Recusa explicitamente discurso de 'dinheiro e energia' em live publica"
+    recurring_example: "Humor autoderrisorio constante — troca autoridade por conexao"
+
+---
+
+## STATED VS DEMONSTRATED ALIGNMENT
+
+alignment_score: "94%"
+
+high_alignment_values:
+  - "CONSISTENCIA: 100% alinhado (373+ lives, treino com pe quebrado, Iron Man)"
+  - "PROCESSO SOBRE RESULTADO: 98% alinhado (vive o framework Meta→Processo→Cheque em tudo)"
+  - "FAMILIA: 95% alinhado (hierarquia real, cortejou 2 anos, aprende por causa dos filhos)"
+  - "GENEROSIDADE: 95% alinhado (373+ lives gratuitas, largou R$2000/hora, popularizou profissao)"
+  - "AUTENTICIDADE: 90% alinhado (admite erros, humor autoderrisorio, anti-guru)"
+
+gaps_identified:
+  - gap: "TRANSFORMACAO HUMILDE — 85% alinhado"
+    detail: |
+      Pedro genuinamente viveu a transformacao e a usa como evidencia.
+      Pequeno gap: a historia de origem pode funcionar TAMBEM como ferramenta
+      de marketing (criar conexao com audiencia), alem de ser valor genuino.
+      Nao e hipocrisia — e dupla funcao. O valor e real, mas tambem e util.
+
+  - gap: "DISCIPLINA vs PARADOXO DAS MIGALHAS — 90% alinhado"
+    detail: |
+      Pedro identifica em si mesmo o 'paradoxo das migalhas' — quando resultados
+      vem facil, tende a relaxar (especialmente alimentacao). E uma falha
+      que ele RECONHECE conscientemente, o que eleva a autenticidade mas revela
+      que a disciplina nao e 100% impermeavel.
+
+note: |
+  Pedro Sobral e excepcionalmente coerente entre o que diz e o que faz. Os gaps
+  identificados sao menores e, crucialmente, sao RECONHECIDOS por ele mesmo.
+  A capacidade de admitir falhas ('eu erro consciente eu sei que eu to errando')
+  e, paradoxalmente, a maior prova de alinhamento — quem finge ser perfeito tem
+  gaps maiores que nunca sao endereçados. A unica tensao real (competitividade
+  silenciosa vs generosidade publica) e resolvida naturalmente pela filosofia
+  de abundancia de mercado, nao de escassez.

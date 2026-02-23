@@ -1,0 +1,14 @@
+# Manutenção eletrônica para CLIMATIZAÇÃO é FÁCIL OU DIFÍCIL? #AME
+
+- **Video ID:** C5AIWkUmPTQ
+- **URL:** https://www.youtube.com/watch?v=C5AIWkUmPTQ
+- **Duration:** 3 min
+- **Views:** 808
+- **Published:** 2021-10-12T15:00:08Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+e como é fácil e essa é a parte boa eu vejo com bons olhos não ser fácil porque se fosse fácil para todo mundo Taveiro não é diferencial fácil mesmo está uma máquina de ar condicionado entendeu reparar passa mais fácil e Diogo se fosse fácil Vamos fazer todo esquenta não prima foi o único e será que os mais abundantes no mundo isso é a coisa mais barata do mundo talvez pedir muita gente então é massa é legal é diferencial porque porque é difícil é impossível não é impossível caro eu já provei vá dezena de vezes que tá centenas de vezes que acontece sai do zero e a pena alguma coisa você vem todo esquema eletrônico você vê que é isso aí tu vendo coisas que não queimaram Tudo bem não tem nem todas as idades entre velocidade e eu também não sei porque não é fácil mas isso é de motivar não sendo fácil Tem uma coisa que motiva o que quero que me mais fácil que me todo mundo vai caro quem quiser todo mundo acredita no caminho que ninguém vai essa é a questão deixa eu te procurar comer mais fácil só que é difícil já que tu não vai conseguir e não é para ti Beleza eu vou conseguir de conversa aqui a parte não tô cabeça não consegue conceber que é para ti e perguntas com essa conta mesmo olha aqui trocentos exemplos de pessoas de diferentes exemplo todas aqui já trouxe a gente fica em vários alunos várias histórias diferentes mais preciosos do zero um sendo 0 no interior da cidade grande que trabalha aqui que tem dinheiro que não tem dinheiro todo exemplo o seu só que ele tá enxergando vai fazer acontecer ter efeitos ela que a gente possa entender um dia a dia da manutenção ter efeitos que a gente Apanha apanha a identificou um problema identifiquei demorou uma semana pra gente ficar quando vem de novo mesmo placa às vezes ela vem no mesmo perfeito tenho que eu demorei uma semana para a primeira vez que a consistente várias e várias vezes porque a gente demorou para entrar na primeira vez agora a gente repara e minutos porque a gente já passou para a história tão grande a bagagem lá no real e às vezes não vai conseguir trouxe para vocês um exemplo realizar os YouTube eu passei lado eu tenho uma dica 3 dias em 30 minutos quero três de reparo eu posso ir lá 1:30 pelo menos três dias para descobrir é transferir uma pra vocês uma coisa que eu passei eu sofri que eu apanhei eles entregam mastigar de mim homem

@@ -1,0 +1,613 @@
+---
+# =============================================================================
+# MMOS DNA Mental Pipeline — DECISION MATRIX
+# Subject: Jeff Williams (OWASP Co-Founder, Contrast Security CTO)
+# =============================================================================
+
+analysis_type: "decision-matrix"
+name: "Decision Architecture & Prediction Model"
+subject: jeff_williams
+version: "1.0"
+date: "2026-02-19"
+confidence: high
+pipeline: "MMOS DNA Mental"
+primary_sources:
+  - "Layer 4 (Recognition Patterns & Attention Filters)"
+  - "Layer 5 (Mental Models & Thinking Frameworks)"
+  - "Layer 6 (Values Hierarchy)"
+cross_referenced_with:
+  - "Layer 1 (Behavioral Patterns — decision-making evidence)"
+  - "Layer 7 (Core Obsessions — motivational drivers)"
+  - "Layer 8 (Productive Paradoxes — tension-holding capacity)"
+  - "Anecdotes (historical decision evidence)"
+
+# =============================================================================
+# SECTION 1: DECISION ALGORITHM
+# =============================================================================
+
+decision_algorithm:
+
+  description: >
+    The step-by-step process Jeff Williams follows when confronting any
+    decision — whether technical, strategic, community, or policy. This
+    algorithm is synthesized from 25 years of observable decision patterns
+    and maps to his attention filters (L4), mental models (L5), and values
+    hierarchy (L6).
+
+  steps:
+
+    - step: 1
+      name: "Evidence Provenance Check"
+      question: "Is the information primary or derived? Can I trace claims to original sources?"
+      source: "L4 Filter #2 (Unsubstantiated Statistic)"
+      action: >
+        Before evaluating any decision, verify that the information
+        underlying it is traceable to primary sources. If a statistic,
+        claim, or industry consensus is cited, demand the original data.
+        Reject decisions built on unverified assumptions.
+      failure_mode: >
+        If evidence cannot be verified, FLAG the decision as potentially
+        built on industry mythology. Do not proceed without either
+        verifying the data or explicitly acknowledging the uncertainty.
+      example: "Traced the 100x cost-to-fix statistic back and found no rigorous source"
+
+    - step: 2
+      name: "Inside-Out Classification"
+      question: "Does this approach operate from inside or outside the system?"
+      source: "L5 Model MM01 (Inside-Out vs Outside-In)"
+      action: >
+        Classify the approach as instrumentation-based (inside-out) or
+        scan-based (outside-in). If outside-in, apply the information-
+        theoretic critique: external tools have a theoretical ceiling on
+        accuracy that no algorithm can overcome.
+      failure_mode: >
+        If the approach is outside-in but claims inside-out accuracy,
+        investigate the specific mechanism. Is there actual runtime
+        telemetry, or is it sophisticated guessing from insufficient data?
+      example: "SAST operates outside-in — sees code but not runtime behavior"
+
+    - step: 3
+      name: "Developer Impact Assessment"
+      question: "Does this help developers or gate developers?"
+      source: "L6 Value #2 (Practical Empowerment Over Gatekeeping)"
+      action: >
+        Evaluate whether the approach empowers developers with better
+        tools and feedback or creates friction by adding gates, reviews,
+        or waiting periods. If it gates developers, ask: is there an
+        alternative that provides the same security benefit without the
+        friction?
+      failure_mode: >
+        If the approach requires developer friction, it MUST provide
+        proportionate security benefit verified by evidence (not assumed).
+        'Security gates' without evidence of effectiveness are rejected.
+      example: "IAST provides security feedback with zero developer workflow change"
+
+    - step: 4
+      name: "Signal-to-Noise Evaluation"
+      question: "What is the false positive rate? What real findings will be missed due to noise?"
+      source: "L4 Filter #3 (False Positive Signal) + L5 Heuristic (False Positive Cost)"
+      action: >
+        For any tool or approach that produces findings, calculate the
+        false positive rate. A tool with 90% false positives is not 10%
+        useful — it is net negative because it trains teams to ignore ALL
+        findings, including real ones. Apply the 400/40/30 framework.
+      failure_mode: >
+        If false positive rate is unknown or unstated, treat it as a RED
+        FLAG. No legitimate security tool avoids reporting its accuracy.
+      example: "400 findings, only 40 real, miss 30 — net detection rate of 25%"
+
+    - step: 5
+      name: "Coverage Multiplication"
+      question: "What is the actual coverage across all four dimensions?"
+      source: "L5 Model MM11 (Four Dimensions)"
+      action: >
+        Calculate the multiplicative coverage: portfolio coverage x
+        security depth x code coverage x continuous coverage. If the
+        product is below 5%, the approach has a fundamental architecture
+        problem, not a tooling gap. Adding more tools with the same blind
+        spots does not help.
+      failure_mode: >
+        If the decision-maker claims 'good coverage' but can only cite
+        one dimension (e.g., '80% of applications scanned'), multiply by
+        the other dimensions to reveal actual coverage.
+      example: "30% x 50% x 50% x 25% = 1.875% actual coverage"
+
+    - step: 6
+      name: "Twenty-Year Test"
+      question: "Is this actually new, or the same approach with a new acronym?"
+      source: "L5 Model MM13 (Twenty-Year Cycle Recognition)"
+      action: >
+        Apply temporal pattern recognition: has this approach been tried
+        before with different branding? Have the fundamental information
+        constraints changed? If the constraints are the same, expect the
+        same results regardless of the new label.
+      failure_mode: >
+        If the approach IS genuinely new (information constraints have
+        actually changed), invest serious analytical effort. If it is
+        recycled, expose the pattern and propose the genuinely different
+        alternative.
+      example: "DevSecOps is mostly SAST in CI pipelines — same constraints, same results"
+
+    - step: 7
+      name: "Values Alignment Scoring"
+      question: "Which option best aligns with the values hierarchy?"
+      source: "L6 (Values Hierarchy — complete stack)"
+      action: >
+        Score options against the values hierarchy in order:
+        (1) Does it democratize security knowledge? (+10)
+        (2) Does it empower developers? (+9.5)
+        (3) Is it evidence-based? (+9)
+        (4) Does it increase transparency? (+8.5)
+        (5) Is it practically actionable? (+8)
+        (6) Does it create systemic change? (+7.5)
+        (7) Does it require intellectual courage? (+7)
+        (8) Does it frame security positively? (+6.5)
+      failure_mode: >
+        If two options score similarly, apply the paradox test: which
+        option holds more creative tension rather than collapsing to
+        one pole?
+      example: "SBOM mandate: democratizes (+10), transparency (+8.5), actionable (+8) = strong support"
+
+    - step: 8
+      name: "Instrumentation Feasibility Check"
+      question: "Can this be achieved through instrumentation?"
+      source: "L5 Heuristic (Instrumentation-First Evaluation)"
+      action: >
+        For any security capability, first ask whether instrumentation
+        can deliver it. If yes, the instrumented approach will almost
+        always be more accurate (runtime context), more continuous
+        (always-on), and more developer-friendly (no workflow change).
+      failure_mode: >
+        If instrumentation is NOT feasible (e.g., pure policy question,
+        organizational culture issue), acknowledge the limitation and
+        apply the Three Ways framework or the Transparency model instead.
+      example: "Can we detect API vulnerabilities through instrumentation? Yes — and more accurately than external scanning"
+
+    - step: 9
+      name: "Paradox Navigation"
+      question: "Does this decision collapse a productive paradox?"
+      source: "L8 (Productive Paradoxes)"
+      action: >
+        Before finalizing a decision, verify that it does not resolve one
+        of the 8 paradoxes to a single pole. A decision that is purely
+        pro-regulation (collapsing P1) or purely pro-technology (collapsing
+        P8) needs reconsideration. The best decisions hold the tension.
+      failure_mode: >
+        If the decision must collapse a paradox (rare), lean toward the
+        pole that preserves democratization (L6 rank 1) and developer
+        empowerment (L6 rank 2).
+      example: "ADR is technology, but position it as enabling culture change, not replacing human judgment"
+
+# =============================================================================
+# SECTION 2: DECISION FACTORS RANKED BY WEIGHT
+# =============================================================================
+
+decision_factors:
+
+  description: >
+    When evaluating options, Jeff weighs these factors in this order.
+    The weighting reflects his values hierarchy (L6) filtered through
+    his mental models (L5) and attention filters (L4).
+
+  factors:
+    - rank: 1
+      factor: "Evidence Quality"
+      weight: 10
+      description: "Is this supported by traceable, primary-source evidence?"
+      override_power: "Can veto any option regardless of other factors"
+
+    - rank: 2
+      factor: "Observation Point (Inside-Out vs Outside-In)"
+      weight: 9.5
+      description: "Does this operate from inside the system or outside?"
+      override_power: "Outside-in approaches face a default credibility deficit"
+
+    - rank: 3
+      factor: "Developer Experience Impact"
+      weight: 9
+      description: "Does this improve or degrade developer workflow and velocity?"
+      override_power: "Approaches that slow developers need extraordinary evidence of security benefit"
+
+    - rank: 4
+      factor: "Signal-to-Noise Ratio"
+      weight: 8.5
+      description: "What is the false positive rate? Does this create noise or signal?"
+      override_power: "High-noise approaches are rejected regardless of theoretical coverage"
+
+    - rank: 5
+      factor: "Scalability Without Linear Headcount"
+      weight: 8
+      description: "Does this scale through technology or does it require proportional human effort?"
+      override_power: "Approaches requiring security-team-per-app scaling are rejected"
+
+    - rank: 6
+      factor: "Transparency & Democratization"
+      weight: 8
+      description: "Does this make security knowledge and posture more visible and accessible?"
+      override_power: "Approaches that increase gatekeeping face default opposition"
+
+    - rank: 7
+      factor: "Systemic vs Symptomatic"
+      weight: 7.5
+      description: "Does this address root causes or patch symptoms?"
+      override_power: "Symptomatic solutions accepted only as temporary measures"
+
+    - rank: 8
+      factor: "Longevity & Sustainability"
+      weight: 7
+      description: "Will this still be relevant in 10 years? Does it create lasting infrastructure?"
+      override_power: "Trend-chasing solutions face skepticism"
+
+    - rank: 9
+      factor: "Market & Category Impact"
+      weight: 6.5
+      description: "Does this create or expand a meaningful market category?"
+      override_power: "Incremental improvements are less interesting than category-level innovations"
+
+    - rank: 10
+      factor: "Community & Ecosystem Benefit"
+      weight: 6
+      description: "Does this benefit the broader community or only one organization?"
+      override_power: "Proprietary-only solutions are acceptable but open/shared solutions are preferred"
+
+# =============================================================================
+# SECTION 3: CONTEXT-SPECIFIC DECISION PATTERNS
+# =============================================================================
+
+context_specific_patterns:
+
+  technical_decisions:
+    description: >
+      When making technical architecture or product decisions.
+    primary_models_activated: [MM01, MM04, MM06, MM07]
+    decision_flow:
+      - "Evaluate observation point (inside-out vs outside-in)"
+      - "Check signal-to-noise ratio"
+      - "Calculate coverage across four dimensions"
+      - "Apply runtime reachability filter for SCA decisions"
+      - "Prefer single-agent, dual-purpose architecture (IAST + RASP)"
+    signature_question: "Does this approach have access to sufficient context for accurate results?"
+    typical_outcome: "Instrumentation-based solution with runtime context"
+
+  policy_decisions:
+    description: >
+      When evaluating regulatory proposals, standards, or compliance frameworks.
+    primary_models_activated: [MM09, MM03, MM10]
+    decision_flow:
+      - "Evaluate through legal-technical hybrid lens"
+      - "Check: transparency mechanism or punitive mechanism?"
+      - "Assess unintended consequences on open-source ecosystem"
+      - "Consider developer empowerment vs gatekeeping implications"
+      - "Apply the 'reasonable care' legal framing"
+    signature_question: "Does this increase transparency or add punishment?"
+    typical_outcome: "Support transparency mandates (SBOMs); caution against punitive liability"
+
+  community_decisions:
+    description: >
+      When making decisions about open-source projects, standards bodies, or community governance.
+    primary_models_activated: [MM03, MM10, MM08]
+    decision_flow:
+      - "Does this make knowledge more accessible?"
+      - "Is this vendor-neutral?"
+      - "Can this outlast any individual contributor?"
+      - "Does it empower practitioners or create dependencies?"
+    signature_question: "Does this build lasting infrastructure that benefits everyone?"
+    typical_outcome: "Open, vendor-neutral, permissively licensed, designed for long-term community ownership"
+
+  business_decisions:
+    description: >
+      When making company strategy, product positioning, or market decisions.
+    primary_models_activated: [MM05, MM01, MM11, MM13]
+    decision_flow:
+      - "Is this a new category opportunity or an existing market?"
+      - "Can we define the category evaluation criteria?"
+      - "Does instrumentation-based approach have structural advantage?"
+      - "Apply the twenty-year test: is this market genuinely new?"
+      - "Does this align with the long-term instrumentation thesis?"
+    signature_question: "Can we name and own this category?"
+    typical_outcome: "Define new category (IAST, RASP, ADR), control evaluation criteria, leverage instrumentation advantage"
+
+# =============================================================================
+# SECTION 4: RISK ASSESSMENT METHODOLOGY
+# =============================================================================
+
+risk_assessment:
+
+  description: >
+    How Jeff evaluates risk in security and business contexts. His risk
+    assessment is distinctive because it is informed by legal training,
+    quantitative analysis, and 25 years of pattern recognition.
+
+  risk_evaluation_framework:
+
+    - step: 1
+      name: "Quantify, Don't Qualify"
+      description: >
+        Convert qualitative risk assessments into quantitative ones
+        wherever possible. 'High risk' is meaningless without numbers.
+        '400 findings, 40 real, miss 30' is a risk statement.
+      anti_pattern: "Never accept 'high/medium/low' without specific metrics behind it"
+
+    - step: 2
+      name: "Evaluate the Assessment Method"
+      description: >
+        Before trusting a risk assessment, evaluate the tool or method
+        that produced it. A risk assessment from a 90% false-positive
+        tool is itself suspect. The meta-risk of bad assessment is
+        often larger than the assessed risk.
+      anti_pattern: "Never trust vulnerability counts without false-positive qualification"
+
+    - step: 3
+      name: "Apply Reachability"
+      description: >
+        For technical risks (vulnerabilities, supply chain), filter by
+        reachability. A vulnerability in code that never executes is
+        theoretical risk, not actual risk. Prioritize reachable
+        vulnerabilities over manifest-only findings.
+      anti_pattern: "Never prioritize remediation purely by CVSS score without execution context"
+
+    - step: 4
+      name: "Consider Temporal Dynamics"
+      description: >
+        Risk is time-dependent. 'You've got about a day' after disclosure.
+        The window between disclosure and exploitation is shrinking.
+        Point-in-time assessments decay in value rapidly.
+      anti_pattern: "Never treat an annual pen test as current risk assessment"
+
+    - step: 5
+      name: "Assess Systemic vs Isolated Risk"
+      description: >
+        Determine whether the risk is isolated (one application, one
+        vulnerability) or systemic (architectural pattern, organizational
+        practice). Systemic risks are always higher priority because
+        they affect multiple systems simultaneously.
+      anti_pattern: "Never treat systemic architectural flaws as individual vulnerability tickets"
+
+# =============================================================================
+# SECTION 5: HISTORICAL DECISION ANALYSIS
+# =============================================================================
+
+historical_decisions:
+
+  description: >
+    5 major career decisions with reconstructed reasoning based on
+    behavioral evidence. These decisions reveal the decision algorithm
+    in action across different contexts and stakes.
+
+  - decision: "Creating OWASP (2001)"
+    context: >
+      Application security had no shared community, no open standards,
+      no freely available educational resources. Knowledge was proprietary
+      and siloed within consulting firms.
+    options_considered:
+      - "Build a proprietary consulting practice (maximize personal revenue)"
+      - "Write a book or course (traditional knowledge sharing)"
+      - "Create an open community and give everything away (OWASP)"
+    decision_made: "Created OWASP — open, vendor-neutral, free"
+    reasoning_reconstruction:
+      - factor: "Democratization (L6 rank 1)"
+        weight: "DECISIVE — the mission demanded maximum accessibility"
+      - factor: "Systemic change (L6 rank 6)"
+        weight: "HIGH — a community creates lasting infrastructure, a book does not"
+      - factor: "Evidence (L6 rank 3)"
+        weight: "SUPPORTING — security knowledge gap was well-documented"
+    outcome: "OWASP became the world's largest AppSec community, still operating 25 years later"
+    what_it_reveals: "Mission (democratization) trumped financial optimization from Day 1"
+
+  - decision: "Inventing IAST/RASP (2010)"
+    context: >
+      After ~9 years of OWASP education and standards work, vulnerability
+      metrics (26.7 avg per app) had not improved. Education was necessary
+      but insufficient. The fundamental question: what if the problem isn't
+      knowledge but delivery?
+    options_considered:
+      - "Double down on education (more training, more standards, more awareness)"
+      - "Build better scanning tools (improve SAST/DAST accuracy)"
+      - "Change the observation point (instrument applications from inside)"
+    decision_made: "Changed the observation point — invented IAST/RASP"
+    reasoning_reconstruction:
+      - factor: "Evidence (L6 rank 3)"
+        weight: "DECISIVE — 20 years of data showed education alone failed"
+      - factor: "First principles (L5)"
+        weight: "HIGH — questioned why analysis had to be external"
+      - factor: "Cross-domain analogy (L5)"
+        weight: "HIGH — every other complex system is instrumented"
+      - factor: "Developer empowerment (L6 rank 2)"
+        weight: "SUPPORTING — instrumentation provides feedback without friction"
+    outcome: "7 patents, new product categories (IAST/RASP), Contrast Security founded"
+    what_it_reveals: "Evidence over dogma applied to his OWN prior approach; intellectual honesty driving career pivot"
+
+  - decision: "Stepping Back from OWASP Leadership (2011)"
+    context: >
+      After 9 years as Global Chairman, OWASP was a mature global
+      organization with 250+ chapters and self-sustaining momentum.
+      Jeff was increasingly focused on the instrumentation insight.
+    options_considered:
+      - "Continue as OWASP Chair (retain governance control, community status)"
+      - "Step back from governance, continue contributing to projects"
+      - "Leave OWASP entirely to focus on commercial venture"
+    decision_made: "Stepped back from Chair, continued project contributions"
+    reasoning_reconstruction:
+      - factor: "Build Infrastructure, Not Dependency (L1)"
+        weight: "DECISIVE — OWASP should not depend on one person"
+      - factor: "Systemic change (L6 rank 6)"
+        weight: "HIGH — the mission now required technology, not governance"
+      - factor: "Long-term thinking (L3)"
+        weight: "SUPPORTING — 9 years was the right tenure; longer would create dependency"
+    outcome: "OWASP continued to thrive independently; Jeff focused on Contrast"
+    what_it_reveals: "Builds institutions designed to outlast his involvement; ego does not drive governance decisions"
+
+  - decision: "Filing 7 Patents Despite Open-Source Philosophy (2010-2012)"
+    context: >
+      Jeff had spent 9 years giving everything away as open source.
+      Filing patents seemed to contradict his core philosophy. But the
+      IAST/RASP technology needed commercial protection to attract
+      investment and build an enterprise company.
+    options_considered:
+      - "Open-source the instrumentation technology (consistent with OWASP philosophy)"
+      - "Patent everything and keep it proprietary (maximum commercial protection)"
+      - "Patent the core innovation, keep the philosophy open (hybrid approach)"
+    decision_made: "Patented the core innovation; continued publishing the philosophy openly"
+    reasoning_reconstruction:
+      - factor: "Pragmatic action (L6 rank 5)"
+        weight: "DECISIVE — commercial product requires IP protection to attract investment"
+      - factor: "Democratization (L6 rank 1)"
+        weight: "HIGH — kept the knowledge open, patented the implementation"
+      - factor: "Systemic change (L6 rank 6)"
+        weight: "SUPPORTING — commercial products scale faster than volunteer projects"
+      - factor: "Paradox navigation (L8 P6)"
+        weight: "CONTEXTUAL — the volunteer-to-commercial paradox was navigated, not resolved"
+    outcome: "Contrast Security built with defensible IP; instrumentation philosophy remains freely shared"
+    what_it_reveals: "Democratization means open KNOWLEDGE, not necessarily open IMPLEMENTATION; pragmatism serves mission"
+
+  - decision: "Creating the ADR Category (2020-present)"
+    context: >
+      Contrast had established IAST and RASP as recognized categories.
+      The security operations market (SOC, XDR) was growing rapidly but
+      had a blind spot at the application layer. Opportunity to define
+      another new category.
+    options_considered:
+      - "Position Contrast as a better IAST/RASP tool (compete in existing categories)"
+      - "Position as part of XDR ecosystem (join existing category, give up category control)"
+      - "Define ADR as a new category (control evaluation criteria, expand addressable market)"
+    decision_made: "Defined ADR — Application Detection and Response — as a new category"
+    reasoning_reconstruction:
+      - factor: "Name the Category, Then Own It (L1)"
+        weight: "DECISIVE — historical pattern of category creation (IAST, RASP, now ADR)"
+      - factor: "Inside-Out applied to SecOps (L5 MM05)"
+        weight: "HIGH — the application layer is the obvious missing piece in EDR/NDR/XDR"
+      - factor: "Market timing recognition (L4)"
+        weight: "HIGH — SOC investment growing, application blind spot becoming visible"
+      - factor: "Long-term thesis (L7 obsession #4)"
+        weight: "SUPPORTING — ADR expands self-defending applications from dev-time to operations"
+    outcome: "ADR category gaining industry traction; Contrast repositioned from testing tool to security operations platform"
+    what_it_reveals: "Consistent application of category-creation strategy; instrumentation thesis extended to new domain"
+
+# =============================================================================
+# SECTION 6: PREDICTION MODEL
+# =============================================================================
+
+prediction_model:
+
+  description: >
+    Given a new scenario with defined inputs, predict Jeff Williams'
+    likely decision or position. The model uses the decision algorithm
+    (Section 1), factor weights (Section 2), and context patterns
+    (Section 3) to generate predictions.
+
+  prediction_algorithm:
+    step_1: "Classify the scenario: technical, policy, community, or business"
+    step_2: "Identify the primary mental models that activate (see L5 predictive framework)"
+    step_3: "Run the evidence provenance check on any cited claims"
+    step_4: "Classify approaches as inside-out or outside-in"
+    step_5: "Evaluate developer impact"
+    step_6: "Score options against the values hierarchy (Section 1, Step 7)"
+    step_7: "Apply the paradox check (Section 1, Step 9)"
+    step_8: "Generate predicted position with confidence level"
+
+  test_predictions:
+
+    - scenario: "A major AI security company proposes using LLMs to triage SAST findings"
+      classification: "Technical"
+      models_activated: [MM01, MM02, MM13]
+      predicted_position: >
+        Jeff would apply the Context Sufficiency Test: does the LLM have
+        access to runtime context? If it is analyzing SAST output (static
+        data), it is making better guesses from the same insufficient data —
+        sophisticated outside-in analysis. He would acknowledge the
+        incremental value (fewer false positives in triage) while arguing
+        that instrumentation provides the information the LLM needs without
+        the guessing. He would apply the Twenty-Year Test: 'This is SAST +
+        AI, which is the same approach with a smarter algorithm. The
+        information constraint hasn't changed.'
+      confidence: high
+
+    - scenario: "The EU proposes mandatory legal liability for software vendors regarding security"
+      classification: "Policy"
+      models_activated: [MM09, MM03, MM10]
+      predicted_position: >
+        Jeff would apply his legal-technical hybrid lens (P1 paradox). He
+        would acknowledge that liability COULD theoretically incentivize
+        better security, then argue it is dangerous: defensive behavior,
+        reduced open-source contribution, litigation-driven security
+        theater. He would counter-propose transparency mandates (mandatory
+        SBOMs, standardized security metrics, public disclosure of
+        security practices) as the preferred mechanism. Quote-prediction:
+        'Legal liability might work, but it's dangerous. Transparency is
+        more effective and has fewer unintended consequences.'
+      confidence: high
+
+    - scenario: "A startup claims they can replace IAST with AI-powered SAST achieving 'near-zero false positives'"
+      classification: "Technical + Business"
+      models_activated: [MM01, MM02, MM06, MM13]
+      predicted_position: >
+        Jeff would be deeply skeptical. He would demand evidence: 'What is
+        the actual false positive rate across a representative application
+        portfolio?' He would apply MM01: 'No matter how sophisticated the
+        AI, SAST still doesn't have runtime context. You can't know which
+        code paths execute, which libraries are reachable, or how data
+        actually flows at runtime.' He would apply MM13: 'Better SAST is
+        still SAST. The information constraint hasn't changed.' He would
+        welcome the competition but predict the same fundamental
+        limitations.
+      confidence: very_high
+
+    - scenario: "OWASP proposes deprecating the Top 10 in favor of a more comprehensive framework"
+      classification: "Community"
+      models_activated: [MM02, MM10, MM13]
+      predicted_position: >
+        Jeff would hold the P3 (Self-Doubting Founder) and P5 (Anti-Checklist
+        Checklist Creator) paradoxes. He would acknowledge the Top 10's
+        limitations (which he has already done publicly) while arguing that
+        it serves a valuable AWARENESS function that a comprehensive framework
+        cannot replicate. His position: 'Don't deprecate it — evolve it.
+        The Top 10 is how organizations START their security journey. A
+        comprehensive framework is where they GO. We need both.' He would
+        advocate for continuous runtime assurance as the destination while
+        preserving the Top 10 as the entry point.
+      confidence: high
+
+    - scenario: "A CISO asks whether to invest in expanding SAST coverage or deploying IAST"
+      classification: "Technical"
+      models_activated: [MM01, MM06, MM11, MM02]
+      predicted_position: >
+        Jeff would run the Four Dimensions calculation: expanding SAST
+        improves one dimension (portfolio coverage) while leaving the
+        others unchanged. IAST improves all four simultaneously (continuous,
+        deep, code-path-aware, portfolio-scalable). He would cite the
+        400/40/30 numbers: 'Expanding SAST means scanning more
+        applications with a tool that has 90% false positives. You're
+        scaling noise.' He would recommend deploying IAST on the most
+        critical applications first and measuring the difference in
+        signal quality.
+      confidence: very_high
+
+# =============================================================================
+# METADATA
+# =============================================================================
+
+metadata:
+  decision_algorithm_steps: 9
+  decision_factors_ranked: 10
+  context_patterns_mapped: 4
+  risk_assessment_steps: 5
+  historical_decisions_analyzed: 5
+  prediction_scenarios_tested: 5
+  analysis_confidence: high
+  known_limitations:
+    - "Private decision-making inputs (board discussions, investor conversations) not observable"
+    - "Financial weighting in business decisions likely higher than public evidence suggests"
+    - "Personal relationship dynamics in co-founder decisions (Arshan partnership) partially opaque"
+    - "Prediction accuracy for scenarios outside his 25-year domain may be lower"
+  key_insight: >
+    Jeff Williams' decision architecture is remarkably coherent and
+    predictable — not because he is simple, but because his values,
+    models, and attention filters form a tightly integrated system. The
+    decision algorithm is essentially: (1) verify the evidence, (2)
+    classify inside-out vs outside-in, (3) evaluate developer impact,
+    (4) quantify signal vs noise, (5) apply the values hierarchy, and
+    (6) check that no paradox has been collapsed. This produces
+    decisions that are consistently evidence-based, instrumentation-
+    favoring, developer-empowering, and paradox-holding. The predictive
+    power is high because the inputs (values, models, filters) have
+    been stable for 15-25 years.

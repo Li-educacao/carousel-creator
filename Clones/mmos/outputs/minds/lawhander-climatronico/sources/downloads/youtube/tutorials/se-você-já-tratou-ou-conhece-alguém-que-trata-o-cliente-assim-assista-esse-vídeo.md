@@ -1,0 +1,14 @@
+# Se você já tratou ou conhece alguém que trata o cliente assim, assista esse vídeo #AME
+
+- **Video ID:** POyTccYJNT4
+- **URL:** https://www.youtube.com/watch?v=POyTccYJNT4
+- **Duration:** 6 min
+- **Views:** 199
+- **Published:** 2021-08-01T15:00:08Z
+- **Category:** tutorials
+
+---
+
+## Transcript
+
+o carro dele tá errado ele é só bizu é só rapidão aí quando dá ruim cantar problema ele ele passou para frente sob a cama o seguinte eu aqui tô aqui ele te dou ali daí não deu certo pode poder falar com o cliente Pega outro você tiver você manda ou ele empurra lá na frente defendendo o que seja sempre tava ontem eu mexi para lá bom então acaba um felizmente infelizmente acaba ajudando mais pro lado do cliente para esse tipo de profissional e o café bizurado e quer casca de jua que instalar ela falou aqui é um dos nossos vídeos porque o debaixo da formatura e esse time faz Mudamos o que eu trago lá no bastidor E agora você não tem um homem que mais financeiro da coisa eu acho que é um baixo do legal de botar para fora mostrar o quanto a gente ganha um apartamento pode ficar todos aqui infelizmente porque eu gosto dele pois existe mercado para dar só comer um bico é muito magrinha Oi desculpa é que eu tô aqui ele está aqui direto falando com vocês querem não pode vestir mercado eu não sei o mercado em um mercado tem que a gente vai trabalhar Aí ela já foi dois três ditadores e o cara ele é grosseiro com a gente gratuita lá do lado da empresa de instalação de carros a a resposta seria a principal Então é isso aí só que só isso aí só não sei te dizer que nem a o trabalho que aprendi quando trabalhando mesmo tempo trabalhando para vender Então vou aprendendo trabalho mesmo tempo eu só quero só levar até parece que acaba que eu viro só um robô e ainda muitas vezes perde sentido da coisa é muito rentável não é muito bom de verdade a gente tá falando direto para vocês eu estou indo de relações porque todo dia todo dia eu vi sua mensagem agora então eu gostaria aqui conheci e eu vejo demora acontecendo no Brasil todo Ah tá então aonde Não fica triste você está aqui direto mas também juntos em tocar aqui na busca se fundamental é que é isso apurar e acaba aqui quando frente menos só que não fala mas ele tem leite menos para ganhar dinheiro mas devia ser porque a gente vai comer lá processo pessoa melhor mais rápido mais eficiência porque não é o grande ano A ah ah não pode até mentira no valor da internet É mas tu volta acreditava dos pessoal parar de pensar em mim não consiga porque teus filhos tem esse papai oi tá tudo disse que ia chegar só a cabeça de a casa de baladeira procurar um carro e vai mais fácil para mim eu faço o meu é par na espaço x reais bem Tanto gente E aí se fosse assim para ficar aí com esse cara que faça isso por esse tipo de produção Além disso ele vai ele vai se frustrar um pouco

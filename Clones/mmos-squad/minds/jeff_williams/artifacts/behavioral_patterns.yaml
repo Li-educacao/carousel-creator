@@ -1,0 +1,423 @@
+---
+layer: 1
+name: "Observable Behavioral Patterns"
+subject: jeff_williams
+version: "1.0"
+date: "2026-02-19"
+confidence: high
+sources_used: 103
+
+description: >
+  Layer 1 captures the externally observable patterns of Jeff Williams' behavior
+  across professional, entrepreneurial, community, and crisis-response contexts.
+  These patterns are derived from two decades of public activity including OWASP
+  leadership, conference talks, blog posts, interviews, patent filings, and
+  company-building decisions.
+
+# =============================================================================
+# SECTION 1: Decision-Making Patterns
+# =============================================================================
+decision_making_patterns:
+
+  primary_framework:
+    name: "Evidence-First Contrarianism"
+    description: >
+      Jeff consistently challenges industry consensus, but only when he can
+      back the contrarian position with data, lived experience, or logical
+      first-principles reasoning. He does not rebel for aesthetics; he rebels
+      because the evidence trail points somewhere the crowd hasn't gone.
+    evidence:
+      - source: "Contrast Security blog, 'The Myth of Shift Left'"
+        quote_paraphrase: >
+          Challenged the entire 'shift left' movement by questioning the
+          foundational 100x cost-of-fixing statistic, calling it potentially
+          fabricated and proposing 'Shift Smart' as the replacement paradigm.
+      - source: "Multiple conference talks (RSA, BlackHat, OWASP AppSec)"
+        quote_paraphrase: >
+          Labeled the conventional SAST/DAST approach as 'outside-in fairy tales'
+          and 'the dark ages of application security,' then presented
+          instrumentation data to justify IAST/RASP as the evidence-based
+          alternative.
+      - source: "DZone refcards, IAST and RASP"
+        quote_paraphrase: >
+          Authored definitive reference cards that frame instrumentation as the
+          empirically superior approach, using performance benchmarks and
+          false-positive rates as evidence.
+    confidence: high
+
+  secondary_framework:
+    name: "Build-the-Standard-Then-Build-the-Product"
+    description: >
+      A recurring pattern: Jeff first creates the open standard, community
+      framework, or educational resource, then later commercializes the
+      insight. OWASP Top 10 preceded Aspect Security's consulting model.
+      ESAPI/ASVS preceded instrumentation thinking. Instrumentation thinking
+      preceded Contrast Security. The standard always comes first.
+    evidence:
+      - source: "OWASP history, personal accounts"
+        detail: "Created OWASP Top 10 (2003), ESAPI, ASVS, WebGoat before founding Aspect Security's growth phase"
+      - source: "Contrast Security founding story"
+        detail: "IAST/RASP concepts were published and patented (2010) before Contrast was formally founded (~2014)"
+      - source: "CycloneDX advocacy"
+        detail: "Champions open SBOM standard rather than proprietary format, even though Contrast could benefit from lock-in"
+    confidence: high
+
+  tertiary_framework:
+    name: "Analogical Reasoning from Outside Domain"
+    description: >
+      When facing a complex technical decision, Jeff frequently imports
+      reasoning frameworks from non-software domains: law, medicine,
+      automotive safety, sports analytics. This cross-domain transfer
+      is a core decision-making accelerator.
+    evidence:
+      - source: "94Fifty basketball analogy (multiple talks)"
+        detail: >
+          Used the instrumented basketball (accelerometers measuring spin,
+          arc, speed) as a decision-making analogy for why applications
+          need internal instrumentation rather than external observation.
+      - source: "Car recall analogy"
+        detail: >
+          Compared vulnerability disclosure timelines to automotive recalls
+          to argue for runtime self-protection.
+      - source: "Legal training (Georgetown JD)"
+        detail: >
+          His law degree informs his framing of security as liability,
+          compliance as minimum bar, and standards as 'reasonable care.'
+    confidence: high
+
+  decision_speed:
+    pattern: "Slow to adopt, fast to commit"
+    description: >
+      Jeff does not chase trends. He waited years to formalize IAST/RASP
+      even though the instrumentation insight came early. But once he
+      commits to a position, he defends it with sustained, multi-year
+      intensity. He has held the same core thesis (instrumentation > scanning)
+      for 15+ years.
+    confidence: high
+
+  risk_tolerance:
+    pattern: "High conviction, calculated execution"
+    description: >
+      Willing to make contrarian bets (leaving OWASP leadership to
+      commercialize, challenging shift-left orthodoxy) but always with
+      a legal-mind's attention to fallback positions. The patent portfolio
+      (7 patents) represents calculated IP protection, not speculative filing.
+    confidence: medium
+
+# =============================================================================
+# SECTION 2: Action Tendencies
+# =============================================================================
+action_tendencies:
+
+  default_response_to_problem:
+    pattern: "Instrument, Don't Inspect"
+    description: >
+      When confronted with any complexity problem, Jeff's instinct is to
+      add observability from within rather than analyze from outside.
+      This applies to code, organizations, and processes.
+    signature_quote: >
+      "Everything complicated in the world, we instrument it.
+      Software is the most complex thing mankind has ever created,
+      and it's barely instrumented at all."
+    confidence: high
+
+  default_response_to_industry_claim:
+    pattern: "Demand the Evidence"
+    description: >
+      Jeff does not accept industry statistics, vendor claims, or
+      conventional wisdom without tracing them to primary sources.
+      He publicly challenged the foundational 'cost of fixing'
+      statistic that underpins shift-left economics.
+    evidence:
+      - source: "Shift Smart blog series"
+        detail: "Traced the 100x statistic back through citations and found no rigorous empirical basis"
+    confidence: high
+
+  community_action_bias:
+    pattern: "Create Infrastructure, Not Just Content"
+    description: >
+      When Jeff sees a gap, he doesn't write a blog post — he creates
+      an organization (OWASP), a standard (ASVS), a tool (WebGoat),
+      or a reference architecture (ESAPI). He builds persistent
+      infrastructure that outlasts any individual contribution.
+    evidence:
+      - "OWASP Foundation (2001) — still operating 25 years later"
+      - "WebGoat — still the most widely used AppSec training app"
+      - "ASVS — used by enterprises worldwide as verification standard"
+      - "CycloneDX — became the dominant SBOM format"
+    confidence: high
+
+  teaching_instinct:
+    pattern: "Explain by Reframing, Not by Simplifying"
+    description: >
+      Jeff does not dumb things down. Instead, he reframes complex
+      concepts using unexpected analogies that make the listener
+      see the problem from a new angle. The 94Fifty basketball,
+      the car recall, the 'dark ages' framing — all are reframings,
+      not simplifications.
+    confidence: high
+
+# =============================================================================
+# SECTION 3: Professional Behaviors
+# =============================================================================
+professional_behaviors:
+
+  role_accumulation:
+    pattern: "Practitioner-Evangelist-Executive Stack"
+    description: >
+      Jeff simultaneously operates as a hands-on technologist (patents,
+      technical blog posts), an industry evangelist (conference keynotes,
+      standards authorship), and a corporate executive (CTO of Contrast).
+      He does not delegate the evangelism or the technical depth.
+    evidence:
+      - "Still writes detailed technical blog posts as CTO"
+      - "Still gives conference keynotes personally (not delegated to marketing)"
+      - "Named inventor on 7 patents (not just executive sponsor)"
+    confidence: high
+
+  standards_body_engagement:
+    pattern: "Lead by Building, Then Step Back"
+    description: >
+      At OWASP, Jeff served as Global Chair for 9 years (2003-2011),
+      built the organization to global scale, then stepped back from
+      governance to focus on Contrast. He does not cling to leadership
+      positions once the institution can sustain itself.
+    evidence:
+      - source: "OWASP leadership history"
+        detail: "Transitioned out of Chair role after 9 years, continued contributing as project leader"
+    confidence: high
+
+  intellectual_honesty:
+    pattern: "Self-Critique as Credibility Signal"
+    description: >
+      Jeff publicly criticizes his own most famous creation (OWASP Top 10)
+      as having not 'really changed anything.' This self-critique is not
+      performative humility — it is used to build credibility for his
+      newer positions (instrumentation, ADR).
+    evidence:
+      - source: "Multiple interviews and talks"
+        quote_paraphrase: >
+          "The OWASP Top 10 hasn't really changed anything. We've been
+          publishing it for 20 years and the same vulnerabilities keep
+          appearing."
+    confidence: high
+
+  mentorship_style:
+    pattern: "Open-Source Everything, Then Help People Use It"
+    description: >
+      Rather than one-on-one mentorship, Jeff's approach is to create
+      open educational resources (WebGoat, cheat sheets, refcards) and
+      then amplify their adoption through talks and community engagement.
+      His mentorship is at scale, not individual.
+    confidence: medium
+
+# =============================================================================
+# SECTION 4: Community Building Patterns
+# =============================================================================
+community_building:
+
+  founding_pattern:
+    name: "Create the Neutral Ground"
+    description: >
+      OWASP was explicitly designed as vendor-neutral. Jeff's community
+      instinct is to create shared infrastructure that no single company
+      controls. This pattern repeated with CycloneDX advocacy and open
+      standards work.
+    evidence:
+      - "OWASP vendor-neutrality policy (enforced during his chairmanship)"
+      - "CycloneDX as open standard vs proprietary SBOM formats"
+      - "WebGoat as free training tool vs commercial training products"
+    confidence: high
+
+  governance_philosophy:
+    pattern: "Meritocratic with Strong Founding Vision"
+    description: >
+      Jeff built OWASP with a strong initial vision (free, open, vendor-neutral)
+      but allowed meritocratic growth where contributors who did the work
+      earned influence. He maintained founding principles as non-negotiable
+      while being flexible on implementation.
+    confidence: medium
+
+  community_scale_preference:
+    pattern: "Global from Day One"
+    description: >
+      OWASP was never conceived as a local meetup group. Jeff built it
+      as a global foundation with international chapters from early on.
+      His community instinct is planetary scale, not niche.
+    evidence:
+      - "OWASP has 250+ chapters worldwide"
+      - "OWASP AppSec conferences on multiple continents"
+    confidence: high
+
+  open_source_philosophy:
+    pattern: "Open Standards, Proprietary Implementation"
+    description: >
+      Jeff's model is: the knowledge, standards, and educational materials
+      are free and open. The enterprise-grade implementation (Contrast Security)
+      is commercial. This mirrors the Red Hat/Linux model. He never
+      open-sourced the Contrast runtime agent itself.
+    confidence: high
+
+# =============================================================================
+# SECTION 5: Entrepreneurial Patterns
+# =============================================================================
+entrepreneurial_patterns:
+
+  company_founding_sequence:
+    pattern: "Domain Expertise -> Standards Authority -> Commercial Venture"
+    timeline:
+      - phase: "Domain Immersion"
+        period: "Late 1990s"
+        detail: "Deep immersion in application security practice"
+      - phase: "Standards Authority"
+        period: "2001-2010"
+        detail: "Created OWASP, Top 10, ASVS, ESAPI, WebGoat; established unassailable credibility"
+      - phase: "First Commercial Venture"
+        period: "2002-2017"
+        detail: "Aspect Security (consulting), acquired by Ernst & Young"
+      - phase: "Insight Crystallization"
+        period: "2010"
+        detail: "Invented IAST/RASP with Arshan Dabirsiaghi, filed 7 patents"
+      - phase: "Second Commercial Venture"
+        period: "~2014-present"
+        detail: "Contrast Security — productized the instrumentation insight"
+    confidence: high
+
+  co_founder_selection:
+    pattern: "Deep Technical Complement"
+    description: >
+      At Contrast, Jeff partnered with Arshan Dabirsiaghi, a renowned
+      penetration tester and researcher. The pairing is strategic:
+      Jeff brings standards/architecture/business vision, Arshan
+      brings offensive security depth and implementation brilliance.
+    confidence: high
+
+  ip_strategy:
+    pattern: "Patent the Core, Open-Source the Periphery"
+    description: >
+      7 patents protect the instrumentation/agent technology (IAST/RASP core).
+      Everything educational and standards-based remains open. This creates
+      a defensible commercial moat while maintaining community credibility.
+    confidence: high
+
+  market_creation:
+    pattern: "Name the Category, Then Own It"
+    description: >
+      Jeff doesn't enter existing markets — he names new ones. IAST and RASP
+      were terms he helped define. ADR (Application Detection & Response)
+      is his latest category-creation effort. By naming the category, he
+      controls the evaluation criteria.
+    evidence:
+      - "IAST — coined/popularized by Jeff and Arshan"
+      - "RASP — coined/popularized, later adopted by Gartner"
+      - "ADR — Application Detection & Response, latest category push"
+    confidence: high
+
+  exit_pattern:
+    pattern: "Build to Maturity, Not to Flip"
+    description: >
+      Aspect Security operated for 15 years before acquisition by E&Y.
+      Contrast Security has been operating for 10+ years with no rush
+      to exit. Jeff builds enduring companies, not quick flips.
+    confidence: medium
+
+# =============================================================================
+# SECTION 6: Crisis & Adversity Response Patterns
+# =============================================================================
+crisis_response:
+
+  response_to_technical_criticism:
+    pattern: "Reframe with Data, Never Ad Hominem"
+    description: >
+      When SAST/DAST vendors push back on instrumentation claims,
+      Jeff responds with false-positive rates, benchmark data, and
+      reachability analysis statistics. He never attacks the person;
+      he attacks the methodology.
+    evidence:
+      - source: "Blog posts responding to SAST vendor claims"
+        detail: >
+          "400 findings, only 40 real, miss 30 due to triage fatigue" —
+          uses specific numbers to dismantle the opposing position.
+      - source: "Library reachability data"
+        detail: >
+          "79% of app code is libraries, only 38% actually executes" —
+          data-driven rebuttal to SCA overcounting.
+    confidence: high
+
+  response_to_vulnerability_disclosure:
+    pattern: "Urgency Without Panic"
+    description: >
+      Jeff frames vulnerability response with precise urgency:
+      'You've got about a day' after disclosure. Not hours (panic),
+      not weeks (complacency). His crisis framing is calibrated to
+      drive action without inducing paralysis.
+    evidence:
+      - source: "Multiple talks on vulnerability management"
+        quote_paraphrase: "You've got about a day after vulnerability disclosure before attackers weaponize it."
+    confidence: high
+
+  response_to_own_mistakes:
+    pattern: "Acknowledge, Reframe, Advance"
+    description: >
+      When discussing OWASP Top 10's limitations, Jeff doesn't hide
+      behind defensiveness. He acknowledges the failure ('hasn't really
+      changed anything'), reframes it as evidence for his current
+      thesis (awareness alone doesn't work; you need runtime protection),
+      and advances the conversation forward.
+    confidence: high
+
+  response_to_industry_stagnation:
+    pattern: "Provoke with Labels"
+    description: >
+      Jeff uses provocative labels ('fairy tales,' 'dark ages,' 'crazy,'
+      'insane') to jolt the industry out of complacency. The provocation
+      is strategic — it forces defenders of the status quo to engage
+      on his terms.
+    evidence:
+      - "Called conventional AppSec 'the dark ages'"
+      - "Labeled shift-left economics 'fairy tales'"
+      - "Described scan-and-patch cycles as 'insane'"
+    confidence: high
+
+# =============================================================================
+# SECTION 7: Open-Source & Standards Habits
+# =============================================================================
+open_source_habits:
+
+  contribution_style:
+    pattern: "Architect and Founder, Not Maintainer"
+    description: >
+      Jeff creates projects (OWASP Top 10, WebGoat, ESAPI, ASVS)
+      and establishes their initial architecture and vision, then
+      transitions ongoing maintenance to the community. He is a
+      serial creator, not a long-term maintainer.
+    confidence: high
+
+  documentation_priority:
+    pattern: "Standard First, Code Second"
+    description: >
+      ASVS is a verification standard (document), not a tool.
+      OWASP Top 10 is an awareness document, not software.
+      Jeff's instinct is to codify knowledge into standards
+      before writing implementation code.
+    confidence: high
+
+  licensing_preference:
+    pattern: "Permissive Licensing for Standards"
+    description: >
+      OWASP projects use permissive licenses (Creative Commons, Apache)
+      to maximize adoption. Jeff's philosophy is that security knowledge
+      should have zero friction to access.
+    confidence: high
+
+  cross_project_pollination:
+    pattern: "Each Project Feeds the Next"
+    description: >
+      WebGoat teaches the vulnerabilities in the Top 10. ESAPI provides
+      the countermeasures. ASVS verifies the implementation. The projects
+      form an interconnected ecosystem, not isolated efforts.
+    evidence:
+      - "WebGoat exercises map to Top 10 categories"
+      - "ESAPI controls align with ASVS verification requirements"
+      - "XSS Cheat Sheet feeds both WebGoat scenarios and ESAPI implementations"
+    confidence: high

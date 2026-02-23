@@ -1,0 +1,14 @@
+# COMO TESTAR O IGBT? #AME
+
+- **Video ID:** P4E3B6k7z2k
+- **URL:** https://www.youtube.com/watch?v=P4E3B6k7z2k
+- **Duration:** 3 min
+- **Views:** 4,585
+- **Published:** 2019-04-13T15:00:04Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+E a terceira situação é o bom, vamos lá. Agora vamos pro teste, né? Como é que eu testo? Eu consigo chavear o IGBT. Assim como eu chavei o Mosfet, eu consigo chavear o IGBT também. Então eu vou aqui, ó, na escala de resistência mesmo, certo? Só que diferentemente do mosfet, pessoal, no GBT, quando eu for chavear, ele não fecha completamente, certo? Ele vai dar uma resistência alta, mas evidencia o chaveamento dele. Ó, se eu colocar aqui coletor emissor, ele não dá nada. Tão vendo? Coletor emissor, ele não dá nada. Se eu pegar, ó, coletor emissor, nada. Se eu pegar a ponteira vermelha, o positivo, e gatilhar aqui no gate e voltar pro coletor, ele dá um valor alto, tá vendo, ó? Um valor alto de resistência. Então, aqui ele tá gatilhado. Quando eu volto com ponteira preta no gate, ele abre de novo. Beleza? Então, é bem sutil aqui a variação, certo? Quando o gatilho, ele fecha, ó, tem até que apertar com bastante força aqui. E eu vejo que ele tá gatilhado, né, ó. E aí eu desgatilho com o preto, tá? E se eu medir o vermelho no emissor e o preto no coletor, ele dá um resistência que eu boto na escala de diodo, eu percebo que essa resistência é o diodo. Beleza? ão porque esse carinha que ele tem o deouro interno dele. Ah, o da Conso não tem diodo e o que tu troca tem diodo. Tem diferença não. Certo? Não vai dar diferença alguma lá no circuito porque esse é um olho de da roda livre, ele é apenas segurança, tá? Então é o teste é esse, tá pessoal? Consigo gatilhar o IGBT, certo? Gatilhar. Ó, na escala de de ouro eu consigo ver até um valor mais um valor mais diferente, ó. aberto e gatilhado, ele dá um valor. Beleza? Então, o bom eu consigo gatilhar. Se botar na escar resistência, ele apresentou resistência alta. Se eu pegar esse aqui que tava aberto, ó, que eu analisei que tinha fuga, tentar gatilhar ele, ó, aqui. E eu tento gatilhar ele, ele não dá nada. Tá vendo, ó? Desgatilho, não dá nada. Então, esse que ele abriu, você viu que ele apresentou uma fuga, né? Se eu medir ao contrário aqui, se eu medir, ó, ponteira preta lá no coletor, a ponteira vermelha no emissor, ele dá uma fuga. Beleza? Percebo que não é o diodo, ó. Eu boto aqui, não dá diodo. Então, quando eu, se fosse o diodo a onde, por esse é o diodo? Poderia. Se eu botasse na escala de diodo e desse um diodo aqui, aí sim era o diodo de roda livre, diodo reversamente que eu consigo medir nesse outro aqui, ó. Ó, percebo aqui, eu consigo medir o diodo.

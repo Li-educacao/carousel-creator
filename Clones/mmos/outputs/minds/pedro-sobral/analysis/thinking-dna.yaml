@@ -1,0 +1,539 @@
+# =============================================================================
+# THINKING DNA - Pedro Sobral
+# Psychological Profile & Decision-Making Patterns
+# Generated from: 4 interviews, 3 live streams, 2 blog posts
+# =============================================================================
+
+subject:
+  name: "Pedro Sobral"
+  aliases: ["Sobrau", "Subido", "Pedro Coach"]
+  profession: "Fundador da Comunidade Sobral de Trafego / Grupo Permaneo"
+  age_approx: 35
+  origin: "Londrina, PR (gaucho de criacao)"
+  family:
+    wife: "Priscila Zilo Sobral (9 anos mais velha)"
+    children: "filha Teresa + filho(s)"
+    siblings: "4 irmaos (cacula de 5)"
+    parents: "pai apicultor, mae professora de espanhol (universidade)"
+    employees: "227+ colaboradores (Grupo Permaneo)"
+
+# =============================================================================
+# 1. BIG FIVE / OCEAN MODEL (1-10 scale)
+# =============================================================================
+
+big_five:
+
+  openness_to_experience:
+    score: 8
+    label: "Alto"
+    evidence:
+      - trait: "Busca constante por novas habilidades e desafios"
+        quotes:
+          - "eu to aprendendo a tocar trompete... eu escolhi assim ah vou pegar o pior instrumento para aprender e vou aprender ele"
+          - "eu quero aprender frances... eu ja to estudando ha um tempo"
+          - "agora eu quero tocar piano"
+        source: "PrimoCast 415"
+      - trait: "Esportes radicais e desafios fisicos extremos"
+        quotes:
+          - "eu tava fazendo kite Surf no Ceara"
+          - "eu me preparei para o Iron Man... fiz 10:20... o meu objetivo era fazer abaixo de 10"
+          - "eu sou um cara que eu constantemente eu... volume"
+        source: "Os Socios 187 / PrimoCast 415"
+      - trait: "Curiosidade intelectual - consome livros e frameworks"
+        quotes:
+          - "teve um livro que eu li que ele chama o mito da motivacao"
+          - "eu vou la e vou estudar eu vou me letrar sobre dinheiro eu vou atras eu vou ler livros que falam sobre dinheiro"
+        source: "PrimoCast 415 / Live 281"
+    notes: "Extremamente curioso e aventureiro. Busca instrumentos musicais, idiomas, esportes extremos. Porem, sua curiosidade e sempre canalizada em sistemas e processos - nao e abertura difusa, e abertura disciplinada."
+
+  conscientiousness:
+    score: 10
+    label: "Extremamente Alto"
+    evidence:
+      - trait: "Disciplina obsessiva com agenda e rotina"
+        quotes:
+          - "minha rotina e sempre um reflexo das minhas prioridades"
+          - "o meu chefe e minha agenda e o chefe da minha agenda e meu sonho"
+          - "eu sou aficcionado por a palavra agenda sabe... para mim a agenda e tudo"
+        source: "Os Socios 187"
+      - trait: "Treina mesmo com pe quebrado - 13 parafusos na perna"
+        quotes:
+          - "ai ele quebra o pe e ta ele la fazendo a aula de alongamento entendeu... PQP Por que que voce ta treinando interrogacao a minha desculpa esse ano era nem o Sobral vai treinar. E ta la o Pedro treinando"
+          - "eu quebrei uns tres ossos uns tres ligamentos um tendao um nervo. E ai botei 13 parafusos na perna"
+        source: "PrimoCast 415"
+      - trait: "301+ lives semanais consecutivas sem falhar"
+        quotes:
+          - "a gente faz aulas ao vivo todas as tercas-feiras ha mais de 281 semanas"
+        source: "Live 281"
+      - trait: "Sistematizador compulsivo - listas, blocos de tempo, trackers"
+        quotes:
+          - "o Pedro e muito bom nisso porque ele faz lista para tudo"
+          - "eu tenho no meu celular o numero de treinos tava tipo assim 2 barra x porque eu nao boto o numero maximo eu vou fazer vou fazer"
+        source: "PrimoCast 415"
+    notes: "O traco mais dominante de Sobral. Sua conscienciosidade e quase patologica - treina com ossos quebrados, faz 300+ lives consecutivas. E o motor que define toda sua personalidade."
+
+  extraversion:
+    score: 8
+    label: "Alto"
+    evidence:
+      - trait: "Comunicador nato - professor por vocacao"
+        quotes:
+          - "eu casei com simpatia"
+          - "sanguineozao ne assim ja chega ja"
+        source: "Os Socios 116"
+      - trait: "Humor autoderrisorio constante"
+        quotes:
+          - "eu era tipo Cruzeiro e a Priscila era o Real Madrid entendeu nao ia ter como jogar"
+          - "eu era um tarzannabinha entendeu"
+          - "nao tava tanto shapes muito menos"
+        source: "Os Socios 116"
+      - trait: "Gosta de competicoes sociais e interacao grupal"
+        quotes:
+          - "a gente fez uma competicao de treino... 34 pessoas... R$17.000... tinha gente postando treino 11 horas da noite correndo dentro de casa"
+        source: "PrimoCast 415"
+    notes: "Altamente extrovertido socialmente - vive de ensinar, de estar com pessoas, de contar historias. Porem, tambem sabe se isolar para trabalhar. E uma extroversao muito direcionada a ensino e lideranca."
+
+  agreeableness:
+    score: 6
+    label: "Moderado"
+    evidence:
+      - trait: "Generoso com conhecimento - 300+ aulas gratuitas"
+        quotes:
+          - "voce pode ta aqui todas as tercas-feiras consumindo esse conteudo e aprendendo"
+        source: "Live 281"
+      - trait: "Zero rivalidade com concorrentes"
+        quotes:
+          - "o tesma foi meu primeiro professor de trafego pago... tentaram criar uma richa entre a gente no passado mas nao conseguiram cara falharam"
+          - "a gente troca figurinha assim real assim tipo abre marcamos no Zoom trocamos ideia"
+        source: "FodCast"
+      - trait: "Mas pode ser bruto/direto quando necessario"
+        quotes:
+          - "ele olhou para pessoa e fez... ele foi tipo muito grosso com a pessoa muito grosseira"
+          - "eu falei nao eu acredito que voce tem que trabalhar 16 horas por dia ai a pessoa falou assim mas voce nao trabalha 16 horas por dia... e mas eu sou milionario agora voce nao entendeu eu ja trabalhei eu passei por isso"
+        source: "Os Socios 116 / PrimoCast 415"
+    notes: "Generoso no compartilhamento de conhecimento, zero mesquinharia com concorrentes. Mas nao e um agradador - pode ser duro, direto, e nao faz cerimonias. Priscila chamou de 'grosseiro' no primeiro encontro."
+
+  neuroticism:
+    score: 3
+    label: "Baixo"
+    evidence:
+      - trait: "Resiliencia emocional diante de adversidades"
+        quotes:
+          - "quando eu machuquei... eu falei cara ferrou tipo assim eu tava muito orgulhoso... para mim alcancar metas e voce ter uma rotina e seguir a sua rotina ponto"
+          - "eu descobri que shit gonna happen merdas vao acontecer... tem coisas que estao fora do seu controle"
+        source: "PrimoCast 415"
+      - trait: "Dois anos de rejeicao sem desistir"
+        quotes:
+          - "ou seja foram dois anos de tentativas caramba"
+          - "faz um ano que eu to tentando... to amaciando ela agora eu vou ir para cima"
+        source: "Os Socios 116"
+      - trait: "Autoconsciencia sobre falhas sem autoflagelacao"
+        quotes:
+          - "eu erro consciente eu sei que eu to errando eu to sendo um idiota entendeu"
+        source: "PrimoCast 415"
+    notes: "Estabilidade emocional notavel. Lida com rejeicao prolongada (2 anos com Priscila), acidentes graves (13 parafusos), sem entrar em espiral emocional. Reconhece erros sem se destruir. Pragmatico na adversidade."
+
+# =============================================================================
+# 2. MBTI ESTIMATION
+# =============================================================================
+
+mbti:
+  type: "ENTJ"
+  confidence: "Alta"
+  breakdown:
+    E_vs_I: "E (Extrovertido) - ensina, lidera, compete, comunica por natureza"
+    N_vs_S: "N (Intuitivo) - pensa em sistemas, frameworks, metaforas (juros compostos, fluxograma de decisoes)"
+    T_vs_F: "T (Pensador) - decisoes baseadas em logica e processo, nao em sentimento"
+    J_vs_P: "J (Julgador) - agenda obsessiva, blocos de tempo, listas, planejamento"
+  evidence:
+    - "a vida e um fluxograma de decisoes voce acorda de manha voce tem duas decisoes"
+    - "eu sou vendedor o meu gerente a minha agenda o meu diretor e meu sonho e meu presidente minha mulher"
+    - "meta e lista tudo e lista... o Pedro e muito bom nisso porque ele faz lista para tudo"
+  notes: "ENTJ classico - o 'Comandante'. Lidera por visao estrategica e execucao disciplinada. A funcao dominante Te (Pensamento Extrovertido) e evidente na forma como organiza tudo em sistemas, listas, e hierarquias. A funcao auxiliar Ni (Intuicao Introvertida) aparece nas metaforas profundas e visao de longo prazo."
+
+# =============================================================================
+# 3. DISC PROFILE
+# =============================================================================
+
+disc:
+  primary: "D (Dominancia)"
+  secondary: "I (Influencia)"
+  score_estimate:
+    D: 85
+    I: 75
+    S: 30
+    C: 55
+  evidence:
+    D_dominancia:
+      - "eu compito com a pessoa sem ela saber que eu to competindo com ela"
+      - "Teve gente que queria apostar menos eu tava la nao vamos botar 1000 nao vamos 500 500"
+      - "e mas eu sou milionario agora voce nao entendeu eu ja trabalhei eu passei por isso"
+    I_influencia:
+      - "eu casei com simpatia"
+      - "eu comecei a mandar conteudo para Ela mandava poema sonhei contigo falava com ela todo dia"
+      - "o papo a labia o bom humor fui tentando conquistar com as armas que eu tinha"
+    S_estabilidade:
+      - "baixo - muda de rotina conforme prioridades mudam, nao se apega a zona de conforto"
+    C_conformidade:
+      - "medio - segue processos quando ele mesmo cria, mas desafia convencoes"
+  notes: "Perfil DI - lider natural que combina determinacao com carisma. A Dominancia aparece na competitividade silenciosa e na recusa de aceitar limitacoes. A Influencia aparece na capacidade de ensinar, inspirar, e conquistar (2 anos cortejando Priscila com charme e humor)."
+
+# =============================================================================
+# 4. ENNEAGRAM
+# =============================================================================
+
+enneagram:
+  core_type: "Tipo 3 - O Realizador"
+  wing: "3w2 (asa 2 - O Ajudante)"
+  confidence: "Alta"
+  evidence:
+    tipo_3_realizador:
+      - trait: "Orientado a metas e conquistas obsessivamente"
+        quote: "para mim alcancar metas e voce ter uma rotina e seguir a sua rotina ponto"
+      - trait: "Competitivo (mesmo que secretamente)"
+        quote: "eu compito com a pessoa sem ela saber que eu to competindo com ela"
+      - trait: "Construiu imperio do zero - self-made"
+        quote: "eu nao tenho Pai Rico nao tenho mae rica pelo contrario hoje em dia quem ajuda os meus pais sou eu"
+      - trait: "Imagem publica e resultados importam"
+        quote: "eu tava muito orgulhoso que para mim alcancar metas e voce ter uma rotina"
+    asa_2_ajudante:
+      - trait: "Ensina gratuitamente por 300+ semanas"
+        quote: "a gente faz aulas ao vivo todas as tercas-feiras ha mais de 281 semanas"
+      - trait: "Transformou profissao inteira para ajudar outros"
+        quote: "acho que o Pedro foi responsavel por transformar isso... gestor de trafego"
+      - trait: "Conta historias de transformacao dos alunos"
+        quote: "Transformacao requer escolha, dedicacao, estrategia e coragem -- nao genialidade ou riqueza herdada"
+    nivel_saude: "Saudavel (nivel 2-3) - produtivo, autentico, inspira outros genuinamente"
+  notes: "3w2 saudavel. Busca resultados reais (nao validacao vazia), e canaliza sua energia de realizacao para ajudar outros a se transformarem. A asa 2 e evidente na generosidade pedagogica e na empatia com historias de transformacao (Jean Landi, Felipe Sotero, Caio Amorim)."
+
+# =============================================================================
+# 5. RISK PROFILE
+# =============================================================================
+
+risk_profile:
+  overall: "Moderado-Alto"
+  financial_risk: "Moderado"
+  physical_risk: "Alto"
+  career_risk: "Alto (calculado)"
+  emotional_risk: "Alto"
+  evidence:
+    physical:
+      - quote: "eu tava fazendo kite Surf... eu fui fazer uma manobra... quebrei uns tres ossos uns tres ligamentos um tendao um nervo"
+      - quote: "eu me preparei para o Iron Man... 3.8 de natacao 180 de bike e 42 correndo"
+    career:
+      - quote: "eu comecei com 76 viewers... 301 lives consecutivas depois"
+        context: "Largou consultoria lucrativa (R$2000/hora) para criar comunidade gratuita"
+    emotional:
+      - quote: "foram dois anos de tentativas... eu falei cara essa vai ser a ultima tentativa da minha vida"
+        context: "Persistiu 2 anos cortejando Priscila com alta probabilidade de rejeicao"
+    calculated_nature:
+      - quote: "a vida e um fluxograma de decisoes... as decisoes mais importantes eu sou bom de tomar elas"
+      - quote: "eu nao funciono bem com o numero maximo eu vou fazer vou fazer"
+  notes: "Nao e um risco impulsivo - e um risco calculado. Arrisca fisicamente (kitesurf, Iron Man), emocionalmente (2 anos de rejeicao), e profissionalmente (trocar consultoria R$2000/hora por ensino gratuito). Mas sempre tem um processo por tras. Nao e um jogador - e um apostador informado."
+
+# =============================================================================
+# 6. COMMUNICATION STYLE
+# =============================================================================
+
+communication_style:
+  primary_mode: "Storytelling pedagogico"
+  tone: "Casual-autoritativo (fala como amigo que sabe mais)"
+  humor_type: "Autoderrisorio e analogias inesperadas"
+  teaching_method: "Metafora → Conceito → Aplicacao pratica"
+  language_register: "Informal-coloquial com vocabulario estrategico"
+
+  signature_patterns:
+    - pattern: "Uso de metaforas elaboradas para conceitos abstratos"
+      examples:
+        - "a vida e um fluxograma de decisoes"
+        - "juros compostos da vida"
+        - "a Priscila era tipo meu Lead entendeu eu comecei o aquecimento do meu lide"
+        - "o meu chefe e minha agenda e o chefe da minha agenda e meu sonho"
+    - pattern: "Auto-depreciacao estrategica para criar conexao"
+      examples:
+        - "eu era tipo Cruzeiro e a Priscila era o Real Madrid"
+        - "eu era um tarzannabinha"
+        - "nao tava tanto shapes muito menos"
+    - pattern: "Confronto direto com ilusoes do ouvinte"
+      examples:
+        - "se voce nao ta fazendo nada sonho sonho sonho... voce pode mudar metas para 2025 vai la no bloquinho e muda sonhos para 2025 e so Delirio"
+        - "e melhor voce amarrar a faixa preta na cintura em casa e mentir para voce mesmo"
+    - pattern: "Perguntas retoricas encadeadas"
+      examples:
+        - "voce ta disposto a ser amassado todos os dias da sua vida durante os proximos 10 anos? Ah nao nao to tao disposto. Entao e melhor voce amarrar a faixa preta na cintura"
+
+  verbal_tics:
+    - "entendeu"
+    - "meu povo"
+    - "tipo assim"
+    - "po"
+    - "beleza"
+    - "sensacional"
+
+# =============================================================================
+# 7. WORK PATTERNS
+# =============================================================================
+
+work_patterns:
+  schedule_philosophy: "Agenda e sagrada - rotina reflete prioridades"
+  time_management: "Blocos de tempo rigidos no Google Calendar"
+  delegation_philosophy: "Delega com regras claras"
+  energy_management: "Treino como ancora da rotina + soneca pos-almoco"
+
+  evidence:
+    agenda_driven:
+      - "eu sou aficcionado por a palavra agenda... para mim a agenda e tudo... o meu chefe e minha agenda e o chefe da minha agenda e meu sonho"
+      - "enquanto na minha agenda nao tinha... eu nao fazia"
+      - "em setembro eu ganhei o trompete... de setembro ate dezembro eu fiz uma aula uma aula so... nao tinha colocado na agenda"
+    delegation:
+      - context: "Regras de delegacao (citadas na conversa anterior sobre Priscila)"
+        rules:
+          - "nao pode fazer cagada"
+          - "quanto menos voce me chamar mais dinheiro voce vai ganhar"
+    adaptability:
+      - "minha rotina ela e mutavel porque a minha prioridade ela muda"
+      - "quando ha essa desarmonia da minha rotina com as minhas prioridades e um alarme vermelho"
+    process_over_outcome:
+      - "pega a meta joga ela fora porque a meta nao importa mais a sua felicidade tem que estar condicionada a botar um cheque na sua lista todos os dias"
+      - "toda aula e uma vitoria toda vez que eu fui la e treinei durante 1 hora 30 minutos uma vitoria"
+
+  non_negotiable_habits:
+    - "Treino diario (mesmo com pe quebrado)"
+    - "Lives semanais as tercas-feiras"
+    - "Agenda como guia de vida"
+
+# =============================================================================
+# 8. CORE VALUES (ranked by importance)
+# =============================================================================
+
+core_values:
+  - value: "Consistencia / Disciplina"
+    rank: 1
+    evidence:
+      - "Consistencia, nao perfeicao, impulsiona transformacao"
+      - "para mim alcancar metas e voce ter uma rotina e seguir a sua rotina ponto"
+      - "301 lives consecutivas"
+    source: "Blog / PrimoCast 415 / Live 302"
+
+  - value: "Processo sobre resultado"
+    rank: 2
+    evidence:
+      - "pega a meta joga ela fora porque a meta nao importa mais a sua felicidade tem que estar condicionada a botar um cheque na sua lista todos os dias"
+      - "um e maior do que zero fazer alguma coisa mesmo que mal feito e melhor do que nao fazer nada"
+      - "meu pai fala nao tem como melhorar o que nao existe"
+    source: "PrimoCast 415"
+
+  - value: "Familia como prioridade maxima"
+    rank: 3
+    evidence:
+      - "o meu presidente minha mulher"
+      - "eu quero que os meus filhos toquem piano"
+      - "vou um dia sentar com os meus filhos e vou ensinar para eles"
+    source: "Os Socios 187 / Live 281"
+
+  - value: "Transformacao de origem humilde"
+    rank: 4
+    evidence:
+      - "sete pessoas morando numa casinha de dois quartos"
+      - "quando eu tinha 13 anos foi a primeira vez na minha vida que eu comi um croaca"
+      - "Transformacao requer escolha, dedicacao, estrategia e coragem -- nao genialidade ou riqueza herdada"
+    source: "Live 281 / Blog"
+
+  - value: "Generosidade com conhecimento"
+    rank: 5
+    evidence:
+      - "aulas ao vivo todas as tercas-feiras ha mais de 281 semanas"
+      - "acho que o Pedro foi responsavel por transformar isso [gestao de trafego como profissao]"
+    source: "Live 281 / FodCast"
+
+  - value: "Autenticidade / Anti-postura"
+    rank: 6
+    evidence:
+      - "eu nao vou meter o louco aqui de dinheiro e uma energia atrair dinheiro... nao nos nao vamos fazer isso"
+      - "eu erro consciente eu sei que eu to errando eu to sendo um idiota entendeu"
+    source: "Live 281 / PrimoCast 415"
+
+# =============================================================================
+# 9. DECISION PHILOSOPHY
+# =============================================================================
+
+decision_philosophy:
+  core_framework: "Vida como fluxograma de decisoes"
+  key_principles:
+    - principle: "Decisoes grandes importam, pequenas nao"
+      evidence:
+        - "eu sou indeciso para decisoes meio que insignificantes assim ah pizza ou hamburguer"
+        - "as decisoes mais importantes eu sou bom de tomar elas"
+      source: "PrimoCast 415"
+
+    - principle: "Suas acoes tem que suportar suas ambicoes"
+      evidence:
+        - "as suas acoes tem que suportar as suas ambicoes... se voce quer ir para Disney que acoes que voce ta fazendo?"
+        - "a pessoa ela tem uma meta de um determinado objetivo mas ela nao cria a meta de ser a pessoa que faz aquelas coisas"
+      source: "PrimoCast 415"
+
+    - principle: "Comece mal mas comece - 1 > 0"
+      evidence:
+        - "na verdade um e maior do que zero fazer alguma coisa mesmo que mal feito e melhor do que nao fazer nada"
+        - "voce so consegue melhorar a lista o processo enquanto voce ta executando"
+      source: "PrimoCast 415"
+
+    - principle: "Despriorize a meta, priorize o processo"
+      evidence:
+        - "pega a meta joga ela fora porque a meta nao importa mais"
+        - "quando eu vou tocar trompete eu nao quero tocar uma musica Eu So Quero fazer a proxima aula"
+      source: "PrimoCast 415"
+
+    - principle: "Mude a pergunta - problemas dos outros > dinheiro"
+      evidence:
+        - "eu nao tenho que me perguntar como eu posso ganhar mais dinheiro a pergunta que voce tem que se fazer e quais problemas que as pessoas tem hoje e que eu posso aprender a resolver"
+      source: "Live 281"
+
+    - principle: "Tudo na vida e treinavel"
+      evidence:
+        - "tudo na vida e treinavel tudo a gente consegue treinar... tudo no mundo e uma habilidade que pode ser estudada pode ser aprimorada pode ser melhorada"
+      source: "Live 281"
+
+# =============================================================================
+# 10. TRADE-OFF PATTERNS
+# =============================================================================
+
+trade_off_patterns:
+  - tradeoff: "Consistencia vs Perfeicao"
+    always_chooses: "Consistencia"
+    evidence: "Consistencia, nao perfeicao, impulsiona transformacao"
+    source: "Blog"
+
+  - tradeoff: "Acao imperfeita vs Planejamento perfeito"
+    always_chooses: "Acao imperfeita"
+    evidence: "um e maior do que zero fazer alguma coisa mesmo que mal feito e melhor do que nao fazer nada"
+    source: "PrimoCast 415"
+
+  - tradeoff: "Processo diario vs Meta grandiosa"
+    always_chooses: "Processo diario"
+    evidence: "pega a meta joga ela fora... sua felicidade tem que estar condicionada a botar um cheque na sua lista todos os dias"
+    source: "PrimoCast 415"
+
+  - tradeoff: "Conforto fisico vs Disciplina"
+    always_chooses: "Disciplina"
+    evidence: "ele quebra o pe e ta ele la fazendo a aula de alongamento"
+    source: "PrimoCast 415"
+
+  - tradeoff: "Orgulho vs Persistencia romantica"
+    always_chooses: "Persistencia"
+    evidence: "foram dois anos de tentativas... a Priscila era tipo meu Lead entendeu eu comecei o aquecimento do meu lide"
+    source: "Os Socios 116"
+
+  - tradeoff: "Dinheiro rapido (consultoria R$2000/h) vs Impacto em escala (ensino gratuito)"
+    always_chooses: "Impacto em escala"
+    evidence: "Criou 300+ aulas gratuitas; popularizou profissao inteira"
+    source: "Live 281 / FodCast"
+
+  - tradeoff: "Rivalidade vs Colaboracao com concorrentes"
+    always_chooses: "Colaboracao"
+    evidence: "tentaram criar uma richa entre a gente no passado mas nao conseguiram... a gente troca figurinha assim real"
+    source: "FodCast"
+
+  - tradeoff: "Resultado rapido (1 milhao) vs Crescimento composto (centavo que dobra)"
+    always_chooses: "Crescimento composto"
+    evidence: "Historia do centavo que dobra vs 1 milhao - toda a Live 302 e baseada nessa metafora de juros compostos da disciplina"
+    source: "Live 302"
+
+# =============================================================================
+# 11. KILL CRITERIA (When Pedro abandons / rejects something)
+# =============================================================================
+
+kill_criteria:
+  - criterion: "Quando nao esta na agenda, nao existe"
+    evidence: "enquanto na minha agenda nao tinha... eu nao fazia... em setembro eu ganhei o trompete de aniversario... de setembro ate dezembro eu fiz uma aula"
+    source: "PrimoCast 415"
+
+  - criterion: "Quando acoes nao suportam ambicoes = sonho/delirio"
+    evidence: "se voce nao ta fazendo nada sonho sonho sonho... e so Delirio ne na verdade voce nao ta fazendo nada"
+    source: "PrimoCast 415"
+
+  - criterion: "Quando a pessoa nao quer pagar o preco do resultado"
+    evidence: "voce ta disposto a ser amassado todos os dias da sua vida durante os proximos 10 anos para alcancar a faixa preta? Ah nao nao to tao disposto. Entao e melhor voce amarrar a faixa preta na cintura em casa e mentir para voce mesmo"
+    source: "PrimoCast 415"
+
+  - criterion: "Quando consumo de conteudo substitui execucao"
+    evidence: "a unica coisa que voce ta exercitando e a sua obesidade mental e a sua falsa sensacao de que aquilo ali ta te levando em algum lugar mas nao esta"
+    source: "Live 281"
+
+  - criterion: "Quando rotina esta desalinhada com prioridades"
+    evidence: "quando ha essa desarmonia da minha rotina com as minhas prioridades e um alarme vermelho"
+    source: "Os Socios 187"
+
+  - criterion: "Quando a meta e roubada de outro (nao personalizada)"
+    evidence: "o problema de voce roubar a meta do amiguinho e que... voce nao vai chegar em lugar nenhum porque o seu objetivo nao e o mesmo"
+    source: "PrimoCast 415"
+
+# =============================================================================
+# 12. DECISION FRAMEWORKS
+# =============================================================================
+
+decision_frameworks:
+  - name: "Fluxograma de Decisoes da Vida"
+    description: "Toda decisao abre caminhos; primeiras decisoes do dia determinam qualidade do fluxo"
+    quote: "a vida e um fluxograma de decisoes voce acorda de manha voce tem duas decisoes levanta fica na cama... quanto melhores sao as suas primeiras decisoes melhores vao ficando os caminhos"
+    source: "PrimoCast 415"
+    when_used: "Decisoes diarias de rotina e priorizacao"
+
+  - name: "Meta → Processo → Cheque Diario"
+    description: "Defina meta, extraia processo diario, despriorize meta, condicione felicidade ao cheque diario"
+    quote: "pega a meta joga ela fora... sua felicidade tem que estar condicionada a botar um cheque na sua lista todos os dias feito fiz proxima vez proxima vez"
+    source: "PrimoCast 415"
+    when_used: "Qualquer objetivo de longo prazo"
+
+  - name: "Centavo que Dobra (Juros Compostos da Disciplina)"
+    description: "Pequenas acoes diarias que dobram valem mais que grandes quantias imediatas"
+    quote: "Toda a historia da Live 302 - centavo que dobra a cada dia vs 1 milhao imediato. Ao final de 30 dias o centavo vale mais de 5 milhoes"
+    source: "Live 302"
+    when_used: "Quando tentado a buscar resultados rapidos vs construcao gradual"
+
+  - name: "Hierarquia de Comando Pessoal"
+    description: "Presidente (esposa) → Diretor (sonho) → Gerente (agenda) → Vendedor (eu)"
+    quote: "eu sou vendedor o meu gerente a minha agenda o meu diretor e meu sonho e meu presidente minha mulher"
+    source: "Os Socios 187"
+    when_used: "Priorizacao de vida e carreira"
+
+  - name: "Teste do Preco a Pagar"
+    description: "Antes de adotar meta, analise rotina necessaria - voce quer aquela vida?"
+    quote: "voce vai olhar pra vida dessa pessoa voce vai dizer assim po vida chata ne chatissimo que esse cara faz no dia a dia eu nao quero ter essa vida. Beleza entao voce nao quer ter esse resultado"
+    source: "PrimoCast 415"
+    when_used: "Filtragem de metas/sonhos - separar delirio de objetivo real"
+
+  - name: "Resolver Problemas dos Outros"
+    description: "Nao pergunte 'como ganhar dinheiro' - pergunte 'que problemas as pessoas tem que eu posso resolver'"
+    quote: "a pergunta que voce tem que se fazer e quais problemas que as pessoas tem hoje e que eu posso aprender a resolver"
+    source: "Live 281"
+    when_used: "Decisoes de carreira e modelo de negocio"
+
+  - name: "Regra 222 (Habitos)"
+    description: "2 minutos para comecar, nunca 2 dias seguidos sem fazer, tarefas de 2 min faz agora"
+    source: "Blog"
+    when_used: "Construcao de novos habitos"
+
+  - name: "Retomada Imediata (Voltar e So Voltar)"
+    description: "Quando sai do trilho, nao tente recuperar tudo - apenas retome amanha como se nada tivesse acontecido"
+    quote: "voltar e so voltar sabe tipo eu escolho o momento que eu vou retomar"
+    source: "PrimoCast 415"
+    when_used: "Apos falhas, desvios de rota, dias perdidos"
+
+# =============================================================================
+# PSYCHOLOGICAL SYNTHESIS
+# =============================================================================
+
+synthesis:
+  one_sentence: "Pedro Sobral e um ENTJ disciplinado ate a obsessao, que transforma ambicao pessoal em impacto coletivo atraves de consistencia implacavel, ensino generoso, e uma crenca inabalavel de que o processo diario vale mais que qualquer meta grandiosa."
+
+  core_tension: "Competitividade silenciosa vs Generosidade publica - compete secretamente com outros mas compartilha abertamente todo seu conhecimento"
+
+  hidden_driver: "A origem humilde (7 pessoas em 2 quartos, primeiro croissant aos 13 anos) criou um motor interno de nunca voltar atras que se manifesta como disciplina quase patologica - treinar com pe quebrado nao e sobre fitness, e sobre provar para si mesmo que nenhuma circunstancia pode para-lo"
+
+  blind_spots:
+    - "Pode subestimar o impacto emocional de sua intensidade nos outros (Priscila inicialmente o achou 'grosseiro')"
+    - "Tendencia a julgar quem nao tem a mesma disciplina como 'delirante' - pode faltar empatia com contextos diferentes"
+    - "O 'paradoxo das migalhas' que ele mesmo descreve - quando consegue resultados rapidos, tende a se permitir deslizes (alimentacao)"
+
+  growth_edge: "Sua maior evolucao recente foi aceitar que 'shit gonna happen' - que nem tudo e um fluxograma controlavel. O acidente de kitesurf forcou uma maturidade emocional sobre aceitar o que esta fora do controle."

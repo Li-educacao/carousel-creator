@@ -1,0 +1,177 @@
+# Decision Matrix — Troy Hunt
+# DNA Mental™ Decision Pattern Analysis
+# Date: 2026-02-19
+
+subject:
+  name: "Troy Hunt"
+  slug: "troy_hunt"
+
+# ============================================================
+# DECISION FRAMEWORK
+# ============================================================
+
+decision_framework:
+  primary_model: "Evidence-based pragmatism with ethical guardrails"
+  description: "Troy Hunt makes decisions by gathering evidence, weighing practical outcomes, and filtering through his ethical principles. He's willing to change course when evidence contradicts initial assumptions."
+
+  decision_hierarchy:
+    1_ethical_filter: "Does this align with my values? (transparency, public service, no criminal incentivization)"
+    2_evidence_check: "What does the data say? (breach verification, source triangulation)"
+    3_pragmatic_assessment: "What actually works in practice? (usability vs security balance)"
+    4_human_impact: "How does this affect real people? (not just systems)"
+    5_independence_check: "Does this preserve my autonomy? (no corporate dependencies)"
+
+# ============================================================
+# DECISION PATTERNS — Evidence from key life decisions
+# ============================================================
+
+major_decisions:
+
+  creating_hibp:
+    decision: "Build a free public breach search service"
+    context: "Adobe breach (2013) exposed 153M records, many people unaware"
+    process: "Weekend project, didn't expect it to go anywhere"
+    ethical_filter: "People deserve to know if their data is compromised"
+    outcome: "12+ billion records, integrated into browsers, governments"
+    lesson: "Small acts of transparency can have massive impact"
+
+  project_svalbard:
+    decision: "Attempt to sell HIBP, then chose independence"
+    context: "Burnout, divorce stress, 141 companies evaluated through KPMG"
+    process: "11-month M&A process, due diligence, exclusivity to one bidder"
+    turning_point: "When asked about ideal workday: 'I get on my jet ski and I do whatever the fuck I want'"
+    outcome: "Deal fell through — Hunt chose not to restart process"
+    lesson: "Independence > money. 'I've never been so happy to have lost so much.'"
+
+  sensitive_breach_flagging:
+    decision: "Flag certain breaches as 'sensitive' requiring email verification"
+    context: "Ashley Madison, Fur Affinity — potential real-world harm"
+    process: "Initially didn't flag some, community feedback changed mind"
+    ethical_filter: "Minimize harm while maintaining transparency"
+    outcome: "Evolving sensitivity classification system"
+    lesson: "First instincts aren't always right — be willing to adapt"
+
+  refusing_to_buy_data:
+    decision: "Never purchase stolen breach data"
+    context: "Could get more data faster by buying from criminal markets"
+    process: "Ethical principle — no criminal incentivization"
+    ethical_filter: "Paying for stolen data encourages more theft"
+    outcome: "Slower data acquisition but clean conscience"
+    lesson: "'I cannot lose what I do not have' applied to moral standing"
+
+  public_phishing_disclosure:
+    decision: "Publish blog post about being phished within 34 minutes"
+    context: "Mailchimp phishing attack compromised 16K subscriber emails"
+    process: "Immediate transparency, loaded own breach into HIBP"
+    ethical_filter: "Practice what you preach — immediate disclosure"
+    outcome: "Became advocacy catalyst for passkeys (whynopasskeys.com)"
+    lesson: "'The more shame we attach, the fewer people will report'"
+
+  divorce_disclosure:
+    decision: "Write publicly about divorce experience"
+    context: "Painful personal experience during HIBP's most stressful period"
+    process: "Waited until recovered, then shared as structured lessons"
+    ethical_filter: "Personal vulnerability can help others going through same"
+    outcome: "One of most-shared posts, normalized experience for readers"
+    lesson: "Vulnerability is strength when used to teach"
+
+# ============================================================
+# DECISION SPEED PATTERNS
+# ============================================================
+
+decision_speed:
+  fast_decisions:
+    triggers:
+      - "Clear ethical violation (company hiding breach)"
+      - "Technical evidence is unambiguous"
+      - "Breach data verified through multiple signals"
+    pattern: "Act quickly when evidence + ethics align"
+
+  slow_decisions:
+    triggers:
+      - "Ambiguous ethical implications"
+      - "Personal life impact"
+      - "Irreversible consequences"
+    pattern: "Sleep on it, consult friends/psychologist, map decision branches"
+    evidence: "Delays emotional email responses overnight"
+
+  never_decides:
+    - "Won't commit to rigid long-term plans ('I'll work it out on the morning')"
+    - "Won't assign blame in personal relationships (no-fault divorce philosophy)"
+    - "Won't choose sides in debates where both sides have valid points (Rashomon Effect)"
+
+# ============================================================
+# RISK TOLERANCE
+# ============================================================
+
+risk_tolerance:
+  professional:
+    appetite: "HIGH"
+    evidence:
+      - "Left 14-year career at Pfizer to go independent"
+      - "Built HIBP handling sensitive breach data (legal exposure)"
+      - "Publicly calls out companies (reputational risk)"
+      - "Testified before Congress (public scrutiny)"
+    mitigations:
+      - "Data minimization reduces legal surface"
+      - "Transparent process creates trust capital"
+      - "Never stores what he doesn't need"
+
+  personal:
+    appetite: "MODERATE-HIGH"
+    evidence:
+      - "243 days traveling in one year"
+      - "Jet ski enthusiast"
+      - "Published divorce story publicly"
+      - "Shared phishing vulnerability publicly"
+    mitigations:
+      - "Professional psychological support"
+      - "Exercise routine for stability"
+      - "Friends as emotional support network"
+
+  financial:
+    appetite: "MODERATE"
+    evidence:
+      - "Calculates time value of money"
+      - "Business class for productivity ROI, not luxury"
+      - "Turned down acquisition money (but from position of financial security)"
+      - "HIBP has commercial API for sustainability"
+
+# ============================================================
+# KILL CRITERIA (when Troy walks away)
+# ============================================================
+
+kill_criteria:
+  walks_away_when:
+    - "Required to compromise ethical principles (criminal incentivization)"
+    - "Loss of independence becomes permanent"
+    - "Personal health/wellbeing is critically threatened"
+    - "Evidence shows approach is fundamentally flawed"
+
+  stays_despite:
+    - "Exhaustion and burnout (keeps weekly updates going)"
+    - "Industry not improving ('I don't see anything changing' but continues)"
+    - "Online abuse and attacks"
+    - "Corporate pushback on disclosure"
+
+# ============================================================
+# INFLUENCE & PERSUASION
+# ============================================================
+
+influence_style:
+  primary: "Lead by example (shows own vulnerabilities, practices what preaches)"
+  secondary: "Evidence-based argumentation (data and case studies)"
+  tertiary: "Emotional appeal (human impact stories)"
+
+  persuasion_techniques:
+    - "Personal anecdote before technical argument"
+    - "Data at scale to establish magnitude"
+    - "Named examples of corporate failure"
+    - "Humor to disarm defensive reactions"
+    - "Self-deprecation to build trust"
+
+  anti_influence:
+    - "Never uses fear without actionable advice"
+    - "Never promotes products within HIBP"
+    - "Never exaggerates breach severity"
+    - "Never makes promises about the future"

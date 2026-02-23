@@ -1,0 +1,138 @@
+markdownExploder: true
+project:
+  type: brownfield
+  installedAt: '2026-02-04T02:43:19.546Z'
+  version: 4.0.4
+ide:
+  selected:
+    - claude-code
+  configs:
+    vscode: false
+    cursor: false
+    windsurf: false
+    zed: false
+    claude-desktop: false
+    claude-code: true
+mcp:
+  enabled: false
+  configLocation: .claude/mcp.json
+  servers: []
+qa:
+  qaLocation: docs/qa
+prd:
+  prdFile: docs/prd.md
+  prdVersion: v4
+  prdSharded: true
+  prdShardedLocation: docs/prd
+  epicFilePattern: epic-{n}*.md
+architecture:
+  architectureFile: docs/architecture.md
+  architectureVersion: v4
+  architectureSharded: true
+  architectureShardedLocation: docs/architecture
+customTechnicalDocuments: null
+devLoadAlwaysFiles:
+  - docs/framework/coding-standards.md
+  - docs/framework/tech-stack.md
+  - docs/framework/source-tree.md
+devLoadAlwaysFilesFallback:
+  - docs/architecture/padroes-de-codigo.md
+  - docs/architecture/pilha-tecnologica.md
+  - docs/architecture/arvore-de-origem.md
+devDebugLog: .ai/debug-log.md
+devStoryLocation: docs/stories
+slashPrefix: AIOS
+frameworkDocsLocation: docs/framework
+projectDocsLocation: docs/architecture/project-decisions
+lazyLoading:
+  enabled: true
+  heavySections:
+    - pvMindContext
+    - expansionPacks
+    - registry
+git:
+  showConfigWarning: true
+  cacheTimeSeconds: 300
+decisionLogging:
+  enabled: true
+  async: true
+  location: .ai/
+  indexFile: decision-logs-index.md
+  format: adr
+  performance:
+    maxOverhead: 50
+toolsLocation: .aios-core/tools
+scriptsLocation: .aios-core/scripts
+dataLocation: .aios-core/data
+elicitationLocation: .aios-core/elicitation
+expansionPacksLocation: expansion-packs
+squads:
+  enabled: true
+  squadsLocation: ./squads
+  repositoryLocation: ./aios-squads
+  registryFile: ./aios-squads/registry.json
+  installed:
+    - name: etl-squad
+      version: 2.0.0
+      path: squads/etl-squad
+      slashPrefix: etl
+      status: production
+    - name: creator-squad
+      version: 1.0.0
+      path: squads/creator-squad
+      slashPrefix: expansionCreator
+      status: production
+    - name: mind-builder
+      version: 1.0.0
+      path: squads/mind-builder
+      slashPrefix: mindBuilder
+      status: production
+      dependsOn:
+        - etl-squad
+    - name: mmos-squad
+      version: 3.0.1
+      path: squads/mmos-squad
+      slashPrefix: mmos
+      status: production
+      dependsOn:
+        - etl-squad
+    - name: design-system
+      version: 1.0.0
+      path: squads/design-system
+      slashPrefix: Design
+      status: production
+      dependsOn:
+        - mmos-squad
+    - name: security-squad
+      version: 1.0.0
+      path: squads/security-squad
+      slashPrefix: security
+      status: production
+mindsLocation: outputs/minds
+projectStatus:
+  enabled: true
+  autoLoadOnAgentActivation: true
+  showInGreeting: true
+  cacheTimeSeconds: 60
+  components:
+    gitBranch: true
+    gitStatus: true
+    recentWork: true
+    currentEpic: true
+    currentStory: true
+  statusFile: .aios/project-status.yaml
+  maxModifiedFiles: 5
+  maxRecentCommits: 2
+modelRouting:
+  enabled: true
+  rulesFile: .aios-core/config/model-routing-rules.yaml
+  logFile: .aios/routing-log.jsonl
+  globalDefault: sonnet
+agentIdentity:
+  greeting:
+    contextDetection: true
+    sessionDetection: hybrid
+    workflowDetection: hardcoded
+    performance:
+      gitCheckCache: true
+      gitCheckTTL: 300

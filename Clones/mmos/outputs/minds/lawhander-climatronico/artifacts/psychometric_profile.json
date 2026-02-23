@@ -1,0 +1,109 @@
+{
+  "mind_id": "lawhander-climatronico",
+  "mind_name": "Lawhander Silva",
+  "version": "2.0.0",
+  "extraction_date": "2026-02-11",
+  "source_count": 2802,
+  "note": "Perfil INFERIDO, NAO avaliacao clinica. Convertido de psychometric-profile.yaml",
+  "personality": {
+    "model": "Big Five / OCEAN",
+    "traits": {
+      "openness": {
+        "score": 7,
+        "label": "Alta curiosidade tecnica aplicada",
+        "description": "Explora cada erro como oportunidade. Inventou terminologia propria (Climatronico, Eletronica da Floresta, Metodo OET). Prefere conhecimento aplicavel sobre abstracao pura.",
+        "confidence": "high"
+      },
+      "conscientiousness": {
+        "score": 9,
+        "label": "Extremamente metodico",
+        "description": "Cada diagnostico segue lista numerada. Documenta valores medidos. Garantia estruturada. Burn-in 24-48h. 'Siga esta lista sem pular etapa.'",
+        "confidence": "high"
+      },
+      "extraversion": {
+        "score": 8,
+        "label": "Alta energia comunicativa",
+        "description": "2.744 videos, 313 podcasts longos. 'Bora nos!', 'Show de bola?'. Ganha energia ensinando. Orgulho paternal com alunos.",
+        "confidence": "high"
+      },
+      "agreeableness": {
+        "score": 6,
+        "label": "Generoso mas direto",
+        "description": "Generoso com conhecimento. Porem, nao evita confronto: critica gambiarras, cursos ruins, precificacao errada. Tom firme mas nunca agressivo.",
+        "confidence": "medium"
+      },
+      "neuroticism": {
+        "score": 3,
+        "label": "Baixa ansiedade aparente",
+        "description": "Tom consistentemente confiante e otimista. 'Sem medo' e bordao. Lida com falhas como dados. Seguranca eletrica e unica area de preocupacao genuina.",
+        "confidence": "medium"
+      }
+    }
+  },
+  "optional_typing": {
+    "mbti": {
+      "type": "ESTJ",
+      "confidence": "inferred",
+      "rationale": "Extrovertido (energia com publico), Sensing (dados empiricos > teoria), Thinking (decisoes por custo-beneficio), Judging (metodologico, listas numeradas)"
+    },
+    "disc": {
+      "type": "DI (Dominant-Influential)",
+      "confidence": "inferred",
+      "rationale": "Assertivo e orientado a resultados (D), entusiasta e comunicativo (I)"
+    },
+    "enneagram": {
+      "type": "3w2 (Achiever with Helper wing)",
+      "confidence": "inferred",
+      "rationale": "Motivado por realizacao mensuravel ('faturei R$1 milhao'), forte impulso de ajudar outros. Wing 2 na generosidade com conhecimento."
+    }
+  },
+  "risk_profile": {
+    "tolerance": "moderate-high",
+    "decision_speed": "measured — segue metodo sequencial, mas nao paralisa",
+    "comfort_with_ambiguity": "moderado — lida com erros nao-documentados mas exige medicoes numericas"
+  },
+  "communication_style": {
+    "preferred_medium": "video (YouTube) + escrito (blog)",
+    "directness": "direct — fala sem rodeios mas com calor humano",
+    "conflict_approach": "assertive — confronta praticas ruins sem atacar pessoas",
+    "feedback_style": "direct-constructive — aponta erro e mostra caminho correto"
+  },
+  "work_patterns": {
+    "energy_peaks": "alta energia constante nos conteudos",
+    "flow_triggers": [
+      "Diagnostico de placa com defeito desconhecido (modo detetive)",
+      "Ensino — explicar conceito tecnico para audiencia",
+      "Reparo bem-sucedido com economia significativa",
+      "Criar conteudo novo"
+    ],
+    "motivation_drivers": [
+      {"driver": "impact", "weight": 10, "description": "Transformar tecnicos em especialistas"},
+      {"driver": "mentoring", "weight": 10, "description": "Ver aluno sair do zero e faturar"},
+      {"driver": "mastery", "weight": 9, "description": "Dominar diagnostico — 12.000+ equipamentos"},
+      {"driver": "financial_freedom", "weight": 8, "description": "Independencia financeira propria e dos alunos"},
+      {"driver": "community", "weight": 8, "description": "Construir tribo de Climatronicos"},
+      {"driver": "recognition", "weight": 6, "description": "Referencia no nicho"}
+    ]
+  },
+  "values": {
+    "core": [
+      "Democratizacao do conhecimento",
+      "Pratica sobre teoria",
+      "Qualidade e profissionalismo",
+      "Seguranca em primeiro lugar"
+    ],
+    "priorities": [
+      "Resultado financeiro do aluno (R$ concreto)",
+      "Metodo estruturado sobre intuicao solta",
+      "Reparo antes de troca",
+      "Comunidade antes de competicao"
+    ],
+    "dealbreakers": [
+      "Cursos que ensinam teoria sem pratica",
+      "Gambiarras que comprometem seguranca",
+      "Precificacao por custo de componente",
+      "Substituir fusivel por fio",
+      "Pular etapas no diagnostico"
+    ]
+  }
+}

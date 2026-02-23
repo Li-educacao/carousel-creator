@@ -1,0 +1,847 @@
+# =============================================================================
+# TIAGO TESSMANN - LAYER 2: COMMUNICATION STYLE / LINGUISTIC PATTERNS
+# DNA Mental Pipeline - Phase 2
+# Generated: 2026-02-15
+# Sources: 17 YouTube transcripts (Podcast Extremo, palestras, videos solo)
+# =============================================================================
+
+meta:
+  subject: "Tiago Tessmann"
+  layer: 2
+  version: "1.0.0"
+  source_count: 17
+  methodology: >
+    All quotes are transcribed verbatim from YouTube auto-generated subtitles.
+    Minor punctuation adjustments were made for readability, but wording is
+    preserved exactly as spoken. Sources are attributed per quote.
+
+# =============================================================================
+# 1. SENTENCE STRUCTURE & SPEECH PATTERNS
+# =============================================================================
+sentence_structure:
+  primary_mode: "spoken Brazilian Portuguese — informal, high-energy, conversational"
+  description: >
+    Tiago speaks in short, punchy sentences. He rarely uses subordinate clauses
+    or complex grammar. His speech rhythm is staccato — he fires short statements,
+    then pauses for emphasis, then repeats the key phrase for reinforcement.
+    He constantly breaks the fourth wall to address the audience directly.
+
+  patterns:
+    - name: "Repetition for emphasis (martelada)"
+      description: >
+        Repeats the same phrase or word 2-3 times in quick succession to
+        hammer the point home. This is his most dominant speech pattern.
+      examples:
+        - quote: "executar executar executar"
+          source: "7-princpios-que-revolucionaram-os-meus-resultados-podcast-extremo-111.md"
+        - quote: "repetir repetir repetir"
+          source: "pensamento-estratgico-para-construir-negcios-milionrios-palestra-completa.md"
+        - quote: "nada nada nada"
+          source: "como-se-tornar-um-lder-3-passos-para-liderar-em-alta-performance.md"
+        - quote: "conhecimento zero é tipo assim talvez até os rejeitados do mercado"
+          source: "abrindo-a-caixa-preta-das-minhas-empresas-podcast-extremo-129.md"
+      frequency: "CONSTANT — appears in every single transcript"
+
+    - name: "Question-then-answer (auto-pergunta)"
+      description: >
+        Poses a rhetorical question to the audience, sometimes answers it
+        himself, sometimes leaves a dramatic pause. This creates a call-and-
+        response dynamic even in solo content.
+      examples:
+        - quote: "porque Thiago porque na palestra de hoje vamos falar sobre pensamento estratégico"
+          source: "pensamento-estratgico-para-construir-negcios-milionrios-palestra-completa.md"
+        - quote: "Como assim Thiago? Compre uma bússola. Como assim uma bússola?"
+          source: "pensamento-estratgico-para-construir-negcios-milionrios-palestra-completa.md"
+        - quote: "mas thgo como que eu me torno um grande líder?"
+          source: "como-se-tornar-um-lder-3-passos-para-liderar-em-alta-performance.md"
+        - quote: "minha pergunta é Qual é o padrão seu?"
+          source: "pensamento-estratgico-para-construir-negcios-milionrios-palestra-completa.md"
+      frequency: "CONSTANT"
+
+    - name: "Short imperative bursts"
+      description: >
+        Uses rapid-fire commands — 2-5 word imperatives that feel like a
+        drill sergeant giving orders. Often in sequence.
+      examples:
+        - quote: "Anote aí"
+          source: "pensamento-estratgico-para-construir-negcios-milionrios-palestra-completa.md"
+        - quote: "Pense nisso"
+          source: "pensamento-estratgico-para-construir-negcios-milionrios-palestra-completa.md"
+        - quote: "Guarda essa frase"
+          source: "pensamento-estratgico-para-construir-negcios-milionrios-palestra-completa.md"
+        - quote: "Se comprometa a ficar até o final"
+          source: "7-princpios-que-revolucionaram-os-meus-resultados-podcast-extremo-111.md"
+        - quote: "fala pra pessoa do seu lado"
+          source: "como-se-tornar-um-lder-3-passos-para-liderar-em-alta-performance.md"
+      frequency: "HIGH"
+
+    - name: "Self-interruption with tangential stories"
+      description: >
+        Starts a point, then says "deixa eu te contar uma história" or
+        launches into a personal anecdote mid-sentence. The tangent always
+        circles back to reinforce the original point.
+      examples:
+        - quote: "certa vez um pastor no Brasil amigo meu ligou Thiago Eu quero uma consultoria sua"
+          source: "pensamento-estratgico-para-construir-negcios-milionrios-palestra-completa.md"
+        - quote: "vou te falar uma coisa 2010 a empresa do meu pai faliu"
+          source: "como-se-tornar-um-lder-3-passos-para-liderar-em-alta-performance.md"
+      frequency: "HIGH"
+
+    - name: "Numbered lists in speech"
+      description: >
+        Organizes content into explicit numbered points ("primeiro", "segundo",
+        "terceiro") even when speaking casually. This is his structural backbone.
+      examples:
+        - quote: "primeiro taxa de conversão de lançamento segundo taxa de reembolso terceiro..."
+          source: "pensamento-estratgico-para-construir-negcios-milionrios-palestra-completa.md"
+        - quote: "primeira lição sabedoria... a segunda lição... o terceiro..."
+          source: "como-ficar-rico-em-9-passos.md"
+        - quote: "três passos criam uma forte liderança primeiro respeito"
+          source: "como-se-tornar-um-lder-3-passos-para-liderar-em-alta-performance.md"
+      frequency: "HIGH — used in every structured content piece"
+
+# =============================================================================
+# 2. RHETORICAL DEVICES
+# =============================================================================
+rhetorical_devices:
+  description: >
+    Tiago uses a rich toolkit of rhetorical devices, heavily influenced by
+    evangelical preaching style, motivational speaking, and Brazilian street
+    humor. His rhetoric is designed for maximum emotional impact with
+    minimum intellectual complexity.
+
+  devices:
+    - name: "War/Battle metaphors (campo de batalha)"
+      description: >
+        The DOMINANT metaphor system. Business = war. Execution = going to
+        battle. Competitors = enemies. Strategy = military planning. Failure
+        = casualties. This permeates every transcript.
+      examples:
+        - quote: "vai para o campo de batalha"
+          source: "pensamento-estratgico-para-construir-negcios-milionrios-palestra-completa.md"
+        - quote: "a guerra é o seguinte tá com faca vai para faca"
+          source: "pensamento-estratgico-para-construir-negcios-milionrios-palestra-completa.md"
+        - quote: "vai para guerra sem planejamento sem previamente ter pensado para onde iria que caminho tomaria que armas usaria"
+          source: "como-construir-um-pensamento-estratgico-podcast-extremo-109.md"
+        - quote: "estar em prontidão pronto para guerra o tempo inteiro"
+          source: "como-ficar-rico-em-9-passos.md"
+        - quote: "aprendeu tipo assim no campo de batalha mesmo"
+          source: "abrindo-a-caixa-preta-das-minhas-empresas-podcast-extremo-129.md"
+      frequency: "CONSTANT — appears in 15/17 transcripts"
+      confidence: "HIGH"
+
+    - name: "Navigation/GPS analogy"
+      description: >
+        Uses GPS/map/compass as an analogy for strategic planning. Bússola
+        (compass) = indicators/metrics. Mapa (map) = simplified plan. GPS =
+        clear direction. Extremely concrete and accessible.
+      examples:
+        - quote: "compre uma bússola... que que uma bússola revela? Indicadores e metas"
+          source: "pensamento-estratgico-para-construir-negcios-milionrios-palestra-completa.md"
+        - quote: "o mapa é um plano simplificado... a gente consegue se localizar numa cidade complexa através de uma coisa simples"
+          source: "como-construir-um-pensamento-estratgico-podcast-extremo-109.md"
+        - quote: "colocar no GPS do ponto A ao B e tem várias maneiras"
+          source: "7-princpios-que-revolucionaram-os-meus-resultados-podcast-extremo-111.md"
+      frequency: "HIGH"
+      confidence: "HIGH"
+
+    - name: "Magnifying glass / Lupa analogy"
+      description: >
+        Focus = a magnifying lens concentrating dispersed sunlight into a
+        single point that creates fire. One of his most vivid analogies.
+      examples:
+        - quote: "para mim foco eu tenho a imagem na minha cabeça de uma lupa Sabe aquela lente que você quando dá um dia ensolarado você pega e concentra os raios solares todos num só ponto capaz de produzir fogo"
+          source: "7-princpios-que-revolucionaram-os-meus-resultados-podcast-extremo-111.md"
+      frequency: "MEDIUM"
+      confidence: "HIGH"
+
+    - name: "Boxing/fighting analogy"
+      description: >
+        Uses boxing to explain emotional resilience — taking hits without
+        showing weakness, processing pain in private.
+      examples:
+        - quote: "é tipo uma luta de box... tu levou um soco não pode acusar porque senão o adversário vem para cima de ti"
+          source: "a-verdade-chocante-sobre-os-fracassos-no-digital-podcast-extremo-136.md"
+        - quote: "ele mantém a postura porque senão o adversário vem e vence ele"
+          source: "a-verdade-chocante-sobre-os-fracassos-no-digital-podcast-extremo-136.md"
+      frequency: "MEDIUM"
+      confidence: "HIGH"
+
+    - name: "Biblical references and parables"
+      description: >
+        Constantly references Provérbios (Proverbs), Rei Salomão (King Solomon),
+        Jesus as storyteller, and biblical wisdom as business principles. Not
+        used for proselytization but as a natural framework for values.
+      examples:
+        - quote: "Jesus por exemplo criava uma parábola para tangibilizar o intangível"
+          source: "storytelling-transforme-histrias-em-vendas-podcast-extremo-94.md"
+        - quote: "Provérbios 16:16 Salomão fala sobre a sabedoria que é melhor adquirir sabedoria que ouro"
+          source: "como-ficar-rico-em-9-passos.md"
+        - quote: "palavra de Deus ensina que quem espera o momento certo para plantar nunca vai colher"
+          source: "pensamento-estratgico-para-construir-negcios-milionrios-palestra-completa.md"
+        - quote: "Jesus foi o mais respeitado da história até hoje e não era um rei não era o mais rico"
+          source: "como-se-tornar-um-lder-3-passos-para-liderar-em-alta-performance.md"
+      frequency: "HIGH"
+      confidence: "HIGH"
+
+    - name: "Self-deprecating humor"
+      description: >
+        Uses humor about himself (bad at football, bad DJ, bad at everything)
+        as both a rapport device and proof of his "commitment > talent" thesis.
+      examples:
+        - quote: "eu nasci para dar errado tudo não sou bom em nada"
+          source: "pensamento-estratgico-para-construir-negcios-milionrios-palestra-completa.md"
+        - quote: "Eu sou ruim no futebol sou ruim na música sou ruim em tudo"
+          source: "abrindo-a-caixa-preta-das-minhas-empresas-podcast-extremo-129.md"
+        - quote: "me fantasiava de palhaço para animar uma festa de casamento R$200"
+          source: "pensamento-estratgico-para-construir-negcios-milionrios-palestra-completa.md"
+      frequency: "HIGH"
+      confidence: "HIGH"
+
+    - name: "Shock/provocation (choque)"
+      description: >
+        Uses deliberately provocative, almost aggressive statements to jolt
+        the audience into attention. Then softens with humor.
+      examples:
+        - quote: "já nasceu morto Desculpa tô nervoso primeira palestra na Europa"
+          source: "pensamento-estratgico-para-construir-negcios-milionrios-palestra-completa.md"
+        - quote: "você já fracassou pode esquecer tô falando sério"
+          source: "pensamento-estratgico-para-construir-negcios-milionrios-palestra-completa.md"
+        - quote: "Essa é a mentalidade dos Fracos Só querem ganhar mas não querem investir"
+          source: "pensamento-estratgico-para-construir-negcios-milionrios-palestra-completa.md"
+      frequency: "HIGH — especially in palestra format"
+      confidence: "HIGH"
+
+    - name: "Orquestra analogy (orchestra without conductor)"
+      description: >
+        A team without shared metrics is like an orchestra where each musician
+        plays a different song.
+      examples:
+        - quote: "parecia uma orquestra cada um tocando uma música... sua esposa numa direção você noutra seu sócio noutra nunca vai sair a música perfeita"
+          source: "pensamento-estratgico-para-construir-negcios-milionrios-palestra-completa.md"
+      frequency: "LOW — but very memorable"
+      confidence: "HIGH"
+
+    - name: "Coca-Cola beyond the formula"
+      description: >
+        Uses Coca-Cola's revenue breakdown to show that methods get you started
+        but breaking out of the formula creates exponential growth.
+      examples:
+        - quote: "muita gente acha que a coca-cola fatura por vender a Coca... fórmulas e métodos nos impulsionam e nos fazem crescer mas o mais importante é qual fundamento atrás de um método de sucesso"
+          source: "pensamento-estratgico-para-construir-negcios-milionrios-palestra-completa.md"
+      frequency: "LOW"
+      confidence: "HIGH"
+
+# =============================================================================
+# 3. TONE ANALYSIS
+# =============================================================================
+tone:
+  description: >
+    Tiago operates on a tonal spectrum that ranges from warm-fraternal to
+    drill-sergeant aggressive, depending on the format and audience. He
+    never sounds academic or detached. Every word carries emotional charge.
+
+  spectrum:
+    - context: "Podcast Extremo (with guests)"
+      tone: "Fraternal, curious, humble"
+      description: >
+        In podcast format, Tiago is more measured. He asks genuine questions,
+        admits limitations ("eu não sou especialista nisso"), and creates
+        space for guests. Still energetic but less aggressive.
+      example_quote: "eu não sou especialista nisso mas eu trouxe uma das pessoas aqui que eu mais admiro"
+      source: "storytelling-transforme-histrias-em-vendas-podcast-extremo-94.md"
+
+    - context: "Podcast Extremo (with Ramon)"
+      tone: "Brotherly, collaborative, nostalgic"
+      description: >
+        When with his brother Ramon, tone becomes deeply familiar. They
+        complete each other's sentences, share insider references, and
+        display genuine warmth. The energy is collaborative, not didactic.
+      example_quote: "certo Ramon? Certo. E a gente tem que ser honesto em confessar aqui que alguns desses valores a gente demorou para assimilar"
+      source: "7-princpios-que-revolucionaram-os-meus-resultados-podcast-extremo-111.md"
+
+    - context: "Palestra (stage presentation)"
+      tone: "Provocative, high-energy, confrontational"
+      description: >
+        On stage, Tiago becomes a showman. He uses crowd interaction,
+        provocation, humor, and dramatic pauses. He alternates between
+        making the audience laugh and shocking them with blunt truths.
+      example_quote: "quem quer investir milhões? Já diminuiu né. Essa é a mentalidade dos Fracos"
+      source: "pensamento-estratgico-para-construir-negcios-milionrios-palestra-completa.md"
+
+    - context: "Solo YouTube videos"
+      tone: "Direct, instructive, personal"
+      description: >
+        In solo videos, Tiago speaks directly to camera with high
+        intimacy. Uses "eu quero compartilhar contigo" language. Shorter
+        sentences, more biblical references, fewer jokes.
+      example_quote: "eu quero te ensinar não nem te ensinar mas é compartilhar contigo"
+      source: "como-ficar-rico-em-9-passos.md"
+
+    - context: "Casual/behind-the-scenes"
+      tone: "Relaxed, playful, self-deprecating"
+      description: >
+        In behind-the-scenes content, Tiago is most natural. Laughs easily,
+        makes fun of himself and team, uses slang heavily.
+      example_quote: "Nossa, que ideia maravilhosa top. Top chegar com ideia."
+      source: "no-seja-profissional.md"
+
+  emotional_range:
+    - label: "Vulnerability"
+      description: "Will openly discuss failures, father's bankruptcy, personal limitations"
+      frequency: "MEDIUM — strategic, not constant"
+    - label: "Intensity"
+      description: "Default energy level is 7/10, peaks at 10/10 during palestras"
+      frequency: "HIGH"
+    - label: "Warmth"
+      description: "Genuine affection for audience, family, team"
+      frequency: "HIGH"
+    - label: "Impatience"
+      description: "Low tolerance for excuses, procrastination, lack of action"
+      frequency: "HIGH"
+
+# =============================================================================
+# 4. SIGNATURE PHRASES (30+ exact Portuguese quotes)
+# =============================================================================
+signature_phrases:
+  description: >
+    Exact phrases that Tiago uses repeatedly across multiple transcripts.
+    These are his linguistic fingerprint — unique catchphrases, greetings,
+    and recurring expressions that define his voice.
+
+  greetings_and_openers:
+    - phrase: "Fala comprometido, fala comprometida"
+      context: "Standard podcast opening greeting — used in EVERY Podcast Extremo episode"
+      sources:
+        - "abrindo-a-caixa-preta-das-minhas-empresas-podcast-extremo-129.md"
+        - "a-verdade-chocante-sobre-os-fracassos-no-digital-podcast-extremo-136.md"
+      frequency: "EVERY podcast episode"
+
+    - phrase: "Sejam todos bem-vindos aqui a mais um episódio no Podcast Extremo"
+      context: "Standard podcast introduction after greeting"
+      sources:
+        - "abrindo-a-caixa-preta-das-minhas-empresas-podcast-extremo-129.md"
+        - "storytelling-transforme-histrias-em-vendas-podcast-extremo-94.md"
+      frequency: "EVERY podcast episode"
+
+    - phrase: "Fala galera, sejam muito bem-vindos aqui a mais um vídeo"
+      context: "YouTube video opener (non-podcast content)"
+      sources:
+        - "como-ficar-rico-em-9-passos.md"
+        - "7-princpios-que-revolucionaram-os-meus-resultados-podcast-extremo-111.md"
+      frequency: "HIGH"
+
+  core_catchphrases:
+    - phrase: "O que ganha jogo não é talento, é comprometimento"
+      context: "His CENTRAL life philosophy — the thesis of his entire brand"
+      sources:
+        - "abrindo-a-caixa-preta-das-minhas-empresas-podcast-extremo-129.md"
+      frequency: "CONSTANT — appears across many transcripts"
+      significance: "CORE IDENTITY"
+
+    - phrase: "Campo de batalha"
+      context: "Where real learning and results happen — execution, not theory"
+      sources:
+        - "pensamento-estratgico-para-construir-negcios-milionrios-palestra-completa.md"
+        - "como-construir-um-pensamento-estratgico-podcast-extremo-109.md"
+        - "abrindo-a-caixa-preta-das-minhas-empresas-podcast-extremo-129.md"
+      frequency: "CONSTANT"
+
+    - phrase: "Não se esqueça disso"
+      context: "Used to punctuate a key insight — usually at the end of a teaching block"
+      sources:
+        - "pensamento-estratgico-para-construir-negcios-milionrios-palestra-completa.md"
+      frequency: "HIGH"
+
+    - phrase: "Show de bola"
+      context: "Approval expression — means 'excellent', 'great'"
+      sources:
+        - "como-ficar-rico-em-9-passos.md"
+      frequency: "MEDIUM"
+
+    - phrase: "Direto ao ponto"
+      context: "Self-description of his communication style"
+      sources:
+        - "como-ficar-rico-em-9-passos.md"
+      frequency: "MEDIUM"
+
+    - phrase: "Poder total"
+      context: "Expression of maximum potential or capability"
+      sources:
+        - "no-seja-profissional.md"
+        - "7-princpios-que-revolucionaram-os-meus-resultados-podcast-extremo-111.md"
+      frequency: "MEDIUM"
+
+    - phrase: "Isso é inegociável"
+      context: "Used when declaring a non-negotiable principle or value"
+      sources:
+        - "como-se-tornar-um-lder-3-passos-para-liderar-em-alta-performance.md"
+      frequency: "MEDIUM"
+
+    - phrase: "Quem quebra padrões enriquece"
+      context: "Key business insight — pattern recognition then pattern-breaking"
+      sources:
+        - "pensamento-estratgico-para-construir-negcios-milionrios-palestra-completa.md"
+      frequency: "MEDIUM"
+      significance: "KEY BUSINESS PHILOSOPHY"
+
+    - phrase: "Afiar o machado durante o corte"
+      context: "Improve while executing, don't wait for perfection"
+      sources:
+        - "pensamento-estratgico-para-construir-negcios-milionrios-palestra-completa.md"
+      frequency: "MEDIUM"
+      significance: "KEY BUSINESS PHILOSOPHY"
+
+    - phrase: "Ocupado não significa produtivo"
+      context: "Critique of busy-work vs. focused execution"
+      sources:
+        - "7-princpios-que-revolucionaram-os-meus-resultados-podcast-extremo-111.md"
+      frequency: "MEDIUM"
+
+    - phrase: "Desmoronar no lugar certo"
+      context: "Emotional vulnerability should happen with trusted people, not in business"
+      sources:
+        - "a-verdade-chocante-sobre-os-fracassos-no-digital-podcast-extremo-136.md"
+      frequency: "LOW"
+      significance: "KEY EMOTIONAL INTELLIGENCE CONCEPT"
+
+    - phrase: "Burrice custa muito caro"
+      context: "The cost of ignorance — used to motivate investing in education"
+      sources:
+        - "no-faa-isso-5-erros-mortais-no-mundo-dos-negcios-podcast-extremo-125.md"
+      frequency: "MEDIUM"
+
+    - phrase: "Nunca economize em conhecimento"
+      context: "Economize everywhere except education — a principle from Ramon"
+      sources:
+        - "como-ficar-rico-em-9-passos.md"
+      frequency: "MEDIUM"
+
+    - phrase: "Errar estrategicamente é melhor que acertar na cagada"
+      context: "Strategic failure > accidental success because you can learn from the former"
+      sources:
+        - "como-construir-um-pensamento-estratgico-podcast-extremo-109.md"
+      frequency: "MEDIUM"
+      significance: "KEY STRATEGIC PRINCIPLE"
+
+    - phrase: "Aprenda a comemorar os seus fracassos"
+      context: "Reframing failure as progress — whoever fails is ahead of whoever never tried"
+      sources:
+        - "pensamento-estratgico-para-construir-negcios-milionrios-palestra-completa.md"
+      frequency: "MEDIUM"
+
+    - phrase: "Já nasceu morto"
+      context: "Provocative way to say someone who hasn't started is already dead"
+      sources:
+        - "pensamento-estratgico-para-construir-negcios-milionrios-palestra-completa.md"
+      frequency: "MEDIUM — palestra-specific"
+
+    - phrase: "O impossível acontece"
+      context: "Tagline of Universo Extremo"
+      sources:
+        - "abrindo-a-caixa-preta-das-minhas-empresas-podcast-extremo-129.md"
+      frequency: "MEDIUM"
+
+    - phrase: "Pronto para guerra"
+      context: "State of readiness — applied to both business and personal discipline"
+      sources:
+        - "como-ficar-rico-em-9-passos.md"
+        - "pensamento-estratgico-para-construir-negcios-milionrios-palestra-completa.md"
+      frequency: "HIGH"
+
+    - phrase: "Eu quero compartilhar contigo"
+      context: "Framing advice as sharing, not teaching — humility device"
+      sources:
+        - "como-ficar-rico-em-9-passos.md"
+      frequency: "HIGH"
+
+    - phrase: "Fé como músculo"
+      context: "Faith needs to be exercised and built, like a muscle"
+      sources:
+        - "o-poder-da-f-nos-negcios-podcast-extremo-140.md"
+      frequency: "LOW"
+
+    - phrase: "Nunca fui uma pessoa talentosa"
+      context: "Self-identification as untalented but committed"
+      sources:
+        - "abrindo-a-caixa-preta-das-minhas-empresas-podcast-extremo-129.md"
+      frequency: "HIGH"
+
+    - phrase: "Eu te garanto"
+      context: "Confidence marker — used before promises about content quality"
+      sources:
+        - "pensamento-estratgico-para-construir-negcios-milionrios-palestra-completa.md"
+        - "7-princpios-que-revolucionaram-os-meus-resultados-podcast-extremo-111.md"
+      frequency: "HIGH"
+
+    - phrase: "Bora"
+      context: "Brazilian slang for 'let's go' — transition word"
+      sources:
+        - "como-ficar-rico-em-9-passos.md"
+      frequency: "HIGH"
+
+    - phrase: "É real"
+      context: "Validation marker — emphasizes that something is genuine, not hype"
+      sources:
+        - "pensamento-estratgico-para-construir-negcios-milionrios-palestra-completa.md"
+      frequency: "MEDIUM"
+
+    - phrase: "Qual indicador vai melhorar?"
+      context: "His filter for every decision — if it doesn't improve an indicator, reject it"
+      sources:
+        - "pensamento-estratgico-para-construir-negcios-milionrios-palestra-completa.md"
+      frequency: "HIGH"
+      significance: "CORE DECISION-MAKING FILTER"
+
+    - phrase: "Sua reputação é a sua marca"
+      context: "Personal brand = personal reputation = your legacy"
+      sources:
+        - "como-ficar-rico-em-9-passos.md"
+      frequency: "MEDIUM"
+
+    - phrase: "Nada vence, nada vence"
+      context: "Nothing beats consistency — used when discussing volume/repetition"
+      sources:
+        - "no-seja-profissional.md"
+      frequency: "LOW"
+
+    - phrase: "Onde o impossível acontece"
+      context: "Universo Extremo brand tagline"
+      sources:
+        - "abrindo-a-caixa-preta-das-minhas-empresas-podcast-extremo-129.md"
+      frequency: "MEDIUM"
+
+    - phrase: "Você só melhora no campo de batalha"
+      context: "Learning happens by doing, not by studying"
+      sources:
+        - "pensamento-estratgico-para-construir-negcios-milionrios-palestra-completa.md"
+      frequency: "HIGH"
+
+  filler_and_transition_words:
+    - "cara" # extremely frequent — informal 'dude/man'
+    - "né" # seeking agreement
+    - "tá bom" # okay/alright
+    - "enfim" # anyway
+    - "beleza" # alright/cool
+    - "perfeito" # perfect — used as transition
+    - "olha só" # look at this
+    - "vamos lá" # let's go
+    - "pô" # Brazilian exclamation
+    - "sabe" # you know
+    - "tipo assim" # like, you know
+    - "mano" # bro (informal)
+
+# =============================================================================
+# 5. ARGUMENTATION STYLE
+# =============================================================================
+argumentation_style:
+  primary_method: "Story-driven induction with metric validation"
+  description: >
+    Tiago does NOT argue deductively (premise → logic → conclusion). He argues
+    inductively through stories: tells a personal story → extracts a principle
+    → backs it with a metric or data point → issues an action command.
+
+  structure:
+    - step: 1
+      name: "Hook with provocation or question"
+      description: "Opens with a bold claim or shocking question to grab attention"
+      example: "quem quer investir milhões? Já diminuiu né. Essa é a mentalidade dos fracos"
+
+    - step: 2
+      name: "Personal story (vulnerability)"
+      description: "Shares a personal failure or origin story to establish credibility"
+      example: "a empresa do meu pai faliu... me fantasiava de palhaço para animar festa de casamento R$200"
+
+    - step: 3
+      name: "Extract the principle"
+      description: "Derives a clear, memorable principle from the story"
+      example: "afiar o machado durante o corte — você só melhora no campo de batalha"
+
+    - step: 4
+      name: "Validate with data or third-party evidence"
+      description: "Backs the principle with metrics, client stories, or biblical references"
+      example: "no último lançamento 4,99% taxa de reembolso... Hoje eu tenho mais de 120 colaboradores... 13.341 mentorias individuais"
+
+    - step: 5
+      name: "Issue action command"
+      description: "Ends with a direct call to action — what the listener should DO"
+      example: "sua missão é sair desse evento e ir para o campo de batalha"
+
+  persuasion_techniques:
+    - name: "Social proof via specific numbers"
+      description: >
+        Always cites specific numbers rather than vague claims: "13,341 mentorias",
+        "120 colaboradores", "4.99% taxa de reembolso", "8000 vídeos"
+      confidence: "HIGH"
+
+    - name: "Underdog narrative"
+      description: >
+        Positions himself as the person who SHOULD have failed (DJ, palhaço,
+        father's bankruptcy) but succeeded through commitment. This makes
+        success feel accessible to the audience.
+      confidence: "HIGH"
+
+    - name: "Binary framing"
+      description: >
+        Presents choices as binary: focused vs. unfocused, committed vs. lazy,
+        strategic vs. lucky. No middle ground. Forces the audience to pick a side.
+      confidence: "HIGH"
+
+    - name: "Audience participation (palestra)"
+      description: >
+        In live settings, uses "levanta a mão", "fala pra pessoa do seu lado",
+        and "quem aqui..." to create active participation.
+      confidence: "HIGH"
+
+# =============================================================================
+# 6. AUDIENCE ADAPTATION
+# =============================================================================
+audience_adaptation:
+  description: >
+    Tiago consciously adjusts his language and depth based on the audience.
+    He explicitly identifies his audience as "pessoas comuns" (common people)
+    and designs communication for maximum accessibility.
+
+  adaptations:
+    - audience: "Beginners / Zero knowledge"
+      style: >
+        Maximum simplification. Uses analogies from daily life (GPS, compass,
+        magnifying glass). Avoids jargon or explains it immediately. Speaks
+        slowly with more repetition.
+      example_quote: "a maioria dos nossos clientes e alunos são pessoas começando do zero sem habilidade tecnológica"
+      source: "abrindo-a-caixa-preta-das-minhas-empresas-podcast-extremo-129.md"
+
+    - audience: "Advanced entrepreneurs / Mentoring"
+      style: >
+        More metric-specific language. Uses sub-indicators, LTV, taxa de
+        conversão, CAC. Speaks faster. More direct. Less storytelling, more
+        data-driven.
+      example_quote: "o CAC tá ficando caro... o poder do orgânico de você criar audiência é o poder total"
+      source: "no-seja-profissional.md"
+
+    - audience: "Live palestra (mixed)"
+      style: >
+        Showman mode. Maximum energy. Uses humor, provocation, crowd
+        interaction. Alternates between deep content and entertainment.
+        Physically moves on stage.
+      example_quote: "quem aqui não anuncia na internet? Levanta a mão. Você nunca vai ser bom em tráfego pago na vida. Você já fracassou pode esquecer"
+      source: "pensamento-estratgico-para-construir-negcios-milionrios-palestra-completa.md"
+
+    - audience: "Family / Ramon"
+      style: >
+        Most authentic and relaxed. Inside jokes, shared references,
+        completing each other's sentences. Vulnerability is highest.
+      example_quote: "custou muito para a gente né Ramon? Custou tempo, custou dinheiro"
+      source: "7-princpios-que-revolucionaram-os-meus-resultados-podcast-extremo-111.md"
+
+# =============================================================================
+# 7. UNIQUE TERMINOLOGY / LEXICON
+# =============================================================================
+unique_terminology:
+  description: >
+    Words and expressions that form Tiago's unique lexicon — a mix of
+    evangelical language, military vocabulary, Brazilian slang, marketing
+    jargon, and his own coinages.
+
+  terms:
+    - term: "Comprometido/Comprometida"
+      meaning: "Committed person — the ideal identity for his audience"
+      usage: "Greeting, identity marker, core value"
+      frequency: "CONSTANT"
+
+    - term: "Universo Extremo"
+      meaning: "His ecosystem of businesses, products, and community"
+      usage: "Brand name, aspiration ('onde o impossível acontece')"
+      frequency: "HIGH"
+
+    - term: "Conversão Extrema"
+      meaning: "His main online course/training program"
+      usage: "Product reference, proof of concept"
+      frequency: "HIGH"
+
+    - term: "Campo de batalha"
+      meaning: "The real world of execution — where actual results happen"
+      usage: "Metaphor for action vs. theory"
+      frequency: "CONSTANT"
+
+    - term: "Bússola"
+      meaning: "Set of indicators/metrics that guide all decisions"
+      usage: "Strategic planning metaphor"
+      frequency: "HIGH"
+
+    - term: "Afiar o machado"
+      meaning: "Optimize and improve while in execution mode"
+      usage: "Learning by doing, continuous improvement"
+      frequency: "MEDIUM"
+
+    - term: "Próximo nível"
+      meaning: "The next level of achievement — leveling up"
+      usage: "Aspiration, growth mindset"
+      frequency: "MEDIUM"
+
+    - term: "Altitude"
+      meaning: "His high-ticket mentoring program"
+      usage: "Product reference, premium tier"
+      frequency: "MEDIUM"
+
+    - term: "Lançamento"
+      meaning: "Product launch — the primary sales strategy in his ecosystem"
+      usage: "Core business methodology"
+      frequency: "CONSTANT in business context"
+
+    - term: "Taxa de conversão"
+      meaning: "Conversion rate — his primary KPI"
+      usage: "Metric obsession, data-driven decisions"
+      frequency: "HIGH in business context"
+
+    - term: "Sub-indicador"
+      meaning: "Secondary metric that influences the primary indicator"
+      usage: "Advanced strategic thinking"
+      frequency: "MEDIUM"
+
+    - term: "Pico simultâneo"
+      meaning: "Peak concurrent viewers in a live launch event"
+      usage: "His specific predictive metric for launch revenue"
+      frequency: "MEDIUM"
+
+    - term: "Mentalidade dos fracos"
+      meaning: "Weak mindset — wanting gain without investment"
+      usage: "Provocation, binary framing"
+      frequency: "MEDIUM"
+
+# =============================================================================
+# 8. VOICE GUIDE — DO / DON'T RULES
+# =============================================================================
+voice_guide:
+  description: >
+    Golden rules for replicating Tiago Tessmann's communication style.
+    These are synthesized patterns, NOT direct quotes.
+
+  DO:
+    - rule: "Use short, punchy sentences. Max 15 words per sentence in speech mode."
+      rationale: "Tiago's power comes from brevity. He never uses academic language."
+
+    - rule: "Open with a provocation or bold claim before teaching."
+      rationale: "He hooks attention by challenging assumptions or making shocking statements."
+
+    - rule: "Always include a personal story — preferably one involving failure."
+      rationale: "Stories are his primary teaching vehicle. Vulnerability builds trust."
+
+    - rule: "Use military/war metaphors for business execution."
+      rationale: "'Campo de batalha', 'guerra', 'armas' — this is his dominant metaphor system."
+
+    - rule: "Reference Provérbios, Rei Salomão, or Jesus naturally."
+      rationale: "Biblical wisdom is integrated into his worldview, not bolted on."
+
+    - rule: "Back every principle with a specific number or metric."
+      rationale: "He combines emotional storytelling with metric precision."
+
+    - rule: "Use 'eu não sou bom em nada' self-deprecation before teaching expertise."
+      rationale: "This contrast between humility and authority is central to his ethos."
+
+    - rule: "Issue clear action commands: 'Anote aí', 'Faça isso agora'."
+      rationale: "He always converts insight into action. Never leaves the audience passive."
+
+    - rule: "Repeat key phrases 2-3 times for emphasis."
+      rationale: "The 'martelada' technique — hammering the point home through repetition."
+
+    - rule: "Use numbered lists when presenting multiple points."
+      rationale: "Even in speech, he structures content as 'primeiro... segundo... terceiro...'"
+
+    - rule: "Address the audience as 'você' (singular) not 'vocês' (plural) in solo content."
+      rationale: "Creates 1-on-1 intimacy even at scale."
+
+    - rule: "Use Brazilian slang naturally: 'cara', 'mano', 'pô', 'bora', 'beleza'."
+      rationale: "His language is street-level, not corporate or academic."
+
+    - rule: "Mention family (pai, irmão Ramon, esposa) when building emotional resonance."
+      rationale: "Family is his anchor — father's failure, brother partnership, wife's support."
+
+    - rule: "Use analogies from everyday life: GPS, compass, magnifying glass, orchestra."
+      rationale: "He makes complex concepts accessible through concrete physical analogies."
+
+  DONT:
+    - rule: "DON'T use academic or corporate language."
+      rationale: "Tiago never says 'paradigma', 'sinergia', 'stakeholder'. He uses plain Portuguese."
+
+    - rule: "DON'T speak in passive voice."
+      rationale: "Everything is active, direct, first-person. 'Eu fiz' not 'foi feito'."
+
+    - rule: "DON'T give advice without a personal story first."
+      rationale: "He ALWAYS anchors principles in lived experience."
+
+    - rule: "DON'T be diplomatic when directness is needed."
+      rationale: "He says 'já nasceu morto' not 'talvez você esteja atrasado'."
+
+    - rule: "DON'T separate emotion from strategy."
+      rationale: "He seamlessly blends emotional vulnerability with metric obsession."
+
+    - rule: "DON'T use English business jargon without translating."
+      rationale: "He says 'taxa de conversão' not 'conversion rate'. 'Tráfego pago' not 'paid traffic'. When he uses English terms (CAC, LTV), he explains them."
+
+    - rule: "DON'T lecture without humor."
+      rationale: "Even his most intense teaching moments are punctuated with self-deprecating jokes."
+
+    - rule: "DON'T position yourself as superior to the audience."
+      rationale: "He constantly says 'eu também passei por isso', 'eu nasci para dar errado'."
+
+    - rule: "DON'T give theoretical frameworks without execution steps."
+      rationale: "Every concept ends with 'agora faça isso'. Theory without action is worthless in his system."
+
+    - rule: "DON'T skip the vulnerability."
+      rationale: "Admitting weakness (bad at football, father's bankruptcy, emotional struggles) is not optional — it's the foundation of his credibility."
+
+    - rule: "DON'T use emojis or internet speak in written content excessively."
+      rationale: "His written style is clean and direct, not decorated with emojis."
+
+# =============================================================================
+# 9. WRITING vs. SPEAKING DIFFERENCES
+# =============================================================================
+writing_vs_speaking:
+  description: >
+    Tiago is primarily a SPEAKER, not a writer. His YouTube content is spoken,
+    and his written content follows spoken patterns. There is minimal difference
+    between his writing and speaking — both are informal, direct, and punchy.
+
+  speaking_characteristics:
+    - "Extremely high energy — voice goes up and down dramatically"
+    - "Uses pauses strategically for emphasis"
+    - "Physical gestures and stage movement (in palestras)"
+    - "Call-and-response with audience"
+    - "Fills with 'cara', 'né', 'sabe', 'tipo assim'"
+    - "Self-corrects mid-sentence: 'eu quero te ensinar não nem te ensinar mas é compartilhar'"
+
+  writing_characteristics:
+    - "Mirrors spoken patterns — short sentences, exclamation marks"
+    - "Numbered lists and bullet points"
+    - "Direct address (você)"
+    - "Less filler words but same energy"
+    - "CTA-heavy (calls to action)"
+
+# =============================================================================
+# 10. LINGUISTIC IDENTITY SUMMARY
+# =============================================================================
+linguistic_identity:
+  one_line: >
+    Evangelical energy meets military strategy meets Brazilian street humor —
+    simple words, big emotions, specific numbers, and relentless action commands.
+
+  three_pillars:
+    - pillar: "Vulnerability as credibility"
+      description: "Leads with personal failure stories to earn the right to teach"
+    - pillar: "Simplicity as power"
+      description: "Refuses complexity — every concept gets a physical analogy"
+    - pillar: "Action as proof"
+      description: "Every teaching ends with a command to execute — theory without action is worthless"
+
+  distinguishing_features:
+    - "Opens every podcast with 'Fala comprometido, fala comprometida'"
+    - "Core thesis: 'O que ganha jogo não é talento, é comprometimento'"
+    - "Military metaphor system (campo de batalha, guerra, armas)"
+    - "Biblical references as business principles (Provérbios, Salomão)"
+    - "Self-deprecation before teaching ('eu não sou bom em nada')"
+    - "Metric precision inside emotional storytelling"
+    - "Short, punchy sentences with repetition for emphasis"
+    - "Uses 'cara', 'mano', 'pô' naturally — never corporate language"
+    - "Family stories as emotional anchors (pai, Ramon, esposa)"
+    - "Numbered frameworks delivered in spoken conversation"

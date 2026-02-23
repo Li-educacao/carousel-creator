@@ -1,0 +1,14 @@
+# QUAIS SÃO OS TIPOS DE AR-CONDICIONADO DISPONÍVEIS NO MERCADO? #AME
+
+- **Video ID:** zcUlQcZsM8c
+- **URL:** https://www.youtube.com/watch?v=zcUlQcZsM8c
+- **Duration:** 3 min
+- **Views:** 79
+- **Published:** 2022-07-02T15:00:36Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+eu geneleiro tem um split do split e do janeleiro que são as linhas residenciais você vai ter ambos convencional ou inverter detalhe importante da gente antes de começar a crise é o seguinte quem já acha que é vetera já entende eu peço que fique aí participei esse podcast porque você vai ver que vai ter coisas que você não sabia muitos muitos dos profissionais estão na área que pergunta o que é inverte não sabe explicar o que é inverte né O que a tecnologia inverno então fiquei que parece ser para iniciante mas muitas vezes avançado não tem não faz ideia quem está falando aqui quando você fala de inverno tá então a gente tem relevo das antigas o funileiro tem o corpo tem o tem o split explique esse ar condicionado Tem a parte de dentro e a parte de fora fica a parte de dentro que esfria a parte de fora que aquece E aí ele evaporadora condensadora ambos hoje em dia hoje no mercado ambos esses dois modelos ambos têm quando convencional que é onoff que é o líder e desliga que é o modelo mais antigo tecnologicamente e tem o modelo inverter que tem a tecnologia maior empre dentro dos Espíritos a gente vai ter cassete fiz o teto raio UOL em vários outros modelos de evaporadora tem gente que pensa que são ar condicionados diferentes todos são split split é porque é dividido a parte da condensadora do lado de fora do ambiente que você quer refrigerar a pasta evaporador do lado de dentro do ambiente que você quer refrigerar esses modelos são split que muda é o tipo de evaporadora aí vai ter evaporadora Raiol k7 piso teto e vários outros tipos de evaporadora tá então esse é um diferentes tipos de ar condicionado residenciais posso falar do vrf é um tipo de ar condicionado que é puramente inverter Existem os clitões que tem inverte também tem convencional e tem inveja vai chamar de profissional mesmo com o nove tá explicado em São convencionais inverter tem minis vrf são nós também maioria inverter tem Chile que tem convencional inverter também já deixei ele liberta todos os abandonados do nosso do setor da climatização todas as máquinas de refrigeração elas vou dizer todas que eu não conheço todas mas a grande maioria delas tem a convencional e a inverter Tá mas as máquinas que a gente no mercado todas elas geladeira convencional inverter microondas relacionados inverter máquina de lavar máquina de lavar convencional máquina de lavar inverter somos dos nomes lavar é o tanquinho né lavadora e a outra lava seca o vídeo tá dominando toda do mercado da Linha Branca vamos dizer assim tem tecnologia inverter empregada

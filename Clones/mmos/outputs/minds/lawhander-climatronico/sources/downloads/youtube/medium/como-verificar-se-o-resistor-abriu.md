@@ -1,0 +1,14 @@
+# COMO VERIFICAR SE O RESISTOR ABRIU
+
+- **Video ID:** _ObiRCOr-OU
+- **URL:** https://www.youtube.com/watch?v=_ObiRCOr-OU
+- **Duration:** 4 min
+- **Views:** 233
+- **Published:** 2025-01-11T15:00:46Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+a resistor abre ele não entra em curto não geralmente tá geralmente resistor t a abrir T Abrir aumentar a resistência que abrir L ele aumentar a resistência tá se ele é de 100k ele tá dando 2 me porque ele abriu Ah mas tá dando 2 me uma resistência ainda é mas tá muito alto em relação ao valor que ele tem que dar como é que valor que tem que dar on vai aqui ó e Analisa Analisa aqui o número a marcação dele aqui ó 4,7k então a gente retirou mediu fora outra coisa mede na placa suspeitou Tira e mede fora porque se tu medir só na placa tu pode ser enganado pelas resistências vizinhas tá tem outros resistores vizinhos que pode que eles sof Altera a resistência do componente qu ele tá na placa então a gente retirou aqui esses dois retiramos e Vimos que fora Ele tava dando bem bem aberto tá Às vezes dá 100% aberto às vezes dá uma alta resistência tá ó no vamos ver aqui no na placa ó ó escala de resistência se consigo não posso ficar com braço em cima aqui né ó imagino esse resistor no 4,4k ele é de 4,7 Ah tá tá ruim então aí para ter certeza eu tenho que retirar ele com muito cuidado tá não usa ferrão usa ferro 60 w 45 por quê Porque ele ele na ele pode queimar o componente o ferrão tá e se ele chegar a queimar o componente ele pode aquecer tanto o resistor que ele queima ó o outro aqui tá dando 392 oh 393 Ohm de quanto é ele vamos ver aqui se a gente consegue enxergar 391 ó esse último número é o fator multiplicador então 391 é 390 e tá valando quanto 393 né 392 pon 5 né 393 ó então aceitável tá essa variação Zinha aceitável e lembrando quee tá na placa eu tiro ele aí vamos lá eu tirei ele e às vezes na placa se medi 393 tava dando sei lá 200k estranho né Aí vou lá tir ele da placa quando eu tiro ele dar aberto aí eu certifico que ele tá ruim tá então sempre que duvidar de um resistor tira ele fora lá onde sempre vai abrir o resistor cara 99% dos casos Sim eu me lembro de duas vezes uma que eu ouvi falar e outra que eu na verdade duas vezes eu vi né Eu vi duas vezes o resistor alterar para menos tá ou ele entrar em curto ou ele baixar a resistência duas vez vezes só nesse tempo todo que eu tenho de manutenção eletrônica a nunca acontece é que nem compressor inverte compressor inverte não dá defeito não lá on compressor inverte dá defeito sim tá então você achar que ele não dá defeito é você vai muitas vezes você passa tendo dor de cabeça é que nem resistor acreditar que ele não baixa resistência é é é fechar os olhos para um defeito que pode acontecer mas é raro assim como é raro o compressão inversa dá defeito é raro de acontecer mas resistor ele pode baixar a resistência sim

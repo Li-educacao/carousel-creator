@@ -1,0 +1,14 @@
+# Ar que não liga compressor e nem ventilador
+
+- **Video ID:** d7oM0u-Z8aQ
+- **URL:** https://www.youtube.com/watch?v=d7oM0u-Z8aQ
+- **Duration:** 3 min
+- **Views:** 3,193
+- **Published:** 2025-06-04T13:01:22Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+Se liga só na saga dessa Consul Inverter 9000 BTUs. Ela chegou pra gente, o cliente estava relatando que o defeito era no moto ventilador da condensadora. Tava com comportamento estranho. Tem que finalizar o circuito que é esse conector branco aí, desses relés, ó, e o relé tava ruim. O importante é que esse ventilador da condensadora, a placa não lê a rotação dele. Então ele vai dar falha, mas o problema que vai ser identificado vai ser lá no sensor de temperatura, que não vai variar a temperatura corretamente. Nós realizamos a troca do relé e mesmo assim, ora acionava, hora não acionava. Aí nós verificamos o circuito e acionamento, esse circuitinho aí, ó, o transistor e o resistor. Trocamos o resistor, refizemos a trilha da base do transistor e o circuito do moto ventilador voltou a funcionar. E quando eu falo voltar a funcionar, quer dizer que o relé voltou a ser acionado e o motoventilador voltou a funcionar 100%. Então não era só o relé, mas também o circuito de acionamento do relé. Mas como a eletrônica tem suas caixinhas de surpresas, teve outro efeito que a placa apresentou também. Mas se eu te dizer qual é o outro defeito, esquece de dar o like nesse vídeo e me seguir para não perder mais nenhum vídeo como esse. O outro efeito que ela apresentou é que a fonte ficava morrendo e esse diodozinho aí, ó, ficava entrando em curto. Esse diodo é o diodo 15 V que fica lá de proteção na entrada do IPN. Ele ficava entrando em curto e a gente identificou porque ele tava entrando em curto por conta da tensão dele que tava ficando alta. Aí foi verificado o circuito da fonte. Vaií esses esses dois resistores foram trocados, esses dois resistores próximo desse regulador ajustável. Trocamos esses dois resistores e aí a tensão se regularizou e parou de queimar o de ouro. Então foi trocado dois resistores. Esses dois resistores fazem parte do circuito do regulador ajustável que regulou 3,3, que gera tensão também pro circuito de feedback. Por isso que estava alterando os níveis de tensões do secundário e queimando o diodo. E o diodo também dado 15 V. Ele parou de queimar. Depois nós regularizamos o nível de tensão que chegava nele. Ficava tensão um pouco acima nele e aí ele ficava queimando a todo momento e aí ficava dando falha na fonte, a fonte morria e chegava a dar erro de comunicação também por conta disso. Então é isso, circuito recuperado. Bom, os LEDs acenderam, compressor funcionando, o motor acionou, mandou tensão lá pro motor. No caso, como motor bel sente mais tensão, v tá chegando 220 direitinho. Máquina 100% funcionando. E você já pegou defeito em consul inverte? Deixe aqui nos comentários.

@@ -1,0 +1,14 @@
+# VOCÊ SABIA QUE DÁ PRA GANHAR DE 2 A 5K COM CONSERTO DE AR-CONDICIONADO? #AME
+
+- **Video ID:** -SR0rEE1P7k
+- **URL:** https://www.youtube.com/watch?v=-SR0rEE1P7k
+- **Duration:** 3 min
+- **Views:** 111
+- **Published:** 2022-02-27T15:00:01Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+e esse toda a placa tem 14 Por que que a maioria das pessoas condenam as placas muito boa por falta de conhecimento você não sabe que dá para mim falar placa você não sabe que tem como ir para lá você não conhece de reparo de placa você não tem noção que dá para falar você vai achar que intervalo é que não vale a pena achei descartável aí até você fala com o preço da placa Não repara porque não conhece a melhor pela polícia te acho que não tem que não conhece e reparo foi ser um pacto do Brasil tudo eu não alto aqui né fiquei sentado no vaso tudo e por que que eu recebi placa de outro estado muitas vezes não é porque lá não tem lá no galo no estado não tem reparo aí muitas vezes o cara que não é para ele não precisa região dele acontece comigo aqui agora ficar aqui vira mal muito de fazer esses não ele não levar uma parte pela lei que trabalha aqui já esteve várias vezes entendeu E olha que eu invisto em marketing de mágica que qualquer pessoa do segmento me empreste legal só que é muito grande são seis milhões de pessoas confortável Netflix não é todo conhecer você encontrar o tamanho dos números né E aí você passa o chato porque o carro não faz com a internet e manda mas não quer dizer dele porque ele morreu na rua nenhum da volta ali desvirar não bota uma foto lá no meio da rua então se poderá muita porta objeto falta de conhecimento infelizmente ela ficar sem desconto com a Romeo Lovato a nova uma extremamente e tá estudando não time dele e tal e apareceu para ele pegar ele ficou um recente é porque tava um começo o tempo eu também te recebo conversa que nos mesmos está aprendendo coisas novas que por vezes ele também destravar nosso grupo lá de alguns e ele falou que estava com certa pressa não sei não pegou ele tiver pronto disso é realmente com essa pressa nutriente aí você não vai receber uma pressão dessa do cliente eu não recebi o cartão da sua cliente pede vai vir há 3 dias 3 vezes presente o lançamento ou não começaram que era gastamos já temos uma certa combustíveis no mercado ainda mais eu fosse uma vaca lá no ele se eu entendi o lado dele né mas ele não pegou porque de receber então é um cara que já entendeu que esse mercado existe entendeu tá estudando para dormir nesse mercado Ah e ainda tem sua resistência ali máquina um cara que nem faz nem ideia que dá para reparar trocar a responder na máquina ideia porque não conhece a máquina o cara que não era macumbé ele festa número esta ele não tem nada Velho diga tecnologia tem nada nada ali aquela ação a documentação ele só é um repetidor escalador virou porta-lápis no local e só rodar liga na tomada entendeu galera Ó

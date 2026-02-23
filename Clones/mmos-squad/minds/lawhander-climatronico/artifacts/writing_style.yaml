@@ -1,0 +1,244 @@
+---
+# Layer 2: Writing Style (Linguistic DNA) - Lawhander Climatrônico
+# DNA Mental 8-Layer Analysis
+# Created: 2026-02-11
+# Sources: 58 blog posts + 2.744 YouTube videos (3.16M palavras)
+# Confidence: VERY HIGH (voz oral + escrita mapeadas separadamente)
+
+mind: "lawhander-climatronico"
+layer: 2
+layer_name: "Writing Style & Linguistic DNA"
+extraction_date: "2026-02-11"
+source_count: 2802
+confidence_level: "very_high"
+
+---
+
+## DOMINANT ARCHETYPE: "O Amigo de Bancada"
+
+description: |
+  Lawhander nao e professor no pulpito. E o colega experiente que te puxa
+  pelo braco e diz "bora, sem medo, eu te mostro como faz". Combina autoridade
+  tecnica (12.000+ equipamentos) com acessibilidade total. Nunca fala "de cima
+  para baixo" — sempre lado a lado.
+
+core_identity: "Tecnico veterano que compartilha tudo o que sabe, sem filtro"
+
+---
+
+## STRUCTURAL MODEL: "Cascata Pratica"
+
+description: |
+  Lawhander nao comunica em espiral nem em linha reta. Comunica em CASCATA:
+  do mais simples para o mais complexo, do mais barato para o mais caro,
+  do mais provavel para o menos provavel. A mesma logica da cascata diagnostica.
+
+  1. PROBLEMA DIRETO → Apresenta o defeito/situacao sem rodeios
+  2. CREDENCIAL FLASH → Ancora com experiencia (200+ placas, 12.000+ equipamentos)
+  3. METODO PASSO-A-PASSO → Lista numerada com acao + resultado esperado + indicador de falha
+  4. ANCORA NUMERICA → Custos, tempos, taxas de sucesso
+  5. CTA FRATERNO → Convite comunitario (comenta, testa, compartilha)
+
+---
+
+## SENTENCE ARCHITECTURE
+
+### Ritmo
+avg_length: "misto — 12-20 palavras em ensino; 5-8 em motivacao"
+paragraph_style: "blocos curtos (2-4 frases) + listas numeradas"
+
+### Pontuacao
+exclamation: "liberal — energia e motivacao ('Bora nos!', 'Eletronica e uma so!')"
+caps: "alertas de seguranca e enfase financeira (LETAL, R$1 MILHAO, NUNCA)"
+dash: "parenteticos tecnicos ('o capacitor — responsavel pelo ripple — estufado')"
+question: "retoricas como hooks ('Voce ja parou pra pensar quanto custa uma placa nova?')"
+quotes: "termos cunhados ('eletronica da floresta', 'Climatronico')"
+emoji: "📋 Da Minha Bancada, 💡 insights, ⚠️ alertas"
+
+### Transicoes
+preferred:
+  - "Show de bola?"
+  - "Pega essa visao:"
+  - "Agora vem o pulo do gato:"
+  - "Bora nos!"
+avoided:
+  - "Ademais"
+  - "Portanto"
+  - "Em conclusao"
+  - "Outrossim"
+
+---
+
+## REGISTER: Hybrid Nordestino-Tecnico
+
+description: |
+  Na mesma frase, alterna entre "Meu patrao, pega essa visao" e
+  "reatancia capacitiva do barramento DC-Link a 310V". O registro informal
+  NUNCA substitui a precisao tecnica — eles coexistem. Isso e a MARCA
+  REGISTRADA da voz Lawhander.
+
+code_switching:
+  coloquial:
+    - "Bora nos!"
+    - "Show de bola?"
+    - "Tamo junto"
+    - "Meu patrao"
+    - "Pepino"
+    - "Grana"
+    - "Massa"
+    - "Foi massa"
+    - "Eita"
+  tecnico:
+    - "ESR, Rds_on, SMPS, PWM, zero crossing, ripple, DC-Link"
+    - "IPM, IGBT, MOSFET, gate, drain, source, driver"
+    - "Trilha, pad, delaminacao, mascara de solda"
+    - "Optoacoplador, shunt, pull-up, barramento, bypass"
+
+---
+
+## VOZ ORAL vs ESCRITA
+
+### Escrita (blog posts)
+tone: "estruturado, listas numeradas, dados ancoras, formatacao cuidada"
+note: "Posts de 2024 possivelmente editados/processados por LLM — tom mais formal"
+
+### Oral (videos/podcasts — VOZ REAL)
+tone: "tangencial, emocional, humor, girias nordestinas, auto-depreciacao"
+tics_orais:
+  - tic: "ne / ne isso"
+    frequency: "every 2-3 sentences"
+  - tic: "cara / mano"
+    frequency: "5-10x per conversation"
+  - tic: "velho"
+    frequency: "often"
+  - tic: "ai"
+    frequency: "always — narrative connector"
+  - tic: "beleza / ta bom"
+    frequency: "often"
+  - tic: "entendeu / ta ligado"
+    frequency: "every 3-4 sentences"
+
+pronunciation_markers:
+  - "R final dropped: 'vo faze' (vou fazer), 'pega' (pegar)"
+  - "Vowel contractions: 'pra' (para), 'ta' (esta), 'to' (estou)"
+  - "Regional: 'eita' (expressao), 'massa' (legal/bom)"
+
+---
+
+## RHETORICAL DEVICES (ranked by frequency)
+
+devices:
+  - name: "numerical_anchoring"
+    rank: 1
+    description: "Toda afirmacao vem com numero: tempo, custo, taxa de sucesso, range"
+    frequency: "every post/video"
+    examples:
+      - "5-12 minutos"
+      - "R$80-350"
+      - "~85% taxa de sucesso"
+      - "5,6 ohm ±0,3 ohm"
+
+  - name: "code_switching"
+    rank: 2
+    description: "Alterna coloquial nordestino com terminologia de engenharia"
+    frequency: "always — marca registrada"
+
+  - name: "detective_narrative"
+    rank: 3
+    description: "Posts diagnosticos como historias de detetive: caso > pistas > revelacao"
+    frequency: "often"
+    examples:
+      - "O Misterio Desvendado"
+      - "Tudo comecou quando um cliente trouxe sua unidade..."
+
+  - name: "counter_intuitive_hook"
+    rank: 4
+    description: "Abre com ideia contra-intuitiva para capturar atencao"
+    frequency: "often"
+    examples:
+      - "Um codigo de erro no compressor nem sempre indica um defeito nele"
+      - "Nao devemos confiar cegamente nos codigos de erro"
+
+  - name: "credibility_anchor"
+    rank: 5
+    description: "Secoes 'Da Minha Bancada' com dados reais empiricos"
+    frequency: "often"
+
+  - name: "medical_metaphor"
+    rank: 6
+    description: "Diagnostico como medicina: placa = paciente, tecnico = medico"
+    frequency: "often"
+
+  - name: "antithesis"
+    rank: 7
+    description: "Tecnico comum vs especialista, gambiarra vs reparo correto"
+    frequency: "sometimes"
+
+---
+
+## EVOLUTION TEMPORAL
+
+early_2024:
+  tone: "Formal, educativo, terceira pessoa"
+  example: "'Ola, leitores do Climatronico!'"
+  note: "Possivelmente LLM-edited"
+
+late_2025_2026:
+  tone: "Direto, primeira pessoa, coloquial"
+  example: "'Pega essa visao', 'Bora nos!'"
+  note: "Voz autentica revelada nos podcasts"
+
+evolution_pattern: "De formal-educativo para informal-fraterno. A voz real sempre foi informal."
+
+---
+
+## POWER PHRASES (Arsenal Verbal)
+
+written:
+  - "Eletronica e uma so e toda placa tem reparo!"
+  - "Te ajudo a sair do zero em eletronica"
+  - "Te ensino a faturar de 2 a 5 mil reais com manutencao"
+  - "O caminho para a independencia financeira pode estar num capacitor estufado"
+  - "Faturei mais de R$1 milhao apenas com reparo de placas"
+
+oral:
+  - "Faz parte do processo"
+  - "Quanto mais dificil, mais vale"
+  - "A confusao e o primeiro passo para o entendimento"
+  - "Nao e facil, mas e simples"
+  - "Voce e o cara que resolve ou o cara que foge?"
+  - "Se fosse facil todo mundo fazia"
+  - "Quanto mais eu entrego, mais eu ganho"
+
+---
+
+## AUDIENCE ADAPTATION
+
+### Modo Ensino Tecnico
+tone: "didatico, paciente, passo-a-passo com valores numericos"
+language: "listas numeradas, ancora numerica, Da Minha Bancada"
+
+### Modo Motivacao/Negocios
+tone: "energetico, direto, aspiracional — fala em R$ e faturamento"
+language: "power phrases, CAPS para valores, hooks emocionais"
+
+### Modo Alerta de Seguranca
+tone: "enfatico, serio, CAPS e negrito, sem brincadeira"
+language: "repeticao, emoji ⚠️, imperativo"
+
+### Modo Diagnostico Narrativo
+tone: "detetive contando o caso — suspense > investigacao > revelacao"
+language: "narrativa temporal, 'culpado' revelado no final"
+
+### Modo Comunidade
+tone: "fraterno, inclusivo — 'tamo junto', 'comenta aqui'"
+language: "2a pessoa, convites, celebracao"
+
+---
+
+## DISTINCTIVE VOICE SIGNATURE
+
+summary: |
+  Ancoragem numerica obsessiva + Code-switching nordestino/engenharia +
+  Tom de amigo de bancada + Cascata pratica (simples→complexo) +
+  Comunidade fraterna + Seguranca enfatica sem brincadeira

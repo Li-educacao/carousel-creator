@@ -1,0 +1,14 @@
+# O que te aproxima dos 5k mensais ao se tornar climatrônico? #AME
+
+- **Video ID:** kysJ47uIPf0
+- **URL:** https://www.youtube.com/watch?v=kysJ47uIPf0
+- **Duration:** 4 min
+- **Views:** 381
+- **Published:** 2021-10-21T15:00:22Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+o único é o profissional tá formado pelo curso eletrônica para comunicação e se aprendeu com metodologia no segue a tecnologia eletrônica para climatização beleza é eu posso final que ele fazendo a analogia a comparação com o teu shampoo quente uma Parabéns de trocador de componente o clima crônico é o cara que ele não se contenta só com um reparo simples ar troquei aqui deu certo e não nos procurem Por que deu certo e reparo desse diamantes definitivamente esse não é ele não é bem simplória e matou o profissional formado pelo elétrica para que uma sensação de segue a metodologia que aprendeu com método que segue um método simples não é fácil mas é simples e prático é passado no eletrônica para finalizar mais profissional que é bem base no mercado Olá e bem pouco e porque preciso de um empenho nas dedicação se tornar um profissional e pode dessa eu vou usar uma palavra que é muito deturpada mas eu vou desligar pode dar minha média média aparentemente ano que vem divertiu tudo tem o mesmo mesmo segue da coisa então tá no mediano tá então fugir de si mesmo então mediando é o cara que não é para de placas aí eu consegui recorde de votos quando o cara consegue reparar das plantas vezes só um o bijuzinho foco visual de caseiro quase tirou a blog no YouTube e consegui reparar placa também é isso aí você vai para a placa Pois é o climatronic ele passa dessa minha repulsa passar essa menina e sintomatologia né só passar essa menina seguinte assim não porque tem que ter uma patologia vai colocar tempo eu estava melhor é um sérum bater médico não passo a passo em velho não é tranquilo para começa e quem não é o climatronic carinhosamente de trocador de componente porque carinhosamente o que lhe falta de cheque o trocador de componente é um estágio da formação e crônica sim para Rita quando o carro não é eu acho que aprender sem saber nada eu sinceramente como professor acho que é melhor mas careca entendendo alguma coisa sabendo identificar alguns concorrentes tá tendo pegar uns reparos tá esse cara quando ele colocava palha assim Acho que ele tropeçou colete e o cara não sabe explicar o porquê é eu enxergo que ficaram prontas concorrente tá então acho que vocês perguntaram porque ou acidente que eu trabalho com a gente pergunta para ele por que que trocou com ele o aqueles componentes eu ele quer esconder embasado tá com telefone tu tá no carro de se supor que você puder é esse esse esse esse Curta essa por esse defeito é e como esse coisas diferentes alguma coisa componente estava defeituoso aí eu esse cara aí ou e olhasse o controle de preto é legal né mas o geral tinham é o que mata no teu cara que é sido isolado né hoje trabalho como modelo

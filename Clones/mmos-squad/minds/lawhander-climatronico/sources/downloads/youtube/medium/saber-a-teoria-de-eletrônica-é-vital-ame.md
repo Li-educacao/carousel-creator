@@ -1,0 +1,14 @@
+# Saber a teoria de eletrônica é vital #AME
+
+- **Video ID:** H4nhW597J2I
+- **URL:** https://www.youtube.com/watch?v=H4nhW597J2I
+- **Duration:** 4 min
+- **Views:** 163
+- **Published:** 2020-10-29T15:00:08Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+e a teoria eu bato aqui na tecla da teoria você se sente só colocar na prática Vitorino presta teoria fundamental absorvente na o que estás a ficar separar aquilo tá porque se eu sei Teoricamente que não sei que você que tá aqui porque o circuito aberto meu bom traz aqui para mim ver melhor o simplificar aberto tem que se encontra aqui esse é um médico aqui para cá e tá dando um ponto 3 ou mais com ela não por três se me fizer que esse meu referencial aqui ó Tá mas 1,3 por que que que o que você quiser rosto E aí o bolso e lá na saída do chaveador do transformador da fonte chaveada tem muito outros lá e na saída de Ouro tem mais cinco vou tá eu vou lá pedir mais cinco pontos que é o que me parece. Aqui do resistor de boa' ett-15 loucos e disputa a em tudo aqui tá calhou Porque eles estão que não deveria ter a não com 3 para 5 volts da 3,6 né ele e três vocês aqui vai bater meu site dividir com esse esse eu quero deixar aqui também E aí tipo estranha porque a cor e a aí tu comprou tá escrito fácil problemas ter certeza aí vai sair jogando coisas pegar o link do valor que explica o valor não tá enrolando aí sim eu ele já é um referencial quem tem um DVD gravado em relação aqui que eu ouço e já agradecendo de batata e aí Pois eu vou seguir começam as baixo mas não quero ter certeza tá esqueça de se tu fez retira mesma estou aqui certo a gente não necessito aqui ó e aí eu sempre ficou assim como o saber que tinha lá tava assim com o rosto e usaram muito aqui por olho direito concordo aqui sai um pouco três e foi para escorrer para 5 rolos certo a gente retirou detestou a expulsa e depois que direitinho quando compositor aí atenção que cai de novo trazer o que que criar o resto da vida não não é o outro lado referencial o micro e com baixa impedância estava quantidade de fogo gender e tá usando um referencial muito de 16 anos tal vou dizer em todos os quatro sensores de ter essa quatro os quatro anos que eu tinha um por um e e voltando cinco gols em todos os quatro circuitos certo então hoje eu estou atenção voltava 15 minutos e 50 aí em privado restringir um risco tava bom aqui será que soltava alguns valor então os lados era o meio crime que eu tava matando atenção que vinha 25 most um vários curto É mas não baixa impedância que permitiu é de atenção aqui e aí o sensor ficava andando seu Direct tá da polpa do micro que lê o sensor de temperatura e como sensível com difícil identificar é esse defeito mas tipo bem simples que é o segundo tensor E aí o de fechar com ele teve aqui substituir que eu coloco ela passa voltou a funcionar

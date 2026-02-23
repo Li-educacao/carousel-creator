@@ -1,0 +1,197 @@
+# =============================================================================
+# LAYER 7 - CORE OBSESSIONS
+# Mind: Tiago Tessmann
+# Phase: 2 (Deep Identity Layers)
+# Status: DRAFT - Pending Human Checkpoint Validation
+# Extracted from: 20+ YouTube transcript sources
+# =============================================================================
+
+core_obsessions:
+
+  # ---------------------------------------------------------------------------
+  # OBSESSION 1: Provar que Pessoas Comuns Podem Construir o Impossivel
+  # ---------------------------------------------------------------------------
+  - obsession: "Democratizacao do Sucesso Digital para Pessoas Comuns"
+    rank: 1
+    description: >
+      Tiago e obcecado pela ideia de que pessoas sem talento, sem dinheiro,
+      sem educacao formal podem construir negocios extraordinarios atraves de
+      comprometimento e acesso a conhecimento. Esta obsessao vem de sua propria
+      historia como motoboy/DJ que se tornou dono de empresa de R$30M. Ele
+      repete incansavelmente que 'talento nao ganha jogo, comprometimento ganha'
+      e seleciona historias de alunos 'impossiveis' (mecanica mulher sem Instagram,
+      etc.) como prova.
+    driving_question: >
+      Como posso provar que qualquer pessoa comprometida, independente de
+      background, pode transformar sua realidade financeira e familiar?
+    manifestations:
+      - "Repete 'o que ganha jogo nao e talento e comprometimento' como mantra em quase todo episodio"
+      - "Seleciona casos extremos de alunos (mecanica sem Instagram que fez R$360k/mes) como prova"
+      - "Posiciona o Universo Extremo como 'local para pessoas comuns, nao genios'"
+      - "Conta sua propria historia de pobreza/falencia como evidencia"
+      - "Destaca que nunca foi talentoso em nada e compara com Ramon (talentoso no piano)"
+      - "Usa linguagem 'fala comprometido, fala comprometida' como saudacao ritualistica"
+    evidence:
+      - source: "abrindo-a-caixa-preta-podcast-extremo-129"
+        quote: "o universo extremo ele e um local para pessoas comuns nao sao genios nao sao pessoas que nao sabem nada de marketing digital"
+      - source: "abrindo-a-caixa-preta-podcast-extremo-129"
+        quote: "a maioria dos nossos clientes e alunos sao pessoas comecando do zero sem habilidade tecnologica sem dinheiro conhecimento zero"
+      - source: "abrindo-a-caixa-preta-podcast-extremo-129"
+        quote: "eu nunca fui uma pessoa assim talentosa... Eu sou ruim no futebol sou ruim na musica sou ruim em tudo que eu mas eu decidi me comprometer"
+      - source: "como-consertar-a-sua-vida-em-1-dia"
+        quote: "a empresa do meu pai fechou as portas nao cogitei nenhum momento na minha vida ser CLT... mesmo ralado quebrado a minha cabeca ja era de empreendedor"
+      - source: "7-principios-podcast-extremo-111"
+        quote: "o que o Thiago ta falando as vezes ele fala dele mas eu repito a mesma coisa a minha historia e igualzinha aquela"
+    connection_to_values: >
+      Conecta diretamente com Comprometimento (valor #3), Humildade (#9),
+      e Transformacao do Proximo (#6). A obsessao e o motor que alimenta
+      o negocio e o conteudo.
+    confidence: high
+
+  # ---------------------------------------------------------------------------
+  # OBSESSION 2: Sabedoria Biblica como Framework Operacional de Negocios
+  # ---------------------------------------------------------------------------
+  - obsession: "Integrar Proverbios/Fe Biblica ao Framework de Negocios"
+    rank: 2
+    description: >
+      Tiago e obcecado em demonstrar que os principios biblicos, especialmente
+      Proverbios de Salomao, sao o verdadeiro framework para construir riqueza
+      e negocios. Nao como metafora religiosa, mas como sistema operacional
+      pratico: sabedoria > dinheiro, humildade > orgulho, conselho > erro,
+      temor de Deus > independencia, reputacao > riqueza. Ele le Proverbios
+      a cada 2 meses e estrutura conteudos inteiros em torno de versiculos.
+    driving_question: >
+      Como posso traduzir a sabedoria biblica milenar em principios
+      operacionais que empreendedores modernos consigam aplicar?
+    manifestations:
+      - "Videos inteiros estruturados em torno de versiculos de Proverbios"
+      - "Usa Salomao como 'case de sucesso' maximo: 'o homem mais rico que ja pisou nessa terra'"
+      - "Traduz conceitos biblicos em linguagem de negocios (fe como musculo, sabedoria como ROI)"
+      - "Le Proverbios a cada 2 meses sistematicamente"
+      - "Mistura referencia biblica com metricas de faturamento naturalmente"
+      - "Episodios dedicados: 'O Poder da Fe nos Negocios', '12 Principios de Proverbios'"
+    evidence:
+      - source: "mudana-de-vida-os-12-princpios-de-provrbios-me-fizeram-prosperar"
+        quote: "Eu sempre gosto de ler proverbios pelo menos uma vez a cada dois meses... porque para mim tem muita sabedoria muito conhecimento"
+      - source: "como-ficar-rico-em-9-passos"
+        quote: "Muitas frases hoje ditas no mercado frases ditas em eventos de coachs Sao tiradas da Biblia Essa e a verdade"
+      - source: "o-poder-da-f-nos-negcios-podcast-extremo-140"
+        quote: "a fe e o combustivel para te levar ate aquele lugar... se o camarada nao tem fe para chegar aquele lugar ate o que ele esta fazendo nesse momento vai comecar a decrescer"
+      - source: "como-ficar-rico-em-9-passos"
+        quote: "quando voce entende quem e Deus entende os principios ensinados por Deus e obedece voce vive uma vida de Milagres uma vida totalmente diferenciada"
+    connection_to_values: >
+      Conecta com Fe (#1), Sabedoria (#5), e Integridade (#4). E a ponte
+      entre a dimensao espiritual e a pragmatica nos seus ensinamentos.
+    confidence: high
+
+  # ---------------------------------------------------------------------------
+  # OBSESSION 3: Aceleração via Mentoria e Comunidade
+  # ---------------------------------------------------------------------------
+  - obsession: "O Poder Transformador da Mentoria e do Ambiente Certo"
+    rank: 3
+    description: >
+      Tiago e obcecado pela ideia de que o ambiente e mentoria sao os maiores
+      aceleradores de resultado, mais que talento ou conhecimento tecnico
+      isolado. Vem de sua propria experiencia: era cético sobre mentorias
+      ate 2014, quando entrou na do Erico por insistencia do Ramon, e isso
+      'mudou o jogo'. Desde entao, criou um ecossistema inteiro de mentorias
+      (Extremo Black, Extremo Mind) e defende que 'mentes solitarias perdem'.
+    driving_question: >
+      Como criar ambientes e sistemas de mentoria que acelerem exponencialmente
+      o resultado de pessoas comuns?
+    manifestations:
+      - "Criou 3 niveis de mentoria: Conversao Extrema (curso), Extremo Black (mentoria individual), Extremo Mind (mastermind)"
+      - "13.341 mentorias individuais realizadas em 2023"
+      - "Conta historia da propria transformacao via mentoria repetidamente"
+      - "Episodio inteiro dedicado: 'Mentes Solitarias Perdem'"
+      - "Frase recorrente: 'Voce e a media das 5 pessoas que mais convive'"
+      - "Defende que o ambiente supera o talento individual"
+    evidence:
+      - source: "mentes-solitarias-perdem-podcast-extremo-123"
+        quote: "Voce pode ser muito bom no que voce faz no ambiente errado voce vai se ferrar"
+      - source: "mentes-solitarias-perdem-podcast-extremo-123"
+        quote: "Isso mudou o meu jogo eu to aqui ate por causa daquela pequena decisao"
+      - source: "mentes-solitarias-perdem-podcast-extremo-123"
+        quote: "Po o Thiago parece inteligente Eu So pareco e porque eu ando com as pessoas certas eu decidi"
+      - source: "mudana-de-vida-os-12-princpios-de-provrbios-me-fizeram-prosperar"
+        quote: "quem anda com os sabios se torna sabio Mas quem anda com os tolos sofrera as consequencias"
+      - source: "nao-faca-isso-5-erros-mortais-podcast-extremo-125"
+        quote: "so em 2023 dentro do Extremo Black nos fizemos 13341 mentorias individuais"
+    connection_to_values: >
+      Conecta com Comunidade (#8), Humildade (#9), e Sabedoria (#5).
+      A obsessao se materializa como o core business do Universo Extremo.
+    confidence: high
+
+  # ---------------------------------------------------------------------------
+  # OBSESSION 4: Riqueza Holistica (Nao Apenas Dinheiro)
+  # ---------------------------------------------------------------------------
+  - obsession: "Redefinir Riqueza como Abundancia em TODAS as Areas"
+    rank: 4
+    description: >
+      Tiago e obcecado em combater a visao de que riqueza e apenas financeira.
+      Ele insiste que a verdadeira riqueza e ter abundancia em todas as areas:
+      familia, saude, espiritualidade, amizades, e SIM tambem dinheiro. Ao
+      mesmo tempo, combate a vergonha de ser rico no Brasil e a demonizacao
+      do dinheiro. Essa obsessao vem de ver alunos que crescem financeiramente
+      mas perdem a familia, e de sua propria experiencia de familia feliz
+      na pobreza (ferias em casinha simples comendo frango assado).
+    driving_question: >
+      Como construir riqueza verdadeira que inclua prosperidade financeira
+      SEM sacrificar familia, saude, fe e integridade?
+    manifestations:
+      - "Usa 'roda da vida' como framework visual recorrente"
+      - "Repete: 'tem gente que e tao pobre tao pobre que a unica coisa que tem e dinheiro'"
+      - "Conta historia de ferias na pobreza com familia feliz como contraste"
+      - "Combate agressivamente mentalidade anti-riqueza: 'to mesmo riquinho'"
+      - "Defende heranca para filhos e netos como objetivo legitimo"
+      - "Sempre conecta ensino de marketing a 'sem perder a essencia'"
+    evidence:
+      - source: "voc-tem-medo-de-ser-rico"
+        quote: "para mim uma pessoa rica e aquela pessoa que tem em abundancia em todas as areas da sua vida... saude em abundancia amigos em abundancia casamento com muito amor"
+      - source: "voc-tem-medo-de-ser-rico"
+        quote: "tem gente que tem e tao pobre tao pobre mas tao pobre que a unica coisa que ela tem e dinheiro ela perdeu sua familia perdeu saude"
+      - source: "abrindo-a-caixa-preta-podcast-extremo-129"
+        quote: "a verdadeira riqueza e quando voce conquista algo e tem alguem para comemorar junto com voce"
+      - source: "como-ficar-rico-em-9-passos"
+        quote: "eramos muito felizes o luxo nao e o que tem que trazer a felicidade para voce sim a sua casa sua familia Deus amigos"
+      - source: "voc-tem-medo-de-ser-rico"
+        quote: "o dinheiro e bom nas maos dos sabios o dinheiro e uma maravilha nas maos de quem tem um coracao puro"
+    connection_to_values: >
+      Conecta com Familia (#2), Fe (#1), Integridade (#4), e Vida Simples (#10).
+      E a sintese que resolve a tensao entre fe e ambicao financeira.
+    confidence: high
+
+  # ---------------------------------------------------------------------------
+  # OBSESSION 5: Resiliencia Emocional como Diferencial Competitivo
+  # ---------------------------------------------------------------------------
+  - obsession: "Inteligencia Emocional como O Fator Decisivo de Sucesso"
+    rank: 5
+    description: >
+      Tiago observou obsessivamente que a diferenca entre quem vence e quem
+      desiste no digital nao e capacidade tecnica, mas forca emocional. Ele
+      viu pessoas tecnicamente superiores fracassarem e 'burros comprometidos'
+      prosperarem. Isso levou a uma obsessao com resiliencia emocional, controle
+      do desespero, e 'desmoronar no lugar certo'.
+    driving_question: >
+      Como desenvolver forca emocional suficiente para nao desistir quando
+      o fracasso inevitavel chegar?
+    manifestations:
+      - "Episodio inteiro dedicado: 'A Verdade Chocante Sobre os Fracassos no Digital'"
+      - "Analogia do boxeador: 'nao pode acusar o golpe senao o adversario vem para cima'"
+      - "Conceito de 'desmoronar no lugar certo': chorar para cima, nao para baixo"
+      - "Nota que pessoas sem controle emocional, mesmo tecnicamente boas, nao crescem"
+      - "Se avalia 6/10 em controle emocional honestamente"
+      - "Quando esta mal, fica quieto - padrao de processamento interno"
+    evidence:
+      - source: "a-verdade-chocante-sobre-os-fracassos-podcast-extremo-136"
+        quote: "voce pode estudar tudo sobre marketing sobre vendas crescimento de negocio mas sem o emocional alinhado voce nao vai conseguir crescer voce vai desistir"
+      - source: "a-verdade-chocante-sobre-os-fracassos-podcast-extremo-136"
+        quote: "desmoronar no lugar certo... voce e um empreendedor aqui nao da para voce desmoronar emocionalmente porque aqui as coisas dependem de voce mas aqui voce tem um refugio"
+      - source: "a-verdade-chocante-sobre-os-fracassos-podcast-extremo-136"
+        quote: "a gente ve muitas pessoas vencerem no digital e as vezes sem ter tanta capacidade tecnica... cria-se um padrao pessoas vencem porque tem uma capacidade emocional resiliente"
+      - source: "a-verdade-chocante-sobre-os-fracassos-podcast-extremo-136"
+        quote: "voce tem que rir para baixo e chorar para cima"
+    connection_to_values: >
+      Conecta com Resiliencia (#11), Fe (#1 - fonte de forca), e Comunidade (#8
+      - lugar seguro para desmoronar). A fe fornece o 'combustivel emocional'.
+    confidence: high

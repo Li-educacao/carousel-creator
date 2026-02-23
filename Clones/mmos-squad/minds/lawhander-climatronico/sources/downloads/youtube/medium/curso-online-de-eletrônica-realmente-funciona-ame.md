@@ -1,0 +1,14 @@
+# Curso online de eletrônica realmente funciona #AME
+
+- **Video ID:** oqNxOocig3Y
+- **URL:** https://www.youtube.com/watch?v=oqNxOocig3Y
+- **Duration:** 3 min
+- **Views:** 146
+- **Published:** 2021-11-22T15:00:23Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+a tirar um curso presencial eu vou fazer contigo cara não sei o que é o que eu vejo que ele enxerga nesse cara peguei um cara que ela passa em mim também perdendo anos de mercado com seu aniversário o cara fala comigo pegada compromisso aí há dois anos atrás e o cara perde esse tempo de mercado que dois vamos apanhar um bocado assim três anos trabalha no trabalho de Flávio cara pega essa planta de uma casa aí porque tem uma crença limitante pelo aprender online era tão novo não vai entrar no Paraguai eu tenho um Japão em todo o Brasil Eu só consigo isso porque tá online cursos eu sempre Fortaleza no Ceará não saiu com só de Fortaleza no Ceará eu não sei exatamente eu trabalho Além de estar aqui com vocês e tal é nosso trabalho assim a gente vê colocar também tem uma técnica gerenciar Então tem que para analisar a placa não é bancada tem que fazer para gerenciar eu não consigo tirar três meses do meu tempo ela tá focado noturno é isso esse tempo que eu precisaria promoção um treinamento completo a contar do zero que está louco moço não tava todas as informações que não tem precisa a tocar baixo uma coisa preciso para nos três meses cara intensivo mãe tarde uma escola Indaial E aí você passar um com três vezes não têm interesse tem o seu tempo a parada então é muito se ele não tá demais mas estou no período que nós não podemos nem se ver pessoalmente nos estados do Brasil estão Walk Down se eu passar dentro de casa a gente quer uma coisa presencial é tudo perto de acho que eu pensava parte da atenção enquanto a gente que Aproveita porque está em casa para adquirir o novo possam transforma o problema não pega um limão que a vida te deu e transformou em um lado gostosa para caramba porque porque acredita que não fica duvidando que foi online não dá certo é porque online ou presencial não pego na mão do aluno para fazer porque aparece o nome eu dava presencial e vou levar prática por exemplo que o laboratório deve sempre ficar ficar lá no fundão nas bancadas não tirando onda brincando eu dá vontade todos Entendeu Tá bom para adultos colocar aqui é o cara quer velho diferente de John ainda presencial não tem como carro não tem o carro não quer um um curso presencial que eu fiz foi na faculdade foram cinco anos e no outro mesma instituição passam o dia lá em um trabalho que time hoje eu não faço mas eu também tenho para tirar para fazer um presencial sós e esse foi um curto período da outra ele tava cheio de um curso eu tô fazendo você dormir meia-noite e professora está disponível para ver a noite passa a ser a qual o melhor horário

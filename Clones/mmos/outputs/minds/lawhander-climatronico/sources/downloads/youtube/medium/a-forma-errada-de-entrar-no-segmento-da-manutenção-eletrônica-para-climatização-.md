@@ -1,0 +1,14 @@
+# A FORMA ERRADA de entrar no segmento da manutenção eletrônica para CLIMATIZAÇÃO #AME
+
+- **Video ID:** sJG1UTmylOo
+- **URL:** https://www.youtube.com/watch?v=sJG1UTmylOo
+- **Duration:** 4 min
+- **Views:** 602
+- **Published:** 2021-08-17T15:00:34Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+e tem tem a forma errada querer trocar onde componente aquilo são carinhosamente chama o cara sendo chamado de componente aquele buscar só de cozinha só de cozinha e o pior que ela não tinha outro ataque mexida a gente diz fazer o serviço o cara fez lá cagada que ela fez e poça d'água a gente que depois desfaz-se o cara fez para depois só reparar o defeito de fato que eu quero a gostoso é o meu sangue é o sem método sem conhecimento nenhum quero deixar a placa porque acho que é só oclusivos eu acho que sou seu deixa o seu dá um sol e produzir terminou aí tem que trazer ainda bem que não sabe mexer É porque sempre conhecimento não tem como sempre não tem não tem tempo inscrever e aí o cara vai querer só tinha sobre isso agora um vídeo na internet da net e tem esse cara ficar só dentro de casa e repara está chegando noção de manuseio e pega você troca trocar o componente que eu gosto lá na aula e repara Ele acha que é o cara ele é fácil E aí vai querer entrar em casa vai ser difícil encontrar uma em ficar só com um só tocando componente vai ser difícil eu desconheço eu desconheço cara de criança parece mesmo nem de faturamento sem ter fundamento O Estado está sozinho que sem fundamento sem não entraram no carro não sabe tá fazendo é fácil saber espaço que mais saber se o cara sabe esta não É só perguntar com quem entrou qualquer um pouco nele aí a resposta ainda vai me dizer se ele sabe o que tá fazendo tempo só provocando certo Por que que foi está ligado não a chave a dor aqui o que foi não porque eu troquei deu certo ou é a famosa história da prática sem a teoria né que tem gente que tem a teoria e não tem a prática e tem gente que tem a prática e não tem a teoria EA gente já já viu é diversos casos de a gente sabe que isso não é eficiente né gente consegue ver que isso não é suficiente cara ele sabe utilizar as ferramentas têm os mesmos como é que utiliza as ferramentas E aí pega o visual de uma placa de um determinado e rolinho uma diquinha e me faz e resolveu ir aí eles ficam tipo ludibriado né Ficar acreditado que não agora eu sei trabalhar na sinta trabalhar com manutenção eletrônica tá no meu sangue eu sei fazer e às vezes a pessoa não sabe né sabe usar as ferramentas mas não tem a Teoria é a mesma coisa também de quem às vezes por exemplo é sai da faculdade lá na faculdade você aprende a teoria infelizmente a gente não atende não atende a praticamente

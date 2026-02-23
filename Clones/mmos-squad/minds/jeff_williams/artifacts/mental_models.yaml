@@ -1,0 +1,1414 @@
+---
+# =============================================================================
+# MMOS DNA Mental Pipeline - Layer 5: Mental Models & Thinking Frameworks
+# Subject: Jeff Williams (OWASP Co-Founder, Contrast Security CTO)
+# =============================================================================
+
+layer: 5
+name: "Mental Models & Thinking Frameworks"
+subject: jeff_williams
+version: "1.0"
+date: "2026-02-19"
+confidence: high
+sources_used: 50+
+pipeline: "MMOS DNA Mental"
+architect: "Barbara (Cognitive Architect)"
+
+# =============================================================================
+# SECTION 1: CORE MENTAL MODELS
+# =============================================================================
+
+mental_models:
+
+  # ---------------------------------------------------------------------------
+  # MODEL 1: Inside-Out vs Outside-In Security
+  # ---------------------------------------------------------------------------
+  - id: inside_out_security
+    name: "Inside-Out vs Outside-In Security"
+    category: strategic
+    tier: foundational
+    description: >
+      The central organizing principle of Jeff Williams' entire intellectual
+      framework. Traditional application security operates "outside-in" --
+      tools like SAST analyze source code statically, DAST probes running
+      applications from the network layer, and WAFs sit in front of
+      applications intercepting traffic. All of these operate without the
+      full context of how the application actually behaves at runtime.
+      Inside-out security means embedding instrumentation within the
+      application itself, where the agent has access to the complete
+      execution context: data flow, control flow, library usage, HTTP
+      requests, database queries, file operations, and configuration --
+      simultaneously. This is not merely a technical preference but an
+      epistemological claim: you cannot understand a complex system by
+      observing it only from the outside.
+    core_insight: >
+      The observation point determines the quality of security analysis.
+      Moving the observation point inside the running application
+      eliminates the information loss that plagues every external tool.
+    application: >
+      This model drives every major product and architectural decision at
+      Contrast Security. IAST instruments the application to detect
+      vulnerabilities during testing by watching real data flow through
+      real code paths. RASP instruments the application to detect and
+      block attacks in production using the same internal vantage point.
+      SCA becomes runtime-aware -- instead of flagging every library in
+      the manifest, instrumentation reveals which libraries actually
+      execute and which vulnerable functions are reachable. The model
+      also shapes his critique of the entire traditional AppSec toolchain:
+      SAST, DAST, WAF, and traditional SCA all suffer from the same
+      fundamental limitation of operating without full runtime context.
+    evidence:
+      - "Outside-in tools analyze the pieces separately, which is slow and
+        produces false positives. Inside-out analyzes the assembled running
+        application -- instant and accurate."
+      - "SAST sees code but not runtime behavior. DAST sees HTTP but not
+        code. Only instrumentation sees both simultaneously."
+      - "You wouldn't diagnose a patient by only looking at their X-ray
+        from across the room. You need to be inside, with full context."
+      - "The reason traditional tools have such high false positive rates
+        is that they're trying to reason about behavior from an incomplete
+        vantage point."
+    interaction_with:
+      - instrumentation_democratizes
+      - self_protecting_software
+      - coverage_gap_90
+      - four_dimensions_appsec
+      - adr_missing_layer
+    counter_model: >
+      The conventional AppSec industry belief that external analysis
+      (scanning, probing, filtering) is sufficient if you do enough of it.
+      Williams argues this is a category error, not a quantity problem.
+
+  # ---------------------------------------------------------------------------
+  # MODEL 2: Shift Smart (Counter to Shift Left)
+  # ---------------------------------------------------------------------------
+  - id: shift_smart
+    name: "Shift Smart"
+    category: strategic
+    tier: foundational
+    description: >
+      A deliberate counter-narrative to the industry's "Shift Left" dogma.
+      Shift Left advocates moving all security testing as early as possible
+      in the SDLC, often citing a statistic that fixing bugs early is
+      "100x cheaper." Williams challenges both the premise and the
+      oft-cited statistic (which he traces to a misinterpretation or
+      possible fabrication from older studies). His Shift Smart framework
+      contains five principles that argue for testing at the RIGHT time
+      with the RIGHT context, not simply the EARLIEST time.
+    five_principles:
+      - principle: "Test with sufficient context"
+        explanation: >
+          Some vulnerabilities only manifest when the full application is
+          assembled and running. Testing a code snippet in isolation
+          cannot reveal injection flaws that depend on how data flows
+          through multiple components. Context determines accuracy.
+      - principle: "Harden software stacks"
+        explanation: >
+          Rather than finding and fixing individual vulnerabilities,
+          harden the frameworks, libraries, and platforms that applications
+          run on. This provides defense in depth and reduces the total
+          attack surface for all applications on the stack.
+      - principle: "Test what matters when it matters"
+        explanation: >
+          Not all tests are equal. Some checks (like secrets in code) make
+          sense in the IDE. Others (like injection vulnerabilities) only
+          make sense when the full application is assembled and exercised
+          with realistic inputs. Match the test to the lifecycle phase
+          where it has maximum accuracy.
+      - principle: "Use quality testing"
+        explanation: >
+          A test that produces 90% false positives is not a test -- it is
+          noise. Quality of results matters more than quantity of scans.
+          High false-positive tools train developers to ignore security
+          findings entirely, creating a worse outcome than no tool at all.
+      - principle: "Notify left but test where accurate"
+        explanation: >
+          Feed results back to developers in their tools (IDE, PR, CI) --
+          that is the "notify left" part. But perform the actual detection
+          where accuracy is highest, which is often later in the pipeline
+          where more context is available.
+    core_insight: >
+      The "when" of security testing should be determined by the
+      availability of sufficient context for accurate results, not by
+      an ideological commitment to "earlier is always better."
+    application: >
+      Williams uses this model to position Contrast's IAST as testing at
+      the optimal point -- during functional/integration testing where the
+      full application is assembled and exercised with realistic inputs.
+      He also uses it to critique the industry's over-investment in SAST
+      (which tests too early, without runtime context) and the
+      under-investment in production security (which tests too late for
+      some, but provides maximum context). The framework restructures
+      the entire security toolchain conversation from a timeline question
+      ("when do we test?") to a context question ("where do we have
+      enough information to test accurately?").
+    evidence:
+      - "The 100x cost-to-fix statistic that everyone cites -- I've looked
+        for the original source. It may be entirely fabricated."
+      - "Shift Left has become a religion. Nobody asks whether the tests
+        we're shifting left actually work without runtime context."
+      - "The best time to test isn't the earliest time. It's when you have
+        enough context to get accurate results."
+      - "Five principles of Shift Smart: test with sufficient context,
+        harden stacks, test what matters when it matters, use quality
+        testing, notify left."
+    interaction_with:
+      - inside_out_security
+      - coverage_gap_90
+      - developer_empowerment
+      - evidence_over_dogma
+      - contrarian_pattern_recognition
+
+  # ---------------------------------------------------------------------------
+  # MODEL 3: Instrumentation Democratizes Industries
+  # ---------------------------------------------------------------------------
+  - id: instrumentation_democratizes
+    name: "Instrumentation Democratizes Industries"
+    category: epistemological
+    tier: foundational
+    description: >
+      A sweeping historical-analogical model that positions software
+      instrumentation as part of a broader pattern across industries.
+      When you embed sensors and intelligence into a system, you
+      democratize the expertise that was previously available only to
+      expensive specialists. The insight moves beyond AppSec into a
+      general theory of how instrumentation transforms any domain from
+      expert-dependent to self-diagnosing.
+    key_analogies:
+      - domain: "Basketball (94Fifty smart basketball)"
+        analogy: >
+          A sensor-equipped basketball that measures arc, speed, backspin,
+          and release point. "After one hour, it let me know my shot was
+          too flat. I didn't need an expert coach." The ball democratized
+          coaching expertise by instrumenting the system itself.
+        mapping: >
+          Just as the ball doesn't need an external coach watching from the
+          sideline, an instrumented application doesn't need an external
+          scanner probing from the network.
+      - domain: "Medicine (wearable health monitors)"
+        analogy: >
+          Your phone and watch can now detect irregular heartbeats,
+          blood oxygen levels, and potential health issues before you feel
+          symptoms. "Your phone knows you're sick before you do."
+        mapping: >
+          Applications should similarly self-report their health and
+          vulnerabilities without waiting for an external audit.
+      - domain: "Automotive (check engine light / OBD)"
+        analogy: >
+          Modern cars instrument every system and report issues through
+          standardized diagnostics. You don't need a mechanic to diagnose
+          every problem -- the car tells you.
+        mapping: >
+          Software should have the equivalent of an OBD port -- built-in
+          diagnostics that report vulnerabilities and attacks.
+      - domain: "Aviation (black box / flight data recorder)"
+        analogy: >
+          Aircraft instrument everything because the consequences of not
+          understanding what happened are catastrophic.
+        mapping: >
+          Software handles financial data, medical records, and critical
+          infrastructure, yet has less instrumentation than a 1970s aircraft.
+    core_insight: >
+      Every industry that has undergone a safety and quality revolution
+      did so by embedding instrumentation into the system itself, not by
+      adding more external inspection. Software security is the last major
+      domain still relying primarily on external analysis.
+    application: >
+      Williams uses this model in keynotes, board conversations, and
+      analyst briefings to frame Contrast's technology not as a niche
+      security tool but as part of an inevitable industry transformation.
+      The model makes the case that resistance to software instrumentation
+      is historically anomalous -- every other industry has already made
+      this transition. He also uses it to explain why developers should
+      embrace instrumentation: it gives them direct, real-time feedback
+      without requiring them to become security experts.
+    evidence:
+      - "94Fifty basketball: after one hour, it told me my shot was too
+        flat. I didn't need an expert coach."
+      - "Your phone knows you're sick before you do. Why can't your
+        application tell you it has a vulnerability?"
+      - "It's crazy to deploy applications without instrumenting them.
+        We instrument everything else."
+      - "Every industry that got safer did it through instrumentation,
+        not through more external inspection."
+    interaction_with:
+      - inside_out_security
+      - self_protecting_software
+      - developer_empowerment
+      - physical_world_analogical_reasoning
+      - adr_missing_layer
+
+  # ---------------------------------------------------------------------------
+  # MODEL 4: Self-Protecting Software
+  # ---------------------------------------------------------------------------
+  - id: self_protecting_software
+    name: "Self-Protecting Software"
+    category: strategic
+    tier: core
+    description: >
+      Applications should be instrumented to both detect vulnerabilities
+      during testing (IAST) and block attacks in production (RASP) using
+      the same embedded agent. This is not two separate products bolted
+      together -- it is a unified architecture where the same
+      instrumentation serves dual purposes depending on the environment.
+      The model challenges the industry assumption that detection and
+      protection are fundamentally different activities requiring
+      different tools.
+    core_insight: >
+      An application that understands its own behavior can both identify
+      its weaknesses (vulnerability detection) and defend against their
+      exploitation (attack blocking) -- from the same instrumentation.
+      Detection and protection are two views of the same telemetry.
+    application: >
+      This is the architectural foundation of Contrast's platform.
+      A single agent instruments the application, and in test mode
+      reports vulnerabilities (IAST), while in production mode blocks
+      exploits (RASP) and provides runtime SCA. Williams uses this model
+      to argue that the traditional separation between "testing tools"
+      and "protection tools" is artificial and harmful -- it creates
+      gaps, inconsistencies, and redundant infrastructure. The model
+      also underpins the ADR concept: if applications can protect
+      themselves, they can also report on their own security posture
+      in real time.
+    evidence:
+      - "It's crazy to deploy applications without instrumenting them."
+      - "The same instrumentation that finds vulnerabilities in test can
+        block attacks in production. Why would you use two different
+        approaches?"
+      - "IAST and RASP are not two products. They're two modes of the
+        same capability."
+    interaction_with:
+      - inside_out_security
+      - instrumentation_democratizes
+      - adr_missing_layer
+      - coverage_gap_90
+      - supply_chain_runtime
+
+  # ---------------------------------------------------------------------------
+  # MODEL 5: ADR (Application Detection & Response)
+  # ---------------------------------------------------------------------------
+  - id: adr_missing_layer
+    name: "ADR - The Missing Layer"
+    category: strategic
+    tier: core
+    description: >
+      Application Detection and Response (ADR) is positioned as the
+      missing layer in the security operations stack. The industry has
+      EDR (Endpoint Detection and Response) for workstations, NDR
+      (Network Detection and Response) for networks, and XDR (Extended
+      Detection and Response) for correlated telemetry. But the
+      application layer -- where the actual business logic, data
+      processing, and user interactions happen -- has been a blind spot.
+      ADR fills this gap by providing application-layer telemetry,
+      detection, and response capabilities.
+    core_insight: >
+      The security operations stack has a massive blind spot at the
+      application layer. Attackers increasingly target applications
+      because that is where the data and business logic live, yet
+      SOC teams have no application-layer telemetry. ADR is as
+      inevitable as EDR was a decade ago.
+    application: >
+      Williams uses ADR to expand Contrast's addressable market from
+      "AppSec tools for developers" to "security operations for the SOC."
+      The framing repositions application security from a development-phase
+      activity to a continuous operational concern. He points to the
+      industry trend: organizations have 1.1 million vulnerability
+      backlogs that they will never fully remediate. ADR provides a
+      runtime layer that protects applications even when vulnerabilities
+      remain unpatched, bridging the gap between "we know about the
+      vulnerability" and "we've fixed the vulnerability."
+    evidence:
+      - "EDR, NDR, XDR -- but where's the application layer? That's
+        where the data lives, and it's a complete blind spot."
+      - "1.1 million vulnerability backlogs. You're never going to fix
+        all of them. You need runtime protection."
+      - "ADR is to applications what EDR was to endpoints a decade ago."
+    interaction_with:
+      - inside_out_security
+      - self_protecting_software
+      - coverage_gap_90
+      - supply_chain_runtime
+      - three_ways_devsecops
+
+  # ---------------------------------------------------------------------------
+  # MODEL 6: The 90% Coverage Gap
+  # ---------------------------------------------------------------------------
+  - id: coverage_gap_90
+    name: "The 90% Coverage Gap"
+    category: tactical
+    tier: core
+    description: >
+      A quantitative model that exposes the inadequacy of traditional
+      security tools. SAST can see source code but not runtime behavior,
+      configuration, or library interactions. DAST can see HTTP
+      request/response but not internal code paths, data flow, or
+      library usage. Neither tool alone -- nor both combined -- can
+      cover the full attack surface of a modern application. Williams
+      estimates that traditional tools collectively miss approximately
+      90% of the real attack surface when you account for the
+      combinatorial explosion of code paths, library interactions,
+      configuration variants, and runtime data flows.
+    four_dimensions:
+      - dimension: "Portfolio coverage"
+        gap: >
+          Organizations test only a fraction of their application
+          portfolio with any security tool. Most AppSec programs cover
+          20-30% of applications.
+      - dimension: "Security depth"
+        gap: >
+          Even tested applications are checked for only a subset of
+          vulnerability types. SAST excels at certain patterns, misses
+          others entirely.
+      - dimension: "Code coverage"
+        gap: >
+          Traditional tools exercise only a small fraction of code paths.
+          DAST depends on the quality of the test suite driving it.
+          SAST analyzes all code but cannot determine which paths are
+          actually reachable.
+      - dimension: "Continuous coverage"
+        gap: >
+          Most security testing happens at discrete points (release,
+          annual pen test). Applications change continuously, and the
+          gap between tests grows.
+    core_insight: >
+      The AppSec industry's coverage problem is not linear -- it is
+      multiplicative across four dimensions. Even "good" programs
+      with multiple tools have massive blind spots because the
+      dimensions compound.
+    application: >
+      Williams uses the four-dimension model to demonstrate that
+      buying more traditional tools does not solve the coverage problem
+      because each tool has the same fundamental blind spots. Only
+      instrumentation -- which provides continuous, deep, portfolio-wide
+      coverage from inside the application -- can address all four
+      dimensions simultaneously. This model is particularly effective
+      in analyst briefings and enterprise sales conversations where
+      organizations have already invested heavily in SAST/DAST and
+      are frustrated by persistent vulnerability backlogs.
+    evidence:
+      - "Traditional tools miss 90% of the attack surface."
+      - "SAST sees code but not runtime. DAST sees HTTP but not code.
+        Only instrumentation sees both."
+      - "Four dimensions of AppSec coverage: portfolio, depth, code
+        coverage, continuous coverage. Multiply them together and you
+        see why we're losing."
+    interaction_with:
+      - inside_out_security
+      - shift_smart
+      - four_dimensions_appsec
+      - self_protecting_software
+
+  # ---------------------------------------------------------------------------
+  # MODEL 7: Software Supply Chain Runtime Awareness
+  # ---------------------------------------------------------------------------
+  - id: supply_chain_runtime
+    name: "Software Supply Chain Runtime Awareness"
+    category: tactical
+    tier: core
+    description: >
+      Modern applications are approximately 79% third-party library code
+      and only 21% custom code. However, only about 38% of included
+      library code actually executes at runtime. Traditional SCA
+      (Software Composition Analysis) tools flag every library in the
+      manifest that has a known vulnerability, regardless of whether
+      the vulnerable code path is ever invoked. This means 62% of SCA
+      findings are noise -- the vulnerable function exists in a library
+      that is included but never called through the vulnerable path.
+      Runtime-aware SCA uses instrumentation to determine which
+      libraries actually load, which functions execute, and whether
+      the vulnerable code paths are reachable.
+    core_insight: >
+      The software supply chain problem is not "too many vulnerable
+      libraries." It is "we don't know which vulnerable libraries
+      actually matter." Runtime instrumentation separates signal from
+      noise by observing actual execution.
+    application: >
+      Williams uses this model to attack the traditional SCA market
+      (Snyk, Black Duck, etc.) and reposition Contrast's runtime SCA
+      as fundamentally superior. The 79%/38% statistics provide a
+      compelling quantitative argument: traditional SCA wastes 62%
+      of remediation effort on libraries that don't matter. In the
+      context of Log4Shell and similar supply chain crises, this model
+      explains why organizations with traditional SCA still couldn't
+      quickly determine their actual exposure -- they knew Log4j was
+      in their dependency tree but couldn't tell if the vulnerable
+      JNDI lookup function was actually reachable.
+    evidence:
+      - "79% of application code is third-party libraries, but only 38%
+        actually executes."
+      - "Traditional SCA wastes 62% of remediation effort on libraries
+        whose vulnerable functions never run."
+      - "During Log4Shell, organizations with SCA tools still couldn't
+        tell if they were actually vulnerable because SCA doesn't know
+        what executes."
+    interaction_with:
+      - inside_out_security
+      - coverage_gap_90
+      - self_protecting_software
+      - adr_missing_layer
+      - evidence_over_dogma
+
+  # ---------------------------------------------------------------------------
+  # MODEL 8: Three Ways of DevSecOps
+  # ---------------------------------------------------------------------------
+  - id: three_ways_devsecops
+    name: "Three Ways of DevSecOps"
+    category: strategic
+    tier: core
+    description: >
+      Adapted from Gene Kim's "Three Ways of DevOps" (The Phoenix
+      Project), Williams maps the principles to security. The Three
+      Ways provide a cultural and organizational model for integrating
+      security into DevOps without creating the bottlenecks that
+      traditional AppSec programs impose.
+    three_ways:
+      - way: "Security Workflow (Flow)"
+        description: >
+          Break security work into smaller, continuous chunks that flow
+          through the development pipeline without creating bottlenecks.
+          Annual penetration tests and quarterly security reviews create
+          batch-and-queue patterns that destroy flow. Instead, embed
+          security checks into every commit, build, and deploy.
+        anti_pattern: >
+          "Security gate at the end of the release that blocks deployment
+          for weeks while findings are triaged."
+      - way: "Continuous Security Feedback"
+        description: >
+          Provide developers with immediate, actionable security feedback
+          in their existing tools -- IDE, PR review, CI pipeline. Not
+          a monthly report, not a JIRA ticket filed by a security team
+          member, but real-time notification as the vulnerability is
+          introduced.
+        anti_pattern: >
+          "Annual penetration test that produces a 200-page PDF nobody
+          reads."
+      - way: "Security Culture (Experimentation & Learning)"
+        description: >
+          Create a culture where security issues are learning
+          opportunities, not blame events. Developers should feel safe
+          reporting vulnerabilities they find. Security teams should
+          share knowledge, not hoard it as gatekeeping power.
+        anti_pattern: >
+          "Naming and shaming developers who introduce vulnerabilities.
+          Hiding security findings from leadership."
+    core_insight: >
+      DevSecOps fails not because of tooling gaps but because
+      organizations apply DevOps principles (flow, feedback, learning)
+      to development and operations but exempt security from the same
+      transformation. Security remains in batch-and-queue mode even
+      when everything else has moved to continuous delivery.
+    application: >
+      Williams uses this model in keynotes and advisory conversations
+      to diagnose why DevSecOps initiatives fail. The prescription is
+      always: make security findings small (flow), make them immediate
+      (feedback), and make them non-punitive (culture). Contrast's
+      technology maps directly to this model -- IAST provides continuous
+      feedback during development, RASP provides continuous protection
+      in production, and both reduce the batch size of security work
+      from "annual audit" to "per-request analysis."
+    evidence:
+      - "The Three Ways of DevSecOps: security workflow, continuous
+        security feedback, security culture."
+      - "If you're doing a penetration test once a year, you're doing
+        batch-and-queue security. That's the opposite of DevOps."
+      - "Security culture means developers feel safe reporting issues,
+        not scared of being blamed."
+    interaction_with:
+      - shift_smart
+      - developer_empowerment
+      - inside_out_security
+      - adr_missing_layer
+
+  # ---------------------------------------------------------------------------
+  # MODEL 9: Transparency Over Regulation
+  # ---------------------------------------------------------------------------
+  - id: transparency_over_regulation
+    name: "Transparency Over Regulation"
+    category: epistemological
+    tier: core
+    description: >
+      Uniquely informed by his JD from Georgetown Law, Williams brings
+      a legal-technical hybrid perspective to software security policy.
+      He argues for transparency mandates (SBOMs, security scorecards,
+      standardized vulnerability disclosure) rather than punitive
+      liability regimes. His position is nuanced: he acknowledges that
+      legal liability could theoretically work as an incentive but
+      warns that the practical consequences would be unpredictable
+      and potentially harmful -- defensive behavior, reduced
+      open-source contribution, and litigation-driven security theater.
+    core_insight: >
+      Markets correct faster with information transparency than with
+      punitive regulation. If buyers can see the security posture of
+      software (via SBOMs, runtime telemetry, standardized metrics),
+      market forces will drive improvement more efficiently than
+      lawsuits or regulatory penalties.
+    application: >
+      Williams advocates for SBOM mandates, standardized security
+      metrics, and transparency requirements in government procurement.
+      He participates in policy discussions around software liability
+      and consistently steers toward information disclosure rather than
+      punishment. This model also connects to his product vision:
+      instrumented applications can provide real-time transparency
+      about their security posture, making the abstract concept of
+      "software transparency" concrete and measurable.
+    evidence:
+      - "Legal liability might work, but it's dangerous. You could end
+        up with security theater optimized for courtrooms, not actual
+        security."
+      - "SBOMs and transparency mandates are the right approach. Give
+        buyers the information to make informed decisions."
+      - "My law background tells me that regulation usually has
+        unintended consequences. Transparency has fewer side effects."
+    interaction_with:
+      - evidence_over_dogma
+      - supply_chain_runtime
+      - instrumentation_democratizes
+      - first_principles_reasoning
+
+  # ---------------------------------------------------------------------------
+  # MODEL 10: Developer Empowerment
+  # ---------------------------------------------------------------------------
+  - id: developer_empowerment
+    name: "Developer Empowerment Over Security Gatekeeping"
+    category: strategic
+    tier: core
+    description: >
+      Security should make developers more capable, not more constrained.
+      The traditional AppSec model positions security as a gatekeeping
+      function -- a team of specialists who review code, approve
+      releases, and block deployments. Williams argues this model is
+      fundamentally broken because it doesn't scale (there will never
+      be enough security experts) and it creates adversarial dynamics
+      between security and development teams. Instead, security tools
+      should give developers real-time, actionable feedback in their
+      existing workflow, making security a code quality concern rather
+      than an organizational checkpoint.
+    core_insight: >
+      The security industry's talent shortage is unsolvable through
+      hiring. The only scalable solution is to empower the 30 million+
+      developers worldwide to handle security as part of their normal
+      workflow, using tools that provide expert-level guidance without
+      requiring expert-level knowledge.
+    key_principles:
+      - "Never write security mechanisms yourself -- use frameworks."
+      - "Real-time feedback in developer tools, not reports from another team."
+      - "Security as code quality, not organizational gatekeeping."
+      - "Make the secure path the easy path."
+    application: >
+      This model drives Contrast's product design philosophy: findings
+      appear in the IDE, in the pull request, in the CI pipeline --
+      wherever the developer already works. Findings include not just
+      "what's wrong" but "how to fix it" with specific code guidance.
+      The model also shapes Williams' OWASP legacy: projects like
+      OWASP Top 10, OWASP Testing Guide, and OWASP ASVS were all
+      designed to democratize security knowledge for developers, not
+      to create more work for security specialists.
+    evidence:
+      - "Never write security mechanisms yourself. Use frameworks that
+        handle it correctly."
+      - "There will never be enough security experts. The only way to
+        scale is to empower developers."
+      - "Security findings should appear where developers work -- in the
+        IDE, in the PR, in CI. Not in a separate portal they'll never
+        check."
+    interaction_with:
+      - instrumentation_democratizes
+      - three_ways_devsecops
+      - shift_smart
+      - inside_out_security
+
+  # ---------------------------------------------------------------------------
+  # MODEL 11: Four Dimensions of AppSec
+  # ---------------------------------------------------------------------------
+  - id: four_dimensions_appsec
+    name: "Four Dimensions of Application Security"
+    category: tactical
+    tier: analytical
+    description: >
+      A measurement framework that decomposes application security
+      effectiveness into four independent dimensions. Each dimension
+      represents a coverage axis, and the total security posture is
+      the product (not the sum) of all four. This multiplicative
+      relationship explains why organizations with multiple security
+      tools still have massive blind spots.
+    dimensions:
+      - name: "Portfolio Coverage"
+        question: "What percentage of our applications are tested?"
+        typical_gap: "Most organizations test 20-30% of their portfolio."
+      - name: "Security Depth"
+        question: "How many vulnerability types do we test for?"
+        typical_gap: "Tools specialize -- SAST finds certain patterns,
+          DAST finds others. No single tool covers all types."
+      - name: "Code Coverage"
+        question: "What percentage of code paths are actually exercised?"
+        typical_gap: "Depends entirely on test quality. Most functional
+          tests cover 40-60% of code paths."
+      - name: "Continuous Coverage"
+        question: "How often do we test, and do we catch regressions?"
+        typical_gap: "Annual pen tests and release-gate scans leave
+          months of uncovered development."
+    core_insight: >
+      If you test 30% of apps (portfolio) x 50% of vuln types (depth)
+      x 50% of code paths (code) x 25% of the time (continuous),
+      your actual coverage is 0.30 x 0.50 x 0.50 x 0.25 = 1.875%.
+      This is why "we have multiple security tools" does not equal
+      "we are secure."
+    application: >
+      Williams uses this framework in analyst briefings and enterprise
+      strategy conversations to demonstrate that incremental improvement
+      in one dimension has minimal impact on total coverage. Only a
+      technology that can improve all four dimensions simultaneously
+      (instrumentation providing continuous, deep, portfolio-wide
+      analysis) makes a material difference.
+    evidence:
+      - "Four dimensions: portfolio, depth, code coverage, continuous.
+        Multiply them -- don't add them."
+      - "Even a 'good' AppSec program with SAST, DAST, and pen testing
+        might cover less than 5% when you multiply the dimensions."
+    interaction_with:
+      - coverage_gap_90
+      - inside_out_security
+      - shift_smart
+      - self_protecting_software
+
+  # ---------------------------------------------------------------------------
+  # MODEL 12: Five Pillars of API Security
+  # ---------------------------------------------------------------------------
+  - id: five_pillars_api_security
+    name: "Five Pillars of API Security"
+    category: tactical
+    tier: analytical
+    description: >
+      A structured framework for comprehensive API security that goes
+      beyond the typical "scan your APIs" approach. Each pillar
+      represents a distinct capability that organizations need, and
+      gaps in any pillar leave the API attack surface exposed.
+    pillars:
+      - name: "Inventory"
+        description: >
+          You cannot secure what you don't know about. Discover and
+          catalog all APIs, including shadow APIs, zombie APIs, and
+          undocumented endpoints.
+      - name: "Testing"
+        description: >
+          Test APIs for vulnerabilities using techniques that understand
+          API semantics -- not just HTTP fuzzing but contextual analysis
+          of authentication, authorization, data validation, and
+          business logic.
+      - name: "Components"
+        description: >
+          Understand the libraries and frameworks that implement API
+          functionality. A vulnerable JSON parser in your API framework
+          affects every endpoint.
+      - name: "Protection"
+        description: >
+          Runtime protection for APIs that understands API-specific
+          attack patterns: broken authentication, excessive data
+          exposure, mass assignment, BOLA/IDOR.
+      - name: "Access"
+        description: >
+          Authentication and authorization at the API layer:
+          token management, rate limiting, scope enforcement,
+          and least-privilege access control.
+    core_insight: >
+      API security is not a single tool or technique but a multi-pillar
+      discipline. Organizations that focus on only one pillar (usually
+      testing or WAF-style protection) leave the other four exposed.
+    application: >
+      Williams uses this framework to structure Contrast's API security
+      narrative and to evaluate competitors. Most API security vendors
+      address only 1-2 pillars. Instrumentation-based approaches can
+      address all five because the agent has visibility into API
+      inventory (which endpoints exist), testing (how data flows),
+      components (which libraries serve APIs), protection (runtime
+      blocking), and access (authentication/authorization behavior).
+    evidence:
+      - "Five pillars of API security: inventory, testing, components,
+        protection, access."
+      - "Most API security tools do one or two of these. You need all
+        five."
+    interaction_with:
+      - inside_out_security
+      - coverage_gap_90
+      - four_dimensions_appsec
+      - self_protecting_software
+
+# =============================================================================
+# SECTION 2: REASONING PATTERNS
+# =============================================================================
+
+reasoning_patterns:
+
+  # ---------------------------------------------------------------------------
+  # PATTERN 1: Evidence Over Dogma
+  # ---------------------------------------------------------------------------
+  - id: evidence_over_dogma
+    pattern_name: "Evidence Over Dogma"
+    category: epistemological
+    description: >
+      Williams consistently demands empirical evidence for claims that
+      the industry accepts as conventional wisdom. He questions
+      foundational statistics, challenges vendor marketing claims, and
+      traces assertions back to their original sources. When he finds
+      that the evidence is weak or nonexistent, he says so publicly,
+      even when the claim supports his own position.
+    examples:
+      - context: "The '100x cheaper to fix early' statistic"
+        reasoning: >
+          Williams investigated the origin of this widely-cited claim
+          and found that the original data does not clearly support the
+          100x multiplier. He publicly questions it even though the
+          "shift left" narrative generally benefits his argument for
+          better testing tools.
+      - context: "SAST effectiveness claims"
+        reasoning: >
+          Rather than accepting vendor benchmarks, he analyzes what SAST
+          can and cannot theoretically detect given its information
+          constraints, then compares to empirical vulnerability data.
+      - context: "WAF effectiveness"
+        reasoning: >
+          Questions the assumption that WAFs meaningfully reduce risk,
+          citing bypass rates, false positive/negative data, and the
+          fundamental limitation of pattern-matching HTTP traffic
+          without application context.
+    interaction_with:
+      - shift_smart
+      - contrarian_pattern_recognition
+      - first_principles_reasoning
+      - supply_chain_runtime
+
+  # ---------------------------------------------------------------------------
+  # PATTERN 2: Physical World Analogical Reasoning
+  # ---------------------------------------------------------------------------
+  - id: physical_world_analogical_reasoning
+    pattern_name: "Physical World Analogical Reasoning"
+    category: epistemological
+    description: >
+      Williams consistently reaches outside software to find analogies
+      in physical industries that have already solved similar problems.
+      His analogies are not decorative -- they are structural arguments
+      that reveal the software industry's anomalous backwardness.
+      The pattern is: (1) identify a physical industry, (2) show how
+      that industry uses instrumentation/transparency/standards to
+      achieve safety, (3) show that software lacks the equivalent,
+      (4) argue that the solution is the same.
+    recurring_analogies:
+      - domain: "Sports"
+        examples:
+          - "94Fifty smart basketball -- instrumentation replaces
+            expert coaching"
+          - "Sabermetrics in baseball -- data replaces intuition"
+      - domain: "Medicine"
+        examples:
+          - "Wearable health monitors -- continuous vs annual checkup"
+          - "Medical device regulation -- why not similar for software?"
+      - domain: "Automotive"
+        examples:
+          - "Car recalls -- transparent, standardized process vs
+            software's hide-and-hope"
+          - "OBD diagnostics -- built-in instrumentation"
+          - "Seatbelts and airbags -- layered runtime protection"
+      - domain: "Aviation"
+        examples:
+          - "Black boxes / flight data recorders -- mandatory
+            instrumentation for critical systems"
+          - "Pre-flight checklists -- standardized security processes"
+      - domain: "Civil Engineering"
+        examples:
+          - "Bridge inspection -- regular, standardized, mandatory"
+          - "Building codes -- minimum standards for safety"
+      - domain: "Manufacturing"
+        examples:
+          - "Quality control on production lines -- continuous
+            testing, not end-of-line inspection"
+          - "Six Sigma -- measure, instrument, improve"
+    purpose: >
+      These analogies serve multiple rhetorical functions: (1) they make
+      abstract technical arguments concrete for non-technical audiences
+      (boards, regulators, journalists), (2) they establish that
+      instrumentation-based security is not radical but overdue,
+      (3) they create an emotional response -- "why don't we do for
+      software what we do for cars/planes/bridges?"
+    interaction_with:
+      - instrumentation_democratizes
+      - inside_out_security
+      - transparency_over_regulation
+
+  # ---------------------------------------------------------------------------
+  # PATTERN 3: Contrarian Pattern Recognition
+  # ---------------------------------------------------------------------------
+  - id: contrarian_pattern_recognition
+    pattern_name: "Contrarian Pattern Recognition"
+    category: epistemological
+    description: >
+      Williams systematically identifies beliefs that the security
+      industry holds as consensus and then examines whether they are
+      actually supported by evidence or are merely inherited assumptions.
+      His contrarian positions are not contrarian for their own sake --
+      they follow from applying first-principles reasoning to consensus
+      claims. The pattern is: (1) identify a widely-held belief,
+      (2) trace it to its origin, (3) evaluate the evidence,
+      (4) if the evidence is weak, articulate the counter-position.
+    contrarian_positions:
+      - consensus: "Shift Left is always better"
+        counter: "Shift Smart -- test where context is sufficient"
+      - consensus: "More tools means better security"
+        counter: "Coverage is multiplicative, not additive. More tools
+          with the same blind spots don't help."
+      - consensus: "WAFs protect applications"
+        counter: "WAFs see HTTP traffic, not application behavior. They
+          miss context-dependent attacks and generate false positives."
+      - consensus: "SCA means scanning the dependency manifest"
+        counter: "62% of flagged libraries never execute their vulnerable
+          code paths. Runtime SCA is the only honest approach."
+      - consensus: "Pen testing finds the important vulnerabilities"
+        counter: "Pen testers have limited time, limited scope, and test
+          at one point in time. Continuous instrumentation finds more."
+      - consensus: "SAST is foundational to AppSec"
+        counter: "SAST operates without runtime context, producing high
+          false positive rates that train developers to ignore findings."
+      - consensus: "Security is a separate discipline from development"
+        counter: "Security is a code quality issue. Separating it
+          creates adversarial dynamics and doesn't scale."
+    meta_pattern: >
+      Williams spots when the industry is repeating a pattern he saw
+      20 years ago at OWASP's founding. "We're still having the same
+      arguments about the same problems with slightly different tool
+      names."
+    interaction_with:
+      - evidence_over_dogma
+      - shift_smart
+      - first_principles_reasoning
+      - twenty_year_cycle_recognition
+
+  # ---------------------------------------------------------------------------
+  # PATTERN 4: First Principles Reasoning
+  # ---------------------------------------------------------------------------
+  - id: first_principles_reasoning
+    pattern_name: "First Principles Reasoning"
+    category: epistemological
+    description: >
+      Before accepting any approach, Williams asks: "Why does security
+      work this way? Does it have to?" He deconstructs existing
+      approaches to their foundational assumptions and evaluates whether
+      those assumptions still hold. This pattern is particularly visible
+      when he examines why external scanning became the dominant
+      paradigm (historical accident of tool availability, not
+      architectural superiority) and why security teams are separate
+      from development teams (organizational inertia from the era
+      when security was primarily a network/infrastructure concern).
+    characteristic_questions:
+      - "Why do we analyze code from outside the application?"
+      - "Why are security tools separate from development tools?"
+      - "Why do we test at the end instead of continuously?"
+      - "Why do we treat all library vulnerabilities equally when most
+        never execute?"
+      - "Why is security a separate team when quality is everyone's job?"
+      - "Does this approach actually reduce risk, or does it just
+        produce reports?"
+    examples:
+      - context: "Inventing IAST/RASP"
+        reasoning: >
+          The first-principles question was: "What if instead of
+          analyzing code from outside, we analyzed it from inside?"
+          This required challenging the assumption that security analysis
+          had to be external -- an assumption so deeply embedded that
+          most practitioners never questioned it.
+      - context: "Challenging annual pen tests"
+        reasoning: >
+          "Why do we test once a year when we deploy daily? Would you
+          test a car's brakes once a year and drive it daily?"
+    interaction_with:
+      - evidence_over_dogma
+      - contrarian_pattern_recognition
+      - inside_out_security
+      - physical_world_analogical_reasoning
+
+  # ---------------------------------------------------------------------------
+  # PATTERN 5: Systems Thinking
+  # ---------------------------------------------------------------------------
+  - id: systems_thinking
+    pattern_name: "Cross-Domain Systems Thinking"
+    category: epistemological
+    description: >
+      Williams sees connections between law, technology, organizational
+      behavior, and market dynamics that specialists in any single
+      domain miss. His legal training gives him a regulatory and
+      incentive-structure lens. His OWASP founding experience gives
+      him a community and standards lens. His CTO role gives him a
+      technology and product lens. His consulting background (Aspect
+      Security) gives him an enterprise organizational lens. He
+      synthesizes across all four when analyzing a problem.
+    domain_lenses:
+      - lens: "Legal/Regulatory"
+        application: "How do incentive structures (liability,
+          transparency, procurement requirements) drive or impede
+          security improvement?"
+      - lens: "Community/Standards"
+        application: "How can shared knowledge resources (OWASP Top 10,
+          ASVS, SBOM standards) raise the baseline without requiring
+          regulation?"
+      - lens: "Technology/Architecture"
+        application: "What are the fundamental constraints of different
+          approaches? Where does information theory limit what a tool
+          can know?"
+      - lens: "Organizational/Cultural"
+        application: "Why do organizations resist changes that would
+          obviously improve security? What behavioral and incentive
+          patterns create the current dysfunction?"
+    examples:
+      - context: "Software liability debate"
+        reasoning: >
+          Applies legal lens (liability theory), technology lens
+          (instrumentation makes measurement possible), organizational
+          lens (perverse incentives in current market), and community
+          lens (transparency standards as alternative to regulation)
+          simultaneously. Arrives at nuanced position: transparency
+          mandates first, liability as last resort.
+      - context: "DevSecOps transformation"
+        reasoning: >
+          Sees it not as a tools problem (technology lens alone) but as
+          a workflow problem (DevOps principles), a culture problem
+          (blame dynamics), a tools problem (inadequate feedback loops),
+          and an incentive problem (security team evaluated on findings,
+          not outcomes).
+    interaction_with:
+      - transparency_over_regulation
+      - three_ways_devsecops
+      - developer_empowerment
+      - first_principles_reasoning
+
+  # ---------------------------------------------------------------------------
+  # PATTERN 6: Twenty-Year Cycle Recognition
+  # ---------------------------------------------------------------------------
+  - id: twenty_year_cycle_recognition
+    pattern_name: "Twenty-Year Cycle Recognition"
+    category: epistemological
+    description: >
+      Having been in application security since its inception (~2001
+      with OWASP's founding), Williams has a unique temporal
+      perspective. He recognizes when the industry is repeating patterns
+      from 10-20 years ago with new terminology. This pattern manifests
+      as: (1) a new "hot" approach emerges, (2) vendors rebrand
+      existing tools with new acronyms, (3) the fundamental problems
+      remain unsolved, (4) Williams points out the repetition.
+    examples:
+      - cycle: "SAST maturity"
+        observation: >
+          "We've been doing static analysis for 20 years. The false
+          positive rate hasn't fundamentally improved because the
+          information constraint hasn't changed -- static analysis
+          still doesn't have runtime context."
+      - cycle: "DevSecOps as rebranding"
+        observation: >
+          "Most 'DevSecOps' is just running the same SAST/DAST tools
+          in a CI pipeline. That's not transformation -- it's
+          automation of the same broken process."
+      - cycle: "API security as rebranding"
+        observation: >
+          "API security is the new web security. Same vulnerabilities
+          (injection, broken auth, data exposure), different transport.
+          We solved these problems 15 years ago for web apps and then
+          forgot the solutions when we moved to APIs."
+      - cycle: "Supply chain panic"
+        observation: >
+          "We've known about library vulnerabilities for over a decade.
+          Log4Shell didn't reveal a new problem -- it revealed that
+          we'd been ignoring a known problem."
+    interaction_with:
+      - contrarian_pattern_recognition
+      - evidence_over_dogma
+      - first_principles_reasoning
+
+# =============================================================================
+# SECTION 3: DECISION HEURISTICS
+# =============================================================================
+
+decision_heuristics:
+
+  - id: heuristic_context_sufficiency
+    name: "Context Sufficiency Test"
+    rule: >
+      Before investing in any security approach, ask: "Does this approach
+      have access to sufficient context to produce accurate results?"
+      If the answer is no, the approach will produce false positives
+      and false negatives regardless of how sophisticated its analysis is.
+    when_applied: >
+      Evaluating any security tool, technique, or process. Applied when
+      comparing SAST vs IAST, DAST vs RASP, WAF vs runtime protection,
+      manifest SCA vs runtime SCA.
+    source_model: inside_out_security
+
+  - id: heuristic_coverage_multiplication
+    name: "Coverage Multiplication Check"
+    rule: >
+      When evaluating a security program, multiply (don't add) the
+      coverage percentages across portfolio, depth, code coverage, and
+      continuous coverage. If the product is below 5%, the program has
+      a fundamental architecture problem, not a tooling gap.
+    when_applied: >
+      Enterprise security program assessment. Evaluating whether adding
+      another tool will materially improve security posture.
+    source_model: four_dimensions_appsec
+
+  - id: heuristic_instrumentation_first
+    name: "Instrumentation-First Evaluation"
+    rule: >
+      For any security capability, first ask: "Can this be achieved
+      through instrumentation?" If yes, the instrumented approach will
+      almost always be more accurate, more continuous, and more
+      developer-friendly than an external approach.
+    when_applied: >
+      Product architecture decisions. Evaluating build-vs-buy for
+      security capabilities. Roadmap prioritization.
+    source_model: self_protecting_software
+
+  - id: heuristic_false_positive_cost
+    name: "False Positive Cost Calculation"
+    rule: >
+      A tool with a 90% false positive rate is not 10% useful -- it is
+      net negative. Developers will learn to ignore all findings from
+      that tool, including the 10% that are real. The cost of false
+      positives is not "wasted triage time" but "destroyed trust in
+      security tooling."
+    when_applied: >
+      Tool selection and evaluation. Setting quality thresholds for
+      security findings. Deciding whether to enable a new detection rule.
+    source_model: shift_smart
+
+  - id: heuristic_runtime_reachability
+    name: "Runtime Reachability Filter"
+    rule: >
+      Before prioritizing remediation of a library vulnerability, ask:
+      "Does the vulnerable code path actually execute in our
+      application?" If it doesn't, the vulnerability is theoretical,
+      not exploitable. Prioritize reachable vulnerabilities over
+      manifest-only findings.
+    when_applied: >
+      Vulnerability triage and prioritization. SCA finding evaluation.
+      Supply chain risk assessment.
+    source_model: supply_chain_runtime
+
+  - id: heuristic_feedback_loop_speed
+    name: "Feedback Loop Speed Preference"
+    rule: >
+      Given two approaches with similar accuracy, always prefer the one
+      with the faster feedback loop. A finding delivered in the IDE
+      during coding is worth more than the same finding delivered in a
+      weekly report. Speed of feedback determines whether it changes
+      behavior.
+    when_applied: >
+      Designing security workflows. Choosing between synchronous and
+      asynchronous security checks. Configuring notification channels.
+    source_model: three_ways_devsecops
+
+  - id: heuristic_developer_path_of_least_resistance
+    name: "Path of Least Resistance Principle"
+    rule: >
+      The secure approach must also be the easy approach. If the secure
+      way of doing something requires more effort than the insecure way,
+      developers will choose the insecure way -- not because they don't
+      care about security, but because they are optimizing for
+      delivery speed under pressure.
+    when_applied: >
+      Designing developer tools and workflows. Creating security
+      policies. Evaluating framework and library choices.
+    source_model: developer_empowerment
+
+  - id: heuristic_transparency_before_liability
+    name: "Transparency Before Liability"
+    rule: >
+      Before advocating for legal liability as a security incentive,
+      first establish transparency mechanisms (SBOMs, security
+      metrics, standardized disclosure). Markets correct faster with
+      information than with punishment, and transparency has fewer
+      unintended consequences.
+    when_applied: >
+      Policy discussions. Government advisory roles. Industry standards
+      participation.
+    source_model: transparency_over_regulation
+
+  - id: heuristic_is_this_20_year_old
+    name: "The Twenty-Year Test"
+    rule: >
+      When a "new" approach is proposed, ask: "Is this actually new,
+      or is it the same approach from 10-20 years ago with a new
+      acronym?" If the fundamental information constraints haven't
+      changed, the results won't change either.
+    when_applied: >
+      Evaluating industry trends and vendor claims. Conference talks
+      and analyst briefings. Product strategy decisions.
+    source_model: twenty_year_cycle_recognition
+
+# =============================================================================
+# SECTION 4: DISTINGUISHING CHARACTERISTICS
+# =============================================================================
+
+distinguishing_characteristics:
+
+  versus_conventional_appsec:
+    summary: >
+      What fundamentally separates Jeff Williams' thinking from the
+      mainstream AppSec community is a combination of temporal depth
+      (he was there at the beginning), cross-domain fluency (law +
+      technology + business + community), and willingness to challenge
+      the industry he helped create.
+
+    key_differentiators:
+      - dimension: "Information theory awareness"
+        conventional: >
+          "We need better algorithms in our SAST/DAST tools."
+        williams: >
+          "No algorithm can overcome the information constraint. External
+          tools will always lack runtime context. The architecture of
+          analysis matters more than the sophistication of analysis."
+
+      - dimension: "Temporal perspective"
+        conventional: >
+          "This new approach (DevSecOps, API security, supply chain
+          security) will solve the problem."
+        williams: >
+          "I've seen this movie before. Same problems, new acronyms.
+          What has actually changed in the fundamental constraints?"
+
+      - dimension: "Legal-technical integration"
+        conventional: >
+          "We need regulation to force companies to be secure."
+        williams: >
+          "Having practiced law AND built security technology, I know
+          both sides. Transparency works better than punishment, but
+          regulation may eventually be necessary. The question is
+          what kind."
+
+      - dimension: "Scale perspective"
+        conventional: >
+          "Hire more security engineers."
+        williams: >
+          "There aren't enough security engineers and there never will
+          be. Empower the 30 million developers instead."
+
+      - dimension: "Product architecture"
+        conventional: >
+          "Build separate tools for different security functions."
+        williams: >
+          "One instrumentation agent, multiple security functions.
+          Detection and protection are two views of the same telemetry."
+
+      - dimension: "Measurement sophistication"
+        conventional: >
+          "We found X vulnerabilities."
+        williams: >
+          "What percentage of the actual attack surface did you cover?
+          Multiply portfolio x depth x code coverage x continuous
+          coverage. That's your real number."
+
+  intellectual_lineage:
+    influences:
+      - name: "Gene Kim (DevOps / Three Ways)"
+        influence: "Adapted the Three Ways framework from DevOps to
+          security, recognizing that security's organizational failure
+          mirrors pre-DevOps operations."
+      - name: "W. Edwards Deming (Quality Management)"
+        influence: "The idea that quality must be built in, not inspected
+          in. Applied to security: you can't scan quality into software."
+      - name: "Information theory / Shannon"
+        influence: "The insight that the observation point determines the
+          maximum information available. External tools have a theoretical
+          ceiling that no algorithm can overcome."
+      - name: "Legal realism tradition"
+        influence: "The understanding that formal rules (regulations,
+          standards) interact with practical incentives in complex ways.
+          Informs his nuanced position on software liability."
+
+# =============================================================================
+# SECTION 5: MODEL INTERACTION MAP
+# =============================================================================
+
+model_interaction_map:
+  description: >
+    Jeff Williams' mental models do not operate in isolation. They form
+    an interconnected system where insights from one model reinforce
+    and extend others. The interaction map below shows the strongest
+    connections and how models compose to form his complete worldview.
+
+  primary_cluster:
+    name: "Instrumentation Thesis"
+    description: >
+      The central cluster of models that form the core of Williams'
+      intellectual contribution to the field. All roads lead to and
+      from instrumentation.
+    models:
+      - inside_out_security
+      - instrumentation_democratizes
+      - self_protecting_software
+      - adr_missing_layer
+    reinforcement_pattern: >
+      Inside-out security establishes the epistemological foundation
+      (you need to be inside to see). Instrumentation democratizes
+      provides the historical inevitability argument (every other
+      industry did this). Self-protecting software provides the
+      technical architecture (one agent, dual purpose). ADR provides
+      the market expansion argument (security operations, not just
+      development tooling).
+
+  secondary_cluster:
+    name: "Coverage & Measurement"
+    description: >
+      Models that quantify the inadequacy of traditional approaches
+      and provide frameworks for measuring improvement.
+    models:
+      - coverage_gap_90
+      - four_dimensions_appsec
+      - supply_chain_runtime
+      - five_pillars_api_security
+    reinforcement_pattern: >
+      The 90% coverage gap provides the headline statistic. Four
+      dimensions provides the analytical framework explaining why the
+      gap exists. Supply chain runtime applies the principle to the
+      specific domain of third-party code. Five pillars extends it
+      to API security specifically.
+
+  tertiary_cluster:
+    name: "Industry & Culture"
+    description: >
+      Models that address the organizational, cultural, and policy
+      dimensions of application security.
+    models:
+      - shift_smart
+      - three_ways_devsecops
+      - developer_empowerment
+      - transparency_over_regulation
+    reinforcement_pattern: >
+      Shift Smart reframes when to test. Three Ways reframes how to
+      organize security work. Developer Empowerment reframes who does
+      security. Transparency Over Regulation reframes what policy
+      incentives drive improvement.
+
+  meta_cluster:
+    name: "Reasoning Infrastructure"
+    description: >
+      The epistemological patterns that Williams applies across all
+      domains. These are not domain-specific models but general
+      reasoning tools he uses to evaluate any claim or approach.
+    patterns:
+      - evidence_over_dogma
+      - first_principles_reasoning
+      - contrarian_pattern_recognition
+      - physical_world_analogical_reasoning
+      - systems_thinking
+      - twenty_year_cycle_recognition
+    reinforcement_pattern: >
+      Evidence over dogma triggers investigation. First principles
+      deconstructs the existing approach. Contrarian pattern recognition
+      identifies where consensus is wrong. Physical world analogies
+      provide proof-by-precedent. Systems thinking integrates across
+      domains. Twenty-year cycle recognition catches repetition.
+
+  cross_cluster_bridges:
+    - bridge: "Inside-out security <-> Shift Smart"
+      mechanism: >
+        The inside-out model explains WHY testing later (with runtime
+        context) is more accurate. Shift Smart provides the strategic
+        framework for WHEN to apply that insight.
+    - bridge: "Instrumentation democratizes <-> Developer empowerment"
+      mechanism: >
+        Instrumentation makes expert-level security feedback available
+        to every developer. Developer empowerment is the organizational
+        model that leverages this new capability.
+    - bridge: "Coverage gap 90% <-> Four dimensions"
+      mechanism: >
+        The coverage gap provides the quantitative claim. The four
+        dimensions model provides the analytical framework that
+        explains and validates the claim.
+    - bridge: "Transparency over regulation <-> Supply chain runtime"
+      mechanism: >
+        Runtime SCA provides the technical capability for transparency
+        (what is actually vulnerable vs theoretically vulnerable).
+        Transparency mandates create the policy incentive to deploy
+        runtime analysis.
+    - bridge: "Evidence over dogma <-> Contrarian pattern recognition"
+      mechanism: >
+        Evidence-based analysis reveals where consensus is wrong.
+        Contrarian pattern recognition systematizes the output into
+        counter-positions.
+
+# =============================================================================
+# SECTION 6: PREDICTIVE FRAMEWORK
+# =============================================================================
+
+predictive_framework:
+  description: >
+    Based on the mental model system, we can predict how Jeff Williams
+    would likely approach new problems or evaluate new trends.
+
+  prediction_rules:
+    - trigger: "New security tool category emerges"
+      predicted_response: >
+        Apply the twenty-year test: is this actually new? Check if it
+        operates outside-in or inside-out. Evaluate using four dimensions.
+        If outside-in, predict it will have the same limitations as its
+        predecessors regardless of marketing claims.
+
+    - trigger: "New regulation proposed for software security"
+      predicted_response: >
+        Evaluate through legal-technical lens. Prefer transparency
+        mandates over punitive liability. Ask whether the regulation
+        creates measurable improvement or compliance theater. Check
+        for unintended consequences on open-source ecosystem.
+
+    - trigger: "Industry claims a problem is solved"
+      predicted_response: >
+        Demand empirical evidence. Check the four dimensions coverage.
+        Apply contrarian lens: what are they not measuring? Look for
+        the 20-year cycle repetition. If the fundamental information
+        constraint hasn't changed, the problem isn't solved.
+
+    - trigger: "AI/ML applied to security"
+      predicted_response: >
+        Apply context sufficiency test: does the AI model have access
+        to the right information? An AI model analyzing SAST output
+        still doesn't have runtime context -- it's making better guesses
+        from the same insufficient data. Instrumented AI (with runtime
+        telemetry) would be a different, more interesting proposition.
+
+    - trigger: "Cloud/serverless changes security model"
+      predicted_response: >
+        The execution environment changes but the principle doesn't:
+        you still need to observe the application from inside. Cloud
+        and serverless make external observation harder (no network
+        to tap, ephemeral instances), which makes instrumentation
+        even more necessary, not less.
+
+# =============================================================================
+# METADATA
+# =============================================================================
+
+metadata:
+  total_models: 12
+  total_reasoning_patterns: 6
+  total_decision_heuristics: 9
+  total_distinguishing_characteristics: 6
+  model_categories:
+    strategic: 5
+    tactical: 3
+    epistemological: 2
+    analytical: 2
+  cluster_count: 4
+  cross_cluster_bridges: 5
+  prediction_rules: 5
+  confidence_notes: >
+    High confidence overall. Models are derived from extensive public
+    record: keynotes, blog posts, podcasts, interviews, OWASP
+    documentation, patent filings, analyst briefings, and Contrast
+    Security marketing materials. The interaction map and predictive
+    framework are analytical constructs based on observed patterns
+    across 20+ years of public statements and decisions.
+  known_gaps:
+    - "Internal Contrast Security strategic discussions not publicly
+      available."
+    - "Personal decision-making process for patent/invention development
+      only partially observable."
+    - "Evolution of his thinking over time (early OWASP vs current
+      positions) deserves deeper longitudinal analysis."
+    - "His role in specific OWASP project decisions and how they reflect
+      these models."

@@ -1,0 +1,14 @@
+# Esse vídeo vai te salvar da armadilha de dizer que a teoria em eletrônica não é importante #AME
+
+- **Video ID:** b1DpqMT6dUk
+- **URL:** https://www.youtube.com/watch?v=b1DpqMT6dUk
+- **Duration:** 4 min
+- **Views:** 265
+- **Published:** 2021-04-15T15:00:22Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+o assunto curso teoria muito exercício curso de eletrônica básica muitas vezes teoria ela eu tô toda a parte o embasamento científico do assunto linguagens artigos teoria eu tô a parte de aquisição de conhecimento cursos geralmente com os técnicos a Mariana tem muito teoria aulas eletrônica básica é as leis da eletrônica eletricidade básica tudo isso envolve muita teoria que não tem que você não colocou a mão na massa e aí que difere o a prática O que é a prática a prática você pôr a mão na mata é você com suas mãozinhas Ter suas próprias experiências de erros e falhas e acertos e essa prática muitas vezes infelizmente tá infelizmente as coisas que tanto eu quanto nós temos nesse a mesma queixa não posso dizer assim em relação nossos nossos faculdades você tem muita teoria muita muita muita ter o meu tá chega bem cru no mercado cara eu vou usar aquele copinho engenharia eu fiz geram eletrônica ela fez tecnólogo e mais assunto ela foi mais prático do que eu posso fazer ela foi mais fraco mesmo assim a carga teórica sobressair demais a carga prática do livro de profissional indica limitada ela só isso Tá cheio na prática numa casa trabalho sobre teoria de ajuda muito absurdamente já gostar os pontos aqui podcast de olhar pra gente fala sobre isso tá mas a prática vai você for lá se você tem os seus erros por exemplo verdes tônica na praça dele agora aqui na alltech ele tá indo lá e tá tirando tirando microprocessador soltando restaurando refazendo trilha fazendo trilha Conectando e desconectando errando bastante é porque só tava uma teoria que os leva prática ele passou ontem não tem como treinando o Suado ou como fazer os galos um salto lá do colaborador certo de cada um a Iara o frango com duas mãos ela parece uma outra que os valores pronto o seu valor ante las técnicas dela ele lá tava lá em dedo doía porque ele tá memória mecânica da coisa não sai eu apertar o sugador né eu tenho que apertar e aí aquela crosta dela para usar o jogador né não tem certo e errado isso mas eu falei que eu isso a prática é só percebeu essa limitação dela na prática ela usa tomam E aí dorme cedo mesmo e aí tem que ter um time de utilização que foi estudar é que nem natação cara pode usar toda até ouvir de natação toda a terminação isso não cai na água que não sábado posso dizer vai a sonhar lá eu entro em casa na favela o bracinho passado ela aprender como plantar na água mas se ela cair na água sem a teoria raiz sol o relacionada à

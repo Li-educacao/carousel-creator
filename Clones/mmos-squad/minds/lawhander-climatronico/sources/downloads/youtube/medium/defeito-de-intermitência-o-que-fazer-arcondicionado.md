@@ -1,0 +1,14 @@
+# Defeito de intermitência. O que fazer? #arcondicionado
+
+- **Video ID:** H0caIbGrqB0
+- **URL:** https://www.youtube.com/watch?v=H0caIbGrqB0
+- **Duration:** 3 min
+- **Views:** 3,524
+- **Published:** 2025-02-23T20:23:25Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+intermitência um dos efeitos mais complicados que tem porque não tem essa continuidade né que que a gente faz com intermitências ponto de vista eletrônico eu troco todos os capacitores da fonte eu pego essa placa aqui ó eu trocaria todos esses capacitores aqui ó certo certo por qu porque geralmente o intermitência é causada por capacitor não o capacitor de partida do ventilador não esse capacitor Zinho da placa porque isso aí provavelmente é o de leitura do ventilador ou de acionamento provavelmente ou a leitura tá ruim ou o acionamento tá ruim ou tá oscilando o acionamento ou tá oscilando a leitura do ventilador tá porque hora funciona hora não funciona chear o conector também ma contato no conector Ok 100% show o pino ó conectou Ok esse pino aqui ó também esse aqui ó se o cara mexer muito aqui dá solda fria o cara não vê mas dá ma contato aqui também é uma dica tamb importante já peguei muito defeito aqui o cara vai tirar mexe né no m aqui aí ele amola essa solda aqui ma contato pel lado de baixo motores beleza Tô ligado E aí e E aí verificaria os os capacitores trocaria eles para ver se Das duas uma ou resolve ou evidencia o meu primeiro objetivo na intermitência é eliminar a intermitência e eliminar é ou resolver e para dar intermitência ou aparecer o defeito eu quero que ele se mostre PR mim para poder resolver ele tem que aparecer é um caminho que tem que segir aos poucos né vai resolver toda a questão do capa todos para ele rodar perfeito ter a certeza né Isso ou ele apresentar o defeito de F de fato ficar ali direto uei o capacitor agora ele não parte mais jeito nenhum ótimo isso não é ruim não isso é bom porque agora agora eu vou ver o defeito agora eu vou encontrar onde que tá o problema aí vai lá e vai corrigir aí vai ver circuito de acionamento circuito de feedback da placa né pode ser pode ser motor também é pode ser motor também também pode ser pode ser a a fugir ser um defeito no motor que você não percebe em off que é um defeito que a hélice Ela fica dando un Trancos isso é muito normal motor blac motor blac é normal ele funcionar Aos Trancos ele dá um pulso acelera aí depois diminui acelera diminui acelera diminui entendeu É normal se tá na bancada tu vai ver ele oscilando às vezes ela até para e o cara Pens tá com feito normal funcionamento normal agora no bldc não é normal no bldc tem que funcionar continuamente acelerou mantém segura e na F um defeito e ela fica dando un solavancos dando pão assim você só vê sem hé entendeu sem você enxerga E aí aí dá erro de comunicação D erro intermitentes então sim pode ser o ventilador Sim nesse caso aí ainda pode ser o ventilador

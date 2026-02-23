@@ -1,0 +1,14 @@
+# Saber que seu sucesso depende apenas disso faz toda diferença #AME
+
+- **Video ID:** _fFoOnJiywg
+- **URL:** https://www.youtube.com/watch?v=_fFoOnJiywg
+- **Duration:** 4 min
+- **Views:** 211
+- **Published:** 2021-03-03T15:00:23Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+e agora comecei tirar o total que tá mais trabalho da quem está começando cara vai ter a barreira para tu não começar não sei o dia que vai ser perfeito aquele laboratório perfeito osciloscópio com ar condicionado no laboratório ele tiver louca aí no celular nesse perna espera comente lado Bom dia monster Lago de lama pelo calor entendeu durante muito tempo assim até consegui botar o ar condicionado laboratório quando eu fui lá para fora isso era em casa era um ventiladorzinho mesmo na sala de casa o verão tipo então eu nunca fui de dar desculpa porque eu não tinha eu achava você baixar interessante e fascinante e se apenas o meu conhecimento grande diferencial se valorizado pelo seu conhecimento e não porque você é uma ferramenta que ninguém tem não porque eu tenho um contato que ventre posso tentar sua empresa tua teu empresa mesmo né então com esse mês porque eu trabalho emprego geração informação que eu da empresa eu trabalho na empresa que tu nem precisa de alguém vai funcionário e tô aqui mas antes de estar pronto ele por agora o ano está acabando na empresa Yara e lá onde agora ficar mexendo para Dona empresa Yara vai me valorizar Porque como faço ganhar dinheiro que eu não lembrava mais o lado agora vem um dinheiro que não ganharam o que é isso só instalado todos eles vídeos reais like E se fosse rf10 r$ 6 no bloco com ela vai para a placa contra ele vai reparar que controla não vale para Ah entendeu quanto não valorizei a empresa para casa disso tão e isso tá baseado no conhecimento ele é um cara que valoriza a empresa eu posso te falar é a refeição não posso perder a onda para Daiane salve ouro entendeu olha aqui faz vir aqui a parte da túnica eu quero ter dois valores aqui dentro Ok eu vou ter uma sugiro Melhor ainda então vocês que tá mandando os outros sejam trabalhando assim alto no tempo a empresa é que sustentar tentar o teu financeiro a mulher se tu ouvir a gente trabalha na empresa é isso não tentou empresa tem que sentar em conhecimentos ninguém que tira cara e não forneça do tu tem máquina que é o seguinte só com sabe se alguém descobrir tua casa caiu não é o a ferramenta mágica aqui só com o tempo porque tem dinheiro e é cara isso não cara mas eu não desse segmento né a gente é conhecimento a gente ficava legal no começo nada aqui tem um motivo Ah entendeu emprestou o cara dele emprestado emprestou o carrinho de sódio que eu tenho aqui no Big Horse pagar pelo conhecido que eu tenho que você tá saindo aqui é difícil aqui você pensa que os cara vem traz eu peço o troco o componente analiseo veja o reparo e levou e qual o meu dinheiro e fico feliz eu fico feliz eu que lindo fosse um sabendo de caça era uma extra no início

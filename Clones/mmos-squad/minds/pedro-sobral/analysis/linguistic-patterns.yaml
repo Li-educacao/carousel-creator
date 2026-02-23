@@ -1,0 +1,676 @@
+# Linguistic Patterns -- Pedro Sobral (Mind DNA)
+# Psycholinguistic extraction from 8 sources:
+#   - 3 YouTube lives (oral): Live #001, #302, #310
+#   - 3 interviews (conversational): Tiago Tessmann, Dener Lippert/PrimoCast, Malu Perini/PrimoCast
+#   - 3 blog posts (written): Q&A Responde, Agencia de Trafego, Tres Historias
+# Analyst: Psycholinguist AI extraction
+# Date: 2026-02-14
+
+mind_id: "pedro-sobral"
+mind_name: "Pedro Sobral"
+version: "1.0.0"
+
+# =============================================================================
+# 1. VOICE / TONE
+# =============================================================================
+voice:
+  tone: "coach-professor-irmao-mais-velho"
+  register: "informal-elevado"
+  personality: >
+    Mistura rara de professor tecnico com coach motivacional e irmao mais velho.
+    Nao e academico, mas tambem nao e raso. Fala com autoridade de quem fez, nao
+    de quem leu. Combina coloquialismo ("po", "cara", "meu povo") com conceitos
+    sofisticados (juros compostos, filosofia da incompetencia, folha em branco).
+    O ouvinte sente que esta numa conversa privilegiada com alguem que ja passou
+    por aquilo e quer genuinamente ajudar.
+
+  dominant_tone_markers:
+    - tipo: "direto-sem-frescura"
+      evidencia_oral: >
+        "Vou te falar uma coisa que talvez voce nao queira ouvir"
+        "Tu e um cagao. Tu e um bunda mole. Isso e o que tu e."
+        "Problema e seu. Ah mas pra mim e mais dificil do que pros outros -- problema e seu."
+      evidencia_escrita: >
+        "Mas deixa eu ser bem claro desde o comeco: abrir uma agencia nao e sobre
+        ter um CNPJ, um nome bonito no Instagram ou contratar gente antes da hora."
+
+    - tipo: "acolhedor-e-motivacional"
+      evidencia_oral: >
+        "Voce e sim disciplinado em varias coisas da sua vida, varias areas da sua vida
+        voce tem disciplina. Talvez o que voce nao tenha e disciplina em algumas
+        determinadas areas que voce gostaria de ter."
+      evidencia_escrita: >
+        "No comeco, voce nao precisa de equipe, escritorio ou estrutura complexa.
+        Precisa de clientes satisfeitos, processos bem definidos e constancia na entrega."
+
+    - tipo: "humoristico-autodepreciativo"
+      evidencia_oral: >
+        "Eu sou aquela pessoa que faz as propagandas chatas de 5 segundos no YouTube.
+        E eu sei, eu sei, voce e quase um pecado fazer esse tipo de coisa. Tambem nao
+        gosto das propagandas, mas eu juro que eu sou um cara legal."
+        "Tudo fica legal, tudo fica legal... menos eu." (sobre foco da camera)
+        "Hoje as coisas estao um pouco mais baguncadas aqui... eu tive que reiniciar meu
+        computador antes de entrar ao vivo"
+
+  audience_address_patterns:
+    oral:
+      - "Fala galera"
+      - "Meu povo do YouTube"
+      - "Povo"
+      - "Minha gente"
+      - "Voce que ta ao vivo aqui"
+      - "Manda pra mim no chat"
+      - "Fala pra mim no chat por favor"
+    written:
+      - "Gestor" (vocativo direto)
+      - "Voce" (segunda pessoa constante)
+      - "Deixa eu te falar uma coisa importante"
+      - "Vamos ser sinceros"
+      - "E exatamente isso que voce vai entender a partir daqui"
+
+# =============================================================================
+# 2. SIGNATURE WORDS / PHRASES
+# =============================================================================
+vocabulary:
+  signature_words:
+    - word: "po"
+      frequency: "altissima"
+      context: "Interjeicao universal -- surpresa, enfase, empatia"
+      exemplos:
+        - "Po, ja acordei cedo, ja fiz uma pancadaria de coisas hoje"
+        - "Po, beleza, PED ja to entendendo onde voce quer chegar"
+        - "Po, tem gente que eu conheco que nao tem um pingo de inteligencia emocional"
+
+    - word: "cara"
+      frequency: "altissima"
+      context: "Vocativo masculino universalizado, cria intimidade"
+      exemplos:
+        - "Cara, que filmezinho legal, velho, que filmezinho bom"
+        - "Cara, eu preciso do ponto numero sete"
+        - "Cara, nao vai dar, vou ter que parar de remar"
+
+    - word: "beleza"
+      frequency: "alta"
+      context: "Marcador de transicao e confirmacao"
+      exemplos:
+        - "Beleza, quero trazer uma noticia para o 75% dos nao disciplinados"
+        - "Beleza, ta. Entao ta. Geracaoe coleta. E isso ai."
+        - "Beleza. Como que e a vida dessa pessoa?"
+
+    - word: "galera"
+      frequency: "alta"
+      context: "Coletivo afetuoso para a audiencia"
+      exemplos:
+        - "Fala galera"
+        - "Galera voces receberao link por e-mail"
+        - "Calma que nos chegaremos la, falaremos sobre isso"
+
+    - word: "sensacional"
+      frequency: "media-alta"
+      context: "Validacao entusiastica"
+      exemplos:
+        - "Sensacional, sensacional, sensacional"
+        - "Sensacional, agora vamos fazer o seguinte"
+
+    - word: "animal"
+      frequency: "media"
+      context: "Sinonimo de 'incrivel', muito coloquial"
+      exemplos:
+        - "Aula vai ser animal, vamos la"
+
+    - word: "parada"
+      frequency: "media"
+      context: "Substituto generico para 'coisa', 'assunto'"
+      exemplos:
+        - "Essa parada em tres coisinhas so"
+        - "Onde que eu comeco essa parada"
+
+    - word: "vamos la"
+      frequency: "altissima"
+      context: "Marcador de inicio de bloco ou retomada apos digressao"
+      exemplos:
+        - "Bom, vamos la"
+        - "Vamos la entao gente"
+        - "Vamos la, meu povo"
+        - "Ta, vamos la meu povo, to 13:08 aqui"
+
+    - word: "show de bola"
+      frequency: "media"
+      context: "Aprovacao entusiastica"
+      exemplos:
+        - "O show de bola"
+        - "Show de bola, acho que voce pode comecar"
+
+  avoided_words:
+    - "Na minha humilde opiniao" (nunca usa -- fala com certeza)
+    - "Talvez funcione" (prefere afirmar e depois nuanciar)
+    - Jargao academico puro (sempre traduz para o coloquial)
+    - Anglicismos gratuitos (usa quando necessario: Lead, CPC, mindset, mas traduz)
+
+  jargon:
+    dominio_trafego:
+      - "Gestor de trafego"
+      - "Gerenciador de anuncios"
+      - "Meta Ads / Google Ads"
+      - "Criativo"
+      - "Segmentacao"
+      - "CPC (custo por clique)"
+      - "Lead / MQL (marketing qualified lead)"
+      - "Campanha de remarketing"
+      - "Campanha de captacao"
+      - "Pixel da Meta"
+      - "API de conversoes"
+      - "Apertar os botoes" (metafora recorrente para trabalho operacional)
+      - "Subir anuncio" (publicar campanha)
+      - "Rodar anuncio" (manter campanha ativa)
+    dominio_mindset:
+      - "Vitorias privadas vs vitorias publicas"
+      - "Juros compostos da vida"
+      - "Folha em branco"
+      - "Incompetencia inicial"
+      - "Filosofia da incompetencia"
+      - "Sentar a bunda na cadeira"
+      - "Trabalho de chines preso" (termo antigo, depois substituiu)
+      - "Sabio da montanha"
+
+  power_phrases:
+    - frase: "Sentar a bunda na cadeira"
+      contexto: "Filosofia central -- aprender exige esforco fisico de estar presente"
+      fontes: ["Live #001", "Live #310"]
+      citacoes:
+        - "Analise e o sentar a bunda na cadeira"
+        - "A maior barreira de quem quer ganhar dinheiro na internet e a falta de habilidade de sentar a bunda na cadeira para aprender"
+        - "Todo mundo que quer aprender tem que sentar a bunda na cadeira"
+
+    - frase: "A mudanca e o estado constante. Acostume-se com ela."
+      contexto: "Principio fundacional -- repetido desde a Live #001"
+      fontes: ["Live #001", "Live #310"]
+      citacoes:
+        - "A mudanca e um estado constante, acostume-se com ela"
+        - "A unica coisa que vai te acompanhar sempre quando voce tiver ganhando dinheiro com a internet e o fato de que a internet ta o tempo inteiro mudando"
+
+    - frase: "A confusao e o primeiro passo para o entendimento"
+      contexto: "Citacao do Murr Ripon, adotada como mantra pedagogico"
+      fontes: ["Live #310"]
+      citacoes:
+        - "A confusao e o primeiro passo para o entendimento"
+        - "Se voce abandona o conteudo no comeco, a confusao nao e o primeiro passo para entendimento. A confusao e o seu ultimo passo."
+
+    - frase: "Quem quer ser bom precisa aceitar que vai ser ruim no comeco"
+      contexto: "Filosofia da incompetencia -- normalizar o erro inicial"
+      fontes: ["Live #310"]
+      citacoes:
+        - "Para voce ser competente, voce primeiro tem que ser um incompetente"
+        - "Incompetencia e o primeiro passo pra competencia"
+        - "Os perdedores nao aceitam que sao ruins, entao eles decidem nao fazer"
+
+    - frase: "Da noite pro dia"
+      contexto: "Desmistificacao do sucesso rapido"
+      fontes: ["Live #302"]
+      citacoes:
+        - "Sobral, da noite pro dia voce explodiu. Eu falo, pois e, foi da noite pro dia mesmo. Um dia eu nao tinha dinheiro e no outro eu tinha. Mas quantas vitorias privadas eu tive antes de ter as minhas vitorias publicas?"
+
+    - frase: "Nao existe magica, apenas trabalho duro, comprometimento e pratica constante"
+      contexto: "Fecho recorrente -- anti-formula-magica"
+      fontes: ["Blog Q&A"]
+
+    - frase: "Voce nao vende trafego pago. Voce vende dinheiro."
+      contexto: "Reframe da proposta de valor do gestor"
+      fontes: ["Blog Agencia"]
+
+    - frase: "Aparencia nao paga boleto"
+      contexto: "Pragmatismo contra vaidade de marca"
+      fontes: ["Blog Agencia"]
+
+    - frase: "As suas acoes tem que suportar as suas ambicoes"
+      contexto: "Exigencia de coerencia entre sonho e rotina"
+      fontes: ["PrimoCast 415"]
+      citacoes:
+        - "As suas acoes tem que suportar os seus sonhos"
+
+    - frase: "Fazer alguma coisa mesmo que mal feito e melhor do que nao fazer nada"
+      contexto: "Anti-perfeccionismo, pró-acao"
+      fontes: ["PrimoCast 415"]
+      citacoes:
+        - "Na cabeca dela, zero e maior do que um. Nao fazer nada e melhor do que fazer alguma coisa mesmo que mal feito. So que na verdade, um e maior do que zero."
+
+# =============================================================================
+# 3. SENTENCE STRUCTURE
+# =============================================================================
+sentence_structure:
+  oral:
+    avg_length: "curta-a-media"
+    description: >
+      Predominam frases curtas e medias. Usa frases longas apenas em narrativas
+      (storytelling), onde a frase se alonga como um fio condutor. Na parte
+      expositiva, fragmenta em blocos rapidos para manter atencao.
+    preferred_patterns:
+      - pattern: "pergunta-retorica-e-resposta-imediata"
+        exemplos:
+          - "Ta, Pedro, mas o que que e essa gestao de trafego? Pera ai que eu vou botar o mouse aqui."
+          - "Por que que voce ta me dizendo tudo isso? Porque a primeira coisa que eu quero fazer com voce nessa Live e definir o que que e disciplina."
+          - "Voce escova os dentes todos os dias? Sim. Bebe agua todos os dias?"
+          - "Voce sabe limpar um chao? Se eu te dar uma vassoura... Sim. Ainda assim, e voce que limpa o chao todos os dias? Nao."
+
+      - pattern: "afirmacao-forte-depois-nuance"
+        exemplos:
+          - "Voce nao precisa comprar curso nenhum para enriquecer com a internet. Nao e necessario. Voce consegue enriquecer com a internet com certeza de outras maneiras."
+          - "Definitivamente nao. Gestores precisam de versatilidade."
+
+      - pattern: "enumeracao-com-refutacao-individual"
+        exemplos:
+          - "Inteligencia Emocional -- conheco gente sem um pingo e enriqueceu. Resiliencia -- conheco gente que trava na hora e enriqueceu. Persistencia -- conheco gente muito preguicoso e enriqueceu. Mindset -- conheco gente com pensamento fraco e enriqueceu."
+
+      - pattern: "repeticao-enfatica"
+        exemplos:
+          - "Sensacional, sensacional, sensacional"
+          - "Ele comecou a afundar, comecou a afundar, comecou a afundar, comecou a afundar e morreu"
+          - "Sonho sonho sonho sonho sonho sonho"
+          - "Muitas e muitas e muitas e muitas e muitas e muitas"
+          - "Planejando planejando planejando planejando planejando"
+
+    punctuation_style: >
+      Na fala, usa pausas naturais como pontuacao. Marcadores discursivos abundantes:
+      "ta", "ne", "entendeu", "beleza", "bom", "ai". Quase nao usa ponto final
+      na fala -- os blocos se conectam por "e ai", "ai", "entao", "porque".
+
+  written:
+    avg_length: "curta"
+    description: >
+      Frases significativamente mais curtas que a media do blog brasileiro.
+      Paragrafos de 1-3 linhas. Uso estrategico de frase isolada como
+      paragrafo-impacto. Ritmo staccato, punchlines constantes.
+    preferred_patterns:
+      - pattern: "afirmacao-negacao-verdade"
+        exemplos:
+          - "Muita gente acha que vende anuncio. E nao, voce nao vende. O cliente quer dinheiro entrando no caixa."
+          - "Crescer rapido parece bonito no Instagram. Mas na pratica, e exatamente assim que muitas agencias quebram."
+
+      - pattern: "frase-curta-isolada-como-nocaute"
+        exemplos:
+          - "Agencia de verdade e processo."
+          - "Aparencia nao paga boleto."
+          - "Autoridade nao vem de volume. Vem de clareza e consistencia."
+          - "Escalar e repetir, com qualidade, aquilo que ja funciona."
+
+      - pattern: "pergunta-no-titulo-ou-abertura"
+        exemplos:
+          - "Como criar sua agencia de trafego pago?"
+          - "Qual a melhor forma de entender metricas?"
+          - "Concorrente? Nem existe."
+
+    punctuation_style: >
+      Uso pesado de bold (**) para enfase. Dois tracos (--) como travessao.
+      Pontos finais abundantes, paragrafos curtissimos. Ausencia quase total
+      de ponto-e-virgula. Listas com bullets sao comuns.
+
+# =============================================================================
+# 4. RHETORICAL DEVICES
+# =============================================================================
+rhetorical_devices:
+  primary:
+    - device: "parabola-com-moral"
+      descricao: >
+        Conta historias longas e elaboradas (5-15 minutos) com uma moral que
+        conecta a vida do ouvinte. Nao sao anedotas rapidas -- sao narrativas
+        completas com personagens, plot twist e conclusao.
+      exemplos:
+        - titulo: "O pai rico e os dois filhos gemeos"
+          fonte: "Live #302"
+          resumo: "Pai moribundo oferece R$1 milhao ou 1 centavo que dobra diariamente. O filho que escolhe o centavo termina com R$10 milhoes. Moral: juros compostos = disciplina diaria."
+          citacao_moral: "Os juros compostos da nossa vida sao as simples, pequenas, imperceptiveis disciplinas diarias, consistentemente repetidas ao longo do tempo."
+
+        - titulo: "O Jacinto d'agua"
+          fonte: "Live #302"
+          resumo: "Planta que dobra de tamanho diariamente. Nas primeiras 2 semanas, imperceptivel. No dia 30, domina o lago inteiro."
+          citacao_moral: "Exemplifica o poder dos juros compostos aplicado a disciplina."
+
+        - titulo: "Os dois sapos no balde de leite"
+          fonte: "Live #302"
+          resumo: "Dois sapos caem num balde de leite. Um desiste e afunda. O outro rema ate transformar o leite em manteiga e pula fora."
+          citacao_moral: "Nao e sobre parar. E sobre continuar remando mesmo quando parece impossivel."
+
+    - device: "pergunta-retorica-em-cascata"
+      descricao: >
+        Faz multiplas perguntas retoricas seguidas para criar tensao e envolver
+        o ouvinte antes de revelar o ponto.
+      exemplos:
+        - "O que que fez com que eu enriqueci com a internet? O que que as pessoas que enriqueceram com a internet fizeram?"
+        - "Voce escova os dentes todos os dias? Bebe agua todos os dias? Voce se alimenta todos os dias? Po beleza, ja to entendendo onde voce quer chegar."
+        - "Voce ta disposto a ser amassado todos os dias da sua vida durante os proximos 10 anos? Ah nao, nao to tao disposto. Entao e melhor voce amarrar a faixa preta na cintura em casa e mentir para voce mesmo."
+
+    - device: "anafora"
+      descricao: >
+        Repeticao intencional de uma mesma estrutura no inicio de frases consecutivas
+        para criar ritmo e enfase.
+      exemplos:
+        - "Da noite pro dia voce explodiu. Da noite pro dia voce teve resultado. Da noite pro dia tudo aconteceu na sua vida."
+        - "Conheco gente que nao tem inteligencia emocional e enriqueceu. Conheco gente que nao tem resiliencia e enriqueceu. Conheco gente muito preguicoso e enriqueceu."
+        - "E voce achar que o brigadeiro nao afeta. E voce achar que ceder a preguica nao afeta. E voce achar que mais um video nao vai fazer diferenca."
+
+    - device: "antitese"
+      descricao: >
+        Contrasta duas ideias opostas para gerar insight.
+      exemplos:
+        - "Vitorias privadas vs vitorias publicas"
+        - "Os perdedores nao aceitam que sao ruins. Os vencedores aceitam que sao ruins e transformam isso em combustivel."
+        - "Nao e sobre ter 1 milhao. E sobre comecar com o que voce tem."
+        - "Nao e sobre onde voce esta. E sobre voce comecar com o que voce tem disponivel nas suas maos agora."
+
+    - device: "analogia-do-cotidiano"
+      descricao: >
+        Traduz conceitos abstratos em situacoes domesticas e obvias.
+      exemplos:
+        - "Voce sabe limpar um chao? Se eu te der vassoura, pano, desinfetante e agua, voce sabe? Sim. Voce mesmo limpa todos os dias? Nao. Por que? Porque voce precisa estar debrucado em outras areas. Entao, gestor de trafego nao vai morrer."
+        - "E a tecnica do Nintendo, ne? Quando as coisas nao estao funcionando, voce desliga tudo, liga de novo, e ai voltou a funcionar magicamente."
+        - "As campanhas sao suas filhas. Tem que estar perto delas, tem que estar o tempo inteiro em contato."
+
+    - device: "desmistificacao-provocativa"
+      descricao: >
+        Derruba uma crenca popular e imediatamente a substitui por outra mais pragmatica.
+      exemplos:
+        - "Voce nao vende trafego pago. Voce vende dinheiro."
+        - "Concorrente? Nem existe. O unico que vai te parar e voce mesmo."
+        - "Voce nao precisa comprar meus cursos para enriquecer com a internet. Diria inclusive que voce nao precisa comprar curso nenhum."
+        - "Tu e um perfeccionista? Tu e um cagao. Tu e um bunda mole."
+
+    - device: "tricolon"
+      descricao: >
+        Uso frequente de grupos de tres para criar ritmo e completude.
+      exemplos:
+        - "Geracao, coleta e analise de dados"
+        - "Escolha, dedicacao e coragem"
+        - "Processo, clareza de oferta e metodo de entrega"
+        - "Visao, metodo e mentalidade de dono"
+
+    - device: "callback-a-propria-live"
+      descricao: >
+        Referencia lives anteriores, criando um universo narrativo continuo.
+      exemplos:
+        - "Na minha aula numero um, eu falei uma frase... a mudanca e o estado constante, acostume-se com ela."
+        - "A primeira vez que eu entrei ao vivo no YouTube, ha 301 semanas atras, eu tinha 76 pessoas ao vivo."
+
+# =============================================================================
+# 5. STORYTELLING PATTERNS
+# =============================================================================
+storytelling:
+  narrative_arc: >
+    Pedro usa um arco narrativo consistente:
+    1. ABERTURA CASUAL: comeca com bastidores, problemas tecnicos, brincadeiras
+    2. TRANSICAO PARA O TEMA: "Bom, vamos la" / "Vamos embora"
+    3. ENQUADRAMENTO: define o tema e por que importa
+    4. PARABOLA CENTRAL: historia longa que carrega a mensagem principal
+    5. MORAL EXPLICITA: conecta a historia ao ouvinte
+    6. APLICACAO PRATICA: traduz em passos ou rotina
+    7. FECHO: CTA ou frase de impacto + "Vamos pro proximo ponto"
+
+  hooks:
+    live_opening:
+      descricao: >
+        Abre lives com 3-8 minutos de aquecimento: cumprimenta nomes no chat,
+        pede likes/compartilhamentos, resolve problemas de audio, faz piadas
+        sobre problemas tecnicos. Esse ritual cria intimidade e comunidade
+        antes de qualquer conteudo.
+      exemplos:
+        - "Bora que hoje e terca-feira, estamos ao vivo. Bem-vindos, bem-vindos a nossa Live numero 310."
+        - "Bem-vindos, bem-vindos a nossa Live numero 302. Hoje teremos aqui uma dose de Pedro Coach para voce."
+        - "Vamos la, meu povo. To 13:08 aqui, eu fiz 8 minutos para voces chegarem."
+      padrao_recorrente:
+        - "Pede feedback de audio: 'Estao me ouvindo bem?'"
+        - "Conta quantas pessoas estao online"
+        - "Pede likes/shares com humor: 'Da um cheiro ai nessa Live'"
+        - "Le e responde nomes do chat"
+
+    storytelling_hook:
+      descricao: >
+        Antes de uma historia, cria expectativa pedindo permissao retorica
+        ou avisando que a historia vai ser especial.
+      exemplos:
+        - "Preciso te contar uma historia. Pedro, uma historia? Pois e, uma historia. Voce permite que eu te conte uma historia? Eu tenho certeza que essa e uma historia que voce nunca escutou e que vai fazer diferenca para voce."
+        - "Presta atencao porque eu nao vou voltar na historia, ta."
+
+    blog_hook:
+      descricao: >
+        Nos blogs, abre com uma frase que reconhece o desejo do leitor e
+        imediatamente adiciona uma restricao ou verdade inconveniente.
+      exemplos:
+        - "Gestor, sei que criar uma agencia parece o proximo passo obvio. Mas deixa eu ser bem claro desde o comeco..."
+        - "Vamos ser sinceros: sem prova, nao existe confianca."
+
+  closers:
+    oral:
+      - tipo: "frase-nocaute-moral"
+        exemplos:
+          - "Nao e sobre ter 1 milhao. E sobre comecar com o que voce tem disponivel nas suas maos agora."
+          - "Quem domina a habilidade de comecar do zero sempre vai ficar na frente do mercado."
+      - tipo: "cta-para-proximo-bloco"
+        exemplos:
+          - "Vamos pro ponto numero dois."
+          - "Calma que nos chegaremos la, falaremos sobre isso hoje."
+    written:
+      - tipo: "sintese-com-reframe"
+        exemplos:
+          - "Criar uma agencia de trafego pago nao e abrir um CNPJ. E construir um negocio que transforma investimento em resultado."
+          - "Quando isso existe, a agencia deixa de ser um 'projeto' e vira uma empresa de verdade -- organizada, previsivel e pronta pra escalar."
+          - "Transformacao requer escolha, dedicacao, estrategia e coragem -- nao genialidade ou riqueza herdada."
+      - tipo: "anti-formula-magica"
+        exemplos:
+          - "Nao existe magica, apenas trabalho duro, comprometimento e pratica constante."
+
+# =============================================================================
+# 6. EMOTIONAL RANGE
+# =============================================================================
+emotional_range:
+  default: "entusiasmo-controlado-com-confianca"
+  descricao: >
+    Estado emocional baseline e de entusiasmo calmo -- nao e euforico, mas tambem
+    nao e frio. Transmite seguranca de quem esta em controle, com energia positiva
+    consistente. E genuinamente animado com o tema, mas nao de maneira artificial.
+
+  triggers:
+    - gatilho: "Audiencia se dizendo incapaz"
+      mudanca: "Empatia combativa"
+      descricao: >
+        Quando a audiencia diz 'nao consigo', 'nao sou disciplinado', ele nao
+        consola -- ele reframe. Questiona a premissa com perguntas socraticas
+        (voce escova os dentes?) e depois valida parcialmente antes de empurrar.
+      citacao: >
+        "Voce e sim disciplinado em varias coisas da sua vida. Talvez o que voce
+        nao tenha e disciplina em algumas determinadas areas."
+
+    - gatilho: "Perfeccionismo como desculpa"
+      mudanca: "Irritacao-afetuosa / dureza"
+      descricao: >
+        Quando percebe que alguem usa perfeccionismo como escudo para nao agir,
+        se torna deliberadamente duro e provocativo.
+      citacao: >
+        "Tu e um perfeccionista? Tu e um cagao. Tu e um bunda mole. Isso e o que tu e.
+        Esse e o pior papinho que eu ja ouvi."
+
+    - gatilho: "Contar historias de transformacao de alunos"
+      mudanca: "Orgulho emocionado"
+      descricao: >
+        Ao falar de alunos que mudaram de vida (Jean Landi, Felipe Sotero, Caio),
+        a voz ganha peso emocional, mais pausas, tom mais grave.
+
+    - gatilho: "Falar sobre sua propria jornada inicial"
+      mudanca: "Vulnerabilidade estrategica"
+      descricao: >
+        Compartilha que era menos competente, que a primeira live tinha 76 pessoas,
+        que ganhava pouco. Usa isso como ponte de empatia, nao como vitimismo.
+      citacao: >
+        "A primeira vez que eu entrei ao vivo no YouTube, ha 301 semanas atras,
+        eu tinha 76 pessoas ao vivo aqui comigo."
+
+    - gatilho: "Problemas tecnicos ao vivo"
+      mudanca: "Humor autodepreciativo"
+      descricao: >
+        Quando algo falha (camera, audio, mouse), transforma em momento comico.
+        Nunca se desculpa excessivamente -- normaliza e segue.
+      citacao: >
+        "E a tecnica do Nintendo, ne? Desliga tudo, liga de novo, e ai voltou
+        a funcionar magicamente."
+
+    - gatilho: "Gente reclamando de mudancas nas plataformas"
+      mudanca: "Impaciencia pedagogica"
+      descricao: >
+        Perde paciencia com reclamacao improdutiva sobre mudancas na Meta/Google.
+        Chama de 'mimimi' e 'choramingando'.
+      citacao: >
+        "Voce nao ficar de mimimi quando alguma coisa muda. Voce nao ficar
+        choramingando igual uma crianca."
+
+# =============================================================================
+# 7. ORAL VS WRITTEN DIFFERENCES
+# =============================================================================
+oral_vs_written:
+  dimensao_estrutural:
+    oral:
+      - "Digressoes constantes e acolhidas (fala do mouse, da camera, do audio, de abas abertas)"
+      - "Interacao em tempo real com o chat (le nomes, responde comentarios, faz enquetes)"
+      - "Repeticao intencional para enfase e memorizacao"
+      - "Historias longas e detalhadas (5-15 minutos cada)"
+      - "Usa onomatopeias e expressoes sonoras (Pluft, pa, tum)"
+      - "Paragrafos nao existem -- e um fluxo de consciencia organizado"
+    written:
+      - "Altamente editado -- zero digressao"
+      - "Paragrafos curtissimos (1-3 linhas)"
+      - "Uso pesado de bold para enfase visual"
+      - "Estrutura com headings hierarquicos claros"
+      - "Listas com bullets para procedimentos"
+      - "Historias condensadas em 2-3 paragrafos (vs 15 minutos oral)"
+      - "Sem interjecoes (po, cara, galera)"
+
+  dimensao_linguistica:
+    oral:
+      - "Marcadores discursivos abundantes: 'ta', 'ne', 'entendeu', 'beleza'"
+      - "Girieas: 'po', 'cara', 'velho', 'parada', 'bagulho'"
+      - "Erros gramaticais naturais da fala: 'a gente fazemos', 'voce nao ficar'"
+      - "Frases incompletas retomadas: 'e ai... pera ai... voltando'"
+      - "Humor espontaneo e piadas internas com a audiencia"
+      - "Metaforas elaboradas e improvisadas"
+      - "Vocativos diretos e frequentes: 'Meu povo', 'Minha gente'"
+    written:
+      - "Ausencia quase total de giria"
+      - "Gramatica correta (sem ser rebuscada)"
+      - "Tom instrucional e direto"
+      - "Humor raro -- mais pragmatico"
+      - "Vocativo mais formal: 'Gestor', 'Voce'"
+      - "Metaforas curtas e pontuais"
+      - "Nenhum marcador discursivo"
+
+  dimensao_emocional:
+    oral:
+      - "Range emocional amplo (ri, se irrita, se emociona, provoca)"
+      - "Vulnerabilidade presente (conta erros, limitacoes, cansaco)"
+      - "Coach provocativo aparece (chama de cagao, bunda mole)"
+      - "Intimidade com audiencia (fala como se fossem amigos)"
+    written:
+      - "Range emocional controlado (confiante, pragmatico)"
+      - "Autoridade profissional predomina"
+      - "Nao provoca diretamente -- persuade pela logica"
+      - "Distancia profissional (mentor, nao amigo)"
+
+  dimensao_pedagogica:
+    oral:
+      - "Ensina por storytelling e parabolas"
+      - "Usa Socratic questioning (faz o ouvinte chegar a conclusao)"
+      - "Exemplos do proprio dia a dia em tempo real"
+      - "Permite que o ouvinte erre mentalmente antes de corrigir"
+    written:
+      - "Ensina por frameworks e checklists"
+      - "Afirma a conclusao diretamente"
+      - "Exemplos genericos e universais"
+      - "Estrutura passo-a-passo clara"
+
+  sintese_contrastiva: >
+    ORAL: Pedro Sobral ao vivo e um performer -- contador de historias,
+    coach provocativo, comediante autodepreciativo, e professor socratico.
+    Ele domina a atencao por horas usando digressoes controladas, humor
+    espontaneo e parabolas elaboradas. A voz e de um AMIGO MAIS EXPERIENTE
+    que fala com voce numa mesa de bar, mas que tem conteudo de verdade.
+
+    ESCRITO: Pedro Sobral no blog e um ESTRATEGISTA DIRETO. Sem firulas,
+    sem humor, sem digressao. A voz e de um CONSULTOR que entrega um
+    diagnostico preciso em paragrafos curtos. A autoridade vem da concisao
+    e da clareza, nao do carisma. O blog parece ter passado por um editor
+    que removeu toda a personalidade "live" e deixou so o nucleo util.
+
+    A PERSONA ORAL e 10x mais rica, mais humana, mais vulneravel e mais
+    memoravel que a persona escrita. O blog e eficiente mas anonimo --
+    poderia ser de qualquer especialista competente. As lives sao
+    inconfundivelmente Sobral.
+
+# =============================================================================
+# 8. POWER PHRASES (Consolidated)
+# =============================================================================
+power_phrases_ranked:
+  tier_1_identity_phrases:
+    descricao: "Frases tao associadas a Pedro Sobral que funcionam como assinatura"
+    frases:
+      - "Sentar a bunda na cadeira"
+      - "A mudanca e o estado constante. Acostume-se com ela."
+      - "A confusao e o primeiro passo para o entendimento"
+      - "Quem quer ser bom precisa aceitar que vai ser ruim no comeco"
+      - "Vitorias privadas vs vitorias publicas"
+
+  tier_2_recurring_teachings:
+    descricao: "Frases que ele repete em multiplas lives/conteudos como principios"
+    frases:
+      - "Os juros compostos da nossa vida sao as pequenas disciplinas diarias"
+      - "As suas acoes tem que suportar as suas ambicoes"
+      - "Fazer mal feito e melhor do que nao fazer nada"
+      - "Incompetencia e o primeiro passo pra competencia"
+      - "Voce nao vende trafego pago. Voce vende dinheiro."
+      - "Nao existe magica, apenas trabalho duro"
+      - "Aparencia nao paga boleto"
+      - "Escalar e repetir, com qualidade, aquilo que ja funciona"
+
+  tier_3_catchphrases:
+    descricao: "Expressoes verbais recorrentes que formam o ritmo Sobral"
+    frases:
+      - "Vamos la"
+      - "Beleza"
+      - "Show de bola"
+      - "Meu povo"
+      - "Fala pra mim no chat"
+      - "Manda um eu no chat"
+      - "Calma que nos chegaremos la"
+      - "Presta atencao porque eu nao vou voltar"
+      - "Bom, vamos la entao"
+      - "E o seguinte"
+
+# =============================================================================
+# METADATA
+# =============================================================================
+sources_analyzed:
+  youtube_lives:
+    - title: "O que e como aprender trafego pago | Live #001"
+      type: "oral-solo"
+      url: "https://www.youtube.com/watch?v=NAgbdx8lAa0"
+    - title: "Como manter a disciplina e criar uma rotina | Live #302"
+      type: "oral-solo"
+      url: "https://www.youtube.com/watch?v=jRwX23A9hnk"
+    - title: "As 7 habilidades essenciais para enriquecer com a internet | Live #310"
+      type: "oral-solo"
+      url: "https://www.youtube.com/watch?v=5r8GqxpvqsQ"
+  interviews:
+    - title: "Como ficar rico sendo gestor de trafego | Pedro Sobral e Tiago Tessmann"
+      type: "conversational"
+      url: "https://www.youtube.com/watch?v=Oe7fBNVvTPs"
+    - title: "Trafego Pago do Zero | Pedro Sobral e Dener Lippert | PrimoCast 384"
+      type: "conversational"
+      url: "https://www.youtube.com/watch?v=ECbdGpX2jpA"
+    - title: "Como ter resultado em 2025 sem procrastinar | Pedro Sobral e Malu Perini | PrimoCast 415"
+      type: "conversational"
+      url: "https://www.youtube.com/watch?v=lFeHpWvuK9A"
+  blog_posts:
+    - title: "Q&A: Pedro Sobral responde"
+      type: "written"
+      url: "https://pedrosobral.com.br/blog/c/estrategias-de-trafego-pago/qa-pedro-sobral-responde"
+    - title: "Como criar sua agencia de trafego pago?"
+      type: "written"
+      url: "https://pedrosobral.com.br/blog/c/estrategias-de-trafego-pago/como-criar-sua-agencia-de-trafego-pago"
+    - title: "Aprendi mais com essas tres historias do que com anos de estudo"
+      type: "written"
+      url: "https://pedrosobral.com.br/blog/c/como-ser-um-gestor-de-trafego-pago/aprendi-mais-com-essas-tres-historias-do-que-com-anos-de-estudo"

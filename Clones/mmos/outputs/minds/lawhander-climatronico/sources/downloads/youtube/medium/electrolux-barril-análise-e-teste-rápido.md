@@ -1,0 +1,14 @@
+# ELECTROLUX BARRIL | ANÁLISE E TESTE RÁPIDO
+
+- **Video ID:** dPKcLvT119U
+- **URL:** https://www.youtube.com/watch?v=dPKcLvT119U
+- **Duration:** 3 min
+- **Views:** 357
+- **Published:** 2024-12-12T22:00:06Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+Fala meu povo Boa tarde professor Valdeir Araújo aqui da Equipe técnica e pedagógica de la Wander que da academia da manutenção eletrônica direta aqui da laec pessoal seguinte essa maquininha né a gente já conhece ela é plaquinha nova da Eletrolux barril seg essa plaquinha dissipador dela né como vocês sabem na máquina ela fica pro lado de fora da máquina consequentemente o dissipador de calor não recebe ventilação do ventilador que acontece então não recebe ventilação no ventilador porque ele fica para fora o módulo IPM acaba super aquecendo demais passa a trabalhar com uma corrente muito elevada né Muito elevada ele pode simplesmente entrar em curto ou pode fazer causar outro problema que você tá vendo aqui à frente dela que eu tô com outro ó mostrando o verso dela a parte de trás dela certo eh porque para não ter o trabalho de tirar né ela daqui dá um trabalhinho então aqui eu tenho circuitinho de leitura de corrente dela aqui deveria ter um resistor chant grandão aqui se eu não me engano ele é de 3 m Não tô lembrado aí você vê que ele vem aqui direto do IPM né ó captura a leitura de corrente do IPM esse resistor chante tirei viu pessoal ele tá aqui tá sempre que eu tirei ele um resistor chant grandão tirei ele para colocar em outra máquina ele tava bom ainda e passa por uns resistores smds ó PM vai pro chant do chant passa pros resistores smds e daqui pessoal atravessa aqui um furinho desse ó um telz desse e essa leitura vem direto pro microcontrolador né então essa máquina tem dois problemas né primeiro problema dissipador para fora da unidade causa sobrecorrente no IPM por causa da do superaquecimento por conta do superaquecimento é outro problema é que a leitura de corrente dela aqui ó e vem direto do chant passa por os smds aqui e vai direto pro microcontrolador então quando o IPM passa por um surto de sobrecorrente Essa sobrecorrente é transferida diretamente pro resistor chant diretamente pros resistores smds e imediatamente pro microcontrolador né geralmente matando esse micro certo E aí muitas vezes deixando a placa sem reparo por enquanto certo porque ainda não há como vai gravar o micro dessa placa Então esse aí foi o circuitinho de leitura de corrente dela beleza dessa placa aí muito conhecido de vocês tem dado uma dozinha de cabeça mas Muitas delas tem reparo viu sei que sei que ela tá causando dor de cabeça mas a gente pega aqui alguns que dá reparo sim viu para esclarecer mu muita gente pergunta Ainda sobre isso

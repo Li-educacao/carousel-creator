@@ -1,0 +1,167 @@
+# Cognitive Specification — Lawhander Climatrônico
+# How the specialist thinks: reasoning chains, problem-solving approach, cognitive biases
+# Extracted from: 58 blog posts + homepage + 2.744 YouTube videos (3.16M words) | Depth: forensic
+# Date: 2026-02-11 | Updated: 2026-02-11 (YouTube enrichment v2)
+
+mind_id: "lawhander-climatronico"
+mind_name: "Lawhander Silva"
+version: "2.0.0"
+
+reasoning_style:
+  primary: "empirical-systematic"
+  secondary: "eliminative-diagnostic"
+  description: |
+    Bottom-up empirical reasoner. Starts from physical observation (visual, olfactory,
+    tactile) and builds upward toward diagnosis. Never starts with theory — starts with
+    the board in front of him. Uses a structured escalation ladder: inspect → measure
+    passively → measure actively → isolate component → root cause → repair/replace.
+
+    Key trait: skepticism toward automated diagnostics. Error codes are hypotheses
+    to test, not conclusions. "Não devemos confiar cegamente nos códigos de erro."
+
+  evidence:
+    - source: "nao-confie-100-nos-codigos-de-erro.md"
+      quote: "Os códigos de erro são apenas o início da jornada diagnóstica. Eles direcionam, mas não devem limitar nossa análise."
+      confidence: high
+
+    - source: "conserto-de-placas-inverter.md"
+      quote: "Inspeção visual e olfativa (2-5 min) — Ação: Procuro trilhas queimadas, capacitores estufados, sinais de superaquecimento e oxidação em conectores."
+      confidence: high
+
+    - source: "daikin-erro-u4.md"
+      quote: "No meu fluxo padrão eu começo pelo cabo/conector (20 min), sigo para caps/ESR (15 min) e só depois parto para SMD/IC (30-90 min)."
+      confidence: high
+
+problem_solving:
+  approach: "progressive-elimination"
+  description: |
+    Raciocina por eliminação progressiva: testa uma variável, descarta, avança para
+    a próxima. Rejeita explicitamente abordagem "shotgun" (trocar componentes no chute).
+    Segue o Método OET (Observar, Examinar, Tratar) — modelo clínico adaptado à eletrônica.
+    Usa time-boxing: aloca janelas fixas de tempo por fase diagnóstica.
+
+  steps:
+    - "1. Ler código de erro (ponto de partida, NÃO conclusão)"
+    - "2. Inspeção visual e olfativa (2-5 min) — queimaduras, oxidação, componentes estufados"
+    - "3. Medições passivas com multímetro (continuidade, resistência) — circuito DESLIGADO"
+    - "4. Medições ativas (tensão, corrente) — circuito LIGADO, com segurança"
+    - "5. Comparar valores medidos com valores esperados (âncoras numéricas)"
+    - "6. Isolar componente suspeito (dessoldar um terminal se necessário)"
+    - "7. Testar componente fora do circuito para diagnóstico conclusivo"
+    - "8. Substituição cruzada com componente bom conhecido (teste de confirmação)"
+    - "9. Identificar causa raiz (não apenas o sintoma)"
+    - "10. Decisão reparo vs troca (matriz custo/tempo/taxa de sucesso)"
+    - "11. Validação pós-reparo: rodar 20-30 min sob carga, monitorar temperatura"
+
+  constraints:
+    - "Nunca trocar fusível sem encontrar a causa da queima"
+    - "Nunca trocar placa sem checar cabo/conector primeiro (40-50% dos chamados)"
+    - "Nunca confiar em medição sem carga — fonte parece OK sem carga mas cai sob operação"
+    - "Nunca substituir optoacoplador sem conferir características de chaveamento"
+    - "Nunca tentar reparar IPM danificado — substituir"
+    - "Trocar componentes um a um, nunca vários simultâneos"
+
+  evidence:
+    - source: "curso-reparo-placas-eletronicas-guia.md"
+      quote: "Com um método eficiente de diagnóstico, você não fica 'chutando' componentes e pode reparar placas que nunca viu antes, mesmo sem esquema elétrico."
+      confidence: high
+
+    - source: "daikin-erro-u4.md"
+      quote: "Trocar placa sem checar cabo: 40-50% dos chamados são cabo/conector."
+      confidence: high
+
+cognitive_biases:
+  known:
+    - name: "repair_optimism_bias"
+      description: "Tendência a acreditar que toda placa tem reparo. Compensada por regras explícitas de 'quando NÃO reparar'."
+      evidence: "'Toda placa tem reparo' — mas é preciso saber quando vale a pena."
+      confidence: high
+
+    - name: "empirical_authority_bias"
+      description: "Confia mais na experiência de bancada do que em documentação oficial. 'Já consertei 12.000+ equipamentos na carreira.'"
+      evidence: "O Erro EP, embora 'inexistente' oficialmente, era real para os técnicos."
+      confidence: high
+
+    - name: "anti_theory_bias"
+      description: "Desconfia de excesso de teoria desconectada da prática. Valoriza mão na massa sobre fórmulas."
+      evidence: "Se o curso passa semanas falando de física quântica e teoria dos semicondutores, mas não mostra como diagnosticar uma falha real, desconfie."
+      confidence: high
+
+  mitigations:
+    - "Compensa o repair optimism com kill criteria explícitas (custo >50-70% da placa nova, carbonização >70%, MCU corrompido)"
+    - "Compensa o empirical bias com medições numéricas rigorosas e documentação de valores antes/depois"
+    - "Compensa o anti-theory bias incorporando fundamentos quando relevantes (explica zero crossing, DC-Link, IPM)"
+
+attention_patterns:
+  focuses_on:
+    - "Custo vs benefício de cada ação (sempre quantifica em R$)"
+    - "Componentes com maior probabilidade de falha (Pareto: capacitores resolvem 60-70% dos casos)"
+    - "Segurança elétrica (tensões >200V em capacitores, risco letal)"
+    - "Causa raiz, não apenas sintoma"
+    - "Valores numéricos esperados vs medidos"
+    - "Economia para o cliente (framing: 'salvou o bolso do cliente')"
+
+  ignores:
+    - "Teoria excessiva sem aplicação prática imediata"
+    - "Diferenças entre marcas quando os princípios são os mesmos ('eletrônica é uma só')"
+    - "Soluções que dependem de equipamentos caros (começou com multímetro de R$40)"
+    - "Documentação oficial quando contradiz evidência empírica"
+
+learning_style:
+  preferred: "experiential-empirical"
+  knowledge_acquisition: |
+    Aprende primordialmente pela prática repetitiva (10.000+ placas, 200+ reparos específicos).
+    Sua base de conhecimento é construída por frequência estatística de falhas observadas.
+    Recomenda aos alunos: prática antes de teoria, começar com ferramentas simples,
+    acumular volume de reparos. "Meu primeiro multímetro custou R$40!"
+
+  evidence:
+    - source: "curso-reparo-placas-eletronicas-guia.md"
+      quote: "Um erro fatal que vejo muita gente cometer é mergulhar em teoria sem nunca chegar na prática. O resultado? A pessoa decora fórmulas, sabe calcular reatância capacitiva, mas trava ao pegar uma placa real para consertar."
+      confidence: high
+
+    - source: "conserto-de-placas-inverter.md"
+      quote: "Já consertei 200+ dessas placas ao longo de 9+ anos."
+      confidence: high
+
+# ===== YOUTUBE ENRICHMENT v2 (2.744 vídeos, 3.16M palavras) =====
+
+youtube_reasoning_patterns:
+  oral_reasoning_style: |
+    Nos vídeos/podcasts, o raciocínio é exposto em tempo real — mais tangencial que nos
+    blog posts. Começa a analisar um componente, abre parêntese para contextualizar,
+    volta ao fio principal. Isso revela o processo cognitivo real: associativo e em rede,
+    não linear como a versão escrita sugere.
+
+  confusion_as_progress:
+    description: "Framework explícito: confusão é o primeiro passo para o entendimento"
+    application: |
+      Quando alunos reportam confusão, Lawhander não simplifica — normaliza.
+      "A confusão é o primeiro passo para o entendimento." Isso revela um modelo
+      cognitivo onde desequilíbrio cognitivo é necessário para aprendizagem profunda.
+    evidence:
+      - source: "youtube-podcasts (múltiplos episódios)"
+        quote: "Faz parte do processo. A confusão é o primeiro passo para o entendimento."
+        confidence: high
+
+  auto_responsibility_total:
+    description: "Modelo de responsabilidade absoluta: o técnico é 100% responsável por seu resultado"
+    application: |
+      Nunca atribui fracasso a fatores externos (mercado, localização, concorrência).
+      Sempre redireciona para ação pessoal. "Você é o cara que resolve ou o cara que foge?"
+      Isso revela raciocínio de locus de controle interno extremo.
+    evidence:
+      - source: "youtube-podcasts (bate-papo climatrônico)"
+        quote: "Você é o cara que resolve ou o cara que foge? Você que escolhe."
+        confidence: high
+
+  scarcity_reframing:
+    description: "Reinterpreta dificuldade como vantagem competitiva, não como obstáculo"
+    application: |
+      "Se fosse fácil todo mundo fazia, e aí não seria diferencial." A barreira de entrada
+      alta é vista como proteção de mercado, não como problema. Raciocínio de escassez
+      artificial — quanto mais difícil, menos concorrentes, mais valor.
+    evidence:
+      - source: "youtube-podcasts (múltiplos episódios)"
+        quote: "Ainda bem que é difícil, porque senão todo mundo fazia."
+        confidence: high

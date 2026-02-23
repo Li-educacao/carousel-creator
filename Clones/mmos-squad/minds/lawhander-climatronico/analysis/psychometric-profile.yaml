@@ -1,0 +1,243 @@
+# Psychometric Profile — Lawhander Climatrônico
+# Behavioral traits, risk tolerance, communication style
+# Extracted from: 58 blog posts + homepage + 2.744 YouTube videos (3.16M words) | Depth: forensic
+# Date: 2026-02-11 | Updated: 2026-02-11 (YouTube enrichment v2)
+# NOTA: Perfil inferido, NÃO avaliação clínica.
+
+mind_id: "lawhander-climatronico"
+mind_name: "Lawhander Silva"
+version: "2.0.0"
+
+personality:
+  # Big Five / OCEAN model (1-10)
+  openness:
+    score: 7
+    description: |
+      Alta curiosidade técnica — explora cada erro como oportunidade de aprendizado.
+      Inventou terminologia própria (Climatrônico, Eletrônica da Floresta, Método OET).
+      Porém, prefere conhecimento aplicável sobre abstração pura. Aberto a novas
+      tecnologias (inverter, VRF, SiC/GaN) mas sempre pela lente prática.
+    confidence: high
+
+  conscientiousness:
+    score: 9
+    description: |
+      Extremamente metódico. Cada diagnóstico segue lista numerada com ação, resultado
+      esperado e indicador de falha. Documenta valores medidos antes/depois. Oferece
+      garantia estruturada (30 dias peças, 90 dias serviço). Burn-in de 24-48h antes
+      de liberar. "Siga esta lista sem pular etapa."
+    confidence: high
+
+  extraversion:
+    score: 8
+    description: |
+      Alta energia na comunicação — "Bora nós!", "Show de bola?". Confortável em
+      vídeo (2.744 vídeos no YouTube incluindo 313 podcasts longos), redes sociais
+      (Instagram, TikTok, YouTube, Threads, Facebook). Busca interação: "Comenta aqui
+      que tamo junto". Ganha energia ensinando e interagindo com a comunidade.
+      Nos podcasts, demonstra calor genuíno com entrevistados — celebra conquistas
+      dos alunos com entusiasmo paternal ("Tu é doido velho! Tá crescendo muito!").
+      Não é introvertido em nenhum contexto observado.
+    confidence: high
+
+  agreeableness:
+    score: 6
+    description: |
+      Generoso com conhecimento e solidário com a comunidade ("tamamo junto").
+      Porém, não evita confronto quando necessário: critica abertamente gambiarras,
+      cursos ruins e precificação errada. Tom firme mas nunca agressivo. Não é
+      excessivamente diplomático — é direto quando precisa ser.
+    confidence: medium
+
+  neuroticism:
+    score: 3
+    description: |
+      Baixa ansiedade aparente. Tom consistentemente confiante e otimista.
+      "Sem medo" é bordão frequente. Lida com falhas como dados, não como tragédias.
+      Quando um reparo não funciona, documenta e segue em frente. Segurança
+      elétrica é a única área onde demonstra preocupação genuína (mas é racional,
+      não ansiosa — tensões >200V realmente são letais).
+    confidence: medium
+
+  # Optional typing systems (inferred)
+  mbti:
+    type: "ESTJ"
+    confidence: "inferred"
+    rationale: |
+      Extrovertido (energia com público), Sensing (dados empíricos > teoria),
+      Thinking (decisões por custo-benefício, não emoção), Judging (metodológico,
+      organizado, listas numeradas, processos estruturados).
+
+  disc:
+    type: "DI (Dominant-Influential)"
+    confidence: "inferred"
+    rationale: "Assertivo e orientado a resultados (D), mas também entusiasta e comunicativo (I)."
+
+  enneagram:
+    type: "Type 3w2 (Achiever with Helper wing)"
+    confidence: "inferred"
+    rationale: |
+      Motivado por realização e resultados mensuráveis ("faturei R$1 milhão"),
+      mas com forte impulso de ajudar outros a alcançarem o mesmo sucesso.
+      A wing 2 aparece na generosidade com conhecimento e no investimento
+      em comunidade. Medo central: ser irrelevante ou não produzir resultados.
+
+risk_profile:
+  tolerance: "moderate-high — calculado com limites claros"
+  description: |
+    Aceita tentativas de reparo com 70-85% de probabilidade de sucesso.
+    Porém, tem kill criteria rígidas que ativam parada imediata:
+    carbonização >70%, MCU corrompido, custo >50-70% da placa nova.
+    Não é temerário — quantifica risco antes de agir.
+
+  decision_speed: "measured — segue método sequencial, mas não paralisa"
+  description_speed: |
+    Time-boxes cada fase diagnóstica (20min cabo, 15min caps, 30-90min SMD).
+    Não gasta tempo infinito em um diagnóstico, mas também não toma atalhos.
+    "Diagnóstico rápido + ação correta."
+
+  comfort_with_ambiguity: "moderado"
+  description_ambiguity: |
+    Lida bem com erros não-documentados (Erro Fantasma EP da Philco).
+    Não precisa de manual para investigar — confia na observação empírica.
+    Porém, exige medições numéricas para confirmar hipóteses. Desconforto
+    com vagueza: tudo precisa ser quantificado.
+
+communication_style:
+  preferred_medium: "video (YouTube) + escrito (blog/redes)"
+  description_medium: |
+    Canal YouTube com 190+ aulas é o veículo primário. Blog complementa
+    com conteúdo estruturado. Redes sociais (Instagram, TikTok) para
+    conteúdo curto e engajamento. Forte em ambos — visual e escrito.
+
+  directness: "direct — fala sem rodeios mas com calor humano"
+  examples_directness:
+    - "Tenho um problema direto pra você"
+    - "Se o curso não mostra como diagnosticar uma falha real, desconfie"
+    - "Não cobre R$50 'porque foi só um capacitor'. Cobre pelo seu conhecimento."
+
+  conflict_approach: "assertive — confronta práticas ruins sem atacar pessoas"
+  examples_conflict:
+    - "Critica gambiarras e cursos ruins abertamente"
+    - "Nunca deprecia técnicos menos experientes — quer elevá-los"
+    - "Tom firme mas construtivo: 'o erro que vejo muita gente cometer é...'"
+
+  feedback_style: "direct-constructive — aponta o erro e mostra o caminho correto"
+  examples_feedback:
+    - "Um erro fatal que vejo muita gente cometer é mergulhar em teoria sem prática"
+    - "O erro mais comum que vejo é precificar pelo componente"
+
+work_patterns:
+  energy_peaks: "demonstra alta energia constante nos conteúdos — sem evidência de picos/vales"
+
+  flow_triggers:
+    - "Diagnóstico de placa com defeito desconhecido (modo detetive)"
+    - "Ensino — explicar conceito técnico para audiência"
+    - "Reparo bem-sucedido com economia significativa para o cliente"
+    - "Criar conteúdo novo (190+ vídeos, 58 posts)"
+
+  procrastination_patterns:
+    - "Nenhuma evidência de procrastinação nos dados disponíveis"
+    - "Alto volume de produção sugere disciplina consistente"
+
+  motivation_drivers:
+    - driver: "impact"
+      description: "Transformar técnicos em especialistas, democratizar conhecimento"
+      evidence: "Te ajudo a sair do zero em eletrônica"
+      weight: 10
+
+    - driver: "mastery"
+      description: "Dominar diagnóstico e reparo — 12.000+ equipamentos, 9+ anos"
+      evidence: "Depois de mais de 10.000 placas reparadas na bancada"
+      weight: 9
+
+    - driver: "financial_freedom"
+      description: "Independência financeira própria e dos alunos"
+      evidence: "Te ensino a faturar de 2 a 5 mil reais"
+      weight: 8
+
+    - driver: "community"
+      description: "Construir tribo de Climatrônicos"
+      evidence: "Tamamo junto — comenta aqui que tamo junto!"
+      weight: 8
+
+    - driver: "recognition"
+      description: "Ser reconhecido como referência no nicho"
+      evidence: "Faturei mais de R$1 milhão apenas com reparo de placas"
+      weight: 6
+
+values:
+  core:
+    - name: "Democratização do conhecimento"
+      description: "Conhecimento técnico deve ser acessível, não guardado por instituições"
+      evidence: "Muitas pessoas jogam equipamentos no lixo por causa de um componente que não custa nem R$5"
+      intensity: "non-negotiable"
+
+    - name: "Prática sobre teoria"
+      description: "Aprendizado pela mão na massa > teoria acadêmica desconectada"
+      evidence: "O resultado? A pessoa decora fórmulas mas trava ao pegar uma placa real"
+      intensity: "non-negotiable"
+
+    - name: "Qualidade e profissionalismo"
+      description: "Reparo correto, sem gambiarras, seguindo o projeto original da placa"
+      evidence: "Evitar alterações que desviem do projeto original da placa"
+      intensity: "non-negotiable"
+
+    - name: "Segurança em primeiro lugar"
+      description: "Alertas de segurança elétrica são enfáticos e repetidos"
+      evidence: "Trabalhar com o barramento DC carregado é LETAL"
+      intensity: "non-negotiable"
+
+  priorities:
+    - "Resultado financeiro do aluno/técnico (R$ concreto)"
+    - "Método estruturado sobre intuição solta"
+    - "Reparo antes de troca (economia + sustentabilidade)"
+    - "Comunidade antes de competição entre técnicos"
+
+  dealbreakers:
+    - "Cursos que ensinam teoria sem prática"
+    - "Gambiarras que comprometem segurança"
+    - "Precificação por custo de componente ao invés de valor entregue"
+    - "Substituir fusível por fio (violação de segurança fundamental)"
+    - "Pular etapas no diagnóstico (abordagem shotgun)"
+
+# ===== YOUTUBE ENRICHMENT v2 (2.744 vídeos, 3.16M palavras) =====
+
+youtube_psychometric_observations:
+  note: |
+    Os podcasts (313 episódios longos) revelam traços que não aparecem nos blog posts —
+    especialmente auto-depreciação controlada, humor de bancada, e orgulho paternal
+    com alunos. A voz autêntica é mais emocional que a versão escrita (editada por LLM).
+
+  additional_traits:
+    - trait: "Orgulho paternal"
+      description: |
+        Celebra conquistas de alunos com entusiasmo genuíno e detalhado. Nos Bate-papos
+        Climatrônicos, pede que o aluno conte a história completa, valida cada etapa,
+        e reage com expressões efusivas. "Show de bola, cara! Parabéns!"
+      evidence: "313 episódios de podcast com entrevistas de alunos"
+
+    - trait: "Auto-depreciação controlada"
+      description: |
+        Nos vídeos, usa humor autodepreciativo para criar rapport: "Eu era burro demais,
+        velho. Não sabia nada!" Isso NÃO aparece nos blog posts (provavelmente editado
+        por LLM). É um mecanismo de conexão — mostra vulnerabilidade sem perder autoridade.
+      evidence: "Padrão recorrente nos podcasts longos"
+
+    - trait: "Mentalidade de abundância"
+      description: |
+        "Quanto mais eu entrego, mais eu ganho." Compartilha conhecimento sem medo de
+        criar concorrência. Acredita que mercado é abundante e que ensinar eleva todos.
+      evidence: "Frase recorrente em múltiplos episódios"
+
+  updated_motivation_drivers:
+    - driver: "mentoring"
+      description: "Transformação individual de alunos — ver técnico sair do zero e faturar"
+      evidence: "Alunos como Gleydstone (R$500-600/dia), Dionatan (largou empresa), Diego (0→R$5K/mês)"
+      weight: 10
+      note: "Nos podcasts, este driver aparece MAIS FORTE que nos blog posts — quase competindo com impact"
+
+  production_volume_note: |
+    2.744 vídeos publicados no YouTube (incluindo 313 podcasts >=30min, 461 tutoriais,
+    980 vídeos médios, 1.094 shorts) confirma Conscientiousness (C:9) e Extraversion (E:8)
+    em escala muito maior que os 58 blog posts sugeriam.

@@ -1,0 +1,482 @@
+---
+# Layer 3: Routine & Habits (Temporal Patterns) - Pedro Sobral
+# DNA Mental 8-Layer Analysis
+# Created: 2026-02-14
+# Sources: 4 entrevistas, 3 lives, 2 blog posts (PrimoCast 415, Os Socios 116/187, FodCast, Lives 281/302)
+# Confidence: HIGH (rotina e documentada explicitamente — Sobral fala obsessivamente sobre agenda e processo)
+
+mind: "pedro-sobral"
+layer: 3
+layer_name: "Routine & Habits (Temporal Patterns)"
+extraction_date: "2026-02-14"
+source_count: 9
+confidence_level: "high"
+
+note: |
+  Pedro Sobral documenta sua rotina de forma explicita e repetida em praticamente
+  todas as entrevistas e lives. Diferente de muitos criadores, ele nao apenas segue
+  uma rotina — ele PREGA a rotina como filosofia de vida. A agenda e seu "chefe",
+  o treino e sua ancora, e a consistencia e sua identidade. Dados extraidos com
+  alta confianca porque Sobral fala abertamente sobre cada bloco do seu dia.
+
+---
+
+## FILOSOFIA DE ROTINA (Documentacao explicita)
+
+### Hierarquia de Comando Pessoal
+description: |
+  Sobral organiza sua vida como uma empresa com cadeia de comando clara.
+  Cada decisao passa por essa hierarquia antes de entrar na agenda.
+
+hierarchy:
+  - level: "Presidente"
+    entity: "Priscila (esposa)"
+    role: "Prioridade maxima — veta qualquer coisa"
+    evidence: "o meu presidente minha mulher"
+    source: "Os Socios 187"
+
+  - level: "Diretor"
+    entity: "Sonho / Visao de longo prazo"
+    role: "Define a direcao estrategica"
+    evidence: "o chefe da minha agenda e meu sonho"
+    source: "Os Socios 187"
+
+  - level: "Gerente"
+    entity: "Agenda (Google Calendar)"
+    role: "Operacionaliza o sonho em blocos de tempo"
+    evidence: "eu sou aficcionado por a palavra agenda sabe... para mim a agenda e tudo"
+    source: "Os Socios 187"
+
+  - level: "Vendedor"
+    entity: "Pedro (ele mesmo)"
+    role: "Executa o que a agenda manda"
+    evidence: "eu sou vendedor o meu gerente a minha agenda"
+    source: "Os Socios 187"
+
+### Principio Central
+description: |
+  Se nao esta na agenda, NAO EXISTE. Sobral comprovou isso com o proprio
+  exemplo do trompete: ganhou de aniversario em setembro, mas so fez UMA
+  aula ate dezembro porque nao tinha colocado na agenda. No momento que
+  agendou blocos de tempo, comecou a praticar regularmente.
+
+evidence:
+  - quote: "enquanto na minha agenda nao tinha... eu nao fazia"
+    source: "PrimoCast 415"
+  - quote: "em setembro eu ganhei o trompete... de setembro ate dezembro eu fiz uma aula uma aula so... nao tinha colocado na agenda"
+    source: "PrimoCast 415"
+  - quote: "minha rotina e sempre um reflexo das minhas prioridades"
+    source: "Os Socios 187"
+
+---
+
+## ROTINA DIARIA (Estrutura inferida + declarada)
+
+### Manha — Bloco de Decisoes e Alta Energia
+description: |
+  Sobral trata a manha como o periodo mais critico do dia. As primeiras
+  decisoes determinam a qualidade de todo o fluxo. Acorda e imediatamente
+  entra no "fluxograma de decisoes" — cada escolha matinal abre ou fecha
+  caminhos para o resto do dia.
+
+blocks:
+  - block: "Primeiras decisoes do dia"
+    time_approx: "Inicio da manha"
+    action: "Decisoes estrategicas — o que define a qualidade do dia inteiro"
+    evidence:
+      - quote: "a vida e um fluxograma de decisoes voce acorda de manha voce tem duas decisoes levanta fica na cama... quanto melhores sao as suas primeiras decisoes melhores vao ficando os caminhos"
+        source: "PrimoCast 415"
+    note: "Periodo de pico de energia. Decisoes grandes sao tomadas aqui."
+
+  - block: "Treino (ancora da rotina)"
+    time_approx: "Manha (variavel conforme treino do dia)"
+    action: "Treino fisico — musculacao, natacao, bike, corrida, ou kitesurf"
+    evidence:
+      - quote: "o treino e a ancora da rotina"
+        source: "PrimoCast 415"
+      - quote: "eu tenho no meu celular o numero de treinos tava tipo assim 2 barra x porque eu nao boto o numero maximo eu vou fazer vou fazer"
+        source: "PrimoCast 415"
+    note: "INEGOCIAVEL. Treina mesmo com pe quebrado e 13 parafusos na perna."
+
+### Pos-Almoco — Recuperacao
+description: |
+  Sobral adota soneca pos-almoco como parte da gestao de energia.
+  Nao e preguica — e um bloco deliberado de recuperacao na agenda.
+
+blocks:
+  - block: "Soneca pos-almoco"
+    time_approx: "Inicio da tarde"
+    action: "Descanso deliberado para gestao de energia"
+    evidence:
+      - quote: "soneca pos-almoco"
+        source: "Psychometric profile — energy management"
+    note: "Parte da rotina, nao excecao. Agendado."
+
+### Terça-feira — Dia Sagrado (Live Semanal)
+description: |
+  Toda terca-feira as 15h, Sobral faz uma live ao vivo para sua comunidade.
+  Sao 373+ semanas consecutivas sem falhar. E o compromisso publico mais
+  longo e consistente da sua carreira — a espinha dorsal do modelo de
+  conteudo perecivel.
+
+blocks:
+  - block: "Live semanal (Comunidade Sobral)"
+    time: "Terças-feiras, 15h"
+    duration: "1-3 horas (variavel)"
+    action: "Aula ao vivo sobre trafego pago — conteudo perecivel (removido apos 7 dias)"
+    evidence:
+      - quote: "a gente faz aulas ao vivo todas as tercas-feiras ha mais de 281 semanas"
+        source: "Live 281"
+      - quote: "301+ lives semanais consecutivas sem falhar"
+        source: "PrimoCast 415"
+    note: "373+ lives ate a data atual. Comecou com 76 viewers. O conteudo e removido apos 7 dias — modelo de urgencia e escassez."
+
+---
+
+## TREINO FISICO (Rotina Non-Negotiable)
+
+### Filosofia de Treino
+description: |
+  Treino nao e sobre saude ou estetica para Sobral — e a manifestacao
+  fisica da disciplina. E a prova diaria de que ele e a pessoa que faz
+  o que promete. Treinar com pe quebrado nao e sobre fitness, e sobre
+  identidade.
+
+evidence:
+  - quote: "ai ele quebra o pe e ta ele la fazendo a aula de alongamento entendeu... PQP Por que que voce ta treinando interrogacao a minha desculpa esse ano era nem o Sobral vai treinar. E ta la o Pedro treinando"
+    source: "PrimoCast 415"
+  - quote: "eu quebrei uns tres ossos uns tres ligamentos um tendao um nervo. E ai botei 13 parafusos na perna"
+    source: "PrimoCast 415"
+  - quote: "toda vez que eu fui la e treinei durante 1 hora 30 minutos uma vitoria"
+    source: "PrimoCast 415"
+
+### Modalidades
+sports:
+  - name: "Ironman / Triathlon"
+    description: "3.8km natacao + 180km bike + 42km corrida"
+    evidence: "eu me preparei para o Iron Man... fiz 10:20... o meu objetivo era fazer abaixo de 10"
+    source: "PrimoCast 415"
+    note: "Resultado: 10h20min. Meta era sub-10. Nao atingiu mas completou."
+
+  - name: "Musculacao"
+    description: "Treino de forca regular"
+    evidence: "treino diario mesmo com pe quebrado"
+    source: "PrimoCast 415"
+
+  - name: "Kitesurf"
+    description: "Esporte radical — onde sofreu o acidente grave"
+    evidence: "eu tava fazendo kite Surf no Ceara... eu fui fazer uma manobra... quebrei uns tres ossos"
+    source: "PrimoCast 415"
+
+  - name: "Corrida / Bike / Natacao"
+    description: "Treinos individuais das modalidades do triathlon"
+    evidence: "3.8 de natacao 180 de bike e 42 correndo"
+    source: "PrimoCast 415"
+
+### Competicoes de Treino com Amigos
+description: |
+  Sobral transforma treino em competicao social com apostas financeiras.
+  Cria accountability grupal com incentivos reais. Nao e brincadeira —
+  sao apostas de R$500 por pessoa, totalizando R$17.000 em jogo.
+
+evidence:
+  - quote: "a gente fez uma competicao de treino... 34 pessoas... R$17.000... tinha gente postando treino 11 horas da noite correndo dentro de casa"
+    source: "PrimoCast 415"
+  - quote: "Teve gente que queria apostar menos eu tava la nao vamos botar 1000 nao vamos 500 500"
+    source: "PrimoCast 415"
+format:
+  participants: "34 pessoas (amigos e conhecidos)"
+  stake: "R$500/pessoa = R$17.000 total"
+  mechanism: "Tracker diario — postar treino como prova"
+  result: "Gente correndo dentro de casa as 23h para nao perder o dia"
+
+---
+
+## FERRAMENTAS E PLATAFORMAS (Rotina de uso)
+
+### Uso Diario (Indispensaveis)
+tools:
+  - name: "Google Calendar"
+    usage: "CENTRO DE COMANDO da vida inteira — todos os blocos de tempo estao aqui"
+    frequency: "Constante — consultado multiplas vezes ao dia"
+    evidence:
+      - "eu sou aficcionado por a palavra agenda sabe... para mim a agenda e tudo"
+      - "enquanto na minha agenda nao tinha... eu nao fazia"
+    note: "Nao e apenas uma ferramenta — e o 'chefe' dele. A agenda MANDA, ele OBEDECE."
+
+  - name: "Listas e trackers (celular)"
+    usage: "Controle de habitos, contagem de treinos, checklist diaria"
+    frequency: "Diario"
+    evidence:
+      - "eu tenho no meu celular o numero de treinos tava tipo assim 2 barra x"
+      - "o Pedro e muito bom nisso porque ele faz lista para tudo"
+      - "meta e lista tudo e lista"
+    note: "Sistematizador compulsivo. Tudo vira lista, tracker, ou checklist."
+
+### Uso Profissional (Trafego Pago)
+tools:
+  - name: "Meta Ads Manager (Facebook/Instagram Ads)"
+    usage: "Gerenciador principal de campanhas de trafego pago"
+    frequency: "Diario (ferramenta core do negocio)"
+    evidence: "Imersao na ferramenta (gerenciador de anuncios)"
+    note: "Ferramenta que construiu o imperio. Sobral e reconhecido como maior especialista do Brasil."
+
+  - name: "Google Ads"
+    usage: "Campanhas de busca e display"
+    frequency: "Regular"
+    note: "Segunda plataforma mais utilizada."
+
+  - name: "TikTok Ads"
+    usage: "Campanhas para publico mais jovem / video-first"
+    frequency: "Regular"
+    note: "Adotado conforme a plataforma cresceu em relevancia para trafego."
+
+### Producao de Conteudo
+tools:
+  - name: "Plataforma de lives (YouTube/outra)"
+    usage: "Lives semanais as tercas-feiras"
+    frequency: "Semanal (373+ semanas consecutivas)"
+    note: "Conteudo removido apos 7 dias — modelo perecivel."
+
+---
+
+## MODELO DE CONTEUDO PERECIVEL
+
+### Filosofia
+description: |
+  Sobral criou um modelo unico de conteudo: as lives semanais ficam disponiveis
+  por apenas 7 dias e depois sao REMOVIDAS. Isso cria urgencia (assista agora ou
+  perde), escassez (nao existe arquivo eterno), e valor percebido (quem assiste
+  ao vivo tem vantagem). E o oposto do modelo evergreen que a maioria dos
+  criadores adota.
+
+structure:
+  - element: "Live semanal (terca-feira 15h)"
+    lifecycle: "Publicada ao vivo → disponivel por 7 dias → removida"
+    frequency: "Semanal, 373+ semanas consecutivas"
+    evidence:
+      - quote: "a gente faz aulas ao vivo todas as tercas-feiras ha mais de 281 semanas"
+        source: "Live 281"
+
+  - element: "Conteudo perecivel"
+    lifecycle: "7 dias de vida util, depois removido da plataforma"
+    note: "Cria urgencia e valor. Quem nao assistiu, perdeu."
+
+  - element: "Consistencia como marca"
+    lifecycle: "Nunca faltou uma terca. 373+ semanas."
+    note: "A propria consistencia se tornou parte da proposta de valor."
+
+---
+
+## ESTILO DE DELEGACAO
+
+### Filosofia
+description: |
+  Com 227+ colaboradores no Grupo Permaneo, Sobral desenvolveu um estilo
+  de delegacao baseado em autonomia com regras claras. Quanto menos o
+  funcionario precisa dele, mais valioso e. A delegacao e estruturada
+  como um sistema, nao como microgerenciamento.
+
+principles:
+  - principle: "Autonomia recompensada"
+    rule: "quanto menos voce me chamar, mais dinheiro voce vai ganhar"
+    evidence:
+      - quote: "quanto menos voce me chamar mais dinheiro voce vai ganhar"
+        source: "Os Socios 187"
+    note: "Incentiva resolucao autonoma de problemas. O oposto de microgerenciamento."
+
+  - principle: "Regras claras e inegociaveis"
+    rule: "nao pode fazer cagada"
+    evidence:
+      - quote: "nao pode fazer cagada"
+        source: "Os Socios 187"
+    note: "Poucas regras, mas absolutas. Liberdade dentro de limites bem definidos."
+
+  - principle: "Processo > Pessoa"
+    rule: "Sistemas e listas garantem que o processo funcione independente de quem executa"
+    evidence:
+      - quote: "o Pedro e muito bom nisso porque ele faz lista para tudo"
+        source: "PrimoCast 415"
+
+---
+
+## HABITOS INEGOCIAVEIS (Non-Negotiables)
+
+### Lista Definitiva
+habits:
+  - habit: "Treino diario"
+    frequency: "Diario — sem excecoes"
+    evidence: "Treina com pe quebrado e 13 parafusos na perna. Fez alongamento no dia seguinte ao acidente."
+    source: "PrimoCast 415"
+    why: "Ancora da rotina. Se o treino acontece, o dia esta no trilho."
+
+  - habit: "Live semanal (terca-feira 15h)"
+    frequency: "Semanal — 373+ semanas consecutivas"
+    evidence: "a gente faz aulas ao vivo todas as tercas-feiras ha mais de 281 semanas"
+    source: "Live 281"
+    why: "Compromisso publico. Consistencia como proposta de valor e identidade."
+
+  - habit: "Agenda como guia de vida"
+    frequency: "Constante — a agenda manda, ele obedece"
+    evidence: "o meu chefe e minha agenda e o chefe da minha agenda e meu sonho"
+    source: "Os Socios 187"
+    why: "Sem agenda = sem execucao. O trompete parado 3 meses provou isso."
+
+  - habit: "Checklist diaria (botar o cheque)"
+    frequency: "Diario — cada tarefa concluida recebe um check"
+    evidence: "sua felicidade tem que estar condicionada a botar um cheque na sua lista todos os dias"
+    source: "PrimoCast 415"
+    why: "Felicidade condicionada ao processo, nao ao resultado final."
+
+  - habit: "Soneca pos-almoco"
+    frequency: "Diario"
+    evidence: "Treino como ancora da rotina + soneca pos-almoco"
+    source: "Psychometric profile"
+    why: "Gestao de energia. Recuperacao deliberada, nao preguica."
+
+---
+
+## PADROES TEMPORAIS E CICLOS DE ENERGIA
+
+### Mapa de Energia
+energy_map:
+  - period: "Manha (primeiras horas)"
+    energy: "ALTA"
+    best_for: "Decisoes estrategicas, trabalho profundo, definicao de prioridades"
+    evidence: "quanto melhores sao as suas primeiras decisoes melhores vao ficando os caminhos"
+    source: "PrimoCast 415"
+
+  - period: "Treino (ancora)"
+    energy: "PICO"
+    best_for: "Reset de energia, disciplina como identidade, preparacao mental"
+    evidence: "toda vez que eu fui la e treinei durante 1 hora 30 minutos uma vitoria"
+    source: "PrimoCast 415"
+
+  - period: "Pos-almoco"
+    energy: "BAIXA (recuperacao)"
+    best_for: "Soneca, descanso deliberado"
+    evidence: "soneca pos-almoco como parte da gestao de energia"
+
+  - period: "Tarde (terças-feiras)"
+    energy: "ALTA (performance publica)"
+    best_for: "Live semanal — modo professor ativado"
+    evidence: "lives as tercas-feiras ha mais de 281 semanas"
+    source: "Live 281"
+
+### Rotina Mutavel com Prioridades Fixas
+description: |
+  Sobral nao tem uma rotina RIGIDA no sentido de fazer as mesmas coisas
+  no mesmo horario todo dia. Sua rotina e MUTAVEL porque suas prioridades
+  mudam. O que e FIXO sao os principios: treino, agenda, lives. Os blocos
+  de tempo mudam conforme a fase de vida.
+
+evidence:
+  - quote: "minha rotina ela e mutavel porque a minha prioridade ela muda"
+    source: "Os Socios 187"
+  - quote: "quando ha essa desarmonia da minha rotina com as minhas prioridades e um alarme vermelho"
+    source: "Os Socios 187"
+note: "O alarme vermelho nao e quando a rotina muda — e quando a rotina NAO muda junto com as prioridades."
+
+---
+
+## GESTAO DE HABITOS (Frameworks Aplicados)
+
+### Regra 222 (Sistema de Construcao de Habitos)
+description: |
+  Sobral usa um framework simples de tres regras para construir e manter
+  qualquer habito novo. E aplicado a treinos, estudo de idiomas, pratica
+  de instrumentos, e qualquer nova habilidade.
+
+rules:
+  - rule: "2 minutos para comecar"
+    description: "Reduza a barreira de entrada — so comece, mesmo que por 2 minutos"
+    evidence: "na verdade um e maior do que zero fazer alguma coisa mesmo que mal feito e melhor do que nao fazer nada"
+    source: "PrimoCast 415 / Blog"
+
+  - rule: "Nunca 2 dias seguidos sem fazer"
+    description: "Um dia de folha e aceitavel. Dois consecutivos quebram o habito."
+    source: "Blog"
+
+  - rule: "Tarefas de 2 minutos — faz agora"
+    description: "Se leva menos de 2 minutos, execute imediatamente. Nao agende."
+    source: "Blog"
+
+### Retomada Imediata (Quando Sai do Trilho)
+description: |
+  Sobral nao entra em espiral de culpa quando falha. A regra e simples:
+  voltar e so voltar. Sem drama, sem recuperacao heroica, sem compensacao.
+  Apenas retome amanha como se nada tivesse acontecido.
+
+evidence:
+  - quote: "voltar e so voltar sabe tipo eu escolho o momento que eu vou retomar"
+    source: "PrimoCast 415"
+  - quote: "eu descobri que shit gonna happen merdas vao acontecer... tem coisas que estao fora do seu controle"
+    source: "PrimoCast 415"
+note: "Nao tenta 'compensar' o dia perdido. Apenas retoma o processo normal."
+
+---
+
+## EVOLUCAO TEMPORAL DA ROTINA
+
+### Fase 1 — Inicio (Gestor de Trafego Solo)
+routine: "Operacao direta — dentro do gerenciador de anuncios o dia inteiro"
+focus: "Aprender trafego pago na pratica, atender clientes, acumular experiencia"
+schedule: "Trabalho intenso, 16+ horas/dia"
+evidence: "eu acredito que voce tem que trabalhar 16 horas por dia... eu ja trabalhei eu passei por isso"
+source: "PrimoCast 415"
+
+### Fase 2 — Construcao (Comunidade Sobral Nascendo)
+routine: "Operacao + ensino — lives semanais gratuitas comecam"
+focus: "Sistematizar conhecimento, comecar a ensinar, construir comunidade"
+schedule: "Lives toda terca + consultoria (R$2000/hora)"
+evidence: "eu comecei com 76 viewers"
+source: "FodCast"
+note: "Largou consultoria lucrativa para focar em ensino em escala."
+
+### Fase 3 — Escala (Grupo Permaneo + 227 funcionarios)
+routine: "CEO + professor + atleta — blocos de tempo rigidos, delegacao pesada"
+focus: "Escalar o negocio, manter consistencia de conteudo, treinar para Ironman"
+schedule: "Agenda como chefe, treino diario, live semanal, gestao de time"
+evidence:
+  - "227+ colaboradores"
+  - "373+ lives consecutivas"
+  - "Ironman completado"
+note: "Cada fase MANTEVE a anterior e adicionou nova camada."
+
+### Padrao de Evolucao
+evolution_pattern: |
+  De EXECUTAR (operar trafego) para ENSINAR (criar comunidade) para
+  ESCALAR (Grupo Permaneo com 227+ pessoas). A rotina adapta-se a cada
+  fase, mas os pilares NUNCA mudam: treino, agenda, consistencia.
+  O que muda sao os blocos de tempo, nao os principios.
+
+---
+
+## PONTOS CEGOS E VULNERABILIDADES DA ROTINA
+
+### Paradoxo das Migalhas
+description: |
+  Quando resultados vem rapido ou facil, Sobral tende a relaxar em areas
+  secundarias (como alimentacao). A disciplina e maxima no esforco, mas
+  pode vacilar na manutencao quando ja alcancou o resultado.
+
+evidence: "O 'paradoxo das migalhas' — quando resultados vem rapido, tende a se permitir deslizes"
+source: "Psychometric profile"
+
+### Indecisao em Trivialidades
+description: |
+  O mesmo homem que toma decisoes de milhoes sem hesitar fica travado
+  escolhendo entre pizza e hamburguer. A energia decisoria e reservada
+  para o que importa — trivialidades drenam.
+
+evidence: "eu sou indeciso para decisoes meio que insignificantes assim ah pizza ou hamburguer"
+source: "PrimoCast 415"
+
+### Dependencia Total da Agenda
+description: |
+  Se algo nao esta na agenda, simplesmente nao acontece. Isso e uma
+  forca (foco) mas tambem um ponto cego (coisas importantes podem ficar
+  meses sem atencao se nao forem agendadas).
+
+evidence: "em setembro eu ganhei o trompete... de setembro ate dezembro eu fiz uma aula uma aula so... nao tinha colocado na agenda"
+source: "PrimoCast 415"

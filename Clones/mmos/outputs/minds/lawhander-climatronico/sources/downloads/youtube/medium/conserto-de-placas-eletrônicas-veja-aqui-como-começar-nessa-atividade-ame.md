@@ -1,0 +1,14 @@
+# CONSERTO DE PLACAS ELETRÔNICAS: Veja aqui COMO COMEÇAR nessa atividade #AME
+
+- **Video ID:** 0R1_3oVbuVY
+- **URL:** https://www.youtube.com/watch?v=0R1_3oVbuVY
+- **Duration:** 4 min
+- **Views:** 191
+- **Published:** 2022-05-23T15:00:00Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+e outra coisa que a pessoa tem que levar em consideração né assim em relação a tempo que eu quero agradecer a gente começa a explicar outras coisas então tenho que me casar de novo agora volta então a temática é quanto tempo leva para consertar a primeira placa e aí a gente tá lá comentando aqui sobre quatro fatores que devem ser levados em consideração onde acabou explicar o primeiro que é dedicação uma pessoa em aprender e aprender a forma certa né porque que é importante a pessoa e tem aprender fazer a parte dela e aprender a forma certa é de essencial é pra vida né A vida dele que ele pode ir causar um acidente pode ir perder a máquina do frente como um todo então é outro só que é essencial é ter uma placa para consertar né tem que ir atrás de ser feito não vai cair do céu não tem como sempre a placa ainda não inventaram as tecnologias e apaga então para chegar mais rápido não é claro quanto tempo a primeira e parece óbvio né com o meu os alunos Oi e eu tive que ir para uma um já tá ok com Light de mês de tratamento tá isso é muito pra vamos lá ainda eu peguei ele ó está me devendo agora próxima mentoria eu quero ser comprar na bancada com isso que eu estou isso porque ele tava ficando não sei o que eu tive que puxar ele porque ele vai fazer a meditação né mostra nada a gente tem dizendo que fazer mas o homem tem que ser Dito gosta de ser cobrada e para levar lá para você que tem no primeiro quatro e para alguns é logo isso para uso entanto isso é interessante dela possa ter avisado né que a gente no meio essa eu consigo ter as nossas dedicada de cada jornada de cada um Hoje tá um gargalho eu consigo me dá umas travadas Então cinco sexta-feira para isso não é é ovo Marcos em seguida porque certo melhor para você não consegue falar tem que ir atrás né fazer o cliente José para as pessoas têm várias estratégias de captação de clientes e algumas estratégias até bem específicas né coisas que foram criadas a se dentro dos grupos dos animatrônicos né que é repassado formato únicos estados que late to utilize satélites climatológicos mais antigos utilizam que hoje está sendo repassado para os novos né é a galera que tá e etapa são em processo de formação para se tornar um relatório então assim é e atrás capitã e capital cliente e para assim conseguir ter vocês são muito água com defeito né meu caso o o ar condicionado Pois é quase todo mundo mercado iniciar te ajudar a sua vez de graça porque é vizinho tá aqui é meu vizinho sei o que vou fazer de graça não por favor não e isso é que ele já fala tudo bem oi oi qual é o seu

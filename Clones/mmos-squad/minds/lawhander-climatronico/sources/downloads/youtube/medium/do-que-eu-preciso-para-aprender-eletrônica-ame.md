@@ -1,0 +1,14 @@
+# Do que eu preciso para aprender eletrônica? #AME
+
+- **Video ID:** CTVp7IQdQZc
+- **URL:** https://www.youtube.com/watch?v=CTVp7IQdQZc
+- **Duration:** 4 min
+- **Views:** 390
+- **Published:** 2021-02-19T15:00:04Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+e eu nunca falei que ela é fácil né Tá com que se fosse fácil bem passou uma besteirinha tolice não teria um eletrônico né o profissional que trabalha com manutenção adequada uma coisa nesse sentido Então não é fácil porém ela é simples aí como que é simples ela é simples quando você tem uma metodologia quando você quando você tem fundamente aí eu vejo que as eletrônicas são os fundamentos tá quando você tem fundamentos eletrônica ela fica mais simples de novo eu não falo fácil o que faço dessa conotação de quem besteira né uma coisinha que fácil eu já sempre analogia correu uma maratona é simples o namorado é simples basta você dar um passo após o outro você consegue culpa é mas ninguém vai dizer King todo mundo vai dormir que correu uma maratona não é fácil né então não é fácil porém a simples é simples que tem de mais não entendimento de for uma maratona na casa da um passo fazer o corre aí durante 40 quilômetros se eu morrer tu consegue terminar larga toda vou sair porque não é simples já existe indicação de preparação é difícil mesmo cara e elas torna-se mais difícil por você não tem método de estudo não sabem por onde começar tá e eu faço de não ter paciência tá aí muito difícil não tenho paciência não tem mais um cliente nosso aqui dizendo que ela não tenho paciência não é muito difícil ela não tem muito sabe aí o cara não vai ser que é muito Gilmar trabalho aí é para uma placa dele ele ficou esperando né não tem que trouxe muito antiga e aí ele tava aí ficar no teu quarto não o Mário tem aí só que eu sei que não tem nada a ver com que sangue paciência ou atrás de ser difícil galera é na falei que eu fiz engenharia sou Certa Engenharia você vai dar um cálculo 3 uma derivado o Integral isso é difícil brother sabe calcular uma furnier um Teorema de Laplace Essa parada é Piração o celular é para encher ela tenha não espere isso daí tipo isso é velho vou falar agora sim dói você escuta dói assim na tua mente tem coisas muito mais complicadas sabe e que te entender então eu considero em comparação com esse tipo de assunto já me deparei na minha vida gostar eletrônica não tão de não tão entendido eu entendi eletrônica essa palavra tá você existe mas ela é entendido ela ela se passado o número correta ela faz sentido entendeu E passar da maneira correta ela faz sentido tem assunto tem que era sabe por aí gente tô na faculdade tem coisa para o sofá e foi faz 30 vezes não faz sentido nenhuma árvore do Carvalho

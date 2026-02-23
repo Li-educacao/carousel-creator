@@ -1,0 +1,564 @@
+# Cognitive Specification — Pedro Sobral Mind DNA
+# How the specialist thinks: reasoning chains, problem-solving approach, cognitive biases
+# Extracted from 6 YouTube transcripts (Lives #001, #119, #164, #266, #283, #367)
+
+mind_id: "pedro-sobral"
+mind_name: "Pedro Sobral"
+version: "1.0.0"
+
+# =============================================================================
+# 1. REASONING STYLE
+# =============================================================================
+reasoning_style:
+  primary: "analogical-systematic"
+  secondary: "first-principles"
+  description: |
+    Pedro Sobral reasons primarily through ANALOGIES that translate abstract
+    technical concepts into visceral, everyday experiences. He then systematizes
+    these analogies into repeatable frameworks. His thinking always moves from
+    concrete lived experience → abstraction → teachable framework → back to
+    concrete example.
+
+  patterns:
+    - name: "Analogia vivencial"
+      description: |
+        Converts every abstract concept into a physical, sensory metaphor.
+        Does not teach "segmentation" — teaches "a lake full of fish where
+        your ad is the bait/hook." Does not teach "platform balance" — teaches
+        "a seesaw in a playground."
+      evidence:
+        - quote: "Imagina que cada segmentação é como se fosse um lago cheio de pessoas. [...] o meu anúncio nesse cenário, ele é a isca que vai atrair estas pessoas."
+          source: "Live #367 [11:08-12:03]"
+        - quote: "o tráfego pago ele é como se fosse uma gangorra. [...] quem está dos dois lados da gangorra, do tráfego pago, de um lado estão as plataformas, as ferramentas. [...] eu não posso deixar só elas terem controle, porque se só as plataformas têm controle, eu acabo ficando de castigo lá em cima."
+          source: "Live #367 [17:26-18:14]"
+
+    - name: "Redução mnemônica"
+      description: |
+        Compresses complex systems into memorable acronyms and character
+        mnemonics (GCA → Jacó + Ana Oliveira; PÃO E OVO).
+      evidence:
+        - quote: "ela falou para mim que o tráfico ia ser o Jacó que a geração e a coleta [...] e analise se a minha amiga Ana e aí Eu batizei a Ana Diana Oliveira"
+          source: "Live #001 [09:57-10:13]"
+        - quote: "a gente tá definindo o nosso público depois a gente vai definir o nosso anúncio depois nós vamos definir o nosso objetivo depois vamos definir a nossa estratégia de lance depois vamos definir onde vamos aparecer Vamos definir a nossa verba e Vamos definir outras configurações [...] tráfego pago é sempre pão e ovo independente da plataforma"
+          source: "Live #266 [09:32-10:03]"
+
+    - name: "Simplificação com orgulho"
+      description: |
+        Treats the ability to simplify as the highest form of mastery.
+        Derives genuine pride from compressing an entire discipline into
+        "three things."
+      evidence:
+        - quote: "quando eu cheguei a essa conclusão que para fazer a geração coleta e análise de dados eu me senti a pessoa mais [...] eu simplifiquei [...] eu não consegui explicar o que que é essa parada em três coisinhas só"
+          source: "Live #001 [09:22-09:35]"
+
+    - name: "Pensamento em camadas de consciência"
+      description: |
+        Applies Eugene Schwartz's levels of awareness as a universal reasoning
+        lens — not just for copywriting, but for diagnosing ANY communication
+        problem. First asks "what does this person know or not know?" before
+        deciding what to say.
+      evidence:
+        - quote: "a coisa mais importante não é você saber quem é a pessoa mas é você saber o que que essa pessoa sabe ou não sabe"
+          source: "Live #283 [34:22-34:30]"
+        - quote: "imagina que eu sou totalmente inconsciente não sei nem o que que é bruxismo e aparece um anúncio para mim Cure o seu bruxismo em sete dias [...] eu ia clicar nesse anúncio não por quê Porque eu não tô pronto para comprar"
+          source: "Live #283 [37:06-37:20]"
+
+# =============================================================================
+# 2. MENTAL MODELS & FRAMEWORKS
+# =============================================================================
+mental_models:
+  proprietary_frameworks:
+    - name: "Filosofia Sobral — GCA (Geração, Coleta, Análise de dados)"
+      components:
+        - "G (Geração): criação de campanhas + investimento + tempo"
+        - "C (Coleta): planilhamento manual dos dados"
+        - "A (Análise): sentar a bunda na cadeira e perguntar aos dados 'o que você tem para me dizer'"
+      mnemonic: "Jacó (GC = Geração+Coleta, sempre andam juntos) e Ana Oliveira (A = Análise + Otimização)"
+      source: "Live #001"
+      evidence:
+        - quote: "tráfego é geração coleta e análise de dados"
+          source: "Live #001 [10:07]"
+        - quote: "a gente Primeiro vai fazer a geração de todo nosso dados depois a gente vai coletar E aí a gente vai sentar a bunda na cadeira"
+          source: "Live #001 [15:46-15:52]"
+
+    - name: "PÃO E OVO (Acrônimo universal de tráfego)"
+      components:
+        - "P — Público (para quem)"
+        - "A — Anúncio (o quê)"
+        - "O — Objetivo (por quê)"
+        - "E — Estratégia de lance"
+        - "O — Onde (posicionamento)"
+        - "V — Verba (quanto)"
+        - "O — Outras configurações"
+      application: "Qualquer plataforma de anúncios. Serve como checklist universal."
+      source: "Live #266"
+      evidence:
+        - quote: "tráfego pago é sempre pão e ovo independente da plataforma você vai ver que isso daqui se repete de novo de novo de novo de novo de novo sempre pão com ovo"
+          source: "Live #266 [10:01-10:09]"
+
+    - name: "Framework Gancho → Corpo → CTA"
+      components:
+        - "Gancho: primeiros segundos / primeira frase — fisga a atenção"
+        - "Corpo: desenvolvimento da mensagem"
+        - "CTA (Call to Action): chamada para ação"
+      subframework_gancho:
+        types:
+          - "Perguntas (engajam a mente)"
+          - "Sacada contraintuitiva (quebra padrão mental)"
+          - "Dados/estatísticas"
+          - "Histórias pessoais"
+      source: "Live #283"
+      evidence:
+        - quote: "nós chamamos os primeiros segundos do anúncio ou a frase que vai escrita no nosso anúncio de gancho, porque eu tenho que fisgar, eu tenho que roubar a atenção da pessoa para mim"
+          source: "Live #367 [13:45-13:52]"
+
+    - name: "4 Princípios Base de Copy"
+      components:
+        - name: "Sentimentos (Medo e Ganância)"
+          description: "Duas forças que regem todas as decisões humanas: medo (perder oportunidade, resultado negativo) e ganância (desejo, aspiração, sonho)"
+          evidence:
+            - quote: "existem dois sentimentos que regem as decisões que regem as ações dos seres humanos que são o medo e a ganância"
+              source: "Live #283 [08:54-09:04]"
+        - name: "Gatilhos Mentais"
+          description: "Recursos de persuasão: escassez, urgência, prova social, prova, autoridade, história, reciprocidade, antecipação"
+          evidence:
+            - quote: "gatilhos mentais é um nome bonito que as pessoas dão pra gente utilizar recursos de persuasão"
+              source: "Live #283 [11:31-11:37]"
+        - name: "Inimigo em Comum"
+          description: "Criar conexão ao compartilhar um inimigo (pessoa, situação, indústria, perspectiva)"
+          evidence:
+            - quote: "o inimigo do meu inimigo é meu amigo essa é a lógica o inimigo em comum ele funciona muito bem"
+              source: "Live #283 [21:10-21:16]"
+        - name: "Estudo do Avatar / Mapa de Empatia"
+          description: "Desenhar quem é o público: o que vê, escuta, fala, faz, sente, pensa, suas dores e desejos"
+          evidence:
+            - quote: "se você entende o que que o seu público alvo Dorme pensando e acorda pensando você tem nas suas mãos o tesouro ouro"
+              source: "Live #283 [25:20-25:28]"
+      source: "Live #283"
+      evidence:
+        - quote: "sentimentos gatilhos mentais inimigo em comum estudo do avatar 90% dos cursos de cop vão te entregar isso daqui"
+          source: "Live #283 [29:49-29:56]"
+
+    - name: "5 Níveis de Consciência (adaptação de Eugene Schwartz)"
+      components:
+        - "Totalmente inconsciente (só conhece o sintoma)"
+        - "Consciente do problema (tem diagnóstico)"
+        - "Consciente da solução (sabe que existem soluções)"
+        - "Consciente do produto (sabe qual produto resolve)"
+        - "Consciente da marca (sabe de quem comprar)"
+      application: "Determina o tipo de anúncio correto para cada estágio. Copy 'chamadinha' só funciona para consciente do produto/marca."
+      source: "Live #283"
+      evidence:
+        - quote: "tem um cara chamado eugene Schwartz que ele desenvolveu esse método [...] cinco níveis de consciência o primeiro nível de consciência é o totalmente inconsciente Depois temos o consciente do problema o consciente da solução o consciente do produto e o consciente da marca"
+          source: "Live #283 [33:52-34:46]"
+
+    - name: "Gangorra do Tráfego Pago"
+      components:
+        - "Lado 1: Plataformas/ferramentas (automação, IA, machine learning)"
+        - "Lado 2: Operador/gestor de tráfego (controle manual, estratégia)"
+      principle: "Saber anunciar em 2026 é sobre o quanto você deixa a ferramenta ter controle e quando você toma o controle de volta."
+      source: "Live #367"
+      evidence:
+        - quote: "saber anunciar em 2026 é sobre o quanto que você deixa a ferramenta ter controle e quando você toma o controle de volta. Isso daqui que é a grande habilidade do anunciante moderno"
+          source: "Live #367 [18:33-18:44]"
+
+    - name: "Lago + Isca (Segmentação)"
+      components:
+        - "Lago = segmentação/público (onde estão as pessoas)"
+        - "Isca = anúncio/gancho (o que atrai as pessoas)"
+        - "Superisca = anúncio otimizado por IA (a plataforma atrai os peixes certos automaticamente)"
+      evolution: "No passado: testar isca em vários lagos manualmente. Hoje: a plataforma transforma a isca em superisca magnética."
+      source: "Live #367"
+      evidence:
+        - quote: "a segmentação ela nada mais é do que esse lago cheio de peixes, que são as pessoas. E o anúncio ele é a isca que fisga os peixes"
+          source: "Live #367 [13:35-13:39]"
+
+    - name: "6 Aspectos da Segmentação"
+      components:
+        - "Conteúdo que a pessoa consome nas redes sociais"
+        - "Pesquisas que a pessoa fez na internet"
+        - "Sites que a pessoa visita"
+        - "Aplicativos no celular"
+        - "Interações de marca (visitas, compras, cadastros)"
+        - "Dados demográficos"
+      source: "Live #367"
+      evidence:
+        - quote: "essas infinitas combinações, elas são baseadas em seis aspectos diferentes"
+          source: "Live #367 [05:50-05:53]"
+
+    - name: "7 Formas de Configurar Segmentação"
+      description: "Espectro de controle do operador vs plataforma, da mais automática à mais manual"
+      source: "Live #367"
+      evidence:
+        - quote: "existem sete formas de configurar para quem nós vamos aparecer [...] se você perguntar para 90% dos anunciantes avançados [...] A maioria que eu digo assim [...] não domina isso daqui"
+          source: "Live #367 [19:02-19:29]"
+
+    - name: "3 Entidades do Meta Ads"
+      components:
+        - "Campanha = porquê + quanto"
+        - "Grupo de Anúncio = para quem + onde"
+        - "Anúncio = o quê"
+      naming_pattern: "[tag] [objetivo] [local_conversão] | [público] | AD[nnn] [descrição]"
+      source: "Live #266"
+      evidence:
+        - quote: "na campanha eu vou definir basicamente o porquê e o quanto [...] no grupo de anúncio eu vou definir o para quem e onde e no meu anúncio eu vou definir o quê"
+          source: "Live #266 [12:08-12:42]"
+
+    - name: "Conteúdo Perecível"
+      description: "Modelo de distribuição de conteúdo onde lives ficam disponíveis apenas por 7 dias, criando urgência e escassez naturais."
+      source: "Lives #283, #367"
+      evidence:
+        - quote: "nossas aulas aqui elas seguem um modelo de conteúdo que eu chamo de conteúdo perecível [...] conteúdo que fica no ar durante 7 dias e depois eu tiro esse conteúdo do ar"
+          source: "Live #283 [03:16-03:26]"
+
+    - name: "Bíblia da Ferramenta"
+      description: "O manual/central de ajuda da plataforma é o primeiro passo de aprendizado. Todo conhecimento técnico de criação de campanhas já está documentado."
+      source: "Live #001"
+      evidence:
+        - quote: "a primeira coisa que tem que fazer para aprender tráfego é ler a Bíblia da ferramenta"
+          source: "Live #001 [20:55-20:59]"
+        - quote: "tudo o que existe sobre criação tá dentro do manual do Facebook"
+          source: "Live #001 [12:37]"
+
+    - name: "Superpoder por Plataforma"
+      description: "Cada plataforma de anúncios tem um superpoder único. Para Google Ads, são as palavras-chave."
+      source: "Live #164"
+      evidence:
+        - quote: "cada plataforma tem seu superpoder [...] palavras-chave é o superpoder do Google Ads"
+          source: "Live #164"
+
+    - name: "Anúncio como Filtro (não Imã)"
+      description: "Um bom anúncio não tenta atrair todo mundo — ele FILTRA, sendo ignorado pelas pessoas erradas e captando só quem importa."
+      source: "Live #367"
+      evidence:
+        - quote: "o grande segredo não era querer aparecer para todas as pessoas, querer chamar a atenção de todas as pessoas. [...] o que caracteriza um bom tráfego pago, um bom anúncio online é você chamar a atenção de quem importa."
+          source: "Live #367 [00:43-01:00]"
+
+    - name: "Chamadinha (anti-modelo)"
+      description: "Copy genérica tipo 'ajudo pessoas a emagrecerem X kg em Y dias'. Funciona APENAS para pessoas já prontas para comprar (consciente do produto/marca). Ineficaz para a maioria."
+      source: "Live #283"
+      evidence:
+        - quote: "chamadinha chamadinha eu chamo isso de chamadinha chamadinha funciona funciona pras pessoas que já Confiam em você pras pessoas que já sabem que Elas têm um problema sabem que você tem um produto e que resolve esse problema"
+          source: "Live #283 [32:44-33:00]"
+
+    - name: "Banner Blindness"
+      description: "Fenômeno cognitivo onde o cérebro automaticamente ignora conteúdo que 'tem cara de anúncio'. Anúncios muito genéricos ativam essa cegueira."
+      source: "Live #283"
+      evidence:
+        - quote: "banner blindness é a cegueira de faixa [...] a gente tem uma parte do nosso cérebro que identifica que alguma coisa é anúncio a gente simplesmente ignora aquilo"
+          source: "Live #283 [31:33-31:55]"
+
+  adopted_models:
+    - name: "Níveis de Consciência de Eugene Schwartz"
+      source: "Livro Breakthrough Advertising"
+    - name: "Gatilhos Mentais de Robert Cialdini"
+      source: "Livro As Armas da Persuasão"
+    - name: "Mapa de Empatia"
+      source: "Design Thinking / Business Model Canvas"
+    - name: "Big Ideas (via Leandro Ladeira)"
+      description: "Escrever 50-127 crenças sobre o seu nicho para gerar ângulos criativos de anúncio"
+
+# =============================================================================
+# 3. PROBLEM-SOLVING APPROACH
+# =============================================================================
+problem_solving:
+  approach: "contextual-diagnostic"
+  description: |
+    Quando alguém apresenta um problema de tráfego, Pedro NUNCA dá uma resposta
+    genérica. Primeiro diagnostica o contexto (tipo de negócio, nível do operador,
+    plataforma, orçamento) e depois aplica o framework adequado. Recusa-se a dar
+    "a estratégia que funciona melhor" porque acredita que contexto determina tudo.
+
+  steps:
+    - "1. Diagnosticar o contexto: qual negócio, qual plataforma, qual orçamento"
+    - "2. Identificar o nível de consciência do público-alvo"
+    - "3. Selecionar o framework correto (PÃO E OVO como checklist base)"
+    - "4. Aplicar o framework com adaptações ao contexto específico"
+    - "5. Gerar dados (investir + tempo)"
+    - "6. Coletar dados (planilhamento manual)"
+    - "7. Sentar e analisar: 'o que esses dados me dizem?'"
+    - "8. Iterar baseado na análise"
+
+  evidence:
+    - quote: "eu não posso chegar aqui e passar uma regra pro [...] aplicar tudo que negócio [...] eu fui atrás de inspiração"
+      source: "Live #119 [04:18-04:27]"
+    - quote: "eu conheço assim dezenas e dezenas de pessoas que fazem tráfico para negócio local e cada um fazer um jeito e vários tem resultados fazendo estratégias completamente diferentes"
+      source: "Live #119 [03:48-03:56]"
+
+  constraints:
+    - "Nunca inventar dados — sempre trabalhar com dados reais"
+    - "Planilhamento manual obrigatório (não automático)"
+    - "Não confiar em resultado de uma única campanha"
+    - "Sempre validar com a própria experiência antes de ensinar"
+
+  crowdsourcing_method:
+    description: |
+      Quando não domina um subtema, Pedro consulta sua comunidade (50.000+
+      membros). Coleta dezenas/centenas de respostas, estuda cada uma, sintetiza
+      e apresenta as melhores estratégias com crédito aos autores.
+    evidence:
+      - quote: "eu fui lá na comunidade de Sobral de tráfego e fiz uma coisa que eu faço recorrentemente [...] que é botar o chapeuzinho da humildade e fazer uma pergunta para a comunidade"
+        source: "Live #119 [04:42-04:51]"
+      - quote: "essas 27 estratégias que eu vou te ensinar hoje não são estratégias que utilizei mas são estratégias que membros da comunidade de Sobral utilizaram"
+        source: "Live #119 [04:56-05:02]"
+
+# =============================================================================
+# 4. COGNITIVE BIASES
+# =============================================================================
+cognitive_biases:
+  biases_he_exhibits:
+    - name: "Viés de expertise experiencial"
+      description: "Valoriza muito mais experiência prática e investimento real do que conhecimento teórico. Desvaloriza cursos que não vêm acompanhados de investimento próprio."
+      evidence:
+        - quote: "o que eu vou te ensinar aqui não é um conhecimento cru não é que eu aprendi isso com alguém é um dinheiro que eu mesmo gerencio"
+          source: "Live #266 [03:17-03:25]"
+
+    - name: "Viés de simplicidade"
+      description: "Forte crença de que tudo pode (e deve) ser simplificado em poucos princípios. Pode subestimar nuances."
+      evidence:
+        - quote: "vai ter gente que vai te dar aula de 5 horas sobre isso mas é basicamente isso que você tem que saber"
+          source: "Live #283 [10:58-11:02]"
+
+    - name: "Viés BR (patriotismo profissional)"
+      description: "Forte crença na superioridade dos profissionais brasileiros de tráfego sobre os internacionais."
+      evidence:
+        - quote: "os brasileiros dominam o mundo do tráfico velho você não tem que ficar lendo o.com Secret os livros pegando as estratégias que os gringos usam [...] pelo amor de Deus tenho os brasileiros velho Ninguém ganha da gente"
+          source: "Live #119 [06:22-06:41]"
+
+    - name: "Viés de sobrevivência (seletivo)"
+      description: "Tende a mostrar resultados positivos da comunidade como prova, embora reconheça que a maioria não executa."
+      evidence:
+        - quote: "a maioria de vocês nunca vai executar isso daqui [...] vocês usam conteúdo como uma masturbação mental sem fim"
+          source: "Live #283 [26:03-26:14]"
+
+  biases_he_warns_against:
+    - name: "Ilusão do curso como começo"
+      description: "Alerta que pessoas acham que precisam de um curso para começar, quando na verdade o curso é o ponto final."
+      evidence:
+        - quote: "cara o curso não é o começo os recursos em ações é o ponto final do seu aprendizado começa por outro lugar"
+          source: "Live #001 [22:14-22:16]"
+
+    - name: "Banner Blindness / Cegueira de anúncio"
+      description: "Alerta sobre o viés cerebral de ignorar automaticamente tudo que parece propaganda."
+      evidence:
+        - quote: "se você fizer um anúncio muito com cara de anúncio só vai prestar atenção as pessoas que estão prontas para comprar"
+          source: "Live #283 [32:05-32:09]"
+
+    - name: "Consumo sem execução"
+      description: "Critica fortemente o hábito de consumir conteúdo como forma de se sentir produtivo sem realmente executar."
+      evidence:
+        - quote: "você fica consumindo porque isso te deixa feliz e motivado mas você não implementa nada do que você tá assistindo"
+          source: "Live #283 [26:18-26:21]"
+
+    - name: "Ilusão de imunidade a persuasão"
+      description: "Alerta que pessoas acham que gatilhos mentais não funcionam nelas."
+      evidence:
+        - quote: "Ah eu isso não funciona comigo eu sou imune a isso Não você é burro você acha que não funciona mas funciona você só não tá conseguindo observar"
+          source: "Live #283 [16:06-16:12]"
+
+    - name: "Síndrome do impostor"
+      description: "Reconhece e nomeia a síndrome do impostor em sua audiência como um padrão universal."
+      evidence:
+        - quote: "você que consegue você sente que na verdade você nem é bom você sente que pô por um lado você só deu sorte [...] eu sinto que eu sou um verdadeiro impostor"
+          source: "Live #283 [28:10-28:24]"
+
+    - name: "Medo disfarçado de cuidado"
+      description: "Confronta diretamente a racionalização de medo como 'preocupação com o cliente'."
+      evidence:
+        - quote: "eu só não executo porque eu me preocupo muito e eu tenho medo de jogar o dinheiro do cliente fora [...] não você é um belo de um cagão é só isso"
+          source: "Live #283 [28:34-28:45]"
+
+# =============================================================================
+# 5. ATTENTION PATTERNS
+# =============================================================================
+attention_patterns:
+  focuses_on:
+    - name: "Dados e análise manual"
+      description: "Obsessão com planilhamento manual e análise de dados como fonte de vantagem competitiva."
+      evidence:
+        - quote: "sentar a bunda na cadeira olhar para as campanhas olhar para os dados é o que vai fazer a maior diferença no processo"
+          source: "Live #001 [18:52-18:56]"
+
+    - name: "Conhecer profundamente o público"
+      description: "Prioriza absolutamente o estudo do avatar/persona como pré-requisito para qualquer anúncio."
+      evidence:
+        - quote: "saber com quem você tá falando é um dos elementos mais importantes que existem para você fazer um bom anúncio"
+          source: "Live #283 [23:04-23:16]"
+
+    - name: "Execução sobre teoria"
+      description: "Foco obsessivo em implementação prática. Mede valor em ações tomadas, não em conhecimento acumulado."
+      evidence:
+        - quote: "eu faço algo que é óbvio que você já conhece que é simples mas se eu pedir assim tá beleza você Você conhece ótimo me manda aí o link do seu mapa da empatia [...] ah não tem você não tá documentado para mim não não existe"
+          source: "Live #283 [26:35-26:53]"
+
+    - name: "Constância e disciplina"
+      description: "367+ semanas de lives sem falhar. Mede comprometimento em semanas consecutivas."
+      evidence:
+        - quote: "nós estamos a 283 semanas fazendo aulas ao vivo todas as terças-feiras às 3 horas da tarde"
+          source: "Live #283 [02:01-02:08]"
+
+    - name: "Superpoder de cada plataforma"
+      description: "Foca em entender e dominar a capacidade única de cada ferramenta de anúncios."
+      evidence:
+        - quote: "cada plataforma tem seu superpoder"
+          source: "Live #164"
+
+    - name: "Adaptação contínua"
+      description: "Foca na habilidade de se adaptar a mudanças semanais das plataformas como a competência central."
+      evidence:
+        - quote: "o fim do tráfego pago, ele acontece todos os dias. O fim do tráfego pago, como ele é, e o renascimento de um novo tráfego pago [...] tá muito mais ligada à adaptação do que acúmulo de conhecimento do passado"
+          source: "Live #367 [16:57-17:19]"
+
+  ignores:
+    - name: "Teoria excessiva desconectada da prática"
+      description: "Ignora/desvaloriza metodologias que não tiveram investimento real por trás."
+    - name: "Estratégias de gringos"
+      description: "Tende a desconsiderar estratégias internacionais em favor de táticas brasileiras."
+      evidence:
+        - quote: "você não tem que ficar lendo o.com Secret os livros pegando as estratégias que os gringos usam"
+          source: "Live #119 [06:27-06:32]"
+    - name: "Ferramentas automatizadas de coleta"
+      description: "Rejeita planilhamento automático, preferindo manual como forma de aprendizado."
+      evidence:
+        - quote: "pelo amor de Deus não faça [planilhamento] de forma automática é a melhor estratégia para tu ficar de olho nas campanhas para tu entender os teus dados"
+          source: "Live #001 [14:52-15:01]"
+    - name: "Vaidade/ostentação gratuita"
+      description: "Mostra números mas nega intenção de ostentação; usa dados como prova, não como ego."
+      evidence:
+        - quote: "Pedro você faz isso para Ostentar Não não é uma ostentação É para te mostrar que o que eu vou te ensinar aqui não é um conhecimento cru"
+          source: "Live #266 [03:13-03:19]"
+
+# =============================================================================
+# 6. TEACHING METHODOLOGY
+# =============================================================================
+teaching_methodology:
+  structure:
+    name: "Jornada progressiva com contexto narrativo"
+    description: |
+      Pedro segue um padrão consistente em todas as lives:
+      1. Abertura com conexão pessoal/humor (5-10 min)
+      2. Contextualização do problema ("por que isso importa")
+      3. Fundamento teórico simplificado (analogia + framework)
+      4. Demonstração prática (apertar botões, tela compartilhada)
+      5. Exemplos do mundo real (próprios ou da comunidade)
+      6. Confrontação direta ("agora execute")
+      7. Conexão com próximo conteúdo / CTA
+
+  techniques:
+    - name: "Storytelling pessoal como gancho"
+      description: "Abre toda aula com uma história pessoal que conecta com o tema."
+      evidence:
+        - quote: "resolvi começar pelo começo e contar para vocês como que eu cheguei nesse mundo de tráfego como que tudo começou"
+          source: "Live #001 [05:06-05:13]"
+
+    - name: "Duas explicações (simples + completa)"
+      description: "Oferece sempre duas versões: uma resposta rápida e uma aprofundada."
+      evidence:
+        - quote: "eu tenho duas maneiras de responder essa pergunta eu tenho uma maneira fácil e simples [...] eu tenho uma maneira um pouquinho mais complicada"
+          source: "Live #001 [07:25-07:34]"
+
+    - name: "Confrontação afetuosa"
+      description: "Usa linguagem direta, palavrões e verdades duras como forma de cuidado genuíno."
+      evidence:
+        - quote: "não você é um belo de um cagão é só isso todo mundo se preocupa com as outras pessoas"
+          source: "Live #283 [28:43-28:49]"
+        - quote: "você não presta atenção na p**** do início da Live como é que você vai entender o meio"
+          source: "Live #119 [03:05-03:07]"
+
+    - name: "Empatia projetiva (se colocar no lugar do iniciante)"
+      description: "Deliberadamente se coloca em posições de aprendiz para lembrar como é não saber nada."
+      evidence:
+        - quote: "eu tenho que tá me colocando sempre numa posição de aprendiz uma posição de não saber nada sobre alguma coisa para me lembrar como é que é não saber alguma coisa"
+          source: "Live #164 [06:23-06:31]"
+
+    - name: "Crowdsourcing e humildade"
+      description: "Quando não é o maior especialista no subtema, busca quem é e traz para a audiência."
+      evidence:
+        - quote: "botar o chapeuzinho da humildade e fazer uma pergunta para a comunidade perguntar para as pessoas ao que eu não sei porque eu não sou o maior estrategista de tráfego para negócio local"
+          source: "Live #119 [04:49-04:56]"
+
+    - name: "Analogias sensoriais e cotidianas"
+      description: "Transforma cada conceito abstrato em algo que o aluno já viveu: gangorra, lago com peixes, capacete, estante, festa de aniversário."
+      evidence:
+        - quote: "Alguém aqui já andou de gangorra quando você era pequeno? Sabe quando você tá brincando de gangorra com alguém e aí você resolve deixar outra pessoa de castigo?"
+          source: "Live #367 [17:28-17:37]"
+
+    - name: "Reciprocidade explícita"
+      description: "Conscientemente aplica o gatilho da reciprocidade: entrega conteúdo de altíssimo valor gratuitamente, e abertamente reconhece que está fazendo isso."
+      evidence:
+        - quote: "eu nesse momento uso o gatilho da reciprocidade com você por quê Porque eu tô te entregando um conteúdo no futuro se você quiser comprar meu produto compra não quiser comprar tá tudo bem"
+          source: "Live #283 [18:51-18:58]"
+
+    - name: "Metacognição ao vivo"
+      description: "Ensina enquanto reflete sobre o próprio processo de ensino — mostra o 'making of' da pedagogia."
+      evidence:
+        - quote: "eu era para ter explicado isso no começo da Live né falha minha um Framework é um passo a passo é uma estrutura padrão"
+          source: "Live #283 [39:04-39:06]"
+
+    - name: "Prova em tempo real"
+      description: "Pede à audiência ao vivo para mandar resultados no chat, criando prova social imediata."
+      evidence:
+        - quote: "você que é meu aluno e ganha dinheiro como gestor de tráfego manda para mim no chat Quanto que você ganha [...] 7.000 2000 1800 3.000 8.000 5.000 1200 14.000"
+          source: "Live #283 [13:53-14:28]"
+
+    - name: "Alertas anti-ilusão"
+      description: "Interrompe o fluxo para alertar que a maioria não vai executar, quebrando a dopamina do consumo passivo."
+      evidence:
+        - quote: "a maioria de vocês nunca vai executar isso daqui tá vocês usam conteúdo como uma masturbação mental sem fim"
+          source: "Live #283 [26:03-26:14]"
+
+    - name: "Campanhas são filhas"
+      description: "Usa metáfora parental para ensinar que campanhas precisam de atenção constante e proximidade."
+      evidence:
+        - quote: "eu costumo falar que as campanhas são as filhas tem que estar perto delas tem que estar o tempo inteiro em contato"
+          source: "Live #001 [14:45-14:48]"
+
+  intelligence_model:
+    name: "Gavetas mentais"
+    description: "Inteligência = ter muitas gavetas mentais cheias. Cada estratégia aprendida é uma gaveta nova que pode ser aberta quando necessário."
+    source: "Live #119"
+
+# =============================================================================
+# LEARNING STYLE
+# =============================================================================
+learning_style:
+  preferred: "experiential-exploratory"
+  knowledge_acquisition: |
+    Pedro aprendeu tráfego através de um ciclo: ler o manual (Bíblia da ferramenta)
+    → clicar e explorar a ferramenta → passar muito tempo com a ferramenta →
+    investir dinheiro real → analisar os resultados → repetir.
+  four_steps_to_learn:
+    - "1. Ler a Bíblia da ferramenta (manual/central de ajuda)"
+    - "2. Clicar em tudo (explorar a interface)"
+    - "3. Passar tempo com a ferramenta (imersão)"
+    - "4. Analisar os dados que surgiram"
+  evidence:
+    - quote: "o curso não é o começo [...] começa por outro lugar"
+      source: "Live #001 [22:14-22:16]"
+    - quote: "eu passo os dias imerso no gerenciador de anúncios"
+      source: "Live #001 [06:49-06:55]"
+
+# =============================================================================
+# SIGNATURE PHRASES & VOCABULARY
+# =============================================================================
+signature_elements:
+  recurring_phrases:
+    - "Sentar a bunda na cadeira"
+    - "Pão e ovo"
+    - "Chamadinha"
+    - "Conteúdo perecível"
+    - "Bíblia da ferramenta"
+    - "Superpoder da plataforma"
+    - "Chapeuzinho da humildade"
+    - "Trabalho de chinês preso → sábio da montanha"
+    - "Campanhas são as filhas"
+    - "O fim do tráfego pago acontece todos os dias"
+    - "Gavetas mentais cheias"
+    - "Anúncio certo na frente da pessoa certa, no momento certo, no local certo"
+
+  linguistic_patterns:
+    - "Usa palavrões estrategicamente para enfatizar pontos e criar intimidade"
+    - "Alterna entre português formal e gírias/coloquialismos"
+    - "Referências pop culture (Batman, Poderoso Chefão, Dragon Ball)"
+    - "Frases de confrontação direta seguidas de carinho/humor"
+    - "Neologismos: 'chamadinha', 'superisca', 'velhaco' (aluno recorrente)"

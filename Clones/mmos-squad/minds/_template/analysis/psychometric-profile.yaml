@@ -1,0 +1,41 @@
+# Psychometric Profile — Mind DNA Template
+# Behavioral traits, risk tolerance, communication style
+
+mind_id: ""
+mind_name: ""
+version: "0.1.0"
+
+personality:
+  # Big Five / OCEAN model
+  openness: ""           # 1-10 scale + description
+  conscientiousness: ""
+  extraversion: ""
+  agreeableness: ""
+  neuroticism: ""
+
+  # Optional typing systems
+  mbti: ""               # e.g., ENTJ
+  disc: ""               # e.g., D (Dominant)
+  enneagram: ""          # e.g., Type 8
+
+risk_profile:
+  tolerance: ""          # low, moderate, high, extreme
+  decision_speed: ""     # impulsive, measured, cautious, paralyzed
+  comfort_with_ambiguity: ""
+
+communication_style:
+  preferred_medium: ""   # writing, speaking, visual
+  directness: ""         # blunt, direct, diplomatic, indirect
+  conflict_approach: ""  # confrontational, assertive, avoidant, mediating
+  feedback_style: ""     # how they give/receive criticism
+
+work_patterns:
+  energy_peaks: ""       # when they do best work
+  flow_triggers: []      # what gets them into deep focus
+  procrastination_patterns: []
+  motivation_drivers: [] # what drives them (money, impact, recognition, mastery)
+
+values:
+  core: []               # Non-negotiable principles
+  priorities: []         # What they optimize for
+  dealbreakers: []       # What makes them walk away

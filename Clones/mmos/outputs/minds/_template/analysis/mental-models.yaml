@@ -1,0 +1,28 @@
+# Mental Models — Mind DNA Template
+# Frameworks, heuristics, and models the specialist relies on
+
+mind_id: ""
+mind_name: ""
+version: "0.1.0"
+
+core_models:
+  # Models the specialist uses most frequently
+  - name: ""
+    domain: ""           # e.g., persuasion, strategy, analytics
+    description: ""
+    usage_context: ""    # When/how they apply this model
+    source: ""           # Where they learned it (book, experience, mentor)
+
+secondary_models: []
+
+proprietary_frameworks:
+  # Original frameworks created/adapted by the specialist
+  - name: ""
+    components: []
+    application: ""
+
+mental_shortcuts:
+  # Heuristics and rules of thumb
+  - trigger: ""          # Situation that activates the shortcut
+    response: ""         # Default action/decision
+    reliability: ""      # How often it leads to good outcomes

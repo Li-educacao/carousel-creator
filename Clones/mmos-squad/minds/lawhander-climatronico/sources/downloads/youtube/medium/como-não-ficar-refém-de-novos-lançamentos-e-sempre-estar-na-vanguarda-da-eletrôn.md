@@ -1,0 +1,14 @@
+# Como não ficar refém de novos lançamentos e sempre estar na vanguarda da eletrônica? #AME
+
+- **Video ID:** pxDH4JcNZog
+- **URL:** https://www.youtube.com/watch?v=pxDH4JcNZog
+- **Duration:** 3 min
+- **Views:** 293
+- **Published:** 2021-05-28T15:00:33Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+a opinião o segredo inverte aqui não tem segredo Como assim Como assim que não tem cena de inveja cara é carro seguinte eu a minha escola de Mangas eletrônica voltará com meu passado a minha escola de manutenção eletrônica me ensinou fiquei me mostrou e provou por a + b que se eu tenho fundamentos de eletrônica se eu tenho conhecimento de manutenção eletrônica eu sou um cara fundamentado na manutenção eletrônica eu conheço eletrônicos eu conheço eletrônica não tem segredos na eletrônica se eu conheço eletrônica não tem segredos na eletrônica Como assim o normal o funcionamento de um gente vai ter um postado aqui nos comentários o funcionamento de um igbt ele vai ser o mesmo se eu conheço o funcionamento de 1gb ter eu consigo analisar um GVT não importa em qual placa ela esteja partindo desse pressuposto que eu conheço o funcionamento de um a de muitos componentes os setores não são milhares milhões mas de muitos componentes dos componentes bases em curso planos os componentes que aparecem as placas de ar condicionado sei como é que eles funcionam e segundo thestalos não tem segredo porque se eu conheço cerveja tá o que uma coisa aqui eu tenho sem dentro da Iara é uma coisa que ela não conhece não sabe então um segredo ela não conhece partindo do pressuposto que eu conheço como testar os concorrentes devido a minha base escola que eu tive ela que eu estou indo lá no centro industrial são três conhecimento não tem segredo E aí eu vou achar por outro lado a Anna mas tem segredo sim caro tem um segredos da Parque Vector se tu acredita que tem segredo que elas são uma placa nova e tu vai buscar os segredos dela eu sou uma placa nova e te guarde Samsung digital inverter aí eu vou atrás dos segredos da Digital inverte tô sempre vai ficar Refém da do próximo lançamento e vai ser sempre o cara reflem do próximo lançamento mercado porque agora eu peguei vou comprar uma Dual inverter uma digital inverte para estudar ela todinha para descobrir todos os segredos dela E aí eu vou estudo ela entende gente agora agora você em todos os segredos e eu não conto para ninguém cara vídeo no YouTube ensinando como reparar não existe não conto para ninguém porque o meu segredo na hora que você seguir no outono elas outra máquina ela vai ajudar todos os segredos da outra placa de novo então a gente vai ser um profissional limitado a um lançamento novo da nova do novo leilão Nova Marca Tá certo então eu como profissional eu não quero ser esse cara que tá sendo com meio não é casado na vó agora vou garantir aqui cuidar dele quando me mostrou

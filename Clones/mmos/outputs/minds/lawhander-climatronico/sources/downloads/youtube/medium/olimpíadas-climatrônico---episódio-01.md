@@ -1,0 +1,14 @@
+# OLIMPÍADAS CLIMATRÔNICO - EPISÓDIO 01
+
+- **Video ID:** hQog5zYeBuE
+- **URL:** https://www.youtube.com/watch?v=hQog5zYeBuE
+- **Duration:** 4 min
+- **Views:** 99
+- **Published:** 2024-09-18T22:30:07Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+dividimos a nossas Olimpíadas em times renão quea frontos ali na foto quero ver se ele vai vir com essa fronta toda aqui climatronic Club é isso novo novo Vi falou será aí um mês de muitas de mos aprendizados né Vamos ter aí palestras a competitividade vai estar presente principalmente pros outros times né Porque eu sei que o meu time com certeza vai ganhar medalha de ouro a gente vai sim se superar como la falou também aí teremos recordes mais recordes de faturamento Não vai ser fácil concorrer com o Real c cc porque assim como o Real Madrid me inspirei neste time né que não perde o meu time também não vai perder agora o time da Saionara o Bora reparar climatronic Club olha aqui o campeão chegou aqui Bora reparar galerinha Já vi que tem vários participantes aqui do meu time e só para desbancar o Renan né ele tá meio eludido por aqui o nome do time galera Ó nome do time tem como perder não estamos aqui para ter essa disputa harmoniosa né Assim como todos que se inscreveram todo mundo tem um objetivo chegar no final da Liga como campeão e nós estamos aqui para isso valeu Bora ti Bora reparar medalha de odo clatronic Club Sem entenderem o trocadilho né medalhas viu um exemp são medalhas são vários mais de uma Vixe mais de uma medalha entendi sou o Caio sou da equipe medalhas de odo né Vocês escolheram estar aqui né Vocês estão aqui para acelerar os resultados de vocês e eu com padrinho da da melhor equipe vou puxar minha sardinha para parabenizar todos né diante vocês estão buscando conhecimento que isso é conhecimento é poder e e é isso vamos competir tá muito amistoso Caio viu muito político muito político time Darlan Liga dos reparos climatronic Club bom o meu time tá aqui para mostrar queem que vai ser o campeão né já que nós somos todos heróis do meu time fazendos parte da liga dos reparos aqui vamos trazer Justiça e a Vitória aqui sejam todos bem-vindos e aproveitem bem as Olimpíadas quimat trônica que vocês vão desbloquear todas as suas travas e vou reparar placas aqui e a gente vai bater esse recorde lá o esse ano e é o meu time que vai ganhar para mim ó os outros times são issos ó pequenos gatinhos goi muito bom muito bom cara muito bom esses caras são incríveis viu vai deixar assim Larissa a agora o time da Larissa resolvedores de problemas climatronic Club o pessoal tá falando assim ai meu melhor time Meu melhor time né mas já sabe que o resolvedores de problema né ó já tá na frente tá certo desejo que você sejam bem-vindos como nosso nome já diz né Vamos resolver tudo vamos procurar esse ouro e é isso de bola show de bola é isso aí l

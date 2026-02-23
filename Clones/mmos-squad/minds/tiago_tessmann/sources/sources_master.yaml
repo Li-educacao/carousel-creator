@@ -1,0 +1,204 @@
+---
+mind: tiago_tessmann
+collection_date: "2026-02-15"
+status: complete
+version: "1.0"
+
+summary:
+  total_sources: 489
+  total_size_mb: "25.1"
+  source_types:
+    youtube: 477
+    blog: 12
+  quality_tiers:
+    tier_1_high_confidence: 400
+    tier_2_medium_confidence: 89
+
+sources:
+  youtube:
+    channel: "Tiago Tessmann"
+    channel_url: "https://youtube.com/@tiagotessmann"
+    subscribers: "1.19M"
+    total_collected: 477
+    method: "yt-dlp subtitles (pt-BR)"
+    path: "downloads/youtube/"
+    size_mb: 25
+    categories:
+      podcast_extremo:
+        count: 95
+        percentage: 19.9
+        description: "Long-form podcast episodes (45-80 minutes) covering business strategy, mindset, and real-world case studies"
+        quality_tier: 1
+        episode_range: "#54 to #144 (estimated)"
+        topics:
+          - Business fundamentals and scaling
+          - Leadership and mindset
+          - Revenue generation strategies
+          - Entrepreneurial case studies
+
+      case_studies:
+        count: 58
+        percentage: 12.2
+        description: "Business case studies with real revenue numbers - faturamento em 30 dias videos showcasing different business models and revenue achievements"
+        quality_tier: 1
+        examples:
+          - "100 mil de faturamento em 30 dias com e-commerce"
+          - "150 mil de faturamento como agência de tráfego"
+          - "2 milhões de faturamento com franquia de clínicas odontológicas"
+          - "Faturamento com diversos nichos (imobiliário, saúde, local, etc)"
+        featured_businesses:
+          - E-commerce
+          - Agências de marketing digital
+          - Negócios locais
+          - Imobiliário
+          - Serviços profissionais
+
+      business_strategy_tips:
+        count: 129
+        percentage: 27.0
+        description: "Strategic business content with structured tips, pillars, principles, and lessons"
+        quality_tier: 1
+        examples:
+          - "5 passos para..."
+          - "10 dicas para..."
+          - "3 pilares para..."
+          - "Ensinamentos para quem deseja vender"
+          - "Erros que iniciantes cometem"
+        focus_areas:
+          - Business fundamentals
+          - Financial optimization
+          - Marketing strategy
+          - Sales techniques
+          - Personal development
+
+      tutorials_how_to:
+        count: 238
+        percentage: 49.9
+        description: "Practical how-to guides and tutorials covering ads platforms, landing pages, and digital marketing fundamentals"
+        quality_tier: 1
+        platforms_covered:
+          - "Google Ads - setup, campaign creation, optimization"
+          - "Meta Ads (Facebook/Instagram) - campaigns and strategies"
+          - "TikTok Ads - video creation and campaigns"
+          - "Landing pages - creation and optimization"
+          - "Marketing digital basics for beginners"
+          - "E-commerce setup and scaling"
+        content_types:
+          - "Como começar (step-by-step getting started)"
+          - "Como anunciar em plataformas (platform-specific)"
+          - "Para iniciantes (beginner guides)"
+          - "Estratégias (strategic deep-dives)"
+          - "Tutoriais completos (complete tutorials)"
+
+      lives_events:
+        count: 23
+        percentage: 4.8
+        description: "Live streams and event recordings including CE (Conversão Extrema) live sessions"
+        quality_tier: 2
+        event_types:
+          - "CE Ao Vivo (Conversão Extrema live events)"
+          - "Product launches and announcements"
+          - "Interactive Q&A sessions"
+          - "Business day events"
+
+  blog:
+    site: "tiagotessmann.com.br"
+    total_collected: 12
+    path: "downloads/blogs/"
+    size_kb: 68
+    quality_tier: 2
+    description: "Blog articles covering digital marketing fundamentals, ads platforms, and landing page creation"
+    articles:
+      - title: "Como Anunciar no Google para Iniciantes em 2025 - Tutorial Completo"
+        topic: "Google Ads for beginners"
+      - title: "Como Anunciar no Facebook e Instagram para Iniciantes - Tutorial Completo 2025"
+        topic: "Meta Ads (Facebook/Instagram) for beginners"
+      - title: "Como Criar Sua Primeira Campanha de Vendas no TikTok Ads - Guia Completo"
+        topic: "TikTok Ads campaign creation"
+      - title: "Como Aprender Tráfego Pago do Zero em 2025"
+        topic: "Getting started with paid traffic"
+      - title: "Como Começar no Marketing Digital em 2025"
+        topic: "Digital marketing fundamentals"
+      - title: "Sua Primeira Campanha no Google Ads em 10 Minutos"
+        topic: "Quick Google Ads setup guide"
+      - title: "Como Criar Sua Primeira Campanha na Meta Ads em 10 Minutos"
+        topic: "Quick Meta Ads setup guide"
+      - title: "Como Criar Uma Landing Page para Vender Produto Físico usando WordPress e Hostgator"
+        topic: "Landing page creation for physical products"
+      - title: "Como Criar Uma Landing Page para Vender Serviços - Tutorial Completo Passo a Passo"
+        topic: "Landing page creation for services"
+      - title: "E-commerce - 10 Elementos Essenciais Antes de Fazer Tráfego Pago"
+        topic: "E-commerce optimization before ads"
+      - title: "Google Ads para Prestadores de Serviços - Como Ter Agenda Sempre Cheia"
+        topic: "Google Ads for service providers"
+      - title: "As 15 Fórmulas para Escrever Melhores Anúncios com Inteligência Artificial"
+        topic: "AI-powered ad copywriting"
+
+quality_assessment:
+  tier_1_sources: "High-confidence, primary content with direct teaching value - podcasts, case studies, strategy content, and tutorials"
+  tier_2_sources: "Medium-confidence, supplementary content - lives/events (transcription quality may vary) and blog articles"
+
+  content_diversity:
+    has_long_form_content: true
+    has_case_studies: true
+    has_practical_guides: true
+    has_real_examples: true
+    has_strategic_frameworks: true
+
+gate_check:
+  collection_criteria:
+    minimum_sources: 15
+    actual_sources: 489
+    status: "PASS"
+
+  source_type_diversity:
+    minimum_types: 2
+    actual_types: 2
+    types: ["youtube", "blog"]
+    status: "PASS"
+
+  tier_1_content_volume:
+    minimum_tier1: 100
+    actual_tier1: 400
+    percentage_of_total: 81.8
+    status: "PASS"
+
+  overall_status: "PASSED"
+  collection_complete: true
+  ready_for_processing: true
+
+metadata:
+  collection_method: "ETL Squad - youtube-specialist and web-specialist"
+  transcripts_language: "Portuguese (Brazil - pt-BR)"
+  transcript_source: "YouTube auto-generated subtitles"
+  blog_collection_method: "Web scraping and manual collection"
+  last_verified: "2026-02-15"
+  notes:
+    - "All YouTube transcripts extracted in Portuguese (pt-BR)"
+    - "477 YouTube videos represent substantial coverage of Tiago Tessmann's content library"
+    - "12 blog posts cover foundational and practical digital marketing topics"
+    - "Content spans from beginner tutorials to advanced business strategy"
+    - "Multiple business verticals represented in case studies"
+    - "High-quality source material suitable for creating comprehensive knowledge base"
+
+knowledge_domains_covered:
+  - Digital Marketing Fundamentals
+  - Paid Advertising (Google Ads, Meta Ads, TikTok Ads)
+  - E-commerce Strategy and Scaling
+  - Landing Page Optimization
+  - Business Case Studies and Revenue Models
+  - Entrepreneurship and Business Strategy
+  - Leadership and Mindset
+  - Local Business to Digital Transition
+  - Customer Acquisition and Conversion
+  - Affiliate Marketing and Digital Products
+  - Marketing Agency Operations
+  - Financial Management and Profitability
+
+recommended_processing_priority:
+  1: "Podcast Extremo episodes - Long-form, comprehensive business strategy"
+  2: "Case Studies - Real-world revenue data and business models"
+  3: "Business Strategy/Tips - Structured frameworks and principles"
+  4: "Tutorials/How-To - Practical implementation guides"
+  5: "Lives/Events - Supplementary interactive content"
+  6: "Blog Articles - Foundation and quick reference material"

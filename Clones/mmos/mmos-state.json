@@ -1,0 +1,137 @@
+{
+  "version": "0.1.0",
+  "status": "initialized",
+  "initialized_at": "2026-02-10T00:00:00Z",
+  "squads": {
+    "copy": { "status": "scaffolded", "active_agents": [], "running_workflows": [] },
+    "design": { "status": "scaffolded", "active_agents": [], "running_workflows": [] },
+    "media-buy": { "status": "scaffolded", "active_agents": [], "running_workflows": [] },
+    "storytelling": { "status": "scaffolded", "active_agents": [], "running_workflows": [] },
+    "hr": { "status": "scaffolded", "active_agents": [], "running_workflows": [] },
+    "data": { "status": "scaffolded", "active_agents": [], "running_workflows": [] }
+  },
+  "minds": {
+    "loaded": [],
+    "available": ["lawhander-climatronico", "pedro-sobral"],
+    "lawhander-climatronico": {
+      "status": "ready",
+      "started_at": "2026-02-11T00:00:00Z",
+      "completed_at": "2026-02-11T23:59:00Z",
+      "display_name": "Lawhander Climatronico",
+      "domain": "Reparo de placas eletrônicas de ar-condicionado",
+      "language": "pt",
+      "depth": "forensic",
+      "fidelity_score": "20/20",
+      "fidelity_rating": "excellent",
+      "sources": {
+        "blog_posts": 58,
+        "youtube_videos": 2744,
+        "youtube_words": 3157398,
+        "social_profiles": 7,
+        "homepage": 1
+      },
+      "files": {
+        "analysis": [
+          "cognitive-spec.yaml",
+          "mental-models.yaml",
+          "linguistic-patterns.yaml",
+          "psychometric-profile.yaml",
+          "decision-matrix.yaml"
+        ],
+        "artifacts": [
+          "anecdotes.yaml",
+          "voice_guide.md"
+        ]
+      }
+    },
+    "pedro-sobral": {
+      "status": "ready",
+      "phase": "complete",
+      "started_at": "2026-02-13T00:00:00Z",
+      "completed_at": "2026-02-14T12:00:00Z",
+      "display_name": "Pedro Sobral",
+      "domain": "Tráfego pago, marketing digital, gestão de tráfego",
+      "language": "pt",
+      "depth": "forensic",
+      "fidelity_score": "99/100",
+      "fidelity_rating": "excellent",
+      "sources": {
+        "youtube_lives": 43,
+        "youtube_interviews": 11,
+        "blog_posts": 66,
+        "total_files": 120,
+        "estimated_words": 1630000
+      },
+      "files_generated": 26,
+      "files": {
+        "analysis": [
+          "cognitive-spec.yaml",
+          "mental-models.yaml",
+          "linguistic-patterns.yaml",
+          "psychometric-profile.yaml",
+          "decision-matrix.yaml",
+          "thinking-dna.yaml"
+        ],
+        "layer_artifacts": [
+          "behavioral_patterns.yaml",
+          "writing_style.yaml",
+          "routine_analysis.yaml",
+          "recognition_patterns.yaml",
+          "values_hierarchy.yaml",
+          "core_obsessions.yaml",
+          "contradictions.yaml",
+          "anecdotes.yaml",
+          "voice_guide.md"
+        ],
+        "synthesis_artifacts": [
+          "identity-core.yaml",
+          "memory-system.yaml",
+          "frameworks_synthesized.md",
+          "communication_templates.md",
+          "tools.md",
+          "decision_patterns.md",
+          "psychometric_profile.json"
+        ],
+        "system_prompts": [
+          "system-prompt-generalista.md",
+          "history.yaml",
+          "metadata.yaml"
+        ],
+        "root": [
+          "README.md"
+        ]
+      }
+    }
+  },
+  "pending_handoffs": [],
+  "quality_gates": {
+    "total_passed": 2,
+    "total_failed": 0,
+    "total_pending": 0,
+    "last_gate": {
+      "mind": "pedro-sobral",
+      "checklist": "mind-fidelity-checklist",
+      "score": "99/100",
+      "rating": "excellent",
+      "date": "2026-02-14",
+      "checks": {
+        "analysis_files": "10/10",
+        "artifact_files": "9/10",
+        "template_structure": "10/10",
+        "no_placeholders": "10/10",
+        "layer8_paradoxes": "10/10",
+        "integration_matrix": "10/10",
+        "golden_rules": "10/10",
+        "anecdotes": "10/10",
+        "direct_quotes": "10/10",
+        "cross_references": "10/10"
+      }
+    }
+  },
+  "command_registry": {
+    "prefixes": {
+      "*": "action — executes a specific task",
+      "+": "modifier — changes agent behavior or parameters"
+    }
+  }
+}

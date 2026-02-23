@@ -1,0 +1,14 @@
+# Veja só como verificar se o resistor "abriu" #AME
+
+- **Video ID:** JMQqK-ecP8k
+- **URL:** https://www.youtube.com/watch?v=JMQqK-ecP8k
+- **Duration:** 4 min
+- **Views:** 11,223
+- **Published:** 2020-09-22T15:00:08Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+é aonde registou abre e não tem culto não geralmente tá geralmente resistor tem que abrir Candy abre é aumentar a resistência que abre lá onde ele é muito a existência tá se ele é de 100k ele tá dando 2 Mega porque ele abriu não mas ela não dois n***** isso ainda é mas tá muito alto em relação ao volume tem que dar como é que fala logo tem que dar Aonde pai aqui ó e Analisa A análise aqui o número uma marcação dele aqui ó 4722 4,7 cá então a gente retirou mediu fora outra coisa mas na placa suspeitou xira e mede fora porque isso tu me diz só na placa tu pode ser enganado pelas residências vizinhas até outros resistores vizinhos que podem eles só final ter a resistência do componente que ele tá na placa frente retirou aqui esses dois retiramos e Vimos que forma estava dando bem aberto tá Às vezes a simples está aberto às vezes dá uma alta resistência tá no Vamos ver que no na placa a escala de resistência não posso ficar com braço em cima aqui né pedindo esse gestor E aí e no 4,4 carro ele é de 4,7 aonde tá ruim então aí para ter certeza eu tenho que retirar ele com muito cuidado tá não usa ferrão usa ferro tecido olhos 45 por quê Porque ele ele e na ele pode queimar o componente o ferrão eu cai Se ele chegar aqui mas o componente ele pode já que você tentou estou aquele queima o outro aqui ó não trás nós dois anos 393 homens te Conta Ah ele vamos ver que você consegue enxergar 39 uma esses um número é o fator multiplicador então 391 393 falando quanto 393 né três 92.5 não tem 93 ó passei tava tá só variação Zinho aceitava e se lembra que tem uma placa eu tiro ele aí vamos lá e tira ele e às vezes na porta do Senhor me disse 93 tava dando Sei lá 200k estranho né eu vou lá tiro da placa eu te dar aberto aí eu sei que fica ele tá ruim tá então sempre que dúvida a Deus estou sempre que dúvida que eu estou tirei fora onde você vai abrir eu estou cara 99 cento dos casos Sim eu me lembro de duas vezes uma que ouvi falar eu tenho que ir e na garagem duas vezes eu vi né que eu vim duas vezes um estou alterar para menos tá ou ele entrar em curto ou ele baixar existência duas vezes só nesse tempo todo que eu tenho manutenção eletrônica ela nunca acontece é que nem compressor inverter você vai te dar defeito não olha isso é verdade é feito sim tá então você achar que não há defeito é você vai entender você passa tendo dor de cabeça é que nesse estou acreditar que ele não baixa resistência é fechar os olhos que o defeito pode acontecer mas é raro assim como errar o compressor verdade é feito É raro de acontecer mas resistor ele pode baixar eles

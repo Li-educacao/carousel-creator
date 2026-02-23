@@ -1,0 +1,14 @@
+# Pensar assim só vai te deixar com medo e bizurado em apenas um tipo de placa #AME
+
+- **Video ID:** h8Dp7anqSMI
+- **URL:** https://www.youtube.com/watch?v=h8Dp7anqSMI
+- **Duration:** 3 min
+- **Views:** 252
+- **Published:** 2021-05-29T15:00:31Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+o ácido contra o que eu sempre as pessoas pessoas vão fazer o que eu faço e o tempo parcela de mercado se tivesse especialidade não fazer nem ao no YouTube eu estarei aqui Compartilhamos com vocês Tá então A ideia é bastante é essa assim eu penso que tem um segredo é meu posicionamento a mesma de Aço sim assim que eu é do que os meus alunos tá é cinco educo meus alunos para perder o medo cara quando você Age dessa maneira você percebe que você não vai busco dos Segredos vai em busca dos fundamentos por quê Porque se eu pego uma parte eu sei o que é um circuito de leitura de corrente podem lançar modelo novo que foi de qualquer marca cara eu sei qual vai ser o circuito leitura de corrente se eu sei o que é um desses é lindo com aquelas ao circuito que foi de qualquer marca eu consegui identificar de seguinte eu consigo fazer a leitura do circuito de desse link círculo de leitura de PM eu consigo entender o sistema porque a eletrônica não sofre eu volto pra basio eu volto para base eu não fico só super e os Segredos por isso é muito caro que vai ver um país todo dizer assim ó ai minha região tem um cara que só vai para Samsung me ajuda eu quero só para fugir a minha janta um cara só para lhe ver que o cara bem zoado ele sabe os segredos naquela mata você sabe os segredos aquela máquina aí ele vai e se destaca naquela máquina Obrigado escolas estão só para mim que eu estou em São Paulo ano passado eu não sei São Paulo eu fui visitar São Paulo foi na feira até brava cheguei lá os caras a minha junto é um caso à parte gente Como assim cara por causa de um reparo no motor dele na minha a minha escola não existia isso eu falei escola é minha base negar eletrônica como eu aprendi eletrônica como é que o objeto com aproveito para pedir a tônica não faz assim que eu saber só uma aqui no como é que você reparou Samsung vamos retornar fujitsu se formalizar eletronicamente são mesmo círculo fica tem um beijo dessa Nike tem o mesmo preço ser mais entre a sua é o mesmo circuito eletronicamente falando então mesmo PM tem o mesmo é um pulinho está o circuito até mesmo mesma fonte tem uma fonte Então nesse link tem um fluxo de corrente teu IBM tem um acontecer tem uns kit para carga tem um segundo domingo controlador eu escutei tudo sensor entenda eletrônica em ter um circo Diz aí na cabeça a gente foi que eu consegui parar uma Samsung e não consegui levar

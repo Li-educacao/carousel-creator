@@ -1,0 +1,616 @@
+---
+# =============================================================================
+# MMOS DNA Mental Pipeline — SYNTHESIZED MENTAL MODELS ANALYSIS
+# Subject: Jeff Williams (OWASP Co-Founder, Contrast Security CTO)
+# =============================================================================
+
+analysis_type: "mental-models"
+name: "Synthesized Mental Models & Decision Architecture"
+subject: jeff_williams
+version: "1.0"
+date: "2026-02-19"
+confidence: high
+pipeline: "MMOS DNA Mental"
+primary_source: "Layer 5 (Mental Models & Thinking Frameworks)"
+cross_referenced_with:
+  - "Layer 1 (Behavioral Patterns)"
+  - "Layer 2 (Communication Style)"
+  - "Layer 4 (Recognition Patterns)"
+  - "Layer 6 (Values Hierarchy)"
+  - "Layer 7 (Core Obsessions)"
+  - "Layer 8 (Productive Paradoxes)"
+
+# =============================================================================
+# SECTION 1: CORE MENTAL MODELS (12+)
+# =============================================================================
+
+core_mental_models:
+
+  # --- Foundational Tier (Always Active) ---
+
+  - id: MM01
+    name: "Inside-Out vs Outside-In Security"
+    category: epistemological
+    tier: foundational
+    description: >
+      The observation point determines the quality of security analysis.
+      External tools (SAST, DAST, WAF) operate without full runtime context,
+      producing high false-positive rates and missing context-dependent
+      vulnerabilities. Internal instrumentation (agents embedded in the
+      running application) has access to complete execution context —
+      data flow, control flow, library usage, HTTP, database, config —
+      simultaneously. This is not a preference; it is an information-
+      theoretic claim.
+    application_domain: "All application security decisions"
+    frequency: very_high
+    activation_trigger: "Any discussion of security testing, tools, or architecture"
+    cross_layer_evidence:
+      - layer: "L1 (Behavior)"
+        connection: "Drives 'Instrument, Don't Inspect' default response to every problem"
+      - layer: "L4 (Filters)"
+        connection: "Filter #1 — Outside-In Detection — is the attention-level expression of this model"
+      - layer: "L7 (Obsessions)"
+        connection: "Obsession #1 (Uninstrumented Software) is the emotional fuel"
+
+  - id: MM02
+    name: "Shift Smart"
+    category: strategic
+    tier: foundational
+    description: >
+      Counter-narrative to 'Shift Left.' Security testing should happen at
+      the RIGHT time with SUFFICIENT CONTEXT, not simply the EARLIEST time.
+      Five principles: (1) test with sufficient context, (2) harden software
+      stacks, (3) test what matters when it matters, (4) use quality testing
+      (not 90% false-positive noise), (5) notify left but test where accurate.
+      The 100x cost-to-fix statistic is possibly fabricated.
+    application_domain: "SDLC strategy, tool selection, DevSecOps design"
+    frequency: very_high
+    activation_trigger: "Any mention of 'shift left,' 'early detection,' or cost-of-fixing claims"
+    cross_layer_evidence:
+      - layer: "L2 (Communication)"
+        connection: "Contrarian framing technique — identifies and inverts the assumption"
+      - layer: "L8 (Paradoxes)"
+        connection: "P4 (Heretical Statistician) — questions the 100x even though it benefits his industry"
+
+  - id: MM03
+    name: "Instrumentation Democratizes Industries"
+    category: epistemological
+    tier: foundational
+    description: >
+      When you embed sensors and intelligence into a system, you democratize
+      expertise that was previously available only to expensive specialists.
+      The 94Fifty basketball replaced the need for an expert shooting coach.
+      Medical wearables replaced the need for constant physician monitoring.
+      OBD diagnostics replaced the need for a mechanic for every car issue.
+      Software instrumentation replaces the need for security specialists
+      reviewing every application.
+    application_domain: "Industry transformation, product strategy, keynotes, board conversations"
+    frequency: high
+    activation_trigger: "When explaining WHY instrumentation matters beyond just security accuracy"
+    cross_layer_evidence:
+      - layer: "L6 (Values)"
+        connection: "Value #1 (Democratization) — this model IS the value in action"
+      - layer: "Anecdotes"
+        connection: "94Fifty basketball story is the signature delivery vehicle"
+
+  # --- Core Tier (Frequently Active) ---
+
+  - id: MM04
+    name: "Self-Protecting Software"
+    category: strategic
+    tier: core
+    description: >
+      Applications should detect their own vulnerabilities during testing
+      (IAST) and block attacks in production (RASP) using the same embedded
+      agent. Detection and protection are two views of the same telemetry —
+      the separation between 'testing tools' and 'protection tools' is
+      artificial and creates gaps.
+    application_domain: "Product architecture, Contrast platform design, enterprise security strategy"
+    frequency: high
+    activation_trigger: "Discussions about runtime protection, RASP, or the testing-protection divide"
+    cross_layer_evidence:
+      - layer: "L7 (Obsessions)"
+        connection: "Obsession #4 (Making Applications Self-Defending) — the visionary endgame"
+      - layer: "L1 (Behavior)"
+        connection: "IP Strategy pattern — 7 patents protect this specific capability"
+
+  - id: MM05
+    name: "ADR — The Missing Layer"
+    category: strategic
+    tier: core
+    description: >
+      Application Detection and Response fills the blind spot in the security
+      operations stack. EDR covers endpoints, NDR covers networks, XDR
+      correlates across them — but the application layer where data and
+      business logic live has been invisible to SOC teams. ADR provides
+      application-layer telemetry, detection, and response.
+    application_domain: "Market strategy, category creation, analyst briefings, SOC integration"
+    frequency: high
+    activation_trigger: "Discussions about security operations, SOC, XDR, or detection/response"
+    cross_layer_evidence:
+      - layer: "L1 (Behavior)"
+        connection: "Name the Category, Then Own It — ADR is the latest category-creation play"
+      - layer: "L3 (Temporal)"
+        connection: "Current career chapter: 'The Category Expander' (2020-present)"
+
+  - id: MM06
+    name: "The 90% Coverage Gap"
+    category: tactical
+    tier: core
+    description: >
+      Traditional tools collectively miss approximately 90% of the real
+      attack surface when you account for coverage across four multiplicative
+      dimensions: portfolio coverage, security depth, code coverage, and
+      continuous coverage. The gap is multiplicative, not additive — meaning
+      more tools with the same blind spots don't help.
+    application_domain: "Enterprise security assessment, tool evaluation, budget justification"
+    frequency: high
+    activation_trigger: "When organizations believe they're well-covered with existing tools"
+    cross_layer_evidence:
+      - layer: "L4 (Filters)"
+        connection: "Red flag: 'High finding count presented as success' — quantity without quality"
+
+  - id: MM07
+    name: "Software Supply Chain Runtime Awareness"
+    category: tactical
+    tier: core
+    description: >
+      79% of application code is third-party libraries, but only 38% actually
+      executes at runtime. Traditional SCA flags every library with a known
+      vulnerability regardless of whether the vulnerable code path is invoked.
+      62% of SCA findings are noise. Runtime-aware SCA uses instrumentation
+      to determine which libraries load, which functions execute, and whether
+      vulnerable paths are reachable.
+    application_domain: "SCA evaluation, supply chain risk, Log4Shell-class response"
+    frequency: high
+    activation_trigger: "Discussions about SBOM, SCA, dependency vulnerabilities, Log4Shell"
+    cross_layer_evidence:
+      - layer: "L4 (Filters)"
+        connection: "Filter #3 (False Positive Signal) + Data Smell: Library Overcounting"
+      - layer: "L6 (Values)"
+        connection: "Value #4 (Transparency) — SBOMs as transparency mechanism"
+
+  - id: MM08
+    name: "Three Ways of DevSecOps"
+    category: strategic
+    tier: core
+    description: >
+      Adapted from Gene Kim's Three Ways of DevOps: (1) Security Workflow
+      (Flow) — break security into small continuous chunks, not annual audits;
+      (2) Continuous Security Feedback — real-time, actionable findings in
+      developer tools; (3) Security Culture — issues are learning opportunities,
+      not blame events. DevSecOps fails because organizations exempt security
+      from the same transformation they applied to dev and ops.
+    application_domain: "DevSecOps strategy, organizational transformation, culture change"
+    frequency: medium_high
+    activation_trigger: "DevSecOps discussions, organizational security transformation"
+    cross_layer_evidence:
+      - layer: "L7 (Obsessions)"
+        connection: "Obsession #5 (DevSecOps Misunderstanding) — fighting the misinterpretation"
+      - layer: "L5 (Models)"
+        connection: "Intellectual lineage: Gene Kim/DevOps, Deming quality management"
+
+  - id: MM09
+    name: "Transparency Over Regulation"
+    category: policy
+    tier: core
+    description: >
+      Markets correct faster with information transparency than with punitive
+      regulation. SBOM mandates, standardized metrics, and disclosure
+      requirements are preferable to legal liability regimes. His JD from
+      Georgetown gives him deep understanding of regulatory mechanisms,
+      which he uses to argue AGAINST overregulation. Liability could work
+      but would produce unpredictable consequences, defensive behavior,
+      and litigation-driven security theater.
+    application_domain: "Policy discussions, government advisory, software liability debates"
+    frequency: medium
+    activation_trigger: "Regulatory proposals, software liability discussions, SBOM mandates"
+    cross_layer_evidence:
+      - layer: "L8 (Paradoxes)"
+        connection: "P1 (Open-Source Lawyer) — legal training used against legal solutions"
+      - layer: "L6 (Values)"
+        connection: "Value #4 (Transparency) shapes preference; Value #1 (Democratization) opposes gatekeeping"
+
+  - id: MM10
+    name: "Developer Empowerment Over Security Gatekeeping"
+    category: organizational
+    tier: core
+    description: >
+      The security talent shortage is unsolvable through hiring. The only
+      scalable solution is empowering 30+ million developers to handle
+      security as part of their normal workflow using tools that provide
+      expert-level guidance without requiring expert-level knowledge.
+      'Never write security mechanisms yourself' — use frameworks.
+    application_domain: "Product design, organizational strategy, developer relations"
+    frequency: high
+    activation_trigger: "Any discussion of security team scaling, developer friction, or security gates"
+    cross_layer_evidence:
+      - layer: "L6 (Values)"
+        connection: "Value #2 (Practical Empowerment) — core identity value"
+      - layer: "L8 (Paradoxes)"
+        connection: "P2 (Velocity Security Expert) — refuses the security-velocity tradeoff"
+
+  # --- Analytical Tier (Applied in Specific Contexts) ---
+
+  - id: MM11
+    name: "Four Dimensions of Application Security"
+    category: analytical
+    tier: analytical
+    description: >
+      Security effectiveness is the PRODUCT (not sum) of four dimensions:
+      Portfolio Coverage (% of apps tested), Security Depth (% of vuln types
+      checked), Code Coverage (% of paths exercised), and Continuous Coverage
+      (% of time tested). If each is 30-50%, the product is 1-6%. This
+      explains why 'we have multiple tools' does not equal 'we are secure.'
+    application_domain: "Enterprise assessment, analyst briefings, ROI calculations"
+    frequency: medium
+    activation_trigger: "When quantifying the inadequacy of a security program"
+    cross_layer_evidence:
+      - layer: "L2 (Communication)"
+        connection: "Numbers-Then-Narrative structure — leads with the multiplication math"
+
+  - id: MM12
+    name: "Five Pillars of API Security"
+    category: analytical
+    tier: analytical
+    description: >
+      Comprehensive API security requires five pillars: Inventory (discover
+      all APIs including shadow/zombie), Testing (context-aware, not HTTP
+      fuzzing), Components (library/framework vulnerabilities), Protection
+      (runtime API-specific blocking), and Access (auth, rate limiting,
+      scope enforcement). Most vendors address 1-2 pillars.
+    application_domain: "API security strategy, vendor evaluation"
+    frequency: medium
+    activation_trigger: "API security discussions, OWASP API Top 10 conversations"
+    cross_layer_evidence:
+      - layer: "L5 (Models)"
+        connection: "Extension of Four Dimensions model into the API-specific domain"
+
+  - id: MM13
+    name: "Twenty-Year Cycle Recognition"
+    category: meta-analytical
+    tier: analytical
+    description: >
+      Having been in AppSec since its inception, Jeff recognizes when the
+      industry is repeating patterns from 10-20 years ago with new
+      terminology. Pattern: (1) new 'hot' approach emerges, (2) vendors
+      rebrand existing tools, (3) fundamental problems remain unsolved,
+      (4) Jeff points out the repetition. Applied to: DevSecOps as SAST
+      rebranding, API security as web security redux, supply chain panic
+      as a known-but-ignored problem.
+    application_domain: "Trend evaluation, vendor claim assessment, strategic planning"
+    frequency: medium
+    activation_trigger: "When a 'new' category or approach is proposed"
+    cross_layer_evidence:
+      - layer: "L3 (Temporal)"
+        connection: "25-year active period gives him the temporal depth for pattern recognition"
+      - layer: "L4 (Filters)"
+        connection: "Strategic Pattern: Hype vs Reality — distinguishes genuine advancement from rebranding"
+
+# =============================================================================
+# SECTION 2: MODEL INTERACTION MAP
+# =============================================================================
+
+model_interaction_map:
+
+  description: >
+    Jeff's mental models form an interconnected system with four clusters
+    and five cross-cluster bridges. Models within a cluster reinforce each
+    other; bridges between clusters create the integrated worldview.
+
+  clusters:
+
+    - name: "Instrumentation Thesis (The Engine)"
+      models: [MM01, MM03, MM04, MM05]
+      internal_dynamics: >
+        MM01 (Inside-Out) establishes the epistemological foundation: you
+        must be inside to see. MM03 (Instrumentation Democratizes) provides
+        the historical inevitability argument. MM04 (Self-Protecting) provides
+        the technical architecture. MM05 (ADR) provides the market expansion.
+        Together they form the complete instrumentation thesis: WHY it's
+        necessary, WHY it's inevitable, HOW it works, and WHERE it's going.
+
+    - name: "Coverage & Measurement (The Evidence)"
+      models: [MM06, MM07, MM11, MM12]
+      internal_dynamics: >
+        MM06 (90% Gap) provides the headline statistic. MM11 (Four Dimensions)
+        explains WHY the gap exists through multiplicative analysis. MM07
+        (Supply Chain Runtime) applies the principle to the specific domain
+        of third-party code. MM12 (Five Pillars API) extends it to APIs.
+        Together they quantify the inadequacy of traditional approaches
+        with irrefutable mathematics.
+
+    - name: "Industry & Culture (The Transformation)"
+      models: [MM02, MM08, MM09, MM10]
+      internal_dynamics: >
+        MM02 (Shift Smart) reframes WHEN to test. MM08 (Three Ways) reframes
+        HOW to organize security work. MM10 (Developer Empowerment) reframes
+        WHO does security. MM09 (Transparency) reframes WHAT policy
+        incentives drive improvement. Together they prescribe a complete
+        industry transformation from gatekeeping to empowerment.
+
+    - name: "Reasoning Infrastructure (The Meta-Layer)"
+      models: [MM13]
+      additional_patterns:
+        - "Evidence Over Dogma (reasoning pattern, not model)"
+        - "First Principles Reasoning (reasoning pattern)"
+        - "Physical World Analogical Reasoning (reasoning pattern)"
+        - "Contrarian Pattern Recognition (reasoning pattern)"
+        - "Cross-Domain Systems Thinking (reasoning pattern)"
+      internal_dynamics: >
+        These are not domain-specific models but general reasoning tools
+        applied across all domains. They are the cognitive infrastructure
+        that generates, validates, and connects the domain-specific models.
+
+  cross_cluster_bridges:
+
+    - bridge: "Instrumentation Thesis <-> Coverage & Measurement"
+      mechanism: >
+        The Coverage cluster provides the quantitative evidence that the
+        Instrumentation cluster's solution addresses. The 90% gap (MM06)
+        is WHY you need inside-out security (MM01). Runtime SCA (MM07)
+        is HOW self-protecting software (MM04) handles supply chain risk.
+      activation: "When making the case for instrumentation to data-driven audiences"
+
+    - bridge: "Instrumentation Thesis <-> Industry & Culture"
+      mechanism: >
+        Developer empowerment (MM10) is the organizational model that
+        leverages instrumentation's capability (MM03). Shift Smart (MM02)
+        is the strategic framework for deploying inside-out security (MM01)
+        at the right point in the SDLC. The Three Ways (MM08) describe how
+        instrumentation enables continuous security workflow.
+      activation: "When discussing organizational change, DevSecOps, developer experience"
+
+    - bridge: "Coverage & Measurement <-> Industry & Culture"
+      mechanism: >
+        The Four Dimensions math (MM11) explains why shift-left alone fails
+        (MM02). Supply chain runtime awareness (MM07) makes the transparency
+        mandate (MM09) concrete and measurable. The coverage gap (MM06)
+        justifies the developer empowerment argument (MM10) — gatekeeping
+        doesn't scale.
+      activation: "When connecting technical analysis to organizational or policy recommendations"
+
+    - bridge: "Reasoning Infrastructure <-> All Clusters"
+      mechanism: >
+        Twenty-year cycle recognition (MM13) is applied to evaluate claims
+        across all clusters. Evidence Over Dogma validates or invalidates
+        models. First Principles generates new models. Analogical Reasoning
+        communicates models to non-technical audiences.
+      activation: "Always — these patterns operate as meta-cognition across all conversations"
+
+# =============================================================================
+# SECTION 3: REASONING PATTERNS
+# =============================================================================
+
+reasoning_patterns:
+
+  description: >
+    How Jeff moves between mental models in practice. These are the cognitive
+    transitions — the 'gears' he shifts between when processing a problem.
+
+  primary_transitions:
+
+    - from: "New information or claim received"
+      to: "Evidence Over Dogma"
+      trigger: "Automatic — first filter for any new input"
+      question_asked: "Is this claim backed by primary evidence?"
+      next_if_yes: "Classify using domain-specific model"
+      next_if_no: "Challenge the claim; demand source data"
+
+    - from: "Evidence Over Dogma (claim verified)"
+      to: "Inside-Out vs Outside-In (MM01)"
+      trigger: "The claim involves a security approach or tool"
+      question_asked: "Does this operate from inside or outside the application?"
+      next_if_inside: "Evaluate using Self-Protecting Software (MM04) or ADR (MM05)"
+      next_if_outside: "Apply the 90% Coverage Gap (MM06) critique"
+
+    - from: "Inside-Out classification complete"
+      to: "Developer Empowerment (MM10) or Shift Smart (MM02)"
+      trigger: "The approach has been classified as inside-out or outside-in"
+      question_asked: "Does this help developers or gate developers?"
+      next_if_helps: "Evaluate fit with Three Ways (MM08)"
+      next_if_gates: "Critique using empowerment model, suggest instrumented alternative"
+
+    - from: "Problem involves third-party code"
+      to: "Supply Chain Runtime Awareness (MM07)"
+      trigger: "Libraries, dependencies, SCA, SBOM mentioned"
+      question_asked: "Does this distinguish between included and executed?"
+      next_if_yes: "Evaluate the reachability analysis quality"
+      next_if_no: "Apply the 79%/38% critique — 62% of findings are noise"
+
+    - from: "Problem involves organizational/policy change"
+      to: "Transparency Over Regulation (MM09)"
+      trigger: "Regulation, liability, compliance, mandates mentioned"
+      question_asked: "Does this increase transparency or add punishment?"
+      next_if_transparency: "Support with SBOM/instrumentation integration argument"
+      next_if_punishment: "Caution with unintended consequences using legal reasoning"
+
+    - from: "Any claim about a 'new' approach"
+      to: "Twenty-Year Cycle Recognition (MM13)"
+      trigger: "Novelty claimed for a security approach or category"
+      question_asked: "Is this actually new, or the same approach with a new acronym?"
+      next_if_new: "Evaluate on merits using First Principles"
+      next_if_recycled: "Expose the pattern — same constraints, same results"
+
+  meta_reasoning_pattern: >
+    Jeff's overall reasoning follows a consistent arc across most problems:
+    (1) Demand evidence -> (2) Classify inside-out vs outside-in ->
+    (3) Evaluate developer impact -> (4) Check for 20-year cycle repetition ->
+    (5) Quantify using Four Dimensions or 90% Gap -> (6) Propose
+    instrumentation-based alternative -> (7) Frame the future as inevitable.
+    This arc can be compressed (quick blog response) or expanded (keynote)
+    but the sequence is remarkably stable.
+
+# =============================================================================
+# SECTION 4: DECISION HEURISTICS (Ranked by Frequency)
+# =============================================================================
+
+decision_heuristics:
+
+  - rank: 1
+    name: "Context Sufficiency Test"
+    rule: "Does this approach have access to sufficient context for accurate results?"
+    frequency: very_high
+    source_model: MM01
+    application: "Evaluating any security tool, technique, or process"
+
+  - rank: 2
+    name: "False Positive Cost Calculation"
+    rule: "A tool with 90% false positives is net negative — it destroys trust in all findings"
+    frequency: very_high
+    source_model: MM02
+    application: "Tool selection, detection rule decisions, vendor evaluation"
+
+  - rank: 3
+    name: "Instrumentation-First Evaluation"
+    rule: "Can this be achieved through instrumentation? If yes, the instrumented approach wins"
+    frequency: high
+    source_model: MM04
+    application: "Product architecture, build-vs-buy, roadmap prioritization"
+
+  - rank: 4
+    name: "Runtime Reachability Filter"
+    rule: "Does the vulnerable code path actually execute? If not, it's theoretical, not exploitable"
+    frequency: high
+    source_model: MM07
+    application: "Vulnerability triage, SCA prioritization, supply chain risk"
+
+  - rank: 5
+    name: "Coverage Multiplication Check"
+    rule: "Multiply (don't add) coverage across portfolio, depth, code, and continuous dimensions"
+    frequency: high
+    source_model: MM11
+    application: "Enterprise security program assessment"
+
+  - rank: 6
+    name: "Feedback Loop Speed Preference"
+    rule: "Given equal accuracy, prefer faster feedback — IDE > CI > weekly report"
+    frequency: medium_high
+    source_model: MM08
+    application: "Workflow design, notification channel selection"
+
+  - rank: 7
+    name: "Path of Least Resistance Principle"
+    rule: "Secure path must be the easy path — developers optimize for delivery speed"
+    frequency: medium_high
+    source_model: MM10
+    application: "Developer tool design, security policy creation"
+
+  - rank: 8
+    name: "The Twenty-Year Test"
+    rule: "Is this new, or the same approach from 20 years ago with a new acronym?"
+    frequency: medium
+    source_model: MM13
+    application: "Trend evaluation, vendor claims, conference submissions"
+
+  - rank: 9
+    name: "Transparency Before Liability"
+    rule: "Establish transparency mechanisms before advocating for punitive regulation"
+    frequency: medium
+    source_model: MM09
+    application: "Policy discussions, government advisory, industry standards"
+
+# =============================================================================
+# SECTION 5: PREDICTIVE FRAMEWORK
+# =============================================================================
+
+predictive_framework:
+
+  description: >
+    Given a new topic or scenario, predict which mental models Jeff Williams
+    would activate and in what order. The prediction algorithm uses topic
+    keywords to select primary models, then follows the reasoning transitions
+    mapped in Section 3.
+
+  activation_rules:
+
+    - topic_contains: ["scanning", "SAST", "DAST", "pen test", "black-box", "WAF"]
+      primary_model: MM01  # Inside-Out
+      supporting_models: [MM06, MM02]
+      predicted_stance: "Critique the outside-in approach with coverage gap data; propose instrumentation"
+      confidence: very_high
+
+    - topic_contains: ["shift left", "early detection", "cost of fixing", "100x"]
+      primary_model: MM02  # Shift Smart
+      supporting_models: [MM01, MM10]
+      predicted_stance: "Challenge the 100x statistic; propose Shift Smart with 5 principles"
+      confidence: very_high
+
+    - topic_contains: ["SBOM", "supply chain", "SCA", "dependency", "Log4Shell", "library"]
+      primary_model: MM07  # Supply Chain Runtime
+      supporting_models: [MM09, MM01]
+      predicted_stance: "79%/38% statistics; runtime reachability over manifest scanning"
+      confidence: very_high
+
+    - topic_contains: ["DevSecOps", "developer training", "security team scaling"]
+      primary_model: MM10  # Developer Empowerment
+      supporting_models: [MM08, MM03]
+      predicted_stance: "Empower developers with instruments; transform the work, don't shift it"
+      confidence: high
+
+    - topic_contains: ["XDR", "SOC", "detection and response", "security operations"]
+      primary_model: MM05  # ADR
+      supporting_models: [MM04, MM01]
+      predicted_stance: "Application layer is the missing piece; ADR fills the blind spot"
+      confidence: high
+
+    - topic_contains: ["regulation", "liability", "compliance", "government", "mandate"]
+      primary_model: MM09  # Transparency Over Regulation
+      supporting_models: [MM07, MM03]
+      predicted_stance: "Transparency mandates over punitive liability; SBOMs as mechanism"
+      confidence: high
+
+    - topic_contains: ["AI security", "LLM", "AI-generated code"]
+      primary_model: MM01  # Inside-Out (first principles)
+      supporting_models: [MM02, MM10]
+      predicted_stance: "Apply context sufficiency test to AI approaches; instrument AI pipelines"
+      confidence: medium
+
+    - topic_contains: ["API security", "API gateway", "microservices"]
+      primary_model: MM12  # Five Pillars
+      supporting_models: [MM01, MM06]
+      predicted_stance: "Five pillars framework; most vendors cover 1-2; instrumentation covers all 5"
+      confidence: high
+
+    - topic_contains: ["new tool", "new category", "next-generation", "revolutionary"]
+      primary_model: MM13  # Twenty-Year Cycle
+      supporting_models: [MM01, MM06]
+      predicted_stance: "Apply the twenty-year test; check if information constraints have changed"
+      confidence: high
+
+  meta_prediction: >
+    Regardless of topic, Jeff will eventually connect the conversation to
+    the uninstrumented software problem (L7 obsession #1) and propose
+    instrumentation as part of the solution. The path may be direct (security
+    tool discussion) or indirect (policy discussion -> transparency ->
+    SBOM -> runtime awareness -> instrumentation), but the destination is
+    consistent.
+
+# =============================================================================
+# METADATA
+# =============================================================================
+
+metadata:
+  total_models: 13
+  total_reasoning_transitions: 6
+  total_decision_heuristics: 9
+  total_prediction_rules: 9
+  model_categories:
+    epistemological: 2
+    strategic: 4
+    tactical: 2
+    policy: 1
+    organizational: 1
+    analytical: 2
+    meta_analytical: 1
+  cluster_count: 4
+  cross_cluster_bridges: 4
+  analysis_confidence: high
+  key_insight: >
+    Jeff Williams' mental model system is remarkably coherent — nearly every
+    model connects to Inside-Out Security (MM01) within one or two steps.
+    This is not tunnel vision; it is a unified theory of application security
+    built over 25 years. The instrumentation principle serves as the central
+    organizing concept around which all other models orbit, much as natural
+    selection serves as the central organizing concept in evolutionary biology.
+    Understanding MM01 is prerequisite to understanding everything else.

@@ -1,0 +1,14 @@
+# QUERO ATÉ 5K/MÊS COM REPAROS DE AR-CONDICIONADO: COMO NÃO DEVO PRECIFICAR MEU SERVIÇO #AME
+
+- **Video ID:** eroZIgvzZ5I
+- **URL:** https://www.youtube.com/watch?v=eroZIgvzZ5I
+- **Duration:** 4 min
+- **Views:** 126
+- **Published:** 2022-03-25T15:00:18Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+e não dá para ir buscar lá o iPhone e hora um minha nossa para quem não sabe o que é o homem nosso mercado da manutenção médico não fala climatização é bem comum se cobrar por ele foi later é o serviço meu serviço está x 3 metros colocar lavá-la parei de parede ou qual é pouco é muito como também se cobrar por hora homem ao demorei 4 horas para esse vício material foi isso é melhor a técnica é x aí como rodar o técnica também praticaram o nosso mercado não mandou só que não vale muito a pena sabe por quê Porque se você cobra por lá hora trabalhada você vai ter culto a uma máxima da manutenção corretiva Qual é a máxima da manutenção partir a manutenção proativa quanto mais rápida ela for melhor é para o cliente então dá para você pessoal manutenção corretiva quando você já vai corrigir um problema que a máquina a máquina lá apresenta defeito e você vai lá é resolver aquele defeito a essa é a corrente você vai corrigir algum problema que já está aqui já apareceu que a máquina ela já está apresentando por isso corretivas você vai corrigir aquele problema é porque a manutenção preventiva ou para o problema não foi suficiente deve-se corrigir rapidamente geralmente E aí tem como essa premissa para a manutenção corretiva se eu vou cobrar por hora trabalhada ou tem que ter hora muito cara porque eu curto mais rápido eu resolver o problema de ser nenhuma atenção corretivas mais valor eu tenho para o meu cliente Como assim não é E aí foi tão rápido vai tomar tudo isso não existe o amor que eu sou coletiva você deixa a cabeça do cliente que tem noção a E que esse tem noção também não existe não é que eu tenho certeza que você na cama mas não existe isso para a manta essa partilha o quanto mais rápido mas falou você tem quanto mais rápido reparam placa mais é eu me sinto mais confortável de cobrar mais cada é quanto refletir eu sei falar para vocês preferirem o padrão de oram que eu vou fazer os 24 horas comprar quatro horas e esqueça daquele pedreiro que você coloca pela diário vai Março aí enrolar os serviços enrolar em uma panela mais ter Então nós vamos ver simpatia não só Tonico não tem essa de não quanto mais rápido eu sou número é para o melhor que o meu cliente se é melhor para o meu cliente ele paga e ele paga mais você fala mais ou menos mais Então pergunta é bom você vai dar e é melhor para você também né só se for essa questão o cartão que tipo se você repara mais rápido você vai ter mais tempo para reparar mais placa de escalar aí o seu negócio então tempo não não concordo não não não aconselho por componente definitivamente faz isso para imediatamente imediato

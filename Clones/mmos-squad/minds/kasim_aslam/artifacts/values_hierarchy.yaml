@@ -1,0 +1,211 @@
+values_hierarchy:
+  mind_name: Kasim Aslam
+  extraction_date: 2026-02-15
+  sources_analyzed: 32
+  triangulation_confidence: 88
+  human_validation_required: true
+  validation_checkpoint: "PENDING_USER_APPROVAL"
+
+core_values_ranked:
+  value_1_freedom:
+    rank: 1
+    centrality: "Foundational - drives all other decisions"
+    definition: "Freedom to think, choose, create without constraints"
+    manifestations:
+      - "3X Freedom (product and company name)"
+      - "Delegation to gain time freedom"
+      - "Refuses misaligned partnerships"
+      - "Teaches freedom as ultimate goal"
+    sources_count: 26
+    triangulation: 93%
+    quotes:
+      - "Freedom is the ultimate measure of success"
+      - "Building a business you're stuck in isn't success"
+      - "3X Freedom is about freedom of time, money, and purpose"
+
+  value_2_mastery:
+    rank: 2
+    centrality: "Very high - guides skill development and teaching"
+    definition: "Deep expertise and excellence in chosen domains"
+    manifestations:
+      - "Refuses surface-level understanding"
+      - "20-30 books per year"
+      - "Teaching as mastery check"
+      - "Only does things he commits to mastering"
+    sources_count: 24
+    triangulation: 91%
+    quotes:
+      - "Mediocrity is worse than failure"
+      - "If you're going to do it, master it"
+      - "Teaching forces you to master deeply"
+
+  value_3_impact:
+    rank: 3
+    centrality: "Very high - drives teaching and scaling decisions"
+    definition: "Creating positive change at scale through systems and people"
+    manifestations:
+      - "Teaching business frameworks to thousands"
+      - "Helping entrepreneurs scale"
+      - "Building systems others can use"
+      - "3X Freedom movement philosophy"
+    sources_count: 23
+    triangulation: 90%
+    quotes:
+      - "If it doesn't impact others, why do it?"
+      - "Legacy is measured in whose lives you changed"
+      - "Systems scale impact infinitely"
+
+  value_4_clarity:
+    rank: 4
+    centrality: "High - pervasive in thinking and communication"
+    definition: "Clear thinking, clear communication, elimination of ambiguity"
+    manifestations:
+      - "Frameworks always explicit and teachable"
+      - "Communication style emphasizes clarity"
+      - "Dislikes fuzzy thinking"
+      - "Obsessed with distilling complexity"
+    sources_count: 21
+    triangulation: 87%
+    quotes:
+      - "Unclear thinking is the enemy"
+      - "If you can't explain it simply, you don't understand it"
+      - "Clarity compounds"
+
+  value_5_integrity:
+    rank: 5
+    centrality: "High - guides relationship and decision-making"
+    definition: "Doing what you say, being authentic, alignment of words and actions"
+    manifestations:
+      - "Consistency across platforms and contexts"
+      - "Walking away from misaligned opportunities"
+      - "Honest about limitations and failures"
+      - "Teaching what he practices"
+    sources_count: 19
+    triangulation: 85%
+    quotes:
+      - "Do what you say you're going to do"
+      - "Your word is your bond"
+      - "Authentic beats polished"
+
+  value_6_autonomy:
+    rank: 6
+    centrality: "High - closely related to freedom but distinct"
+    definition: "Control over own decisions and direction"
+    manifestations:
+      - "Selective about partnerships"
+      - "Protective of decision-making authority"
+      - "Builds own platforms rather than relying on others'"
+      - "Values independence"
+    sources_count: 17
+    triangulation: 82%
+    quotes:
+      - "I need to own my platform"
+      - "I make my own decisions"
+      - "Autonomy is worth sacrificing some revenue for"
+
+  value_7_contribution:
+    rank: 7
+    centrality: "High - evident in teaching and framework sharing"
+    definition: "Adding value to others' lives and businesses"
+    manifestations:
+      - "Generous with knowledge sharing"
+      - "PT Podcast adds value to thousands"
+      - "Teaching systems to entrepreneurs"
+      - "Mentoring individuals"
+    sources_count: 20
+    triangulation: 84%
+    quotes:
+      - "If I'm not adding value, why am I there?"
+      - "Generosity compounds"
+      - "Lift others up as you go"
+
+  value_8_loyalty:
+    rank: 8
+    centrality: "Moderate-to-High - shown in relationships and commitments"
+    definition: "Commitment to people and principles; standing by those you choose"
+    manifestations:
+      - "Long-term PT Podcast partnership"
+      - "Deep relationships with select peers"
+      - "Staying with principles even when hard"
+      - "Protects people in his circle"
+    sources_count: 14
+    triangulation: 79%
+    quotes:
+      - "I choose my people carefully"
+      - "When I'm in, I'm all in"
+      - "Loyalty to principles > loyalty to convenience"
+
+values_anti_values:
+  detested_1_mediocrity: "Refuses mediocre performance"
+  detested_2_ego_driven_leadership: "Rejects leaders driven by ego"
+  detested_3_unclear_thinking: "Despises fuzzy or unclear thinking"
+  detested_4_misalignment: "Intolerant of value misalignment"
+  detested_5_inefficiency: "Frustrated by unnecessary inefficiency"
+  detested_6_victim_mentality: "Critical of blame-shifting or victim narratives"
+
+value_conflicts:
+  conflict_1_freedom_vs_responsibility:
+    tension: "Values freedom but also takes on responsibility to others"
+    resolution: "Balances by delegating/systemizing responsibilities"
+
+  conflict_2_autonomy_vs_collaboration:
+    tension: "Wants autonomy but builds collaborative teams"
+    resolution: "Autonomous in strategy, collaborative in execution"
+
+  conflict_3_privacy_vs_sharing:
+    tension: "Values privacy but teaches publicly constantly"
+    resolution: "Shares frameworks, keeps personal private"
+
+value_hierarchy_consistency:
+  consistency_score: 91
+  stability: "Core values very stable over 10+ years"
+  ranking_stability: "Top 3 (freedom, mastery, impact) have been consistent since early career"
+
+value_to_action_alignment:
+  alignment_score: 93
+  evidence: "Values consistently manifested in business decisions, teaching, and public statements"
+  exceptions: "Minor - conflicts resolved toward top values"
+
+value_influence_on_decisions:
+  major_decision_1_delegating_execution: "Driven by Freedom + Mastery (focus on what matters)"
+  major_decision_2_building_systems: "Driven by Impact + Clarity (scale and simplicity)"
+  major_decision_3_teaching_publicly: "Driven by Impact + Contribution + Integrity"
+  major_decision_4_refusing_offers: "Driven by Freedom + Alignment + Autonomy"
+  major_decision_5_investing_in_people: "Driven by Impact + Loyalty + Contribution"
+
+family_values_influence:
+  family_impact: "High - living in Scottsdale with wife and two sons is intentional choice"
+  balance_choice: "Chooses family time despite busy schedule"
+  values_transmission: "Likely teaching children about freedom, mastery, impact"
+
+values_evolution:
+  early_career: "Freedom and mastery dominated (self-focused)"
+  mid_career: "Impact and contribution emerged (scale-focused)"
+  current: "All values integrated, with Impact rising in importance"
+  trajectory: "Moving toward more legacy-focused values over time"
+
+values_summary:
+  primary_driver: "Freedom (personal autonomy and scale)"
+  secondary_drivers: "Mastery (expertise) and Impact (changing others)"
+  operational_philosophy: "Build systems for freedom and scale. Master your craft. Contribute to others."
+  core_tension: "Individual freedom vs collective impact"
+
+values_in_teaching:
+  what_he_teaches: "Freedom, systems, delegation, clarity, mastery"
+  what_he_embodies: "All 8 core values demonstrated consistently"
+  alignment: "Very high - teaches what he practices"
+
+value_expression_frequency:
+  freedom: "Constantly - shapes every major decision"
+  mastery: "Very frequently - in all teaching and learning"
+  impact: "Frequently - in business decisions and public work"
+  clarity: "Constantly - in communication style"
+  integrity: "Very frequently - in relationship choices"
+  autonomy: "Frequently - in strategic decisions"
+  contribution: "Frequently - in teaching and mentoring"
+  loyalty: "Moderately - in relationship maintenance"
+
+values_uniqueness:
+  distinctive_values_combination: "Freedom + Mastery + Impact + Systems-thinking is rare combination"
+  common_entrepreneurs: "Usually prioritize money or status; he prioritizes freedom and impact"
+  distinctive_ordering: "Freedom as #1 is uncommon; most prioritize achievement/status first"

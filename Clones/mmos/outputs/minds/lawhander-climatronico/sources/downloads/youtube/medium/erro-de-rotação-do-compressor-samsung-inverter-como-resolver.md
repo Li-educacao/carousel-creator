@@ -1,0 +1,14 @@
+# ERRO DE ROTAÇÃO DO COMPRESSOR | SAMSUNG INVERTER | COMO RESOLVER
+
+- **Video ID:** DhGphMQXGms
+- **URL:** https://www.youtube.com/watch?v=DhGphMQXGms
+- **Duration:** 3 min
+- **Views:** 696
+- **Published:** 2024-11-07T22:00:06Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+você vai verificar o quê vindo aqui pra placa Ó você vai ter você vai ter aqui ó o módulo igbt e o IPM esse cara aqui é a parte de potência para partir o compressor o compressor vai aqui conectado aqui ó então se ele der problema pode dar esse defeito então primeiro ponto você vai verificar a IPM aí tem uns testes você pode fazer do IPM e possivelmente não tem reparo internamente dele tá quando tá com defeito a gente troca ele é é um componente né a gente troca um componente então pode ser ess defeito no IPM só o IPM não você deve Verificar também esses três carinhas aqui ó e esse aqui você consegue verificar esses três carinhas aqui ó são três resistores tá esses três resistores você consegue ver com o multímetro Se liga só como multímetro na escala de resistência você vem nesses resistores e mede a resistência deles ele tem que dar uma resistência um curto ó 0 Ohm ó 0 Ohm aqui 0 oh aqui e 0 Ohm aqui 0 oh por lembra que eu perguntei no começo do vídeo aqui como a placa lê a rotação lê o posicionamento compressor esses três componentes são responsáveis por ler também além da corrente ler também o posicionamento do compressor que bobina Tem que acionar em cada momento então não só o IPM faz essa leitura mas também esse circuito ele pode influenciar essa leitura ele faz essa leitura também esse posicionamento do compressor então IPM e e resistor chant chamado são os três resistores chantes da Samsung esses dois componentes quando o erro for relacionado a erro de rotação do compressor são os três principais componentes Tá três os dois principais componentes você deve analisar quando o defeito for erro de rotação do compressor Tá ok ó então é isso já sabe o que fazer com pegar o erro de rotação do compressor os dois componentes devem analisar são dois componentes principais desse desse circuito que li a rotação do compressor ó deixa aqui nos comentários que que você se você conseguiu resolver esse problema aí na sua Samsung tá na do seu cliente se você não conseguiu bota também para saber o que qual foi onde é que tá impasse aí quem sabe a gente pode te ajudar ainda mais pelos comentários e espero que vocês tenham gosto dessa aula se você aprendeu alguma coisa nesse vídeo deixa o joinha aí Não esque se inscrever para não perder mais nenhum conteúdo como esse tudo que envolve código de erro de ar condicionado tudo que envolve placas eletrônicas já acado se encontra aqui a gente se vê no próximo vídeo fica com Deus um abraço valeu

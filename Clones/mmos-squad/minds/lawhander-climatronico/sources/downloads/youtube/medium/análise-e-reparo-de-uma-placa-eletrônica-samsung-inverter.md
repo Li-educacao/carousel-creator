@@ -1,0 +1,14 @@
+# Análise e reparo de uma placa eletrônica Samsung inverter
+
+- **Video ID:** Mx2vKQClrJA
+- **URL:** https://www.youtube.com/watch?v=Mx2vKQClrJA
+- **Duration:** 3 min
+- **Views:** 926
+- **Published:** 2024-12-16T17:25:15Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+bom dia bom dia meu povo aqui quem vos fala Professor valde Araújo da Equipe técnica e pedagógica do La Wander aqui da academia da manutenção eletrônica da AM e elment da lautec aqui uma evaporador Zinha Samsung chegou aqui mor né completamente morta que que eu digo que é morta ela não dá sinal de vida ela não bipa buzzer e não tem as tensões aqui do secundário é para ter 12 aqui e 5 v aqui 12 V aqui em C aqui ou seja ela não gera o secundário só usa 125 essa placa 5 v não não gerou secundário não bipou o buzzer entrava 220 V aqui chegava na ponte ratificava chegava 310 310 V no capacitor de potência chegava 310 V entre o dren e o sce do chaveador mesmo sen não gerava secundário ela passou pela mão de outro técnico certo antes de vir para cá antes de chegar até mim ela passou pela mão de outro técnico ele mexu em algumas coisas ele trocou o chaveador inclusive ele deixou um negócio Meio feio aqui a gente resolveu deixou bonitinho aqui ó certo limpou né fez uma solda nova e mesmo assim não funcionou certo ele mexer um pouco n ela e não botou para rodar mas eh ela tava com esse diozinho aqui em Fuga ó e eu acho que ele que ele deve ter mexido também que ela chegou aqui com essa trilha levantada uma trilhazinha bem aqui levantada ó quebrada já e essa também eh mesmo assim o diodo tava em Fuga esse diodo tava com fuga ó ele não tava em curto ele ele tava com fuga na polarização reversa e e por conta disso ela não estava gerando o secundário é o diodo do circuito snub certo NB da fonte Beleza sim ele interfere também na geração do secundário para quem não sabe não tava em curto ele tava em fuga na reversa substitui o diodo refiz a ilhazinha aqui foi bem complicado porque essa ilhazinha aqui só segura o diodo então puxei daqui do capacitor capacitor Zinho conectado com diodo lá do outro lado tem um capacitor puxei do capacitor Zinho para cá pro diodo too e essa aqui eu também refiz essa trilhazinha aqui ó essa ilhazinha que tem bem aqui ela é grossinha mesmo viu Essa aqui era um pouco mais grossa eu botei um pouco mais fina mas essa trilha essa Ilha É grossinha mesmo né porque eu fiz feio não mas é isso aí substituído o diodo ela voltou a Gerar o secundário gerou 12 V passou pelo regulador de tensão gerou 5 v bipou o buz e a placa voltou a ter vida é isso aí Se quiserem se aprofundar no assunto se torne um climatronic né se inscreva na academia da manutenção eletrônica que se torne o climatronic

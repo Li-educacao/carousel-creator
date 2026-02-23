@@ -1,0 +1,14 @@
+# Você troca a placa… mas o defeito era só ISSO
+
+- **Video ID:** i3AdOUag9eQ
+- **URL:** https://www.youtube.com/watch?v=i3AdOUag9eQ
+- **Duration:** 3 min
+- **Views:** 1,942
+- **Published:** 2025-08-02T15:01:14Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+E muitos técnicos condenam a placa eletrônica por conta desse defeito. Muitos. Vou te mostrar um reparo super simples, fácil de executar se você tiver o mínimo de conhecimento, ferramentas simples e é o defeito que ele acontece, ó, das 11.000 1 e tantas placas que nós já reparamos, certamente mais de 1000 foi esse defeito, defeito nesse componente. Então tem altas chances de você se deparar com esse tipo de defeito. E esse defeito condena a placa eletrônica e muitos técnicos condenando a placa eletrônica por conta desse defeito. Muitos. O defeito é não dá nada. Tô chegando na máquina, máquina não dá nada. Então, ó, e aí vamos lá. Que componente é esse lá onde? Quando isso acontecer, chegou numa máquina, tem 220 e não dá nada na condensadora, você vai ver a placa, vai ver se não bate um relé, não escuta um relé bater, não vê um LED acender, aí procura, tem escrito o nome LED, você vai ver o ledz assim, você vai bater o olho, você vai ver alguma coisa piscando na placa. Você já pegou uma placa, você deve ter visto já. E aí não tem nada disso. Você vai lembrar deste componente. O componente é o Caveador da fonte chaveada, o dispositivo de chaveamento. Nesse caso aqui, ó, é esse componente bem aqui assim, ó. Vou dar um zoom aqui para você ver, certo? Ó, aqui eu tenho minha fonte. Aqui eu tenho a fonte do transformador. Ele tá do lado do transformador. É esse seisinho aqui, ó. Geralmente oito pinos, sete pinos. Tá aqui ele. Esse carinha é o grande crítico quando o comportamento defeito é esse de não ligar. A placa não liga. Logo vai dar erro de comunicação na vaporador, vai dar erro nenhum. Pode dar vários erros nesse sentido. Erro de comunicação clássico quando não liga. Por que que dá erro de comunicação? Porque o microprocessador aqui, ó, o microprocessador aqui, que é o cérebro da placa, não tá ligando, então ele não vai comunicar. Logo o evaporador vai dar de comunicação, certo? Ou não dá erro nenhum. Pode não dar erro nenhum também, mas se não ligar de novo, comportamento. Quero que você veja o comportamento. Não precisa nem fazer essas, não precisa nem fazer essas meições que eu fiz aqui hoje. Só baixa você bater o olho nela. Tem 220. Aí você veja lá assim, 220. Tá ligando o LED? Tá batendo relé. Não, aí vai lembrar. Pode ser que seja aquele seículo lá onde ele falou que dá muito defeito, que é o se chaveador da fonte chaveada. trocou ele, não ligou o LED, aí o buraco é mais embaixo. Aí outro vai mandar para um climatrônico, outro vai estudar um pouco mais para aprender sobre esse reparo. Muitos dos casos o defeito tá nesse se chaveador.

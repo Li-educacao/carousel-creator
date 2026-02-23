@@ -1,0 +1,14 @@
+# Ao se deparar com o Erro 2 / Erro 99 na Consul faça isso #AME
+
+- **Video ID:** JI9Z1hCzIVk
+- **URL:** https://www.youtube.com/watch?v=JI9Z1hCzIVk
+- **Duration:** 4 min
+- **Views:** 2,250
+- **Published:** 2020-09-21T15:00:06Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+eu tô chegando a situação em que a gente precisa analisar placa com tudo tá porque porque esse erro dois não tem na tabela de cotidiano não sei se tem a ver com o ciclo de PM tá vendo consigo de comunicação que tem a ver com a fonte se tem a ver com acionamento do PTC aqui se inscreve com a sua mente lá dor daí fica perdido pode personalizar pela como tudo como eu reparei que ela tinha algumas oxidações apareciam nas estações não circuito o seguinte fez como tinha algumas oxidações a gente foi já fazendo algumas situações ou refazendo os Trilhas e nem fazendo trilha é respondendo alguns componentes está resolvendo os até o microcontrolador E chegamos nessa circuito aqui tá mexer nesse circuito aqui deixa eu dar uma lado aqui um beijo nesse circuito aqui de comunicação ó percebo tava bastante bem a quantidade bem ressolado que esse espinho só restauramos todos os pinos do sensor de temperatura que tá é e vimos aqui que tinha uns eles bastante oxidadas a foi que aconteceu a gente chegou nesse circuito aqui ó um show esse circuito aqui esse circuito para quem não entende o para quem não conhece né ele vem aqui ó esses cabo vermelho e branco são a parte de comunicação passa por essas bobinas capacitores chega aqui nesses óculos tá um objeto envia do micro para fora ou tópico recebe de fora por micro e vem para esse micro que esse micro-processo informação mano através dos dois outros Opus Manda aqui para onde precioso microcontrolador aqui tá então esses microporos conversam por esses dois ovos um objeto desse livro para esse outro um amigo para esse e aqui tem esse outro micro esse outro alto que manda um sinal aqui desse mico para fora amor só você mesmo para fora então eu cheguei nesse circuito aqui e assim ó começou começou como ao ressaltar esse existe usam aqui ó esses todinho aqui eu me dinheiro na placa tava Aparentemente o que Só quis ressaltar quando eu sou Day não sei Aí eu não sei se foi na Rei saudade hein ou ele já estava ele abriu tá ele abriu a gente trocar trocamos ele é Eu repito dizer eu não sei se foi na hora que eu enrolei Ele abriu ou se ele já estava aberto só intensifique só ser ele o processo acontece também em 3 ou 2 se registou aqui mas ele defeito continuou e a gente finalizar finalizar esses os dois resistores aqui ó e esse é esse aí realizou todos aqui nós chegamos nesse e nesse te dou resistores eles estavam abertos

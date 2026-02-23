@@ -1,0 +1,14 @@
+# Cuidado a tensão que você mede pode ser tensão de flutuação #AME
+
+- **Video ID:** 4Zh3ScbAPqQ
+- **URL:** https://www.youtube.com/watch?v=4Zh3ScbAPqQ
+- **Duration:** 4 min
+- **Views:** 768
+- **Published:** 2019-12-15T15:00:01Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+fazem neutro e voltou a energizar melhor ficar ligados em todos eles o dos índices foi baixo e as tensões e que do secundário da fonte tá está gerando as tensões mas ela vai dar bum bum as tensões vai dar o que vê que a atenção que na saída política do ouro que nem sequer pastor um pastor que maior e vegetações capacitores melhor saque da fonte do milho por aqui ó e como identificá los eles são esses caras aqui é que a marca de capacitação aqui eu tô aqui de quem tivesse deve ter 1 5 volts por aqui então cuidado quando encostou lugar nenhum é errado vamos analisar energizado certo a provocar risadas tensão a ser os bônus de entrada nos bônus de entrada o paulo estava em cima 216 vôos assim ele vai chegar na ponte vamos ver na saída da ponte o botão em a ser de ser desculpa e vou querer sair da ponte cuidado o choque está sempre trabalhar tem que falar isso pra vocês são paulo aqui sempre foi um trabalho analisada cuidado com um choque elétrico não trabalha e descalço trabalhava e ano pontua bote isolado certos ea boxing great tinho nós também havaiano não vai trabalhar nos carros que tudo isso gera um sério risco de vida e tá então muito cuidado com o tamanho realizado aqui ó tudo o que está ao lado está a amália que é de borracha e isolado então vale a pena falar isso aqui não vamos ser negligentes ao ponto de gerar conteúdo para vocês e não falar disso não dizer por aí eu estou dando aula e tendo levado um choque certo então 96 descer abaixo certo porque abaixo era pra ter quantos se eu tenho 220 retificado em torno de 300 longas 3/10 volts está abaixo de interpretar baixo atenção que 48 nunca pastor tá no meu trabalho aqui de baixo tem uma coisa que 0 volts e 0 vou estou vendo que são nenhum é realmente não tá ligando porque não tem pressão vai chegar na ponte chegando 3 volts na ponte de 90 e poucos outros aqui pode acontecer de flutuação da contenção de flutuação que está pegando aqui é é não tá chegando tensão na ponte identificadora pode ser pelo fato da queda do positivo está chegando aqui na ponte né ele vai ter que seguir agora a fase que tá o deslizar sempre energisa vão capacitar kiyota e vejo zerado prova que aquela tensão estava que essa atenção de flutuação mesmo que estivesse 93 fonte que não descarregar vá tão rápido ah então não tá chegando a fase não está chegando não tá chegando na ponta de cada um

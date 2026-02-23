@@ -1,0 +1,16 @@
+{
+  "id": "source_004",
+  "title": "Forbes & Entrepreneur Magazine Features",
+  "type": "articles",
+  "publication_date": "2018-2025",
+  "tier": 1,
+  "status": "QUEUED",
+  "publications": ["Forbes", "Entrepreneur Magazine"],
+  "estimated_count": "5-10 articles",
+  "urls": {
+    "forbes": "https://money.com/author/molly-pittman/"
+  },
+  "priority": "HIGH",
+  "collection_strategy": "Collect all available articles from author pages",
+  "notes": "Major publication features - validates expertise and public recognition"
+}

@@ -1,0 +1,197 @@
+---
+mind:
+  name: "Lawhander Silva"
+  slug: "lawhander-climatronico"
+  type: "brownfield"
+  status: "in_progress"
+  created_at: "2026-02-11"
+  updated_at: "2026-02-11"
+  current_phase: "system_prompts"
+  progress_percentage: 85
+
+special_case:
+  type: "public_content_creator"
+  subtype: "technical_educator"
+  reason: "Public figure with massive content output — standard MMOS pipeline applies"
+  standard_mmos_applicable: true
+  blocking_issue: null
+  requires_new_workflow: false
+  advantages:
+    - "2,744 YouTube videos — rich behavioral and linguistic data"
+    - "58 blog posts — structured written voice samples"
+    - "313 podcast episodes — natural oral voice + student interactions"
+    - "3.16M words total — Top 5% source density"
+    - "Consistent persona — single authentic voice (no dual personas)"
+
+archetype:
+  primary: "technical_educator"
+  secondary: "community_builder"
+  note: "O Amigo de Bancada — Técnico que Ensina"
+
+pipeline:
+  version: "3.0"
+  methodology: "DNA Mental™ (full 8-layer framework)"
+  workflow_status: "executing"
+  fidelity_target: "85-90%"
+  estimated_timeline: "5-10 days"
+
+viability_assessment:
+  date: "2026-02-11"
+  status: "GO_APPROVED"
+  confidence_level: 85
+
+  apex_score:
+    total: 78
+    percentage: 78
+    tier: "auto_approve"
+    breakdown:
+      availability: 18  # /20 (90%) — YouTube + blog fully public
+      public_persona: 13  # /15 (87%) — strong consistent persona
+      expertise_depth: 14  # /20 (70%) — deep but narrow domain
+      x_factor: 11  # /15 (73%) — unique method (OET), first in niche
+      temporal_relevance: 12  # /15 (80%) — actively producing content
+      value_density: 10  # /15 (67%) — high density within domain
+
+  overall_viability:
+    percentage: 78
+    decision: "GO"
+    tier: "standard"
+    confidence: "high"
+
+  unique_factors:
+    - factor: "3.16M words (16+ book equivalents)"
+      impact: "Top 5% source density for MMOS"
+    - factor: "Single consistent persona (no mode confusion)"
+      impact: "Simpler identity-core, higher fidelity expected"
+    - factor: "Highly structured content (OET, cascata, trade-off)"
+      impact: "Mental models easily extractable"
+    - factor: "Oral + written + podcast data"
+      impact: "Complete voice profile across registers"
+
+phases:
+  viability:
+    status: "complete"
+    completed_at: "2026-02-11"
+    note: "APEX 78/100 — GO APPROVED"
+
+  research:
+    status: "complete"
+    progress_percentage: 100
+    sources_collected: 2802
+    total_words: 3160000
+    note: "58 blog posts + 2,744 YouTube videos collected and processed"
+    categories:
+      blog_posts: 58
+      youtube_videos: 2744
+      total: 2802
+
+  analysis:
+    status: "complete"
+    progress_percentage: 100
+    confidence: "high"
+    note: "Full 8-layer DNA Mental extraction complete"
+    deliverables:
+      - "analysis/cognitive-spec.yaml"
+      - "analysis/decision-matrix.yaml"
+      - "analysis/linguistic-patterns.yaml"
+      - "analysis/mental-models.yaml"
+      - "analysis/psychometric-profile.yaml"
+
+  build_artifacts:
+    status: "complete"
+    progress_percentage: 100
+    note: "All 15 artifact files + README generated"
+    deliverables:
+      - "artifacts/identity-core.yaml"
+      - "artifacts/voice_guide.md"
+      - "artifacts/anecdotes.yaml"
+      - "artifacts/values_hierarchy.yaml"
+      - "artifacts/writing_style.yaml"
+      - "artifacts/decision_patterns.md"
+      - "artifacts/psychometric_profile.json"
+      - "artifacts/behavioral_patterns.yaml"
+      - "artifacts/core_obsessions.yaml"
+      - "artifacts/contradictions.yaml"
+      - "artifacts/recognition_patterns.yaml"
+      - "artifacts/routine_analysis.yaml"
+      - "artifacts/memory-system.yaml"
+      - "artifacts/frameworks_synthesized.md"
+      - "artifacts/communication_templates.md"
+      - "artifacts/tools.md"
+
+  system_prompts:
+    status: "complete"
+    completed_at: "2026-02-11"
+    note: "Generalista v1.0 generated. Specialized prompts (técnico, educador) optional."
+    deliverables:
+      - "system_prompts/system-prompt-generalista.md (v1.0 — 470+ lines)"
+
+  validation:
+    status: "pending"
+    estimated_hours: "6-10"
+    fidelity_target: "85-90%"
+    note: "Requires test scenario creation and blind testing"
+    target_deliverables:
+      - "validation/test-scenarios.yaml (30-50 scenarios)"
+      - "validation/fidelity-report.md"
+
+  finalization:
+    status: "pending"
+    estimated_hours: "2-4"
+    target_deliverables:
+      - "docs/user-guide.md"
+      - "deployment/ package"
+
+source_quality:
+  tier_1_critical:
+    count: 58
+    note: "Blog posts — richest structured data with numerical anchors"
+  tier_2_validation:
+    count: 461
+    note: "YouTube tutorials — behavioral and voice validation"
+  tier_3_supporting:
+    count: 2283
+    note: "Remaining videos (shorts, medios, podcasts) — volume data"
+
+dna_mental_coverage:
+  layer_1_behavioral: 95
+  layer_2_communication: 98
+  layer_3_routines: 75
+  layer_4_recognition: 85
+  layer_5_mental_models: 95
+  layer_6_values: 90
+  layer_7_obsessions: 90
+  layer_8_paradoxes: 90
+  average_coverage: 90
+
+next_actions:
+  immediate:
+    - "✅ Phase 2: Research collection complete"
+    - "✅ Phase 3: 8-layer analysis complete"
+    - "✅ Phase 4: All artifacts generated"
+    - "➡️ Phase 5: Generate system prompts"
+    - "Phase 6: Create validation scenarios"
+    - "Phase 6: Run fidelity tests"
+
+  medium_term:
+    - "Phase 7: Finalize and package for deployment"
+    - "PRODUCTION: Deploy Clone Lawhander Climatrônico"
+
+success_metrics:
+  milestone_1_mvp:
+    target_fidelity: "80-85%"
+    status: "pending"
+
+  milestone_2_production:
+    target_fidelity: "85-90%"
+    status: "pending"
+
+notes:
+  - date: "2026-02-11"
+    note: "Mind profile created. Sources: 58 blog posts + 2,744 YouTube videos (3.16M words)"
+
+  - date: "2026-02-11"
+    note: "Full 8-layer DNA Mental analysis extracted. 5 analysis files + 16 artifact files generated"
+
+  - date: "2026-02-11"
+    note: "Identity-core.yaml synthesized from Layers 6-8. Ready for system prompt engineering"

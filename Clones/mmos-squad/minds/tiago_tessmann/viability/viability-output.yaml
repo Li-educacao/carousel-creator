@@ -1,0 +1,231 @@
+---
+# APEX + ICP Viability Assessment
+# Mind: Tiago Tessmann
+# Date: 2026-02-14
+# Analyst: Mind Mapper (MMOS Pipeline)
+# Decision: GO (AUTO-APPROVE)
+
+mind:
+  name: "Tiago Tessmann"
+  slug: "tiago_tessmann"
+  domain: "Marketing Digital / Tráfego Pago (Google Ads + Meta Ads)"
+  nationality: "Brasileiro"
+  location: "Criciúma, SC, Brasil"
+  active_since: 2011
+  source_type: "public"
+
+apex_scoring:
+  availability:
+    books_published: 2  # Ebooks Conversão Extrema, audiobook "Transforme Cliques em Clientes"
+    long_form_content: 5  # "Google Marketing em 2 min" (1100+ eps), "Podcast Extremo", Lives Extremas semanais
+    interviews_appearances: 3  # KIAI Marketing Secrets, Mentalidade Empreendedora, ~15+ participações
+    social_media_activity: 3  # Instagram 1.4M, LinkedIn ativo, YouTube ativo
+    video_content: 2  # YouTube 1.19M subs, vídeos regulares + lives semanais
+    total: 15
+    max: 20
+    evidence:
+      books:
+        - "Ebooks Conversão Extrema (aulas em PDF)"
+        - "Transforme Cliques em Clientes (podcast/audiobook no Ubook)"
+      podcasts:
+        - "Google Marketing em 2 min (1100+ episódios, diário)"
+        - "Podcast Extremo (Spotify, SoundCloud)"
+      interviews:
+        - "KIAI Marketing Secrets - Ep 114 'Mr. Google Ads'"
+        - "Mentalidade Empreendedora - Podcast 023 (tráfego e conversão)"
+        - "Diversas participações em eventos e podcasts de marketing"
+      social:
+        - "Instagram @tiagotessmann: 1.4M seguidores"
+        - "YouTube: 1.19M subscribers"
+        - "LinkedIn: ativo (tiagobtessmann)"
+        - "Twitter/X: @tiagotessmann"
+      video:
+        - "YouTube channel com vídeos regulares"
+        - "Live Extremas: toda quarta-feira ao meio-dia"
+
+  public_persona:
+    recognition_level: 3  # "Mr. Google Ads" no Brasil, referência no nicho
+    media_coverage: 3  # Publicações de nicho (HeroSpark, Reportei, QueroBolsa)
+    teaching_presence: 5  # Mentoria Conversão Extrema, O Novo Mercado, lives semanais, eventos
+    total: 11
+    max: 15
+    evidence:
+      media:
+        - "HeroSpark Blog"
+        - "Reportei"
+        - "QueroBolsa"
+        - "Agência RS"
+      wikipedia: false
+      courses:
+        - "Mentoria Conversão Extrema (maior curso de Google Ads do Brasil)"
+        - "Google Passo a Passo (O Novo Mercado)"
+        - "Lives Extremas (aulas ao vivo semanais gratuitas no YouTube)"
+      speaking:
+        - "Eventos de marketing digital"
+        - "KIAI Live event"
+
+  expertise_depth:
+    demonstrated_results: 6  # R$30M/ano, 2000+ clientes, R$25M+ em Ads, Google Premier, melhor Adwords 2015/2016
+    domain_tenure: 4  # Desde 2011 (~15 anos)
+    methodology_development: 3  # Método Conversão Extrema, Live Extremas
+    peer_recognition: 2  # Reconhecido no Brasil, referenciado por comunidades de marketing
+    total: 15
+    max: 20
+    evidence:
+      results:
+        - "Receita anual ~R$30 milhões"
+        - "Agência Blueberry: 2000+ clientes, R$25M+ gerenciados em Google Ads"
+        - "Google Premier Partner"
+        - "Melhor profissional Google Adwords Brasil 2015 e 2016"
+        - "CEO Conversão Extrema"
+      tenure: "15 anos em marketing digital (desde 2011)"
+      frameworks:
+        - "Método Conversão Extrema"
+        - "Live Extremas (formato de ensino semanal)"
+      citations: "Referenciado frequentemente por profissionais de tráfego pago no Brasil"
+
+  x_factor:
+    contrarian_thinking: 3  # Defende Google Ads quando mercado era heavy Facebook
+    storytelling_communication: 4  # Energético, prático, branding "Extremo", direto
+    pattern_synthesis: 3  # Cross-platform (Google + Meta + TikTok), ads + estratégia de negócio
+    total: 10
+    max: 15
+    evidence:
+      contrarian_examples:
+        - "Defendia Google Ads quando o mercado brasileiro era dominado por Facebook Ads"
+        - "Abordagem 'extrema' — resultados acima de tudo, sem enrolação"
+        - "Posiciona tráfego pago como habilidade #1 para qualquer negócio"
+      communication_style: "Energético, prático, didático, usa exemplos reais de campanhas, linguagem acessível"
+      synthesis_examples:
+        - "Integra Google + Meta + TikTok em estratégia unificada"
+        - "Conecta gestão de tráfego com estratégia de negócio e vendas"
+
+  temporal_relevance:
+    current_activity: 5  # Muito ativo: lives semanais, podcast diário, Instagram ativo
+    trend_alignment: 5  # Tráfego pago é central, IA em ads emergindo
+    future_applicability: 4  # Princípios de conversão atemporais, plataformas mudam
+    total: 14
+    max: 15
+    evidence:
+      last_activity: "2026-02 (ativo atualmente)"
+      trend_assessment: "Tráfego pago continua crescendo, IA generativa impactando ads"
+      longevity: "Princípios de conversão e persuasão são atemporais; configurações de plataforma mudam"
+
+  value_density:
+    actionable_frameworks: 5  # Método Conversão Extrema, estruturas de campanha, funis
+    tactical_specificity: 5  # Muito step-by-step, tutoriais práticos
+    case_studies_examples: 3  # Cases de clientes reais, dados de campanhas
+    total: 13
+    max: 15
+    evidence:
+      frameworks:
+        - "Método Conversão Extrema (completo)"
+        - "Estruturas de campanha Google Ads (Search, Display, PMax, YouTube, Shopping)"
+        - "Estruturas de campanha Meta Ads (Facebook, Instagram)"
+        - "Funis de conversão para diferentes tipos de negócio"
+      specificity_level: "tactical"
+      examples_count: "Centenas (usa cases reais nas lives e podcast)"
+
+  total:
+    availability: 15
+    public_persona: 11
+    expertise_depth: 15
+    x_factor: 10
+    temporal_relevance: 14
+    value_density: 13
+    score: 78
+    max: 100
+    percentage: 78
+
+  automated_decision:
+    threshold_auto_reject: 50
+    threshold_human_review: 74
+    threshold_auto_approve: 75
+    decision: "AUTO-APPROVE"
+    rationale: "Score 78/100 exceeds auto-approve threshold. Massive content volume (1100+ podcast episodes + YouTube channel), strong tactical depth, perfect ICP match for traffic management use case."
+
+icp_match:
+  target_use_case: "Gestão de tráfego Google Ads + Facebook Ads com visão estratégica de marketing digital e modelo mental de tomada de decisão"
+
+  scoring:
+    domain_alignment:
+      weight: 0.30
+      score: 10
+      max: 10
+      weighted: 3.0
+      assessment: "Match perfeito — Google Ads + Meta Ads É o core expertise do Tessmann"
+
+    audience_fit:
+      weight: 0.25
+      score: 9
+      max: 10
+      weighted: 2.25
+      assessment: "Conteúdo voltado exatamente para gestores de tráfego e empreendedores que querem dominar ads"
+
+    use_case_specificity:
+      weight: 0.20
+      score: 9
+      max: 10
+      weighted: 1.80
+      assessment: "Altamente específico para gestão de tráfego pago, com táticas operacionais"
+
+    accessibility:
+      weight: 0.15
+      score: 9
+      max: 10
+      weighted: 1.35
+      assessment: "Todo conteúdo em português, nível prático e acessível"
+
+    roi_potential:
+      weight: 0.10
+      score: 8
+      max: 10
+      weighted: 0.80
+      assessment: "Alto valor para decisões de tráfego pago no dia-a-dia"
+
+  total_weighted: 9.2
+  percentage: 92
+  interpretation: "Perfect match - high ROI expected"
+
+  potential_use_cases:
+    - use_case: "Consultor de Google Ads"
+      target_audience: "Gestores de tráfego e empreendedores"
+      primary_value: "Decisões de campanha, otimização, estrutura"
+      match_strength: "High"
+
+    - use_case: "Mentor de marketing digital"
+      target_audience: "Donos de negócio que investem em ads"
+      primary_value: "Visão estratégica + tática de tráfego pago"
+      match_strength: "High"
+
+    - use_case: "Estrategista de funil de vendas"
+      target_audience: "Profissionais de marketing"
+      primary_value: "Estruturação de funis com tráfego pago"
+      match_strength: "Medium"
+
+roi_projection:
+  investment_estimate:
+    time: "8-12 horas"
+    tokens: "3-5M tokens"
+    phases: "6 fases completas"
+  expected_value:
+    use_case_value: "Consultor de tráfego pago disponível 24/7"
+    audience_size: "1 (uso pessoal)"
+    value_per_use: "Alto — decisões de investimento em ads"
+  roi_assessment: "High"
+  recommendation: "PROCEED"
+
+strengths:
+  - "Volume brutal de conteúdo (1100+ episódios de podcast + YouTube 1.19M subs)"
+  - "Foco tático e prático — ideal para clone operacional"
+  - "Todo conteúdo em português — direto para uso"
+  - "Ativo atualmente — material atualizado 2026"
+  - "Cross-platform: Google + Meta + TikTok"
+
+weaknesses:
+  - "Sem livros tradicionais publicados (compensa com volume podcast/vídeo)"
+  - "Mais tático que filosófico — Layer 8 (paradoxos) pode ser mais rasa"
+  - "Reconhecimento nicho Brasil (não global)"
+
+decision: "GO"
+next_phase: "Phase 1: Research Collection"

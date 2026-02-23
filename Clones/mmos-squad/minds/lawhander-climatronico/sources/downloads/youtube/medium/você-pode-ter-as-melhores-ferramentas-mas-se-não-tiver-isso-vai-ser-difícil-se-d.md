@@ -1,0 +1,14 @@
+# Você pode ter as melhores ferramentas, mas se não tiver isso vai ser difícil se dar bem no segmento
+
+- **Video ID:** JJZ9bjzElmU
+- **URL:** https://www.youtube.com/watch?v=JJZ9bjzElmU
+- **Duration:** 4 min
+- **Views:** 401
+- **Published:** 2021-06-19T15:00:06Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+a pessoa começa a do zero e eu gosto de pensar sempre da maneira mais simples tenha um ferro de solda em que se assenta lotes qual amarram em qualquer marca não importa qualquer marca também pode ter sido ótimo tá um sugador furador vou indicar um master da FR Master da AFC 1 milhão tem tá ao é muito caro pouco mais se dizer que tu comprou uma uma proteção de bico porque eu tô de bico E aí vai funcionar aqui então no dia a dia solda estanho com fontes estranho um bastão desejo ferro de solda sugador e a primeira ferramenta e eu digo a principal ferramenta de Diagnóstico que tu vai precisar que é o último tu só um pouco motivo de mexerica o resto pode comprar um últimos diriam amarelinho que voz do senhor Ana Maria Braga multímetro na internet você vai ver que o multímetro é esse aí é esse motivo não compra Ele não presta e aí tu pode conversar com essas coisas as ferramentas estão investimento já almocei até tá então é bem simples dá em torno dos reais tudo pode 5 mas só uma profissão com o material de 200 reais o negócio tá então esse investimento uma a investimento vai sair de que na maior ferramenta que tu vai ter não vai falar isso vai precisar ter quer conhecimento progressiva com maquinário Claro quanto melhor mais rápido faz os seus serviços mas questão de poder de sair do zero e se mexer e sair esse foi o movimento é isso vai precisar além do conhecimento não é gripada voltar o último e ver a última da tomam o melhor ferro de solda o melhor jogador e o melhor solo que existe na tua mão se tu não souber usar nenhum deles tá E aí o conhecimento vai te permitir que a pessoa aparenta a gente tem até hoje da onde tem muito tem muito equipamento instrumentação e tem é muito redação hoje mas sem o cérebro meu e dos meninos aqui e ainda não funciona entendeu então se eu vou bom hoje trabalhando ele teria pessoas e roubos eu sou marcar para onde queremos dois Louvores e repararam placas não é assim que funciona tá então então por isso vai ver como ele vai ser o que não é que eu nunca parece uma sensação certo leva muito para começa assunto ó e vai ser é-o conhecimento de aprender sai do zero a uma nunca eram quero ir por conta própria Tá tudo bem aí tá tudo bem eu podia até pelo menos os mentores né que estão sim só assim mesmo né eu fui cara é tipo nos dois métodos que eu sou grato até hoje porém ele é um direcionamento ela fazendo aqui deixo na mentem raio não direcionamento qual é porque eu coloquei por aqui esse pedido que eu fosse por caminhos errados um aprendizado então tem problema

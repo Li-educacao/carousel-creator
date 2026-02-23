@@ -1,0 +1,14 @@
+# TESTES DO COMPRESSOR | SAIBA COMO TESTAR
+
+- **Video ID:** G39ugGuaaXQ
+- **URL:** https://www.youtube.com/watch?v=G39ugGuaaXQ
+- **Duration:** 4 min
+- **Views:** 409
+- **Published:** 2024-12-11T22:00:27Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+a bobina do compressor ela não encosta na carcaça do sistema o que tem entre a bobina e a carcaça o óleo certo verniz óleo toda aquela estrutura que envolve daquele sistema então se eu aqui de alguma coisa se o óleo alterar a resistência dependendo do teu motivo consegue pegar então espero estirar mesmo e aí mediu aqui tem dar aberto deu fug o que é fuga O que é uma fuga no sistema Med acima de megaohms megaohms é uma alta resistência 1 mohm 10 mohm 100 mm 40 meu multímetro me até 50 mm E aí dependendo do teu multímetro tu vai conseguir medir fugas altas tá o certo é medir com megômetro porque o megômetro megômetro ele vai existem fugas fugas PR carcaça aqui só vai aparecer quando tu injetar uma tensão tu vem com teu multímetro tu mede mas quando bota para rodar que aparece a fuga o cara morre doido né se o cara não tiver ferramental certo então já pensa o próximo nível de medir compressor é com o megômetro megômetro ele faz o quê ele injeta tensão ele injeta 500 V da bobina magar injeta 1000 V então se a máquina aguentar 1000 V Você trabalha com quantos V com compressor quantos V trabalha o compressor que vocês Acha qu trabalho com ele 220 n é 180 200 se eu injeto 500 e ele não apresenta nenhuma fuga então ele tá 100% entendeu beleza e o terceiro teste pode fazer no compressor é o teste que tá travado eu vou fazer aqui com vocês agora é um teste que a gente faz em laboratório né o teste é o seguinte o cara po andar Uma fontezinha Dessa no carro é de boa de andar né Qual o teste como é que tá travado ou não se ele tiver travado ele não vai funcionar né não vai funcionar então o que que eu faço eu vou testar eu vou acionar a bobina dele e ver se ela dá um tranco não vai dar para ver muito aqui mas vou botar 15 vateria 15 V aí na fonte ó pra gente regular a fonte a gente precisa regular a corrente para regular a corrente fonte é uma fonte linear que a gente chama fonte DC né tensão contínua eu fecho o contato aí eu vou regular a corrente dela reguli corrente vou botar 15 v e eu vou dar um tranco no compressor ver se vai dar um tranco aqui a corrente em relação a 2 Amp é 2 Amp tá 2 Amp aqui para quejar uma corrente muito alta e não fica a bobina do compressor então botando 2 Amp para na zona de de de controle dele aqui ó botem a mão aqui no compressor vai lá ó Bota a mão aí ó tá vibrar aí D ele né ó porque que é isso aqui eu tô fazendo ele se mexer a bobina dele dá um tranco jog tensão na bobina então se eu dar o tranco e ele não virar tá travado E aí vocês mecânicos que estão em campo tem que ter essa noção porque aí Você cons dar diagnóstico se de fato é o compressor ou se de fato JA

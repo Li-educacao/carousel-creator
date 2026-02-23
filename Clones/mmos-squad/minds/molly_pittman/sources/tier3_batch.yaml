@@ -1,0 +1,60 @@
+batch_configuration: tier3_nice_to_have
+description: "Tier 2-3 secondary sources, media mentions, social media - for gap-filling"
+mind_name: "Molly Pittman"
+parallelization: true
+max_concurrent: 10
+depends_on: "none - can run anytime"
+
+sources:
+  - id: source_017
+    type: article
+    title: "Molly Pittman - How to Train Killer Media Buyers"
+    source: "PipiAds Blog"
+    publication_date: "2020-01-01"
+    url: "https://www.pipiads.com/blog/molly-pittman-how-to-train-the-killer-media-buyers-and-how-to-craft-a-winning-creative/"
+    priority: 2
+
+  - id: source_018
+    type: speaker_profile
+    title: "Affiliate World Conference Speaker Profile"
+    source: "Affiliate World Conferences"
+    url: "https://affiliateworldconferences.com/blog/speakers/molly-pittman/"
+    priority: 3
+
+  - id: source_019
+    type: course_review
+    title: "Digital Assistant Academy - Smart Social Media Course"
+    source: "Digital Assistant Academy"
+    url: "https://digitalassistant.academy/product/molly-pittman-smart-social-media/"
+    priority: 3
+
+  - id: source_020
+    type: review
+    title: "Click Happy Book Review"
+    source: "DigitalMarketer"
+    publication_date: "2021-01-01"
+    url: "https://www.digitalmarketer.com/book-review/click-happy-molly-pittman/"
+    priority: 3
+
+  - id: source_021
+    type: reference
+    title: "Molly Pittman on Podchaser"
+    source: "Podchaser"
+    url: "https://www.podchaser.com/creators/molly-pittman-107a4PlBWl"
+    priority: 3
+
+  - id: source_022
+    type: social_media
+    title: "Social Media Presence (Twitter/X, LinkedIn, Instagram)"
+    urls:
+      linkedin: "https://www.linkedin.com"
+      twitter: "https://twitter.com"
+    priority: 3
+    collection_strategy:
+      - "Collect top 50 substantive posts/threads"
+      - "Focus on thoughts about marketing, business, philosophy"
+      - "Skip promotional content"
+
+estimated_time: "1-2 hours"
+estimated_tokens: "30K-50K tokens"
+notes: "Low priority - fill in gaps after Tiers 1 & 2. Can skip if time-constrained."

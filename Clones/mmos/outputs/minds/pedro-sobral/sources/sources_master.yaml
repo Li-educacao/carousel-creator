@@ -1,0 +1,106 @@
+# Sources Master — Pedro Sobral
+# Mind Clone: Especialista em Gestão de Tráfego Pago
+# Pipeline: mind-clone-pipeline v2.0.0
+
+mind_name: "pedro-sobral"
+display_name: "Pedro Sobral"
+domain: "Gestão de Tráfego Pago / Marketing Digital / Anúncios Online"
+language: "pt"
+depth: "forensic"
+fidelity_target: "90"
+collection_date: "2026-02-14"
+status: "pending"
+
+sources:
+
+  youtube:
+    - url: "https://www.youtube.com/@pedrosobral"
+      type: "channel"
+      priority: high
+      transcript_method: "auto"
+      notes: >
+        Canal Subido — 656K+ inscritos, aulas ao vivo toda terça 15h desde 2018.
+        300+ aulas sobre tráfego pago (Meta Ads, Google Ads, TikTok Ads).
+        Foco: lives semanais de 2-3h + vídeos editados.
+        RIQUEZA MÁXIMA — principal fonte de voz, frameworks e metodologia.
+
+  blogs:
+    - url: "https://pedrosobral.com.br/blog/"
+      platform: "generic"
+      priority: high
+      notes: >
+        Blog oficial "Subido by Pedro Sobral". Artigos sobre tráfego pago,
+        estratégias de anúncios, gestão de tráfego, ganhar dinheiro online.
+        Categorias: introdução ao tráfego, estratégias avançadas, Q&A.
+    - url: "https://pedrosobral.com.br/blog/c/estrategias-de-trafego-pago/qa-pedro-sobral-responde"
+      platform: "generic"
+      priority: high
+      notes: "Q&A — Pedro Sobral responde. Material riquíssimo para extrair voz e mental models."
+
+  podcasts:
+    - url: "https://open.spotify.com/show/76ZslOcJOFGs1bbUXEEPhz"
+      platform: "spotify"
+      priority: high
+      transcript_method: "whisper"
+      notes: >
+        Podcast 'Canal do Subido' no Spotify. Reflexões, descobertas e conquistas.
+        Material valioso para extrair identidade pessoal e valores.
+    - url: "https://podtail.com/en/podcast/canal-do-subido/"
+      platform: "podtail"
+      priority: medium
+      notes: "Referência alternativa para episódios do podcast."
+
+  books: []
+  # Nota: Pedro Sobral não tem livro publicado. A Comunidade Sobral e o Subido PRO
+  # são produtos digitais (cursos), não livros. PDFs de aulas estão em sobralmidias.s3.
+
+  social:
+    - url: "https://www.instagram.com/pedrosobral/"
+      platform: "instagram"
+      content_type: "profile"
+      priority: high
+      notes: "2M+ seguidores, 3.066 posts. Conteúdo educativo + motivacional sobre tráfego."
+    - url: "https://www.tiktok.com/@sobralpedro"
+      platform: "tiktok"
+      content_type: "profile"
+      priority: medium
+      notes: "389K seguidores, 1.7M likes. Conteúdo curto sobre anúncios online."
+    - url: "https://t.me/livesdosobral"
+      platform: "telegram"
+      content_type: "channel"
+      priority: medium
+      notes: "Canal dos Subidos — avisos de lives, conteúdo complementar."
+
+  other:
+    - url: "https://pedrosobral.com.br/subido/"
+      type: "course-landing"
+      priority: high
+      notes: "Subido — mentoria principal. Página com posicionamento e copy do Pedro."
+    - url: "https://subidopro.com.br/"
+      type: "course-landing"
+      priority: high
+      notes: "Subido PRO — programa avançado. Copy revela frameworks de alto nível."
+    - url: "https://www.pedrosobral.com.br/aulas/"
+      type: "live-classes"
+      priority: high
+      notes: "Página de aulas ao vivo — acesso a conteúdo gratuito semanal."
+    - url: "https://www.pedrosobral.com.br/subidoflix/"
+      type: "content-library"
+      priority: high
+      notes: "SubidoFlix — biblioteca de conteúdo do Pedro. Vídeos organizados."
+    - url: "https://pedrosobral.com.br/blog/lista-de-presenca"
+      type: "engagement-page"
+      priority: low
+      notes: "Lista de presença das lives — mostra formato de engajamento."
+    - url: "https://br.linkedin.com/company/pedro-sobral"
+      type: "linkedin"
+      priority: low
+      notes: "Perfil LinkedIn corporativo."
+
+# Post-collection metadata (filled by ETL squad)
+collection_results:
+  total_sources: 0
+  total_downloaded: 0
+  total_failed: 0
+  total_word_count: 0
+  coverage_gaps: []

@@ -1,0 +1,375 @@
+workflow:
+  id: ralph-loop
+  name: Ralph Loop - Fresh Context Story Implementation
+  version: "1.0"
+  description: >-
+    Automated story implementation loop that spawns fresh-context subagents
+    for each story. Unlike QA Loop (same session, review/fix cycle), Ralph Loop
+    implements stories one by one with clean context, preventing token bloat.
+    Each story gets its own subagent via Task tool, implements, tests, commits,
+    then a separate QA subagent verifies quality.
+
+  type: loop
+  project_types:
+    - aios-development
+    - autonomous-development
+    - brownfield
+    - greenfield
+
+  # ═══════════════════════════════════════════════════════════════════════════════════
+  #                              TRIGGER CONFIGURATION
+  # ═══════════════════════════════════════════════════════════════════════════════════
+
+  triggers:
+    - event: command
+      command: "*ralph-loop"
+      action: start_loop
+
+    - event: command
+      command: "*stop-ralph-loop"
+      action: stop_loop
+
+    - event: command
+      command: "*resume-ralph-loop"
+      action: resume_loop
+
+    - event: command
+      command: "*ralph-status"
+      action: show_status
+
+  # ═══════════════════════════════════════════════════════════════════════════════════
+  #                              CONFIGURATION
+  # ═══════════════════════════════════════════════════════════════════════════════════
+
+  config:
+    maxIterations: 10
+    timeoutPerStory: 1800000    # 30 min per story
+    globalTimeout: 7200000      # 2h total
+    statusFile: ralph/loop-status.json
+    progressFile: ralph/progress.md
+    freshContext: true           # KEY DIFFERENCE - each story = fresh subagent
+
+    # Retry configuration
+    maxRetriesPerStory: 3
+    retryDelay: 5000
+
+  # ═══════════════════════════════════════════════════════════════════════════════════
+  #                              MODEL ROUTING
+  # ═══════════════════════════════════════════════════════════════════════════════════
+
+  model_routing:
+    scan_backlog: haiku          # Simple file reading
+    spawn_executor: sonnet       # Code implementation
+    verify: opus                 # QA review must be rigorous
+    update_progress: haiku       # File update
+
+  # ═══════════════════════════════════════════════════════════════════════════════════
+  #                              STATUS SCHEMA
+  # ═══════════════════════════════════════════════════════════════════════════════════
+
+  status_schema:
+    backlogPath: string          # Path to stories directory or backlog file
+    currentStoryId: string
+    currentStoryIndex: number
+    totalStories: number
+    status: "pending | in_progress | completed | stopped | escalated"
+    startedAt: ISO-8601
+    updatedAt: ISO-8601
+    stories:
+      - storyId: string
+        status: "pending | in_progress | done | failed | skipped"
+        startedAt: ISO-8601 | null
+        completedAt: ISO-8601 | null
+        attempts: number
+        commitHash: string | null
+        verifyVerdict: "APPROVE | REJECT | null"
+        failReason: string | null
+
+  # ═══════════════════════════════════════════════════════════════════════════════════
+  #                              WORKFLOW SEQUENCE
+  # ═══════════════════════════════════════════════════════════════════════════════════
+
+  sequence:
+
+    # ═════════════════════════════════════════════════════════════════════════════════
+    # STEP 1: SCAN BACKLOG
+    # ═════════════════════════════════════════════════════════════════════════════════
+
+    - step: scan_backlog
+      phase: 1
+      phase_name: "Scan Backlog"
+      agent: system
+      model: haiku
+
+      description: >-
+        Read stories directory or backlog file. Identify next incomplete story.
+        Load progress.md to know what was already done.
+
+      inputs:
+        backlogPath: "{backlogPath}"
+        progressFile: "{config.progressFile}"
+
+      outputs:
+        - nextStoryId
+        - nextStoryPath
+        - remainingCount
+
+      on_success:
+        log: "Next story: {nextStoryId} ({remainingCount} remaining)"
+        next: spawn_executor
+
+      on_no_stories:
+        action: complete
+        log: "All stories implemented"
+
+    # ═════════════════════════════════════════════════════════════════════════════════
+    # STEP 2: SPAWN EXECUTOR (Fresh Context)
+    # ═════════════════════════════════════════════════════════════════════════════════
+
+    - step: spawn_executor
+      phase: 2
+      phase_name: "Implement Story"
+      agent: dev
+      model: sonnet
+      fresh_context: true        # CRITICAL: Task tool with clean context
+
+      description: >-
+        Spawn a fresh subagent via Task tool to implement the story.
+        The subagent receives ONLY: the story file, progress.md, and
+        project CLAUDE.md. No accumulated context from previous stories.
+
+      task: ralph-implement-story.md
+
+      inputs:
+        storyId: "{nextStoryId}"
+        storyPath: "{nextStoryPath}"
+        progressFile: "{config.progressFile}"
+        projectPath: "{projectPath}"
+
+      outputs:
+        - commitHash
+        - filesChanged
+        - testsStatus
+
+      timeout: "{config.timeoutPerStory}"
+
+      on_success:
+        log: "Story {nextStoryId} implemented (commit: {commitHash})"
+        next: verify
+
+      on_failure:
+        action: retry
+        max_retries: "{config.maxRetriesPerStory}"
+        on_exhausted:
+          action: skip_and_flag
+          log: "Story {nextStoryId} failed after {config.maxRetriesPerStory} attempts"
+          next: update_progress
+
+    # ═════════════════════════════════════════════════════════════════════════════════
+    # STEP 3: VERIFY (Fresh Context QA)
+    # ═════════════════════════════════════════════════════════════════════════════════
+
+    - step: verify
+      phase: 3
+      phase_name: "Verify Story"
+      agent: qa
+      model: opus
+      fresh_context: true
+
+      description: >-
+        Spawn a separate QA subagent to verify the implementation.
+        Fresh context ensures unbiased review. Produces APPROVE or REJECT.
+
+      task: ralph-verify-story.md
+
+      inputs:
+        storyId: "{nextStoryId}"
+        storyPath: "{nextStoryPath}"
+        commitHash: "{outputs.spawn_executor.commitHash}"
+        projectPath: "{projectPath}"
+
+      outputs:
+        - verdict
+        - issuesFound
+        - qualityScore
+
+      on_success:
+        condition_check:
+          - condition: verdict == "APPROVE"
+            action: continue
+            next: update_progress
+            log: "Story {nextStoryId} APPROVED (score: {qualityScore})"
+
+          - condition: verdict == "REJECT"
+            action: retry_implementation
+            next: spawn_executor
+            log: "Story {nextStoryId} REJECTED ({issuesFound} issues) - retrying"
+
+    # ═════════════════════════════════════════════════════════════════════════════════
+    # STEP 4: UPDATE PROGRESS
+    # ═════════════════════════════════════════════════════════════════════════════════
+
+    - step: update_progress
+      phase: 4
+      phase_name: "Update Progress"
+      agent: system
+      model: haiku
+
+      description: >-
+        Mark story as done in progress.md and loop-status.json.
+        Update story file checkboxes. Persist state for resume capability.
+
+      actions:
+        - update_status_file:
+            story: "{nextStoryId}"
+            status: "done"
+            commitHash: "{outputs.spawn_executor.commitHash}"
+            verdict: "{outputs.verify.verdict}"
+        - update_progress_file:
+            append: "- [x] {nextStoryId}: Implemented and verified ({verdict})"
+        - mark_story_checkboxes:
+            storyPath: "{nextStoryPath}"
+
+      on_success:
+        next: check_complete
+
+    # ═════════════════════════════════════════════════════════════════════════════════
+    # STEP 5: CHECK COMPLETE
+    # ═════════════════════════════════════════════════════════════════════════════════
+
+    - step: check_complete
+      phase: 5
+      phase_name: "Check Completion"
+      agent: system
+
+      condition_check:
+        - condition: remainingCount == 0
+          action: complete
+          log: "All stories implemented and verified"
+
+        - condition: currentStoryIndex >= config.maxIterations
+          action: escalate
+          reason: "Max iterations ({config.maxIterations}) reached"
+
+        - condition: remainingCount > 0
+          action: continue
+          next: scan_backlog
+          log: "Continuing to next story ({remainingCount} remaining)"
+
+  # ═══════════════════════════════════════════════════════════════════════════════════
+  #                              ESCALATION
+  # ═══════════════════════════════════════════════════════════════════════════════════
+
+  escalation:
+    enabled: true
+
+    triggers:
+      - max_iterations_reached
+      - story_failed_3x
+      - quality_gate_blocked
+      - manual_escalate
+
+    action:
+      log: "Escalating Ralph Loop to human"
+      status: "escalated"
+
+      context_package:
+        - ralph/loop-status.json
+        - ralph/progress.md
+        - failed story details
+
+      notification:
+        message: |
+          Ralph Loop Escalation
+
+          Reason: {escalation.reason}
+          Stories completed: {completedCount}/{totalStories}
+          Current story: {currentStoryId}
+          Failed stories: {failedStories}
+
+          Options:
+          1. Resume: *resume-ralph-loop
+          2. Skip failed and continue: *ralph-loop --skip-failed
+          3. Review and fix manually
+
+        channels: [log, console]
+
+  # ═══════════════════════════════════════════════════════════════════════════════════
+  #                              COMPLETION
+  # ═══════════════════════════════════════════════════════════════════════════════════
+
+  completion:
+    success_message: |
+      Ralph Loop Complete
+
+      Stories: {completedCount}/{totalStories}
+      Failed: {failedCount}
+      Skipped: {skippedCount}
+      Duration: {totalDuration}
+
+      Summary:
+      {stories.map(s => `  ${s.status == 'done' ? '[x]' : '[ ]'} ${s.storyId}: ${s.status}`).join('\n')}
+
+    outputs:
+      - ralph/loop-status.json
+      - ralph/progress.md
+
+  # ═══════════════════════════════════════════════════════════════════════════════════
+  #                              CONTROL (STOP/RESUME)
+  # ═══════════════════════════════════════════════════════════════════════════════════
+
+  control:
+    stop:
+      command: "*stop-ralph-loop"
+      action: |
+        - Set status to "stopped"
+        - Save current state to loop-status.json
+        - Log: "Ralph loop stopped at story {currentStoryId}"
+        - Allow resume later
+
+    resume:
+      command: "*resume-ralph-loop"
+      action: |
+        - Load state from loop-status.json
+        - Verify status was "stopped" or "escalated"
+        - Set status to "in_progress"
+        - Continue from next incomplete story
+        - Log: "Ralph loop resumed from story {currentStoryId}"
+
+  # ═══════════════════════════════════════════════════════════════════════════════════
+  #                              ERROR HANDLING
+  # ═══════════════════════════════════════════════════════════════════════════════════
+
+  error_handling:
+    missing_backlog:
+      message: "Backlog path is required"
+      suggestion: "Usage: *ralph-loop docs/stories/"
+      action: prompt
+
+    no_stories_found:
+      message: "No incomplete stories found in backlog"
+      suggestion: "Check story status or create new stories"
+      action: halt
+
+    story_timeout:
+      message: "Story implementation timed out"
+      suggestion: "Story may be too large. Consider splitting."
+      action: skip_and_flag
+
+  # ═══════════════════════════════════════════════════════════════════════════════════
+  #                              METADATA
+  # ═══════════════════════════════════════════════════════════════════════════════════
+
+  metadata:
+    created: "2026-02-22"
+    author: "AIOS Optimization"
+    inspiration: "Ralph pattern (Erico Renato) - fresh context per story"
+    dependencies:
+      - ralph-implement-story.md
+      - ralph-verify-story.md
+    tags:
+      - ralph-loop
+      - fresh-context
+      - autonomous
+      - story-implementation
+      - workflow

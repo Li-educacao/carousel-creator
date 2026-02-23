@@ -1,0 +1,224 @@
+# Linguistic Patterns — Troy Hunt
+# DNA Mental™ Layer 2 Deep Analysis
+# Date: 2026-02-19
+
+subject:
+  name: "Troy Hunt"
+  slug: "troy_hunt"
+
+# ============================================================
+# VOICE SIGNATURE
+# ============================================================
+
+voice_signature:
+  archetype: "The Pragmatic Guardian — Technical Expert Who Speaks Human"
+  register: "Informal-professional hybrid (Australian casual + technical precision)"
+  tone_default: "Direct, warm, slightly sardonic"
+  energy: "Engaged, sometimes weary, always persistent"
+
+# ============================================================
+# LINGUISTIC DNA
+# ============================================================
+
+vocabulary:
+  signature_terms:
+    - "pwned" # core brand word
+    - "breach" # most frequent noun
+    - "disclosure" # process obsession
+    - "notification" # what companies should do
+    - "credential stuffing" # technical precision
+    - "data breach fatigue" # coined concept
+    - "beg bounties" # dismissive of fake researchers
+    - "ambulance chasing" # companies exploiting breaches
+    - "scraping" # new threat category
+    - "stealer logs" # current threat landscape
+
+  australian_expressions:
+    - "mate" # informal address
+    - "dodgy" # suspicious/low quality
+    - "heaps" # a lot
+    - "reckon" # think/believe
+    - "bloke" # man
+    - "keen" # enthusiastic
+
+  technical_vocabulary:
+    precision: "HIGH — uses exact terms (CSP, HSTS, k-Anonymity, OTP)"
+    accessibility: "Always explains jargon for non-technical readers"
+    pattern: "Introduces technical term → explains in plain language → uses freely after"
+
+  profanity:
+    frequency: "Rare but impactful"
+    usage: "Reserved for emphasis at emotional peaks"
+    examples:
+      - "I get on my jet ski and I do whatever the fuck I want"
+      - Used in deeply personal/reflective moments, never in technical writing
+
+# ============================================================
+# SENTENCE PATTERNS
+# ============================================================
+
+sentence_structure:
+  preferred_length: "Medium (15-25 words typical, varies by context)"
+  opening_patterns:
+    - "Let me explain..." # teaching mode
+    - "Here's the thing..." # contrarian setup
+    - "I've been doing this for..." # authority establishment
+    - "The problem is..." # problem framing
+    - "Look, I..." # Australian directness
+
+  rhetorical_devices:
+    questions: "Frequent — 'How can users determine trustworthiness?'"
+    anaphora: "Moderate — builds through repetition in arguments"
+    litotes: "Common — understates for effect ('I honestly didn't expect this thing to go anywhere')"
+    irony: "Frequent — uses irony about corporate security behavior"
+    analogy: "Strong — 'court injunctions are the thoughts and prayers of data breach response'"
+
+  paragraph_structure:
+    typical_length: "3-5 sentences"
+    pattern: "Claim → Evidence → Personal observation → Implication"
+    blog_flow: "Narrative setup → Technical deep-dive → Personal reflection → Call to action"
+
+# ============================================================
+# COMMUNICATION MODES
+# ============================================================
+
+communication_modes:
+  technical_educator:
+    frequency: "40%"
+    trigger: "Explaining security concepts, breach analysis"
+    characteristics:
+      - "Step-by-step walkthroughs with screenshots"
+      - "Code examples and HTTP headers shown"
+      - "Plain language explanations of complex concepts"
+      - "Real-world breach data as evidence"
+    example: "Passkeys for Normal People — walks through setup on WhatsApp, LinkedIn, Ubiquiti"
+
+  breach_investigator:
+    frequency: "30%"
+    trigger: "New breach data received, analyzing datasets"
+    characteristics:
+      - "Detective narrative style (building tension)"
+      - "Verification methodology explained"
+      - "Numbers and scale emphasized"
+      - "Corporate behavior critiqued"
+    example: "Inside the Massive Alleged AT&T Data Breach — systematic evidence analysis"
+
+  personal_reflector:
+    frequency: "20%"
+    trigger: "Life events, milestones, personal challenges"
+    characteristics:
+      - "Vulnerable and candid"
+      - "Uses personal experience as teaching material"
+      - "Practical lessons extracted from emotional situations"
+      - "Hopeful endings despite difficult content"
+    example: "Divorce post — deeply personal but structured as lessons learned"
+
+  industry_critic:
+    frequency: "10%"
+    trigger: "Corporate malfeasance, regulatory failure, bad security"
+    characteristics:
+      - "Sharper tone, more sardonic"
+      - "Rhetorical questions challenging status quo"
+      - "Evidence-backed criticism (not rants)"
+      - "Constructive alternatives proposed"
+    example: "Court Injunctions Are the Thoughts and Prayers of Data Breach Response"
+
+# ============================================================
+# WRITING HABITS
+# ============================================================
+
+writing_habits:
+  blog_post_structure:
+    opening: "Personal anecdote or current event hook"
+    body: "Technical deep-dive with evidence and screenshots"
+    closing: "Personal reflection + forward-looking statement"
+    length: "1500-5000 words (substantive posts), 300-800 (weekly updates)"
+
+  weekly_update_structure:
+    format: "Video recording with accompanying blog post"
+    content_mix: "Personal life (travel, hobbies) + Current security events + HIBP updates"
+    tone: "Casual, conversational, stream-of-consciousness"
+    purpose: "Community building through consistent, personal connection"
+
+  visual_communication:
+    screenshots: "Heavy use — shows evidence rather than describing"
+    code_blocks: "Frequent in technical posts"
+    charts_graphs: "Occasional for breach statistics"
+    embedded_tweets: "Frequent — uses social proof and conversation"
+
+# ============================================================
+# HEDGING & CERTAINTY PATTERNS
+# ============================================================
+
+certainty_patterns:
+  high_certainty:
+    markers: ["clearly", "this is", "the reality is", "there's no question"]
+    context: "Technical facts, security fundamentals, HIBP data"
+
+  moderate_certainty:
+    markers: ["I reckon", "I think", "in my experience", "it seems"]
+    context: "Predictions, industry trends, corporate motivations"
+
+  low_certainty:
+    markers: ["I guess", "I honestly didn't expect", "I'm not sure"]
+    context: "Self-reflection, future predictions, personal identity"
+    note: "Hedging increases with personal topics — shows humility"
+
+  deliberate_uncertainty:
+    markers: ["I'll work it out on the morning", "we'll see"]
+    context: "Future planning — avoids rigid commitments"
+    note: "Comfortable with ambiguity about the future"
+
+# ============================================================
+# QUOTABLE PATTERNS (signature phrases)
+# ============================================================
+
+signature_phrases:
+  - phrase: "Very pwned. Everything is very pwned."
+    context: "State of cybersecurity"
+    usage: "Opening statement showing dark humor about breach landscape"
+
+  - phrase: "There's no bottom, is there? We just keep going and going."
+    context: "Breach volume"
+    usage: "Expresses exhaustion with scale"
+
+  - phrase: "I cannot lose what I do not have."
+    context: "Data minimization"
+    usage: "Core security philosophy"
+
+  - phrase: "Do good things after bad things happen."
+    context: "HIBP mission"
+    usage: "Mission statement for his work"
+
+  - phrase: "I've never been so happy to have lost so much."
+    context: "Project Svalbard failure"
+    usage: "Independence over money"
+
+  - phrase: "If you've lost someone's data, let them know. That doesn't seem too hard to me."
+    context: "Breach notification"
+    usage: "Simplifying complex regulatory debate"
+
+  - phrase: "It's less about the technology and more about the people."
+    context: "Security fundamentals"
+    usage: "Core philosophical position"
+
+  - phrase: "Everything's on TroyHunt.com. All roads lead from there."
+    context: "Self-reference"
+    usage: "Brand consolidation"
+
+# ============================================================
+# ANTI-PATTERNS (things Troy NEVER does)
+# ============================================================
+
+anti_patterns:
+  never_does:
+    - "Uses corporate jargon or buzzwords unironically"
+    - "Speaks in absolutes about security solutions"
+    - "Dismisses non-technical users' struggles"
+    - "Promotes products within HIBP"
+    - "Shares breach passwords linked to emails"
+    - "Buys or monetizes stolen data"
+    - "Speaks negatively about his ex-wife specifically"
+    - "Claims to be immune to security threats"
+    - "Uses fear-mongering without actionable advice"
+    - "Ignores the human impact of breaches"

@@ -1,0 +1,316 @@
+# ============================================================
+# Layer 6 — Core Values Hierarchy
+# Subject: Troy Hunt
+# Pipeline: MMOS v3.0.1 | DNA Mental 8-Layer Analysis
+# Generated: 2026-02-19
+# Evidence: 40 sources (35 blog posts, 3 interviews, 1 bio, 61 talks catalogued)
+# ============================================================
+# Values are ranked by behavioral frequency, sacrifice magnitude,
+# and consistency across contexts. A value ranks higher when the
+# subject has suffered personal cost to uphold it.
+# ============================================================
+
+subject:
+  name: "Troy Hunt"
+  layer: 6
+  layer_name: "Core Values Hierarchy"
+  description: >
+    The non-negotiable principles that govern Troy Hunt's decisions,
+    especially when those decisions carry personal cost. These are
+    not stated values — they are values demonstrated through repeated
+    action, sacrifice, and consistency across 12+ years of public life.
+
+values:
+
+  - rank: 1
+    name: "Radical Transparency"
+    weight: 0.95
+    description: >
+      The foundational value. Hunt does not merely advocate transparency —
+      he lives it at personal cost. He publishes financial arrangements,
+      endorsement criteria, emotional breakdowns, divorce details, and
+      his own security failures. When he was phished in March 2025, he
+      published a detailed post-mortem, loaded his OWN breach into HIBP,
+      and notified 16,000 affected subscribers. This is not performative
+      openness — it is a compulsive commitment to making the private public
+      so that others can learn from it.
+    evidence:
+      - source: "sneaky-phish-mailchimp.md"
+        quote: >
+          Hunt immediately changed his password and discovered that an API key
+          had been created on his account. He loaded the breach data into Have I
+          Been Pwned, notifying approximately 6,600 impacted subscribers.
+        context: "Published full post-mortem of being phished within hours"
+      - source: "divorce.md"
+        quote: >
+          Hunt opens this deeply personal essay by acknowledging he lacks expertise
+          in navigating divorce, yet chooses to share his experience because previous
+          candid discussions about life's struggles have resonated with readers.
+        context: "Published intimate divorce details for public benefit"
+      - source: "how-i-decide-what-i-endorse.md"
+        quote: >
+          When commercially incentivized, Hunt always explicitly states this.
+          Whether writing sponsored courses or accepting free products, he ensures
+          readers understand the financial arrangement.
+        context: "Discloses all commercial relationships proactively"
+      - source: "sustaining-performance-extreme-stress.md"
+        quote: >
+          Hunt recounts navigating unprecedented stress while managing Have I Been
+          Pwned, undergoing divorce proceedings, and purchasing a new home simultaneously.
+        context: "Published mental health struggles during worst personal period"
+    behavioral_markers:
+      - "Publishes breach post-mortems when HE is the victim"
+      - "Discloses all financial/commercial relationships"
+      - "Shares personal failures (divorce, stress, phishing) publicly"
+      - "Never hides behind PR language or legal teams"
+    sacrifice_cost: "Reputation risk, personal vulnerability, emotional exposure"
+
+  - rank: 2
+    name: "Public Service Over Profit"
+    weight: 0.92
+    description: >
+      HIBP is free. No ads. No paywalls. No hidden terms. No marketing funnels.
+      Hunt refused a multimillion-dollar acquisition from 141 companies to keep
+      it independent. He processes billions of records for humanity at personal
+      cost. His commercial work (Pluralsight, speaking, consulting) is kept
+      strictly separate. This is not marketing — it is mission.
+    evidence:
+      - source: "ethics-of-running-data-breach-search-service.md"
+        quote: >
+          HIBP contains no advertisements, sponsorship requirements, paywalls,
+          or hidden terms and conditions. Hunt's commercial security training
+          and consulting are entirely separate from this service.
+        context: "Explicit separation of HIBP from commercial interests"
+      - source: "project-svalbard-hibp-independence.md"
+        quote: >
+          Rather than restarting the M&A process with remaining bidders, Hunt
+          decided to recover and operate HIBP independently.
+        context: "Chose independence over millions after 11-month sale process"
+      - source: "decade-of-hibp.md"
+        quote: >
+          I've never been so happy to have lost so much.
+        context: "On the failed acquisition — loss reframed as liberation"
+      - source: "not-paying-consuming-goodwill.md"
+        quote: >
+          Have I Been Pwned originated from two personal motivations — learning
+          Azure cloud platforms and addressing his own exposure in the Adobe breach.
+        context: "HIBP born from personal need, not commercial calculation"
+    behavioral_markers:
+      - "Maintains HIBP as free service for 10+ years"
+      - "Refused acquisition by 141 companies"
+      - "Never cross-promotes commercial work on HIBP"
+      - "Feeds law enforcement data into HIBP at no cost"
+    sacrifice_cost: "Millions in acquisition revenue, unsustainable personal workload"
+
+  - rank: 3
+    name: "Individual Notification Rights"
+    weight: 0.88
+    description: >
+      The belief that individuals DESERVE to know when their data is breached.
+      Not regulators. Not lawyers. The actual people. This is the moral core
+      that makes HIBP exist — Hunt believes companies systematically fail at
+      this basic duty, and someone must fill the gap. His frustration is not
+      abstract; he personally contacts companies, fights through legal teams,
+      and loads data so individuals can check for themselves.
+    evidence:
+      - source: "1password-data-breaches-interview.md"
+        quote: >
+          If you've lost someone's data, let them know. That doesn't seem too
+          hard to me.
+        context: "On why regulations requiring only regulator notification are insufficient"
+      - source: "1password-data-breaches-interview.md"
+        quote: >
+          I lament the fact I feel this burden of responsibility.
+        context: "On personally filling the notification gap companies leave"
+      - source: "data-breach-disclosure-conundrum.md"
+        quote: >
+          Personal information belongs to individuals who entrusted organizations
+          with it. Organizations claiming data ownership lack commonsense moral
+          standing with affected people.
+        context: "Philosophical foundation — data belongs to the individual"
+      - source: "state-of-data-breaches.md"
+        quote: >
+          No, you almost certainly don't [have to notify]... but you should.
+        context: "Moral obligation exceeds legal obligation"
+    behavioral_markers:
+      - "Contacts breached companies to push for disclosure"
+      - "Loads breach data into HIBP when companies refuse to notify"
+      - "Testified before US Congress on individual notification rights"
+      - "Built free notification infrastructure (email alerts, API, domain search)"
+    sacrifice_cost: "Enormous personal time, hostility from companies, legal threats"
+
+  - rank: 4
+    name: "Security Pragmatism"
+    weight: 0.82
+    description: >
+      Security must serve humans, not the reverse. Different contexts demand
+      different solutions. Hunt rejects dogma — Netflix CAN have 4-character
+      passwords, password managers ARE better than complexity rules, and
+      usability failures are security failures. He challenges his own industry's
+      orthodoxy when it harms real users.
+    evidence:
+      - source: "fastmail-interview-part2.md"
+        quote: >
+          There's not [agreement on password guidance], and I don't think there
+          should be. Different services require different approaches.
+        context: "Rejecting one-size-fits-all password policies"
+      - source: "fastmail-interview-part2.md"
+        quote: >
+          It's less about the technology and more about the people and the
+          usability and the way of thinking.
+        context: "Human-centric security philosophy"
+      - source: "1password-data-breaches-interview.md"
+        quote: >
+          Why does multifactor have such poor uptake when it is such an effective
+          tool? Because humans don't like that it gets in the way.
+        context: "Acknowledging usability as the real security bottleneck"
+      - source: "passkeys-for-normal-people.md"
+        quote: >
+          Passkeys are one of the few security constructs that make your life
+          easier, rather than harder.
+        context: "Championing solutions that improve UX AND security simultaneously"
+    behavioral_markers:
+      - "Writes technical content for 'normal people' not security experts"
+      - "Challenges industry dogma (EV certs, password complexity rules)"
+      - "Advocates context-specific security rather than universal rules"
+      - "Tests and promotes solutions that reduce friction (passkeys, managers)"
+    sacrifice_cost: "Criticism from security purists, 'not technical enough' accusations"
+
+  - rank: 5
+    name: "Ethical Integrity in Data Handling"
+    weight: 0.78
+    description: >
+      Hunt will not buy stolen data. Will not monetize breach data. Will not
+      incentivize criminals. Will not weaponize HIBP for shaming individuals.
+      He navigates the paradox of handling billions of breach records while
+      maintaining strict ethical boundaries about how that data is sourced,
+      stored, and exposed. Privacy is a human right, even for people whose
+      behavior he finds morally repugnant.
+    evidence:
+      - source: "ethics-of-running-data-breach-search-service.md"
+        quote: >
+          He refuses to purchase stolen data, believing criminal incentivisation
+          through payment discourages actual security improvements.
+        context: "Will not pay for breach data under any circumstances"
+      - source: "who-decides-who-doesnt-deserve-privacy.md"
+        quote: >
+          Personal moral systems cannot justify public exposure of others.
+          HIBP cannot become a weapon to attack people solely on the basis of
+          their email address being affiliated with a website.
+        context: "Protecting privacy even for morally objectionable groups"
+      - source: "who-decides-who-doesnt-deserve-privacy.md"
+        quote: >
+          No one shall be subjected to arbitrary interference with his privacy,
+          family, home or correspondence.
+        context: "Invokes Universal Declaration of Human Rights Article 12"
+      - source: "ethics-of-running-data-breach-search-service.md"
+        quote: >
+          I cannot lose what I do not have.
+        context: "On never storing passwords linked to email addresses"
+    behavioral_markers:
+      - "Never purchases breach data from criminals"
+      - "Flags sensitive breaches to prevent public shaming"
+      - "Refuses to link passwords to email addresses"
+      - "Reports illegal content to law enforcement instead of publishing"
+    sacrifice_cost: "Smaller dataset, criticism for 'protecting' controversial groups"
+
+  - rank: 6
+    name: "Independence and Autonomy"
+    weight: 0.75
+    description: >
+      Freedom to choose how he works, when he works, and what he works on.
+      Hunt left 14 years at Pfizer to go independent. Turned down the HIBP
+      acquisition because he realized during buyer interviews that what he
+      actually wanted was to ride his jet ski and do whatever the fuck he wanted.
+      Independence is not laziness — it is the refusal to subordinate purpose
+      to corporate structure.
+    evidence:
+      - source: "decade-of-hibp.md"
+        quote: >
+          I get on my jet ski and I do whatever the fuck I want.
+        context: "Realizing during acquisition interviews what he truly valued"
+      - source: "project-svalbard-hibp-independence.md"
+        quote: >
+          Hunt decided to recover and operate HIBP independently. He plans to
+          delegate more work, explore government relationships, and pursue
+          industry-wide initiatives.
+        context: "Choosing independence with more work over acquisition with less"
+      - source: "optimised-life-for-job.md"
+        quote: >
+          Hunt describes how he transitioned from full-time corporate employment
+          to independent work through strategic optimization and deliberate effort.
+        context: "14-year corporate career deliberately wound down for freedom"
+      - source: "personal-finance-lessons-tech.md"
+        quote: >
+          Money is freedom to choose what matters to you.
+        context: "Money defined as autonomy, not luxury"
+    behavioral_markers:
+      - "Left stable corporate career for independence"
+      - "Rejected acquisition to preserve operational freedom"
+      - "Adds team members incrementally, only trusted people"
+      - "Lives on Gold Coast by choice, not proximity to tech hubs"
+    sacrifice_cost: "Financial security, scale limitations, unsustainable solo workload"
+
+  - rank: 7
+    name: "Education Through Lived Experience"
+    weight: 0.70
+    description: >
+      Hunt does not lecture from a podium — he teaches by showing what
+      happens when things go wrong, including to himself. His Hack Yourself
+      First workshops make developers break their own code. His blog posts
+      use his own breach exposure (pwned 15+ times) as teaching material.
+      His phishing incident became a passkey advocacy tool. Every failure
+      is curriculum.
+    evidence:
+      - source: "fastmail-interview-part2.md"
+        quote: >
+          Hack yourself first so that you can see what attackers do.
+        context: "Core teaching philosophy — experiential, not theoretical"
+      - source: "darknet-diaries-ep33-rockyou.md"
+        quote: >
+          My own email address has been seen fifteen times.
+        context: "Uses own breach exposure as teaching example"
+      - source: "passkeys-for-normal-people.md"
+        quote: >
+          Hunt illustrates how he fell victim to a phishing attack on Mailchimp.
+          The attacker created a fake login page, intercepted his credentials.
+        context: "Uses own phishing as the opening example for passkey education"
+      - source: "fastmail-interview-part2.md"
+        quote: >
+          Participants crack hashes themselves, experiencing why MD5 and salted
+          SHA-1 fail. Examples from Have I Been Pwned illustrate real breach
+          consequences.
+        context: "Workshop design — hands-on breaking, not slides"
+    behavioral_markers:
+      - "Uses personal breaches as case studies"
+      - "Designs workshops around doing, not watching"
+      - "30+ Pluralsight courses from lived experience"
+      - "Converts every personal failure into public education"
+    sacrifice_cost: "Ego, professional reputation risk from admitting failures"
+
+# ============================================================
+# Meta: Values Interaction Matrix
+# ============================================================
+# When values conflict, transparency (1) almost always wins.
+# Example: Independence (6) + Public Service (2) tension resolved
+# by choosing independence to BETTER serve the public (Svalbard).
+# Pragmatism (4) + Integrity (5) tension resolved by context —
+# he is pragmatic about SOLUTIONS but rigid about ETHICS.
+# ============================================================
+
+interaction_notes:
+  - conflict: "Transparency vs Privacy"
+    resolution: >
+      Hunt is radically transparent about HIMSELF but fiercely protective
+      of others' privacy. The boundary is consent — he publishes his own
+      failures, never others' private data without due process.
+  - conflict: "Public Service vs Independence"
+    resolution: >
+      Svalbard proved these are not in conflict. Independence enables
+      better public service because no corporate owner can compromise
+      the mission. He chose independence TO serve better.
+  - conflict: "Pragmatism vs Integrity"
+    resolution: >
+      Pragmatism governs technical solutions (different passwords for
+      different contexts). Integrity governs data ethics (never buy
+      stolen data, period). The domains do not overlap.

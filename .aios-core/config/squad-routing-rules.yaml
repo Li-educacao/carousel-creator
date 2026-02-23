@@ -1,0 +1,262 @@
+# Squad Routing Rules — AIOS Framework
+# Declarative rules for automatic squad selection by domain
+# Version: 1.0.0
+#
+# Priority cascade (highest to lowest):
+#   1. manual_override  — User says "use squad X"
+#   2. domain_match     — Keyword/pattern match on task description
+#   3. agent_affinity   — Squad agent activated directly (e.g. @brad-frost)
+#   4. workflow_hint    — Workflow step references squad context
+#   5. none             — Use core AIOS agents (no squad)
+#
+# RULE: When a squad matches, its agents/tasks/templates MUST be used
+# instead of generic AIOS core agents for that domain.
+
+# ─── Squad Registry ─────────────────────────────────────────────────────────
+squads:
+  design-system:
+    path: squads/design-system/
+    version: "1.0.0"
+    lead: design-chief
+    agents:
+      - design-chief      # Orchestrator (88.5% fidelity)
+      - brad-frost         # Atomic Design, tokens, WCAG
+      - aaron-draplin      # Branding, logo, identity
+      - chris-do           # Design business, pricing
+      - dave-malouf        # UX/interaction, design ops
+      - joe-mcnally        # Photography, lighting
+      - marty-neumeier     # Brand strategy, positioning
+      - paddy-galloway     # YouTube, content strategy
+      - peter-mckinnon     # Cinematography, video
+    tasks_count: 122
+    workflows:
+      - brownfield-audit-to-build
+      - greenfield-component-library
+      - refactoring
+      - executive-shock-report
+
+  media-buy-squad:
+    path: squads/media-buy-squad/
+    version: "1.0.0"
+    lead: ad-midas
+    agents:
+      - ad-midas           # Pedro Sobral clone — strategic lead (94-97%)
+      - performance-analyst # Kasim Aslam clone — metrics, kill/scale (91%)
+      - creative-analyst    # Molly Pittman clone — creative, hooks (94%+)
+      - pixel-specialist    # Tiago Tessmann clone — tracking, CAPI (95-98%)
+      - media-buyer         # Thiago Finch clone — traffic architect (88-91%)
+    skills_count: 18
+    workflows: []
+
+  security-squad:
+    path: squads/security-squad/
+    version: "1.0.0"
+    lead: security-chief
+    agents:
+      - security-chief     # Bruce Schneier clone — lead orchestrator
+      - threat-intel        # Troy Hunt clone — breach, web security
+      - secure-code         # Jim Manico clone — OWASP, code review
+      - appsec-engineer     # Jeff Williams clone — DevSecOps, API
+    workflows: []
+
+  mmos-squad:
+    path: squads/mmos-squad/
+    version: "3.0.1"
+    lead: mind-mapper
+    agents:
+      - mind-mapper         # Core orchestrator, cognitive archaeologist
+      - cognitive-analyst   # DNA Mental 8-layer analysis
+      - identity-analyst    # Values, obsessions, paradoxes
+      - charlie-synthesis-expert  # Framework synthesis
+      - research-specialist # Source discovery
+      - system-prompt-architect   # AI personality compiler
+      - mind-pm             # Pipeline PM
+      - debate              # Clone fidelity testing
+      - emulator            # Mind clone activation
+      - data-importer       # Content import to Supabase
+    workflows: []
+
+  etl-squad:
+    path: squads/etl-squad/
+    version: "2.0.0"
+    lead: data-collector
+    agents:
+      - data-collector
+    workflows: []
+
+  creator-squad:
+    path: squads/creator-squad/
+    version: "1.0.0"
+    lead: expansion-creator
+    agents:
+      - expansion-creator
+    workflows: []
+
+# ─── Domain Routing (keyword/pattern match) ──────────────────────────────────
+# When task description, story content, or PRD matches these patterns,
+# the corresponding squad MUST be activated.
+domain_routing:
+  - domain: design
+    squad: design-system
+    patterns:
+      - "design.system"
+      - "design.tokens?"
+      - "component.library"
+      - "atomic.design"
+      - "UI.components?"
+      - "branding"
+      - "logo"
+      - "visual.identity"
+      - "color.palette"
+      - "typography"
+      - "WCAG|accessibility"
+      - "style.guide"
+      - "Tailwind.config"
+      - "cinematograph|video.production"
+      - "photography|lighting"
+      - "YouTube.strategy"
+    lead_agent: design-chief
+    replaces_core_agent: ux-design-expert
+    reason: Design System squad has 9 specialized clones with 88.5% avg fidelity
+
+  - domain: marketing
+    squad: media-buy-squad
+    patterns:
+      - "Facebook.Ads|Meta.Ads"
+      - "Google.Ads"
+      - "campaign.structure"
+      - "media.buy"
+      - "trafego.pago|paid.traffic"
+      - "ROAS|CPA|CPM|CTR|CPC"
+      - "pixel|CAPI|tracking"
+      - "creative.fatigue"
+      - "ad.copy|hook.generat"
+      - "funnel|funil"
+      - "budget.allocation"
+      - "kill.scale|escalar"
+      - "audiencia|audience"
+      - "anuncio|anúncio|ads?"
+    lead_agent: ad-midas
+    replaces_core_agent: null
+    reason: Media Buy squad has 5 specialized clones of top Brazilian traffic experts
+
+  - domain: security
+    squad: security-squad
+    patterns:
+      - "security.audit"
+      - "OWASP"
+      - "vulnerability|vulnerabilidade"
+      - "threat.model"
+      - "penetration.test|pentest"
+      - "RLS.audit"
+      - "XSS|SQL.injection|CSRF"
+      - "dependency.audit"
+      - "secure.code.review"
+      - "DevSecOps"
+      - "encryption|criptografia"
+    lead_agent: security-chief
+    replaces_core_agent: null
+    reason: Security squad has 4 clones of world-class security experts
+
+  - domain: cognitive-cloning
+    squad: mmos-squad
+    patterns:
+      - "clone|clonar"
+      - "mind.map|mapa.mental"
+      - "DNA.Mental"
+      - "cognitive.analysis|analise.cognitiva"
+      - "persona.fidelity"
+      - "system.prompt.architect"
+      - "emulat"
+    lead_agent: mind-mapper
+    replaces_core_agent: null
+    reason: MMOS squad is the cognitive cloning engine with 36 existing clones
+
+  - domain: data-collection
+    squad: etl-squad
+    patterns:
+      - "web.scrap"
+      - "content.collect"
+      - "blog.collect"
+      - "YouTube.transcript"
+      - "speaker.diariz"
+      - "ETL|extract.transform"
+    lead_agent: data-collector
+    replaces_core_agent: null
+    reason: ETL squad has specialized collection scripts
+
+  - domain: expansion-creation
+    squad: creator-squad
+    patterns:
+      - "expansion.pack"
+      - "create.squad"
+      - "scaffold.agent"
+      - "new.squad"
+    lead_agent: expansion-creator
+    replaces_core_agent: null
+    reason: Creator squad automates expansion pack scaffolding
+
+# ─── Agent Affinity ──────────────────────────────────────────────────────────
+# When one of these agents is referenced, auto-activate the parent squad
+agent_affinity:
+  brad-frost: design-system
+  aaron-draplin: design-system
+  chris-do: design-system
+  dave-malouf: design-system
+  joe-mcnally: design-system
+  marty-neumeier: design-system
+  paddy-galloway: design-system
+  peter-mckinnon: design-system
+  design-chief: design-system
+  ad-midas: media-buy-squad
+  performance-analyst: media-buy-squad
+  creative-analyst: media-buy-squad
+  pixel-specialist: media-buy-squad
+  media-buyer: media-buy-squad
+  security-chief: security-squad
+  threat-intel: security-squad
+  secure-code: security-squad
+  appsec-engineer: security-squad
+  mind-mapper: mmos-squad
+  cognitive-analyst: mmos-squad
+  identity-analyst: mmos-squad
+  charlie-synthesis-expert: mmos-squad
+  research-specialist: mmos-squad
+  system-prompt-architect: mmos-squad
+  mind-pm: mmos-squad
+  debate: mmos-squad
+  emulator: mmos-squad
+  data-importer: mmos-squad
+
+# ─── Workflow Integration ────────────────────────────────────────────────────
+# How squads integrate with core AIOS workflows
+workflow_integration:
+  brownfield-fullstack:
+    squad_routing: auto
+    description: |
+      During brownfield-fullstack workflow, scan PRD/stories for domain keywords.
+      When a domain match is found:
+      1. Set target_context to "hybrid" (squad + core agents)
+      2. Route domain-specific steps to squad agents
+      3. Keep management steps (pm, po, sm) on core agents
+      4. Design steps → @design-chief delegates to specialists
+      5. Marketing steps → @ad-midas delegates to specialists
+      6. Security steps → @security-chief delegates to specialists
+
+  ralph-loop:
+    squad_routing: per-story
+    description: |
+      Each story in Ralph Loop is scanned for domain keywords.
+      Squad context is passed to the executor subagent prompt.
+
+# ─── Parallel Execution Rules ────────────────────────────────────────────────
+parallel_rules:
+  enabled: true
+  max_parallel: 3
+  independent_domains:
+    - [design, security]       # Design and security can run in parallel
+    - [design, marketing]      # Design and marketing can run in parallel
+    - [security, marketing]    # Security and marketing can run in parallel
+  never_parallel:
+    - [design, design]         # Same domain = sequential
+    - cognitive-cloning        # Cloning is always sequential (high context)

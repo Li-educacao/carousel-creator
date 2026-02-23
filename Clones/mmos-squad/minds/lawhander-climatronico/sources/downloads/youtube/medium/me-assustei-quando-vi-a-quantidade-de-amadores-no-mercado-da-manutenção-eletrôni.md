@@ -1,0 +1,14 @@
+# ME ASSUSTEI QUANDO VI A QUANTIDADE DE AMADORES NO MERCADO DA MANUTENÇÃO ELETRÔNICA | PODCAST | #03
+
+- **Video ID:** 2cVIe1V9JFE
+- **URL:** https://www.youtube.com/watch?v=2cVIe1V9JFE
+- **Duration:** 3 min
+- **Views:** 185
+- **Published:** 2023-09-19T15:00:09Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+quando eu fui pra área da climatização a precificação era a seguinte o cara da da injeção eletrônica meu primeiro mentor cobrava a partir de r$ 400 no reparo de placa o meu outro mentor de Industrial cobrava a partir de r$ 500 no reparo de uma placa o jogo dos car do Industrial era reparo de r$ 2000 de r$ 3.000 Olha isso altíssimo valor quando eu vou para climatização o reparo de uma placa na época era em torno de r$ 50 R 200 no aí se liga o cara aí meus dois ventores falam para mim não tu vai entrar nisso aí mesmo cara Tu vai entrar em você mesmo Vai Valer a Pena P r$ 50 no reparo que que a gente ganha r00 que a realidade deles era aquela e alguma coisa me diz que pô tô vendo uma demanda aqui cara não tem ninguém aqui é não tem ninguém aqui azul é exatamente Eu odiava Eu nunca eu nunca gostei do cara menosprezar o meu serviço nunca gostei então sempre gostei de ser diferenciado porque eu sempre foi Claro para mim que ser diferenciado é me faz ser incomparável você é doido porque quando eu tenho uma diferença tão grande de ti o o meu cliente não me compara mais contigo eu me distanciei no mercado Então tinha essa clareza e eu buscava caminhos para isso então vou entrar na climatização para instalar ar condicionado e limpar máquina todo mundo fazendo pô todo mundo faz velho lá em Fortaleza se tu sair na rua tu vê um carro desivado de instalação higienização e até porque quase não é quente né quase não é quente e o cara faz um curso de três meses no cená e ele se acha apto para fazer isso nada com do SENAI mas é o três meses pô o cara tá é um bebezinho né E aí E aí tem muito ão alta demanda é baixa barreira de entrada isso o cara tem que se ligar esse aqui é o baixa barreira de entrada e aí eu vi na eletrônica dentro da climatização esse nicho que ninguém tava vendo primeiro ninguém tava olhando Água Limpa é ninguém tava lendo esse negócio pô tem uma coisa os caras que estavam lá em Fortaleza Tinha dois caras até hoje entregando um serviço péssimo péssimo mesmo trata mal o cliente arrogante entregava placa uma sacola plástica de supermercado Aí eu disse pô e todo o mercado que tá começando começa bem amador né Se a gente for estudar todos os mercados começa muito amador então eu olhava Pô esse mercado tá começando esse nível de amadorismo o mercado aceitar esse nível de amadorismo é porque tá começando você tá começando ter uma oportunidade do caramba se tiver um diferencial Zinho isso aí eu entro com meus diferenciais

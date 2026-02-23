@@ -1,0 +1,14 @@
+# AS 2 HABILIDADES MAIS DESEJADAS PELO MERCADO DA CLIMATIZAÇÃO/REFRIGERAÇÃO #AME
+
+- **Video ID:** pBn2NYGgACM
+- **URL:** https://www.youtube.com/watch?v=pBn2NYGgACM
+- **Duration:** 4 min
+- **Views:** 104
+- **Published:** 2022-06-30T15:00:34Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+é esse o cara em Salvador onde só foi muito inspeção mecânica e quer continuar fazendo esse serviço e apenas acrescentar o conserto de placas dá certo ademais que o postural hoje mais desejado e o mais completo lá em casa o filho atravessar e eu estou segurando eu não tô sempre entrevista o carro a gente tem oi oi gente tem três próximas de ser preso não tá informação eu sou dois estão lá então mais Play uma coisa são três nossa mais seus processos complexos e Os carros já viu da criação e vamos jogar interna dela aqui eu falei com você não sabe nada que o atração por gente privatização obrigou a advogada eu fui estudar a privatização né junto com esse Retiro eu fiquei junto coisa aquela sensação é gel é cantos Então vai parte mecânica porém eles não eles sabiam instalar e gerenciar pediu que a palavra deles né Eu pensei que prestar plantação de fato entender a raiz essa finalização termodinâmica enfim a partir lá Isso mesmo eles o que eles não sabiam mas estou com inteiramente a desenvolver eu aprendi eles aprenderam também serve pé reciclar os conhecimentos na verdade e o gente tem tava com três cara compras porque esse cara completo de o cara quererem né O que é hematoma é o cara que ele vai na máquina E é certo que ele vai saber logo é certo eu acho que ela mas eu não tenho medo de mandar o cara aí nos nossos aqui quando ele gramática e hoje eu sou escravo também tá ligado né eu cortei um patrono foi abaixo branca e hoje eu vou olhar o máquina consigo dar minha calça completar esses menos aqui daotec vou lavar trazer aquelas quatro então se você tava em campo segurar trabalho em campo é mecânico e agr é o que passou pela depois pé no freio assunto para ele tem que é só se torna profissional completo porque vai achar uma máquina deu defeito mais pertinho já desenrolavam colchão desenrolando um negócio é feito fora tanto que vai funcionar também vai diagnosticar vai ficar defeito ele vai ver fazer medições para saber o que está fazendo tanto na parte mecânica que eu já sabia quanto a parte eletrônica bom então é costurar o uso da campeão mostrar completo no mercado hoje você pega os maiores nomes do mercado da climatização agora vamos mais famosos aí é kadesh todos eles vamos ver todos vagabundo eu conheço que o portal eu sou muito bons eles me ligaram sabe no mercado da carga eles vão direto não se esqueçam muito bom eu considero assim que bom que dão aulas que treinam que pega uma máquina de volta feito mesmo que sabemos eles vão Então eu sempre eu sou são meus amigos sim então cuidado

@@ -1,0 +1,14 @@
+# Isso é o que acontece quando você se torna climatrônico de acordo com um de meus alunos #AME
+
+- **Video ID:** 0b2cKmXqIrQ
+- **URL:** https://www.youtube.com/watch?v=0b2cKmXqIrQ
+- **Duration:** 3 min
+- **Views:** 192
+- **Published:** 2021-03-27T15:00:00Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+e você vai acontecer mais ou menos o que o Bruno falou que é o Brunão climatronic Audi esse Fi que acontece na minha opinião várias coisas ó o que acontece na minha opinião várias coisas você abra seu leque de conhecimento para os ar condicionado diversas os assim diferencia dos outros profesionales e se você for fazer reparo em 40 crônicas se prepare para não parar de tocar seu celular você é uma das coisas o que acontece o quem trabalha e só o clima Antônio certo é só você pode uma empresa normal vamos usar o exemplo que real o Túlio tem uma Hamburgueria final de semana certo tem hambúrguer final de semana tá ele vende hambúrguer a Golden Burger quer no bairro no bairro que ele mora me faz o túnel que já nasce com os equipamentos e então eu vou querer final de semana para hambúrguer dele bombar ele tem não só que fazer um hambúrguer ele tem que fazer hambúrguer O Henrique me dá para logística de entregar um burro e tal e conseguir os clientes Tá certo a câmera lá os clientes disputando os clientes com outros concorrentes eu quero que venha bom e o gol até um cara que vende pizza com cara de pastel porque o cara vai escolher ele janta aumentar hamburguer pastel frito Hoje não só comeu pizza eu não como pastel hoje como um hambúrguer amanhã e não como pizza eles são concorrentes até de quem mas não esquecer então pu O que quer dizer com isso ele conseguiu cliente e e ele precisa cancelar é estratégias está caindo se possível de técnicas de vendas de captação de clientes de fidelização de clientes e não que a gente não tem que fazer tá só que o clima atômico ele faz só abrir a boca dele cara e não faz sobre a boca dele dizer estão reparando passa de ar condicionado o principalmente para ver se eu posso ver como um problema né não tem como ter condições de reparar mas tem problema bom né cara não tem problema ou não tem um monte de cliente paga a conta O que passa o cara é um ano e nessa mostra ainda não eu falei semana que eu fui visitar a empresa que eu trabalhava e construí-la 19 eu tô com medo de me queimar o medo medo eu tô com medo de me queimar por não tá constando todos os serviços sem parar para pensar é só só trabalho com manutenção eletrônica mas você na foto do climático você tem que tomar cuidado para não divulgar tanto e se queimar porque não dá conta

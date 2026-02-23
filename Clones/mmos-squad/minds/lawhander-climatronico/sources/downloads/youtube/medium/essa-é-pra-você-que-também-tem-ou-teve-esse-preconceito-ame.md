@@ -1,0 +1,14 @@
+# Essa é pra você que também tem ou teve esse preconceito #AME
+
+- **Video ID:** lScB8_IPSYQ
+- **URL:** https://www.youtube.com/watch?v=lScB8_IPSYQ
+- **Duration:** 3 min
+- **Views:** 191
+- **Published:** 2021-01-24T15:00:30Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+o tempo preconceito de que você tinha quem tava com manutenção não tinha tempo para nada aqueles erótico do carro da manutenção que ele tem ele tá lá tal em casa com a família curtir a ele da empresa po tempão não sei o que é que corre aqui vem salvar quem não tem algumas áreas são assim por isso que eu tinha esse estereótipo Eu puxei ela alisava né eu tinha esse pré-conceito Então essa ela tava acontecendo assim muito ruim velho o cara tem que tá disponível 24 horas para empresa quando foi que eu mudei por eu posso acabar com um sensor eletrônico que as empresas que eu trabalhei aí Preciso trabalhar bastante né então aqui está dia que eu trabalhei tinha casos que [Música] e demandava uma certa urgência Mas a nossa é sessão é sessão era o corante Tinha que trabalhar e aos sábados e esse é original tá aqui hoje a gente trabalho de 2ª a 6ª das 8 às 17 horas Tá certo e aí que acontece a placa de ar condicionado os climas da climatização geral na sua grande maioria das vezes não é não existe nem fim de caráter de urgência enfim do Norte milhões de faturamento que tipo indústria o que falar máquina para o mundo é melhor funcionamento perdido até que o carro não tá na praça minuto cada minuto é uma porrada de grana que cai no bolso da empresa né então o cara não o cara não posso dizer ele não tá nem aí rico tem que vai ter que pagar que ele tem que pagar Qualquer coisa vai ser mais barato do que ele ficar com a máquina parada Oi e aí tem um profissional para fazer esse tipo de coisa está lá disponível 24 horas não manutenção eletrônica falando a manutenção é pergunta para que mais façam isso é uma realidade certo tem urgência assim e urgências então gente mas tipo gente depois se der passa do cliente aqui hoje qual é o tem urgência tem tem cara porque no meu quarto a gente faz beleza urgência não é uma expressão mas consegue perceber a discrepância dá para entender que pô são nosso tem outra Sensações que o acesso às aulas não sei que nosso segmento é esse foi no hospital né não tem sei lá o que nem aí pode ter funcionado eu te de ar condicionado aí outra dinâmica coisa mas uma enfermaria do Hospital uma coisa assim o que é um paciente em casa no estado terminal que não pode levar a cama que preciso do alcançado de todo jeito aí demanda essa comigo Ah tá mas não sendo isso cara tão fofo que a carga de trabalho o regime de trabalho é esse é comercial

@@ -1,0 +1,283 @@
+# =============================================================================
+# DNA Mental - Layer 3: Routine Analysis & Temporal Patterns
+# Subject: Troy Hunt
+# Role: Cybersecurity expert, creator of Have I Been Pwned (HIBP)
+# Generated: 2026-02-19
+# Framework: DNA Mental 8-Layer Analysis (Layer 3 of 8)
+# =============================================================================
+
+metadata:
+  subject: "Troy Hunt"
+  layer: 3
+  layer_name: "Routine Analysis & Temporal Patterns"
+  description: >
+    The rhythms, cycles, and temporal structures that organize Troy Hunt's
+    professional and personal life. This layer maps daily routines, weekly
+    cadences, seasonal patterns, and multi-year cycles that reveal how he
+    sustains extraordinarily high output over 15+ years without institutional
+    support.
+  data_sources:
+    - "Weekly Update commentary on personal schedule"
+    - "Blog posts discussing work habits"
+    - "Conference talk anecdotes about daily life"
+    - "Interview discussions about routine and productivity"
+    - "Social media timestamps and patterns"
+
+# ---------------------------------------------------------------------------
+# DAILY RHYTHMS
+# ---------------------------------------------------------------------------
+daily_patterns:
+
+  baseline_day:
+    description: "A typical productive day when Troy is home on the Gold Coast"
+    morning:
+      wake: "Early — typically around 6:00 AM"
+      first_activity: "Check email, breach notifications, social media mentions"
+      pattern: >
+        Troy's mornings start with triage. Security never sleeps, and breach
+        data arrives from every timezone. The first hour is about assessing
+        what happened overnight and prioritizing response.
+    midday:
+      primary_work: "Writing, coding, breach data processing, HIBP maintenance"
+      exercise_block: "Tennis session or gym — treated as non-negotiable"
+      pattern: >
+        Core productive work happens in focused blocks. Troy has described
+        writing sessions where he locks in on a blog post for hours. The
+        exercise break is a hard boundary — not optional, not moveable.
+    afternoon:
+      activities:
+        - "Conference call meetings (when scheduled)"
+        - "Course recording or editing"
+        - "Community engagement and email responses"
+        - "HIBP infrastructure and feature work"
+    evening:
+      wind_down: "Beach walk, leisure activities"
+      late_work: "Can extend to 1:00 AM during breach events or deadlines"
+      pattern: >
+        Evenings flex based on demand. A quiet week might see Troy relaxing
+        with 3D printing or a beer. A major breach drops and he is processing
+        data until 1 AM. The flexibility is intentional — no rigid cutoff.
+
+  crunch_day:
+    description: "During a major breach event or critical deadline"
+    hours: "6:00 AM to 1:00 AM (19-hour days)"
+    trigger_events:
+      - "Major new breach data received"
+      - "Coordinated disclosure deadline approaching"
+      - "HIBP infrastructure issue"
+      - "Time-sensitive blog post (breach in the news)"
+    pattern: >
+      Troy has described these marathon sessions matter-of-factly, not as
+      heroic efforts but as the natural response to the work. He does not
+      glorify overwork — he frames it as "this is what the situation required."
+
+  travel_day:
+    description: "Transit days during conference circuit"
+    pattern: >
+      Business class is a work tool. Troy uses long flights for writing,
+      course preparation, and email processing. The flight becomes an
+      uninterrupted focus block — no meetings, no notifications, just work.
+      He has described flights as some of his most productive periods.
+    key_habit: "Works during flights, sleeps on overnight legs, arrives functional"
+
+# ---------------------------------------------------------------------------
+# WEEKLY CADENCE
+# ---------------------------------------------------------------------------
+weekly_patterns:
+
+  weekly_update:
+    day: "Typically filmed and published on Fridays or weekends"
+    streak: "Every week since 2016 — unbroken"
+    duration: "15-45 minutes per episode"
+    preparation: >
+      Troy accumulates notes throughout the week — security news, personal
+      observations, HIBP updates, travel stories. The video itself is
+      relatively unscripted, relying on his accumulated expertise and
+      the week's material.
+    significance: >
+      The Weekly Update is Troy's metronome. It creates an accountability
+      rhythm that structures his entire week. Everything he does feeds
+      into potential Weekly Update content. It is both output and organizing
+      principle.
+    resilience: >
+      Has been published during travel, illness, personal crisis (divorce),
+      jet lag, and conference exhaustion. The streak is non-negotiable.
+
+  blog_post_rhythm:
+    frequency: "1-4 posts per month (variable)"
+    trigger: "Event-driven rather than calendar-driven"
+    pattern: >
+      Blog posts are not scheduled — they emerge from events (breaches,
+      discoveries, industry absurdities). Troy writes when there is something
+      to say, not to fill a content calendar. This keeps quality consistently
+      high and avoids filler content.
+    process:
+      - "Event or discovery triggers the post"
+      - "Investigation and evidence gathering (screenshots, data analysis)"
+      - "Drafting — often in a single focused session"
+      - "Review and editing (self-edited)"
+      - "Publication with social media amplification"
+
+  exercise_rhythm:
+    frequency: "Daily or near-daily"
+    primary: "Tennis"
+    secondary: "Beach walks, general fitness"
+    pattern: >
+      Exercise is not a goal Troy works toward — it is a fixture of his
+      week that other things are scheduled around. Tennis requires a partner
+      and a court, which creates social accountability for the habit.
+
+# ---------------------------------------------------------------------------
+# MONTHLY AND SEASONAL PATTERNS
+# ---------------------------------------------------------------------------
+seasonal_patterns:
+
+  conference_seasons:
+    peak_periods:
+      - "January-March: Southern hemisphere summer, Australian conferences"
+      - "May-June: European conference season (NDC Oslo, etc.)"
+      - "September-November: Fall conference circuit (US, Europe)"
+    low_periods:
+      - "December: Holiday wind-down, Gold Coast summer"
+      - "July-August: Relatively quieter, though not inactive"
+    pattern: >
+      Troy's year is shaped by the international conference calendar.
+      Peak travel periods mean 243 days away from home at the extreme.
+      These periods generate content (talks, blog posts from observations)
+      but deplete personal time.
+
+  breach_seasonality:
+    pattern: "Unpredictable — breaches do not follow seasons"
+    response: >
+      Troy's schedule must accommodate the fundamentally unpredictable
+      nature of data breaches. A massive breach can land at any time and
+      immediately becomes priority one. This unpredictability is managed
+      through flexible routines rather than rigid schedules.
+
+  content_creation_cycles:
+    pluralsight_courses:
+      frequency: "Several per year during active periods"
+      process: "Research, outline, record, edit — multi-week projects"
+      pattern: "Course creation happens in focused bursts between travel"
+    blog_output_variation:
+      high_months: "Often correlate with major breach events"
+      low_months: "Heavy travel periods where time for long-form writing is limited"
+
+# ---------------------------------------------------------------------------
+# MULTI-YEAR ARCS
+# ---------------------------------------------------------------------------
+long_term_patterns:
+
+  career_phase_1:
+    period: "1999-2011"
+    label: "Corporate Phase"
+    description: "14 years at Pfizer in various technical and management roles"
+    rhythm: "Traditional corporate cadence — office hours, project cycles"
+    parallel_activity: "Blog launched 2009, Pluralsight courses began"
+    transition: >
+      Troy gradually built an independent identity through blogging and
+      courses while still employed. The departure from Pfizer was not
+      impulsive — it was prepared over years of parallel track building.
+
+  career_phase_2:
+    period: "2011-2013"
+    label: "Independent Emergence"
+    description: "Left Pfizer, Microsoft MVP & Regional Director, full-time independent"
+    rhythm: "Transition from corporate to self-directed scheduling"
+    key_development: "Freedom to set own agenda, speaking engagements accelerate"
+
+  career_phase_3:
+    period: "2013-present"
+    label: "HIBP Era"
+    description: "Have I Been Pwned launched December 2013, becomes defining project"
+    rhythm: "Breach-driven cadence overlaid on content creation and speaking"
+    evolution:
+      - "2013-2017: Solo operation, building HIBP while maintaining content output"
+      - "2017-2019: Explored selling HIBP, ultimately decided against"
+      - "2019-2021: Partnered with Cloudflare, FBI integration, scale growth"
+      - "2021-present: HIBP as established institution, .NET Foundation board"
+    pattern: >
+      Each phase expanded Troy's reach while maintaining the core rhythms
+      (blog, speaking, breach processing). The consistency of output across
+      dramatically different life circumstances is the defining pattern.
+
+  personal_life_arc:
+    divorce:
+      period: "Approximately 2017-2019"
+      impact_on_routine: >
+        Troy has been transparent about the divorce disrupting his life.
+        Notably, the Weekly Update streak did NOT break. The blog continued.
+        Work became both refuge and constant. The routine survived the
+        personal upheaval — suggesting it is identity, not discipline.
+    recovery:
+      pattern: "Rebuilt personal life in Gold Coast, new relationship (Charlotte)"
+      integration: "Partner became part of the public narrative in a healthy way"
+
+# ---------------------------------------------------------------------------
+# CONTENT REPURPOSING PIPELINE
+# ---------------------------------------------------------------------------
+content_pipeline:
+
+  description: >
+    Troy has an efficient content multiplication system where a single
+    insight or investigation generates value across multiple formats.
+
+  pipeline_flow:
+    step_1:
+      format: "Blog post"
+      description: "Original long-form investigation or analysis"
+      effort: "Highest — original research, writing, screenshots"
+    step_2:
+      format: "Weekly Update mention"
+      description: "Discussed in the video with additional commentary"
+      effort: "Low — leverages existing knowledge"
+    step_3:
+      format: "Conference talk"
+      description: "Key stories and insights packaged into presentations"
+      effort: "Medium — narrative restructured for live audience"
+    step_4:
+      format: "Pluralsight course"
+      description: "Concepts systematized into structured curriculum"
+      effort: "High — but built on existing knowledge base"
+    step_5:
+      format: "Workshop (Hack Yourself First)"
+      description: "Hands-on teaching derived from all of the above"
+      effort: "Medium — framework exists, content refreshed"
+
+  efficiency_insight: >
+    Troy rarely creates content from scratch for a single purpose. Every
+    breach investigation, every security observation, every personal
+    experience is raw material that flows through multiple output channels.
+    This is not lazy recycling — each format adds unique value. But the
+    underlying research is done once and leveraged many times.
+
+# ---------------------------------------------------------------------------
+# ROUTINE RESILIENCE
+# ---------------------------------------------------------------------------
+resilience_analysis:
+
+  what_never_breaks:
+    - "Weekly Update publication"
+    - "Breach data processing and HIBP maintenance"
+    - "Daily exercise"
+    - "Social media engagement"
+
+  what_flexes:
+    - "Blog post frequency (varies with available time and events)"
+    - "Course production (pauses during heavy travel)"
+    - "Sleep schedule (compressed during crunch periods)"
+    - "Personal leisure time (first casualty of high demand)"
+
+  sustaining_mechanisms:
+    intrinsic_motivation: >
+      Troy genuinely enjoys the work. Breach investigation is intellectually
+      stimulating. Writing is satisfying. Speaking is energizing. The routine
+      sustains because it is built on authentic interest, not forced discipline.
+    identity_fusion: >
+      Troy Hunt IS the person who writes about security and runs HIBP.
+      The routine is not something he does — it is who he is. This makes
+      consistency effortless in the same way breathing is effortless.
+    environmental_design: >
+      Gold Coast provides the physical reset (beach, weather, outdoor
+      activities) that makes the intense work sustainable. The location
+      is not accidental — it is infrastructure for the lifestyle.

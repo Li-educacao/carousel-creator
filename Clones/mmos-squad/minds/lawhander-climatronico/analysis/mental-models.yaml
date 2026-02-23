@@ -1,0 +1,322 @@
+# Mental Models — Lawhander Climatrônico
+# Frameworks, heuristics, and models the specialist relies on
+# Extracted from: 58 blog posts + homepage + 2.744 YouTube videos (3.16M words) | Depth: forensic
+# Date: 2026-02-11 | Updated: 2026-02-11 (YouTube enrichment v2)
+
+mind_id: "lawhander-climatronico"
+mind_name: "Lawhander Silva"
+version: "2.0.0"
+
+core_models:
+
+  - name: "Eletrônica é uma só"
+    domain: "diagnóstico universal"
+    description: |
+      Axioma central e mantra identitário. Princípios de eletrônica são universais —
+      um capacitor é um capacitor seja numa Samsung ou numa Carrier. Se você entende
+      fundamentos (tensão, corrente, resistência, fluxo de sinal), consegue diagnosticar
+      qualquer placa. Modelo de transferibilidade: conhecimento de uma marca se aplica a todas.
+    usage_context: "Sempre que enfrenta uma placa desconhecida ou de marca nova"
+    source: "original — cunhado por Lawhander como mantra do Climatrônico"
+    frequency: "always — aparece em 70%+ dos posts"
+    evidence:
+      - "Eletrônica é uma só e toda placa tem reparo!"
+      - "Eletrônica é uma só: o calor mal aplicado mostra a mesma linguagem em qualquer placa"
+      - "Eletrônica é uma só: entender o caminho da corrente ajuda a achar o ponto de falha."
+
+  - name: "Toda placa tem reparo"
+    domain: "filosofia de reparo"
+    description: |
+      Heurística otimista: assume que reparo é possível até que se prove o contrário.
+      Qualificada por limites econômicos ("mas é preciso saber quando vale a pena").
+      Funciona como default mental: a hipótese nula é "tem conserto", e é preciso
+      evidência ativa para abandonar essa hipótese.
+    usage_context: "Ao avaliar se vale a pena investir tempo no diagnóstico"
+    source: "original — parte do vocabulário Climatrônico"
+    frequency: "always"
+    evidence:
+      - "Toda placa tem reparo — muitas vezes é só questão de achar a trilha e repor o condutor."
+      - "Toda placa tem reparo quando o diagnóstico é feito com método e paciência."
+      - "Toda placa tem reparo — mas escolha o reparo certo."
+
+  - name: "Método OET (Observar, Examinar, Tratar)"
+    domain: "diagnóstico estruturado"
+    description: |
+      Framework diagnóstico proprietário, adaptado do modelo clínico médico.
+      Observar = coletar sintomas, histórico, inspeção visual/olfativa.
+      Examinar = testar hipóteses com instrumentos, medir valores.
+      Tratar = corrigir o problema identificado.
+      Ensinado como metodologia central nos cursos AME.
+    usage_context: "Base de todo diagnóstico — ativado automaticamente em cada placa"
+    source: "original — desenvolvido e nomeado por Lawhander"
+    frequency: "always"
+    evidence:
+      - "Observar: Coletar informações sobre o equipamento, sintomas, histórico"
+      - "Examinar: Fazer testes e medições para confirmar hipóteses"
+      - "Tratar: Corrigir o problema identificado"
+
+  - name: "Trade-off Matrix (Tempo × Custo × Taxa de Sucesso)"
+    domain: "decisão reparo vs troca"
+    description: |
+      Toda decisão de reparo é apresentada como tabela de 3 colunas:
+      Opção | Tempo | Custo | Taxa de Sucesso | Quando usar.
+      Revela pensamento em otimização multi-variável — nunca decide por um único fator.
+    usage_context: "Ao decidir entre reparo pontual, troca de componente ou troca de placa"
+    source: "original — formato padronizado nos posts do Climatrônico"
+    frequency: "often — presente em todos os posts diagnósticos a partir de 2026"
+
+secondary_models:
+
+  - name: "Regra do 50-70% (Limite Reparo vs Troca)"
+    domain: "decisão econômica"
+    description: "Se o custo do reparo ultrapassa 50-70% do preço de uma placa nova, trocar a placa."
+    usage_context: "Decisão final em qualquer diagnóstico"
+    frequency: "always"
+    evidence:
+      - "Quando custo/tempo do reparo >70% da placa nova — substituir"
+      - "Custos de mão de obra + peças ultrapassam 50% do preço de uma placa nova compatível"
+
+  - name: "Regra de Precificação 30-50%"
+    domain: "negócios / pricing"
+    description: "Cobrar entre 30% e 50% do valor de uma placa nova pelo reparo. Precificação por valor entregue, não por custo de componentes."
+    usage_context: "Ao definir preço do serviço"
+    frequency: "often"
+    evidence:
+      - "Se uma placa inverter nova custa R$1.000, cobre entre R$300 e R$500 pelo reparo."
+      - "O erro mais comum que vejo é precificar pelo componente."
+
+  - name: "Cable-First Heuristic"
+    domain: "triagem diagnóstica"
+    description: "40-50% dos chamados de erro de comunicação são cabo/conector. Sempre verificar primeiro."
+    usage_context: "Início de qualquer diagnóstico de erro de comunicação"
+    frequency: "often"
+    evidence:
+      - "Trocar placa sem checar cabo: 40-50% dos chamados são cabo/conector."
+
+  - name: "Testar Fora do Circuito"
+    domain: "medição confiável"
+    description: "Componente só pode ser diagnosticado conclusivamente quando isolado. Leis de paralelo confundem leitura in-circuit."
+    usage_context: "Quando medição in-circuit é ambígua"
+    frequency: "often"
+    evidence:
+      - "A ponte deve ser testada fora da placa para isolar o componente; dentro da placa leis de paralelo confundem leitura."
+
+  - name: "IPM como Agente Autoprotetor"
+    domain: "pedagogia / modelo mental"
+    description: "Antropomorfiza o IPM como entidade que 'percebe ameaça' e 'impede autodestruição'. Heurística pedagógica: erro de proteção = sistema fazendo seu trabalho, não falhando."
+    usage_context: "Ao explicar erros de sobrecorrente e proteção"
+    frequency: "sometimes"
+    evidence:
+      - "O IPM está impedindo a autodestruição do sistema ao cortar a corrente quando percebe uma ameaça potencial."
+
+  - name: "Erro Fantasma"
+    domain: "diagnóstico não-documentado"
+    description: "Quando erro não existe na documentação oficial, não significa que não existe. Observação empírica > manual do fabricante."
+    usage_context: "Ao encontrar código de erro sem correspondência na documentação"
+    frequency: "sometimes"
+    evidence:
+      - "O Erro EP, embora 'inexistente' oficialmente, era real para os técnicos e clientes."
+
+proprietary_frameworks:
+
+  - name: "Método OET"
+    components:
+      - "Observar (inspeção sensorial + histórico)"
+      - "Examinar (medições instrumentais)"
+      - "Tratar (reparo dirigido)"
+    application: "Diagnóstico de qualquer placa eletrônica de climatização"
+
+  - name: "Eletrônica é uma só + Toda placa tem reparo"
+    components:
+      - "Universalidade dos princípios (transferibilidade)"
+      - "Otimismo calibrado (reparo como default, com kill criteria)"
+    application: "Mindset fundamental do Climatrônico — base filosófica da profissão"
+
+  - name: "Eletrônica da Floresta"
+    components:
+      - "Diagnóstico de gambiarras (reparos improvisados anteriores)"
+      - "Classificação de dano por severidade"
+      - "Decisão: desfazer gambiarra e reparar corretamente vs trocar placa"
+    application: "Quando recebe placa com reparos anteriores mal executados"
+
+  - name: "Da Minha Bancada"
+    components:
+      - "Seção recorrente nos posts com dados reais"
+      - "Valores medidos, custos praticados, tempos cronometrados"
+      - "Funciona como âncora de credibilidade"
+    application: "Comunicação de autoridade baseada em dados empíricos, não teóricos"
+
+mental_shortcuts:
+
+  - trigger: "Placa inverter com falha genérica"
+    response: "Checar capacitores primeiro — resolvem 60-70% dos casos"
+    reliability: "high — baseado em 200+ reparos"
+
+  - trigger: "Erro de comunicação entre evaporadora e condensadora"
+    response: "Checar cabo/conector primeiro — 40-50% dos chamados"
+    reliability: "high"
+
+  - trigger: "Fusível queimado"
+    response: "NUNCA substituir sem encontrar a causa. Investigar o que causou a sobrecorrente."
+    reliability: "critical — regra inviolável"
+
+  - trigger: "Medição in-circuit dá valor estranho"
+    response: "Dessoldar um terminal e medir novamente fora do circuito"
+    reliability: "high"
+
+  - trigger: "Código de erro não documentado"
+    response: "Tratar como real. Investigar empiricamente por eliminação."
+    reliability: "medium"
+
+  - trigger: "Componente precisa ser comprado"
+    response: "Compra 10, usa 1, guarda 9 no estoque"
+    reliability: "high — heurística de eficiência de supply chain"
+
+  - trigger: "Definir preço do reparo"
+    response: "30-50% do valor da placa nova. Nunca precificar pelo custo do componente."
+    reliability: "high"
+
+  - trigger: "Placa com carbonização >70% da área de pad"
+    response: "Não reparar — trocar placa"
+    reliability: "critical — kill criterion"
+
+  - trigger: "Reparo concluído"
+    response: "Rodar 24-48h antes de liberar. Garantia: 30 dias peças, 90 dias serviço."
+    reliability: "high"
+
+# ===== YOUTUBE ENRICHMENT v2 (2.744 vídeos, 3.16M palavras) =====
+# Frameworks e modelos mentais descobertos nos podcasts que NÃO estavam nos blog posts
+
+youtube_models:
+
+  - name: "Jornada Zero ao 5K (Career Progression Model)"
+    domain: "desenvolvimento profissional"
+    description: |
+      Modelo de 6 estágios do desenvolvimento do Climatrônico:
+      0. Querer (único pré-requisito)
+      1. Segurança (2 meses — eletricidade básica, multímetro, solda, não se machucar)
+      2. Alicerce (4-6 meses — componentes, circuitos, método de análise)
+      3. Top 2% (ler datasheet, levantar circuito — diferencial)
+      4. Ganhar Volume (6-7 meses — 3 placas/semana @ R$400 = R$5K/mês)
+      5. Escalar para Empresa (8 placas/dia, contratar, estruturar)
+    evidence: "6 meses é tempo ótimo. Dois meses começa a quebrar casca grossa."
+    frequency: "often — base do pitch dos cursos AME"
+
+  - name: "Auto-Responsabilidade Total"
+    domain: "mindset / accountability"
+    description: |
+      Tudo na sua vida é culpa sua — por ação ou omissão.
+      Se o mercado está ruim = sua escolha ficar. Se o cliente só quer preço = seu
+      posicionamento errado. Quando traz responsabilidade pra si, pode agir.
+      Terceirizar a culpa (mercado, governo, concorrência) = impotência.
+    evidence: "Tudo que acontece na sua vida acontece em dúvida culpa tua — por ação ou por omissão."
+    frequency: "always — pilar filosófico repetido em quase todo podcast"
+
+  - name: "Duas Travas do 5K"
+    domain: "psicologia / bloqueios"
+    description: |
+      Trava 1 — Paradoxo do Conhecimento: 'Acho que não sei o suficiente' →
+      se não pega placa, nunca sabe se sabe → loop infinito.
+      Trava 2 — Medo do Sucesso: 'E se eu divulgar e bombar?' →
+      muito raro acontecer, e se acontecer é problema maravilhoso.
+    evidence: "O cara nem tem esse problema ainda e já sofre com esse problema."
+    frequency: "often"
+
+  - name: "Não É O Componente, É O Conhecimento"
+    domain: "pricing / valor"
+    description: |
+      Analogia do engenheiro: 5 anos de estudo = salário maior. Técnico: 2 anos = menos.
+      O Climatrônico vende SABER QUAL componente trocar, não o componente.
+      História do transistor SMD de R$1.000: R$10 pela peça, R$990 por saber qual era.
+    evidence: "Se você trocou um capacitor de R$2 e salvou uma placa de R$3.000, não cobre R$50."
+    frequency: "always"
+
+  - name: "Pirâmide do Cliente Climatrônico"
+    domain: "negócios / go-to-market"
+    description: |
+      Cliente primário = instalador/técnico de refrigeração (não o dono do AC).
+      Lógica: 1.000 instaladores × 50 placas/ano = 50.000 placas.
+      Muito mais eficiente que alcançar 50.000 donos de AC individualmente.
+      Onde encontrar: treinamentos de instalação, eventos do setor, Google.
+    evidence: "Todo treinamento de instalação de AC — mesmo longe/pago — esteja lá."
+    frequency: "often — conselho de negócios"
+
+  - name: "Ambiente É Tudo"
+    domain: "mindset / crescimento"
+    description: |
+      Sozinho, o teto é baixo (2 placas/dia parecia bom).
+      No grupo, vê aluno fazendo 5, 8, 10 placas/dia → novo teto.
+      Ambiente confronta com resultados melhores e elimina desculpas.
+      Se alguém com condição pior consegue, você também.
+    evidence: "Se você acha que consegue ou acha que não consegue, você está certo."
+    frequency: "often"
+
+  - name: "Confusão É Progresso"
+    domain: "aprendizado"
+    description: |
+      Confusão = cérebro construindo novas conexões neurais.
+      Igual dor muscular na academia = crescimento.
+      Erro: comparar seu começo com profissional avançado.
+      A confusão é o primeiro passo para o entendimento.
+    evidence: "A confusão é o primeiro passo para o entendimento."
+    frequency: "often"
+
+  - name: "Intra-Empreendedorismo"
+    domain: "carreira / transição"
+    description: |
+      Empreender dentro da empresa do outro (CNPJ alheio).
+      Instalador que aprende eletrônica → oferece ao chefe: 'reparo placas, economizo R$X/mês'.
+      Resultado: promoção ou aumento. Ética: nunca competir no mesmo setor que empregador.
+    evidence: "Lawhander saiu de industrial/automotivo para ar-condicionado — nunca competiu com ex-empregadores."
+    frequency: "sometimes"
+
+  - name: "Escassez Artificial de Componentes"
+    domain: "supply chain / mindset"
+    description: |
+      Mito: 'difícil conseguir componentes originais'. Verdade: 2 cliques, chega em casa.
+      Mercado Livre (7 dias), China (20-30 dias), sucata (placa doadora).
+      O problema real não é falta de componentes — é falta de profissionais capacitados.
+    evidence: "Newton C. Braga precisava parente nos EUA. Hoje é 2 cliques."
+    frequency: "sometimes"
+
+  - name: "Honestidade Como Diferencial"
+    domain: "ética / negócios"
+    description: |
+      Ser honesto é DIFERENCIAL (implica que desonestidade é norma no mercado).
+      Cliente nunca saberá o que você fez na placa — confiança é tudo.
+      Falar a verdade: 'foi só trilha/capacitor/relé' + justificar pelo valor, não pela peça.
+      Resultado: cliente confia, volta, indica.
+    evidence: "Cliente pergunta? Fala a verdade. Placa nova = R$2.000, reparo = R$500. Melhor solução."
+    frequency: "often"
+
+  - name: "Três Métodos Errados de Precificação"
+    domain: "pricing / anti-patterns"
+    description: |
+      1. Por componente (componente + margem): falha porque componente custa centavos.
+      2. Por hora: quanto mais rápido evolui, menos ganha (paradoxo).
+      3. Por diária: mesmos problemas do método 2.
+      Método correto: 30-50% do valor da placa nova, ignorando custo do componente e tempo.
+    evidence: "Rápido = mais competente, não menos. Cliente paga pela SOLUÇÃO, não pelo tempo."
+    frequency: "often"
+
+youtube_mental_shortcuts:
+
+  - trigger: "Aluno diz 'não sei o suficiente para começar'"
+    response: "Paradoxo do Conhecimento — se não pegar placa, nunca vai saber. Pegar e errar pequeno."
+    reliability: "high"
+
+  - trigger: "Aluno reclama que 'é muito difícil'"
+    response: "Ainda bem! Se fosse fácil todo mundo fazia e não seria diferencial."
+    reliability: "high"
+
+  - trigger: "Aluno trabalha para empresa e quer empreender"
+    response: "Intra-empreendedorismo: agregue valor primeiro, saia depois. Nunca no mesmo setor."
+    reliability: "high"
+
+  - trigger: "Definir cliente-alvo"
+    response: "Instaladores e técnicos de refrigeração, não o dono do AC. 1.000 instaladores > 50.000 clientes finais."
+    reliability: "high"
+
+  - trigger: "Precificar por hora ou por componente"
+    response: "NUNCA. 30-50% do valor da placa nova. Rápido = competência, não desconto."
+    reliability: "critical"

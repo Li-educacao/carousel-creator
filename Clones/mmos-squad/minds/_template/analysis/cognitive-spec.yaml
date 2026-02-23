@@ -1,0 +1,28 @@
+# Cognitive Specification — Mind DNA Template
+# How the specialist thinks: reasoning chains, problem-solving approach, cognitive biases
+
+mind_id: ""
+mind_name: ""
+version: "0.1.0"
+
+reasoning_style:
+  primary: ""          # e.g., analytical, intuitive, systematic, creative
+  secondary: ""
+  description: ""
+
+problem_solving:
+  approach: ""         # e.g., first-principles, pattern-matching, analogical
+  steps: []
+  constraints: []
+
+cognitive_biases:
+  known: []            # Biases the specialist exhibits
+  mitigations: []      # How they compensate
+
+attention_patterns:
+  focuses_on: []       # What they prioritize
+  ignores: []          # What they tend to overlook
+
+learning_style:
+  preferred: ""        # e.g., experiential, theoretical, observational
+  knowledge_acquisition: ""

@@ -1,0 +1,14 @@
+# É POSSÍVEL REPARAR PLACAS DE VRF/VRV SÓ COM ESSA FERRAMENTA? #AME
+
+- **Video ID:** 8CgWOJv2fPw
+- **URL:** https://www.youtube.com/watch?v=8CgWOJv2fPw
+- **Duration:** 4 min
+- **Views:** 289
+- **Published:** 2021-12-12T15:00:07Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+e é possível aplicar a placa de vcs principalmente para ir aí BRF deve ser encarada por quê Porque a parede sétimo reais entendeu aí vai comprar uma nova o sétimo reais até passo é para essa placa do carro dos demais cair para praticamente eu gosto 7 aparador estou indo para ti Tô sim eu não sei cinco motivos para os nossos semana passada só usamos junto o pessoa só um negócio então você estou vindo de alguém que vive que vive a mente que formam profissionais em campo de batalha aí tu vai acreditar no aí fico tô acreditando não atualmente isso não tem conhecimento no pulmão algum tá na área beleza Vendendo muito obrigado Só agradeço ter alguém pessoa aqui vai na clicando isso quem sabe um dia a dia estou escutando E aí tá dizendo que tá fazendo agora o laboratório tem lá o Isaac o grande sonho Mário como tinha que lá deles é o burro os olhos dele são os olhos sem motivo e consagrada pelo motivo de estar de só gosto de fazer somente impressão e ser dinâmica até umas fotos próprio sem ele mas se arruma uns caras específico tá então eu acho que ainda vai conversar montando tá laboratório você começa com o primeiro cliente mas quando cliente e não que eu não vou investimento porque você pode no nosso mercado você pode fazer isso no mercado tamanho 2 eletrônica se você pode não faça teclado que você não pode mesma coisa você comece barraco do jeito certo a subir já vai aliar então segurança organização e começa a sentir o meu ponto alto começar era comprar um dois uniformes duas chave de grifo é chave regulagem gostava de chave allen de Março Talvez uma sala e cozinha de sogra sogra não tava com parente por favor A botija ela comprou trabalho e ela pode trabalhar com esse jeito tá gente galera sempre a gente tá grossa né acontece o cara começa no GTA Aonde você comprou certo é loteria para começar a gente certo tô conseguindo errado eu vou comprar umas coisas só que você começa meio de lado a Telefônica não gostei que começa com um pouco do jeito certo pegou tu é que o uso do teu comércio o teu final do tempo livre profissional me senti profissional muda para dar então multímetro acordado pelo soldado em solda a qualidade da solda é a qualidade o teu tua teus aqui solta deixa o teu fermentação é qualidade dos materiais que cura que eu não tenho nada agora eu tô passando a diferença não faz não é triste com o nosso sentimento que faz a gente pronto de vocês que estão na área tá então você começa um pouco da maneira correta diferente foi Qual é o cara do nosso Senhor você começa um pouco a semana rápido né tá e deve-se como o caixão de você querer de você priorizar meu

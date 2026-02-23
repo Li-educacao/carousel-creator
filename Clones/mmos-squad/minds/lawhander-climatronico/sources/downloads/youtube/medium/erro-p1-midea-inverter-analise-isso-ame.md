@@ -1,0 +1,14 @@
+# ERRO P1 | MIDEA INVERTER | ANALISE ISSO #AME
+
+- **Video ID:** WgisyrQkq8A
+- **URL:** https://www.youtube.com/watch?v=WgisyrQkq8A
+- **Duration:** 4 min
+- **Views:** 5,425
+- **Published:** 2021-11-05T15:00:16Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+e a ponte retificadora com esse formato aqui um dois três quatro terminais aqui a tensão entre os itens alternada aqui ficou positivo que ficou negativo tem se formado aqui ele foi medir daqui para cá ó conexão tem uma baixa impedância Então baixa resistência então gosta extensão necessidade de menos de um carro sem ser os ombros sei lá quem é somos sem óculos de baixo de baixo existência parte para dança só que depois ela sumiu foi ridículo máquina fria depois um tempo e você me viu na hora né abrir o disjuntor você falou disjuntor relacionou que me deu logo em seguida estava passando a diferença consumiu o que acontece por que que sumiu depois Porque esse componente Ele trabalha aquecido prendi aqui ó e trabalha a que sim é daquele filme dissipador de calor como é que trabalho aquecido como ele está com defeito e um defeito nele né o defeito dele tinha um fuga entre um diodo interno na ponte e essa fuga foi percebida só no momento em que o componente aquece no momento que o componente aquece ela ele apresenta uma fuga foi visto uma fuga tá a fuga é o que o diodo ele permite a passagem de corrente em um único sentido certo e se ele apresenta fundo ele vai precisar passagem de corrente no sentido contrário quando não deveria Beleza então quando ele aquece quando ela aquece agora é feito pessoa olha como fecha a conta pra gente começa a analisar como um todo quando ele aquece embaixo diferente do diodo deixa passar a fuga pelo mundo é só quando ela cresce e essa fuga interfere na atenção de ser do Barra América que a ponte ela Retífica para energizar a os capacitores de potência passa por ela antes para chegarmos capacitores de potência EA votação foi conta sobre ou subvenção certo o da sua atenção atenção muito baixa tu não sabe se é são altos e baixo Mas tem uma alteração atenção e até elas são atenção era dada pelo fato de ter um diodo aqui em Fuga essa fuga tava causando uma alteração atenção e a máquina identificavam essa alteração atenção que para a gente tem que ficar foi mais difícil porque porque só apresentava fuga quando o componente aquecida quando componente passará a funcionar ele frio a máquina chegou fria sem dar nenhuma na energizada tchau para a gente analisar tá osso do que certo se eu tirar fora ponte mídia essa fuga fora foi trocado a ponte retificadora Oi e a máquina tô só na sua não em carga perfeitamente e foi o galo cante certo

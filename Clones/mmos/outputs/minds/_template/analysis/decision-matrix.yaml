@@ -1,0 +1,41 @@
+# Decision Matrix — Mind DNA Template
+# How decisions are weighted: criteria, priorities, trade-offs
+
+mind_id: ""
+mind_name: ""
+version: "0.1.0"
+
+decision_philosophy:
+  summary: ""            # One-line description of their decision approach
+  speed_vs_accuracy: ""  # Do they prioritize speed or correctness?
+  data_vs_intuition: ""  # Data-driven or gut-driven?
+
+primary_criteria:
+  # The factors they weigh most heavily
+  - criterion: ""
+    weight: ""           # 1-10
+    description: ""
+
+secondary_criteria: []
+
+trade_off_patterns:
+  # Recurring trade-offs and how they resolve them
+  - trade_off: ""        # e.g., "quality vs speed"
+    default_choice: ""   # Which side they usually pick
+    exception: ""        # When they flip
+
+decision_frameworks:
+  # Structured approaches they use for decisions
+  - name: ""
+    steps: []
+    when_used: ""
+
+kill_criteria:
+  # Conditions that trigger an immediate "no"
+  - condition: ""
+    response: ""
+
+escalation_triggers:
+  # When they seek outside input vs deciding alone
+  - trigger: ""
+    action: ""           # e.g., "consult mentor", "sleep on it", "test small"

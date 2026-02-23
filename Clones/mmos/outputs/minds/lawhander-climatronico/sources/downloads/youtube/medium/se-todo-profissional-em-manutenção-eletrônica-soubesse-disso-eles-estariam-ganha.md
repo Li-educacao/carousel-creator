@@ -1,0 +1,14 @@
+# SE TODO PROFISSIONAL EM MANUTENÇÃO ELETRÔNICA SOUBESSE DISSO, ELES ESTARIAM GANHANDO BEM MAIS | #20
+
+- **Video ID:** uftsm_cSudo
+- **URL:** https://www.youtube.com/watch?v=uftsm_cSudo
+- **Duration:** 3 min
+- **Views:** 130
+- **Published:** 2023-10-12T17:00:36Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+mês passado a minha média de reparos foi para 6,8 placas por dia que loucura em média que loucura aí eu tenho um técnico meu que bateu 80 placas analisadas no mês Caraca 80 placas no mês entendeu então é o jogo que a gente joga por outra coisa que eu descobri que meus mentores não tinham enxergado existe uma repetibilidade quantas placas Samsung inverte 9000 BT no mercado milhares milhões entendeu então é a mesma placa olha os defeitos se repetem se repetem E aí tem uma coisa que acontece na manutenção que é o seguinte eu eu costumo dizer o seguinte primeira vez que você pega o defeito Você demora Porque você não conhece você vai estudar você vai entender o circuito e tal eu costumo dizer que você gasta o tempo do Futuro você antecipa o Futuro por eu passo ali sei lá tem um exemplo de uma aquela fugit que tem 1 milhão de placas na condensadora noss cinco placas na condensadora cinco placas Ao Total são sete placas naqu s s cara a primeira vez que eu vchi naa máquina dessa cara eu fiquei quando eu tirei essa tampa falei que dia achei isso que dia achei isso é é uma loucura então são sete placas da máquina eu cheguei no cliente cara Chi no cliente o cara O cliente tava com três placas na mão meu Deus porque foram três empresas e coordenaram três placas e não era placa o cara trocava a placa e não era placa velho olha a vergonha de um cara desse Tu já pensou chegou na máquina lá essa placa aí amigão compra aí o cliente compra 1000 2000 R 3000 a placa Pois é aí o cara bota e não é velho Aí eu peguei a placa do cara Amigão vou levar lá pra empresa vou analisar eu demorei uma semana analisando essa Plina dele resolvi o problema uma semana em uma máquina meses depois Tipo dois TR meses depois chegou duas placas iguais a gente reparou as duas em uma hora meu Deus então o que foi que eu fiz eu antecipei o futuro então o tempo que eu gasto na minha f porque tem repetibilidade coisa que lá na industria eu não tinha porque cada placa de uma máquina diferente diferente eu repetia daqui a um ano ia pegar o mesmo equipamento igual e nosso mercado tem essa essa é mais barato é mas eu tenho um volume muito maior o volume é absurdo e sim e você levar em consideração as moscas brancas que são os a mina de ouro né se eu for pro vrf se eu for pro um Chile essa máquina que eu reparei eu reparei essa placa de R 45000 repar que eu fiz que o cliente quer ele quer extremamente rápido ele não tá preocupado com preço ele quer que eu resolva e boto a máquina dele para rodar é isso é isso pelo menor preço possível E é assim que r$ 7000 que eu cobrei para reparar essa placa ou r$ 1.000 que eu poderia ter cobrado fica barato

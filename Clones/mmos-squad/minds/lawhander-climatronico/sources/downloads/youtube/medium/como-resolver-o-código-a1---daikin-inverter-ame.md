@@ -1,0 +1,14 @@
+# COMO RESOLVER O CÓDIGO A1 - DAIKIN INVERTER #AME
+
+- **Video ID:** DegrihTkfp8
+- **URL:** https://www.youtube.com/watch?v=DegrihTkfp8
+- **Duration:** 4 min
+- **Views:** 1,446
+- **Published:** 2024-05-17T15:00:11Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+erro A1 da inverte o erro significa anomalia da placa de circuito impresso interior que erro bosta né é o erro de qu erro da placa do evaporador a faz o qu troca a placa não você analisar o qu vamos lá vamos PR pla do evaporador erro da placa do evaporador a placa a máquina já diz deu erro na placa do evaporador que tipo de erro não sei não diz não desse jeito não ajuda nesse sentido então o que que a gente vai analisar Primeiramente você vai verificar de tensões da placa então a placa tá ligando ess aqui tá ligando ventilador ligando ventilador não tá dando nada ela liga não D nada verific o vericon todos os periféricos da placa como assona o ventilador os periféricos que eu faria aqui descar modulinho aqui Wii desconectar display display se tá ligando Se não tá né display aqui ó aqui embaixo ele me mostra aqui o leg né se tá ligando Se não tá e tudo mais então eu desconectar o ventilador e verificaria se ela voltava a ligar se sumiria se daria erro de ventilador certo e verificaria o quê também os níveis de tensão como eu já mostrei segura aqui eu verificaria quais níveis de tensão aqui ó no regulador verificaria aqui a tensão de 5 v no regulador ó no pino um pro pino dois lendo da esquerda pra direita tá Pino um pro pino dois verificar esse 5 v tem o 5 v na entrada tem que ter 13 Ó tem os 13 da entrada e verificaria também essa tensão aqui na ponta edificador ó que é uma tensão no meu caso aqui deu 285 do Positivo para negativo dá negativo mas tanto faz só invertir as ponteiras então verificaria esses níveis de tensão se tem esses níveis de tensão e continua dando falha Aí tem que fazer uma vadura completa todo o funcionamento dela tá aí aí tem que verificar praticamente todos o circuito né é verificar leituras leituras de tensão leituras de de corrente desse ventilador é uma varredura é uma plaquinha pequena mas com muitos muitos circuitos né então tem que faz uma varredura completa na placa de novo eliminaria os periféricos Tiraria o ventilador Tiraria o o módulo aqui de internet para ver se ela ia funcionar funcionar normalmente sem dar essa falha que às vezes esse modulinho pode dar essa falha modulo Zinho de internet pode dar falha você vai lá e desconecta ele tá então fica essa dica aí Analisa esse ponto é um erro genérico não vai te ajudar muito não é muito específico mas pel menos restringe a um do circuito

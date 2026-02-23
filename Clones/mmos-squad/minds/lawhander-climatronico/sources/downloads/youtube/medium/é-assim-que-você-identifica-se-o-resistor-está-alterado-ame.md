@@ -1,0 +1,14 @@
+# É assim que você identifica se o resistor está alterado #AME
+
+- **Video ID:** 5Evrc4vFAYA
+- **URL:** https://www.youtube.com/watch?v=5Evrc4vFAYA
+- **Duration:** 4 min
+- **Views:** 2,062
+- **Published:** 2020-06-22T15:00:01Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+e eu 243 pelo número dele ser 20 24 324k mas é eu fiquei tava alterado como assim está alterado eu tenho uma placa dessa aqui igual a cruz e fique funcionando nova de outro cliente eu vim medir né com para aí nesse tô com da do cliente e vi que tu disse que tava bem alterado ele tava um pouco oxidado vez que já foi trocado tá esse é o victor valor do cliente peguei o falou nesse todo mesmo valor e coloquei aqui tá só para saber qual é o correto eu tenho que tirar m de fora o valor mas ele falou que ele sofre a interferência de outras existências do circuito como eu deixei primeiro fazer que eu já identifiquei assim foi simples né que a gente mostrando depois que foi feito parece simples mas é eu tirei ele eu vi que tava um pouco oxidado as ele tava perdendo aqui um pouquinho da cor dele aqui do numeração né não dá uma favela numeração dele ele tá fazendo torno de um cássio me engano quando eu tirei quando eu tirei e ele estava alterado mas não tava ele não tava aberto é sim por cento quando eu tirei o leite dá para a gente ir a parques em ele e não tô na hora da fonte só isso por ter influência na fonte né e aí eu procurei em outro desse jeito né eu pegar uma placa igual vi que era o valor da resistência e procurei o valor neste documento o valor troquei e aí sim ficou 15 volts aqui no de outro estudos em pm tá eu não podia aqui uma outro pm aí ficou 15 volts isso por legal agora legal então é troquei esse mísero resistor tem uma por causa dessas estou cara eu tive que queimou bpm que vamos gb ter que mostrar do gt por causa desse mês ele registrou né tem um resistor por causa que na verdade causa da censura 18 volts e aí que tá a gente diz assim ai só 18 volts 38 né e vai fazer emprego 3 volts não esses três vezes a mais ali acabou queimando o que é o componente mais caro e ainda de quebra queimou o chá do pm do igbt e o igbt certo então é e aí e aí é por causa desse mês registrou então preste bastante atenção saber onde investir nessa viagem super interações né saber qual administração tem que ter nessa máquina para que para saber se está alterado ou não e se tiver tem que ter 15 vou distância de ouro que tá nesse jogo do que eu vou tá trocar daqui 15 volts nele tem teus que hoje está acima cuidado vai que role play qualquer hora outra meu caso que morre pm e aí eu tive que trocar e pm oi e te trocar o ip e me por causa desses 38 a mais

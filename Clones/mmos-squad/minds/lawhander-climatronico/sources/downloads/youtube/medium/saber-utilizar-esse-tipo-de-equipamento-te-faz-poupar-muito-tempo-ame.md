@@ -1,0 +1,14 @@
+# Saber utilizar esse tipo de equipamento te faz poupar muito tempo #AME
+
+- **Video ID:** jZXAnyo0x4U
+- **URL:** https://www.youtube.com/watch?v=jZXAnyo0x4U
+- **Duration:** 4 min
+- **Views:** 321
+- **Published:** 2021-04-04T15:00:26Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+e a gente sabe que quando vocês tão cheio que comprou é porque o técnico e retirou não fazer nada se corre da máquina porque são bem pediram sensor que soubesse vídeo você sou eu tivesse vendido sensor ele conseguiu identificar o problema Oi e aí tá saber eletrônica com todo amor desenhado por causa dele tem não tem que olhar para frente finalizar ele já faz ali um serviço na hora do bem que muitas vezes porque o sensor de temperatura o Felipe tá operado e tu consegue conta um multímetro o teu alicate amperímetro identificar esse problema porque conhece um mínimo de eletrônica para entender que o sensor de temperatura é um termistor ntc que varia a temperar a resistência de acordo com a temperatura e de maneira inversamente proporcional que é que tem mais conhecimento e tu perguntou ela acha foi muito porque tem uma base ficou de corresponder as cólicas sabe até utilizar o teu alicate amperímetro outro motivo livro e fazer essas edições pisa na escala correta no componente correto que precisou um componente a escala que precisa para medir ele e tudo veículo vai saber qual o que eu tenho que dar e qual o comportamento que tem que ter a variação de temperatura e e eu isso é um conhecimento básico de eletrônica que se o cara tem ele não precisa trazer a placa pelo WhatsApp o começo vaso a peste de compressor presunto eu falei que ia vezes é isso aí utilizar o último cartão que a gente aí é só uma carga perímetro como aplicar diferente para bater com os caras dizem amperage a amperagem Azul dá uma máquina é para isso que você gosta da Giovana só que ele é uma arma Gastei um sub utilizada sabendo utilizado tem os conhecimentos de eletrônica detalhe tô falando só de conhecimento de eletrônica tô falando Tem que ser queimar cronológico perdendo a placa é conhecimento de eletrônica tendo conhecimento de eletrônica para poder aplicar e hoje seis meses no período que acha feio por exemplo tira bastante informação tu saber o diferencial quer ser uma atenção a ser uma tensão DC onde foi feita a pressão a sei onde que tem tem que ter intenção de ser tu consegue Claro e ficar muito a tornar esse celular placa saber se a intenção aqui no canto que pensam que pensam é essa que tem até mais a fundo Mas voltando o sensor sabe utilizar você ainda não conversou sabe você tá em Fuga se ele tá aberto Dê exemplo de uma carta para um conhecimento básico de eletronica tá até direito cidade né então foi super simples que tinha o cara do prego camilhoneiro net aqui

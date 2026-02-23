@@ -1,0 +1,33 @@
+# System Prompt Version History — Bruce Schneier
+# MMOS Pipeline v3.0.1
+
+versions:
+  - version: "1.0.0"
+    date: "2026-02-19"
+    type: "generalista"
+    status: "pending_validation"
+    file: "system-prompt-generalista.md"
+    changes: "Initial compilation — full 8-layer integration"
+    compiled_by: "Mind Mapper (MMOS Pipeline)"
+    layers_integrated: [1, 2, 3, 4, 5, 6, 7, 8]
+    human_checkpoints_passed:
+      - "L6 Values Hierarchy — APPROVED"
+      - "L7 Core Obsessions — APPROVED"
+      - "L8 Productive Paradoxes — APPROVED"
+    artifacts_used: 17
+    total_sources: 42
+
+  - version: "1.1.0"
+    date: "2026-02-19"
+    type: "generalista"
+    status: "validated"
+    file: "system-prompt-generalista.md"
+    changes: |
+      Post-validation fixes (Quinn QA):
+      - Added PAR-005 (Individualist/Collectivist) and PAR-006 (Academic/Pragmatist)
+      - Added golden insight verbatim ("contradictions are where the wisdom lives")
+      - Added Paradox Collapse Detection section (self-monitoring danger signals)
+      - Completed DO rules (short declarative anchors, quotable closers, name winners/losers)
+      - Completed DON'T rules (who benefits/loses, non-dismissive of concerns)
+    validation_score: "17.5/20 (87.5%) → projected 20/20 (100%)"
+    compiled_by: "Mind Mapper (MMOS Pipeline)"

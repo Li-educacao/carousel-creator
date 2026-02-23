@@ -1,0 +1,14 @@
+# Pode não parecer, mas esse pode ser o melhor dos mundos #AME
+
+- **Video ID:** wqhC06hyxzk
+- **URL:** https://www.youtube.com/watch?v=wqhC06hyxzk
+- **Duration:** 4 min
+- **Views:** 200
+- **Published:** 2021-02-16T15:00:18Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+e já que alguém da tua região você tem alguém na região Aí não vale a pena entrar não porque aquela pessoa e todo todos os teus chocolate que leva para ela como é que eu sou a gente ouvir a todos clientes e ela Todos os concorrentes já conhece as pessoas quando tu tem concorrente já tem um cara na tua região que a repara em geral mês cara pode geralmente tá não vou generalizar mas o dizer que eu já vi várias vezes acontecendo quem sabe o conteúdo é difícil para fazer que nem eu faço aqui ó aqui tá compartilhando conteúdo geralmente o cara sabe não tem não treinei um cara para ficar falando placa junto com ele eu não sei lá treinar alguém para isso é só ele Pronto ele sabe que ele tava conhecimento todo e só ele dormiu aqui você encontra alguém e vai tomar mercado dele é isso aí raiva então eu não vou compartilhar porque eu não botei nem técnicos trabalham com um funcionário comigo que não tem um colaborador porque senão ele vai saber o que eu sei lá e voltar empresa dele tem esse mentalidade certa vocês que ela foi de idade provavelmente e ele não dá conta do serviço não tem um cara mesmo que é para não aguenta não tá com esse cara aí é grandão já tem que tomar o lugar dele se tomar o lugar dele não cara fiz uma lugar ele não ele não dá conta né ele não dá conta e não dá conta simplesmente isso ele não dá como tanto do equipamento que tem aí ele passa a ser um pouco mais arrogante entendeu isso é que eu escuto relatos se gosto de relação eu vivi não eu escuto Relaxa passa uma água porque o que a gente pode tem ele cara é o preço dele se não quiser não tem outro vai ter que ter o outro faz entendeu foi limitada a esse ponto olha que louco qualquer ele é a coca-cola do deserto né Ele é a única tomou também depois que ele quer mas aí que é o melhor dos mundos aí eu levo aí ele tá lavada entendeu que o cara entra aí pô como um preço justo compra sugestão por 30 50 por cento do máximo do valor do equipamento da placa eletrônica tá então um balão bola é um proporcional tava me parece que vale a pena para o técnico cliente não é ganhar dinheiro fácil nessa sua isso não então acaba que o cara entra nesse mercado e aí o cara tem caso aqui em Fortaleza e o cara Demora 15 20 um mês para criar parte do cliente não existe isso aí tem mais tarde sufocado te entrego uma semana Zerou o que o cliente o aluno eu podem que eu dou três meses garante mesma coisa é um mês até o mesmo não tá dando conta não se você não tem para ele senão tu passa a ver o teu o teu concorrente enxergo o daquele falha ele tem falhas parte tonalizar ele que falhas vai ter que marca que não vai reparar que vai ter mais cedo como climatronic vai conseguir parar

@@ -1,0 +1,86 @@
+---
+# =============================================================================
+# System Prompt Version History -- Jeff Williams Cognitive Clone
+# =============================================================================
+
+subject: jeff_williams
+prompt_type: generalista
+file: "system-prompt-generalista.md"
+
+versions:
+
+  - version: "1.0"
+    date: "2026-02-19"
+    status: production
+    architect: "System Prompt Architect"
+    pipeline: "MMOS DNA Mental"
+
+    changes:
+      - "Initial production release"
+      - "Compiled from 15 source artifacts across 8 layers + analysis files"
+      - "Full integration of all 8 productive paradoxes (Layer 8)"
+      - "Full integration of 5 core obsessions with emotional textures (Layer 7)"
+      - "Full integration of 8-value ranked hierarchy with conflict resolution (Layer 6)"
+      - "12 mental models condensed into 6 core models + 7 named frameworks"
+      - "Master decision algorithm with 8-step evaluation sequence"
+      - "Complete voice guide: DO/DON'T rules, tone spectrum, signature patterns"
+      - "9 stories and analogies in deployment-ready repertoire"
+      - "17 precision statistics in data points table"
+      - "3-tier knowledge domain hierarchy"
+      - "4-era biographical timeline"
+      - "6-step response pattern"
+      - "Meta-cognitive instructions for paradox navigation, uncertainty handling, and staying in character"
+      - "Explicit limitations, domain gaps, structural blind spots"
+      - "Authenticity disclaimer"
+
+    fidelity_target: "94%"
+    estimated_tokens: ~8800
+
+    source_artifacts:
+      - "identity-core.yaml (MASTER REF)"
+      - "contradictions.yaml (Layer 8)"
+      - "core_obsessions.yaml (Layer 7)"
+      - "values_hierarchy.yaml (Layer 6)"
+      - "voice_guide.md"
+      - "anecdotes.yaml"
+      - "frameworks_synthesized.md"
+      - "communication_templates.md"
+      - "tools.md"
+      - "decision_patterns.md"
+      - "memory-system.yaml"
+      - "cognitive-spec.yaml"
+      - "linguistic-patterns.yaml"
+      - "mental_models.yaml (Layer 5)"
+      - "psychometric_profile.json"
+
+    validation_status: "Awaiting human checkpoint"
+
+    notes: >
+      First production compilation. Designed for general-purpose use across
+      any conversational context: technical Q&A, policy discussion, keynote
+      drafting, advisory conversations, interview simulation, content creation.
+      Specialized variants (CISO advisor, podcast guest, conference speaker,
+      policy analyst) can be derived from this master by adjusting tone
+      emphasis and adding context-specific instructions.
+
+# =============================================================================
+# PLANNED FUTURE VERSIONS
+# =============================================================================
+
+planned:
+
+  - version: "1.1"
+    target_date: "TBD"
+    planned_changes:
+      - "Incorporate human checkpoint feedback from v1.0 review"
+      - "Adjust paradox calibration based on test conversations"
+      - "Fine-tune tone spectrum weights based on fidelity testing"
+      - "Add any missing data points identified during validation"
+
+  - version: "2.0"
+    target_date: "TBD"
+    planned_changes:
+      - "Specialized variants: CISO advisor, conference speaker, podcast guest"
+      - "Incorporate new public sources (post-February 2026)"
+      - "Add interaction memory / session continuity instructions"
+      - "Multi-turn conversation calibration refinements"

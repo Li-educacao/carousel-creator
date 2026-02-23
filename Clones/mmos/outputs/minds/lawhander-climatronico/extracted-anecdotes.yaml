@@ -1,0 +1,525 @@
+# LAWHANDER CLIMATRÔNICO - EXTRACTED ANECDOTES & STORIES
+# Extracted from 58 blog posts (2024-2026)
+# Total concrete stories, case studies, metaphors, and catchphrases
+
+---
+signature_stories:
+  - id: story_001
+    title: "R$1 Million in Board Repairs"
+    narrative: "In 2024, Lawhander made over R$ 1 million (ONE MILLION REAIS) just from repairing electronic boards, with an average component cost of less than R$ 20 per repair."
+    lesson: "Demonstrates the massive value gap between component cost and board replacement cost"
+    emotional_hook: "The shock value of R$ 1 million revenue from R$ 20 repairs"
+    source: "curso-reparo-placas-eletronicas-guia.md"
+    quote: "📋 **Da Minha Bancada:** Em 2024, faturei mais de R$ 1 milhão apenas com reparo de placas. Isso mesmo, UM MILHÃO DE REAIS. E o custo médio de componentes por reparo? Menos de R$ 20."
+
+  - id: story_002
+    title: "My First R$40 Multimeter"
+    narrative: "Lawhander started with basic, cheap tools - his first multimeter cost only R$ 40. Today he has better equipment, but the key is to start and improve over time."
+    lesson: "You don't need expensive equipment to start - begin with what you have"
+    emotional_hook: "From R$40 multimeter to R$1 million business"
+    source: "curso-reparo-placas-eletronicas-guia.md"
+    quote: "📋 **Da Minha Bancada:** Comecei com ferramentas básicas e bem simples. Meu primeiro multímetro custou R$ 40! Claro que hoje tenho equipamentos melhores, mas o importante é começar e ir melhorando com o tempo."
+
+  - id: story_003
+    title: "R$500-600/day Income Stream"
+    narrative: "Working from home with organized rhythm, Lawhander earns R$ 500-600 per day repairing boards with ~85% success rate on 200+ inverter board repairs over 9+ years"
+    lesson: "Specialized skill + organized process = consistent high income"
+    emotional_hook: "Home-based business generating R$500-600/day"
+    source: "conserto-de-placas-inverter-r-500-600-dia-200-reparos.md"
+    quote: "Em média, mantenho taxa de sucesso de ~85% em reparos que envolvem troca de componentes SMD e testes dinâmicos; chego a faturar R$500–600 por dia com um ritmo organizado."
+
+  - id: story_004
+    title: "200+ Boards in One Year with Wire Repair"
+    narrative: "Lawhander repaired 200+ boards in a single year using the simple wire track repair technique (0.2mm wire), achieving 70-85% success rate"
+    lesson: "Simple, cheap techniques (R$ 2-20 cost) can solve most problems"
+    emotional_hook: "200+ repairs with R$2-20 cost each"
+    source: "melhor-reparo-na-manutencao-eletronica-fio-de-0-2-mm.md"
+    quote: "Já consertei 200+ dessas placas só no último ano e, na minha experiência, esse reparo é responsável por recuperar 70-85% dos casos onde a falha é apenas elétrica local."
+
+  - id: story_005
+    title: "12,000+ Repairs Career Total"
+    narrative: "Across 9+ years, Lawhander has completed over 12,000 repairs in his career"
+    lesson: "Experience compounds - mastery comes from volume"
+    emotional_hook: "12,000+ repairs = deep pattern recognition"
+    source: "Multiple posts"
+    quote: "Já consertei 12.000+ equipamentos em 9+ anos de bancada"
+
+  - id: story_006
+    title: "Consul R$300 Repair in 10 Minutes"
+    narrative: "Repaired Consul inverter board with error 18 by replacing a 5.6Ω SMD resistor in under 10 minutes, charging R$300 vs R$1,000-2,500 board replacement"
+    lesson: "Quick diagnosis + right part = high value service"
+    emotional_hook: "10 minutes work = R$300, saving customer R$700-2,200"
+    source: "quanto-cobrar-nesse-reparo-consul-5-6-r-300-rapido.md"
+    quote: "Eu fiz o reparo, cobrei R$300 e fechei tudo em menos de 10 minutos — sem peças caras."
+
+  - id: story_007
+    title: "X-Power Condensadora Error Code Deception"
+    narrative: "A condensadora X-Power showed a sensor error code, but after detailed inspection, the real problem wasn't the sensor at all - it was a power supply failure affecting sensor readings"
+    lesson: "Error codes are just the starting point - never trust them 100%"
+    emotional_hook: "The 'obvious' diagnosis was completely wrong"
+    source: "nao-confie-100-nos-codigos-de-erro-um-guia-pratico-para-tecn.md"
+    quote: "A placa em questão apresentava um código de erro que indicava problema no sensor. Porém, após uma inspeção minuciosa, descobri que o verdadeiro problema não tinha relação alguma com o sensor, mas sim com uma falha na alimentação de energia que afetava a medição do sensor."
+
+  - id: story_008
+    title: "Hitachi Condensadora Current Cut Error"
+    narrative: "Hitachi condensadora showed 'current cut' error suggesting compressor overload, but the real cause was a broken trace on the PCB preventing correct current reading"
+    lesson: "Physical inspection reveals what error codes hide"
+    emotional_hook: "Would have replaced compressor; only needed trace repair"
+    source: "descobrindo-o-inesperado-solucao-para-o-erro-de-corte-de-cor.md"
+    quote: "O erro de corte de corrente de pico é uma proteção do sistema que indica que a corrente excedeu o limite máximo permitido, sugerindo uma carga anormal no compressor. A primeira reação pode ser a de procurar o defeito no compressor, mas a verdadeira causa estava na placa eletrônica, mais precisamente em uma trilha aberta crucial para a leitura da corrente."
+
+  - id: story_009
+    title: "Philco Inverter EP Error Mystery"
+    narrative: "Philco Inverter showed error code 'EP' which wasn't documented anywhere. After investigation, discovered it was caused by a disconnected thermostatic sensor. Also discovered the board was actually a universal inverter board."
+    lesson: "Undocumented errors require systematic troubleshooting"
+    emotional_hook: "Solving the 'ghost error' that doesn't exist in manuals"
+    source: "erro-ep-na-philco-inverter-o-misterio-desvendado.md"
+    quote: "Para a surpresa, o código EP apareceu, um código que, após uma busca exaustiva, revelou-se um fantasma nos manuais e listas de códigos de erro... O verdadeiro culpado pelo Erro EP foi finalmente identificado como o sensor termostático desconectado."
+
+  - id: story_010
+    title: "10,000+ Boards Repaired"
+    narrative: "Reference to having repaired over 10,000 boards throughout career, forming hundreds of students"
+    lesson: "Volume creates expertise that can be taught"
+    emotional_hook: "10,000+ boards = pattern mastery"
+    source: "curso-reparo-placas-eletronicas-guia.md"
+    quote: "Depois de mais de 10.000 placas reparadas na bancada e centenas de alunos formados..."
+
+metaphors_and_analogies:
+  - id: metaphor_001
+    metaphor: "Medical Diagnosis with OET Method"
+    meaning: "Diagnosing electronics like a doctor diagnoses patients"
+    domain: "diagnostic_methodology"
+    usage_example: "Método OET (Observar, Examinar, Tratar) que desenvolvi após anos de experiência"
+    source: "curso-reparo-placas-eletronicas-guia.md"
+    quote: "Um bom curso deve ensinar uma metodologia estruturada para identificar falhas, como o Método OET (Observar, Examinar, Tratar) que desenvolvi após anos de experiência: **Observar:** Coletar informações sobre o equipamento, sintomas, histórico; **Examinar:** Fazer testes e medições para confirmar hipóteses; **Tratar:** Corrigir o problema identificado"
+
+  - id: metaphor_002
+    metaphor: "Eletrônica da Floresta (Forest Electronics)"
+    meaning: "Bad, improvised repairs - using inappropriate tools or methods (like using a transistor as a soldering iron)"
+    domain: "anti_pattern"
+    usage_example: "Used to describe dangerous, unprofessional repair techniques"
+    source: "eletronica-da-floresta-reparo-de-placas-ac-em-8-passos.md"
+    quote: "Meu patrão, 'eletrônica da floresta' é quando eu encontro placas de ar condicionado com gambiarra pesada: transistores usados como ferro de solda sobre mesa aquecedora, trilhas levantadas e componentes termicamente comprometidos."
+
+  - id: metaphor_003
+    metaphor: "Estetoscópio Eletrônico (Electronic Stethoscope)"
+    meaning: "The multimeter is to an electronics technician what a stethoscope is to a doctor"
+    domain: "tools"
+    usage_example: "Describing the multimeter as the essential diagnostic tool"
+    source: "curso-reparo-placas-eletronicas-guia.md"
+    quote: "**Multímetro digital:** É seu 'estetoscópio' eletrônico."
+
+  - id: metaphor_004
+    metaphor: "Detective Narrative"
+    meaning: "Troubleshooting as detective work - gathering clues, following leads"
+    domain: "diagnostic_approach"
+    usage_example: "Describing the investigation process for hidden defects"
+    source: "Multiple posts"
+    quote: "Minha análise começou com a revisão dos códigos de erro fornecidos pela máquina. Esses códigos são fundamentais, pois direcionam nosso foco para o sistema correto dentro da complexidade de uma placa eletrônica."
+
+  - id: metaphor_005
+    metaphor: "Pulo do Gato (The Cat's Jump / The Trick)"
+    meaning: "The key insight or clever trick that makes everything work"
+    domain: "technique"
+    usage_example: "Used when revealing the critical technique or insight"
+    source: "curso-reparo-placas-eletronicas-guia.md"
+    quote: "Aqui tá o pulo do gato: você já viu quanto custa uma placa nova de ar-condicionado?"
+
+case_studies:
+  - id: case_001
+    before: "Consul inverter board with error 18 - would cost R$1,000-2,500 to replace"
+    intervention: "Diagnosed 5.6Ω SMD resistor as open circuit, replaced with salvaged part from donor board"
+    after: "Board 100% functional"
+    numbers: "10 minutes work, R$300 charge, saved customer R$700-2,200"
+    quotable_line: "cobrei R$300 e fechei tudo em menos de 10 minutos — sem peças caras"
+    source: "quanto-cobrar-nesse-reparo-consul-5-6-r-300-rapido.md"
+    brand_model: "Consul inverter"
+    component: "5.6Ω SMD resistor"
+
+  - id: case_002
+    before: "Inverter board not starting compressor - standard replacement R$1,200-2,800"
+    intervention: "Diagnosed and replaced MOSFETs, driver, capacitors following 8-step process with DC-link voltage checks"
+    after: "~85% success rate across 200+ repairs"
+    numbers: "30-90 min repair time, R$80-350 cost, saves R$600-1,800 vs new board"
+    quotable_line: "chego a faturar R$500–600 por dia com um ritmo organizado"
+    source: "conserto-de-placas-inverter-r-500-600-dia-200-reparos.md"
+    brand_model: "Generic inverter boards (residential/commercial split)"
+    component: "MOSFETs, drivers, DC-link capacitors"
+
+  - id: case_003
+    before: "Board with open/burned trace preventing operation"
+    intervention: "0.2mm wire repair technique - sand off varnish, tin ends, bridge with wire"
+    after: "75-88% success rate (conservatively 80%)"
+    numbers: "10-20 min, R$2-20 cost, saves R$150-1,500 vs board replacement"
+    quotable_line: "Já consertei 200+ dessas placas com o método do fio de 0.2 mm"
+    source: "melhor-reparo-na-manutencao-eletronica-fio-de-0-2-mm.md"
+    brand_model: "Generic AC boards"
+    component: "PCB traces"
+
+  - id: case_004
+    before: "Samsung inverter 1-minute error (communication failure between indoor and outdoor units)"
+    intervention: "Systematic diagnosis of communication circuit, replaced optocouplers and cleaned oxidized traces"
+    after: "Communication restored"
+    numbers: "Varies by root cause"
+    quotable_line: "O erro de 1 minuto ocorre quando a unidade interna (evaporadora) e a unidade externa (condensadora) de um sistema de ar-condicionado inverter falham em estabelecer uma comunicação eficaz dentro de um minuto após a inicialização"
+    source: "desvendando-o-erro-de-1-minuto-em-ar-condicionados-samsung-i.md"
+    brand_model: "Samsung Inverter"
+    component: "Communication circuit, optocouplers"
+
+  - id: case_005
+    before: "Dirty board from food service machine (ice cream, refrigeration) - erratic sensor readings, intermittent shorts"
+    intervention: "7-step washing process: discharge, pre-rinse, detergent soak 5-15 min, brush, rinse, dry 12-24h, test"
+    after: "75-85% success rate across 200+ boards"
+    numbers: "20-40 min cleaning + 12-24h drying, R$5-30 cost, saves R$200-1,200 vs R$1,000-3,000 replacement"
+    quotable_line: "Já testei o procedimento em 200+ placas de máquinas de sorvete, splits e placas de refrigeração"
+    source: "como-lavar-uma-placa-eletronica-7-passos-praticos.md"
+    brand_model: "Food service equipment boards"
+    component: "Entire board cleaning"
+
+  - id: case_006
+    before: "Board with short circuit - won't power on"
+    intervention: "Rosin flux pen technique: apply flux to power components, energize with current-limited supply (1A), observe where flux melts/smokes, measure resistance at hot spot"
+    after: "82% success rate in first diagnosis across 200+ boards"
+    numbers: "15-45 min to locate short, R$30-250 repair vs R$800-2,500 replacement"
+    quotable_line: "Já consertei 200+ dessas placas de ar condicionado em 9+ anos de bancada, com uma taxa de sucesso média de 82% nesse método"
+    source: "caneta-de-breu-para-achar-curto-em-placa-3-passos.md"
+    brand_model: "AC control boards"
+    component: "Short circuit diagnosis (MOSFETs, diodes, capacitors)"
+
+  - id: case_007
+    before: "MOSFET/IGBT suspected burned out after voltage drop"
+    intervention: "9-step test procedure without removing: visual, continuity D-S/C-E, diode test, Rds_on estimation, gate leakage check, controlled gate drive test"
+    after: "~78% correct diagnosis rate across 200+ power boards"
+    numbers: "10-25 min per component, R$150-800 savings vs full board replacement (R$600-1,800)"
+    quotable_line: "Já consertei 12.000+ equipamentos em 9+ anos de bancada e encontrei MOSFETs/IGBTs defeituosos em mais de 200+ placas de potência"
+    source: "como-testar-mosfet-e-igbt-9-passos-rapidos-3-medidas.md"
+    brand_model: "Inverters and power supplies"
+    component: "MOSFETs, IGBTs"
+
+  - id: case_008
+    before: "SMD component with cold solder joint - intermittent contact"
+    intervention: "9-step reflow procedure: visual inspection, apply flux, protect adjacent components, preheat, hot air reflow 300-350°C for 20-60s, clean pads, position, reflow, validate"
+    after: "85% first attempt success, 95% with iteration across 200+ devices"
+    numbers: "10-25 min per component, R$120-500 savings vs board replacement"
+    quotable_line: "Já consertei 12.000+ placas na última década e re-soldado mais de 2.000 componentes SMD em campo e oficina"
+    source: "como-soldar-componente-smd-9-passos-praticos-em-bancada.md"
+    brand_model: "Various SMD boards"
+    component: "SMD resistors, capacitors, diodes, ICs"
+
+  - id: case_009
+    before: "Microcontroller suspected faulty - random resets, communication failures"
+    intervention: "7-step diagnosis WITHOUT removing MCU: check VCC (3.3V ±0.1V), clock signal (8/16 MHz), reset line, localized reflow, reinforce vias/traces"
+    after: "~78% success rate across 100+ controller boards"
+    numbers: "30-90 min, R$40-180 vs R$800-2,200 board replacement"
+    quotable_line: "Já consertei 200+ dessas placas de controle de ar-condicionado e tenho 12.000+ reparos na carreira; na minha bancada mais de 100 testes específicos com microcontroladores SMD"
+    source: "como-nao-retirar-um-microcontrolador-7-passos-praticos.md"
+    brand_model: "AC controller boards"
+    component: "Microcontrollers"
+
+  - id: case_010
+    before: "Samsung DC-Link error - voltage not reaching 310V to charge power capacitors"
+    intervention: "4-step process: verify capacitors, examine relays and traces, voltage tests at key points, replace damaged components"
+    after: "Board functional with correct DC voltage"
+    numbers: "Varies by component failure"
+    quotable_line: "O erro DC-LINK ocorre quando há uma falha na conexão da tensão contínua... a tensão deveria estar em torno de 310 volts"
+    source: "dc-link-samsung.md"
+    brand_model: "Samsung AC"
+    component: "DC-Link circuit (capacitors, relays, traces)"
+
+anti_examples:
+  - id: anti_001
+    what_went_wrong: "Replacing blown fuse with wire"
+    lesson: "Bypassing protection destroys expensive components"
+    framing: "Fatal error that causes catastrophic damage"
+    source: "fusivel-ar-condicinoado.md"
+    quote: "Um erro comum é substituir o fusível queimado por um fio. Isso pode parecer uma solução rápida, mas pode causar danos irreparáveis. Substituir um fusível por um fio ignora a função de proteção do fusível, permitindo que qualquer sobrecorrente danifique os componentes eletrônicos, como microcontroladores, resultando em falhas mais graves e custosas."
+
+  - id: anti_002
+    what_went_wrong: "Trusting error codes 100%"
+    lesson: "Error codes are hints, not definitive diagnoses"
+    framing: "Common trap that leads to wrong component replacement"
+    source: "nao-confie-100-nos-codigos-de-erro-um-guia-pratico-para-tecn.md"
+    quote: "Códigos de erro são essenciais para diagnosticar problemas... Contudo, como toda ferramenta, têm suas limitações... não devemos confiar cegamente nos códigos de erro"
+
+  - id: anti_003
+    what_went_wrong: "Pricing repairs by component cost"
+    lesson: "Price by value delivered, not parts cost"
+    framing: "Undervaluing your expertise"
+    source: "curso-reparo-placas-eletronicas-guia.md"
+    quote: "📋 **Da Minha Bancada:** O erro mais comum que vejo é precificar pelo componente. Se você trocou um capacitor de R$ 2 e salvou uma placa de R$ 3.000, não cobre R$ 50 'porque foi só um capacitor'. Cobre pelo seu conhecimento e pelo valor que está entregando ao cliente."
+
+  - id: anti_004
+    what_went_wrong: "Excessive focus on theory without practical application"
+    lesson: "Theory is necessary, but must lead to practical repair"
+    framing: "Analysis paralysis - knowing formulas but can't fix boards"
+    source: "curso-reparo-placas-eletronicas-guia.md"
+    quote: "Um erro fatal que vejo muita gente cometer é mergulhar em teoria sem nunca chegar na prática. O resultado? A pessoa decora fórmulas, sabe calcular reatância capacitiva, mas trava ao pegar uma placa real para consertar."
+
+  - id: anti_005
+    what_went_wrong: "Skipping diagnostic steps and jumping to component swapping"
+    lesson: "Methodology prevents wasted time and money"
+    framing: "'Shotgunning' components wastes money"
+    source: "curso-reparo-placas-eletronicas-guia.md"
+    quote: "Com um método eficiente de diagnóstico, você não fica 'chutando' componentes e pode reparar placas que nunca viu antes, mesmo sem esquema elétrico."
+
+  - id: anti_006
+    what_went_wrong: "Gambiarra / Forest Electronics"
+    lesson: "Improvised repairs create more problems than they solve"
+    framing: "Dangerous, unprofessional work"
+    source: "eletronica-da-floresta-reparo-de-placas-ac-em-8-passos.md, desvendando-a-eletronica-a-importancia-de-evitar-gambiarras-.md"
+    quote: "transistores usados como ferro de solda sobre mesa aquecedora, trilhas levantadas e componentes termicamente comprometidos"
+
+  - id: anti_007
+    what_went_wrong: "Using uncontrolled heat (soldering iron without temperature control)"
+    lesson: "Controlled temperature prevents pad delamination"
+    framing: "Increases damage instead of fixing"
+    source: "eletronica-da-floresta-reparo-de-placas-ac-em-8-passos.md"
+    quote: "Usar ferro sem controle térmico: aumenta delaminação."
+
+  - id: anti_008
+    what_went_wrong: "Not discharging capacitors before working on board"
+    lesson: "Can be lethal - always discharge high voltage caps"
+    framing: "Life-threatening safety violation"
+    source: "conserto-de-placas-inverter-r-500-600-dia-200-reparos.md"
+    quote: "⚠️ Segurança crítica: Sempre descarregue o capacitor do DC-link antes de mexer na placa (tensão típica 310–400 V DC em 220–240 VAC). Use resistência de descarga de pelo menos 100 kΩ/5 W e verifique com multímetro. Trabalhar com o barramento DC carregado é letal."
+
+  - id: anti_009
+    what_went_wrong: "Failing to clean flux residue after repair"
+    lesson: "Flux creates resonances and insulation failures"
+    framing: "Cosmetic issue that becomes electrical problem"
+    source: "eletronica-da-floresta-reparo-de-placas-ac-em-8-passos.md"
+    quote: "Não limpar fluxo queimado: cria ressonâncias e falhas de isolamento."
+
+  - id: anti_010
+    what_went_wrong: "Repairing when board replacement is more economical"
+    lesson: "Know when to walk away - cost/benefit analysis"
+    framing: "Time is money - recognize uneconomical repairs"
+    source: "Multiple posts"
+    quote: "Quando NÃO fazer reparo: Quando o custo do reparo >50% do valor da placa nova ou quando MCU/firmware está danificado"
+
+catchphrases:
+  - id: catch_001
+    phrase: "Bora nós!"
+    context: "Call to action - let's get to work, let's do this together"
+    usage_frequency: "Very high - appears in almost every post"
+    meaning: "Brazilian slang: 'Let's go!' / 'Let's do this!'"
+    quote: "Show de bola? Bora nós!"
+
+  - id: catch_002
+    phrase: "Show de bola?"
+    context: "Rhetorical question checking if reader understands / is ready"
+    usage_frequency: "Very high - often paired with 'Bora nós!'"
+    meaning: "Brazilian slang: 'Cool?' / 'Got it?' / 'Awesome, right?'"
+    quote: "Show de bola? Bora nós!"
+
+  - id: catch_003
+    phrase: "Tamamo junto" / "Tamo junto"
+    context: "We're in this together / I'm here with you / solidarity expression"
+    usage_frequency: "High - closing statement"
+    meaning: "Brazilian slang: 'We're together' / 'I've got your back'"
+    quote: "Tamamo junto — bora colocar a mão na massa? Comenta aqui que tamo junto!"
+
+  - id: catch_004
+    phrase: "Pega essa visão"
+    context: "Pay attention to this / check this out / get this perspective"
+    usage_frequency: "High"
+    meaning: "Brazilian slang: 'Get this view' / 'Check this out' / 'Consider this'"
+    quote: "Pega essa visão: estamos em 2025 e a cada dia mais equipamentos eletrônicos entram nas casas e empresas"
+
+  - id: catch_005
+    phrase: "Meu patrão"
+    context: "Term of address - friendly, informal"
+    usage_frequency: "Medium"
+    meaning: "Brazilian slang: 'My boss' / 'buddy' / 'friend' (informal address)"
+    quote: "Meu patrão, 'eletrônica da floresta' é quando eu encontro placas de ar condicionado com gambiarra pesada"
+
+  - id: catch_006
+    phrase: "Sem medo"
+    context: "Don't be afraid / fearlessly / confidence builder"
+    usage_frequency: "Medium"
+    meaning: "Without fear - encouragement to be confident"
+    quote: "Sem medo, toda placa tem reparo, mas siga os valores e sinais"
+
+  - id: catch_007
+    phrase: "Eletrônica é uma só"
+    context: "Electronics is universal - same principles apply everywhere"
+    usage_frequency: "Very high - appears in most posts"
+    meaning: "Electronics is one / Electronics is universal - principles are the same across all domains"
+    quote: "💡 **Como sempre digo: Eletrônica é uma só e toda placa tem reparo!**"
+
+  - id: catch_008
+    phrase: "Toda placa tem reparo"
+    context: "Every board can be repaired - optimistic repair philosophy"
+    usage_frequency: "Very high - core belief"
+    meaning: "Every board has a repair / can be fixed"
+    quote: "Eletrônica é uma só e toda placa tem reparo"
+
+  - id: catch_009
+    phrase: "Da Minha Bancada"
+    context: "From my workbench - introducing real-world data/experience"
+    usage_frequency: "Very high - signature data reporting format"
+    meaning: "From My Bench - signals real practical experience/data"
+    quote: "📋 **Da Minha Bancada:** setup real..."
+
+  - id: catch_010
+    phrase: "Destrinchar"
+    context: "To break down / disassemble / analyze deeply"
+    usage_frequency: "Medium"
+    meaning: "To dissect / break down into details"
+    quote: "vamos destrinchar esse defeito"
+
+  - id: catch_011
+    phrase: "Pulo do gato"
+    context: "The trick / the key insight / the clever solution"
+    usage_frequency: "Medium"
+    meaning: "The cat's jump - Brazilian idiom for 'the trick' or clever technique"
+    quote: "Aqui tá o pulo do gato: você já viu quanto custa uma placa nova de ar-condicionado?"
+
+  - id: catch_012
+    phrase: "Foi massa?"
+    context: "Was it good? / Did you like it?"
+    usage_frequency: "Low-medium"
+    meaning: "Brazilian slang: 'Was it cool?' / 'Did you enjoy it?'"
+    quote: "E aí, foi massa? Show de bola!"
+
+  - id: catch_013
+    phrase: "Bora colocar a mão na massa"
+    context: "Let's get our hands dirty / let's get to work"
+    usage_frequency: "High - closing call to action"
+    meaning: "Let's get hands-on / Let's do the practical work"
+    quote: "Bora colocar a mão na massa? Qualquer dúvida, comenta aqui embaixo que tamo junto!"
+
+  - id: catch_014
+    phrase: "Comenta aqui que tamo junto"
+    context: "Comment here and we're together - engagement request"
+    usage_frequency: "High - closing statement"
+    meaning: "Comment here and I've got you / engage with me"
+    quote: "Bora colocar a mão na massa? Comenta aqui que tamo junto!"
+
+signature_techniques:
+  - id: tech_001
+    name: "OET Method (Observar, Examinar, Tratar)"
+    description: "Systematic diagnostic methodology: Observe (collect info about equipment, symptoms, history), Examine (test and measure to confirm hypotheses), Treat (fix the identified problem)"
+    source: "curso-reparo-placas-eletronicas-guia.md"
+    quote: "Método OET (Observar, Examinar, Tratar) que desenvolvi após anos de experiência"
+
+  - id: tech_002
+    name: "Rosin Flux Short Circuit Detector"
+    description: "Apply rosin flux to suspected components, energize board with current-limited supply (1A), observe where flux melts/smokes to locate short"
+    source: "caneta-de-breu-para-achar-curto-em-placa-3-passos.md"
+    quote: "usar caneta de breu (rosin/flux concentrado) aquecida para identificar componentes em curto na placa eletrônica ao observar onde o breu liquefaz e fuma ao energizar com limite de corrente"
+
+  - id: tech_003
+    name: "0.2mm Wire Track Repair"
+    description: "Sand off varnish from broken trace, tin both ends, bridge gap with 0.2mm enamel wire, validate with continuity test (<1Ω)"
+    source: "melhor-reparo-na-manutencao-eletronica-fio-de-0-2-mm.md"
+    quote: "Já consertei 200+ placas com o método do fio de 0.2 mm, com taxa de sucesso prática de cerca de 80%"
+
+  - id: tech_004
+    name: "30-50% Pricing Rule"
+    description: "Charge 30-50% of new board cost for repair (e.g., if new board is R$1,000, charge R$300-500)"
+    source: "curso-reparo-placas-eletronicas-guia.md"
+    quote: "Minha recomendação é trabalhar com a regra dos 30-50%: Cobre entre 30% e 50% do valor de uma placa nova"
+
+numbers_and_statistics:
+  career_total: "12,000+ repairs over 9+ years"
+  annual_revenue_2024: "R$ 1 million from board repairs alone"
+  daily_income: "R$ 500-600/day"
+  component_cost_avg: "< R$ 20 per repair"
+  students_trained: "Hundreds of students formed"
+
+  success_rates:
+    inverter_boards: "~85% (200+ repairs)"
+    wire_track_repair: "75-88% (200+ repairs, conservatively 80%)"
+    short_circuit_diagnosis_flux: "82% first diagnosis (200+ boards)"
+    smd_reflow: "85% first attempt, 95% with iteration (200+ devices)"
+    mosfet_igbt_diagnosis: "~78% (200+ power boards)"
+    board_washing: "75-85% (200+ boards)"
+    microcontroller_no_removal: "75-80% (100+ boards)"
+
+  typical_costs:
+    point_repair: "R$ 30-350"
+    component_replacement: "R$ 80-700"
+    board_replacement: "R$ 800-2,800"
+    savings_vs_replacement: "R$ 200-1,800 typical"
+
+  typical_times:
+    diagnosis: "10-45 minutes"
+    simple_repair: "10-30 minutes"
+    complex_repair: "30-90 minutes"
+    with_sourcing: "up to 3 hours"
+
+tools_and_setup:
+  first_multimeter: "R$ 40"
+  basic_startup_investment: "< R$ 1,000"
+  current_bench:
+    - "Fluke 115 multimeter"
+    - "Hakko 936 soldering iron (30-40W)"
+    - "Hakko 850 hot air station (320°C typical)"
+    - "Korad 0-30V/5A bench supply"
+    - "Rigol 100 MHz oscilloscope"
+    - "ESR meter"
+    - "Weller 80W soldering station"
+
+pricing_philosophy:
+  - "Price by value delivered, not component cost"
+  - "A R$2 capacitor that saves a R$3,000 board deserves more than R$50"
+  - "Charge for knowledge and value, not just parts"
+  - "30-50% of new board cost is fair"
+
+key_measurements:
+  dc_link_voltage: "300-400 VDC for 220-240 VAC input"
+  logic_vcc: "3.3V ±5% or 5V ±5%"
+  continuity_good: "< 1Ω"
+  continuity_bad: "> 5-10Ω or open"
+  isolation_good: "> 1 MΩ"
+  mosfet_rds_on: "0.02-0.5 Ω when on"
+  mosfet_gate_resistance: "> 1 MΩ"
+  diode_forward_drop: "0.5-0.8V"
+
+safety_warnings:
+  - "ALWAYS discharge DC-link capacitors (310-400V) with 100kΩ/5W resistor before touching"
+  - "Limit current to 0.5-2A when testing unknown boards"
+  - "Use ESD wrist strap when handling components"
+  - "Never bypass fuses with wire"
+  - "Work in ventilated area when soldering"
+  - "Wear safety glasses when using flux/hot air"
+
+signature_equipment_settings:
+  soldering_iron_temp: "330-360°C for lead-free"
+  hot_air_temp_small_smd: "230-320°C"
+  hot_air_temp_soic: "300-320°C"
+  hot_air_flow: "15-25 L/min"
+  reflow_time: "20-60 seconds depending on component size"
+  current_limit_testing: "0.5-2A typical"
+
+brands_mentioned:
+  - Samsung
+  - Philco
+  - Consul
+  - LG
+  - Midea
+  - Carrier
+  - Daikin
+  - Electrolux
+  - Hitachi
+  - Agratto
+  - X-Power
+
+common_failure_modes:
+  - "Cold solder joints"
+  - "Oxidized traces/pads"
+  - "MOSFETs in short"
+  - "Blown capacitors (ESR high)"
+  - "Open traces"
+  - "Failed gate drivers"
+  - "Dirty/contaminated boards"
+  - "Communication failures"
+  - "Crystal/oscillator failures"
+
+extraction_metadata:
+  total_posts_analyzed: 58
+  date_range: "2024-2026"
+  extraction_date: "2026-02-11"
+  extractor: "Claude Sonnet 4.5"
+  source_directory: "/Users/lawhander/Projetos com IA/Clones/mmos/outputs/minds/lawhander-climatronico/sources/downloads/blogs/"

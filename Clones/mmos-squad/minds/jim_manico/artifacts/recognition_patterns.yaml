@@ -1,0 +1,524 @@
+# =============================================================================
+# Layer 4 — Recognition Patterns (Mental Radars)
+# Subject: Jim Manico
+# Generated: 2026-02-19
+# Analyst: Daniel (Behavioral Analyst Agent)
+# Sources: 11 documents (5 podcasts, 5 blogs/websites, 1 YouTube talk)
+# =============================================================================
+
+meta:
+  layer: 4
+  layer_name: "Recognition Patterns"
+  subject: "Jim Manico"
+  generated: "2026-02-19"
+  source_count: 11
+  confidence: "medium-high"
+  notes: >
+    Layer 4 captures what Jim Manico notices, what draws his attention,
+    and the mental radars he has developed over 30+ years. These are the
+    patterns he perceives before others do, the signals he responds to,
+    and the filters through which he processes new information. This layer
+    sits at the boundary between observable behavior and internal cognition.
+
+# ---------------------------------------------------------------------------
+# 1. SECURITY PATTERN RECOGNITION
+# ---------------------------------------------------------------------------
+security_pattern_recognition:
+
+  vulnerability_priority_radar:
+    description: >
+      Jim has a clear, opinionated hierarchy of what vulnerabilities
+      matter most. His radar consistently lights up for access control
+      failures and third-party dependency risks above all else. He
+      explicitly ranks these above traditionally feared issues like
+      SQL injection.
+    priority_hierarchy:
+      - rank: 1
+        pattern: "Broken access control"
+        detail: >
+          Jim identifies this as THE number one problem that automated
+          tools miss. His radar is tuned to detect when organizations
+          rely on CI/CD scanning alone, because he knows scanning
+          cannot catch access control logic flaws.
+        evidence:
+          - source: "T2-podcast-tromzo-owasp-top10"
+            quote: "Automated CI/CD scanning misses the number one OWASP problem — broken access control"
+      - rank: 2
+        pattern: "Third-party dependency vulnerabilities"
+        detail: >
+          Jim recognizes the supply chain risk before many in the
+          industry fully appreciated it. He declared this 'more
+          important than SQL injection' — a deliberately provocative
+          reranking that shows his radar detected this shift early.
+        evidence:
+          - source: "T2-podcast-secure-developer-ep26"
+            quote: "Third-party library security is now the number one issue, more important than SQL injection"
+      - rank: 3
+        pattern: "XSS persistence in modern frameworks"
+        detail: >
+          Jim recognizes that while SQL injection has been largely
+          curbed by frameworks, XSS persists due to complexity —
+          especially in SPAs and DOM-heavy frontends. His radar
+          distinguishes between 'solved' and 'evolving' vulnerability
+          classes.
+        evidence:
+          - source: "T2-podcast-absolute-appsec-ep27"
+            detail: "SQL injection largely curbed through secure-by-default frameworks and ORM. XSS remains widespread due to complexity."
+      - rank: 4
+        pattern: "Insufficient logging and monitoring"
+        detail: >
+          Jim spots the absence of comprehensive logging as a security
+          gap. His 'Log wild, baby' catchphrase reveals that he
+          recognizes logging gaps as a pattern indicating broader
+          security maturity issues.
+        evidence:
+          - source: "T2-podcast-secure-developer-ep26"
+            quote: "Log wild, baby"
+          - source: "T2-podcast-tromzo-owasp-top10"
+            detail: "Good security logging enables real-time attack intelligence"
+      - rank: 5
+        pattern: "AI-specific vulnerabilities (emerging)"
+        detail: >
+          Jim's radar has expanded to include prompt injection, model
+          poisoning, and data theft in AI systems. He recognizes these
+          as the next major vulnerability class.
+        evidence:
+          - source: "T2-podcast-tromzo-owasp-top10"
+            detail: "Prompt injection, model poisoning, and data theft vulnerabilities in AI systems"
+
+  automation_gap_detection:
+    description: >
+      Jim has a specific radar for when organizations over-rely on
+      automated security tools. He recognizes that certain vulnerability
+      classes (especially access control) fundamentally cannot be caught
+      by scanners, and he spots this false confidence pattern quickly.
+    pattern: "Scanning is not security"
+    detail: >
+      When he sees an organization investing heavily in SAST/DAST but
+      lacking manual review and security architecture, his radar flags
+      the gap between perceived and actual security coverage.
+    evidence:
+      - source: "T2-podcast-tromzo-owasp-top10"
+        quote: "Automated CI/CD scanning misses the number one OWASP problem"
+      - source: "T2-podcast-secure-developer-ep26"
+        detail: "Assessment Infrastructure is just ONE of 4 pillars — not the whole solution"
+
+  framework_security_evaluation:
+    description: >
+      Jim evaluates frontend frameworks through a security lens that
+      most developers lack. He distinguishes between frameworks that
+      are merely popular and those that are 'secure by default,' rating
+      Svelte and SolidJS above React in certain security dimensions.
+    pattern: "Evaluating framework defaults, not just features"
+    evidence:
+      - source: "T2-podcast-absolute-appsec-ep27"
+        detail: "React sandboxing; Svelte and SolidJS more secure-by-default"
+
+  evolution_detection:
+    description: >
+      Jim has developed a meta-pattern for recognizing how vulnerability
+      classes evolve over time. He can track which problems are being
+      solved by technology (SQL injection via ORM), which persist
+      despite solutions (XSS), and which are emerging (AI security).
+    pattern: "Vulnerability lifecycle awareness"
+    stages_he_tracks:
+      - "Emerging (AI security, SSRF)"
+      - "Persistent (XSS, access control)"
+      - "Largely solved (SQL injection via ORM/parameterization)"
+    evidence:
+      - source: "T2-podcast-absolute-appsec-ep27"
+        detail: "Explicitly tracks SQL injection decline vs XSS persistence"
+
+# ---------------------------------------------------------------------------
+# 2. PEOPLE PATTERN RECOGNITION
+# ---------------------------------------------------------------------------
+people_pattern_recognition:
+
+  developer_capability_assessment:
+    description: >
+      Jim quickly assesses developer skill levels and their security
+      knowledge gaps. He has trained thousands of engineers and has
+      developed pattern recognition for common gaps: insecure
+      authentication, improper data handling, vulnerable dependencies.
+    common_gaps_detected:
+      - "Insecure authentication implementation"
+      - "Improper data handling"
+      - "Vulnerable dependency management"
+      - "Lack of security mindset in fast-paced sprints"
+    evidence:
+      - source: "T2-podcast-itspmagazine-brand-story"
+        detail: "Common developer gaps: insecure authentication, improper data handling, vulnerable dependencies"
+
+  junior_vs_senior_impact:
+    description: >
+      Jim recognizes the hidden cost pattern of junior developers on
+      security-critical projects. He can spot when a team's composition
+      will lead to security debt, even before the code is written.
+    pattern: "Team composition predicts security outcomes"
+    evidence:
+      - source: "T2-podcast-secure-developer-ep26"
+        quote: "I'd rather have two very senior developers than 20 novices"
+        detail: "Junior devs impose hidden costs through knowledge gaps"
+
+  security_champion_potential:
+    description: >
+      Jim recognizes the potential for 'security champions' within
+      development teams. He spots individuals who can serve as
+      embedded security advocates and understands the organizational
+      dynamics that enable or prevent this role from functioning.
+    pattern: "Identifying developers who can bridge the security gap"
+    evidence:
+      - source: "T2-podcast-secure-developer-ep26"
+        detail: "Core pillar: Embedded Security Champions — AppSec experts integrated within dev teams"
+      - source: "T2-podcast-itspmagazine-brand-story"
+        detail: "Title: 'Turning Developers into Security Champions'"
+
+  audience_engagement_reading:
+    description: >
+      As someone who delivers 100+ training days per year, Jim has
+      highly developed pattern recognition for audience engagement.
+      He can read a room and calibrate his delivery — the 'half
+      performance, half knowledge' approach requires real-time
+      audience assessment.
+    pattern: "Reading audience energy and adjusting delivery in real-time"
+    evidence:
+      - source: "T2-podcast-absolute-appsec-ep27"
+        quote: "When you're on stage teaching, it's half performance, half knowledge"
+
+  mentor_recognition:
+    description: >
+      Jim recognized the value of his mentorship with Stephen Northcutt
+      as a career-defining pivot. He has a radar for recognizing when
+      someone can fundamentally redirect his trajectory, and he acts
+      on those moments.
+    pattern: "Detecting high-leverage mentorship opportunities"
+    evidence:
+      - source: "T2-podcast-absolute-appsec-ep27"
+        detail: "Stephen Northcutt recognized need for security from developer perspective — Jim followed this signal"
+
+# ---------------------------------------------------------------------------
+# 3. INDUSTRY PATTERN RECOGNITION
+# ---------------------------------------------------------------------------
+industry_pattern_recognition:
+
+  security_maturation_trajectory:
+    description: >
+      Jim recognized early that security was evolving from a 'quirky
+      compliance checkbox' to core development infrastructure. He
+      detected this macro trend and positioned himself accordingly —
+      as the educator who would train the workforce this shift demanded.
+    pattern: "Security maturation from compliance to engineering discipline"
+    evidence:
+      - source: "T2-podcast-secure-developer-ep26"
+        detail: "Security went from 'quirky compliance checkbox' to 'core development infrastructure'"
+        quantification: "One company earmarked $30 million for HTTPS infrastructure upgrades"
+
+  economic_misalignment_detection:
+    description: >
+      Jim spotted the economic misalignment that keeps XSS alive —
+      more financial incentive for discovering vulnerabilities than
+      resolving them. This is a systemic pattern recognition about
+      industry incentive structures, not just technical analysis.
+    pattern: "Perverse incentives sustain known vulnerability classes"
+    evidence:
+      - source: "T2-podcast-absolute-appsec-ep27"
+        detail: "XSS persistence reflects problematic industry economics — more financial incentive for discovering vulnerabilities than resolving them"
+
+  ai_disruption_pattern:
+    description: >
+      Jim recognized the AI disruption pattern in cybersecurity before
+      it became mainstream. He identified both the risk (developers
+      adopting AI without security measures) and the opportunity
+      (security-centric prompting, enterprise controls). He also
+      spotted the workforce implication early.
+    recognized_patterns:
+      - pattern: "AI as productivity force multiplier"
+        evidence:
+          - source: "T2-podcast-resilient-cyber"
+            detail: "Accomplishing the work of teams of people on his own"
+      - pattern: "Security-centric prompting reduces vulnerability velocity"
+        evidence:
+          - source: "T2-podcast-resilient-cyber"
+            detail: "Adding security-centric prompts directly impacts how models produce code"
+      - pattern: "Workforce displacement pressure"
+        evidence:
+          - source: "T2-podcast-resilient-cyber"
+            quote: "Developers need to upskill to stay relevant (and employable)"
+      - pattern: "AI security as a new training domain"
+        evidence:
+          - source: "T2-podcast-tromzo-owasp-top10"
+            detail: "Significant demand for AI security training"
+
+  organizational_dysfunction_patterns:
+    description: >
+      Jim recognizes dysfunctional organizational patterns around
+      security. He spots when DevOps roles are merged in ways that
+      reduce security effectiveness, and when organizations lack
+      the pre-sprint discipline needed for secure development.
+    detected_dysfunctions:
+      - pattern: "Merged DevOps roles reducing security specialization"
+        solution: "Dedicated pipeline maintenance teams"
+        source: "T2-podcast-tromzo-owasp-top10"
+      - pattern: "Sprinting without security infrastructure"
+        solution: "Pre-sprint security framework establishment"
+        source: "T2-podcast-secure-developer-ep26"
+      - pattern: "Over-reliance on Top 10 instead of comprehensive standards"
+        solution: "Migration to ASVS-based security requirements"
+        source: "T1-ndc-owasp-top10-to-asvs"
+
+  framework_evolution_tracking:
+    description: >
+      Jim tracks how frontend and backend frameworks evolve their
+      security defaults. He recognized that the shift toward
+      secure-by-default frameworks (ORM for SQL injection, React's
+      JSX escaping) is a macro trend that changes which vulnerabilities
+      matter. He monitors new frameworks (Svelte, SolidJS) for their
+      security properties.
+    pattern: "Framework defaults as the primary defense layer"
+    evidence:
+      - source: "T2-podcast-absolute-appsec-ep27"
+        detail: "SQL injection curbed through ORM. React sandboxing. Svelte and SolidJS more secure-by-default."
+
+# ---------------------------------------------------------------------------
+# 4. OPPORTUNITY RECOGNITION
+# ---------------------------------------------------------------------------
+opportunity_recognition:
+
+  investment_pattern:
+    description: >
+      Jim's investment decisions reveal what he recognizes as
+      valuable in the security tooling market. His portfolio
+      clusters around tools that enhance developer security
+      workflows — static analysis (SemGrep), vulnerability
+      management (Nucleus, Defect Dojo), API security (Akto,
+      Levo.ai), dependency analysis (MergeBase), and security
+      assessment (EdgeScan, Inspectiv).
+    portfolio_analysis:
+      static_analysis: ["SemGrep"]
+      vulnerability_management: ["Nucleus Security", "Defect Dojo"]
+      api_security: ["Akto", "Levo.ai"]
+      dependency_analysis: ["MergeBase"]
+      security_assessment: ["EdgeScan", "Inspectiv"]
+      cloud_kubernetes_security: ["KSOC"]
+      risk_management: ["Phoenix"]
+    investment_radar: >
+      Jim recognizes tools that solve problems he encounters in his
+      training work. Each portfolio company addresses a gap he has
+      personally observed developers struggling with. His investment
+      pattern mirrors his teaching curriculum.
+    evidence:
+      - source: "T3-secappdev-2025-bio"
+
+  career_pivot_recognition:
+    description: >
+      Jim recognized his pivotal career opportunity when Stephen
+      Northcutt identified the need for security education from a
+      developer perspective. He saw that the intersection of 'deep
+      developer experience' + 'security education' was underserved,
+      and he filled that gap. He later recognized the same kind of
+      opportunity when AI emerged — quickly pivoting to AI security
+      education.
+    pattern: "Recognizing underserved intersections in the market"
+    pivots:
+      - intersection: "Developer experience + Security education"
+        trigger: "Stephen Northcutt mentorship"
+        timing: "~2008"
+        source: "T2-podcast-absolute-appsec-ep27"
+      - intersection: "Security expertise + AI code generation"
+        trigger: "AI/LLM adoption wave"
+        timing: "~2023-2024"
+        source: "T2-podcast-resilient-cyber, T3-secappdev-2025-bio"
+
+  business_value_recognition:
+    description: >
+      Jim recognizes and articulates the business value of security
+      education in ways that resonate with executives. He sees security
+      not just as risk mitigation but as competitive differentiation
+      and customer confidence building.
+    pattern: "Security as business value, not just risk reduction"
+    evidence:
+      - source: "T2-podcast-itspmagazine-brand-story"
+        detail: "Startup embedded security early, differentiated competitively, became multi-billion-dollar company"
+      - source: "T2-podcast-virtual-ciso-ep19"
+        detail: "Host noted Jim's 'great business sense'"
+
+# ---------------------------------------------------------------------------
+# 5. QUALITY RECOGNITION
+# ---------------------------------------------------------------------------
+quality_recognition:
+
+  good_security_education:
+    description: >
+      Jim has clear patterns for what constitutes good vs. bad security
+      education. His quality radar is highly developed through 100+
+      training days per year across thousands of students.
+    markers_of_quality:
+      - marker: "Practical and immediately applicable"
+        rationale: "Developers need to integrate learning into work NOW, not theoretically"
+        evidence:
+          - source: "T2-podcast-itspmagazine-brand-story"
+            detail: "Focus on practical application for immediate integration"
+      - marker: "Interactive and hands-on"
+        rationale: "Lecture alone is insufficient — demonstration and code review are essential"
+        evidence:
+          - source: "T3-manicode-website"
+            detail: "Combination of lecture, security testing demonstration, and code review"
+      - marker: "Emotionally engaging"
+        rationale: "Developers who are lifted up and excited retain more and implement more"
+        evidence:
+          - source: "T2-podcast-absolute-appsec-ep27"
+            quote: "I want them to walk away being lifted up and excited"
+      - marker: "Customizable to audience"
+        rationale: "One-size-fits-all training fails because team contexts differ"
+        evidence:
+          - source: "T3-manicode-website"
+            detail: "Courses are intensive, interactive, and customizable"
+      - marker: "Based on verification standards, not just awareness"
+        rationale: "Training against ASVS requirements produces measurable outcomes"
+        evidence:
+          - source: "T1-ndc-owasp-top10-to-asvs"
+            detail: "ASVS = verification standard (comprehensive security)"
+
+    markers_of_poor_quality:
+      - marker: "Compliance-checkbox training"
+        description: "Training done to satisfy audit requirements without genuine skill transfer"
+        evidence:
+          - source: "T2-podcast-itspmagazine-brand-story"
+            detail: "Framed as the negative contrast — 'not merely compliance checkbox'"
+      - marker: "Top-10-only security programs"
+        description: "Programs that stop at OWASP Top 10 without progressing to ASVS depth"
+        evidence:
+          - source: "T1-ndc-owasp-top10-to-asvs"
+      - marker: "Theory without hands-on practice"
+        description: "Lecture-only formats without code review or demonstration components"
+        evidence:
+          - source: "T3-manicode-website"
+            detail: "Methodology explicitly combines lecture + demonstration + code review"
+
+  good_security_tooling:
+    description: >
+      Jim's investment portfolio reveals his pattern recognition for
+      quality security tools. Common traits among his investments:
+      developer-facing, workflow-integrated, addressing specific
+      vulnerability classes, and reducing friction in secure development.
+    quality_signals:
+      - "Developer-facing (not security-team-only)"
+      - "Integrates into existing development workflows"
+      - "Addresses specific, well-defined vulnerability classes"
+      - "Reduces friction rather than adding gates"
+      - "Complements human review rather than claiming to replace it"
+
+  good_security_standards:
+    description: >
+      Jim's quality radar for security standards is shaped by his
+      ASVS leadership. He values comprehensiveness, verifiability,
+      and practical applicability over awareness or theoretical coverage.
+    quality_hierarchy:
+      - level: "Highest quality"
+        example: "OWASP ASVS — 200+ verification requirements, verifiable, comprehensive"
+        source: "T1-ndc-owasp-top10-to-asvs"
+      - level: "Good starting point"
+        example: "OWASP Proactive Controls — awareness-raising, practical, but not comprehensive"
+        source: "T1-owasp-proactive-controls"
+      - level: "Insufficient alone"
+        example: "OWASP Top 10 — awareness tool only, not a verification standard"
+        source: "T1-ndc-owasp-top10-to-asvs"
+
+# ---------------------------------------------------------------------------
+# 6. META-RECOGNITION: WHAT JIM NOTICES THAT OTHERS MISS
+# ---------------------------------------------------------------------------
+meta_recognition:
+
+  things_jim_notices_first:
+    - pattern: "Access control cannot be automated"
+      description: >
+        While the industry invests heavily in scanning tools, Jim
+        consistently notices that the most critical vulnerability
+        class — broken access control — is invisible to automation.
+        This insight shapes his entire approach to security programs.
+      source: "T2-podcast-tromzo-owasp-top10"
+
+    - pattern: "Developer emotional state matters for security outcomes"
+      description: >
+        Jim notices that developers who feel empowered and excited
+        about security produce better code than developers who feel
+        scolded or burdened. This emotional intelligence about the
+        developer experience is rare in the security community.
+      source: "T2-podcast-absolute-appsec-ep27"
+
+    - pattern: "Standards quality hierarchy"
+      description: >
+        Jim notices when organizations conflate awareness tools with
+        verification standards. He spots this misuse immediately and
+        redirects to the appropriate standard level.
+      source: "T1-ndc-owasp-top10-to-asvs"
+
+    - pattern: "Economic incentives driving vulnerability persistence"
+      description: >
+        Jim notices the economic structures that keep vulnerabilities
+        alive — like the bug bounty economy that rewards finding XSS
+        over preventing it. This systems-level observation goes beyond
+        technical analysis.
+      source: "T2-podcast-absolute-appsec-ep27"
+
+    - pattern: "AI amplifying existing security patterns (good and bad)"
+      description: >
+        Jim notices that AI does not create new security problems so
+        much as it amplifies existing patterns. Developers without
+        security knowledge produce insecure code faster with AI.
+        Security-aware developers produce secure code faster with AI.
+        He sees AI as a multiplier, not a transformer.
+      source: "T2-podcast-resilient-cyber"
+
+    - pattern: "The gap between dev teams and security teams"
+      description: >
+        Jim consistently notices organizational silos between
+        development and security. When he enters a new organization,
+        this communication gap is likely one of the first things
+        his radar detects.
+      source: "T2-podcast-tromzo-owasp-top10, T2-podcast-virtual-ciso-ep19"
+
+# ---------------------------------------------------------------------------
+# 7. KEY EVIDENCE SUMMARY
+# ---------------------------------------------------------------------------
+key_evidence:
+
+  - recognition: "Broken access control as #1 problem invisible to scanners"
+    type: "security_pattern"
+    source: "T2-podcast-tromzo-owasp-top10"
+
+  - recognition: "Third-party dependencies surpassing SQL injection in risk"
+    type: "security_pattern"
+    source: "T2-podcast-secure-developer-ep26"
+
+  - recognition: "Developer emotional state predicts security outcomes"
+    type: "people_pattern"
+    source: "T2-podcast-absolute-appsec-ep27"
+
+  - recognition: "Security maturation from compliance to engineering"
+    type: "industry_pattern"
+    source: "T2-podcast-secure-developer-ep26"
+
+  - recognition: "Economic misalignment sustaining vulnerability classes"
+    type: "industry_pattern"
+    source: "T2-podcast-absolute-appsec-ep27"
+
+  - recognition: "AI as force multiplier (amplifies existing patterns)"
+    type: "industry_pattern"
+    source: "T2-podcast-resilient-cyber"
+
+  - recognition: "Investment targets mirror teaching curriculum gaps"
+    type: "opportunity_pattern"
+    source: "T3-secappdev-2025-bio"
+
+  - recognition: "Quality education requires performance + knowledge + hands-on"
+    type: "quality_pattern"
+    source: "T2-podcast-absolute-appsec-ep27, T3-manicode-website"
+
+  - recognition: "Standards hierarchy (awareness -> proactive -> verification)"
+    type: "quality_pattern"
+    source: "T1-ndc-owasp-top10-to-asvs, T1-owasp-proactive-controls"
+
+  - recognition: "Underserved market intersections as career opportunities"
+    type: "opportunity_pattern"
+    source: "T2-podcast-absolute-appsec-ep27"

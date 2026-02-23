@@ -1,0 +1,14 @@
+# "Deixei de ser trocador de componentes." #AME
+
+- **Video ID:** ecufC4t0wrk
+- **URL:** https://www.youtube.com/watch?v=ecufC4t0wrk
+- **Duration:** 4 min
+- **Views:** 102
+- **Published:** 2020-08-06T14:30:05Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+oi meu nome osmar vieira de vila velha estado do espírito santo e pelo motivo de saúde eu tive de parar de trabalhar com refrigeração na parte de instalação de ar condicionado eu sou bem recomendo a só médica eu não podia mais pegar peso da ele então resolvi fazer esse curso para aprender a consertar placas eletrônicas e principalmente é inverte já que o mercado capixaba é muito carente de pessoas que com prestam esse serviço sair é procurar um curso que eunice teoria e prática já que eu não havia sido bem-sucedido no senai que eu fiquei paguei uma nota porque lá quase um ano e fazendo um curso de eletrônica e só fala só teoria ter o vídeo a teoria e nada de prática ia ser mesmo o professor ia passar uma coisa na prática não dava certo nos corpo dar tudo errado aí eu fui mais criterioso essa eu coloquei no mercado um curso que me até de se unindo a teoria ea prática foi quando eu pesquisando precisando mais ou menos uns seis meses ele pesquisando eu encontrei esse curso vi umas aulas do professor lauander no youtube via didática de a maneiras de ensinar gostei muito aí me informei eu mandei você escrever no youtube e mandou e-mail me matriculei estou fazendo o curso é tudo aquilo que eu queria teoria e prática teoria e prática porque às vezes quando a pessoa não é boa na aula teórica ela bom na prática então a prática é muito importante aí resumindo eu estou fazendo o curso muito satisfeito serei um um clima crônico se deus quiser fazendo aquilo que eu volto e consertando as placas que naturalmente como o mercado aqui ele tem muita demanda farei bastante conserto aqui no meu sábado espírito santo e espero que vocês entrem nessa também que só procurando rosto para fazer pode fazer o controle do lá wonder que é muito bom eu ia momento eu parei de instalar e daqui por diante se deus quiser estarei essa é a tentando placas na teoria e na prática não trocador de peça como eu não queria ser ah e não gastando horas e horas assistiu a placa que o cliente me falou o defeito e eu saio procurando trocando peça em tudo que troca para toda graça um dez dias vou fazer isso não eu vou em cima da efeito legal defeito constatado como produto cruza ensinando e é assim que estou fazendo e assim que eu queria um curso que realmente me dê o entendimento do defeito para eu ir na boa e é por isso que eu tô fazendo seu rosto estou muito satisfeito obrigado a e aí

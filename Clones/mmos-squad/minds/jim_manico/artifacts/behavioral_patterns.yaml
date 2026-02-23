@@ -1,0 +1,394 @@
+# =============================================================================
+# Layer 1 — Observable Behavioral Patterns
+# Subject: Jim Manico
+# Generated: 2026-02-19
+# Analyst: Daniel (Behavioral Analyst Agent)
+# Sources: 11 documents (5 podcasts, 5 blogs/websites, 1 YouTube talk)
+# =============================================================================
+
+meta:
+  layer: 1
+  layer_name: "Observable Behavioral Patterns"
+  subject: "Jim Manico"
+  generated: "2026-02-19"
+  source_count: 11
+  confidence: "high"
+  notes: >
+    Layer 1 captures externally observable behaviors — what Jim Manico
+    demonstrably does, how he acts in professional contexts, and the
+    patterns visible to anyone watching him work. These are facts, not
+    inferences about internal states.
+
+# ---------------------------------------------------------------------------
+# 1. PROFESSIONAL BEHAVIORS
+# ---------------------------------------------------------------------------
+professional_behaviors:
+
+  teaching_behavior:
+    description: >
+      Jim Manico is primarily a security educator. He conducts 100+ training
+      days per year, making teaching his dominant professional activity. His
+      teaching is live, interactive, and modular — combining lecture,
+      security testing demonstration, and code review in each session.
+    frequency: "100+ days annually"
+    format:
+      - "Live instructor-led (in-person and virtual)"
+      - "Downloadable courses"
+      - "Conference talks (60-90 minute sessions)"
+      - "Full-day workshops (09:00-17:30)"
+      - "Deep-dive lectures (90 minutes)"
+    methodology: "Lecture + security testing demonstration + code review"
+    evidence:
+      - source: "T2-podcast-secure-developer-ep26"
+        quote: "Conducts 100+ training days annually"
+      - source: "T3-manicode-website"
+        quote: "Manicode classes are a combination of lecture, security testing demonstration, and code review"
+      - source: "T3-secappdev-2025-bio"
+        detail: "One-day hands-on workshop at SecAppDev 2025 (09:00-17:30) plus a 90-minute deep-dive lecture"
+
+  performance_orientation:
+    description: >
+      Jim explicitly frames teaching as part performance, part knowledge
+      transfer. He aims to leave audiences emotionally elevated and excited
+      about security, not just informed. This is a deliberate theatrical
+      approach to education.
+    evidence:
+      - source: "T2-podcast-absolute-appsec-ep27"
+        quote: "When you're on stage teaching, it's half performance, half knowledge... I want them to walk away being lifted up and excited."
+      - source: "T2-podcast-virtual-ciso-ep19"
+        detail: "Host noted his energy as surpassing typical industry enthusiasm levels"
+
+  owasp_volunteer_leadership:
+    description: >
+      Jim holds leadership positions across multiple OWASP projects
+      simultaneously, maintaining long-term stewardship rather than
+      one-off contributions. He co-leads ASVS, co-leads the Proactive
+      Controls, and co-leads the Cheatsheet Series.
+    roles:
+      - project: "OWASP ASVS"
+        role: "Project Leader / Lead Author (v2, 2014; continuing leader through v5.0.0)"
+        evidence:
+          - source: "T1-owasp-asvs"
+            detail: "Listed as project leader alongside Daniel Cuthbert, Elar Lang, Josh Grossman"
+      - project: "OWASP Proactive Controls"
+        role: "Project Leader / Original Author (v1.0, 2014)"
+        evidence:
+          - source: "T1-owasp-proactive-controls"
+            detail: "Project leader alongside Andreas Happe, Katy Anton. Created v1.0 with Jim Bird"
+      - project: "OWASP Cheatsheet Series"
+        role: "Co-lead"
+        evidence:
+          - source: "T3-secappdev-2025-bio"
+            detail: "Co-leads OWASP ASVS and Cheatsheet Series"
+    pattern: >
+      Sustained multi-year commitment to OWASP projects (2014-2025+),
+      not episodic involvement. This is a defining behavioral trait.
+
+  conference_circuit:
+    description: >
+      Jim maintains a heavy conference speaking schedule across major
+      security and developer conferences globally. He appears at both
+      security-focused events (DEF CON, AppSec conferences) and
+      developer-focused events (NDC, SecAppDev).
+    observed_events:
+      - "NDC Conferences (developer-focused)"
+      - "SecAppDev 2025 (Leuven, Belgium)"
+      - "DEF CON (Las Vegas)"
+      - "Global AppSec Barcelona (OWASP flagship)"
+      - "Various podcast appearances (Secure Developer, Absolute AppSec, Resilient Cyber, Virtual CISO, Tromzo)"
+    evidence:
+      - source: "T3-secappdev-2025-bio"
+        detail: "Two sessions at SecAppDev 2025"
+      - source: "T2-podcast-absolute-appsec-ep27"
+        detail: "DEF CON training course listed"
+      - source: "T1-owasp-asvs"
+        detail: "ASVS 5.0.0 released at Global AppSec Barcelona"
+    pattern: >
+      Bridges the security-developer conference divide. Does not confine
+      himself to security-only events — deliberately seeks developer
+      audiences.
+
+  company_leadership:
+    description: >
+      Founder and CEO of Manicode Security, a training-focused company.
+      The company is essentially a vehicle for his educational mission
+      rather than a typical security consultancy.
+    company: "Manicode Security"
+    role: "Founder / CEO"
+    focus: "Secure coding education for developers, architects, and AI systems"
+    tagline: "You can and will write secure code"
+    evidence:
+      - source: "T3-manicode-website"
+        quote: "You can and will write secure code"
+      - source: "T2-podcast-absolute-appsec-ep27"
+        detail: "Founded Manicode Security with modular developer training approach"
+
+# ---------------------------------------------------------------------------
+# 2. DECISION-MAKING PATTERNS
+# ---------------------------------------------------------------------------
+decision_making_patterns:
+
+  asvs_over_top_10:
+    description: >
+      Consistently and repeatedly advocates for OWASP ASVS over the OWASP
+      Top 10 as the actual security standard to use. This is not a casual
+      preference but a core decision principle he returns to across
+      multiple contexts.
+    evidence:
+      - source: "T1-ndc-owasp-top10-to-asvs"
+        quote: "OWASP Top 10 = awareness tool (starting point). OWASP ASVS = verification standard (comprehensive security)."
+      - source: "T2-podcast-secure-developer-ep26"
+        detail: "Uses OWASP ASVS (NOT Top 10) for security requirements"
+    pattern: >
+      Hierarchical thinking — categorizes tools by their appropriate use
+      level (awareness vs. verification) rather than dismissing the lesser
+      tool entirely.
+
+  senior_over_quantity:
+    description: >
+      When making team composition decisions, Jim consistently favors
+      fewer senior developers over many juniors for security-critical work.
+      This reveals a quality-over-quantity decision heuristic.
+    evidence:
+      - source: "T2-podcast-secure-developer-ep26"
+        quote: "I'd rather have two very senior developers than 20 novices"
+    pattern: >
+      Pragmatic cost-benefit thinking. Recognizes hidden costs of
+      knowledge gaps in junior developers on security-critical projects.
+
+  infrastructure_before_velocity:
+    description: >
+      Advocates establishing security infrastructure (auth services, access
+      control frameworks, crypto standards) BEFORE beginning high-velocity
+      agile sprints. Pre-sprint discipline over move-fast-and-fix-later.
+    evidence:
+      - source: "T2-podcast-secure-developer-ep26"
+        detail: "Pre-sprint infrastructure discipline: established authentication services, access control frameworks, and cryptographic standards BEFORE high-velocity sprinting"
+    pattern: >
+      Front-loads foundational work. Does not trust emergent security
+      practices in fast-paced sprints.
+
+  practical_over_theoretical:
+    description: >
+      Consistently prioritizes practical, immediately applicable advice
+      over theoretical or academic security concepts. Training focuses
+      on "immediate integration" and hands-on techniques.
+    evidence:
+      - source: "T2-podcast-itspmagazine-brand-story"
+        detail: "Focus on practical application for immediate integration"
+      - source: "T3-manicode-website"
+        detail: "Courses are intensive, interactive, and customizable providing essential application security training"
+      - source: "T2-podcast-virtual-ciso-ep19"
+        detail: "Prioritizes practical, understandable advice"
+
+  ai_as_augmentation_not_replacement:
+    description: >
+      When confronted with AI disruption, Jim's decision pattern is to
+      integrate and augment rather than resist or fully automate. He
+      applies AI to enhance his existing training methodology.
+    evidence:
+      - source: "T2-podcast-itspmagazine-brand-story"
+        quote: "Augmentation rather than replacement"
+      - source: "T2-podcast-resilient-cyber"
+        detail: "Demonstrated accomplishing the work of teams of people on his own by leveraging AI agents"
+      - source: "T3-secappdev-2025-bio"
+        detail: "Session titled 'Using AI to Write Secure React.JS Code' — applying AI within his domain"
+
+  investment_by_domain_expertise:
+    description: >
+      Jim's investment decisions cluster tightly around application
+      security tooling — the exact domain of his professional expertise.
+      He invests in what he deeply understands.
+    evidence:
+      - source: "T3-secappdev-2025-bio"
+        detail: "Fund-limited investor with Aviso Ventures, backing: SemGrep, EdgeScan, Nucleus Security, Defect Dojo, KSOC, Akto, MergeBase, Inspectiv, Levo.ai, Phoenix"
+    pattern: >
+      All investment targets are security tooling companies. No evidence
+      of investments outside his core domain. This suggests domain-bound
+      investment conviction rather than diversified portfolio thinking.
+
+# ---------------------------------------------------------------------------
+# 3. SOCIAL INTERACTION PATTERNS
+# ---------------------------------------------------------------------------
+social_interaction_patterns:
+
+  audience_empathy:
+    description: >
+      Jim deliberately calibrates his communication to the audience level.
+      He translates complex AppSec concepts for both technical and
+      non-technical audiences rather than speaking at a single register.
+    evidence:
+      - source: "T2-podcast-virtual-ciso-ep19"
+        detail: "Translates complex AppSec concepts for both technical and non-technical audiences. Ensures even technically un-savvy listeners could grasp fundamentals."
+      - source: "T2-podcast-virtual-ciso-ep19"
+        detail: "Host noted Jim's great business sense and capacity to excite audiences about security"
+
+  developer_advocacy:
+    description: >
+      Jim positions himself as an advocate FOR developers, not a security
+      person lecturing AT developers. His framing consistently treats
+      developers as professionals who need enablement, not correction.
+    evidence:
+      - source: "T3-manicode-website"
+        quote: "You can and will write secure code"
+        note: "Affirmative, empowering framing"
+      - source: "T2-podcast-itspmagazine-brand-story"
+        quote: "Developers should view security as essential software quality, not merely compliance checkbox"
+      - source: "T2-podcast-absolute-appsec-ep27"
+        quote: "I want them to walk away being lifted up and excited"
+
+  mentorship_lineage:
+    description: >
+      Jim explicitly credits Stephen Northcutt as the mentor who pivoted
+      his career. He honors this mentorship lineage publicly and
+      repeatedly, suggesting strong values around gratitude and
+      intellectual debt acknowledgment.
+    evidence:
+      - source: "T2-podcast-secure-developer-ep26"
+        detail: "Transitioned to security education after mentorship by Stephen Northcutt"
+      - source: "T2-podcast-absolute-appsec-ep27"
+        detail: "Pivotal moment: met Stephen Northcutt, who recognized need for security from developer perspective"
+
+  cross_functional_bridge:
+    description: >
+      Jim actively bridges the gap between developer teams and security
+      teams. He advocates for partnership models where developers and
+      security teams collaborate, rather than adversarial gatekeeping.
+    evidence:
+      - source: "T2-podcast-tromzo-owasp-top10"
+        quote: "When developers explain app functionality and security logging together with teams, they know what logs matter most"
+      - source: "T2-podcast-virtual-ciso-ep19"
+        detail: "Title concept: 'AppSec is a Team Sport'"
+      - source: "T2-podcast-secure-developer-ep26"
+        detail: "Core pillar: Embedded Security Champions within dev teams"
+
+  podcast_accessibility:
+    description: >
+      Jim is highly accessible to podcast hosts and media. Across the
+      collected sources, he appeared on at least 5 different podcasts
+      with varied hosts and audiences, suggesting he prioritizes
+      visibility and knowledge dissemination through media channels.
+    observed_appearances:
+      - "The Secure Developer (Snyk/Heavybit)"
+      - "Absolute AppSec"
+      - "Resilient Cyber"
+      - "The Virtual CISO Podcast"
+      - "Tromzo AppSec podcast"
+
+# ---------------------------------------------------------------------------
+# 4. WORK PATTERNS
+# ---------------------------------------------------------------------------
+work_patterns:
+
+  training_volume:
+    days_per_year: "100+"
+    distribution: "Global (US, Europe, virtual)"
+    evidence:
+      - source: "T2-podcast-secure-developer-ep26"
+
+  content_maintenance:
+    description: >
+      Jim maintains and updates OWASP projects across multiple version
+      cycles spanning over a decade. ASVS went from v2 (2014) to v5.0.0
+      (2025). Proactive Controls went from v1.0 (2014) to 2024 version.
+      This represents sustained content curation, not just creation.
+    evidence:
+      - source: "T1-owasp-asvs"
+        detail: "Lead Author v2 (2014), continuing through v5.0.0 (2025)"
+      - source: "T1-owasp-proactive-controls"
+        detail: "v1.0 (2014) through 2024 version"
+
+  curriculum_evolution:
+    description: >
+      Jim continuously updates his training curriculum to match current
+      threats. Recent additions include AI security (prompt injection,
+      model poisoning), LLM-assisted secure coding, and AI-enhanced
+      code review.
+    recent_additions:
+      - "Practical Secure Code Review - AI Enhanced (virtual)"
+      - "Harnessing LLMs for Application Security (DEF CON)"
+      - "Using AI to Write Secure React.JS Code (SecAppDev 2025)"
+    evidence:
+      - source: "T2-podcast-absolute-appsec-ep27"
+      - source: "T3-secappdev-2025-bio"
+      - source: "T2-podcast-tromzo-owasp-top10"
+        quote: "Significant demand for his course covering prompt injection, model poisoning, and data theft vulnerabilities in AI systems"
+
+  triple_role_maintenance:
+    description: >
+      Jim simultaneously maintains three distinct professional roles:
+      (1) educator/trainer, (2) OWASP volunteer leader, (3) investor/advisor.
+      These are not sequential career phases but concurrent activities.
+    roles:
+      - "Educator: 100+ training days, course development, conference speaking"
+      - "OWASP Leader: ASVS, Proactive Controls, Cheatsheet Series stewardship"
+      - "Investor/Advisor: Aviso Ventures, 10+ portfolio companies"
+
+# ---------------------------------------------------------------------------
+# 5. INVESTMENT & ADVISORY BEHAVIORS
+# ---------------------------------------------------------------------------
+investment_advisory:
+
+  investment_vehicle: "Aviso Ventures (fund-limited investor)"
+  portfolio_companies:
+    - "SemGrep"
+    - "EdgeScan"
+    - "Nucleus Security"
+    - "Defect Dojo"
+    - "KSOC"
+    - "Akto"
+    - "MergeBase"
+    - "Inspectiv"
+    - "Levo.ai"
+    - "Phoenix"
+  portfolio_pattern: >
+    All 10 companies are in the application security, vulnerability
+    management, or security tooling space. Zero diversification outside
+    core domain. This suggests Jim uses his professional expertise as
+    the primary investment filter.
+  evidence:
+    - source: "T3-secappdev-2025-bio"
+
+  advisory_behavior:
+    description: >
+      Jim's advisory role appears to extend his educational mission into
+      the startup ecosystem. He backs tools that align with his teaching
+      philosophy — tools that help developers write more secure code or
+      manage vulnerabilities more effectively.
+
+# ---------------------------------------------------------------------------
+# 6. KEY BEHAVIORAL EVIDENCE SUMMARY
+# ---------------------------------------------------------------------------
+key_behavioral_evidence:
+
+  - behavior: "Teaches 100+ days per year"
+    type: "work_volume"
+    source: "T2-podcast-secure-developer-ep26"
+
+  - behavior: "Frames teaching as half performance, half knowledge"
+    type: "teaching_philosophy"
+    source: "T2-podcast-absolute-appsec-ep27"
+
+  - behavior: "Maintains OWASP projects across 10+ year spans"
+    type: "sustained_commitment"
+    source: "T1-owasp-asvs, T1-owasp-proactive-controls"
+
+  - behavior: "Invests exclusively in AppSec tooling companies"
+    type: "domain_investment"
+    source: "T3-secappdev-2025-bio"
+
+  - behavior: "Bridges developer and security audiences deliberately"
+    type: "cross_functional"
+    source: "T2-podcast-virtual-ciso-ep19"
+
+  - behavior: "Continuously adapts curriculum to include AI security"
+    type: "curriculum_evolution"
+    source: "T2-podcast-tromzo-owasp-top10, T3-secappdev-2025-bio"
+
+  - behavior: "Credits mentors publicly and repeatedly"
+    type: "gratitude_pattern"
+    source: "T2-podcast-secure-developer-ep26, T2-podcast-absolute-appsec-ep27"
+
+  - behavior: "Advocates ASVS over Top 10 in every appropriate context"
+    type: "standards_advocacy"
+    source: "T1-ndc-owasp-top10-to-asvs, T2-podcast-secure-developer-ep26"

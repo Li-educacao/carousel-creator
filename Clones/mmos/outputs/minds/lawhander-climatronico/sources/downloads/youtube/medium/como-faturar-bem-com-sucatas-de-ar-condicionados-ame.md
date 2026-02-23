@@ -1,0 +1,14 @@
+# Como faturar bem com sucatas de ar-condicionados? #AME
+
+- **Video ID:** Xddinks2gbo
+- **URL:** https://www.youtube.com/watch?v=Xddinks2gbo
+- **Duration:** 4 min
+- **Views:** 110
+- **Published:** 2022-02-08T15:00:30Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+e eu tenho uma demanda muito grande no meu serviço de ar condicionado já porque eu já fazia então geralmente é só a noite que eu mexeu quer que eu foquei comprar máquina né comprar máquina com certo e revendo compra marca com certo e vem esse mês agora eu vendi uma Samsung para o universo sabe que já tô com uma ideia aqui na agulha vou estar lá amanhã de manhã pode assinar médio na América 300reais América o que é isso e às vezes sim às vezes mais é o médico e aí não repara a placa mas tem algum de PM que teve que gastar um pouco mais o Amaury é a maioria coisinha mas mais bacana graças a Deus até agora você acredita é essa que eu vou vender amanhã por r$ 1200 instalar me parece ser um bom negócio só que eu não tenho assim já ela tem um faturamento Bacana começou esse ar condicionado então assim o tempo que eu vamos assim iria tá Tem que focar para consertar a placa dos cara que a noite então eu tiro um dois dias na semana e consegue para mim mesmo e Posso aproveitar o arranjo tempo para a família foi tipo um faturamento a mais que o agreguei né E aí mais ele que tá maior parte do tempo uma parte mecânica instalação uma simples manutenção e é maior parte do tempo é esse procurando assim versus encostada seus clientes para nós comprar eu acho que a rosto pense do meu primeiro aluno que aplicou isso com frequência né cara de comprar no preço do notebook por uma coisa parada para o cliente né E aí ela falou reparo como custa instalar também sabe está lá dentro que a gente estava na outra aqui aqui quando eu vou estar lá eu percebi isso Oi e aí acabou ganhando mais legal sentir aqui a instalação ou desinstalação que passa você ai r$ 350 350 tirar vazado tu ligar para o 850 o preço da casa da máquina na verdade foi para o aeroporto 150 é basicamente o repasse um pouquinho será sensacional sensacional olhando do ponto de vista aqui e a gente está no nordeste tu fala de qual cidade de Mossoró Rio Grande do Norte e e e e por nossos preços são assim a gente fala aí fala que o Brasil e o nosso preço aqui do norte nordeste mais em conta do que o padrão de vida norte nordeste é menor do que o padrão de vida né tu tiveste né então naturalmente pressa menores do que tem que você cobrar ou já ouvi a noite reparo em São Paulo é quase 50 entendeu aqui vou botar mais de rapaz nesse Ivo ele fica aí né uma máquina nova

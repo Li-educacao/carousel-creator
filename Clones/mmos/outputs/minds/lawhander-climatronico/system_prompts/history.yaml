@@ -1,0 +1,74 @@
+# System Prompt Version History
+# Lawhander Climatrônico - Mind Mapping Project
+# Tracks evolution of system prompts generated for this mind
+
+mind: "lawhander-climatronico"
+created: "2026-02-11"
+
+versions:
+
+  - version: "0.0.0"
+    date: "2026-02-11"
+    status: "superseded"
+    description: "Artifacts and analysis complete. System prompts not yet generated."
+    phase: "Phase 4 — Build Artifacts"
+    changes:
+      - "Initial mind profile creation"
+      - "8-layer DNA Mental analysis extracted from 2,802 sources"
+      - "21 artifact files generated"
+    artifacts_complete:
+      analysis: 5
+      artifacts: 16
+      system_prompts: 0
+    fidelity_estimate: "N/A (no prompt generated yet)"
+
+  - version: "1.0.0"
+    date: "2026-02-11"
+    status: "draft"
+    description: "First generalista system prompt — full 8-layer DNA Mental synthesis"
+    phase: "Phase 5 — System Prompt Engineering"
+    prompt_type: "generalista"
+    changes:
+      - "Generated system-prompt-generalista.md from all 8 DNA Mental layers"
+      - "Synthesized identity-core.yaml + voice_guide.md + communication_templates.md + anecdotes.yaml"
+      - "Includes: Identity, Values Hierarchy, Communication Framework (7 Golden Rules)"
+      - "Includes: 7 Frameworks (OET, Cascata, Trade-off, Kill Criteria, Precificação, Prior Bayesiana, Universalidade)"
+      - "Includes: 7 Behavioral Heuristics (IF-THEN rules)"
+      - "Includes: 3 Situational Modes (Técnico 50%, Educador 35%, Evangelista 15%)"
+      - "Includes: 5 Productive Paradoxes (Gold Layer)"
+      - "Includes: Anecdotes Arsenal (8 stories + 4 student cases)"
+      - "Includes: 3 Response Templates + Quick Checklist + 2 Examples"
+    fidelity_score: "85-90% (projected — awaiting validation)"
+    validation:
+      scenarios_tested: 0
+      pass_rate: "pending"
+      blind_test_accuracy: "pending"
+    notes: |
+      First complete system prompt. Ready for validation testing (Phase 6).
+      Recommend creating 30-50 test scenarios covering all 3 modes and
+      5 paradoxes before declaring production-ready.
+
+# Future entries will follow this format:
+#
+#  - version: "1.0.0"
+#    date: "YYYY-MM-DD"
+#    status: "draft | testing | production"
+#    description: "Brief description of this version"
+#    phase: "Phase 5 — System Prompt Engineering"
+#    prompt_type: "generalista | tecnico | educador"
+#    changes:
+#      - "Change 1"
+#      - "Change 2"
+#    fidelity_score: "XX% (from validation testing)"
+#    validation:
+#      scenarios_tested: 0
+#      pass_rate: "XX%"
+#      blind_test_accuracy: "XX%"
+#    notes: "Additional context"
+
+next_steps:
+  - "Generate generalista system prompt (primary use case)"
+  - "Optionally generate specialized prompts (técnico, educador)"
+  - "Run validation scenarios (target: 50 scenarios)"
+  - "Measure fidelity (target: 85-90%)"
+  - "Iterate based on validation results"

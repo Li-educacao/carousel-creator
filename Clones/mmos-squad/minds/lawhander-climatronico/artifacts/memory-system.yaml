@@ -1,0 +1,324 @@
+# Memory System Architecture
+# Lawhander Climatrônico - AI Clone Long-Term Memory & Knowledge Integration
+# Version: 1.0
+# Created: 2026-02-11
+# Status: Specification Complete
+
+metadata:
+  purpose: "Define complete memory architecture for 85-90% fidelity AI clone"
+  integration_target: "58 blog posts + 2,744 YouTube video transcripts (3.16M palavras)"
+  retrieval_target: "Semantic search with domain-specific technical vocabulary"
+
+# =============================================================================
+# MEMORY ARCHITECTURE OVERVIEW
+# =============================================================================
+
+memory_architecture:
+  description: "3-tier memory system: Core Identity (unchanging) + Knowledge Base (evolving) + Session Memory (contextual)"
+
+  tiers:
+    tier_1_core_identity:
+      description: "Unchanging cognitive architecture - loaded at initialization"
+      persistence: "permanent"
+      update_frequency: "never (unless Lawhander fundamentally changes)"
+      size: "~40KB"
+      location: "artifacts/identity-core.yaml + analysis/cognitive-spec.yaml"
+
+    tier_2_knowledge_base:
+      description: "Retrievable knowledge chunks from 3.16M words"
+      persistence: "long-term"
+      update_frequency: "monthly (as Lawhander creates new content)"
+      size: "600-900 chunks (~80MB with embeddings)"
+      location: "kb/ directory (when built)"
+
+    tier_3_session_memory:
+      description: "Conversation context + current diagnostic state"
+      persistence: "session-scoped"
+      update_frequency: "real-time (every interaction)"
+      size: "variable (up to model context limit)"
+      location: "runtime memory"
+
+# =============================================================================
+# TIER 1: CORE IDENTITY (Unchanging Foundation)
+# =============================================================================
+
+tier_1_core_identity:
+  description: "O DNA — sempre carregado, nunca recuperado por busca"
+
+  components:
+    psychometric_profile:
+      data: "Big Five (O:7, C:9, E:8, A:6, N:3), MBTI (ESTJ inferred), DISC (DI), Enneagram (3w2)"
+      usage: "Informs communication style, decision patterns, energy level"
+      loaded_from: "artifacts/psychometric_profile.json"
+
+    values_hierarchy:
+      data: "7 values ranked by importance"
+      top_3: ["Democratização (motor primário)", "Prática sobre Teoria", "Qualidade Técnica"]
+      usage: "Decision filters - NEVER violate top 3"
+      loaded_from: "artifacts/values_hierarchy.yaml"
+
+    core_obsessions:
+      data: "5 driving questions, intensity 7-10"
+      primary: "Como democratizar conhecimento técnico sem simplificar?"
+      usage: "All outputs must trace to at least one obsession"
+      loaded_from: "artifacts/core_obsessions.yaml"
+
+    productive_paradoxes:
+      data: "5 generative tensions"
+      critical: ["Otimista com Kill Criteria", "Prático que Ensina Teoria", "Humilde de R$1 Milhão"]
+      usage: "Embody paradoxes, NEVER resolve them"
+      loaded_from: "artifacts/contradictions.yaml"
+
+    mental_models:
+      data: "7+ decision frameworks"
+      core: ["Eletrônica é uma só", "Toda placa tem reparo", "Método OET", "Trade-off Matrix", "Kill Criteria"]
+      usage: "Embedded reasoning logic for all diagnostic outputs"
+      loaded_from: "analysis/mental-models.yaml"
+
+    voice_system:
+      data: "Single persona with 3 mode switches (técnico 50%, educador 35%, evangelista 15%)"
+      switching_logic: "Context-triggered mode activation"
+      loaded_from: "artifacts/voice_guide.md + artifacts/writing_style.yaml"
+
+    behavioral_patterns:
+      data: "Decision-making, work, learning, relationship, risk patterns"
+      core: ["Progressive Elimination", "Measure-Then-Act", "Time-Boxing", "Document Everything"]
+      loaded_from: "artifacts/behavioral_patterns.yaml"
+
+    anecdotes_library:
+      data: "10 stories + 8 metaphors + 8 case studies + 16 catchphrases"
+      usage: "Inject naturally into responses for authenticity"
+      loaded_from: "artifacts/anecdotes.yaml"
+
+  loading_strategy:
+    when: "Clone initialization (system prompt load)"
+    format: "Embedded in system prompt"
+    size_optimization: "Core identity compressed to ~40KB for context efficiency"
+    priority_order:
+      1: "Identity signature + values + paradoxes (identity-core.yaml)"
+      2: "Voice guide (voice_guide.md)"
+      3: "Mental models + behavioral patterns"
+      4: "Anecdotes library (for naturalistic responses)"
+
+# =============================================================================
+# TIER 2: KNOWLEDGE BASE (Retrievable Technical Knowledge)
+# =============================================================================
+
+tier_2_knowledge_base:
+  description: "600-900 semantic chunks from 3.16M words, retrieved on-demand"
+
+  structure:
+    total_chunks_target: "600-900"
+    chunk_size: "300-500 words"
+    overlap: "50 words between adjacent chunks"
+    metadata_richness: "12+ fields per chunk"
+
+  domains:
+    diagnostico_tecnico:
+      chunks_target: "200-300"
+      content: "Diagnósticos de placas específicas, procedimentos, medições, valores esperados"
+      sources: "58 blog posts + tutoriais YouTube (461 vídeos)"
+      priority: "highest"
+
+    componentes_eletronicos:
+      chunks_target: "80-120"
+      content: "Capacitores, transistores, IPMs, SMD, trilhas, soldas — comportamento e falhas"
+      sources: "Blog posts técnicos + vídeos médios (980)"
+
+    precificacao_negocios:
+      chunks_target: "60-80"
+      content: "Framework 30-50%, Jornada Zero ao 5K, métodos errados, parábola do transistor"
+      sources: "Podcasts motivacionais + blog posts"
+
+    historias_alunos:
+      chunks_target: "80-120"
+      content: "Casos de sucesso: Gleydstone, Dionatan, Diógenes, Evandro, Diego + outros"
+      sources: "313 podcasts Bate-papo Climatrônico"
+
+    metodo_oet_pedagogia:
+      chunks_target: "40-60"
+      content: "Método OET, cascata diagnóstica, ferramentas recomendadas, jornada de aprendizado"
+      sources: "Cross-source (todos os formatos)"
+
+    seguranca_eletrica:
+      chunks_target: "30-40"
+      content: "Procedimentos de segurança, descarga de capacitores, EPI, riscos letais"
+      sources: "Avisos em blog posts + vídeos"
+
+    marcas_modelos:
+      chunks_target: "100-150"
+      content: "Daikin, Samsung, LG, Carrier, Midea, Hitachi, Philco — códigos de erro, falhas comuns"
+      sources: "Blog posts por marca + tutoriais específicos"
+
+  retrieval_system:
+    embedding_model:
+      name: "text-embedding-3-large (recommended) or similar"
+      dimensions: 3072
+      note: "Must handle Portuguese technical vocabulary (ESR, IPM, DC-Link, etc.)"
+
+    search_parameters:
+      default_top_k: 8
+      confidence_threshold: 80
+      domain_boost:
+        diagnostico_tecnico: 1.3
+        seguranca_eletrica: 1.5  # Safety always boosted
+        marcas_modelos: 1.2
+      relevance_boost:
+        empirical_data: 1.4  # "Da Minha Bancada" sections
+        numerical_anchors: 1.3  # Posts with specific measurements
+        case_studies: 1.2
+
+  retrieval_workflow:
+    step_1: "Analyze user query — detect marca/modelo, tipo de defeito, contexto"
+    step_2: "Embed query, search vector DB"
+    step_3: "Apply domain + relevance + safety boosts"
+    step_4: "Return top-5 chunks with source attribution"
+    step_5: "Synthesize: Core Identity + KB chunks → response in Lawhander voice"
+
+  usage_in_response:
+    when_to_retrieve:
+      - "User asks about diagnóstico de placa específica"
+      - "User asks about marca/modelo com código de erro"
+      - "User needs medições/valores esperados"
+      - "User asks about precificação ou carreira"
+      - "User asks about caso real / história de aluno"
+
+    when_NOT_to_retrieve:
+      - "Question answerable from core identity (Tier 1)"
+      - "Generic conversation / rapport building"
+      - "Safety warnings (always available in Tier 1)"
+      - "Motivational coaching (core identity sufficient)"
+
+    integration_pattern:
+      direct_quote: "Use for catchphrases and mantras ('Eletrônica é uma só')"
+      paraphrase: "Use for technical procedures (adapt to user's level)"
+      data_anchoring: "Use for numerical data (%, R$, ohms, V)"
+      attribution: "Reference 'Da Minha Bancada' when citing empirical data"
+
+# =============================================================================
+# TIER 3: SESSION MEMORY (Contextual Conversation)
+# =============================================================================
+
+tier_3_session_memory:
+  description: "Real-time conversation context and diagnostic state"
+
+  components:
+    conversation_history:
+      scope: "Current session"
+      retention: "Up to model context limit"
+      structure: "User message → Assistant response pairs"
+
+    user_context:
+      detected_patterns:
+        - "User's technical level (iniciante, intermediário, avançado)"
+        - "User's equipment brand/model (if mentioned)"
+        - "User's role (instalador, técnico, proprietário de assistência)"
+        - "User's primary need (diagnóstico, precificação, motivação, aprendizado)"
+      update_frequency: "Every interaction"
+
+    diagnostic_state:
+      description: "Track ongoing diagnostic conversation"
+      fields:
+        - "current_equipment: Marca, modelo, tipo (split, VRF, etc.)"
+        - "current_symptom: Código de erro, comportamento observado"
+        - "diagnostic_phase: Qual etapa da cascata o usuário está"
+        - "measurements_taken: Valores já medidos pelo usuário"
+        - "hypotheses_active: Componentes suspeitos ainda em teste"
+        - "hypotheses_eliminated: Componentes já descartados"
+
+    mode_state:
+      current_mode: "técnico | educador | evangelista"
+      mode_history: "Track switches in session"
+      switch_triggers:
+        to_tecnico: "Pergunta técnica específica, placa na bancada"
+        to_educador: "Dúvida sobre carreira, medo, precificação"
+        to_evangelista: "Gambiarra detectada, técnico sem método"
+
+  memory_operations:
+    summarization:
+      trigger: "Token limit approaching"
+      method: "Compress old turns, preserve diagnostic state and measurements"
+      retention: "Summary + diagnostic state + last 5 turns full-context"
+
+    diagnostic_carry_forward:
+      description: "Nunca perder estado diagnóstico mid-conversation"
+      priority: "HIGHEST — perder medições é como perder dados de paciente"
+      format: "Structured diagnostic state object always in context"
+
+# =============================================================================
+# IMPLEMENTATION GUIDELINES
+# =============================================================================
+
+implementation_guidelines:
+
+  initialization_sequence:
+    step_1: "Load Tier 1 (Core Identity) into system prompt"
+    step_2: "Initialize vector DB connection (Tier 2 - KB) if available"
+    step_3: "Create empty session memory (Tier 3)"
+    step_4: "Set initial mode to 'técnico' (default)"
+    step_5: "Ready for interaction"
+
+  per_interaction_flow:
+    step_1: "Receive user query"
+    step_2: "Update session memory (add to history)"
+    step_3: "Detect mode + domain + intent"
+    step_4: "Check if KB retrieval needed"
+    step_5: "If yes → execute retrieval workflow (Tier 2)"
+    step_6: "Check diagnostic state (ongoing diagnosis?)"
+    step_7: "Synthesize: Core Identity + KB chunks + Session context"
+    step_8: "Generate response in appropriate mode"
+    step_9: "Update diagnostic state if applicable"
+
+  error_handling:
+    kb_unavailable:
+      fallback: "Use core identity only + acknowledge limited specifics"
+      message: "Baseado na minha experiência geral (não tenho o dado específico dessa placa agora)"
+
+    unknown_brand_model:
+      fallback: "Apply 'Eletrônica é uma só' — use universal diagnostic principles"
+      message: "Não tenho dados específicos dessa placa, mas eletrônica é uma só — vamos seguir a cascata diagnóstica"
+
+    safety_situation:
+      action: "IMMEDIATELY activate safety mode regardless of context"
+      message: "⚠️ PARA TUDO. Segurança primeiro. [safety procedure]"
+
+# =============================================================================
+# PERFORMANCE TARGETS
+# =============================================================================
+
+performance_targets:
+  retrieval_precision: "80%+ relevant chunks in top-5"
+  domain_coverage: "85%+ of Lawhander's documented knowledge represented"
+  fidelity_impact: "KB retrieval increases response accuracy by 15-25%"
+
+  mode_distribution:
+    target: "Técnico 50% ±10%, Educador 35% ±10%, Evangelista 15% ±5%"
+    monitoring: "Track per session, adjust if drift detected"
+
+  voice_fidelity:
+    target: "Responses indistinguishable from Lawhander in blind test >80% of time"
+    markers: "Vocabulary, tone, data density, structural patterns"
+
+# =============================================================================
+# VERSIONING & EVOLUTION
+# =============================================================================
+
+versioning:
+  tier_1_core_identity:
+    version: "1.0"
+    changes: "Only if Lawhander fundamentally changes methodology or values"
+    process: "Re-extract DNA Mental™, update analysis + artifacts files"
+
+  tier_2_knowledge_base:
+    version: "Dynamic (continuous updates)"
+    frequency: "Monthly (as Lawhander publishes new content)"
+    process: "Add new chunks from new blog posts, videos, podcasts"
+    growth_rate: "~4-5 videos/week + ~2-3 blog posts/month"
+
+  tier_3_session_memory:
+    version: "Per-session (ephemeral)"
+    persistence: "Diagnostic state summary carried if session continues"
+
+version: "1.0"
+status: "Specification complete"
+confidence: 85

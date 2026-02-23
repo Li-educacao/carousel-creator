@@ -1,0 +1,14 @@
+# COMO AUMENTAR SUA MARGEM DE LUCRO POR SERVIÇO, TRAZENDO MAIS SATISFAÇÃO PARA OS SEUS CLIENTES #AME
+
+- **Video ID:** dK_3sliHVo0
+- **URL:** https://www.youtube.com/watch?v=dK_3sliHVo0
+- **Duration:** 3 min
+- **Views:** 58
+- **Published:** 2022-06-02T15:00:21Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+eu acho que dos autores mais importantes para sair dessa jornada toda é consegui entregar o serviço completo do cliente caro ele vem mais por isso é natural se você subir o cliente durante tá que precisa outras cobra mais pode ser o cara mais caro a cidade e ela vai parar porque você o cara que resolve parado mas 20 a gente tá nessa visão porque às vezes não é tão Clara para quem não é da área que é um grande diferencial chegar lá mais alguém tem tudo é um reparo contador refaça o mais rápido que vai assistindo né claro e o cliente valoriza mais que pôr o Alex é o cara ele vem aqui ele tem dito ele olha a minha máquina sua conta outra entendi é um parabéns parabéns de verdade esse cara mas obrigado cara é eu passei por isso é coisa simples cara uma vez eu eu queria fazer uma pintura de roda do carro simples mas é uma pintura uma roda não é simples e na verdade era só desamassar uma roda em fazer pintura e vai qualquer pessoa não é essa aqui é uma coisa muito simples não consegui fazer sabe porque eu tinha que levar o carro em uma oficina para tirar a roda levar nós em outra para tirar opinião depois levar essas Rodas em outro cara para desamassar levar em outro para poder fazer a pintura depois fazer o caminho inverso é só dificuldade desde um cara em outra cidade 100 quilômetros daqui o que emprestou quatro rodas para mim por no meu carro para me dar um café e ele desamassou já arrumou ali pintor me entregou montar pneu balanceado alinhado sério foi onde eu vi que eu falei caramba a gente tem que fazer o serviço inteiro processo inteiro pega Deixa pronto cobra mais caro não tem problema deixa pronto o cliente não tem dor de cabeça você falar para o seu cliente você tem que trazer sua máquina aqui eu já faço eu vou aí buscar você se inscreve aí eu posso na hora horas da noite não tem problema hoje você E aí eu deixei um pouquinho mais claro na exatamente ela peça disso é poderoso eu falo que o cliente tem um problema e ele quer que resolva loja tem uns que não saber que nenhuma r$ 250 aí é complicado mas geralmente o cliente fala senhor quer que resolve isso aqui ó vai ficar x cara resolve eu quero ver a máquina funcionando quer dormir gelado né é lavar a roupa ali e tal que é pronto independente do criar um fio quebrado ainda não é que resolve tem cliente que talvez a gente vai explicar ou então que isso não é isso aí

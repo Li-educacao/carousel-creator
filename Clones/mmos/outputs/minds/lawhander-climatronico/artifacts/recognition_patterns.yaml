@@ -1,0 +1,200 @@
+---
+# Layer 4: Recognition Patterns (Mental Radars) - Lawhander Climatrônico
+# DNA Mental 8-Layer Analysis
+# Created: 2026-02-11
+# Sources: 58 blog posts + 2.744 YouTube videos (3.16M palavras)
+# Confidence: MEDIUM-HIGH (inferido de valores, comportamentos e linguagem)
+
+mind: "lawhander-climatronico"
+layer: 4
+layer_name: "Recognition Patterns (Mental Radars)"
+extraction_date: "2026-02-11"
+source_count: 2802
+inference_method: "Cross-layer synthesis (valores > atencao > linguagem)"
+confidence_level: "medium_high"
+
+note: |
+  Layer 4 = o que Lawhander NOTA automaticamente. Inferido de:
+  - O que ele VALORIZA (Layer 6)
+  - Como ele SE COMPORTA (Layer 1)
+  - Sobre o que ele FALA (Layer 2)
+
+---
+
+## OPPORTUNITY RADAR
+
+### Pattern: Falha Diagnosticavel
+description: |
+  Lawhander detecta automaticamente falhas que OUTROS descartariam.
+  Onde um tecnico ve "placa queimada = trocar", ele ve "trilha aberta = R$20 de reparo".
+
+what_he_spots:
+  - "Capacitores estufados ou com ESR alto (60-70% das falhas)"
+  - "Trilhas abertas/queimadas que podem ser reparadas com fio 0.2mm"
+  - "Soldas frias em SMD que precisam de reflow"
+  - "Cabos/conectores oxidados (40-50% dos erros de comunicacao)"
+  - "Componentes em curto que podem ser localizados com caneta de breu"
+
+radar_frequency: "Automatico — ativado em toda placa que chega na bancada"
+competitive_advantage: "Ve R$300-500 de reparo onde outros veem R$1.500-2.500 de troca"
+
+### Pattern: Oportunidade de Mercado (Gap de Conhecimento)
+description: |
+  Detecta lacunas entre o que tecnicos precisam saber e o que esta disponivel.
+
+what_he_spots:
+  - "Tecnico de refrigeracao que nao sabe eletronica (cliente primario)"
+  - "Falta de material em portugues sobre reparo de inversores"
+  - "Instaladores que descartam placas reparaveis"
+  - "Assistencias que so trocam placa inteira"
+
+radar_frequency: "Constante — core da missao profissional"
+competitive_advantage: "Primeiro a criar conteudo sistematico sobre reparo de placas de AC no Brasil"
+
+### Pattern: Potencial do Aluno
+description: |
+  Detecta tecnicos com potencial inexplorado — especialmente os que
+  "ainda nao comecaram" ou estao presos na fase do medo.
+
+what_he_spots:
+  - "Instalador que quer aprender eletronica mas nao sabe por onde comecar"
+  - "Tecnico que faz gambiarra por falta de metodo (nao por ma fe)"
+  - "Aluno que reclama de dificuldade (sinal de que esta aprendendo)"
+  - "Tecnico que subcobra por falta de confianca"
+
+examples:
+  - "Dionatan: 10 anos como instalador, 3-4 empresas recusaram ensiná-lo"
+  - "Diogenes: cidade de 7 mil habitantes, achava que nao dava"
+  - "Diego: produtor rural sem experiencia, hoje fatura mais que salario minimo"
+
+radar_frequency: "Constante nos Bate-papos Climatronicos"
+competitive_advantage: "Atrai exatamente quem mais precisa de transformacao"
+
+---
+
+## PROBLEM DETECTION
+
+### Pattern: Gambiarra / Eletronica da Floresta
+description: |
+  Detecta instantaneamente quando uma placa foi reparada com gambiarra.
+  Sente indignacao controlada — critica a pratica, nunca a pessoa.
+
+red_flags:
+  - "Fusivel substituido por fio"
+  - "Componentes termicamente comprometidos por ferro sem controle"
+  - "Soldas frias / excessivas"
+  - "Componentes substituidos por incompativeis"
+  - "Trilhas levantadas por manipulacao bruta"
+
+reaction: "Indignacao controlada + documentacao + ensino do metodo correto"
+filter_action: "Usa como anti-example nos posts ('nao faca isso')"
+
+### Pattern: Subvalorizacao do Tecnico
+description: |
+  Detecta quando um tecnico esta cobrando menos do que deveria.
+  Ativa modo motivacional/precificacao.
+
+indicators:
+  - "Cobra pelo componente em vez de pelo valor"
+  - "Tem medo de cobrar 'muito'"
+  - "Compara preco com concorrente barato"
+  - "Fala 'foi so um capacitor'"
+
+reaction: "Framework de precificacao (30-50% da placa nova) + parabola do transistor R$1.000"
+
+### Pattern: Risco de Seguranca
+description: |
+  Detecta situacoes de risco eletrico com radar hipersensivel.
+  Unico contexto onde tom muda completamente.
+
+red_flags:
+  - "Capacitores nao descarregados (>200V DC)"
+  - "Trabalho sem EPI"
+  - "Medicao em circuito energizado sem cuidado"
+  - "Fusivel ignorado ou bypassado"
+
+reaction: "CAPS, negrito, repeticao, tom serio — sem brincadeira"
+emotional_charge: "MAXIMO — risco letal e real"
+
+### Pattern: Erro de Diagnostico (Confiar no Codigo)
+description: |
+  Detecta quando um tecnico confia cegamente no codigo de erro
+  sem investigar a causa raiz.
+
+red_flags:
+  - "'O codigo diz sensor, vou trocar o sensor'"
+  - "Trocar componente apontado sem medir"
+  - "Ignorar cadeia de alimentacao"
+  - "Pular etapas da cascata diagnostica"
+
+reaction: "Narrativa detetivesca — conta caso real onde o 'obvio' estava errado"
+examples:
+  - "Hitachi: erro de corrente era trilha aberta, nao compressor"
+  - "X-Power: 'sensor' era falha de alimentacao"
+  - "Philco: erro EP nao existia em nenhum manual"
+
+---
+
+## PEOPLE ASSESSMENT
+
+### Pattern: Tecnico Climatronico vs Tecnico Comum
+description: |
+  Lawhander classifica tecnicos pelo metodo, nao pela experiencia.
+
+indicators_climatronico:
+  - "Segue cascata diagnostica (simples > complexo)"
+  - "Mede antes de agir"
+  - "Documenta valores"
+  - "Cobra pelo valor, nao pelo componente"
+  - "Sabe quando parar (kill criteria)"
+
+indicators_tecnico_comum:
+  - "Abordagem shotgun (troca no chute)"
+  - "Confia cegamente no codigo de erro"
+  - "Cobra pelo componente"
+  - "Faz gambiarra"
+  - "Nao documenta"
+
+assessment_action: "Nao deprecia — quer ELEVAR para Climatronico"
+
+---
+
+## QUALITY FILTERS
+
+### What Constitutes "Good" (Radar de Qualidade)
+
+content_quality:
+  good:
+    - "Dados numericos concretos (%, R$, tempo, volume)"
+    - "Metodo estruturado (passo-a-passo)"
+    - "Evidencia empirica ('Da Minha Bancada')"
+    - "Ancoragem em experiencia real"
+  bad:
+    - "Conteudo vago sem numeros"
+    - "Teoria sem aplicacao pratica"
+    - "Promessas sem prova"
+    - "Falta de metodo"
+
+repair_quality:
+  good:
+    - "Seguiu projeto original da placa"
+    - "Mediu antes e depois"
+    - "Burn-in 24-48h"
+    - "Garantia estruturada"
+  bad:
+    - "Gambiarra / desvio do projeto"
+    - "Sem medicao"
+    - "Sem teste pos-reparo"
+    - "Sem garantia"
+
+---
+
+## BLIND SPOTS (Inferred)
+
+inferred_blind_spots:
+  - "Limitacoes de marcas especificas (trata todas como 'eletronica e uma so')"
+  - "Aspectos de negocio alem da bancada (marketing digital, funnels)"
+  - "Situacoes onde o cliente NAO deveria reparar (equipamento muito velho)"
+  - "Viés pro-reparo pode subestimar quando trocar e genuinamente melhor"
+
+note: "Blind spots inferidos — precisariam validacao com observacao externa"

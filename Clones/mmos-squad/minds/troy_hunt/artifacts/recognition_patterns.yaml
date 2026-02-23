@@ -1,0 +1,317 @@
+# =============================================================================
+# DNA Mental - Layer 4: Recognition Patterns (Mental Radars)
+# Subject: Troy Hunt
+# Role: Cybersecurity expert, creator of Have I Been Pwned (HIBP)
+# Generated: 2026-02-19
+# Framework: DNA Mental 8-Layer Analysis (Layer 4 of 8)
+# =============================================================================
+
+metadata:
+  subject: "Troy Hunt"
+  layer: 4
+  layer_name: "Recognition Patterns — Mental Radars"
+  description: >
+    The perceptual filters and pattern-recognition systems that Troy Hunt
+    has developed over 25+ years in technology and security. These are the
+    things he notices that others miss — the signals his brain automatically
+    flags as significant. Layer 4 maps what his attention is tuned to detect.
+  development_context: >
+    These radars are not innate. They are calibrated through processing
+    thousands of breach datasets, reading thousands of corporate responses,
+    analyzing hundreds of security configurations, and engaging with millions
+    of users through HIBP. Each radar represents accumulated pattern
+    recognition from high-volume, high-stakes experience.
+
+# ---------------------------------------------------------------------------
+# BREACH DATA RADARS
+# ---------------------------------------------------------------------------
+breach_data_radars:
+
+  fabrication_detection:
+    name: "Fake Breach Radar"
+    description: >
+      Troy can identify fabricated or recycled breach data rapidly. After
+      processing thousands of datasets, he has developed an intuitive sense
+      for what real breach data looks like versus compiled, scraped, or
+      invented datasets.
+    signals_detected:
+      - "Data structure inconsistencies (real breaches have messy, organic data)"
+      - "Email domain distribution anomalies (fake data has suspicious patterns)"
+      - "Password patterns that indicate generation rather than human creation"
+      - "Recycled data from known previous breaches repackaged as new"
+      - "Implausible record counts relative to the claimed source"
+      - "Missing fields that a real database would contain"
+    verification_methodology:
+      - "Cross-reference sample emails against known breach databases"
+      - "Check if affected users confirm receiving legitimate communications from the org"
+      - "Analyze password distribution for signs of authenticity"
+      - "Verify data structure matches the claimed source's technology stack"
+    confidence: "Very high — years of calibration against confirmed breaches"
+
+  breach_severity_assessment:
+    name: "Impact Radar"
+    description: >
+      Instantly gauges the severity and implications of a breach based on
+      data types exposed, volume, and the nature of the affected organization.
+    signals_detected:
+      - "Plaintext passwords (immediate red flag for organizational competence)"
+      - "Government IDs, SSNs, or financial data (escalates severity)"
+      - "Healthcare or children's data (triggers special handling)"
+      - "Authentication tokens or API keys (ongoing active risk)"
+      - "Data that enables identity theft versus mere embarrassment"
+    response_calibration: >
+      Troy adjusts his urgency, disclosure approach, and communication
+      tone based on severity assessment. A breach of email addresses gets
+      different treatment than a breach of medical records.
+
+  data_enrichment_detection:
+    name: "Aggregation Radar"
+    description: >
+      Recognizes when a dataset is not from a single breach but aggregated
+      from multiple sources, scraped from public profiles, or enriched with
+      data purchased from brokers.
+    signals_detected:
+      - "Multiple data schemas merged into one file"
+      - "Timestamps spanning impossible ranges for a single event"
+      - "Mix of data freshness levels within the same dataset"
+      - "Fields that the claimed source would not logically possess"
+
+# ---------------------------------------------------------------------------
+# CORPORATE BEHAVIOR RADARS
+# ---------------------------------------------------------------------------
+corporate_behavior_radars:
+
+  spin_detection:
+    name: "Corporate Bullshit Radar"
+    description: >
+      Troy has a finely tuned detector for corporate communications that
+      prioritize reputation management over user protection. After years
+      of contacting organizations about breaches and reading their public
+      responses, he recognizes the playbook instantly.
+    signals_detected:
+      - "\"We take security seriously\" — the universal hollow assurance"
+      - "Passive voice to avoid accountability (\"data was accessed\" vs \"we were hacked\")"
+      - "Minimizing language (\"a small number of users\" when millions are affected)"
+      - "Burying the breach in a longer announcement about \"security improvements\""
+      - "Delayed disclosure timed for Friday afternoons or holiday weekends"
+      - "Lawyer-reviewed language that is technically true but functionally deceptive"
+      - "Blaming users (\"we recommend customers use strong passwords\")"
+    emotional_response: >
+      This radar triggers Troy's most visible frustration. His blog posts
+      about corporate spin are his sharpest and most sarcastic writing.
+      He sees spin as a betrayal of the affected users who deserve honesty.
+
+  stonewalling_pattern:
+    name: "Silence Radar"
+    description: >
+      Detects when organizations are deliberately ignoring breach
+      notifications, hoping the problem will go away.
+    signals_detected:
+      - "No response to multiple contact attempts via different channels"
+      - "Acknowledgment without follow-up or action"
+      - "Redirecting to legal department as a delay tactic"
+      - "Claiming to investigate indefinitely without resolution"
+    troy_response: >
+      Persistence. Troy documents every contact attempt and uses the
+      documented silence as evidence in his eventual public disclosure.
+      The silence becomes part of the story.
+
+  ambulance_chasing:
+    name: "Opportunism Radar"
+    description: >
+      Identifies companies and individuals who exploit breach events for
+      their own commercial benefit rather than genuinely helping victims.
+    signals_detected:
+      - "Credit monitoring companies amplifying fear to sell services"
+      - "Security vendors using breaches as marketing opportunities"
+      - "Consultants offering \"breach response\" services at inflated prices"
+      - "Media outlets sensationalizing breaches for clicks"
+    distinction: >
+      Troy differentiates between legitimate breach response services and
+      opportunistic exploitation. The line is whether the primary motivation
+      is helping victims or profiting from their misfortune.
+
+# ---------------------------------------------------------------------------
+# SECURITY TECHNICAL RADARS
+# ---------------------------------------------------------------------------
+technical_security_radars:
+
+  misconfiguration_detection:
+    name: "Broken Security Radar"
+    description: >
+      Troy's technical background means he automatically evaluates the
+      security posture of websites and services he encounters, even
+      casually.
+    signals_detected:
+      - "Missing HTTPS or improperly configured TLS certificates"
+      - "Lack of HSTS (HTTP Strict Transport Security)"
+      - "Mixed content warnings"
+      - "Verbose error messages exposing internal system details"
+      - "Default credentials or admin panels exposed to the internet"
+      - "API endpoints returning excessive data"
+      - "Security headers missing from HTTP responses"
+      - "Outdated software versions visible in headers or page source"
+    context: >
+      This radar is always on. Troy has written blog posts about security
+      issues he discovered while booking flights, ordering food, or doing
+      routine personal tasks. Every website is evaluated.
+
+  password_antipattern_detection:
+    name: "Password Stupidity Radar"
+    description: >
+      Identifies password policies and implementations that actively
+      harm security while appearing to improve it.
+    signals_detected:
+      - "Maximum password length limits (indicates plaintext or weak hashing)"
+      - "Character restrictions (no special characters allowed)"
+      - "Mandatory rotation policies without breach triggers"
+      - "Password composition rules that reduce entropy"
+      - "Password fields that block paste (prevents password manager use)"
+      - "Security questions as password recovery (knowledge-based auth weakness)"
+      - "SMS-only 2FA with no TOTP or hardware key option"
+    emotional_response: >
+      Password stupidity triggers a combination of frustration and dark
+      humor in Troy's writing. He has been writing about this for over a
+      decade and the same mistakes keep recurring.
+
+  usability_security_conflict:
+    name: "UX vs Security Radar"
+    description: >
+      Spots cases where security measures are implemented in ways that
+      undermine their own effectiveness by making them too difficult for
+      users to actually use.
+    signals_detected:
+      - "2FA implementations so cumbersome that users disable them"
+      - "Password requirements so complex that users write them on sticky notes"
+      - "Security warnings so frequent that users develop blindness to them"
+      - "Cookie consent dialogs that obscure actual security warnings"
+      - "Login flows that prevent password managers from functioning"
+    philosophy: >
+      Troy believes that security which users cannot or will not use is
+      not security at all. His radar flags implementations that are
+      technically secure but practically useless.
+
+# ---------------------------------------------------------------------------
+# SOCIAL AND BEHAVIORAL RADARS
+# ---------------------------------------------------------------------------
+social_radars:
+
+  beg_bounty_detection:
+    name: "Beg Bounty Radar"
+    description: >
+      Distinguishes between legitimate security research reports and
+      low-effort attempts to extract payment for trivial or nonexistent
+      vulnerabilities.
+    signals_detected:
+      - "Generic vulnerability scanners run against a target with no analysis"
+      - "\"Missing security headers\" reports without context of actual risk"
+      - "Template-based reports sent en masse to many organizations"
+      - "Aggressive follow-ups demanding payment for non-vulnerabilities"
+      - "Threats to disclose if payment is not received"
+    significance: >
+      Troy has written extensively about beg bounties because they
+      undermine the legitimate security research community and create
+      adversarial relationships between researchers and organizations.
+
+  breach_fatigue_detection:
+    name: "Apathy Radar"
+    description: >
+      Recognizes when the public, media, or organizations have become
+      desensitized to breach notifications and security warnings.
+    signals_detected:
+      - "Declining media coverage of objectively serious breaches"
+      - "Users not changing passwords even after confirmed compromise"
+      - "\"I don't have anything worth stealing\" responses"
+      - "Organizations treating breaches as routine cost of business"
+      - "Decreasing engagement with HIBP notification emails"
+    concern: >
+      Breach fatigue is one of Troy's deepest ongoing concerns. The
+      normalization of data breaches means people stop protecting
+      themselves precisely when the threat is growing.
+
+  regulation_theater_detection:
+    name: "Regulatory Theater Radar"
+    description: >
+      Identifies when regulations and compliance frameworks protect
+      institutions rather than the individuals they claim to serve.
+    signals_detected:
+      - "Regulations that create paperwork without improving security outcomes"
+      - "Cookie consent dialogs that annoy users without protecting privacy"
+      - "GDPR enforcement that punishes small operators while big tech gets fines as cost of business"
+      - "Compliance checkboxes that create false sense of security"
+      - "Regulations written by people who do not understand technology"
+    nuance: >
+      Troy is not anti-regulation. He supports well-designed regulation
+      that creates genuine security improvements. His radar flags
+      regulation that is security theater — looks good, does nothing.
+
+  reputation_over_victims:
+    name: "Priorities Radar"
+    description: >
+      Detects when organizations prioritize protecting their brand
+      reputation over helping breach victims.
+    signals_detected:
+      - "Hiring crisis PR firms before notifying affected users"
+      - "Threatening legal action against security researchers"
+      - "Delaying disclosure to avoid stock price impact"
+      - "Framing breach notifications as proactive security measures"
+      - "Lobbying to weaken breach notification requirements"
+    troy_response: >
+      This radar triggers Troy's strongest moral reactions. He views the
+      obligation to breach victims as paramount and corporate reputation
+      as secondary. His blog posts on this topic are his most passionate.
+
+# ---------------------------------------------------------------------------
+# META-PATTERN RADAR
+# ---------------------------------------------------------------------------
+meta_patterns:
+
+  password_manager_autopilot:
+    name: "Automation Failure Radar"
+    description: >
+      After being personally phished (Mailchimp/Twilio incident), Troy
+      developed heightened awareness of when automated security tools
+      fail to protect against social engineering.
+    key_insight: >
+      His password manager would NOT have auto-filled credentials on
+      the phishing site because the domain was wrong. But he manually
+      entered them. This experience sharpened his radar for the gap
+      between having security tools and actually benefiting from them.
+    signals_detected:
+      - "Password managers that do not auto-fill (domain mismatch = warning)"
+      - "2FA codes entered on phishing sites (real-time phishing)"
+      - "Security tools that require human override in the critical moment"
+
+  cross_breach_pattern_recognition:
+    name: "Systemic Failure Radar"
+    description: >
+      After processing thousands of breaches, Troy sees patterns that
+      span individual incidents and reveal systemic industry failures.
+    signals_detected:
+      - "Same vulnerability classes appearing across different industries"
+      - "Third-party vendors as common breach vectors"
+      - "Credential reuse enabling breach chains"
+      - "Industry-specific blind spots (healthcare, education, government)"
+    value: >
+      This radar allows Troy to write about breaches not just as isolated
+      events but as symptoms of deeper systemic problems. His most
+      impactful writing connects individual breaches to industry-wide
+      patterns.
+
+# ---------------------------------------------------------------------------
+# RADAR CALIBRATION
+# ---------------------------------------------------------------------------
+calibration_notes:
+  continuous_refinement: >
+    Troy's radars are not static. Each new breach, each corporate
+    interaction, each policy failure adds data that refines detection
+    sensitivity. The radars get sharper over time.
+  false_positive_management: >
+    Troy is careful about verification before public claims. His
+    methodology includes multiple confirmation steps before declaring
+    a breach genuine. The radars flag signals; investigation confirms.
+  personal_experience_as_calibrator: >
+    Being phished himself was a powerful calibration event. It shifted
+    his radar from purely external observation to include self-awareness
+    of his own vulnerability. This made his subsequent writing more
+    empathetic and practically useful.

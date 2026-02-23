@@ -1,0 +1,14 @@
+# QUANTO TEMPO ATÉ APRENDER MANUTENÇÃO DE AR-CONDICIONADO? #AME
+
+- **Video ID:** yYxOfIRg5pg
+- **URL:** https://www.youtube.com/watch?v=yYxOfIRg5pg
+- **Duration:** 4 min
+- **Views:** 247
+- **Published:** 2022-06-25T15:00:36Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+o raio outro Joãozinho diz assim mas eu não tenho tempo para mim ver de cá adquirir todas conhecimento então a gente já conseguiu acelerada o que eu peguei dois anos hoje em 3 meses e o que é perguntam jogos assim nos três meses Face ao que isso é a última ização isso é sequência e já testou seja daí ela primeiro ela sabe 06 nada primeiro a parte de manuseio e depois a parte teórica e depois a parte prática antes da pena parte prática e depois a manuseio depois da teoria e eu vou testando já testou tanto a gente tá validado não sabe a sequência correta elas aprendeu isso é uma da polícia aqui olha isso daqui e aí o cara sai de 0 a reparar que o mês ela sai quiser aprender uma pessoa clica em três meses aprendendo da base da sua aparência Porque mano você vai perguntar aprendizado constante hoje eu ainda aprendo E é isso que é fácil né tamanho da sua República O tia eu entregar indústria para fazer uma trocar a indústria número que eu tinha 10 anos retorno Oi e ele aprende a coisas comigo que era novato sólido não comigo mas coisas parece que eu pegava né eu pegava para arriscar-se que eu nunca vi essa foto que tu reparou aí a primeira vez que eu vejo defeito dez anos elétron 10 anos de manutenção das vezes a indústria ele está lá que ele ficar para mim esse daqui a dez anos eu aprendo coisas novas ainda estou passando com ela disse que a senhora continue estudando E aí ó olha Sinceramente não Sinceramente não Eu gosto do mais hora se eu tivesse aula eu tirei das suas mentes e ela segue o que aprendeu a imagem ela sabe todo o padrão do hospital ela trabalha com custa lá no hospital trabalha lá vai trabalhar aproveite para o resto da vida dela lá sabe os padrões aprendeu repete aprendeu repete daqui a dez anos provavelmente ela vai tá fazendo a mesma coisa e claro sua paciente diferentes realidades diferentes mas o procedimento é seu mesmo a mesma enfermeira e claro espera esses maiores vai ter uma coisa me dá mais sentido mas que parou de estar estudando se desenvolvendo bom então lembre-se sempre quis fazer porque a outra opção que é o que eu perguntei isso a ela porquê e não é porque eu tava nessa dinâmica de qual o próximo seguir tava dá pra faculdade e qual a área que eu vou atuar e ela queria entender o depois de dez anos trabalhando na área como é que funciona dinâmica e eu tô essa daí dela naquele momento me lembrei lembrei aqui compartilhar com vocês aí E aí o Carlos é para o meu bem tô com 10 anos a primeira coisa nova direto no dia a dia coisas novas coisas novos nossa casa de feita um pensamento novo cara de feita uma análise nova é Um Desafio novo é uma coisa que insistiu que muita gente Vivo que botar a gente repara esse negócio

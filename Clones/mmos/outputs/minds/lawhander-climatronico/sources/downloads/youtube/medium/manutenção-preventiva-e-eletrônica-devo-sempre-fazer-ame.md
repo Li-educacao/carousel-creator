@@ -1,0 +1,14 @@
+# Manutenção preventiva e eletrônica: devo sempre fazer? #AME
+
+- **Video ID:** CUPFSblFgJM
+- **URL:** https://www.youtube.com/watch?v=CUPFSblFgJM
+- **Duration:** 4 min
+- **Views:** 204
+- **Published:** 2021-03-04T15:00:11Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+a experiência que eu vivi que alguns motores meus viveram que presenciaram aqui na eletrônica não vale muito a pena ser fazer manutenções alguns tipos de manutenções preventivas outras palavras ter contratos de manutenção eletrônica por exemplo custam botar uma historinha pra vocês aqui ó mostrar o que é real tá uma empresa que um dos inventores trabalhou fechou um contrato ó eu não falei isso porque o instalador claro que está lá do trabalho muito importante é sempre muito prático eu contrato contrato contrato vai dar um conforto a ele vai todo mês ele tem um negócio certo ali que ele vai lá e faz uma ação corretiva preventiva aí com o cliente tá muito trabalho mas depois é só mantém e ter um valor fixo de contrato era busca muito isso os instaladores Tá mas nada que ele como ela é pronto aí te buscar Muitos contratos e eu vou dizer que não porquê essa é a nossa isso também potinho mas a história que eu vi assim cara fez um a empresa assinou antigo chefe trabalhava pela contrato com a indústria e tinha lá um consequência na indústria sequência Dias quero ter ar estão coisa de da Indústria Têxtil com as máquinas no chão cara marcante inversor de frequência porque eles fizeram ele tirar um parar o contrato de manutenção Tá tudo funcionando sei lá 28 máquinas funcionem E aí das 28 Mas eles tiraram todas as missões diferentes fazer uma limpeza limpeza tanto trocar pasta térmica outro limpeza juro mesmo que acumulam Muita poeira né pelúcia peixe que ela tem muito muito cabelinho né os pelinhos do seu filho então é perfeito assim limpeza geral nos vídeos todas E aí cara é eletrônica tendo essas coisas prestação trocou tudo foi estudado empresa que todo errado a lâmpada do Gol não tô jogando número 28 não lembro o valor exato achas nos 2815 voltar a funcionar normal voltaram a funcionar normal Estavam todos os funcionários a cara fez a limpeza e tipo metade parou de funcionar em volta para reparar olha olha que louco tava tudo ok porém é gostou Já dei a volta por isso olha vocês estão aqui você já deve ter passado por isso a só uma empresa e só uma higienização é da máquina e a placa parou de funcionar tava funcionando normal e fiz a limpeza e parou de funcionar o porquê que eletrônico nessas coisas cara tu não tem uma ciência exata mas ao mesmo tempo não é ensinada Agostinho dizer que não é a sessão exato assim depois que abrir calculado sim mas tem coisas que é um pouco inexplicável cara seu meus 30 logo a forma que tem lógica muitas coisas e outras coisas que tá Lógico que sim hoje é que tu vai limpar o equipamento ele vai ficar vai piorar

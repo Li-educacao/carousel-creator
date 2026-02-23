@@ -1,0 +1,14 @@
+# A MANEIRA ERRADA de tentar tornar seu negócio na climatização MAIS ATRATIVO #AME
+
+- **Video ID:** xXckfZlN5XE
+- **URL:** https://www.youtube.com/watch?v=xXckfZlN5XE
+- **Duration:** 4 min
+- **Views:** 325
+- **Published:** 2021-09-14T15:00:28Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+eu vou abrir o aula vou abrir uma loja de venda de equipamentos de refrigeração entender cobre fluido refrigerante por joso é só você pode de clientes motivo ou Abril sucata borra também você vai pessoal de clientes vai só que você vai ao meu ver por um caminho que não tem nada de diferenciação pelo contrário vai commodities a cada vez mais o teu negócio Como assim lá ontem cara vamos lá quanto instalar máquina tu pode pegar ela falou que quer um serviço mais diferenciado na instalação processo de botar mais no local é o mesmo né Teoricamente só que tu pode botar uma lona para não sujar a casa do cliente pode entrar com a tua marmita é protegida para não bater nas paredes do cliente tu pode tentar conseguir um serviço bastante diferente isso era valor do teu serviço tu vai para a linha de O abrir uma o ou o Batata vai Como utilizar cada vez mais e tu não vai se diferenciar vai ter só um monte de clientes só que tu vai ter um celular com cone de clientes que tu não se diferencia vai só como utilizar Como assim nossa como utilizar o modo de uma coisa que não tem diferencial por exemplo comida arroz feijão tudo é commodity São coisas que é vai comprar e acordo com preço no celular Mais Phone para o iPhone aí quer comprar o iPhone Aí também tem o iPhone 6 iPhone 6 e eu vou para o iPhone 6 é o meu iPhone 6 Eu tenho um era tem outro aí eu vou comprar eu vejo o pagamento Às vezes o componente mesmo produto é ou para qual o mais barato e o pai novo também o mesmo mesma coisa é a fome tá lá né colocar o mais barato então quando você é commodity você briga pelo preço tá quando você é como é que você limpando o preço Quando você vai com essa linha sobre cobre vender esponjoso vender fluido familiar com as grandes essa cirurgia lá mano entendeu a ideia essas empresas grandes aí vai pagar geral da Só que ó via que esse esse investimento gigantesco o e as margens são tias margem só colocar mentor automática diminuir ainda mais Ah entendeu mas são bem fininhas vou para a sucata eo velho se o cara não vai tu vai para uso eu compro outro sucata é o que faz mais barato porque açúcar ficar lendário aqui não posso ter noção é então o climatronic com ele se diferencia eu vou só você não é nada de commodity Esse é o diferencial que agrega valor no teu serviço demais Ah entendeu se eu chegar dobrar o que faltar hoje porque a gente quando estamos combatendo e isso é dobrar facilmente dobra tu pagar com x Salvador x agora pelo Tu é doido eu falava X para um serviço de aparelho para agora também 2x tento hora que era para tu então tu se diferencia por barbante não consegue aumentar ainda mais a margem de lucro relação ao teu serviço

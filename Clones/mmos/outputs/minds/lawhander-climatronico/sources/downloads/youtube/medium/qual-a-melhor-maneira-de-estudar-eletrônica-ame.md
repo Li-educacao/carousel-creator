@@ -1,0 +1,14 @@
+# Qual a MELHOR MANEIRA de estudar eletrônica? #AME
+
+- **Video ID:** m-emKKVzJFg
+- **URL:** https://www.youtube.com/watch?v=m-emKKVzJFg
+- **Duration:** 4 min
+- **Views:** 241
+- **Published:** 2021-10-02T15:00:17Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+É este aqui confusão é o primeiro passo para o entendimento confusão demais ela que mesmo motiva beleza Professor o professor um para mim visão do professor da da curva de aprendizado como professor é um velho seguinte eu tenho que ir instigar o aluno aí próximo nível sem muita gente fala isso carro grande que ensinam de 10 antivírus um OK eu quero saber quanto de 2 a 5 mil as doenças segundo vai meu amigo ganha dois né dois carregador 65 é de qual é o próximo passo a mesa da frente cabelo Beatriz o próximo passo rola tem que ser se preocupa em ter essa jornada com o professor atua o nosso a palavra seguinte eu posso oficial saída mas não passar no cabelo dela eu tenho que passar um pouquinho com o cara aí ir para o próximo nível mas sem forçar demais para existir então para resistir a lugar nenhum muito difícil ainda não então deixa de ser difícil não tem paciência porque fica não acho que fica na resolução vou te dar umas considera você entra no folgada ela é viciante e a da rentabilidade a interessante ó só se for só para placa de baixo eu falei com essa minha vida com o nome é para fazer cara divertículo Oi flor tudo bem pode ficar divertir entendeu é o mesmo sem ganhar dinheiro e melhor o grande problema é com isso vocês como uma mãe falou que é mais importante depois ganhar dinheiro mas eu não tenho paciência não tem um tem um celular ontem fazer para estancar este mês simplesmente tem muita coisa que o cara que ele tiver assim não quero entrar nessa não quero colocar no sei não não pode guardar se não tava tudo bem tudo bem coisa limpa de Mc Gui acho que sou daqui do contrato de conversa tá bom então só uma coisa eu não tivesse do lado ficando escreveu você quer e você acha que você não tem paciência e é se contentou ia na sua cabeça é simplesmente você e você nem me ligou fiquei morrendo de cabeça ele é uma olhada como o professor uma pessoa que somente um bom leitor a identificar os pontos que precisa melhorar para que o parafuso ele apertava consegui dizer uma o projeto da ao longo da história aqui eu vou saber que pode pegar uma coisa eletrônica ele tava na matemática ou Clapton ele tava na cama matemática entendeu matemática mas nunca fui para esses áreas Rússia são os detalhes de boa organizado tá cada Qual é cada um tem uma alimentação porém podem você não tem é o quê paciência para você é é uma desculpinha consegui fazer não tá desligando não quer mesmo eu pego assim tá assim que você quiser longe é correto acontecer é isso aí a gente que a gente entrar em nosso canal por cento me faz mal

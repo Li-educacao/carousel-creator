@@ -1,0 +1,14 @@
+# COMO COBRAR PELO SERVIÇO DE MANUTENÇÃO CORRETIVA EM PLACAS DE AR-CONDICIONADO? #AME
+
+- **Video ID:** Z2RiCPL6Rks
+- **URL:** https://www.youtube.com/watch?v=Z2RiCPL6Rks
+- **Duration:** 4 min
+- **Views:** 137
+- **Published:** 2022-07-07T15:00:31Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+eu gosto como é que é calculado por é consegue Isso então isso aqui não era geral para falar com ele geralzão é um serviço de manutenção corretiva é que tá com defeito eu vou é parar de maneira geral para valer a pena para o cliente é interessante que o serviço gira em torno de trinta a cinquenta por cento do valor da peça nova do equipamento novo da placa nova do que seja novo certo isso pow aí ela tá com a função dela parada é só preciso trocar o ar condicionado ela já also é a troca vai custar para ela no final das contas r$ 3000 2.500 do ar mais 15 a instalação 3M para Iara gastar minerais e deu abusar da rodando é melhor é porque essa três reais e teu patrão alguma ambiente refrigerado Então vai sempre depender a precificação neste início de 30 50 centro entre 1000 e 1500 vai ser mais barato do que gasta 3.000 para botar uma canal ah mas ela sabe que uso a placa viu reais trabalharam fala para ela ela reparar por 300 a 500 reais porque é melhor do que esperar 30 dias para placa não ouvir para um cara botar nossa primeira vez certo 1300 1200 1500 é perdido o quem for lá trocar né para ela e ponto que ela vai cobrar então tudo se ele ficou calado do lado de melhor em geral qualquer tipo de manutenção coletiva de maneira geral vale a pena para o cliente quando gira em torno de trinta a cinquenta por cento do valor do novo Deus não sou boba sempre o lobo o calor dizer algo para outro resumo do nome para reparar Então trabalha de novo a solução mais barata mais barata para o cliente mas menos fica de específica se deve verificar e nós ficou com a gente qual foi o corante utilizar longas não importa o cliente também não importa importa se ele quer saber que sabe se você ficou mal depois que fala que quer ser quer ser capital ações privilegiada a gente encontra e.t. fala aqui só fala é possível que a gente a prova e a gente finaliza o serviço porque depois finalizar você que foi feito antigo ó feito isso eu até um caso dessa dica que eu aposto que a empresa foi dar um cliente foi falar com o cliente fez valor que foi isso tem que eu vou perguntar ali dele para o técnico aí falou que ela tava Tekken Tag for o cara foi trocado o óbito a copa do circuito da comunicação para que ele entre na igreja única tá falando Gregor e chegou porque ele fala uma coisa o foi trocado o óbito avó paga no circuito da comunicação eu tava na hora eu vi e o cliente teu tela azul e já tá certo e saiu o seu viraram o prefeito ele mentiu não mas quem sabe de nada não entende o que tá fazendo que tá falando então não surtiram efeito quanto deveria

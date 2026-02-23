@@ -1,0 +1,14 @@
+# AR-CONDICIONADO INVERTER: Veja porque ainda existem tantas pessoas que condenam #AME
+
+- **Video ID:** 2hLxO9bkT8c
+- **URL:** https://www.youtube.com/watch?v=2hLxO9bkT8c
+- **Duration:** 4 min
+- **Views:** 1,025
+- **Published:** 2022-05-14T15:00:01Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+é o problema que dá no as diversas pessoas que é busto evitar é por falta de conhecimento da manutenção eletrônica e muito tempo precisava na máquina deu defeito na placa sim sim não é né só uma porta não vai te dar bastante dele tá guardado Chrome 30 mal ele não sabe reclamar olha não dá um definitivo Porque então se eu não sei se não fosse vai fazer o que é muito ruim isso aí não essa aí é muito trabalho sem não tem reparo não tem quem o conhece aqui repara se dele não tem levado não tem Enfim então é é ou não sabe reparar ou então na cidade desde realmente não tem que reparar ele não tem que fazer para ele se ver eu quero é conveniente para ele tem acaba convencendo combinam Márcio né é um absurdo a gente no teu mundo todos os dias que conta eu uso conscientizando para que para engordar máquinas poder ficar uma porta eletrônica porque eu prefiro de antecipar o cliente entendeu E pensei que eu tava marcando Ó tem que trocar Então para de fazer esse tipo de serviço porque porque só é porque você só fala porque eu o prejuízo é para você é porque a gente tá chegando para mudar essa uma carga sentido inverso ela problema não é uma vez não eu tenho proposto sua máquina certo tá com 7 anos de funcionamento sete anos porque você ficar pagamento nunca o seu sorriso e raçuda deixa para o lado Dom daí a gente que ganhe dinheiro com recarga de papel eh troca até bom reprovei é possível se cada disso e não é para isso é só por isso vai ficar melhor fusão do cliente se era uma forçada áudio tá ruim alguns ao dar inveja parou de funcionar ela tem algumas criações ou ela trocou o ar condicionado um novo ela gasta com o grande Lobo instalação retirado do outro ou ela troca placas com defeito na placa para gastar mais de Minas Gerais fácil para trocar a placa dela quanto reparo placa isso que demora tá guardando demorar você vê que no dia a troca do a máquina mas vamos lá que as vezes não tem a pronta entrega não esperar 15 dias para chegar atividade extra sem Dias elas não estou sem dias para chegar o terceiro que podia parar é mais rápido e mais barato vem gastar mais de você gasta menos de beijinho beijinho para reparar isso é mais rápido você poder passar o dia para o outro o rapaz Isso aí você volta lá garantindo a nova então é o melhor cliente ciente vender com isso tudo bem isso é bom mas é melhor frente eu consigo conversei com a cliente mostrar pele ó é mais econômico você pode fazer vai gastar mais tá bom não tenho que não dá para não gastar mais só tô com raiva dessa dessa marca mesmo que é mais grossa com ela aí beleza aí eu é uma decisão sua se vocês que eu é uma vez né eu não é que eu fui mais recente é é perfeitamente

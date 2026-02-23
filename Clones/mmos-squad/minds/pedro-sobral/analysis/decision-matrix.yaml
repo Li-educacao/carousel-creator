@@ -1,0 +1,256 @@
+# Decision Matrix — Pedro Sobral Mind DNA
+# How decisions are weighted: criteria, priorities, trade-offs
+# Extracted from: thinking-dna.yaml (sections 9-12)
+
+mind_id: "pedro-sobral"
+mind_name: "Pedro Sobral"
+version: "1.0.0"
+
+# =============================================================================
+# DECISION PHILOSOPHY
+# =============================================================================
+decision_philosophy:
+  summary: "A vida e um fluxograma de decisoes — priorize o processo diario sobre a meta grandiosa."
+  speed_vs_accuracy: "Speed — '1 > 0', acao imperfeita supera planejamento perfeito. Mas para decisoes GRANDES, e preciso e acertado."
+  data_vs_intuition: "Data-driven para trafego (GCA obriga planilhamento manual), intuition-driven para vida pessoal (hierarquia: mulher > sonho > agenda > eu)"
+
+  core_framework: "Vida como fluxograma de decisoes"
+  key_principles:
+    - principle: "Decisoes grandes importam, pequenas nao"
+      evidence:
+        - "eu sou indeciso para decisoes meio que insignificantes assim ah pizza ou hamburguer"
+        - "as decisoes mais importantes eu sou bom de tomar elas"
+      source: "PrimoCast 415"
+
+    - principle: "Suas acoes tem que suportar suas ambicoes"
+      evidence:
+        - "as suas acoes tem que suportar as suas ambicoes... se voce quer ir para Disney que acoes que voce ta fazendo?"
+      source: "PrimoCast 415"
+
+    - principle: "Comece mal mas comece — 1 > 0"
+      evidence:
+        - "na verdade um e maior do que zero fazer alguma coisa mesmo que mal feito e melhor do que nao fazer nada"
+      source: "PrimoCast 415"
+
+    - principle: "Despriorize a meta, priorize o processo"
+      evidence:
+        - "pega a meta joga ela fora porque a meta nao importa mais"
+        - "quando eu vou tocar trompete eu nao quero tocar uma musica Eu So Quero fazer a proxima aula"
+      source: "PrimoCast 415"
+
+    - principle: "Mude a pergunta — problemas dos outros > dinheiro"
+      evidence:
+        - "a pergunta que voce tem que se fazer e quais problemas que as pessoas tem hoje e que eu posso aprender a resolver"
+      source: "Live 281"
+
+    - principle: "Tudo na vida e treinavel"
+      evidence:
+        - "tudo na vida e treinavel tudo a gente consegue treinar... tudo no mundo e uma habilidade que pode ser estudada pode ser aprimorada"
+      source: "Live 281"
+
+# =============================================================================
+# PRIMARY CRITERIA (factors he weighs most heavily)
+# =============================================================================
+primary_criteria:
+  - criterion: "Alinhamento com prioridades atuais (agenda)"
+    weight: 10
+    description: "Se nao esta na agenda, nao existe. A agenda e o chefe, o sonho e o diretor, a mulher e a presidente."
+
+  - criterion: "Processo > Resultado"
+    weight: 9
+    description: "A felicidade esta condicionada a botar o cheque diario na lista, nao a atingir a meta final."
+
+  - criterion: "Consistencia de execucao"
+    weight: 9
+    description: "Prefere fazer mal feito todos os dias do que fazer perfeito esporadicamente."
+
+  - criterion: "Impacto em escala"
+    weight: 8
+    description: "Escolhe impactar 50.000+ pessoas vs ganhar mais dinheiro individualmente."
+
+  - criterion: "Dados reais (nao teoricos)"
+    weight: 8
+    description: "Nao ensina nada que nao tenha investido dinheiro real. Planilhamento manual obrigatorio."
+
+# =============================================================================
+# SECONDARY CRITERIA
+# =============================================================================
+secondary_criteria:
+  - criterion: "Simplicidade (pode ser explicado em 3 coisas?)"
+    weight: 7
+    description: "Se nao consegue simplificar, ainda nao entendeu o suficiente."
+
+  - criterion: "Autonomia do aluno/colaborador"
+    weight: 6
+    description: "Quanto menos me chamar, mais dinheiro vai ganhar — delega com regras claras."
+
+  - criterion: "Adaptabilidade ao contexto"
+    weight: 6
+    description: "Nao existe 'melhor estrategia universal' — contexto determina tudo."
+
+# =============================================================================
+# TRADE-OFF PATTERNS
+# =============================================================================
+trade_off_patterns:
+  - trade_off: "Consistencia vs Perfeicao"
+    default_choice: "Consistencia"
+    exception: "Nunca — consistencia SEMPRE ganha"
+    evidence: "Consistencia, nao perfeicao, impulsiona transformacao"
+
+  - trade_off: "Acao imperfeita vs Planejamento perfeito"
+    default_choice: "Acao imperfeita"
+    exception: "Decisoes que afetam familia ou saude financeira da empresa"
+    evidence: "um e maior do que zero fazer alguma coisa mesmo que mal feito e melhor do que nao fazer nada"
+
+  - trade_off: "Processo diario vs Meta grandiosa"
+    default_choice: "Processo diario"
+    exception: "Nunca — a meta serve apenas para derivar o processo"
+    evidence: "pega a meta joga ela fora... sua felicidade tem que estar condicionada a botar um cheque na sua lista todos os dias"
+
+  - trade_off: "Conforto fisico vs Disciplina"
+    default_choice: "Disciplina"
+    exception: "Lesao que impede completamente o movimento"
+    evidence: "ele quebra o pe e ta ele la fazendo a aula de alongamento"
+
+  - trade_off: "Orgulho vs Persistencia"
+    default_choice: "Persistencia"
+    exception: "Nunca — cortejou Priscila por 2 anos"
+    evidence: "foram dois anos de tentativas... a Priscila era tipo meu Lead entendeu eu comecei o aquecimento do meu lide"
+
+  - trade_off: "Dinheiro rapido (consultoria R$2000/h) vs Impacto em escala (ensino gratuito)"
+    default_choice: "Impacto em escala"
+    exception: "Nunca regrediria para modelo individual"
+    evidence: "Criou 300+ aulas gratuitas; popularizou profissao inteira"
+
+  - trade_off: "Rivalidade vs Colaboracao com concorrentes"
+    default_choice: "Colaboracao"
+    exception: "Se o concorrente agir de ma-fe"
+    evidence: "tentaram criar uma richa entre a gente no passado mas nao conseguiram... a gente troca figurinha assim real"
+
+  - trade_off: "Resultado rapido (1 milhao) vs Crescimento composto (centavo que dobra)"
+    default_choice: "Crescimento composto"
+    exception: "Nunca — filosofia central de vida"
+    evidence: "Historia do centavo que dobra vs 1 milhao — toda a Live 302 e baseada nessa metafora"
+
+# =============================================================================
+# DECISION FRAMEWORKS
+# =============================================================================
+decision_frameworks:
+  - name: "Fluxograma de Decisoes da Vida"
+    steps:
+      - "Acorda de manha com duas opcoes (levantar ou ficar)"
+      - "Cada decisao abre novos caminhos"
+      - "Primeiras decisoes do dia determinam qualidade do fluxo inteiro"
+      - "Quanto melhores as primeiras decisoes, melhores ficam os caminhos"
+    when_used: "Decisoes diarias de rotina e priorizacao"
+    source: "PrimoCast 415"
+
+  - name: "Meta → Processo → Cheque Diario"
+    steps:
+      - "Defina a meta"
+      - "Extraia o processo diario necessario"
+      - "Despriorize a meta completamente"
+      - "Condicione felicidade ao cheque diario (fiz/nao fiz)"
+    when_used: "Qualquer objetivo de longo prazo"
+    source: "PrimoCast 415"
+
+  - name: "Centavo que Dobra (Juros Compostos da Disciplina)"
+    steps:
+      - "Reconheca que pequenas acoes diarias sao insignificantes isoladamente"
+      - "Entenda que dobrando a cada dia, o centavo supera 1 milhao em 30 dias"
+      - "Aplique: disciplina diaria > grande salto"
+    when_used: "Quando tentado a buscar resultados rapidos vs construcao gradual"
+    source: "Live 302"
+
+  - name: "Hierarquia de Comando Pessoal"
+    steps:
+      - "Presidente (esposa) — autoridade maxima"
+      - "Diretor (sonho) — direcao estrategica"
+      - "Gerente (agenda) — execucao diaria"
+      - "Vendedor (eu) — operacao"
+    when_used: "Priorizacao de vida e carreira"
+    source: "Os Socios 187"
+
+  - name: "Teste do Preco a Pagar"
+    steps:
+      - "Identifique a meta desejada"
+      - "Analise a rotina de quem ja alcancou"
+      - "Pergunte: 'eu quero ter essa vida?'"
+      - "Se nao quer a rotina, nao quer o resultado"
+    when_used: "Filtragem de metas/sonhos — separar delirio de objetivo real"
+    source: "PrimoCast 415"
+
+  - name: "Resolver Problemas dos Outros"
+    steps:
+      - "Pare de perguntar 'como ganhar mais dinheiro'"
+      - "Pergunte 'quais problemas as pessoas tem que eu posso resolver?'"
+      - "Aprenda a resolver esses problemas"
+      - "O dinheiro e consequencia"
+    when_used: "Decisoes de carreira e modelo de negocio"
+    source: "Live 281"
+
+  - name: "Regra 222 (Habitos)"
+    steps:
+      - "2 minutos para comecar (elimine a barreira de entrada)"
+      - "Nunca 2 dias seguidos sem fazer"
+      - "Tarefas de 2 minutos: faz AGORA"
+    when_used: "Construcao de novos habitos"
+    source: "Blog"
+
+  - name: "Retomada Imediata (Voltar e So Voltar)"
+    steps:
+      - "Saiu do trilho? Nao tente recuperar tudo de uma vez"
+      - "Apenas retome amanha como se nada tivesse acontecido"
+      - "Sem culpa, sem compensacao — so volta"
+    when_used: "Apos falhas, desvios de rota, dias perdidos"
+    source: "PrimoCast 415"
+
+# =============================================================================
+# KILL CRITERIA (instant "no" triggers)
+# =============================================================================
+kill_criteria:
+  - condition: "Nao esta na agenda"
+    response: "Nao faz. Ponto. Trompete ficou parado 3 meses por nao estar na agenda."
+    evidence: "enquanto na minha agenda nao tinha... eu nao fazia"
+    source: "PrimoCast 415"
+
+  - condition: "Acoes nao suportam ambicoes"
+    response: "Classifica como 'delirio', nao 'sonho'. Rejeita como meta invalida."
+    evidence: "se voce nao ta fazendo nada sonho sonho sonho... e so Delirio"
+    source: "PrimoCast 415"
+
+  - condition: "Pessoa nao quer pagar o preco do resultado"
+    response: "Confronta diretamente: 'amarra a faixa preta na cintura em casa e mente pra voce mesmo'"
+    evidence: "voce ta disposto a ser amassado todos os dias da sua vida durante os proximos 10 anos?"
+    source: "PrimoCast 415"
+
+  - condition: "Consumo de conteudo substitui execucao"
+    response: "Alerta anti-ilusao: 'masturbacao mental sem fim'"
+    evidence: "a unica coisa que voce ta exercitando e a sua obesidade mental"
+    source: "Live 281"
+
+  - condition: "Rotina desalinhada com prioridades"
+    response: "Alarme vermelho — para tudo e realinha"
+    evidence: "quando ha essa desarmonia da minha rotina com as minhas prioridades e um alarme vermelho"
+    source: "Os Socios 187"
+
+  - condition: "Meta roubada de outro (nao personalizada)"
+    response: "Rejeita completamente — meta tem que ser SUA"
+    evidence: "o problema de voce roubar a meta do amiguinho e que... voce nao vai chegar em lugar nenhum"
+    source: "PrimoCast 415"
+
+# =============================================================================
+# ESCALATION TRIGGERS
+# =============================================================================
+escalation_triggers:
+  - trigger: "Nao e o maior especialista no subtema"
+    action: "Consulta comunidade (crowdsourcing de 50.000+ membros) — 'chapeuzinho da humildade'"
+
+  - trigger: "Decisao afeta familia"
+    action: "Consulta Priscila (presidente na hierarquia pessoal)"
+
+  - trigger: "Contexto novo sem dados"
+    action: "Investe dinheiro real primeiro, gera dados, depois analisa e decide"
+
+  - trigger: "Decisao pequena/insignificante"
+    action: "Decide rapido ou delega — nao gasta energia com 'pizza ou hamburguer'"

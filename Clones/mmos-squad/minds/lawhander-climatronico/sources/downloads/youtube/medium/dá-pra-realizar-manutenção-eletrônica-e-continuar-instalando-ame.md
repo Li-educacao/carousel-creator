@@ -1,0 +1,14 @@
+# Dá pra realizar manutenção eletrônica e continuar instalando? #AME
+
+- **Video ID:** EURr8lD98lI
+- **URL:** https://www.youtube.com/watch?v=EURr8lD98lI
+- **Duration:** 3 min
+- **Views:** 147
+- **Published:** 2021-11-26T15:00:07Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+Oi pode sim pode sim nada impede tá lilou nada impede não tô falando vocês aí no segmento não mudar sua placa Só se você tivesse tem um livre arbítrio eu estou querendo que você cogite a possibilidade e acrescentar na sua renda o reparo de placas vocês farão um profissional que domina as máquinas de ar condicionado porque se você não entende eletrônica pode ter 40 50 anos de mercado você não sabe eletrônica ou se ele não tem de ar condicionado Olha que doido porque toda cochilada hoje tem que puxar aqui e a gente vai ficar limitado na máquina chega na máquina ilimitada porque tu sabe acho que antes pô Rancho mecânica comigo mesmo eu bato aí na limpeza assusta vocês me deu a conta de ficar duro e não é possível sim você fazer os dois solo de um seguinte você só dá conta dos seus clientes têm o mesmo para os dois filhos e eles ficam ganhando serviço de terceiros ele expulsou tô com meus pelos clientes instalação manutenção Ainda não estou sempre tá bancada atende os meus clientes e Neves clientes de terceiros porque o chão o telefone tá errado né Agora que você reparar as placas dele que eu quero que marcação tem brother aqui mais ação nesse caso ele se não residência trocou ideia ali disso eu tenho para um lugar para o espaço no curso aí tô aprendendo e também parando nesse pago para isso aqui que que repara ele vai arranjar o luxo para vai ter que trabalhar mais e aí o que acontece mas alguns que estão na área e dos caras eles dão conta das placas ele vai para instalar vai falar uma pressão mas começa a terceirizar não fico mais sem precisar e os serviços dos outros com ele já começa a fazer esse vídeo colegas acabou saindo de Campo isso já aconteceu algumas vezes várias vezes ela começa a falar do vencido do colega eu falei ele falou que quando a fé ele tá mais avançado no clipe novo porque as causas externas que está na bancada tá tá fazendo comecei a falar um pouco mais com o tempo você tirou a janela da sua semana passar na bancada mas ela ficar com os seus clientes aumentar sua margem por servir a gente porque a gente tá fazendo silêncio o caminho contrário ele tá fazendo por mim comprar aquela até que ele também que o nosso marido ou serviço mas reparamos apagar do cliente e Laurinha trapaça nos fechamos longe da ação no culto aqui também tirar marca do cliente está sujo tá com tava parada refrigeração EA é inscrito condenar a parte do cliente o especializar o reparo da placa de um reparo que escovaria sei lá o suporte r$ 150 da gente dá são um banho agora para os ensaios do Oscar todo

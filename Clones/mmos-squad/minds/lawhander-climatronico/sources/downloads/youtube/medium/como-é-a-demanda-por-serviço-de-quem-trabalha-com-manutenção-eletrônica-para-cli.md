@@ -1,0 +1,14 @@
+# Como é a DEMANDA POR SERVIÇO de quem trabalha com MANUTENÇÃO ELETRÔNICA para climatização? #AME
+
+- **Video ID:** RMdUTF4bTh8
+- **URL:** https://www.youtube.com/watch?v=RMdUTF4bTh8
+- **Duration:** 4 min
+- **Views:** 506
+- **Published:** 2021-08-22T15:00:10Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+é preciso demais cara tem mais crente do que tu pode dar conta tá tem mais crente do que tu pode dar conta respondendo aí tá ok tu não dá conta dos seus defeitos que tem no mercado ele mandou com outra cara eu tive que contratar eu digo contratar né ah eu tive que contratar treinar funcionar treinar colaboradores para conseguir dar conta de tanto de placa e olha galera o market que eu faço é o marketing pessoal do meu rosto né é o meu canal no YouTube é as minhas redes sociais bom então ao tem aquelas cresce só com agulha assim com a rebarba com que reverberam do almoço na internet eu faço quase zero de divulgação na outra aqui hoje vamos começar costurando spiraltek para aguentar a gente vai fazer próximo ano né gente divulgação de crescimento fetal Ah mas não tem mesmo não tendo não aguenta ficar muito tempo a minha vó eu não vou ficar trabalhando de noite na opep e nos até então que dia é que eu aguento ele que não deu para comer mas é um problema muito bom de ter cá É mas tem que você dá conta e eu queria que dá para entrar na zona de conforto e ficaram agora não peguei demais então é um bom os meninos que esse é um bom é um bom volume térmica porque ela manda porque não tem profissional qualificado porque o função nova no mercado tem material canção nova tem muito mercado agora não sabe que tem mais não existe ela essa o cliente final por exemplo não sabe a Praia Mar a vaca tem gente que tem gente me pergunta que dá para reparar placa e ele o cabo não sabe já entendeu então nós vamos trabalhar parar ou não Oi e aí é então eu tenho relatos muitos alunos que dá Olha só mandei um WhatsApp um grupo de que eu participo aqui e aparece algum de frente para mim só mandei uma tábua só manda eu não sei o que é certo então tem mais mercado que você consegue abraçar isso é no Brasil todo tá Pessoal esse é no Brasil todo e o que mais louco que você falou do Brasil também entendeu Aí eu falo para tu também eu digo pelo tanto de aluno não tem alguns alunos são poucos não são muitos então alguns alunos fora do país eu tenho várias pessoas que me seguem são que são estrangeiros que tem dúvidas que nem vocês aqui do país tem o que a gente tem que as duas que a gente tem entendeu lado uruguaio da Argentina qual era o Paraguai galera do Japão galera do de Portugal E aí a história da África i tá pegando eu vejo forma tem que vir aqui buscar elas têm Lapa

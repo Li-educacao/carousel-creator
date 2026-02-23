@@ -1,0 +1,17 @@
+{
+  "id": "source_001",
+  "title": "Click Happy: Your Guide to a Meaningful Life & Career in the Digital Era",
+  "author": "Molly Pittman",
+  "type": "book",
+  "publication_date": "2021-01-01",
+  "tier": 1,
+  "status": "QUEUED",
+  "urls": {
+    "amazon": "https://www.amazon.com/Click-Happy-Meaningful-Career-Digital/dp/1734745401",
+    "official": "https://mollypittman.com/"
+  },
+  "word_count": 45000,
+  "priority": "HIGHEST - Layer 6-8 values/obsessions",
+  "collection_method": "ebook_download_or_purchase",
+  "notes": "Primary authored work - critical for understanding values and life philosophy"
+}

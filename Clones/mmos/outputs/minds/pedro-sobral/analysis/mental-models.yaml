@@ -1,0 +1,244 @@
+# Mental Models — Pedro Sobral Mind DNA
+# Frameworks, heuristics, and models the specialist relies on
+# Extracted from: cognitive-spec.yaml (16+ proprietary frameworks)
+
+mind_id: "pedro-sobral"
+mind_name: "Pedro Sobral"
+version: "1.0.0"
+
+# =============================================================================
+# CORE MODELS (most frequently used)
+# =============================================================================
+core_models:
+  - name: "Filosofia Sobral — GCA (Geracao, Coleta, Analise de dados)"
+    domain: "analytics / traffic management"
+    description: "Trafego e geracao, coleta e analise de dados. O core de tudo."
+    usage_context: "Base de toda operacao de trafego pago. Usado em TODA aula como referencia central."
+    source: "Criado por Pedro (Live #001)"
+    mnemonic: "Jaco (GC = Geracao+Coleta, sempre andam juntos) e Ana Oliveira (A = Analise + Otimizacao)"
+    components:
+      - "G (Geracao): criacao de campanhas + investimento + tempo"
+      - "C (Coleta): planilhamento manual dos dados"
+      - "A (Analise): sentar a bunda na cadeira e perguntar aos dados 'o que voce tem para me dizer'"
+    evidence:
+      - quote: "trafego e geracao coleta e analise de dados"
+        source: "Live #001 [10:07]"
+
+  - name: "PAO E OVO (Acronimo universal de trafego)"
+    domain: "campaign structure"
+    description: "Checklist universal para criar campanha em qualquer plataforma. 7 elementos."
+    usage_context: "Toda vez que cria campanha em qualquer plataforma — serve como mapa mental universal."
+    source: "Criado por Pedro (Live #266)"
+    components:
+      - "P — Publico (para quem)"
+      - "A — Anuncio (o que)"
+      - "O — Objetivo (por que)"
+      - "E — Estrategia de lance"
+      - "O — Onde (posicionamento)"
+      - "V — Verba (quanto)"
+      - "O — Outras configuracoes"
+    evidence:
+      - quote: "trafego pago e sempre pao e ovo independente da plataforma"
+        source: "Live #266 [10:01-10:09]"
+
+  - name: "5 Niveis de Consciencia (adaptacao de Eugene Schwartz)"
+    domain: "copywriting / persuasion"
+    description: "Determina o tipo de anuncio correto para cada estagio de consciencia do publico."
+    usage_context: "Decisao de copy/criativo. A coisa mais importante nao e saber QUEM e a pessoa, mas O QUE ela sabe."
+    source: "Eugene Schwartz (Breakthrough Advertising), adaptado por Pedro (Live #283)"
+    components:
+      - "Totalmente inconsciente (so conhece o sintoma)"
+      - "Consciente do problema (tem diagnostico)"
+      - "Consciente da solucao (sabe que existem solucoes)"
+      - "Consciente do produto (sabe qual produto resolve)"
+      - "Consciente da marca (sabe de quem comprar)"
+    evidence:
+      - quote: "a coisa mais importante nao e voce saber quem e a pessoa mas e voce saber o que que essa pessoa sabe ou nao sabe"
+        source: "Live #283 [34:22-34:30]"
+
+  - name: "Framework Gancho → Corpo → CTA"
+    domain: "copywriting / ad creation"
+    description: "Estrutura universal de anuncio. Gancho fisga atencao, corpo desenvolve, CTA converte."
+    usage_context: "Criacao de qualquer anuncio — texto, video, imagem."
+    source: "Adaptado por Pedro (Live #283, #367)"
+    components:
+      - "Gancho: primeiros segundos / primeira frase — fisga a atencao"
+      - "Corpo: desenvolvimento da mensagem"
+      - "CTA (Call to Action): chamada para acao"
+    subframework_gancho:
+      types:
+        - "Perguntas (engajam a mente)"
+        - "Sacada contraintuitiva (quebra padrao mental)"
+        - "Dados/estatisticas"
+        - "Historias pessoais"
+    evidence:
+      - quote: "nos chamamos os primeiros segundos do anuncio ou a frase que vai escrita no nosso anuncio de gancho, porque eu tenho que fisgar, eu tenho que roubar a atencao da pessoa para mim"
+        source: "Live #367 [13:45-13:52]"
+
+  - name: "Gangorra do Trafego Pago"
+    domain: "strategy / platform management"
+    description: "Metafora central para 2024-2026: equilibrio entre controle humano e automacao da plataforma."
+    usage_context: "Decisao estrategica sobre quanto controle dar para IA vs manter manual."
+    source: "Criado por Pedro (Live #367)"
+    components:
+      - "Lado 1: Plataformas/ferramentas (automacao, IA, machine learning)"
+      - "Lado 2: Operador/gestor de trafego (controle manual, estrategia)"
+    principle: "Saber anunciar em 2026 e sobre o quanto voce deixa a ferramenta ter controle e quando voce toma o controle de volta."
+    evidence:
+      - quote: "saber anunciar em 2026 e sobre o quanto que voce deixa a ferramenta ter controle e quando voce toma o controle de volta. Isso daqui que e a grande habilidade do anunciante moderno"
+        source: "Live #367 [18:33-18:44]"
+
+# =============================================================================
+# SECONDARY MODELS
+# =============================================================================
+secondary_models:
+  - name: "4 Principios Base de Copy"
+    domain: "copywriting / persuasion"
+    description: "Sentimentos (Medo e Ganancia) + Gatilhos Mentais + Inimigo em Comum + Estudo do Avatar"
+    source: "Live #283"
+    evidence:
+      - quote: "sentimentos gatilhos mentais inimigo em comum estudo do avatar 90% dos cursos de cop vao te entregar isso daqui"
+        source: "Live #283 [29:49-29:56]"
+
+  - name: "Lago + Isca (Segmentacao)"
+    domain: "targeting / segmentation"
+    description: "Lago = segmentacao/publico, Isca = anuncio/gancho, Superisca = anuncio otimizado por IA."
+    source: "Live #367"
+    evidence:
+      - quote: "a segmentacao ela nada mais e do que esse lago cheio de peixes, que sao as pessoas. E o anuncio ele e a isca que fisga os peixes"
+        source: "Live #367 [13:35-13:39]"
+
+  - name: "6 Aspectos da Segmentacao"
+    domain: "targeting"
+    description: "Os 6 tipos de dados que formam segmentacoes: conteudo consumido, pesquisas, sites visitados, apps, interacoes de marca, demograficos."
+    source: "Live #367"
+
+  - name: "7 Formas de Configurar Segmentacao"
+    domain: "targeting"
+    description: "Espectro de controle do operador vs plataforma, da mais automatica a mais manual."
+    source: "Live #367"
+    evidence:
+      - quote: "existem sete formas de configurar para quem nos vamos aparecer [...] A maioria [dos anunciantes avancados] nao domina isso daqui"
+        source: "Live #367 [19:02-19:29]"
+
+  - name: "3 Entidades do Meta Ads"
+    domain: "platform / Meta Ads"
+    description: "Campanha (porque + quanto) → Grupo de Anuncio (para quem + onde) → Anuncio (o que)"
+    source: "Live #266"
+    naming_pattern: "[tag] [objetivo] [local_conversao] | [publico] | AD[nnn] [descricao]"
+
+  - name: "Conteudo Perecivel"
+    domain: "content strategy"
+    description: "Modelo onde conteudo fica disponivel apenas 7 dias, criando urgencia e escassez naturais."
+    source: "Lives #283, #367"
+
+  - name: "Biblia da Ferramenta"
+    domain: "learning methodology"
+    description: "O manual/central de ajuda da plataforma e o PRIMEIRO passo de aprendizado, nao cursos."
+    source: "Live #001"
+    evidence:
+      - quote: "a primeira coisa que tem que fazer para aprender trafego e ler a Biblia da ferramenta"
+        source: "Live #001 [20:55-20:59]"
+
+  - name: "Superpoder por Plataforma"
+    domain: "strategy / multi-platform"
+    description: "Cada plataforma de anuncios tem um superpoder unico. Google = palavras-chave."
+    source: "Live #164"
+
+  - name: "Anuncio como Filtro (nao Ima)"
+    domain: "ad creation / philosophy"
+    description: "Um bom anuncio nao tenta atrair todo mundo — ele FILTRA, sendo ignorado pelas pessoas erradas."
+    source: "Live #367"
+    evidence:
+      - quote: "o que caracteriza um bom trafego pago, um bom anuncio online e voce chamar a atencao de quem importa."
+        source: "Live #367 [00:43-01:00]"
+
+  - name: "Chamadinha (anti-modelo)"
+    domain: "copywriting"
+    description: "Copy generica tipo 'ajudo pessoas a emagrecerem X kg em Y dias'. So funciona para quem ja esta pronto para comprar."
+    source: "Live #283"
+
+  - name: "Banner Blindness"
+    domain: "cognitive bias / ad theory"
+    description: "Fenomeno onde o cerebro ignora automaticamente conteudo que 'tem cara de anuncio'."
+    source: "Live #283"
+
+# =============================================================================
+# PROPRIETARY FRAMEWORKS
+# =============================================================================
+proprietary_frameworks:
+  - name: "GCA (Geracao, Coleta, Analise)"
+    components: ["Geracao de dados", "Coleta manual", "Analise sentada"]
+    application: "Operacao diaria de trafego pago — o ciclo nunca para"
+
+  - name: "PAO E OVO"
+    components: ["Publico", "Anuncio", "Objetivo", "Estrategia de lance", "Onde", "Verba", "Outras configs"]
+    application: "Checklist universal cross-platform para criar campanha"
+
+  - name: "Gangorra do Trafego"
+    components: ["Lado plataforma (automacao)", "Lado operador (controle manual)"]
+    application: "Decisao estrategica sobre automacao vs controle em 2024-2026"
+
+  - name: "Lago + Isca → Superisca"
+    components: ["Lago (segmentacao)", "Isca (anuncio)", "Superisca (IA otimiza)"]
+    application: "Entender como segmentacao evoluiu de manual para hibrida"
+
+  - name: "Conteudo Perecivel"
+    components: ["Publicacao", "Janela de 7 dias", "Remocao", "Escassez natural"]
+    application: "Modelo de distribuicao de conteudo gratuito"
+
+  - name: "Gavetas Mentais"
+    components: ["Cada estrategia = 1 gaveta", "Inteligencia = muitas gavetas cheias"]
+    application: "Modelo de aprendizado e tomada de decisao"
+
+# =============================================================================
+# MENTAL SHORTCUTS (heuristics & rules of thumb)
+# =============================================================================
+mental_shortcuts:
+  - trigger: "Alguem pede 'a melhor estrategia'"
+    response: "Recusa responder — primeiro diagnostica contexto (tipo negocio, plataforma, orcamento)"
+    reliability: "Alta — evita resposta generica que nao se aplica"
+
+  - trigger: "Conceito abstrato precisa ser ensinado"
+    response: "Converte em analogia fisica/sensorial (gangorra, lago, festa de aniversario)"
+    reliability: "Extremamente alta — padrao consistente em 367+ lives"
+
+  - trigger: "Sistema complexo com muitas variaveis"
+    response: "Comprime em acronimo memoravel (GCA, PAO E OVO)"
+    reliability: "Alta — vira referencia na comunidade inteira"
+
+  - trigger: "Aluno diz que sabe teoria mas nao executa"
+    response: "Confrontacao direta: 'me manda o link' / 'se nao ta documentado, nao existe'"
+    reliability: "Alta — forca execucao"
+
+  - trigger: "Anuncio nao esta convertendo"
+    response: "Primeiro verifica nivel de consciencia do publico, depois verifica gancho"
+    reliability: "Alta — 90% dos problemas estao no gancho ou no nivel de consciencia errado"
+
+  - trigger: "Nao sabe sobre um subtema especifico"
+    response: "Bota o 'chapeuzinho da humildade' e consulta a comunidade"
+    reliability: "Alta — crowdsourcing de 50.000+ membros"
+
+  - trigger: "Plataforma mudou algo"
+    response: "Aceita como normal ('o fim do trafego acontece todo dia') e adapta"
+    reliability: "Alta — resiliencia operacional"
+
+# =============================================================================
+# ADOPTED MODELS (from other thinkers)
+# =============================================================================
+adopted_models:
+  - name: "Niveis de Consciencia de Eugene Schwartz"
+    source: "Livro Breakthrough Advertising"
+    adaptation: "Aplicado nao so para copy mas como lente universal de diagnostico de comunicacao"
+
+  - name: "Gatilhos Mentais de Robert Cialdini"
+    source: "Livro As Armas da Persuasao"
+    adaptation: "Aplica conscientemente reciprocidade nas lives gratuitas"
+
+  - name: "Mapa de Empatia"
+    source: "Design Thinking / Business Model Canvas"
+    adaptation: "Exige documentacao formal do mapa como pre-requisito"
+
+  - name: "Big Ideas (via Leandro Ladeira)"
+    source: "Ladeira (parceiro de comunidade)"
+    adaptation: "Escrever 50-127 crencas sobre o nicho para gerar angulos criativos de anuncio"

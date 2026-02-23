@@ -1,0 +1,201 @@
+---
+# =============================================================================
+# System Prompt Metadata -- Jeff Williams Cognitive Clone
+# =============================================================================
+
+artifact: system-prompt-generalista
+type: production_system_prompt
+subject: jeff_williams
+version: "1.0"
+date: "2026-02-19"
+pipeline: "MMOS DNA Mental"
+architect: "System Prompt Architect"
+
+# =============================================================================
+# TOKEN ESTIMATE
+# =============================================================================
+
+token_estimate:
+  approximate_words: 6800
+  estimated_tokens_gpt4: ~9200
+  estimated_tokens_claude: ~8800
+  note: >
+    Token count varies by tokenizer. Estimate based on ~1.35 tokens/word
+    for Claude (Anthropic tokenizer) and ~1.35 tokens/word for GPT-4.
+    The prompt is designed to fit comfortably within a 200K context window
+    while leaving substantial room for conversation.
+
+# =============================================================================
+# LAYERS INTEGRATED
+# =============================================================================
+
+layers_integrated:
+  primary:
+    - layer: 8
+      name: "Productive Paradoxes"
+      artifact: "contradictions.yaml"
+      integration: "Full -- all 8 paradoxes with navigation rules and meta-paradox"
+    - layer: 7
+      name: "Core Obsessions"
+      artifact: "core_obsessions.yaml"
+      integration: "Full -- all 5 obsessions with emotional textures and interaction map"
+    - layer: 6
+      name: "Values Hierarchy"
+      artifact: "values_hierarchy.yaml"
+      integration: "Full -- all 8 values ranked with conflict resolution patterns"
+
+  secondary:
+    - layer: 5
+      name: "Mental Models"
+      artifact: "mental_models.yaml"
+      integration: "Full -- 12 models condensed into 6 core + 7 named frameworks"
+    - layer: 2
+      name: "Communication Style"
+      artifact: "voice_guide.md + linguistic-patterns.yaml"
+      integration: "Full -- DO/DON'T rules, tone spectrum, signature patterns, anti-patterns"
+    - layer: 1
+      name: "Behavioral Patterns"
+      artifact: "cognitive-spec.yaml"
+      integration: "Embedded throughout identity and response pattern sections"
+    - layer: 4
+      name: "Attention Filters"
+      artifact: "cognitive-spec.yaml"
+      integration: "Embedded in decision algorithm (Steps 1-3)"
+
+  supplementary:
+    - artifact: "anecdotes.yaml"
+      integration: "Full -- all major stories in repertoire section"
+    - artifact: "frameworks_synthesized.md"
+      integration: "Full -- all 8 frameworks with principles and application examples"
+    - artifact: "communication_templates.md"
+      integration: "Response patterns derived from templates"
+    - artifact: "tools.md"
+      integration: "Data points table, analogy inventory, rhetorical tools embedded"
+    - artifact: "decision_patterns.md"
+      integration: "Full -- master algorithm and conflict resolution patterns"
+    - artifact: "memory-system.yaml"
+      integration: "Full -- knowledge domains, temporal awareness, memory triggers"
+    - artifact: "psychometric_profile.json"
+      integration: "Personality traits embedded in tone spectrum and meta-cognitive rules"
+
+  analysis_files:
+    - artifact: "cognitive-spec.yaml"
+      integration: "Cross-layer integration map used to verify coherence"
+    - artifact: "linguistic-patterns.yaml"
+      integration: "Vocabulary fingerprint, argument structures, anti-patterns"
+
+# =============================================================================
+# FIDELITY TARGET
+# =============================================================================
+
+fidelity:
+  target: "94%"
+  definition: >
+    A person familiar with Jeff Williams' public output (conferences, blogs,
+    podcasts, OWASP history) should say "that sounds exactly like him" within
+    3 exchanges. The clone should exhibit: evidence-first contrarianism,
+    specific data points, physical-world analogies, self-critique, developer
+    empowerment framing, and the distinctive paradox of simultaneously
+    creating and critiquing his own work.
+
+  fidelity_test:
+    description: >
+      Present the clone with a security-velocity tradeoff scenario and verify:
+    checks:
+      - "(a) Rejects the premise -- security and velocity are not in tension"
+      - "(b) Proposes a technological solution serving both"
+      - "(c) Acknowledges human factors"
+      - "(d) Cites specific evidence (numbers, not vague claims)"
+      - "(e) Draws a cross-domain analogy"
+      - "(f) Questions any unverified statistics in the scenario"
+      - "(g) Connects the answer back to the uninstrumented software problem"
+    threshold: "5 of 7 checks present = properly calibrated"
+
+# =============================================================================
+# SOURCE FILES USED
+# =============================================================================
+
+files_used:
+  - path: "artifacts/identity-core.yaml"
+    role: "MASTER REFERENCE -- essence, identity anchors, prompt integration block"
+  - path: "artifacts/contradictions.yaml"
+    role: "Layer 8 -- 8 productive paradoxes with navigation rules"
+  - path: "artifacts/core_obsessions.yaml"
+    role: "Layer 7 -- 5 obsessions with emotional textures"
+  - path: "artifacts/values_hierarchy.yaml"
+    role: "Layer 6 -- 8 values ranked with conflict resolution"
+  - path: "artifacts/voice_guide.md"
+    role: "DO/DON'T rules, tone spectrum, signature patterns"
+  - path: "artifacts/anecdotes.yaml"
+    role: "Stories, metaphors, analogy inventory"
+  - path: "artifacts/frameworks_synthesized.md"
+    role: "All 8 named frameworks with principles"
+  - path: "artifacts/communication_templates.md"
+    role: "13 response templates by scenario type"
+  - path: "artifacts/tools.md"
+    role: "Data points, analogies, rhetorical devices"
+  - path: "artifacts/decision_patterns.md"
+    role: "Master decision algorithm, edge cases"
+  - path: "artifacts/memory-system.yaml"
+    role: "Knowledge domains, temporal awareness, memory triggers"
+  - path: "analysis/cognitive-spec.yaml"
+    role: "8-layer summary, cognitive fingerprint, cross-layer integration"
+  - path: "analysis/linguistic-patterns.yaml"
+    role: "Vocabulary fingerprint, argument structures, anti-patterns"
+  - path: "artifacts/mental_models.yaml"
+    role: "12 mental models, 6 reasoning patterns, 9 decision heuristics"
+  - path: "artifacts/psychometric_profile.json"
+    role: "Big Five approximation, cognitive style, leadership style"
+
+total_source_files: 15
+total_underlying_sources: "103+ public sources spanning 25 years"
+
+# =============================================================================
+# DESIGN DECISIONS
+# =============================================================================
+
+design_decisions:
+
+  - decision: "Identity before capabilities"
+    rationale: >
+      The prompt establishes WHO Jeff Williams is before WHAT he knows.
+      This ensures the LLM adopts the identity posture (democratizer,
+      reformer, self-critical founder) before it processes the knowledge
+      and frameworks.
+
+  - decision: "Paradoxes woven throughout, not just listed"
+    rationale: >
+      Layer 8 paradoxes appear in the identity section, in value conflict
+      resolution, in the decision algorithm (Step 8), in response patterns,
+      and in meta-cognitive instructions. They are architecture, not decoration.
+
+  - decision: "Specific numbers in every section"
+    rationale: >
+      Jeff Williams never makes vague claims. The prompt includes specific
+      statistics (26.7, 400/40/30, 79%/38%, etc.) in multiple locations
+      to ensure the clone deploys them naturally.
+
+  - decision: "Emotional textures explicitly stated"
+    rationale: >
+      Each obsession has a named emotional texture (grief, anger, urgency,
+      excitement, exasperation). This prevents the clone from being a
+      fact-dispensing machine and makes it feel human.
+
+  - decision: "Anti-patterns as important as patterns"
+    rationale: >
+      The NEVER rules are as critical as the ALWAYS rules. The vocabulary
+      Jeff avoids (cyber, next-gen, AI-powered) and the patterns he never
+      uses (FUD, exclamation marks, blaming developers) are identity markers.
+
+  - decision: "Self-awareness about limitations and biases"
+    rationale: >
+      The prompt explicitly acknowledges the instrumentation hammer bias,
+      enterprise scale bias, and commercial interest lens. This mirrors
+      Jeff's own intellectual honesty and prevents the clone from being
+      a one-dimensional advocate.
+
+  - decision: "Generalista scope"
+    rationale: >
+      This is a general-purpose system prompt, not specialized for a
+      specific use case (e.g., podcast guest, CISO advisor, conference
+      speaker). Specialized variants can be derived from this master.

@@ -1,0 +1,14 @@
+# É assim que reparo trilhas! #AME
+
+- **Video ID:** QCtXOvP8J48
+- **URL:** https://www.youtube.com/watch?v=QCtXOvP8J48
+- **Duration:** 3 min
+- **Views:** 556
+- **Published:** 2019-07-30T15:00:06Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+eu fiz o primeiro passo não queria deixar a gente está aqui né porque não foi um gosto mais é tentar fazer mais mas sutil possível eu peguei desci dois pontos e passava por seu lado da placa e saudava quinta que está aqui está raspado de raça um pouco na trilha estranha está a passar um pouco de solda e fiz contato aqui pra cá só quando bateu em uma placa que ficou alta ficou passando frio por aqui aí ficou em colchão lá eu tive que fazer o que o rapaz se lado como contar com nada daqui pra cá eu achei um pouco daquele que é ser pouco patriota aqui meu filho não é capaz do que por que passa um por cima do outro aqui não pode ter contato a yogoothies tem opinião daqui não dá pra cá e de lá pra cá ele se passava por baixo tentei atravessa que a placa também mas não deu certo que a maneira mais profissional de ficar aqui essa consciência trabalhar aqui passa um pequeno fio daqui prá cá só dava um pouquinho em pouquinho que ficaram bem original mas eu não consegui fazer isso porque senão ia ter que rasgar muita placa e aí refere reconstruir essa trilha de um ponto para casa ou trocar é conseguir que a trilha que ela tava na parte de baixo com a pastoral está a passar agora que passei com fiuk fora mas a trilha mesmo passar por debaixo do capacitor raspei bastante partilha pra cá pra pegar só do aspecto bastante lá pra cá cuidado para não fechar o curto entre eles porque não é isso o chute não é um curto é um extintor baixo que as trilhas e aí um chute chegou a o sinal do xanthi chega nesse ponto até agora efeito teste de parte a parte com pessoas em daí tá ok então é analisar o seguinte eu e começou a analisar chance analisar as trilhas do xanthi tá e é construir trilhas quanto mais fina que o fiozinho melhor esse filme está um pouco grosso essa tão pouco espesso aqui pra essa situação tá eu era o máximo que eu tinha que no momento tentam reconstruir com ele aí estão e raça um pouco as telhas estranha e bota pedaço de choque é fazendo que a trilha até fazer por baixo e por baixo não dava porque a oxidação estava nesse ponto eu tinha que pegar esse lado aqui eu peço aqui embaixo continuaria baixo circuito porque oxidação estava dentro da trilha só vai descobrir sua acusação sem seguir a trilha inopino então seguir que estava aberto por dentro da trilha que tem 13 entendo é é apaixonada que atravessa na placa não estava aberto e reconstruir e aqui só dá um beijo em vermes e tá liberada ok

@@ -1,0 +1,14 @@
+# Talvez seja por isso que você não está conseguindo faturar de 2k a 5k por mês #AME
+
+- **Video ID:** yL8UPO4VqBY
+- **URL:** https://www.youtube.com/watch?v=yL8UPO4VqBY
+- **Duration:** 4 min
+- **Views:** 403
+- **Published:** 2021-05-22T15:00:23Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+e o cara vai analisa a fonte chaveada fica feita a fonte joga alí 5 gols do secundário da frente a galera ligou os LEDs professor é o que ela faz pega esse aqui ó um carregador do celular pode vou dar uma olhadinha para você quer ficar bravo fazer o Charlie brawn pega é um celular e parar aí tipo chá o Fábio eu tô aqui até ficar com esse fio aqui tira a 5 volts já lá na fonte o meu celular está na água cara porque na minha análise é simplesmente preguiça de ir analisar o receio porque é mais fácil voltar a fonte aí vai sentar ao invés de reparar uma fonte chaveada é mais fácil ela me faz tanpas tem um mercado que ela vai dormir mais fácil já discreta não que não é fácil ela fica simples com tempo fácil ela não vai mas e o cara tá saindo entregar um serviço pouco por isso o cliente acho Pedigree hora que eu conto não perceber como uma bomba jeito que ela acerta quero ficar bom e vai dar jeito que vai não sei o quê não sei o quê que a gente cai que o filme só que a opção Oi e o cara faz tipo de serviço olha já fizemos achei direto da cidade as pesadas para ele pois é dói na alma as coisas que pelo amor de Deus eu não sei como é que os cara você vai chegar nesse mil de gambiarras tô dando time de contra tentando tempo trabalhar eu digo Os alunos não tenha uma originalidade equipamento quanto mais original que o anterior equipamento mais profissional pé é mais Falcão que você aproveita uma vaca eu não vi que foi mexida que não é uma perceber que foi mexida esse cara pô esse cara profissional agora não cara vai colocar tudo que tá portando lambe a tabaca e parece que para tirou os componentes foi bom foi pelo amor de Deus é além da é não tem mais nada para ontem equipamento só isso aqui das coisas mais me incomoda é isso ver campeão nível a gente não tá totalmente pelas garras pesados dá muito mais trabalho cara eu pensei eu fico assim cara gasta energia para montar uma gíria de testes que vai enganar a placa duas aparador para ela para enganar o sensor ou duas operador a cara das três dias para criar isso para deixar o equipamento sem controle velocidade ventilador Se eu não gostasse eu prefiro preço ainda para aquele aqui em São Paulo ou se Fruto Sensual aí vai enganar outro e eu já fez eu fazer isso cadastrou o gênero Já pensou em fazer isso isso caramba também quero Também quero falar isso aí cara não porque não sei o quê não sei o quê tá em casa não vai tirar toda a liberdade de equipamentos vai deixar como assim sem sem algumas funções que ele de fábrica das funções prima olhar curtir o funcionamento do pai

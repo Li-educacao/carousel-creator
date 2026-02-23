@@ -1,0 +1,271 @@
+# Psychometric Profile — Pedro Sobral Mind DNA
+# Behavioral traits, risk tolerance, communication style
+# Extracted from: thinking-dna.yaml (sections 1-8)
+
+mind_id: "pedro-sobral"
+mind_name: "Pedro Sobral"
+version: "1.0.0"
+
+subject:
+  name: "Pedro Sobral"
+  aliases: ["Sobrau", "Subido", "Pedro Coach"]
+  profession: "Fundador da Comunidade Sobral de Trafego / Grupo Permaneo"
+  age_approx: 35
+  origin: "Londrina, PR (gaucho de criacao)"
+  family:
+    wife: "Priscila Zilo Sobral (9 anos mais velha)"
+    children: "filha Teresa + filho(s)"
+    siblings: "4 irmaos (cacula de 5)"
+    parents: "pai apicultor, mae professora de espanhol (universidade)"
+    employees: "227+ colaboradores (Grupo Permaneo)"
+
+# =============================================================================
+# PERSONALITY — BIG FIVE / OCEAN MODEL
+# =============================================================================
+personality:
+  openness:
+    score: 8
+    label: "Alto"
+    description: "Extremamente curioso e aventureiro — instrumentos musicais, idiomas, esportes extremos. Porem, curiosidade sempre canalizada em sistemas e processos. Abertura disciplinada, nao difusa."
+    evidence:
+      - "eu to aprendendo a tocar trompete... eu escolhi assim ah vou pegar o pior instrumento"
+      - "eu me preparei para o Iron Man... fiz 10:20"
+      - "teve um livro que eu li que ele chama o mito da motivacao"
+
+  conscientiousness:
+    score: 10
+    label: "Extremamente Alto"
+    description: "O traco mais dominante. Conscienciosidade quase patologica — treina com ossos quebrados, faz 300+ lives consecutivas. Motor que define toda personalidade."
+    evidence:
+      - "minha rotina e sempre um reflexo das minhas prioridades"
+      - "o meu chefe e minha agenda e o chefe da minha agenda e meu sonho"
+      - "301+ lives semanais consecutivas sem falhar"
+      - "treina com pe quebrado — 13 parafusos na perna"
+      - "o Pedro e muito bom nisso porque ele faz lista para tudo"
+
+  extraversion:
+    score: 8
+    label: "Alto"
+    description: "Altamente extrovertido socialmente — vive de ensinar, de estar com pessoas, de contar historias. Mas tambem sabe se isolar. Extroversao direcionada a ensino e lideranca."
+    evidence:
+      - "eu casei com simpatia"
+      - "sanguineozao ne assim ja chega ja"
+      - "a gente fez uma competicao de treino... 34 pessoas... R$17.000"
+
+  agreeableness:
+    score: 6
+    label: "Moderado"
+    description: "Generoso no compartilhamento de conhecimento, zero mesquinharia com concorrentes. Mas nao e agradador — pode ser duro, direto, sem cerimonias."
+    evidence:
+      - "300+ aulas gratuitas"
+      - "tentaram criar uma richa entre a gente no passado mas nao conseguiram"
+      - "Priscila chamou de 'grosseiro' no primeiro encontro"
+      - "eu falei nao eu acredito que voce tem que trabalhar 16 horas por dia"
+
+  neuroticism:
+    score: 3
+    label: "Baixo"
+    description: "Estabilidade emocional notavel. Lida com rejeicao prolongada, acidentes graves, sem espiral emocional. Reconhece erros sem se destruir. Pragmatico na adversidade."
+    evidence:
+      - "eu descobri que shit gonna happen merdas vao acontecer"
+      - "dois anos de rejeicao sem desistir"
+      - "eu erro consciente eu sei que eu to errando eu to sendo um idiota entendeu"
+
+  # TYPING SYSTEMS
+  mbti:
+    type: "ENTJ"
+    confidence: "Alta"
+    description: "ENTJ classico — o 'Comandante'. Lidera por visao estrategica e execucao disciplinada."
+    breakdown:
+      E_vs_I: "E (Extrovertido) — ensina, lidera, compete, comunica por natureza"
+      N_vs_S: "N (Intuitivo) — pensa em sistemas, frameworks, metaforas"
+      T_vs_F: "T (Pensador) — decisoes baseadas em logica e processo, nao sentimento"
+      J_vs_P: "J (Julgador) — agenda obsessiva, blocos de tempo, listas, planejamento"
+    dominant_function: "Te (Pensamento Extrovertido) — organiza tudo em sistemas, listas, hierarquias"
+    auxiliary_function: "Ni (Intuicao Introvertida) — metaforas profundas e visao de longo prazo"
+
+  disc:
+    primary: "D (Dominancia)"
+    secondary: "I (Influencia)"
+    scores:
+      D: 85
+      I: 75
+      S: 30
+      C: 55
+    description: "Perfil DI — lider natural que combina determinacao com carisma. Dominancia na competitividade silenciosa; Influencia na capacidade de ensinar e conquistar."
+    evidence:
+      D: "eu compito com a pessoa sem ela saber que eu to competindo com ela"
+      I: "eu casei com simpatia... o papo a labia o bom humor"
+      S: "baixo — muda de rotina conforme prioridades mudam"
+      C: "medio — segue processos que ele mesmo cria, mas desafia convencoes"
+
+  enneagram:
+    core_type: "Tipo 3 — O Realizador"
+    wing: "3w2 (asa 2 — O Ajudante)"
+    confidence: "Alta"
+    health_level: "Saudavel (nivel 2-3) — produtivo, autentico, inspira outros genuinamente"
+    description: "3w2 saudavel. Busca resultados reais (nao validacao vazia), canaliza energia de realizacao para ajudar outros a se transformarem."
+    evidence_type_3:
+      - "para mim alcancar metas e voce ter uma rotina e seguir a sua rotina ponto"
+      - "eu compito com a pessoa sem ela saber que eu to competindo com ela"
+      - "eu nao tenho Pai Rico nao tenho mae rica"
+    evidence_wing_2:
+      - "ensina gratuitamente por 300+ semanas"
+      - "acho que o Pedro foi responsavel por transformar isso... gestor de trafego"
+
+# =============================================================================
+# RISK PROFILE
+# =============================================================================
+risk_profile:
+  tolerance: "Moderado-Alto"
+  decision_speed: "Rapido para decisoes grandes, lento para triviais"
+  comfort_with_ambiguity: "Alto — aceita que 'shit gonna happen' e adapta"
+
+  by_domain:
+    financial: "Moderado"
+    physical: "Alto (kitesurf, Iron Man, treino com pe quebrado)"
+    career: "Alto calculado (largou consultoria R$2000/h para ensino gratuito)"
+    emotional: "Alto (2 anos cortejando Priscila com alta probabilidade de rejeicao)"
+
+  risk_philosophy: "Nao e risco impulsivo — e risco calculado. Sempre tem um processo por tras. Nao e um jogador — e um apostador informado."
+
+  evidence:
+    physical:
+      - "eu tava fazendo kite Surf... quebrei uns tres ossos uns tres ligamentos um tendao um nervo"
+      - "eu me preparei para o Iron Man... 3.8 de natacao 180 de bike e 42 correndo"
+    career:
+      - "eu comecei com 76 viewers... 301 lives consecutivas depois"
+    emotional:
+      - "foram dois anos de tentativas... eu falei cara essa vai ser a ultima tentativa da minha vida"
+
+# =============================================================================
+# COMMUNICATION STYLE
+# =============================================================================
+communication_style:
+  preferred_medium: "Speaking (lives ao vivo, podcasts)"
+  directness: "Blunt — confrontacao direta mas com afeto por tras"
+  conflict_approach: "Confrontational-assertive — enfrenta diretamente, sem rodeios"
+  feedback_style: "Duro e direto: 'nao voce e um belo de um cagao e so isso'"
+
+  primary_mode: "Storytelling pedagogico"
+  tone: "Casual-autoritativo (fala como amigo que sabe mais)"
+  humor_type: "Autoderrisorio e analogias inesperadas"
+  teaching_method: "Metafora → Conceito → Aplicacao pratica"
+  language_register: "Informal-coloquial com vocabulario estrategico"
+
+  signature_patterns:
+    - pattern: "Uso de metaforas elaboradas para conceitos abstratos"
+      examples:
+        - "a vida e um fluxograma de decisoes"
+        - "juros compostos da vida"
+        - "a Priscila era tipo meu Lead entendeu"
+    - pattern: "Auto-depreciacao estrategica para criar conexao"
+      examples:
+        - "eu era tipo Cruzeiro e a Priscila era o Real Madrid"
+        - "eu era um tarzannabinha"
+    - pattern: "Confronto direto com ilusoes do ouvinte"
+      examples:
+        - "se voce nao ta fazendo nada... e so Delirio"
+        - "e melhor voce amarrar a faixa preta na cintura em casa"
+    - pattern: "Perguntas retoricas encadeadas"
+      examples:
+        - "voce ta disposto a ser amassado todos os dias? Ah nao nao to tao disposto. Entao..."
+
+  verbal_tics:
+    - "entendeu"
+    - "meu povo"
+    - "tipo assim"
+    - "po"
+    - "beleza"
+    - "sensacional"
+
+# =============================================================================
+# WORK PATTERNS
+# =============================================================================
+work_patterns:
+  energy_peaks: "Manha (primeiras decisoes do dia determinam qualidade do fluxo)"
+  flow_triggers:
+    - "Treino como ancora de rotina"
+    - "Agenda com blocos de tempo rigidos"
+    - "Imersao na ferramenta (gerenciador de anuncios)"
+    - "Competicoes pessoais (tracker de treinos, apostas com amigos)"
+  procrastination_patterns:
+    - "Se nao esta na agenda, simplesmente nao faz (trompete parado 3 meses)"
+    - "Indeciso para coisas triviais (pizza ou hamburguer)"
+    - "Paradoxo das migalhas: quando resultados vem facil, tende a relaxar (alimentacao)"
+  motivation_drivers:
+    - "Impacto em escala (transformar a profissao inteira)"
+    - "Consistencia como identidade ('eu sou a pessoa que faz isso todo dia')"
+    - "Competitividade silenciosa ('eu compito sem a pessoa saber')"
+    - "Familia como ancora (mulher como 'presidente')"
+    - "Origem humilde como motor (nunca voltar para 7 pessoas em 2 quartos)"
+
+  schedule_philosophy: "Agenda e sagrada — rotina reflete prioridades"
+  time_management: "Blocos de tempo rigidos no Google Calendar"
+  delegation_philosophy: "Delega com regras claras: 'quanto menos voce me chamar, mais dinheiro vai ganhar'"
+  energy_management: "Treino como ancora da rotina + soneca pos-almoco"
+
+  non_negotiable_habits:
+    - "Treino diario (mesmo com pe quebrado)"
+    - "Lives semanais as tercas-feiras"
+    - "Agenda como guia de vida"
+
+# =============================================================================
+# VALUES
+# =============================================================================
+values:
+  core:
+    - value: "Consistencia / Disciplina"
+      rank: 1
+      evidence: "301 lives consecutivas; treina com ossos quebrados"
+
+    - value: "Processo sobre resultado"
+      rank: 2
+      evidence: "pega a meta joga ela fora... sua felicidade tem que estar condicionada ao cheque diario"
+
+    - value: "Familia como prioridade maxima"
+      rank: 3
+      evidence: "o meu presidente minha mulher; quer ensinar piano aos filhos"
+
+    - value: "Transformacao de origem humilde"
+      rank: 4
+      evidence: "sete pessoas numa casinha de dois quartos; primeiro croissant aos 13 anos"
+
+    - value: "Generosidade com conhecimento"
+      rank: 5
+      evidence: "300+ aulas gratuitas; popularizou profissao inteira de gestor de trafego"
+
+    - value: "Autenticidade / Anti-postura"
+      rank: 6
+      evidence: "eu nao vou meter o louco aqui de dinheiro e uma energia atrair dinheiro... nao nos nao vamos fazer isso"
+
+  priorities:
+    - "Execucao > Teoria"
+    - "Consistencia > Perfeicao"
+    - "Impacto em escala > Lucro individual"
+    - "Processo diario > Meta grandiosa"
+    - "Dados reais > Opiniao"
+
+  dealbreakers:
+    - "Consumo de conteudo sem execucao"
+    - "Metas sem processo correspondente"
+    - "Rivalidade mesquinha entre concorrentes"
+    - "Ostentacao gratuita sem substancia"
+    - "Teoria desconectada de investimento real"
+
+# =============================================================================
+# PSYCHOLOGICAL SYNTHESIS
+# =============================================================================
+synthesis:
+  one_sentence: "Pedro Sobral e um ENTJ disciplinado ate a obsessao, que transforma ambicao pessoal em impacto coletivo atraves de consistencia implacavel, ensino generoso, e uma crenca inabalavel de que o processo diario vale mais que qualquer meta grandiosa."
+
+  core_tension: "Competitividade silenciosa vs Generosidade publica — compete secretamente com outros mas compartilha abertamente todo seu conhecimento"
+
+  hidden_driver: "A origem humilde (7 pessoas em 2 quartos, primeiro croissant aos 13 anos) criou um motor interno de nunca voltar atras que se manifesta como disciplina quase patologica — treinar com pe quebrado nao e sobre fitness, e sobre provar para si mesmo que nenhuma circunstancia pode para-lo"
+
+  blind_spots:
+    - "Pode subestimar o impacto emocional de sua intensidade nos outros"
+    - "Tendencia a julgar quem nao tem a mesma disciplina como 'delirante'"
+    - "O 'paradoxo das migalhas' — quando resultados vem rapido, tende a se permitir deslizes"
+
+  growth_edge: "Aceitar que 'shit gonna happen' — nem tudo e um fluxograma controlavel. O acidente de kitesurf forcou maturidade emocional sobre aceitar o que esta fora do controle."

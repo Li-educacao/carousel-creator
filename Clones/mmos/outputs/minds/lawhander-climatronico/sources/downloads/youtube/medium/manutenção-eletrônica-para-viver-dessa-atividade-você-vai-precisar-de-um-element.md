@@ -1,0 +1,14 @@
+# MANUTENÇÃO ELETRÔNICA: PARA VIVER DESSA ATIVIDADE VOCÊ VAI PRECISAR DE UM ELEMENTO... #AME
+
+- **Video ID:** T1KJM0z4Xts
+- **URL:** https://www.youtube.com/watch?v=T1KJM0z4Xts
+- **Duration:** 3 min
+- **Views:** 1,032
+- **Published:** 2022-05-19T15:00:13Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+a metodologia certa você consegue acelerar seus resultados quando o Ander tive duas escolas ele que manutenção meio e dois professores dois métodos né Mais ou menos dois metros e esses dois métodos eu aprendi com os dois métodos dos meus leitores tenham uma boa creme é psicologia depois Mas demorei bastante os dois anos e para ficar bem profissional a manutenção se há 12 anos mais ou menos coisa que não foi foi vai ficar profissional coisa que meus alunos metodologia certa chegam a um nível que eu tinha dois anos com dois anos de uma pressão cheio e o que acham de seis meses entendeu é para a primeira placa em 1 mês a primeira partida Não sei depois de quantos meses depois reconhecer eletrônica entendeu Não sei depois de quantos meses você conseguir fazer isso então porque eu sei menos ele sabe mais uma metodologia como a Biologia é certa você vai saber o que você tá fazendo já aprender a fazer saber o que está fazendo e não ser só um trocador de peça só um cara que vive trocando peça aí e acha que ela é isso só com a peça eu vou trocar peça e dá certo porque o cara foi lá só trocou a peça quando vê um carro é para uma placa então achei só para uma peça quando ele sendo todo background dele de estudo de conhecimento tá sendo trazer uma visão limitado daquele daquele profissional entendeu ficar lá rapidamente identificar a peça e tem precisar para caramba eu tô mais crônica é só trocar a peça vou ver o vídeo na internet mistura tocar eu vou lá e troca e dá certo é isso se eletrônica cuidado fazendo que não é só parou de peças Você pode até começar sendo do lado de peça né E aí começa a tomar gosto a gente que você tem que você se aprofundar metodologia certa com base e correta saber o que tá fazendo porque como eu disse o que esse monicast quando eu comecei eu estar eu tinha base e para entrar em qualquer segmento eu não sabia tudo daquele segmento de ser hoje tá então essa proteção arrumou isso mas eu tinha base vou ficar a base né tem fundamento sei o que estou fazendo sei o que posso fazer sei como conduzir ali um análise uma batom Davi na vida desse conhecimento qualquer setor na tô com nossos climatronics reparam parte de outros segmentos é porque você não tem um algo sobre isso se não tem uma dica do a ordem sendo Torres componente e porquê e não são trocadores componentes são caso analisam os Que batom mas analisam de uma maneira efetiva a

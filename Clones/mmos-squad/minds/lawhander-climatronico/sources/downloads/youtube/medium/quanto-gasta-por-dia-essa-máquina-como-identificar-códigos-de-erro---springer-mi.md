@@ -1,0 +1,14 @@
+# Quanto gasta por dia essa máquina/ Como identificar códigos de erro - Springer Midea 18K Inverter
+
+- **Video ID:** BYFzuHLgyyE
+- **URL:** https://www.youtube.com/watch?v=BYFzuHLgyyE
+- **Duration:** 3 min
+- **Views:** 125
+- **Published:** 2024-03-15T22:00:09Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+uma máquina de 18.000 BTUs Spring ideia em condições adversas de variações liga desliga acelera diminui até durante um dia durante 9:30 trabalhado você será um di que trabalho no teu escritório onde entra várias pessoas onde tu se levanta e abre a porta várias vezes durante o dia nessas condições a máquina em 9:30 consumiu 10 kW hora o que dá de se dividir pelo pelo tempo que ela rodou dá 1,0 5 kW H por hora então é 1 kW por H em média Lembrando que ela trabalhou em várias condições por isso que a a inverta ela varia a velocidade do compressor então ela não é um consumo constante or ela tá consumindo mais or ela tá consumindo menos depende da aplicação depende da condição de trabalho 1 k 1,05 kW H nesse tempo que eu testei deu 10 kW em 9 horas aqui em Fortaleza aqui no Ceará o kW H aqui na minha empresa se eu calcular aqui o kWh H dá algo em torno de 98 CAV ou que kow tá o kilowatt dá em torno de 98 cavos se eu pegar 105 e multiplicar por 0,98 dá R 1,3 o kWh h arredondando a máquina que rodou 9 horas um dia de trabalho de uma máquina de 18.000 BTUs Gir girou em torno aqui de R 10 de consumo de grana R 10 rodou r930 e consumiu alo em torno de R 10 eu tô falando de uma máquina de 18 18.000 BTUs uma máquina não não é 9000 no teu quarto se fosse era barato mas é uma de 18.000 etus que consome durante um dia de trabalho R 10 aqui o display dela é onde dá o código de erro tá você vai esperar quanto tempo se liga só máquinas Midea Spring mideia mideia Carrier Carrier tem o seguinte comportamento ela vai apresentar o erro depois de tentar partir o compressor durante três vezes ela tenta partir o compressor três vezes na terceira vez ela não consegue E aí ela apresenta o código de erro no evaporador tá É nessa hora que você tem que esperar isso pode durar até 9 a 12 minutos a não tenho paciência pelo amor de Deus com o código de erro você vai conseguir recuperar a máquina o defeito indentificar o defeito sem código de fica mais complicado a hora eu não consigo tirar a falha sem código de consegue mas fica bem mais complicado tá então o primeiro ponto código de erro dessa máquina aparece no display nós vamos já simular alguns códigos de erro tá aparece no display e tem que esperar tentar partir compressor algumas vezes especialmente os códigos de erros relacionados a condensadora quando tem a ver a partida do compressor erro de IPM subtensão sobretensão esses erros todos eles só vão apresentar quando tentar partir três vezes então paciência com máquinas esping uma ideia bateer o olho Tenha paciência espere

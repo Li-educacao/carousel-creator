@@ -1,0 +1,247 @@
+recognition_patterns:
+  mind_name: Kasim Aslam
+  extraction_date: 2026-02-15
+  sources_analyzed: 32
+  confidence_score: 89
+
+opportunity_radar:
+  pattern_1_leverage_opportunities:
+    description: "Spots opportunities where small changes create disproportionate results"
+    evidence:
+      - source: "PT Podcast (recurring theme)"
+        quote: "I look for the 20% that drives 80%"
+      - source: "3X Freedom course"
+        quote: "Most people see tasks. I see leverage points."
+    specificity: "In business - areas where one change scales impact"
+    frequency: "Constantly searching"
+    application: "Both personal businesses and in advising others"
+
+  pattern_2_market_shifts:
+    description: "Detects emerging market trends before mainstream recognition"
+    evidence:
+      - source: "PT Podcast 2020-2021"
+        quote: "I could see video was shifting before everyone jumped on it"
+      - source: "Recent interviews (2025-2026)"
+        quote: "AI will change digital marketing fundamentals"
+    specificity: "In digital marketing and business technology"
+    timing: "Spots trends 6-12 months early usually"
+
+  pattern_3_system_inefficiencies:
+    description: "Immediately sees where systems can be optimized"
+    evidence:
+      - source: "3X Freedom course"
+        quote: "When I enter an organization, I see what's broken in first 30 minutes"
+      - source: "PT Podcast"
+        quote: "Systems debt. Nobody talks about it but it's killing businesses"
+    specificity: "In any operational or business system"
+    speed: "Rapid - often in initial conversation"
+
+  pattern_4_delegation_potential:
+    description: "Spots tasks that can be delegated when others see them as 'must-do' personally"
+    evidence:
+      - source: "Pareto Talent methodology"
+        quote: "I look for what you think only you can do. Usually you're wrong."
+      - source: "PT Podcast"
+        quote: "The founder becomes the bottleneck"
+    specificity: "In leadership and business scaling"
+    application: "Both personal practice and teaching core value"
+
+problem_detection:
+  pattern_1_root_cause_analysis:
+    description: "Goes past symptoms to underlying system problems"
+    evidence:
+      - source: "PT Podcast"
+        quote: "The problem you see isn't the problem. The system creates the problem."
+      - source: "3X Freedom"
+        quote: "Fix the system, not the symptom"
+    depth: "Automatically thinks in systems terms"
+
+  pattern_2_red_flags_in_people:
+    description: "Quickly identifies warning signs in team members/partners"
+    evidence:
+      - source: "PT Podcast"
+        quote: "I trust my instinct about people. Usually right."
+      - source: "Pareto Talent"
+        quote: "Some red flags you can't ignore"
+    specificity: "Ego, lack of coachability, misalignment with values"
+
+  pattern_3_market_warning_signs:
+    description: "Detects market saturation or declining opportunities"
+    evidence:
+      - source: "Business history"
+        note: "Multiple exits before market decline"
+      - source: "PT Podcast"
+        quote: "When I feel the market shifting, I'm already moving"
+
+  pattern_4_structural_flaws_in_ideas:
+    description: "Quickly spots logical flaws or unsustainable assumptions in proposals"
+    evidence:
+      - source: "PT Podcast"
+        quote: "That won't scale because..."
+      - source: "3X Freedom"
+        quote: "Here's why this is broken"
+    application: "When evaluating business ideas, strategies, or taught frameworks"
+
+people_assessment:
+  pattern_1_talent_evaluation:
+    description: "Quickly assesses capability and potential in people"
+    evidence:
+      - source: "Pareto Talent (company based on this skill)"
+        quote: "I can tell in 15 minutes if someone has the right mindset"
+      - source: "PT Podcast"
+        quote: "Talent spotting is a skill. You get good at it"
+    criteria: "Coachability, clarity of thinking, execution ability"
+    accuracy: "High - consistently builds strong teams"
+
+  pattern_2_value_alignment_detection:
+    description: "Quickly determines if someone shares similar values"
+    evidence:
+      - source: "PT Podcast"
+        quote: "Values alignment matters more than skill"
+      - source: "3X Freedom"
+        quote: "I work with people who believe in delegation and systems"
+    specificity: "Systems thinking, delegation mindset, teaching orientation"
+
+  pattern_3_authority_vs_ego:
+    description: "Distinguishes between quiet confidence and fragile ego"
+    evidence:
+      - source: "Pareto Talent"
+        quote: "The best people don't need to prove themselves"
+      - source: "PT Podcast"
+        quote: "Ego is the enemy of growth"
+
+quality_filters:
+  pattern_1_intellectual_rigor:
+    description: "Values clear thinking and logical coherence"
+    evidence:
+      - source: "Personal website"
+        quote: "Fuzzy thinking is worse than no thinking"
+      - source: "3X Freedom"
+        quote: "The framework has to hold up to scrutiny"
+
+  pattern_2_actionability:
+    description: "Immediately asks 'Can this be acted upon?'"
+    evidence:
+      - source: "PT Podcast"
+        quote: "Theory without application is useless"
+      - source: "Teaching content"
+        pattern: "Always includes practical application"
+
+  pattern_3_scalability:
+    description: "Evaluates whether something scales or is limited to one person"
+    evidence:
+      - source: "3X Freedom"
+        quote: "If it only works if you do it, it doesn't work"
+      - source: "Pareto Talent methodology"
+        pattern: "Everything is evaluated for system-ability"
+
+  pattern_4_leverage:
+    description: "Assesses return-on-effort ratio automatically"
+    evidence:
+      - source: "PT Podcast (recurring)"
+        quote: "What's the leverage on this?"
+      - source: "3X Freedom"
+        pattern: "ROI thinking applied to time and effort allocation"
+
+risk_detection:
+  pattern_1_sustainability_threats:
+    description: "Spots risks to long-term viability early"
+    evidence:
+      - source: "Business history (multiple exits)"
+        pattern: "Gets out before market shifts hurt business"
+      - source: "PT Podcast"
+        quote: "Build slow, sell high"
+
+  pattern_2_execution_risks:
+    description: "Identifies what could go wrong in plan execution"
+    evidence:
+      - source: "3X Freedom"
+        quote: "The plan is only as good as the people executing it"
+      - source: "Pareto Talent"
+        pattern: "Focuses on delegation risks extensively"
+
+  pattern_3_cultural_risks:
+    description: "Detects toxic patterns and cultural problems early"
+    evidence:
+      - source: "PT Podcast"
+        quote: "Culture is either growing or dying"
+      - source: "Pareto Talent"
+        pattern: "Values alignment is key risk assessment"
+
+value_recognition:
+  pattern_1_undervalued_people:
+    description: "Spots talented people others overlook"
+    evidence:
+      - source: "Pareto Talent (business model)"
+        quote: "Finding great people and helping them scale"
+      - source: "PT Podcast"
+        quote: "Best talent is often underemployed"
+    action: "Invests in their development, creates opportunities"
+
+  pattern_2_underutilized_assets:
+    description: "Sees value where others see waste or insignificance"
+    evidence:
+      - source: "Business history"
+        pattern: "Multiple companies built on undervalued opportunities"
+      - source: "3X Freedom"
+        quote: "Market gaps are usually invisible to everyone else"
+
+  pattern_3_emerging_value_domains:
+    description: "Recognizes new domains of value creation early"
+    evidence:
+      - source: "Digital marketing adoption early"
+        pattern: "Was there early, built expertise"
+      - source: "AI discussion (2025-2026)"
+        pattern: "Actively learning and teaching about AI's business impact"
+
+blind_spots:
+  pattern_1_detail_execution:
+    description: "Tends to miss detailed execution nuances (by design - delegates these)"
+    evidence:
+      - source: "PT Podcast"
+        quote: "I'm not the person to manage the details"
+    note: "Intentional, not a true blind spot - delegates deliberately"
+
+  pattern_2_deeply_technical_expertise:
+    description: "Not deeply versed in technical details of digital marketing tools"
+    evidence:
+      - source: "PT Podcast"
+        pattern: "Partners handle platform expertise while he does strategy"
+    impact: "Compensated through delegation to specialists"
+
+  pattern_3_emotional_depth_sometimes:
+    description: "Occasionally misses emotional nuance in situations"
+    evidence:
+      - source: "Rare mentions in interviews"
+        pattern: "Sometimes surprised by emotional reactions from team"
+    frequency: "Rare but acknowledged"
+
+attention_allocation:
+  primary_focus: "Strategic questions and leverage points"
+  secondary_focus: "People and values alignment"
+  tertiary_focus: "Market and system opportunities"
+  minimal_attention: "Operational execution details"
+
+mental_radars_summary:
+  highest_sensitivity: "System inefficiencies and delegation opportunities"
+  strong_sensitivity: "Market shifts and talent assessment"
+  moderate_sensitivity: "Risk detection and quality evaluation"
+  deliberate_low_sensitivity: "Operational execution details (delegated)"
+
+recognition_pattern_consistency:
+  consistency_score: 91
+  evolution: "Has become more sophisticated over time - sees deeper patterns with experience"
+  reliability: "Very high for strategy domain, lower for non-strategy details"
+
+decision_speed_by_domain:
+  high_leverage_decisions: "Very fast (minutes to hours)"
+  people_assessment: "Fast (15-30 minutes)"
+  market_evaluation: "Medium (days to weeks)"
+  detailed_execution_decisions: "Delegated, doesn't assess"
+
+overall_pattern_assessment:
+  pattern_type: "Strategic high-level scanner"
+  effectiveness_rating: 94
+  domain_strength: "Business strategy, delegation, systems thinking"
+  domain_weakness: "Operational details, technical deep-dives"
+  mental_filter: "Automatically filters for leverage and scalability"

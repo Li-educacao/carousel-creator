@@ -1,0 +1,14 @@
+# CONSERTO DE PLACA DE VRF: ENTENDA A METODOLOGIA POR TRÁS DO REPARO #AME
+
+- **Video ID:** zEg-EUV_Xaw
+- **URL:** https://www.youtube.com/watch?v=zEg-EUV_Xaw
+- **Duration:** 4 min
+- **Views:** 521
+- **Published:** 2022-06-26T15:00:24Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+e eu não vrs também é nem nem sei que máquina que é você que o Tem um pessoal que tem contrato com umas indústria e ele me traz ela nem sei como é que é a máquina mas eu consigo arrumar ela sem sem botar lá na máquina só refaço o que tá dando esse caso né mas tem razões relógio dourado de óleo puro e ligo ela e vejo ela dando erro e peças tensões bota os sensores nela o erro saio eu para mim ela tá boa mando para o rapaz lá ele estava funcionando que acaba pegando umas noção né do que tem que ser que que não tem algumas que é difícil que não é essa aqui ela é só um circuito de acionamento e tudo né daí eu me basiei pelas tensões estamos certo e tipo eu todas que eu recebi tinha algum defeito né uma estava com a entrada de tensão Valeu os diodo né tavam em curto né outro acaba com um diodo onde tinha um relé tava é um relatório derretido né mas são coisas simples né mas como eu peguei testei Vital processando minhas tensões tudo certinho não tinha mais nada alterar eu dou uma varredura total é limpa placa toda e testa ela todinha todos os componentes na placa consegui deduzir que tava Bora primeira vez que eu levei para o rapaz falei ó eu não tenho certeza se ela tá funcionando as tensões tá tudo certo só que vocês colocam lá e faz o teste ele levou lá em si mesmo é uma maravilha está funcionando que nem novo só de boa a primeira Já faz mais seis meses já que eu arrumei a maioria dessas placas que é como é indústria a maioria dessas placas problema é sujeira e como pega muito bom né a própria sujeira acaba triângulo tipo uma carbonização ali eu acaba achando curto daí eu dou uma boa em casa análise tudo faça o teste aqui para mim e até agora deu certo aí você começa a ficar repetitivo né é micro acionador é led é relevo é tudo tudo um sistema sempre parecida né você tá aprender a testar isso aí saber o funcionamento dele ou faz qualquer coisa é que nem PM né e quando eu comecei assim nosso para aprender do jeito que acionar vai tinha os seus Gates ali eram falou que era um monstro que lá né mas Nossa hoje é mamão com açúcar é o uma coisa muito muito simples para mim já porque eu aprendi aprendi mexer na frente estudando a gente tem que botar a cara né tem que estudar eu estudo muito tô sempre sempre olhando o Datasheet sempre olhando do vídeo a gente conversa muito tem colega a gente conversa por vídeo chamada troca informações bem bem legal

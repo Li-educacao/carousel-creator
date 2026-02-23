@@ -1,0 +1,219 @@
+core_obsessions:
+  mind_name: Kasim Aslam
+  extraction_date: 2026-02-15
+  sources_analyzed: 32
+  triangulation_confidence: 85
+  human_validation_required: true
+  validation_checkpoint: "PENDING_USER_APPROVAL"
+  note: "Layer 7 obsessions are the 'big questions' or driving themes that animate thinking and decisions"
+
+obsession_1_how_do_you_scale_without_scaling_yourself:
+  intensity: "Extreme - central to all major work"
+  driving_force: "Desire to prove scaling doesn't require personal burnout"
+  manifestation:
+    - "Built 3X Freedom around this question"
+    - "Core theme of Perpetual Traffic 700+ episodes"
+    - "Pareto Talent business model answers this"
+    - "Personal exemplar of delegation-based scaling"
+  underlying_need: "Freedom from work while maintaining control and impact"
+  sources_count: 29
+  triangulation: 94%
+  quotes:
+    - "The founder becomes the bottleneck"
+    - "You can't scale if you're the limiting factor"
+    - "3X Freedom is the answer to this question"
+  questions_he_asks:
+    - "What would happen if I wasn't involved?"
+    - "Can I delegate this decision?"
+    - "Is this repeatable without me?"
+    - "Does my absence break this?"
+
+obsession_2_what_are_the_universal_principles_underlying_success:
+  intensity: "Very High - drives all teaching and writing"
+  driving_force: "Belief that patterns exist and can be extracted and taught"
+  manifestation:
+    - "Every business problem has underlying principle"
+    - "Frameworks in teaching are principle-based"
+    - "PT Podcast is pattern-spotting machine"
+    - "Reading across domains for transferable principles"
+  underlying_need: "Understand the rules of reality; find patterns in chaos"
+  sources_count: 25
+  triangulation: 91%
+  quotes:
+    - "Everything is patterns"
+    - "This isn't just my problem, it's a framework problem"
+    - "Find the principle, apply universally"
+  questions_he_asks:
+    - "What's the principle here?"
+    - "Where else does this principle apply?"
+    - "Can I extract a framework from this?"
+    - "What's the universal law at play?"
+
+obsession_3_how_do_you_build_something_that_works_without_you:
+  intensity: "Very High - central to systems thinking"
+  driving_force: "Desire to create lasting value independent of personal effort"
+  manifestation:
+    - "Systems obsession throughout teaching"
+    - "Documentation and replication focus"
+    - "Building processes, not depending on people"
+    - "Training others to systems"
+  underlying_need: "Legacy and permanence; value that compounds"
+  sources_count: 23
+  triangulation: 89%
+  quotes:
+    - "If it only works if I do it, it doesn't work"
+    - "Build once, scale infinitely"
+    - "Systems are the skeleton of business"
+  questions_he_asks:
+    - "Can we systematize this?"
+    - "How would this work without me?"
+    - "Is this process documented?"
+    - "Can someone else execute this?"
+
+obsession_4_who_are_the_right_people_and_how_do_you_find_them:
+  intensity: "Very High - drives hiring and partnership decisions"
+  driving_force: "Understanding that people matter more than anything else"
+  manifestation:
+    - "Pareto Talent business literally about finding talent"
+    - "Extensive vetting of team members"
+    - "Values alignment obsession"
+    - "Mentoring and developing people"
+  underlying_need: "Build with people better than yourself; surround with excellence"
+  sources_count: 21
+  triangulation: 87%
+  quotes:
+    - "People are your biggest asset or liability"
+    - "Talent spotting is a skill"
+    - "Values alignment matters more than skill"
+    - "Great teams compound everything"
+  questions_he_asks:
+    - "Does this person align with our values?"
+    - "Can they grow into this role?"
+    - "Are they coachable?"
+    - "What's their ceiling?"
+
+obsession_5_what_is_the_20_that_creates_80_percent_of_results:
+  intensity: "Very High - pervasive in decision-making"
+  driving_force: "Belief that most effort is wasted and it's criminal"
+  manifestation:
+    - "Ruthless elimination of non-essential"
+    - "Pareto principle embedded in everything"
+    - "Constantly asking 'does this move the needle?'"
+    - "Focuses on high-leverage activities only"
+  underlying_need: "Efficiency and optimization; eliminate waste"
+  sources_count: 22
+  triangulation: 88%
+  quotes:
+    - "Most people waste 80% of their effort"
+    - "If it's not in the 20%, eliminate it"
+    - "Ruthlessly cut the rest"
+  questions_he_asks:
+    - "What's the 20% that matters?"
+    - "What can we cut?"
+    - "Is this using my time well?"
+    - "Does this drive the 20%?"
+
+obsession_6_can_you_be_transparent_about_your_thinking_and_still_be_authentic:
+  intensity: "High - drives public teaching and communication"
+  driving_force: "Tension between privacy and contribution; wants both"
+  manifestation:
+    - "PT Podcast (700+ public episodes)"
+    - "Writing publicly about business philosophy"
+    - "Teaching frameworks openly"
+    - "Yet keeps personal life private"
+  underlying_need: "Contribution without vulnerability; transparency without exposure"
+  sources_count: 16
+  triangulation: 79%
+  quotes:
+    - "Thinking out loud keeps me honest"
+    - "Public teaching forces clarity"
+    - "But some things stay private"
+  questions_he_asks:
+    - "Can I teach this without exposing myself?"
+    - "Where's the line between sharing and oversharing?"
+    - "How do I contribute without being vulnerable?"
+
+obsession_7_how_do_you_maintain_freedom_as_you_scale:
+  intensity: "Very High - central tension and recurring theme"
+  driving_force: "Fear that scaling leads to slavery to your own business"
+  manifestation:
+    - "Every major business decision tests this"
+    - "Selective client/partnership choices"
+    - "Delegation non-negotiable"
+    - "Willing to make less money to keep freedom"
+  underlying_need: "Freedom as primary measure of success, not revenue"
+  sources_count: 24
+  triangulation: 90%
+  quotes:
+    - "Building a business you're stuck in isn't success"
+    - "I'd rather make less with good time"
+    - "Freedom is the ultimate metric"
+  questions_he_asks:
+    - "Is this diluting my freedom?"
+    - "Am I becoming the bottleneck?"
+    - "Can I exit this?"
+    - "Is this aligned with my time values?"
+
+obsession_8_what_does_true_leadership_look_like:
+  intensity: "Moderate-to-High - emerging as career progresses"
+  driving_force: "Recognition that building movements requires different leadership"
+  manifestation:
+    - "Teaching leadership through frameworks"
+    - "Mentoring other founders on leadership"
+    - "3X Freedom movement building"
+    - "Increasingly focused on cultural impact"
+  underlying_need: "Define and exemplify mature leadership"
+  sources_count: 17
+  triangulation: 81%
+  quotes:
+    - "Leadership is clarity and service"
+    - "Your ego is the enemy"
+    - "Real leaders lift others up"
+  questions_he_asks:
+    - "Am I serving the people or myself?"
+    - "What kind of leader do I want to be?"
+    - "How do I build a movement, not just a business?"
+
+obsession_interconnections:
+  obsession_1_feeds: ["obsession_3", "obsession_7"]
+  obsession_2_feeds: ["obsession_1", "obsession_5"]
+  obsession_3_feeds: ["obsession_4", "obsession_8"]
+  obsession_4_feeds: ["obsession_3", "obsession_8"]
+  obsession_5_feeds: ["obsession_1", "obsession_7"]
+  obsession_6_feeds: ["obsession_2", "obsession_8"]
+  obsession_7_feeds: ["obsession_1", "obsession_5"]
+  obsession_8_feeds: ["obsession_4", "obsession_6"]
+
+obsession_evolution:
+  early_career_dominant: "Obsessions 1, 5 (scaling and efficiency)"
+  growth_phase_dominant: "Obsessions 2, 3, 4 (principles, systems, people)"
+  current_dominant: "Obsessions 7, 8 (freedom maintenance, leadership definition)"
+  trajectory: "Moving from personal success to building movements and legacy"
+
+obsession_time_investment:
+  obsession_1: "40% of thinking and decision-making"
+  obsession_2: "25% of learning and reading"
+  obsession_3: "35% of business building"
+  obsession_4: "30% of hiring and partnership"
+  obsession_5: "20% of operational decisions"
+  obsession_6: "15% of public work"
+  obsession_7: "45% of lifestyle choices"
+  obsession_8: "20% of teaching focus"
+
+core_obsessions_summary:
+  unifying_theme: "How to build something meaningful and scalable while maintaining personal freedom and integrity"
+  common_thread: "All obsessions relate to scaling without sacrifice, building without ego, leading without control"
+  tension_point: "Between personal freedom and collective impact"
+  resolution_attempt: "Systems and delegation enable both"
+
+obsession_as_fuel:
+  energy_source: "These obsessions fuel relentless thinking and work"
+  driving_questions: "Always asking the big questions, not accepting surface answers"
+  content_generation: "Obsessions are what fill 700+ PT episodes"
+  framework_development: "Each obsession has generated multiple teaching frameworks"
+
+psychological_foundation:
+  fear_basis: "Fear of being trapped, limited, or mediocre"
+  aspiration_basis: "Aspiration to build something lasting and meaningful"
+  curiosity_basis: "Intense curiosity about how things work and why"
+  integrity_basis: "Commitment to doing work that aligns with values"

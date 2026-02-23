@@ -1,0 +1,14 @@
+# 2 motivos pelos quais você talvez não consiga faturar de 2 a 5K por mês com manutenção eletrônica
+
+- **Video ID:** 1zwT0r4uVpc
+- **URL:** https://www.youtube.com/watch?v=1zwT0r4uVpc
+- **Duration:** 4 min
+- **Views:** 120
+- **Published:** 2021-07-21T15:00:01Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+Fala galera o que é que tu acha que podem fingir a pessoa de as injeção Olá descontrole financeiro você Fábio por financeiro não importa lá se eu posso pegar um milhão de ar você vai perder o seu de algum financeiro pois eu tenho ocupado cada vez mais disso daqui de tua casa para mim para finalização é ficava toda esperando alguma coisa que é menos fascismo mais ativo tá esperando cair do céu que ninguém sabe ninguém sabe que eu escuto falar ninguém você levar a placa mas ninguém conhece adianta não adianta né e não vai aparecer na redução não sei que vai ficar tá demorando demais climatronic mas a demanda vai lá pegar para ter uma conta é põe para mim a hora dava tomou pedir isso aqui na frente no ambiente certo né Mas demorou para devolver o motivo do pai Demorei demais cara eu demorei porque eu fui usando mesmo que vai para fazer passado me emprestar até comprar meu suco era só ovelha eu pedi para comprar o fogo toco sobre seja mas no carro com leite o erro é a vez ficar esperando né ou não evidenciar do estudo Eu lembro que eu falei parte estacionamento tem que ter uma renda estuda aí É porque tem que tomar um todo esquina o teu é visto e simplesmente fala é fácil ai apagasse comigo por causa de fato sob o peso de placas na paraolimpíada placa de 15 se não conseguirá parar de Que nada ele é mais fácil até conseguir os 20 ter conseguir reparos o e as pessoas os principais ele só comete para não constante de isso através tendência ao treinamento Universal Cruz presidencial o aprendizado nesses aprendizado não se mexer eu não sei que ele testado assim utilizando eu não gosto de falar isso até porque às vezes sou muito grosseiro mas a gente nosso interesse se vitimizar demais sabe é botar com você que no outro tá porque não estraga não sei o que ai porque na região sorteio eu tenho alguns está de grande Oi total do estádio pequena e grande se deram bem todo jeito você tá grande será pequena eu aprendi temos que nos também eu senão aí quando você perguntar qual o problema pelo menos terceiro a é o frango de tal é não sei o que é o bracinho é o presidente é não sei o quê não sei o quê não sei que é muito mais eu utilizo para Rua também é fã dele e eu se eu pudesse comigo quando está com anemia aqui o que falar em março do ano passado por um Boom explodiu o que apaguei o que deu o medo me fez parar por eu voltei foram recordes e recordes de faturamento da empresa frente Pô tô com vontade de bater o recorde de faturamento

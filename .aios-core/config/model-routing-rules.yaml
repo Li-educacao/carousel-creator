@@ -1,0 +1,170 @@
+# Model Routing Rules — AIOS Framework
+# Declarative rules for intelligent model selection
+# Version: 1.0.0
+#
+# Priority cascade (highest to lowest):
+#   1. manual_override  — User passes --model=X
+#   2. task_override    — Regex match on task name
+#   3. agent_default    — Per-agent model assignment
+#   4. complexity_score — Annotated complexity tier
+#   5. performance_hints — Token estimate heuristics
+#   6. task_model_hint  — Optional model_hint in task metadata
+#   7. global_default   — Fallback model
+
+# ─── Model Definitions ───────────────────────────────────────────────────────
+models:
+  opus:
+    id: opus
+    description: Deep reasoning, architecture, complex analysis
+    cost_per_mtok_input: 15.00
+    cost_per_mtok_output: 75.00
+    max_context: 200000
+    strengths:
+      - deep reasoning
+      - architectural decisions
+      - complex debugging
+      - multi-file analysis
+
+  sonnet:
+    id: sonnet
+    description: Balanced performance for standard development tasks
+    cost_per_mtok_input: 3.00
+    cost_per_mtok_output: 15.00
+    max_context: 200000
+    strengths:
+      - code implementation
+      - refactoring
+      - documentation
+      - standard workflows
+
+  haiku:
+    id: haiku
+    description: Fast, lightweight tasks — validation, formatting, collection
+    cost_per_mtok_input: 0.25
+    cost_per_mtok_output: 1.25
+    max_context: 200000
+    strengths:
+      - validation
+      - formatting
+      - data collection
+      - simple transformations
+
+# ─── Complexity Tiers ─────────────────────────────────────────────────────────
+complexity_tiers:
+  simple:
+    range: [1, 8]
+    model: haiku
+    description: Mechanical tasks, validation, formatting
+
+  standard:
+    range: [9, 15]
+    model: sonnet
+    description: Implementation, refactoring, standard workflows
+
+  complex:
+    range: [16, 25]
+    model: opus
+    description: Architecture, deep analysis, multi-system reasoning
+
+# ─── Agent Defaults ───────────────────────────────────────────────────────────
+agent_defaults:
+  # Deep reasoning agents → opus
+  architect:
+    model: opus
+    reason: Architectural decisions require deep reasoning
+  qa:
+    model: opus
+    reason: Quality analysis needs thoroughness
+  analyst:
+    model: opus
+    reason: Research and analysis demand depth
+
+  # Standard development agents → sonnet
+  dev:
+    model: sonnet
+    reason: Implementation tasks — balanced performance
+  pm:
+    model: sonnet
+    reason: Management and templates
+  sm:
+    model: sonnet
+    reason: Story facilitation
+  po:
+    model: sonnet
+    reason: Backlog prioritization
+  ux-design-expert:
+    model: sonnet
+    reason: Design and prototyping
+  data-engineer:
+    model: sonnet
+    reason: SQL and migrations
+  devops:
+    model: sonnet
+    reason: Infrastructure and CI/CD
+  expansion-creator:
+    model: sonnet
+    reason: Scaffolding and pack creation
+  aios-master:
+    model: sonnet
+    reason: Orchestration and meta-operations
+
+  # Lightweight agents → haiku
+  data-collector:
+    model: haiku
+    reason: Mechanical ETL collection
+
+# ─── Task Overrides (regex patterns) ──────────────────────────────────────────
+# Matched against task name. First match wins.
+task_overrides:
+  - pattern: "^validate-.*"
+    model: haiku
+    reason: Validation is mechanical
+
+  - pattern: "^execute-checklist.*"
+    model: haiku
+    reason: Checklist execution is sequential
+
+  - pattern: "^index-docs.*"
+    model: haiku
+    reason: Indexing is mechanical
+
+  - pattern: "^update-source-tree.*"
+    model: haiku
+    reason: Source tree update is mechanical
+
+  - pattern: "^update-manifest.*"
+    model: haiku
+    reason: Manifest updates are formulaic
+
+  - pattern: "^create-doc.*"
+    model: sonnet
+    reason: Document creation needs writing quality
+
+  - pattern: "^architect-review.*"
+    model: opus
+    reason: Architecture review needs deep analysis
+
+  - pattern: "^create-agent.*"
+    model: opus
+    reason: Agent creation requires careful design
+
+  - pattern: "^analyze-framework.*"
+    model: opus
+    reason: Framework analysis is complex
+
+  - pattern: "^propose-modification.*"
+    model: opus
+    reason: Modifications need impact assessment
+
+# ─── Performance Hints (token-based) ──────────────────────────────────────────
+performance_hints:
+  token_thresholds:
+    haiku_max: 2000       # Tasks estimated under 2K tokens → haiku
+    sonnet_max: 10000     # Tasks estimated 2K-10K tokens → sonnet
+    opus_min: 10001       # Tasks estimated over 10K tokens → opus
+
+# ─── Savings Baseline ────────────────────────────────────────────────────────
+# Used to calculate savings vs "everything on opus"
+savings_baseline:
+  model: opus
+  description: All tasks running on opus (maximum cost scenario)

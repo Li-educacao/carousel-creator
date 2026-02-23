@@ -1,0 +1,229 @@
+---
+# Layer 7: Core Obsessions - Lawhander Climatrônico
+# DNA Mental 8-Layer Analysis
+# Created: 2026-02-11
+# Sources: 58 blog posts + 2.744 YouTube videos (3.16M palavras)
+# Confidence: HIGH (obsessoes convergem em multiplas sources)
+
+mind: "lawhander-climatronico"
+layer: 7
+layer_name: "Core Obsessions (Driving Questions)"
+extraction_date: "2026-02-11"
+source_count: 2802
+confidence_level: "high"
+
+note: |
+  Layer 7 = as perguntas que Lawhander NAO CONSEGUE parar de fazer.
+  Obsessoes organizam vida/trabalho — tudo conecta de volta a elas.
+  Diferenca de valores: Valores = O QUE importa. Obsessoes = O QUE persegue.
+
+---
+
+## OBSESSION 1: "Como democratizar conhecimento tecnico sem simplificar?"
+
+rank: 1
+temporal_span: "2020-presente (6+ anos)"
+driving_question: "Como fazer qualquer tecnico diagnosticar qualquer placa — mesmo sem esquema eletrico?"
+
+description: |
+  Lawhander e OBCECADO por tornar reparavel o que parece irreparavel.
+  Nao e apenas "ensinar eletronica" — e PROVAR que qualquer pessoa com
+  metodo pode consertar qualquer placa. A obsessao tem 2 lados:
+  - Lado A: Democratizar (qualquer um pode aprender)
+  - Lado B: Sem perder qualidade (metodo rigoroso, nada de gambiarra)
+
+manifestations:
+  content:
+    - "2.744 videos com passo-a-passo detalhado"
+    - "58 blog posts com valores numericos, custos, tempos reais"
+    - "Secao 'Da Minha Bancada' com dados empiricos reais"
+  professional:
+    - "AME — Academia da Manutencao Eletronica (sistema de ensino)"
+    - "Metodo OET — framework diagnostico acessivel"
+    - "Mantra: 'Eletronica e uma so' — universalidade dos principios"
+  identity:
+    - "Comecou com multimetro de R$40 — prova que nao precisa de equipamento caro"
+    - "Compartilha 'segredos' que o mercado guarda"
+    - "'Quanto mais eu entrego, mais eu ganho'"
+
+evidence:
+  - source: homepage
+    quote: "Te ajudo a sair do zero em eletronica para que voce consiga reparar qualquer placa"
+  - source: blog-posts
+    quote: "Muitas pessoas jogam equipamentos no lixo por causa de um componente que nao custa nem R$5"
+  - source: podcasts
+    quote: "Quanto mais eu entrego, mais eu ganho"
+
+topic_frequency: "Presente em >90% das sources, todos os contextos"
+sacrifice_patterns: "Compartilha dados que poderiam ser vendidos como consultoria"
+life_organizing: "Carreira inteira reorganizada em torno desta obsessao (2020+)"
+
+connection_to_values:
+  - "DEMOCRATIZACAO: veiculo direto da obsessao"
+  - "PRATICA SOBRE TEORIA: metodo acessivel = pratica primeiro"
+  - "COMUNIDADE: compartilhar com a tribo"
+
+confidence: "very_high"
+
+---
+
+## OBSESSION 2: "Como fazer o tecnico ganhar o que merece?"
+
+rank: 2
+temporal_span: "2022-presente (4+ anos)"
+driving_question: "Como acabar com a subvalorizacao do tecnico de eletronica?"
+
+description: |
+  Lawhander sofre com a subvalorizacao sistematica do tecnico brasileiro.
+  Tecnico que troca capacitor de R$2 e salva placa de R$3.000 cobra R$50.
+  A obsessao e inverter essa logica: precificar por VALOR, nao por peca.
+
+manifestations:
+  content:
+    - "Framework '30-50% da placa nova' como modelo de precificacao"
+    - "3 metodos ERRADOS de precificacao (por componente, tempo, concorrencia)"
+    - "Parabola do transistor de R$1.000 (R$10 peca + R$990 conhecimento)"
+  motivacional:
+    - "'Faturei mais de R$1 milhao apenas com reparo de placas'"
+    - "'Jornada Zero ao 5K' como framework de progressao"
+    - "'Nao e o componente, e o conhecimento'"
+  community:
+    - "Alunos como prova: Gleydstone (R$500-600/dia), Dionatan (R$6K/mes)"
+    - "Celebracao publica de resultados financeiros de alunos"
+
+evidence:
+  - source: blog-posts
+    quote: "Se voce trocou um capacitor de R$2 e salvou uma placa de R$3.000, nao cobre R$50."
+  - source: podcasts
+    quote: "R$10 pelo transistor, R$990 por saber qual era."
+
+topic_frequency: "Presente em >60% dos podcasts motivacionais"
+sacrifice_patterns: "Gasta tempo ensinando precificacao em vez de reparar mais placas"
+life_organizing: "Cursos AME organizados em torno de resultado financeiro do aluno"
+
+connection_to_values:
+  - "INDEPENDENCIA FINANCEIRA: mecanismo direto"
+  - "AUTO-RESPONSABILIDADE: voce e quem decide seu preco"
+
+confidence: "high"
+
+---
+
+## OBSESSION 3: "Como acabar com a gambiarra no mercado?"
+
+rank: 3
+temporal_span: "Toda carreira (9+ anos)"
+driving_question: "Como elevar o padrao de qualidade do reparo de placas no Brasil?"
+
+description: |
+  'Eletronica da floresta' nao e piada — e dor real. Lawhander recebe
+  placas destruidas por reparos improvisados anteriores. A obsessao e
+  substituir a cultura da gambiarra pela cultura do metodo.
+
+manifestations:
+  pedagogia:
+    - "Kill criteria explicitas — quando NAO reparar"
+    - "Anti-examples detalhados nos blog posts"
+    - "Enfase em 'seguir o projeto original da placa'"
+  comunidade:
+    - "Critica aberta (mas construtiva) a praticas ruins"
+    - "Elevacao do padrao via formacao de mais Climatronicos"
+  tecnica:
+    - "Metodo OET como antidoto a abordagem 'shotgun'"
+    - "Listas numeradas com acao + resultado esperado + indicador de falha"
+
+evidence:
+  - source: blog-posts
+    quote: "Meu patrao, 'eletronica da floresta' e quando eu encontro placas com gambiarra pesada"
+  - source: blog-posts
+    quote: "Substituir um fusivel por um fio ignora a funcao de protecao"
+
+topic_frequency: ">40% dos posts tecnicos"
+confidence: "high"
+
+---
+
+## OBSESSION 4: "Como provar que reparo e mais inteligente que troca?"
+
+rank: 4
+temporal_span: "Toda carreira"
+driving_question: "Como vencer a mentalidade de 'trocar e mais facil'?"
+
+description: |
+  Luta contra a cultura do descarte: cliente quer trocar placa inteira,
+  fabricante nao disponibiliza esquema, assistencia so troca. Lawhander
+  prova, com dados, que reparo pontual e economicamente superior.
+
+manifestations:
+  dados:
+    - "Trade-off matrix em CADA post diagnostico"
+    - "Economia documentada: R$600-1.800 por reparo vs troca"
+    - "Taxa de sucesso ~85% em 200+ reparos"
+  filosofia:
+    - "'Toda placa tem reparo' como mantra"
+    - "'Eletronica e uma so' como principio de transferibilidade"
+  ambiental:
+    - "Economia circular implicita — reduzir e-waste"
+    - "Componentes de sucata como doadores (medidos e dentro do spec)"
+
+evidence:
+  - source: blog-posts
+    quote: "Eletronica e uma so e eu prefiro consertar antes de trocar."
+  - source: blog-posts
+    quote: "Economia para o cliente: R$700-2.200"
+
+topic_frequency: ">70% dos posts diagnosticos"
+confidence: "high"
+
+---
+
+## OBSESSION 5: "Como transformar medo em acao na bancada?"
+
+rank: 5
+temporal_span: "2022-presente"
+driving_question: "Como fazer o tecnico que tem medo de inverter comecar a reparar?"
+
+description: |
+  Duas travas que impedem progressao: medo de cobrar e medo de errar.
+  Lawhander ataca ambas: normaliza dificuldade ("faz parte do processo"),
+  reinterpreta barreira como vantagem ("se fosse facil todo mundo fazia").
+
+manifestations:
+  reframing:
+    - "'A confusao e o primeiro passo para o entendimento'"
+    - "'Ainda bem que e dificil, porque senao todo mundo fazia'"
+    - "'Nao e facil, mas e simples'"
+    - "'Voce e o cara que resolve ou o cara que foge?'"
+  pedagogia:
+    - "Comecar pelo mais simples (cabo/conector) para gerar confianca"
+    - "Ferramenta barata como ponto de entrada (multimetro R$40)"
+    - "Volume de reparos como construtor de confianca"
+
+evidence:
+  - source: podcasts
+    quote: "Faz parte do processo. A confusao e o primeiro passo para o entendimento."
+  - source: podcasts
+    quote: "Se fosse facil todo mundo fazia, e ai nao seria diferencial."
+
+topic_frequency: ">50% dos podcasts motivacionais"
+confidence: "high"
+
+---
+
+## OBSESSIONS INTERCONNECTIONS
+
+primary_driver: "Obsession 1 (democratizar conhecimento) alimenta todas as outras"
+
+connections:
+  - "Obsession 1 → 2: Se o tecnico sabe mais, pode cobrar mais"
+  - "Obsession 1 → 3: Se o tecnico tem metodo, nao faz gambiarra"
+  - "Obsession 1 → 4: Se o tecnico diagnostica, repara em vez de trocar"
+  - "Obsession 2 → 5: Se o tecnico se valoriza, supera o medo"
+  - "Obsession 3 ↔ 4: Gambiarra e filha da mentalidade de troca rapida"
+
+meta_obsession: |
+  "Como transformar um tecnico de refrigeracao comum em um Climatronico
+  que diagnostica com metodo, repara com qualidade, cobra pelo valor
+  e forma comunidade?"
+
+  Todas as 5 obsessoes sao variacoes desta pergunta central.

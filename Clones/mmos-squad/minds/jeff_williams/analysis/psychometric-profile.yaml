@@ -1,0 +1,586 @@
+---
+# =============================================================================
+# MMOS DNA Mental Pipeline — PSYCHOMETRIC PROFILE
+# Subject: Jeff Williams (OWASP Co-Founder, Contrast Security CTO)
+# =============================================================================
+
+analysis_type: "psychometric-profile"
+name: "Behavioral Psychometric Profile"
+subject: jeff_williams
+version: "1.0"
+date: "2026-02-19"
+confidence: medium_high
+pipeline: "MMOS DNA Mental"
+primary_sources:
+  - "Layer 1 (Behavioral Patterns)"
+  - "Layer 3 (Temporal Patterns & Routines)"
+  - "Layer 6 (Values Hierarchy)"
+  - "Layer 7 (Core Obsessions)"
+  - "Layer 8 (Productive Paradoxes)"
+methodology_note: >
+  This profile is constructed entirely from public behavioral evidence —
+  writings, talks, career decisions, organizational actions, and stated
+  positions over 25 years. It is NOT a clinical assessment. Confidence is
+  medium-high because behavioral patterns are highly consistent, but
+  private personality dimensions remain unobserved.
+
+# =============================================================================
+# SECTION 1: BIG FIVE APPROXIMATION
+# =============================================================================
+
+big_five:
+
+  description: >
+    Approximate Big Five personality trait scores based on 25 years of
+    publicly observable behavior. Each dimension is assessed on a 1-10
+    scale with behavioral evidence citations.
+
+  openness_to_experience:
+    score: 9.0
+    label: "Very High"
+    description: >
+      Jeff exhibits exceptional openness across multiple dimensions:
+      intellectual curiosity that spans law, technology, policy, and
+      community building; a 25-year history of cross-domain reasoning
+      (sports, automotive, aviation, medicine applied to software);
+      willingness to challenge and revise his own most famous creations;
+      and a sustained appetite for novel intellectual frameworks.
+    evidence:
+      - "Triple education: BA (liberal arts) + MA (policy) + JD (law) — unusual breadth for a CTO"
+      - "Cross-domain analogical reasoning is his signature cognitive pattern"
+      - "Invented entirely new product categories (IAST, RASP, ADR) — not incremental improvement"
+      - "Publicly revises positions based on new evidence (Top 10 self-critique)"
+      - "Career arc spans community building, consulting, patents, product company — never static"
+    nuance: >
+      His openness is DIRECTED, not diffuse. He is open to new ideas within
+      his domain obsession (application security) and to importing frameworks
+      from other domains. He is not visibly open to pursuing entirely
+      unrelated fields. The openness serves the mission.
+
+  conscientiousness:
+    score: 8.5
+    label: "High"
+    description: >
+      Jeff demonstrates high conscientiousness through sustained multi-year
+      commitments, systematic standards creation (ASVS is the epitome of
+      conscientious documentation), and disciplined career chapter management.
+      However, his conscientiousness manifests more as strategic discipline
+      than as routine-following — he is organized in pursuit of large goals,
+      not meticulous about small details.
+    evidence:
+      - "9 years of volunteer OWASP chairmanship — extraordinary sustained commitment"
+      - "ASVS verification standard — painstakingly precise, legally rigorous"
+      - "7 patents filed — requires systematic documentation and follow-through"
+      - "15+ year pursuit of the same core thesis (instrumentation)"
+      - "Career transitions are deliberate and strategic, not reactive"
+    nuance: >
+      His conscientiousness is STRATEGIC, not procedural. He builds
+      persistent infrastructure (organizations, standards, companies) rather
+      than maintaining daily routines. He is the architect, not the
+      maintenance engineer.
+
+  extraversion:
+    score: 7.0
+    label: "Moderately High"
+    description: >
+      Jeff is clearly energized by public engagement — decades of keynotes,
+      hundreds of conference talks, active blog and social media presence.
+      But his extraversion is PURPOSEFUL, not social. He engages publicly
+      to advance his thesis, not for social connection per se. He is
+      a missionary extrovert, not a cocktail-party extrovert.
+    evidence:
+      - "25+ years of sustained conference speaking across global venues"
+      - "Active blog output (2-4 posts/month)"
+      - "Social media presence used as amplification channel"
+      - "Founded a global community organization (OWASP)"
+      - "CTO role involves public representation"
+    nuance: >
+      His extraversion appears strongly in professional/intellectual contexts
+      and less in purely social ones. He uses public platforms to teach and
+      persuade, not to socialize. The extraversion serves the mission.
+
+  agreeableness:
+    score: 5.0
+    label: "Moderate"
+    description: >
+      Jeff's agreeableness is context-dependent. He is collaborative and
+      generous within communities he builds (OWASP, developer ecosystems)
+      but combative and contrarian when challenging industry orthodoxy. He
+      is agreeable toward developers (empowerment) but disagreeable toward
+      vendors, lazy statistics, and security theater.
+    evidence:
+      - "High agreeableness: 9 years unpaid community service, open-source philosophy, developer empowerment"
+      - "Low agreeableness: 'fairy tales,' 'dark ages,' 'insane' — provocative labels for industry practices"
+      - "Never ad hominem, but relentlessly attacks flawed methodologies"
+      - "Collaborates well with deep technical partners (Arshan Dabirsiaghi)"
+    nuance: >
+      The moderate overall score masks a bimodal distribution: very high
+      agreeableness toward practitioners and community, very low
+      agreeableness toward industry orthodoxy and vendor marketing.
+      His agreeableness is VALUES-GATED — he is warm toward people aligned
+      with his values and combative toward ideas that contradict them.
+
+  neuroticism:
+    score: 3.5
+    label: "Low to Moderate"
+    description: >
+      Jeff displays remarkable emotional stability across 25 years of public
+      life. He maintains consistent positions, responds to criticism with
+      data rather than emotion, and shows no evidence of public anxiety or
+      volatility. However, his obsessions (L7) reveal an underlying
+      intensity — specifically the 'grief' texture around security
+      stagnation and the 'anger' texture around the waste machine.
+    evidence:
+      - "Low neuroticism: 25 years of consistent public positioning without emotional volatility"
+      - "Responds to criticism with evidence, not defensiveness"
+      - "Maintains composure in adversarial conference Q&A"
+      - "Moderate neuroticism indicator: Obsession #2 emotional texture described as 'grief'"
+      - "Moderate neuroticism indicator: Obsession #3 emotional texture described as 'anger' / 'infuriating'"
+    nuance: >
+      His public presentation is emotionally disciplined, but the intensity
+      of his obsessions suggests a deeper emotional engagement that he
+      channels productively rather than suppresses. The frustration at
+      stagnation is real but manifests as determination, not instability.
+
+# =============================================================================
+# SECTION 2: COGNITIVE STYLE
+# =============================================================================
+
+cognitive_style:
+
+  analytical_vs_intuitive:
+    position: "Strongly Analytical with Intuitive Cross-Domain Leaps"
+    score_analytical: 8.5
+    score_intuitive: 6.5
+    description: >
+      Jeff's dominant mode is analytical — he demands evidence, traces
+      statistics to primary sources, builds structured frameworks (ASVS,
+      Four Dimensions, Five Pillars), and quantifies qualitative problems.
+      However, his cross-domain analogies (basketball, cars, planes) are
+      intuitive leaps that connect disparate domains before formal analysis
+      confirms the connection. His invention of IAST/RASP was an intuitive
+      insight ('what if we observed from inside?') that he then validated
+      analytically and protected with patents.
+    evidence:
+      - "Analytical: traces 100x statistic to its (absent) source — forensic evidence analysis"
+      - "Analytical: Four Dimensions model is mathematical (multiplication, not addition)"
+      - "Intuitive: 94Fifty basketball analogy — cross-domain insight arrived before formal analysis"
+      - "Intuitive: 'What if we instrument the application from inside?' — paradigm-level insight"
+
+  systematic_vs_flexible:
+    position: "Systematic Architect with Strategic Flexibility"
+    score_systematic: 8.0
+    score_flexible: 6.0
+    description: >
+      Jeff builds systems — OWASP (organization), ASVS (standard), Contrast
+      (company), IAST/RASP (technology category). His default mode is
+      systematic: create the framework, codify the knowledge, build the
+      infrastructure. But he shows flexibility in his willingness to
+      abandon approaches that don't produce results (OWASP education ->
+      Contrast instrumentation) and his comfort with paradox (L8).
+    evidence:
+      - "Systematic: created 5+ lasting organizational structures and standards"
+      - "Systematic: career progresses through structured 7-10 year chapters"
+      - "Flexible: pivoted from education to technology when metrics showed stagnation"
+      - "Flexible: holds 8 paradoxes without needing to resolve them"
+
+  processing_speed:
+    pattern: "Slow to adopt, fast to commit"
+    description: >
+      Jeff does not chase trends. He waited years to formalize IAST/RASP
+      even though the instrumentation insight came early. But once committed,
+      he holds positions with multi-decade intensity. He has maintained the
+      core thesis (instrumentation > scanning) for 15+ years without wavering.
+    evidence:
+      - "Instrumentation insight to patent filing: multi-year gestation"
+      - "Aspect Security operated 15 years before exit"
+      - "Core thesis held for 15+ years"
+
+# =============================================================================
+# SECTION 3: RISK TOLERANCE PROFILE
+# =============================================================================
+
+risk_tolerance:
+
+  overall_assessment: "High Conviction, Calculated Execution"
+  risk_score: 7.5  # 1=very risk-averse, 10=very risk-seeking
+
+  risk_by_domain:
+
+    - domain: "Intellectual Risk"
+      tolerance: very_high
+      description: >
+        Will publicly challenge the foundational statistics and practices
+        of his own industry. Critiques his own most famous creation. Takes
+        contrarian positions against vendor consensus. The reputational risk
+        of being wrong is high, but he accepts it because evidence supports
+        his position.
+      evidence:
+        - "Questioned 100x statistic that benefits his own industry"
+        - "Publicly says Top 10 'hasn't really changed anything'"
+        - "Calls the industry's approach 'dark ages' and 'fairy tales'"
+
+    - domain: "Career Risk"
+      tolerance: high
+      description: >
+        Left OWASP leadership to commercialize (could have been perceived as
+        abandoning the community). Built Contrast on a contrarian thesis
+        (most of the market was betting on SAST/DAST improvement). Filed
+        patents (unusual for an open-source champion — risked credibility).
+      evidence:
+        - "Transitioned from unpaid community leadership to venture-backed company"
+        - "Built a company around a category that didn't exist yet (IAST/RASP)"
+        - "7 patents despite open-source philosophy"
+
+    - domain: "Financial Risk"
+      tolerance: moderate_high
+      description: >
+        The 9 years of unpaid OWASP chairmanship represent significant
+        financial sacrifice (Georgetown JD opportunity cost). Building
+        Contrast required venture funding and startup risk. But career
+        transitions were deliberate and well-timed, not reckless.
+      evidence:
+        - "9 years unpaid volunteer work — very high financial risk tolerance"
+        - "Founded two companies — standard entrepreneurial risk"
+        - "But transitions were strategic, not impulsive"
+
+    - domain: "Interpersonal Risk"
+      tolerance: moderate
+      description: >
+        Willing to make people uncomfortable with contrarian positions, but
+        never attacks individuals — only methodologies. Maintains
+        professional relationships even when challenging industry consensus.
+      evidence:
+        - "Provocative labels ('fairy tales,' 'dark ages') target practices, not people"
+        - "Never ad hominem in public record"
+        - "Maintained community standing despite commercial transition"
+
+# =============================================================================
+# SECTION 4: CHANGE ORIENTATION
+# =============================================================================
+
+change_orientation:
+
+  overall_assessment: "Revolutionary in Thesis, Evolutionary in Execution"
+
+  by_context:
+
+    - context: "Paradigm/Architecture Level"
+      orientation: "Strongly Innovative"
+      description: >
+        Proposes fundamental paradigm shifts: inside-out vs outside-in,
+        self-protecting applications, ADR as missing layer. These are
+        not incremental improvements — they are category-level innovations.
+      evidence:
+        - "Invented IAST/RASP — entirely new product categories"
+        - "Currently creating ADR — another new category"
+        - "Challenges the foundational assumptions of the AppSec industry"
+
+    - context: "Organizational/Community Level"
+      orientation: "Conservative Builder"
+      description: >
+        Builds lasting institutions with conservative governance. OWASP
+        was designed for long-term sustainability, not rapid disruption.
+        His 9-year chairmanship was about patient growth, not revolution.
+      evidence:
+        - "OWASP designed for 25+ year longevity"
+        - "Aspect Security operated for 15 years before exit"
+        - "Contrast Security has operated 10+ years without rushing to exit"
+
+    - context: "Standards/Documentation Level"
+      orientation: "Deliberately Conservative"
+      description: >
+        Standards updates on multi-year cycles (OWASP Top 10 every 3-4 years).
+        Standards require community consensus and are inherently deliberate.
+        He understands that premature standardization is harmful and too-late
+        standardization is useless.
+      evidence:
+        - "OWASP Top 10 update cadence: 2003, 2004, 2007, 2010, 2013, 2017, 2021"
+        - "Recognizes 'when to formalize' timing as a distinct skill"
+
+    - context: "Technology/Product Level"
+      orientation: "Innovative but Patient"
+      description: >
+        His innovation cycle has a 5-7 year gestation period from insight
+        to product. The intellectual framework precedes the product by years.
+        Once built, he iterates patiently rather than pivoting to new trends.
+      evidence:
+        - "ESAPI/ASVS work (2003-2008) preceded IAST invention (2010)"
+        - "IAST concept (2010) preceded Contrast founding (~2014)"
+        - "Core thesis (instrumentation) unchanged for 15+ years"
+
+# =============================================================================
+# SECTION 5: MOTIVATION PROFILE
+# =============================================================================
+
+motivation_profile:
+
+  primary_motivations:
+
+    - rank: 1
+      type: "Intrinsic — Mission"
+      driver: "Democratize security knowledge and make software self-defending"
+      intensity: 10
+      evidence: "9 years unpaid OWASP chairmanship, 25-year career in single domain"
+      description: >
+        The mission is the primary engine. Jeff works in application security
+        because he believes software's inability to defend itself is a
+        civilizational problem. The mission has been constant for 25 years;
+        only the vehicle has changed (community -> consulting -> product).
+
+    - rank: 2
+      type: "Intrinsic — Intellectual Mastery"
+      driver: "Understanding and solving the deepest problems in application security"
+      intensity: 9
+      evidence: "7 patents, cross-domain model building, 25-year thesis development"
+      description: >
+        Jeff is driven by the intellectual challenge of understanding WHY
+        software security fails and HOW it can be fixed. The 100x
+        investigation, the Four Dimensions framework, the Shift Smart
+        thesis — these are products of a mind that needs to understand
+        at the deepest level.
+
+    - rank: 3
+      type: "Intrinsic — Legacy"
+      driver: "Creating lasting impact on the field and industry"
+      intensity: 8.5
+      evidence: "OWASP (25+ years), standards (referenced globally), patents"
+      description: >
+        Jeff builds things that last. OWASP, ASVS, WebGoat — these
+        have endured for decades. His career chapter pattern shows
+        sustained investment in durability over quick returns.
+
+    - rank: 4
+      type: "Mixed — Industry Authority"
+      driver: "Being the definitive voice in application security"
+      intensity: 7.5
+      evidence: "Sustained conference speaking, thought leadership, category naming"
+      description: >
+        Category naming (IAST, RASP, ADR) and sustained thought leadership
+        indicate a motivation to shape industry direction. This is partly
+        intrinsic (intellectual satisfaction) and partly extrinsic (market
+        positioning for Contrast Security).
+
+    - rank: 5
+      type: "Extrinsic — Commercial Success"
+      driver: "Building successful companies that validate and scale the thesis"
+      intensity: 6.5
+      evidence: "Aspect Security (acquired by E&Y), Contrast Security (venture-backed)"
+      description: >
+        Commercial success matters but appears subordinate to mission. The
+        evidence: he spent 9 years doing unpaid work before commercializing,
+        and he open-sources knowledge that could be monetized. Commercial
+        success is a validation mechanism and a scaling vehicle, not the
+        primary driver.
+
+  anti_motivations:
+    description: "Motivations Jeff conspicuously does NOT exhibit"
+    absent_drivers:
+      - "Status seeking — does not accumulate titles or board positions for prestige"
+      - "Comfort seeking — continues to take contrarian risks in his 50s+"
+      - "Popularity — will say unpopular things in his own community"
+      - "Short-term financial optimization — 9 years unpaid, 15-year company cycles"
+
+# =============================================================================
+# SECTION 6: STRESS RESPONSE PATTERNS
+# =============================================================================
+
+stress_response:
+
+  response_to_technical_criticism:
+    pattern: "Reframe with Data, Never Ad Hominem"
+    description: >
+      When challenged on technical claims, Jeff responds with false-positive
+      rates, benchmark data, and reachability analysis statistics. He
+      escalates the precision of evidence, not the emotional temperature.
+    behavioral_markers:
+      - "Produces more specific data points"
+      - "Introduces additional analogies"
+      - "May use more pointed language ('fairy tale,' 'insane') but directed at methodology, not person"
+    evidence: "Consistent pattern across blog post responses, conference Q&A, industry debates"
+
+  response_to_industry_stagnation:
+    pattern: "Provoke with Labels"
+    description: >
+      When frustrated by industry inertia, Jeff's emotional temperature
+      rises and he deploys provocative labels to force engagement. This
+      is not loss of control — it is strategic escalation.
+    behavioral_markers:
+      - "Increased use of 'dark ages,' 'fairy tales,' 'crazy,' 'insane'"
+      - "Shorter, more pointed sentences"
+      - "Historical indictments: '20 years and nothing has changed'"
+    evidence: "Escalation visible in blog series, talks about stagnation"
+
+  response_to_own_failures:
+    pattern: "Acknowledge, Reframe, Advance"
+    description: >
+      When confronting the limited impact of his own creations (Top 10),
+      Jeff acknowledges the failure honestly, reframes it as evidence for
+      his current thesis, and advances the conversation forward. No
+      defensiveness, no dwelling.
+    behavioral_markers:
+      - "Explicit acknowledgment: 'hasn't really changed anything'"
+      - "Immediate reframe: 'which is why we need instrumentation'"
+      - "Forward-looking pivot: 'here's what we're building instead'"
+    evidence: "Consistent pattern in interviews and retrospective talks"
+
+  response_to_crisis_events:
+    pattern: "Urgency Without Panic"
+    description: >
+      Major vulnerability disclosures (Log4Shell, etc.) trigger rapid
+      content production but with calibrated urgency. 'You've got about
+      a day' — not hours (panic), not weeks (complacency).
+    behavioral_markers:
+      - "Day 0-1: Scope assessment"
+      - "Day 1-3: Blog post connecting the event to instrumentation thesis"
+      - "Week 1-4: Presentation using the event as a case study"
+      - "Month 1-6: The event becomes a recurring example"
+    evidence: "Observable in response patterns to major CVE disclosures"
+
+# =============================================================================
+# SECTION 7: LEADERSHIP STYLE ASSESSMENT
+# =============================================================================
+
+leadership_style:
+
+  primary_style: "Visionary Architect"
+  description: >
+    Jeff leads by establishing vision, building infrastructure, and then
+    stepping back to let communities and teams execute. He does not
+    micromanage. He provides the compass heading and the initial architecture,
+    then trusts others to build within that framework.
+
+  characteristics:
+    - trait: "Vision Setting"
+      strength: very_high
+      evidence: "OWASP founding vision, IAST/RASP invention, ADR category creation"
+    - trait: "Infrastructure Building"
+      strength: very_high
+      evidence: "OWASP Foundation, Aspect Security, Contrast Security — all persistent institutions"
+    - trait: "Delegation of Maintenance"
+      strength: high
+      evidence: "Steps back from OWASP leadership after 9 years; OWASP projects maintained by community"
+    - trait: "Public Communication"
+      strength: very_high
+      evidence: "Decades of keynotes, blogs, refcards — retains the public narrative"
+    - trait: "Technical Depth Retention"
+      strength: high
+      evidence: "Still writes technical blog posts and files patents as CTO"
+    - trait: "Mentorship at Scale"
+      strength: high
+      evidence: "WebGoat, cheat sheets, refcards — mentorship through open resources, not one-on-one"
+    - trait: "Micromanagement"
+      strength: very_low
+      evidence: "Creates projects and lets communities maintain them; delegates implementation"
+
+  leadership_philosophy: >
+    Build the vision, create the infrastructure, establish the principles as
+    non-negotiable, then let talented people execute. Retain control of the
+    public narrative and strategic direction. Trust the community and the
+    team. Lead by doing, not by directing.
+
+# =============================================================================
+# SECTION 8: INTELLECTUAL TEMPERAMENT
+# =============================================================================
+
+intellectual_temperament:
+
+  primary_temperament: "Empirical Reformer"
+  description: >
+    Jeff is a reformer who uses empirical evidence as his primary weapon.
+    He is not a revolutionary who tears down systems — he is a builder who
+    demonstrates through evidence that existing approaches are inadequate
+    and then builds alternatives. His reforms are constructive (here is
+    something better) not destructive (the old thing must die).
+
+  temperament_dimensions:
+
+    - dimension: "Intellectual Patience"
+      score: 9
+      description: >
+        Will work on the same fundamental problem for 25+ years. Willing
+        to let ideas gestate for years before acting. Career chapters
+        span 7-10 years. Does not chase trends.
+
+    - dimension: "Intellectual Courage"
+      score: 9
+      description: >
+        Questions foundational industry statistics. Critiques his own
+        famous creations. Takes contrarian positions against vendor
+        consensus. Accepts reputational risk for intellectual honesty.
+
+    - dimension: "Intellectual Curiosity"
+      score: 8.5
+      description: >
+        Cross-domain reasoning (law + tech + community + sports + medicine).
+        Always looking for analogies from non-software domains. Imports
+        frameworks from DevOps, quality management, information theory.
+
+    - dimension: "Intellectual Discipline"
+      score: 8.5
+      description: >
+        Traces statistics to primary sources. Builds structured frameworks
+        with specific criteria. Files patents with precise claims. Standards
+        work has legal-caliber precision.
+
+    - dimension: "Intellectual Generosity"
+      score: 9.5
+      description: >
+        Open-sources everything educational. Gives away knowledge that
+        could be monetized. 9 years unpaid community leadership. Publishes
+        his philosophy freely even when it drives his commercial product.
+
+    - dimension: "Intellectual Stubbornness"
+      score: 7.5
+      description: >
+        Once committed to a position (instrumentation > scanning), he
+        holds it for 15+ years without wavering. This is generally a
+        strength (persistence) but could be a blind spot if the landscape
+        shifts fundamentally (AI/ML security paradigm change).
+
+  intellectual_hero_archetypes:
+    description: >
+      Jeff's intellectual temperament maps to recognizable archetypes
+      across domains.
+    archetypes:
+      - archetype: "The Deming of Software Security"
+        description: "Quality must be built in, not inspected in. Applied to security."
+      - archetype: "The Sabermetrician"
+        description: "Replace conventional wisdom with evidence-based analysis. Like Billy Beane for security."
+      - archetype: "The Constitutional Lawyer"
+        description: "Build enduring frameworks that constrain and enable future activity."
+
+# =============================================================================
+# METADATA
+# =============================================================================
+
+metadata:
+  big_five_traits_assessed: 5
+  cognitive_dimensions_analyzed: 3
+  risk_domains_assessed: 4
+  change_contexts_analyzed: 4
+  motivation_drivers_ranked: 5
+  stress_response_patterns: 4
+  leadership_traits_assessed: 7
+  temperament_dimensions: 6
+  analysis_confidence: medium_high
+  confidence_note: >
+    Psychometric analysis from public behavior has inherent limitations.
+    Big Five scores are approximations based on behavioral evidence over
+    25 years — a large sample but filtered through public presentation.
+    Private personality dimensions (close relationship dynamics, private
+    stress responses, internal emotional life) remain unobserved. The
+    profile is most reliable on dimensions with extensive public evidence
+    (openness, conscientiousness, intellectual temperament) and least
+    reliable on dimensions that manifest primarily in private contexts
+    (neuroticism details, intimate relationship patterns).
+  key_insight: >
+    Jeff Williams' psychometric profile reveals a rare combination:
+    exceptionally high openness and intellectual courage paired with
+    disciplined, systematic execution. Most open-minded people are
+    scattered; most systematic people are closed to paradigm shifts.
+    Jeff is both — open to revolutionary ideas AND disciplined enough
+    to build lasting institutions around them. This combination explains
+    why he has been able to both invent new paradigms (IAST, RASP, ADR)
+    and build durable organizations (OWASP, Contrast) — a dual capability
+    that most leaders exhibit only one side of.

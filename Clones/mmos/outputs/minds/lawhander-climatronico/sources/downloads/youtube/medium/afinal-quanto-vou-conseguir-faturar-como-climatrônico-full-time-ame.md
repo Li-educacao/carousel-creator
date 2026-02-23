@@ -1,0 +1,14 @@
+# Afinal: quanto vou conseguir faturar como Climatrônico full-time? #AME
+
+- **Video ID:** BlR1jHqaNI4
+- **URL:** https://www.youtube.com/watch?v=BlR1jHqaNI4
+- **Duration:** 4 min
+- **Views:** 191
+- **Published:** 2021-03-30T15:00:05Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+a tomar eu eu não falo muito dos meus desenhos da lotérica isso é porque tá no geral que ele tipo de aí ele faz porque ele é o professor ele faz porque ele ele é não tem preço dele ele vai trazer o que não me falo ninguém nem sabe quem sabe foi meus alunos sabe o quanto eu tenho de fato aqui mas meus alunos relatam que fatura e dois três quatro cinco mil reais por mês de 2 a 5 mihas com isso e vai aumentar isso aí tá porque porque a gente que faz mais que isso e e eu me senti os meus alunos mostram-se metodologia os caminhos e valor no que fez a única Itaúna se Tomás que a única ele é vendedor dentro de multinacional eu e ele e ele confiar eletrônica né tá voando muito reparando para caramba e ele fez um cálculo era ele calculou lá que o clima crônico na região dele dá para o cara faturar entre dar para o cara faturar os alguns que ele fez trabalhando de segunda a sexta é para no três placas por dia e o cara Tira estando mesmo foi 14.000 que ele botou a faturada vem um cálculo está buscando essa meta e para possível assim na média uma média aqui de reparo que a gente tá batendo hoje está entrega segundo final téchiné tá então recentemente duas novas pessoas na alltech acaba que pega um pouco energia não tem que dedicar tempo a galera que tá entrando nova uma ajuda para tirar uma dúvida para para não sei o que pede um pouco de afetividade na bancada porque tudo redondinho onde vai ter noção de quanto é possível chegar né mas é uma média ele ele botou na id3 placas por dia é possível três pagas por dia certo a gente baixa até cinco placas por dia aqui de média dá umas duas 2:30 média Mas jamais menciona a minha mãe fala as duas placas amiga e mais é quase aceitas a dependendo da região quando eu falo de valores de valores finais da 1ª região pô o Nordeste é um preço deixa o do Sul é outro preso então eu tenho muito da região a precipitação Varia muito mas meus alunos relatam que fatores muito muito engraçado como o Extra sendo que marca o teu este ainda é o cara faz não tá em casa não tá de noite quando chega é pensar no final de semana duas placas de semana e tal fica Full Time como climatronic aí ele tem esse patamar assim tá achando que é fácil galera é é ralar trabalhado ele faz com que você ganha que você faz trabalho faz agora não dá que eu posso instalar no máquina ele vai colocar esse faturamento para ele sai você não vai fazer o que você quer instalar o dia Toni e ainda vai parar placas e ter sobra tempo para trás não

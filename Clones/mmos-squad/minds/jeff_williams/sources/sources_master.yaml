@@ -1,0 +1,209 @@
+---
+# MMOS Sources Master — Jeff Williams
+# Pipeline: DNA Mental v3.0
+# Compiled: 2026-02-19
+# Total Sources: 103+
+# Total Size: 256KB
+# Categories: 6
+
+subject:
+  name: Jeff Williams
+  slug: jeff_williams
+
+collection_stats:
+  total_sources: 103
+  total_size_kb: 256
+  categories: 6
+  confidence_tiers:
+    tier_1_high: 50
+    tier_2_medium: 35
+    tier_3_validation: 18
+  gate_check:
+    minimum_sources: 40
+    minimum_categories: 4
+    actual_sources: 103
+    actual_categories: 6
+    status: PASS
+
+files:
+  - path: sources/downloads/blogs/contrast-blog-articles.md
+    type: blog
+    source: Contrast Security Blog
+    items: 20
+    size_kb: 38
+    confidence: tier_1
+    content_type: thought_leadership
+    cognitive_value: CRITICAL
+    description: |
+      20 high-priority articles by Jeff Williams covering:
+      - Legal liability for insecure software
+      - Developer-first AppSec
+      - SAST vs DAST vs IAST comparison
+      - 7 advantages of IAST
+      - OWASP Top 10 evolution
+      - Zero Trust for applications
+      - ADR (Application Detection & Response)
+      - False positive cost analysis
+      - API security strategy (5-part series)
+      - DevSecOps pipeline automation
+      - JavaEE security controls
+      - Cybersecurity executive order response
+
+  - path: sources/downloads/blogs/dark-reading-security-mag-articles.md
+    type: blog
+    source: Dark Reading, Security Magazine, Contrast Blog
+    items: 30
+    size_kb: 58
+    confidence: tier_1
+    content_type: thought_leadership
+    cognitive_value: HIGH
+    description: |
+      30 articles from industry publications:
+      - Dark Reading: 9 articles (Flying Naked, Why AppSec Programs Backfire,
+        Why Static Analysis Is Insane, AppSec Personality types, etc.)
+      - Security Magazine: 2 articles (NIST IAST/RASP standards, API security)
+      - Contrast Blog: 19 additional articles
+      - LinkedIn Pulse: 1 article (NIST workshop)
+      Includes synthesized 10 recurring intellectual positions.
+
+  - path: sources/downloads/blogs/key-cognitive-material.md
+    type: synthesis
+    source: Direct collection (multiple sources)
+    items: 8
+    size_kb: 13
+    confidence: tier_1
+    content_type: cognitive_extraction
+    cognitive_value: CRITICAL
+    description: |
+      Direct collection of highest-value cognitive material:
+      - Shift Smart philosophy (full article analysis)
+      - Security instrumentation basketball analogy
+      - EnterpriseReady podcast key insights
+      - RSA 2023 Shift Smart strategy
+      - ADR + Secure by Design synthesis
+      - Career timeline and biography
+      - 7 core philosophical positions synthesized
+      - 13 key quotes collected
+      - Preliminary 8-layer mapping
+
+  - path: sources/downloads/books/owasp-documentation.md
+    type: documentation
+    source: OWASP Foundation
+    items: 7
+    size_kb: 35
+    confidence: tier_1
+    content_type: frameworks_and_standards
+    cognitive_value: HIGH
+    description: |
+      OWASP projects created/authored by Jeff Williams:
+      - OWASP Top 10 (2017, 2021, 2025 editions with full categories)
+      - OWASP ASVS (3 use cases, requirement format)
+      - OWASP ESAPI (3-tier architecture, security controls)
+      - OWASP WebGoat (educational model, lesson categories)
+      - XSS Prevention Cheat Sheet (encoding rules, anti-patterns)
+      - Cheat Sheet Series overview (130+ cheat sheets)
+      - CycloneDX (BOM types, ECMA-424, federal adoption)
+      - Jeff Williams biographical context
+      - OWASP Foundation history (2001-2024)
+
+  - path: sources/downloads/youtube/conference-talks.md
+    type: conference_talks
+    source: Multiple conferences
+    items: 10
+    size_kb: 28
+    confidence: tier_1
+    content_type: presentations_and_keynotes
+    cognitive_value: CRITICAL
+    description: |
+      8 conference talks + 2 podcasts:
+      - O'Reilly Velocity 2018 (DevSecOps pipeline)
+      - Cybersecurity Symposium keynote (Rethinking AppSec)
+      - YOW! London 2022 (IAST + DevSecOps)
+      - SEAD 2020 keynote (Future of Software Security)
+      - Equal Experts 2020 (Inside-out security)
+      - Techstrong Con 2021 (Runtime agents)
+      - Eficode DevOps 2023 (Three Ways of DevSecOps, basketball analogy, live demos)
+      - Gartner Security 2023 (API security lessons)
+      - AppSec Podcast (Runtime security tech, 1.7M backlog, 38% library execution)
+      - EnterpriseReady Podcast (Self-protecting software)
+      - 10 synthesized core positions
+
+  - path: sources/downloads/podcasts/podcast-interviews.md
+    type: podcasts
+    source: Multiple podcasts
+    items: 10
+    size_kb: 55
+    confidence: tier_1
+    content_type: interviews_and_discussions
+    cognitive_value: CRITICAL
+    description: |
+      Podcast interviews revealing unfiltered voice:
+      - EnterpriseReady Podcast (Self-protecting software)
+      - What the Dev? Podcast (NIST framework)
+      - Application Security Podcast (ADR)
+      - CyberWire Caveat (Secure by Design)
+      - CyberScoop (Federal agency security)
+      - DevOps Chat (AppSec and DevSecOps)
+      - TechRound Interview (Career, vision)
+      - Eficode DevOps Podcast (Practical DevSecOps)
+      - Additional interviews found via search
+
+  - path: sources/downloads/social/linkedin-social-content.md
+    type: social_media
+    source: LinkedIn, biographical sources
+    items: 18
+    size_kb: 29
+    confidence: tier_2
+    content_type: social_and_biographical
+    cognitive_value: HIGH
+    description: |
+      LinkedIn and social media content:
+      - 16 indexed LinkedIn posts (titles/URLs cataloged)
+      - Ron Gula interview (LinkedIn Pulse, full text)
+      - Biographical profile (career timeline, education)
+      - Keynote descriptions (Charlotte, YOW, OWASP Stuttgart 2024)
+      - Key intellectual positions
+      - "Software is the most complex thing mankind has ever created"
+      - "We're stuck in a low orbit around Planet Risk"
+
+cognitive_richness_assessment:
+  layer_1_behavioral: STRONG
+  layer_2_communication: EXCELLENT
+  layer_3_routines: MODERATE
+  layer_4_recognition: STRONG
+  layer_5_mental_models: EXCELLENT
+  layer_6_values: STRONG
+  layer_7_obsessions: STRONG
+  layer_8_paradoxes: STRONG
+  overall: "Excellent material for 94% fidelity target"
+
+key_frameworks_identified:
+  - "Shift Smart (5 principles)"
+  - "OWASP Top 10 (vulnerability classification)"
+  - "OWASP ASVS (verification standard)"
+  - "IAST methodology (instrumentation-based testing)"
+  - "RASP methodology (runtime self-protection)"
+  - "ADR (Application Detection & Response)"
+  - "Three Ways of DevSecOps"
+  - "4 Dimensions of AppSec Strategy"
+  - "5 Pillars of API Security"
+  - "Inside-Out vs Outside-In security"
+  - "Developer-First AppSec"
+
+key_quotes_for_clone:
+  - "Everything that's complicated in the world, we instrument it"
+  - "When you shift too far left, you lose all the context of the application"
+  - "The OWASP Top 10 hasn't really changed anything"
+  - "You've got about a day"
+  - "Never write security mechanisms yourself. It's really hard."
+  - "It's crazy to deploy applications without instrumenting them for security"
+  - "Legal liability for insecure software might work, but it's dangerous"
+  - "Software is the most complex thing mankind has ever created, and it's barely instrumented at all"
+  - "We're stuck in a low orbit around Planet Risk"
+
+preliminary_paradoxes:
+  - "Lawyer who champions open-source and opposes overregulation"
+  - "Security expert who prioritizes developer velocity over security gatekeeping"
+  - "OWASP founder who admits the Top 10 hasn't really changed anything"
+  - "CTO of security company who questions industry's foundational statistics"
+  - "Built career on vulnerability lists but prefers high assurance over checklists"

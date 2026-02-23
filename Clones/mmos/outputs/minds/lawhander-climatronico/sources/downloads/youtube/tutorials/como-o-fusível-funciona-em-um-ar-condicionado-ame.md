@@ -1,0 +1,14 @@
+# Como o FUSÍVEL funciona em um AR-CONDICIONADO? #AME
+
+- **Video ID:** cT3sTCGNeL4
+- **URL:** https://www.youtube.com/watch?v=cT3sTCGNeL4
+- **Duration:** 5 min
+- **Views:** 431
+- **Published:** 2019-03-13T15:00:10Z
+- **Category:** tutorials
+
+---
+
+## Transcript
+
+vamos lá a situação é que fugiu vocês vão chegar a placa e se depara com fuzil aberta inclusiva aberto que acontece porque que o fusível lado pessoal como acontece ao rio há uma anomalia no funcionamento da placa me cruzei para a cidade e que de longe dos círculos a uma direita é só entrar no circuito seguia pessoal 1 5 milhão vários show é um vá e estou a trabalhar o que acontece se por algum motivo é um componente da na placa ou algum surto na rede geraram uma sombra corrente no circuito que acontece uma estou como um dispositivo é a resposta rápida e ele tende a ser mais rápido que o fusível o show com um culto na parte restante da placa saía com um surto de sobrecorrente virar vídeo da rede vários show de baixa e testei o glaydson o pessoal vê é igual a r 13 não é isso se agora estou baixa a existência e aqui eu continuo até 220 de baixa resistência atenção ela permanece constante a corrente tende a aumentar quando a corrente tende a aumentar acontece que eu fui eu digo vamos supor que seja inclusive dessa press a gente aumenta ao chegar em 10 até 10 fusível abre certo ao abrir em pede que a corte passe com a gente curte proteger de controlado o proteger os circuitos digitais é tão a função do o fuzil é realmente a pri quando assuntos de corrente quando o objetivo seja externo ou seja um terninho à marcão circuito ele pede mais sorridente fuzil goiaba e pedindo que é somente chega ao circuito que saíram antes da rosa não foi fácil e 10 da pele e beleza aí lá onde o cara faz abrir um fusível para vai embora com um fio aqui confio nele que eu faltei um fio a fio se o sul se ao triunfo por dois motivos seja um surto de sobrecorrente seja algum culto na placa que demanda corrente do da rede se o fuzil abril abriu o corpo de uma sobra corrente via da rede como você botar um jambi a o circuito a funcionar normalmente porque o dia vai chorar com um fusível voltar a fechar esse contato aqui porém não pegou nada bem o circuito principal porque o ovário shoko ou abril o fusível de proteger o circuito beleza porque a causa do rompimento do o músico foi externa porém o problema está se a causa da abertura do possível foi interna porque a parte interna da placa certo é que a parte interna se ocorreu pouco aqui na parte interna o que acontece enquanto coloque um fio quando o elegi da placa que o teu mundo vale fechou a atuar vai levar a corrente é baixar esses de vai levar corrente corri com filth abrir a cova pessoal tá aqui vai queimar vai embora do povoador vai embora um anticoagulante da placa sai fumaça dos concorrentes em na alma de componentes ea água já era não tem mais o que fazer né

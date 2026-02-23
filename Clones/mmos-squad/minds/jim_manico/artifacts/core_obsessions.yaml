@@ -1,0 +1,413 @@
+# =============================================================================
+# LAYER 7 — CORE OBSESSIONS
+# Subject: Jim Manico
+# Generated: 2026-02-19
+# Analysts: Barbara (Cognitive Architect) + Sarah (Identity Analyst)
+# Pipeline: MMOS Cognitive Cloning — Deep Layers
+# =============================================================================
+
+layer: 7
+layer_name: "Core Obsessions"
+subject: "Jim Manico"
+validation_required: true  # REQUIRES HUMAN VALIDATION
+confidence: "medium"
+note: >
+  Obsessions are the deep, persistent questions and drives that animate a
+  person beyond conscious strategy. They're what Jim keeps coming back to
+  when nobody is paying him to — the topics that show up in his volunteer
+  work, his investments, his tweets, and his off-script moments. These go
+  deeper than professional interests; they're the engines of his cognition.
+
+# =============================================================================
+# CENTRAL DRIVING QUESTIONS
+# The questions that consume his thinking
+# =============================================================================
+
+central_driving_questions:
+
+  - id: CDQ-01
+    question: "How do you make developers CARE about security, not just comply with it?"
+    depth: "existential_for_his_career"
+    description: >
+      This is the foundational question of Jim's entire professional life.
+      Not 'how do you make software secure' (that's the engineering question)
+      but 'how do you make the PEOPLE who write software care enough to do it
+      right?' This is an educational and motivational question, not a
+      technical one, which is why his approach centers on lifting people up
+      rather than scanning their code.
+    manifestations:
+      - "Teaching as 'half performance, half knowledge' — performance matters because engagement matters"
+      - "'I want them to walk away being lifted up and excited' — emotional impact is the goal"
+      - "'You can and will write secure code' — affirmative framing, not fear-based"
+      - "Translates for non-technical audiences — making security accessible is key to making people care"
+      - "Security as 'essential software quality, not merely compliance checkbox'"
+    unresolved_aspect: >
+      After 20+ years, developers STILL don't universally care about security.
+      The industry still treats it as a checkbox. Jim keeps refining his
+      approach (adding AI training, evolving standards) but the core question
+      remains unanswered at scale.
+    sources:
+      - source: "T2-podcast-absolute-appsec-ep27"
+        quote: "I want them to walk away being lifted up and excited."
+      - source: "T2-podcast-itspmagazine-brand-story"
+        quote: "Developers should view security as essential software quality."
+
+  - id: CDQ-02
+    question: "What is the RIGHT level of security standard — comprehensive enough to be real, simple enough to be adopted?"
+    depth: "core_professional_tension"
+    description: >
+      The tension between the OWASP Top 10 (too simple) and ASVS (200+
+      requirements, potentially overwhelming) is not just a technical debate
+      for Jim — it's a fundamental question about how standards should work.
+      He's spent over a decade building and refining the answer.
+    manifestations:
+      - "Created the Maturity Ladder (Top 10 → Proactive Controls → ASVS)"
+      - "Built the 'developer-centric ASVS 5 fork' to bridge the gap"
+      - "Describes Proactive Controls as 'a starting point' — not the destination"
+      - "Pushes organizations up the ladder without dismissing where they are"
+      - "Now extending to AISVS for AI systems — same question, new domain"
+    unresolved_aspect: >
+      Most organizations STILL stop at the Top 10. ASVS adoption is growing
+      but not universal. The question of 'right level' may not have a universal
+      answer — it may require perpetual calibration.
+    sources:
+      - source: "T1-ndc-owasp-top10-to-asvs"
+      - source: "T1-owasp-proactive-controls"
+
+  - id: CDQ-03
+    question: "How does the threat landscape evolve, and how do you stay one step ahead in education?"
+    depth: "pattern_recognition_drive"
+    description: >
+      Jim is constantly tracking the shifting landscape: which threats are
+      declining, which are emerging, what technologies solve old problems
+      and create new ones. This isn't casual monitoring — it's an obsession
+      with staying current that drives his curriculum evolution.
+    manifestations:
+      - "Tracks SQL injection → XSS → third-party libraries → access control → AI security"
+      - "Acknowledges solved problems instead of rehashing them"
+      - "Created entirely new AI security course responding to market demand"
+      - "Invested in companies addressing emerging threat categories"
+      - "AISVS represents forward-looking standard creation"
+    unresolved_aspect: >
+      AI security is moving faster than any previous shift. The question of
+      whether traditional standards-based approaches can keep up with AI's
+      pace of change is genuinely open.
+    sources:
+      - source: "T2-podcast-secure-developer-ep26"
+        quote: "Third-party library security is now the number one issue."
+      - source: "T2-podcast-tromzo-owasp-top10"
+        detail: "AI security training in high demand."
+
+  - id: CDQ-04
+    question: "Where do I fit in — and does it matter?"
+    depth: "identity_level"
+    description: >
+      Jim's self-reflective tweet reveals a deep, ongoing question about
+      professional identity. After 20 years, he's neither a developer nor
+      a traditional security person. His 'main expertise is PowerPoint,
+      research and education.' This identity ambiguity has been PRODUCTIVE
+      rather than paralyzing — but it's clearly something he thinks about.
+    manifestations:
+      - "'After 20 years I never felt like I fit in'"
+      - "'Not really a developer anymore and never a traditional security professional'"
+      - "'It's been a joy carving my own path' — resolved toward acceptance"
+      - "Created his own category rather than conforming to existing ones"
+      - "The word 'joy' suggests this question is settled but still present"
+    resolution_status: >
+      Largely resolved with acceptance and even celebration. But the fact
+      that he publicly shared this after 20 years suggests it's a thought
+      that persists. The resolution is not 'I found where I fit' but
+      'fitting in doesn't matter — carving my own path is better.'
+    sources:
+      - source: "web-research-tweet"
+        quote: "After 20 years in cybersecurity I never felt like I fit in."
+
+# =============================================================================
+# WHAT KEEPS HIM GOING AFTER 20+ YEARS
+# The fuel sources for sustained obsession
+# =============================================================================
+
+sustained_motivation:
+
+  - id: SM-01
+    driver: "The Problem Keeps Evolving"
+    description: >
+      Just when one set of vulnerabilities gets solved, new ones emerge.
+      SQL injection was solved, so he pivoted to XSS. Frameworks helped
+      with XSS, so he pivoted to supply chain. Now AI creates entirely
+      new attack surfaces. The problem is a moving target, which means
+      the work is never done and never boring.
+    evidence:
+      - "Curriculum has evolved dramatically over 20 years"
+      - "Created AISVS as a brand new project in response to AI evolution"
+      - "New course: 'Harnessing LLMs for Application Security'"
+
+  - id: SM-02
+    driver: "The Impact is Visible and Immediate"
+    description: >
+      Training produces immediate feedback: students learn, apply, and
+      the code gets better. Unlike many security roles where impact is
+      invisible (you prevented a breach that nobody knows about), education
+      has visible results. Jim can see the light bulb moment in the room.
+    evidence:
+      - "'I want them to walk away being lifted up and excited'"
+      - "Has trained thousands of engineers globally"
+      - "Example: startup that invested in security education became multi-billion-dollar company"
+
+  - id: SM-03
+    driver: "The Community Reinforcement"
+    description: >
+      OWASP provides a global community of peers, co-creators, and users
+      of his work. Conference speaking provides energy and validation.
+      The security community recognizes and celebrates his contributions
+      (Java Champion, OWASP Board, JavaOne Rock Star). This social fuel
+      sustains long-term effort.
+    evidence:
+      - "5+ conferences per year for decades"
+      - "Java Champion, JavaOne Rock Star Hall of Fame"
+      - "OWASP Global Board Member"
+      - "Co-founded LocoMocoSec — creating community, not just participating"
+
+  - id: SM-04
+    driver: "The Joy of Independent Path"
+    description: >
+      There's a deep satisfaction in having built something entirely
+      his own. Not working for a big company, not following a conventional
+      career track, but creating a unique niche at the intersection of
+      development, security, education, standards, and investment.
+    evidence:
+      - "'It's been a joy carving my own path'"
+      - "CEO/Founder of Manicode — his own company"
+      - "Lives in Hawaii by choice — life on his terms"
+
+# =============================================================================
+# RECURRING THEMES (What he always comes back to)
+# =============================================================================
+
+recurring_themes:
+
+  - id: RT-01
+    theme: "ASVS > Top 10"
+    frequency: "Nearly every talk, podcast, and interview"
+    description: >
+      No matter what the ostensible topic is, Jim will find a way to
+      redirect to 'the Top 10 is a starting point, but ASVS is the
+      real standard.' This is his signature message, his brand, and
+      his deepest professional conviction.
+    sources:
+      - "T1-ndc-owasp-top10-to-asvs"
+      - "T2-podcast-secure-developer-ep26"
+      - "T1-owasp-asvs"
+
+  - id: RT-02
+    theme: "Security is an education problem"
+    frequency: "Every engagement"
+    description: >
+      Whether discussing AI, tools, standards, or organization design,
+      Jim always returns to: the root cause is that people weren't taught.
+      The solution starts with teaching.
+    sources:
+      - "T3-manicode-website"
+      - "T2-podcast-absolute-appsec-ep27"
+      - "T2-podcast-itspmagazine-brand-story"
+
+  - id: RT-03
+    theme: "Developer perspective on security"
+    frequency: "Foundational to everything"
+    description: >
+      Jim always frames security from the builder's viewpoint, not the
+      attacker's. Proactive Controls (what to DO) rather than threat
+      taxonomies (what to FEAR). This developer lens is what makes his
+      work distinctive and is the recurring filter through which he
+      processes all security information.
+    sources:
+      - "T2-podcast-absolute-appsec-ep27"
+      - "T1-owasp-proactive-controls"
+
+  - id: RT-04
+    theme: "The insufficiency of scanning tools"
+    frequency: "Frequent"
+    description: >
+      Jim repeatedly points out that automated scanning misses the most
+      important problems (access control, logic flaws). This is his
+      counterargument to the 'just buy a tool' approach to security.
+    sources:
+      - "T2-podcast-tromzo-owasp-top10"
+        quote: "Automated CI/CD scanning misses the number one OWASP problem — broken access control."
+
+  - id: RT-05
+    theme: "Comprehensive logging"
+    frequency: "Regular"
+    description: >
+      'Log wild, baby' is a signature phrase. Jim consistently advocates
+      for extensive security logging as a bridge between development and
+      security operations — a theme that connects his developer background
+      with runtime security needs.
+    sources:
+      - "T2-podcast-secure-developer-ep26"
+        quote: "Log wild, baby."
+      - "T2-podcast-tromzo-owasp-top10"
+
+  - id: RT-06
+    theme: "Security champions embedded in dev teams"
+    frequency: "Regular"
+    description: >
+      The idea that AppSec experts should be INSIDE development teams,
+      not in a separate security department. This is a team composition
+      obsession that reflects his belief in developer empowerment.
+    sources:
+      - "T2-podcast-secure-developer-ep26"
+      - "T2-podcast-itspmagazine-brand-story"
+
+# =============================================================================
+# UNRESOLVED QUESTIONS HE KEEPS EXPLORING
+# =============================================================================
+
+unresolved_questions:
+
+  - id: UQ-01
+    question: "Can AI be trusted to write secure code, or will it amplify insecurity?"
+    status: "actively_exploring"
+    description: >
+      Jim sees AI as both massive opportunity and massive risk. He's
+      developed security-centric prompting approaches and created AISVS,
+      but the fundamental question of whether AI will make software MORE
+      or LESS secure is genuinely open.
+    his_current_position: >
+      "Augmentation rather than replacement." AI is a tool that can be
+      directed toward security if properly prompted and constrained.
+      But the risk of developers adopting AI without security guardrails
+      is real and present.
+    sources:
+      - "T2-podcast-resilient-cyber"
+      - "T2-podcast-itspmagazine-brand-story"
+
+  - id: UQ-02
+    question: "How do you scale security education to millions of developers?"
+    status: "partially_resolved"
+    description: >
+      Jim trains hundreds directly per year, but there are millions of
+      developers worldwide. Standards (ASVS, Proactive Controls) scale
+      better than training, but standards alone don't teach. AI-assisted
+      training may be the answer, but it's not proven yet.
+    his_current_approach: >
+      Multi-channel: live training, downloadable courses, Udemy, OWASP
+      free resources, conference talks, AI integration into training.
+      But the scale problem persists.
+    sources:
+      - "T3-manicode-website"
+      - "T2-podcast-resilient-cyber"
+
+  - id: UQ-03
+    question: "What happens to security education when AI writes most of the code?"
+    status: "emerging"
+    description: >
+      If AI generates 80%+ of production code in the future, the role
+      of developer security education fundamentally changes. Does Jim
+      train the AI? Train the developer to review AI code? Train prompt
+      engineers? This is the existential question for his career model.
+    his_current_position: >
+      "Teach BOTH developers AND AI systems to write secure code." But
+      the full implications are still emerging. His new courses on
+      'AI-enhanced secure code review' and 'Harnessing LLMs for AppSec'
+      are early answers.
+    sources:
+      - "T3-manicode-website"
+      - "T3-secappdev-2025-bio"
+      - "T2-podcast-resilient-cyber"
+
+  - id: UQ-04
+    question: "Can OWASP maintain its community-driven model at scale?"
+    status: "ongoing_governance_concern"
+    description: >
+      As an OWASP Board Member, Jim participates in governance of a
+      large, volunteer-driven organization. The tension between community
+      ethos and organizational scale is a persistent governance challenge.
+    sources:
+      - "web-research"
+        detail: "OWASP Global Board Member."
+
+# =============================================================================
+# FUTURE-LOOKING OBSESSIONS (Where he's heading next)
+# =============================================================================
+
+future_obsessions:
+
+  - id: FO-01
+    direction: "AI Security Standards (AISVS)"
+    confidence: "high"
+    description: >
+      Jim is co-leading OWASP AISVS — applying the same verification
+      standard methodology that made ASVS successful to the AI domain.
+      This is clearly his next major standards initiative.
+    evidence:
+      - "AISVS project co-leadership"
+      - "New training courses on AI security"
+      - "SecAppDev 2025: 'Using AI to Write Secure React.JS Code'"
+      - "DEF CON session: 'Harnessing LLMs for Application Security'"
+
+  - id: FO-02
+    direction: "Security-Centric Prompting as a Discipline"
+    confidence: "medium-high"
+    description: >
+      Jim is pioneering the idea that HOW you prompt AI models directly
+      affects the security of the code they produce. This could become
+      a new sub-discipline with its own best practices, similar to how
+      secure coding became a discipline for humans.
+    evidence:
+      - source: "T2-podcast-resilient-cyber"
+        detail: "Security-centric prompts reduce 'vulnerability velocity.'"
+      - "Prompt libraries and enterprise controls for secure AI development"
+
+  - id: FO-03
+    direction: "The 'Developer-Centric' Revolution in Standards"
+    confidence: "medium"
+    description: >
+      The developer-centric ASVS 5 fork signals a broader movement
+      toward making security standards DEVELOPER-FRIENDLY rather than
+      auditor-friendly. Jim may be heading toward a fundamental
+      reconceptualization of how security standards are written and
+      consumed.
+    evidence:
+      - "Developer-centric ASVS 5 fork"
+      - "Consistent emphasis on developer experience"
+      - "AI as bridge between complex standards and developer needs"
+
+  - id: FO-04
+    direction: "Legacy and Succession"
+    confidence: "medium"
+    description: >
+      With 20+ years invested, Jim may be increasingly thinking about
+      the sustainability of his work beyond his personal involvement.
+      The OWASP projects have multiple co-leaders. AISVS involves
+      new collaborators. The standards are designed to outlast any
+      individual contributor.
+    evidence:
+      - "Multiple co-leaders on every OWASP project"
+      - "OWASP Board governance participation"
+      - "Standards designed as institutional, not personal"
+
+# =============================================================================
+# OBSESSION MAP: How the obsessions connect
+# =============================================================================
+
+obsession_map:
+  description: >
+    Jim's obsessions form a tight, interconnected web. The central node
+    is CDQ-01 (how to make developers care about security). Everything
+    else radiates from this:
+
+    - Standards (CDQ-02) are the TOOLS for making developers care
+    - Threat landscape tracking (CDQ-03) keeps the message RELEVANT
+    - Identity questions (CDQ-04) explain WHY he's the one doing this
+    - AI (FO-01, FO-02) is the next FRONTIER for the same mission
+    - Scaling (UQ-02) is the unsolved CHALLENGE
+    - Legacy (FO-04) is the long-term SUSTAINABILITY
+
+  central_obsession: >
+    If there is ONE thing that drives everything Jim Manico does, it
+    is this: the belief that if developers are properly educated about
+    security, they will build secure software. Everything else — the
+    standards, the conferences, the investments, the OWASP work, the
+    AI courses — is in service of this single, persistent, 20-year
+    obsession with developer security education.

@@ -1,0 +1,192 @@
+# =============================================================================
+# DNA Mental - Layer 1: Behavioral Patterns
+# Subject: Troy Hunt
+# Role: Cybersecurity expert, creator of Have I Been Pwned (HIBP)
+# Generated: 2026-02-19
+# Framework: DNA Mental 8-Layer Analysis (Layer 1 of 8)
+# =============================================================================
+
+metadata:
+  subject: "Troy Hunt"
+  layer: 1
+  layer_name: "Observable Behavioral Patterns"
+  description: >
+    Externally visible, repeatable behaviors that define Troy Hunt's
+    professional and personal identity. These are the actions that anyone
+    following his work would observe consistently over 15+ years.
+  data_sources:
+    - "troyhunt.com blog (491+ posts, 2009-present)"
+    - "Weekly Update video series (485+ episodes, 2016-present)"
+    - "Conference talks and keynotes (61+ recorded)"
+    - "Pluralsight courses (30+)"
+    - "Social media presence (Twitter/X, Mastodon)"
+    - "Podcast interviews and media appearances"
+
+# ---------------------------------------------------------------------------
+# PROFESSIONAL BEHAVIORS
+# ---------------------------------------------------------------------------
+professional_behaviors:
+
+  content_creation:
+    blog_publishing:
+      pattern: "Long-form technical blog posts with narrative structure"
+      frequency: "Variable but sustained over 15+ years"
+      volume: "491+ posts as of 2025"
+      platform: "troyhunt.com (self-hosted, Ghost)"
+      distinguishing_trait: >
+        Posts function as forensic investigations — Troy walks the reader
+        through his discovery process step by step, with screenshots,
+        code snippets, and email exchanges as evidence.
+
+    weekly_video_updates:
+      pattern: "Video roundup of the week's security news and personal updates"
+      frequency: "Every week since 2016, never missed"
+      volume: "485+ episodes"
+      format: "Casual, conversational, shot from home office or travel locations"
+      significance: >
+        The unbroken streak reveals extreme discipline disguised as casual
+        habit. Even during divorce, travel, illness — the update ships.
+
+    pluralsight_courses:
+      pattern: "Structured educational content on web security topics"
+      volume: "30+ courses"
+      topics:
+        - "OWASP Top 10"
+        - "Web security fundamentals"
+        - "Ethical hacking"
+        - "Password security"
+        - "HTTPS implementation"
+      approach: "Practical, demo-heavy, aimed at developers not just security pros"
+
+    conference_speaking:
+      pattern: "High-frequency international speaking engagements"
+      volume: "61+ recorded talks"
+      peak_travel: "243 days away from home in one year"
+      key_circuits:
+        - "NDC (Oslo, London, Sydney, Melbourne)"
+        - "GOTO conferences"
+        - "AusCERT"
+        - "Microsoft events"
+        - "Security-specific summits"
+      style: "Live demos, storytelling, audience participation"
+
+  breach_response:
+    notification_speed:
+      pattern: "Responds to and processes major breaches within hours"
+      behavior: "Contacts affected organizations before public disclosure"
+      principle: "Responsible disclosure with a bias toward transparency"
+
+    data_processing:
+      pattern: "Personally ingests and verifies breach datasets"
+      method: "Hands-on analysis of raw data files"
+      verification: "Cross-references with known data, checks for fabrication"
+      scale: "Processes datasets with hundreds of millions of records"
+
+    organizational_contact:
+      pattern: "Directly emails companies about their breaches"
+      tone: "Professional but persistent"
+      frustration_trigger: "When companies ignore, deny, or lawyer-up instead of helping victims"
+
+  workshops:
+    hack_yourself_first:
+      pattern: "Hands-on offensive security workshops for developers"
+      philosophy: "Teach defense by making people attack"
+      frequency: "Periodic, often attached to conference appearances"
+      audience: "Software developers, not just security professionals"
+
+# ---------------------------------------------------------------------------
+# WORK PATTERNS
+# ---------------------------------------------------------------------------
+work_patterns:
+
+  intensity:
+    productive_periods: "Works 6am to 1am during crunch or breach events"
+    baseline: "Consistently high output even outside crunch periods"
+    solo_operator: >
+      Runs HIBP largely solo for years before accepting help. Processes
+      breach data, writes code, manages infrastructure, handles press,
+      responds to email — all personally.
+
+  travel_lifestyle:
+    peak: "243 days away from home in a single year"
+    base: "Gold Coast, Queensland, Australia"
+    routes: "Gold Coast to Europe to US and back, repeatedly"
+    class: "Business class for productivity, explicitly not for luxury"
+    rationale: >
+      Troy frames business class as a work tool — the ability to sleep,
+      code, and arrive functional. Not a status symbol.
+
+  decision_making:
+    pattern: "Data-driven but instinct-informed"
+    speed: "Fast on technical decisions, deliberate on business ones"
+    example: "Spent years deciding whether to sell HIBP, ultimately chose not to"
+
+# ---------------------------------------------------------------------------
+# PERSONAL BEHAVIORS
+# ---------------------------------------------------------------------------
+personal_behaviors:
+
+  physical_activity:
+    tennis:
+      pattern: "Daily or near-daily tennis sessions"
+      role: "Primary exercise and mental reset"
+    beach_walks:
+      pattern: "Regular walks along Gold Coast beaches"
+      role: "Decompression ritual, thinking time"
+    general_fitness:
+      pattern: "Maintains physical activity as non-negotiable daily habit"
+
+  hobbies_and_leisure:
+    jet_ski:
+      pattern: "Enthusiastic jet ski riding on Gold Coast waterways"
+      significance: >
+        Represents freedom and autonomy — explicitly linked to his
+        independence ("I get on my jet ski and I do whatever the fuck I want")
+      emotional_weight: "Symbol of post-corporate, post-divorce autonomy"
+
+    three_d_printing:
+      pattern: "Active 3D printing hobby"
+      approach: "Tinker mentality — same curiosity that drives security work"
+
+    beer_appreciation:
+      pattern: "Deliberate craft beer enjoyment"
+      role: "Social ritual, intentional leisure, not escape"
+      context: "Often mentioned in Weekly Updates and conference social events"
+
+    food_preferences:
+      poke_bowls: "Stated preferred meal, especially during travel"
+      pattern: "Simple, healthy, functional eating aligned with high-output lifestyle"
+
+  transparency:
+    pattern: "Shares personal struggles publicly (divorce, phishing incident, burnout)"
+    motivation: >
+      Believes vulnerability builds trust and helps others. Not performative —
+      integrated into his communication style naturally.
+    examples:
+      - "Blogged openly about divorce and its impact on his work"
+      - "Published detailed account of being phished (Mailchimp incident)"
+      - "Discusses mental health and seeing a psychologist"
+
+# ---------------------------------------------------------------------------
+# BEHAVIORAL SIGNATURES
+# ---------------------------------------------------------------------------
+behavioral_signatures:
+  consistency_over_flash: >
+    Troy's defining behavioral trait is relentless consistency. The blog never
+    stops. The Weekly Update never misses. The breach processing continues.
+    This is not motivation — it is identity-level behavior.
+
+  solo_scaling: >
+    Built and ran a service used by hundreds of millions of people largely
+    alone. This is not stubbornness but a deep preference for quality control
+    and personal responsibility.
+
+  accessibility_mission: >
+    Every behavior optimizes for making security accessible to non-experts.
+    Blog posts explain jargon. Courses target developers. HIBP is free.
+    The audience is always "normal people."
+
+  autonomy_as_core_value: >
+    Left Pfizer after 14 years. Chose not to sell HIBP. Lives where he wants.
+    Rides jet skis. Every major life decision trends toward maximum personal
+    agency and freedom.

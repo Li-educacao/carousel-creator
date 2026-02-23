@@ -1,0 +1,14 @@
+# Só pegar placa on-off porque "é mais fácil de reparar" realmente faz sentido? #AME
+
+- **Video ID:** 2rpEVt3S-_g
+- **URL:** https://www.youtube.com/watch?v=2rpEVt3S-_g
+- **Duration:** 3 min
+- **Views:** 214
+- **Published:** 2021-06-02T15:00:00Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+e não tem gente e aí que eu falar aqui fora com alto senso comum fora pra vocês como vocês como galera onofe em convencionar mais fácil a placa do confessionário mais fácil de reparado que a placa do inverte Tem cada Seguir em Fortaleza que só trabalho com placa de convencional ele só repara a placa de convencional então para ele e aí aí tu acha pô mas eu tenho muita gente falei eu só paro convencional Mas além frente agora nós vamos para o profissional cara de fato circuitos são - circuito tem - circuitos na placa de um convencional tem menos se curtir que a parte do inverte é óbvio só que você para você dizer que você que a placa do comissional ela é mais fácil do que a passando inverte você nunca é porque você nunca pegou um defeito cabuloso no máquina de convencional e perfeitos que dão tanta dor de cabeça que inviabilizam reparo haja Vista o reparo que tem tá vendo tanto com dificuldade em relação ao preço que você pode consegue cobrar naquele equipamento tá o valor do seu serviço então o convencional levar quatro mais barata é mais fácil reparos muitas vezes são mais simples porém eletrônica ou soca tu para o parto do pressuposto que eletrônica é uma só seu parte do pescoço então só a dificuldade é igual nos dois do ponto de vista eletrônica de ocorrência eletrônico Se não tem conhecimento não repara não convencional no evento tá depois eu já tô indo levar os dois e cor difícil Aonde vende os meus clientes da lautec a dificuldade do reparo sempre Depende a dificuldade do reparo sempre depende do defeito no equipamento do jeito que tá apresentou não é um o prefeito mais simples não convencional Concordo Tá mas se você disse que é mais fácil um toque é mais fácil tem que ser uma palavra e depois que eu não digo nunca ganhar Atlântico e Índico sempre eletrônica você tem que ter em suas ações não deve sempre Fontes nem festa isso as vezes é moleza às vezes não é às vezes acabou o uso de fonte se eu continuo ela se ela for de chaveada não precisa é assim às vezes um defeito em mim ver sou e tem gente que acha por exemplo que é que nem pensar que o verde é que é mais muito mais difícil do que o Sprint tô só estereótipos você tem por ter falta de conhecimento daquele daquele pamento facilmente é isso se tu conhece mais humano do que o inverso e tu achou o nosso mais fácil que Beto se conhece mais liberto do que o VR é fácil BRF universo porque o BRS só cheiro apostila é difícil a gente porque porque tem mais conhecimento outras mas não tem conhecimento Chile então a falta de conhecimento que era essa sensação de que é difícil demais tá eu paro ela independe

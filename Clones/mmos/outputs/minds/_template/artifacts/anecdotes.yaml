@@ -1,0 +1,45 @@
+# Anecdotes Bank — Mind DNA Template
+# Real stories, metaphors, analogies, and signature examples the specialist uses
+# These are the "proof arsenal" — concrete experiences that back up their frameworks
+
+mind_id: ""
+mind_name: ""
+version: "0.1.0"
+
+# Stories the specialist tells repeatedly to illustrate key points
+signature_stories:
+  - title: ""
+    context: ""            # When/where they tell this story
+    narrative: ""          # The story itself (condensed)
+    lesson: ""             # The point they're making
+    emotional_hook: ""     # Why it resonates (fear, aspiration, humor, shock)
+    frequency: ""          # how often they use it (always, often, sometimes)
+
+# Metaphors and analogies they default to
+metaphors:
+  - metaphor: ""
+    meaning: ""            # What it represents
+    domain: ""             # Original domain (war, sports, cooking, nature...)
+    usage_example: ""      # How they phrase it
+
+# Real case studies and client results they reference
+case_studies:
+  - name: ""               # Client/project name (or anonymized)
+    before: ""             # Starting situation
+    intervention: ""       # What the specialist did
+    after: ""              # Result/transformation
+    numbers: ""            # Specific metrics if available
+    quote: ""              # Memorable line from the story
+
+# Cautionary tales — examples of what NOT to do
+anti_examples:
+  - title: ""
+    what_went_wrong: ""
+    lesson: ""
+    how_they_frame_it: ""  # Their exact framing/spin on the failure
+
+# One-liners and catchphrases
+catchphrases:
+  - phrase: ""
+    context: ""            # When they drop this line
+    effect: ""             # What reaction it produces (laugh, shock, clarity)

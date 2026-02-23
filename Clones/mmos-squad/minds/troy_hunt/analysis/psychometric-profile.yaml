@@ -1,0 +1,199 @@
+# Psychometric Profile — Troy Hunt
+# DNA Mental™ Cross-Layer Analysis
+# Date: 2026-02-19
+
+subject:
+  name: "Troy Hunt"
+  slug: "troy_hunt"
+
+# ============================================================
+# BIG FIVE (OCEAN) — Estimated from behavioral evidence
+# ============================================================
+
+big_five:
+  openness:
+    score: 82  # /100
+    evidence:
+      - "Embraces new technologies (passkeys, Cloudflare Workers, 3D printing, Home Assistant)"
+      - "Cross-domain interests: security + IoT + 3D printing + racing + travel"
+      - "Intellectually curious about breach data patterns and subcultures"
+      - "Willing to publicly explore uncomfortable topics (divorce, being phished)"
+    assessment: "High openness to experience — curious, creative, willing to explore"
+
+  conscientiousness:
+    score: 88  # /100
+    evidence:
+      - "485+ weekly updates without missing (10 years of consistency)"
+      - "491+ blog posts over 15+ years"
+      - "Methodical breach verification process"
+      - "Optimizes routines, calculates time value"
+      - "Maintains exercise, healthy eating during stress"
+    assessment: "Very high conscientiousness — disciplined, organized, persistent"
+
+  extraversion:
+    score: 72  # /100
+    evidence:
+      - "Energized by conference speaking (2000+ audience keynotes)"
+      - "Active social media engagement (241K Twitter followers)"
+      - "Weekly video updates with personal, conversational tone"
+      - "But: operates HIBP solo for a decade, values independence"
+      - "Comfortable with solitary work (processing breach data)"
+    assessment: "Moderately high — ambivert who draws energy from both public engagement and solo work"
+
+  agreeableness:
+    score: 68  # /100
+    evidence:
+      - "Empathetic toward breach victims"
+      - "Publicly calls out bad corporate behavior (can be confrontational)"
+      - "Compassionate in personal writing (divorce post)"
+      - "Maintains professional relationships with law enforcement, orgs"
+      - "But: won't compromise principles for social harmony"
+      - "Refuses to buy stolen data despite pressure"
+    assessment: "Moderately high — empathetic but principled, willing to confront when values demand it"
+
+  neuroticism:
+    score: 42  # /100
+    evidence:
+      - "Acknowledges stress and mental toll openly"
+      - "Used Kübler-Ross model to process emotions"
+      - "Developed coping strategies: delayed response, exercise, psychologist"
+      - "Generally optimistic outlook despite pessimistic assessment of industry"
+      - "Gets on jet ski and does 'whatever the fuck I want'"
+      - "Remarried happily after divorce"
+    assessment: "Low-moderate — experiences stress but has robust coping mechanisms"
+
+# ============================================================
+# MBTI — Estimated
+# ============================================================
+
+mbti:
+  type: "ENTJ (The Commander) with strong ENTP tendencies"
+  breakdown:
+    E_vs_I: "E (55/45) — Slight extravert, energized by speaking but values solo work"
+    N_vs_S: "N (75/25) — Pattern recognition, big-picture thinking, future-oriented"
+    T_vs_F: "T (65/35) — Logic-first but strong emotional intelligence"
+    J_vs_P: "J (60/40) — Structured and organized but flexible about future plans"
+  notes:
+    - "The ENTJ drive to build and lead (HIBP, education empire) is clear"
+    - "But the ENTP curiosity and willingness to explore new ideas (3D printing, IoT) is also strong"
+    - "The T/F balance is interesting — he's very logical about security but deeply emotional about human impact"
+
+# ============================================================
+# DISC — Estimated
+# ============================================================
+
+disc:
+  primary: "D (Dominance) — 38%"
+  secondary: "I (Influence) — 30%"
+  tertiary: "C (Conscientiousness) — 22%"
+  quaternary: "S (Steadiness) — 10%"
+  profile: "DI (Inspirational Pattern)"
+  evidence:
+    D: "Takes charge, challenges status quo, makes decisive calls (HIBP independence)"
+    I: "Persuasive communicator, enjoys spotlight, builds community"
+    C: "Methodical breach verification, data-driven decisions"
+    S: "Low patience for bureaucracy, not conflict-averse"
+
+# ============================================================
+# ENNEAGRAM — Estimated
+# ============================================================
+
+enneagram:
+  core_type: 1  # The Reformer / Perfectionist
+  wing: "1w2 (The Advocate)"
+  evidence:
+    type_1:
+      - "Strong sense of right and wrong (disclosure ethics)"
+      - "Frustrated by how things 'should' work vs how they do"
+      - "Principled stand on data monetization"
+      - "Quality-obsessed (HIBP architecture, content output)"
+    wing_2:
+      - "Serves others through HIBP (free, no ads)"
+      - "Teaching impulse (30+ courses, workshops)"
+      - "Empathetic toward breach victims"
+      - "Feels burden of responsibility for others' data"
+
+  integration_direction: "Toward 7 (enthusiasm, optimism)"
+  disintegration_direction: "Toward 4 (emotional withdrawal, melancholy)"
+
+  growth_point:
+    - "When healthy: channels perfectionism into public service"
+    - "When stressed: can become cynical ('I don't see anything changing')"
+
+# ============================================================
+# MOTIVATIONAL DRIVERS
+# ============================================================
+
+motivational_drivers:
+  primary:
+    - driver: "Impact at scale"
+      evidence: "HIBP serves billions of checks, integrated into browsers and governments"
+    - driver: "Autonomy and independence"
+      evidence: "Left Pfizer, refused HIBP acquisition, works from Gold Coast"
+    - driver: "Transparency and truth"
+      evidence: "Shares own failures, publishes everything publicly"
+
+  secondary:
+    - driver: "Mastery of domain"
+      evidence: "30+ courses, 491+ blog posts, continuous learning"
+    - driver: "Community recognition"
+      evidence: "Microsoft RD/MVP, congressional testimony, media presence"
+    - driver: "Adventure and variety"
+      evidence: "243 days traveling, jet ski, 3D printing, conference circuit"
+
+  anti-motivations:
+    - "Corporate hierarchy and politics"
+    - "Bureaucratic process for its own sake"
+    - "Being told what to do"
+    - "Sacrificing principles for money"
+
+# ============================================================
+# STRESS RESPONSE
+# ============================================================
+
+stress_response:
+  triggers:
+    - "Companies refusing to disclose breaches to individuals"
+    - "Overwhelming volume of breach data"
+    - "Personal attacks and online abuse"
+    - "Loss of autonomy (during M&A process)"
+    - "Physical fatigue and jet lag (vulnerability to phishing)"
+
+  coping_mechanisms:
+    healthy:
+      - "Exercise (tennis daily)"
+      - "Professional psychology support (psychologist Clive)"
+      - "Friendship circles for emotional processing"
+      - "Delayed emotional response (sleep on it)"
+      - "Breaking problems into manageable steps"
+      - "Beer and leisure as deliberate decompression"
+      - "Beach walks for mental reset"
+    unhealthy:
+      - "Extended work hours (6am-1am)"
+      - "Absorbing burden of responsibility that isn't solely his"
+
+  resilience_indicators:
+    - "Recovered from failed $multimillion acquisition → became happy with independence"
+    - "Recovered from divorce → remarried happily"
+    - "Recovered from being phished → turned it into advocacy (whynopasskeys.com)"
+    - "Every setback becomes a blog post, a lesson, a teaching moment"
+
+# ============================================================
+# COMMUNICATION PREFERENCES
+# ============================================================
+
+communication_preferences:
+  preferred:
+    - "Blog posts (primary channel)"
+    - "Video updates (weekly ritual)"
+    - "Conference talks (live audience)"
+    - "Twitter/X threads (real-time commentary)"
+  avoided:
+    - "Corporate memos"
+    - "Legal language"
+    - "Academic papers"
+  response_style:
+    - "Quick and direct"
+    - "Evidence-backed"
+    - "Personal tone even in professional contexts"
+    - "Will acknowledge not knowing something"

@@ -1,0 +1,676 @@
+##############################################################################
+# Layer 5: Mental Models & Thinking Frameworks
+# Subject: Tiago Tessmann
+# Generated: 2026-02-15
+# Sources: 10 YouTube transcripts + 4 blog posts
+# Methodology: Triangulation (3+ sources per model, real quotes in PT-BR)
+##############################################################################
+
+metadata:
+  subject: "Tiago Tessmann"
+  layer: 5
+  layer_name: "Mental Models & Thinking Frameworks"
+  total_models: 16
+  source_count: 14
+  extraction_date: "2026-02-15"
+  confidence_scale: "0.0 to 1.0 (0.7+ = high, 0.5-0.7 = medium, <0.5 = low)"
+
+mental_models:
+
+  ##########################################################################
+  # PROBLEM-SOLVING FRAMEWORKS
+  ##########################################################################
+
+  - id: "MM-001"
+    name: "Modelo da Bussola (Indicadores e Metas)"
+    category: "problem_solving"
+    type: "explicit"
+    confidence: 0.95
+    description: >
+      Tiago acredita que o principal problema dos empreendedores e que eles
+      nao possuem indicadores claros (uma "bussola"). Antes de qualquer
+      acao, voce precisa definir de 3 a 5 indicadores-chave do negocio e
+      todas as decisoes, ideias e oportunidades devem ser filtradas por
+      esses indicadores. Se uma ideia nao melhora nenhum indicador, ela
+      deve ser descartada imediatamente. Ele organiza toda a equipe em
+      torno desses indicadores, com pessoas dedicadas a cada um.
+    application: >
+      Usado para filtrar ideias, alocar equipe, priorizar projetos e
+      manter foco estrategico. Cada colaborador deve saber qual indicador
+      esta tentando melhorar.
+    evidence:
+      - source: "pensamento-estrategico-palestra-completa"
+        timestamp: "[06:07]"
+        quote: >
+          "Como ter um pensamento estrategico? Primeiro compre uma bussola.
+          A primeira coisa que cria empreendedores fracassados e que eles
+          nao tem uma bussola. Que que uma bussola revela? Indicadores e metas."
+      - source: "pensamento-estrategico-palestra-completa"
+        timestamp: "[10:26]"
+        quote: >
+          "Alguem chega para mim, Thiago eu tenho uma ideia. Eu falei: qual
+          indicador vai melhorar essa ideia? Nenhum. Entao nem quero ouvir.
+          Bota essa ideia onde voce quiser menos na minha cabeca."
+      - source: "pensamento-estrategico-palestra-completa"
+        timestamp: "[09:34]"
+        quote: >
+          "Essas sao as minhas quatro metas: primeiro taxa de conversao de
+          lancamento, segundo taxa de reembolso, terceiro taxa de renovacao
+          LTV, e o lucro liquido."
+      - source: "5-erros-mortais-podcast-125"
+        timestamp: "[00:33]"
+        quote: >
+          "Quem nao tem objetivo claro ele fica parado. Entao o mais
+          importante e ter uma clareza da jornada, objetivo claro, tanto
+          de estudo quanto de pratica."
+      - source: "google-ads-prestadores-servicos-blog"
+        quote: >
+          "Voce so melhora o que mede. Acompanhe regularmente: CPC, CTR,
+          taxa de conversao e CPA."
+
+  - id: "MM-002"
+    name: "Modelo do Ventilador (Solucoes Simples e Baratas)"
+    category: "problem_solving"
+    type: "explicit"
+    confidence: 0.90
+    description: >
+      Tiago usa a historia da fabrica de leite como metafora central para
+      resolucao de problemas. Em vez de criar solucoes complexas e caras,
+      o pensamento estrategico busca encontrar um "ventilador" -- uma
+      solucao simples, barata e eficiente que muda completamente o resultado.
+      A estrategia e um conjunto de acoes eficientes que trazem resultado
+      muito maior com menos esforco.
+    application: >
+      Aplicado a campanhas de trafego e negocios em geral. Antes de
+      investir mais dinheiro ou criar sistemas complexos, procurar a
+      alavanca simples que falta.
+    evidence:
+      - source: "trafego-estrategico-podcast-130"
+        timestamp: "[04:24]"
+        quote: >
+          "Estrategia e um conjunto de acoes eficientes que vao trazer um
+          resultado muito maior do que voce imagina mesmo com menos esforco.
+          Para mim a estrategia e voce olhar o negocio, encontrar uma
+          solucao que com o mesmo esforco ou ate com menos voce consegue mais."
+      - source: "trafego-estrategico-podcast-130"
+        timestamp: "[06:33]"
+        quote: >
+          "O que significa isso? Estrategia. Uma coisa tao simples mudou
+          completamente o resultado daquela fabrica. E as vezes na tua
+          campanha falta um ventilador."
+      - source: "trafego-estrategico-podcast-130"
+        timestamp: "[06:50]"
+        quote: >
+          "E voce transformar o seu cerebro e encontrar solucoes simples
+          e baratas para trazer mais eficiencia para toda sua operacao."
+
+  - id: "MM-003"
+    name: "Modelo do Parafuso (Diagnostico Antes da Acao)"
+    category: "problem_solving"
+    type: "implicit"
+    confidence: 0.85
+    description: >
+      Quando uma campanha ou negocio nao funciona, Tiago usa a metafora do
+      carro quebrado: voce nao joga o carro fora, voce primeiro descobre
+      qual parafuso apertar, aperta, testa novamente. Esse modelo se repete
+      em toda sua abordagem a campanhas -- nao desistir cedo, diagnosticar
+      o problema especifico, ajustar e retestar sistematicamente.
+    application: >
+      Otimizacao de campanhas de Google/Meta Ads. Quando uma campanha nao
+      performa, em vez de desligar, identificar o ponto de falha no funil
+      (anuncio, landing page, oferta, segmentacao) e corrigir.
+    evidence:
+      - source: "4-passos-vender-muito-podcast-120"
+        timestamp: "[00:00]"
+        quote: >
+          "Toda campanha que voce gera pela primeira vez no Google no Facebook
+          vai ter a pior performance da historia. O que eu tenho que fazer?
+          Primeiro descobrir qual o parafuso apertar, porque nao e qualquer
+          um que aperta. Depois apertar esse parafuso e testar o carro
+          novamente ate ele funcionar."
+      - source: "4-passos-vender-muito-podcast-120"
+        timestamp: "[00:21]"
+        quote: >
+          "O que a gente faz? Pega um dinheiro, coloca tres dias, nao
+          funciona, desiste e joga o carro fora. Isso nao e uma acao
+          inteligente porque voce precisa do carro."
+      - source: "trafego-estrategico-podcast-130"
+        timestamp: "[03:27]"
+        quote: >
+          "A pessoa fala po, nao gera mais resultado do Google, nao gera
+          mais resultado do Instagram. Mas na verdade ele nao ta fazendo
+          o algo a mais."
+
+  ##########################################################################
+  # DECISION FRAMEWORKS
+  ##########################################################################
+
+  - id: "MM-004"
+    name: "Modelo Demanda-Preco (Oferta e Procura como Decisao de Pricing)"
+    category: "decision_framework"
+    type: "explicit"
+    confidence: 0.95
+    description: >
+      Tiago defende que o preco nao deve ser definido pelo custo do trabalho
+      ou pelo mercado, mas pela demanda. O segredo e gerar demanda maior que
+      a capacidade de atendimento, ao ponto de poder dizer "nao" para
+      clientes. Quando a vontade de vender e maior que a vontade de comprar,
+      o vendedor perde poder de negociacao. Quando ha fila de clientes, voce
+      pode cobrar mais e ainda vender. Anunciar na internet nao e so para
+      vender mais, e para criar demanda que permita cobrar melhor.
+    application: >
+      Decisao de precificacao para prestadores de servico, agencias e
+      infoprodutores. Primeiro gerar demanda com trafego pago, depois
+      aumentar precos conforme a agenda lota.
+    evidence:
+      - source: "como-aumentar-preco-podcast-90"
+        timestamp: "[00:00]"
+        quote: >
+          "O segredo e eu preciso gerar uma demanda maior do que a capacidade
+          que eu te atender ao ponto de falar assim cara voce quer nao quer.
+          Voce anuncia na internet para vender mais? Voce anuncia tambem
+          para criar demanda para que voce possa vender melhor. E ai muda o jogo."
+      - source: "como-aumentar-preco-podcast-90"
+        timestamp: "[07:19]"
+        quote: >
+          "O que define o preco de alguma coisa? A quantidade de pessoas
+          que querem comprar aquilo com a disponibilidade do mesmo."
+      - source: "como-aumentar-preco-podcast-90"
+        timestamp: "[08:34]"
+        quote: >
+          "Em uma negociacao ha dois pilares. O primeiro pilar e a vontade
+          do cliente de comprar aquela coisa. E o segundo pilar e a vontade
+          do vendedor de vender. Quando o vendedor nota que voce esta na
+          mao dele... ele pode inclusive cobrar mais caro."
+      - source: "como-aumentar-preco-podcast-90"
+        timestamp: "[03:23]"
+        quote: >
+          "Elas vendem baseado no quanto ela trabalha no servico, nao no
+          resultado que o trabalho dela vai gerar."
+
+  - id: "MM-005"
+    name: "Modelo das Duas Perguntas (Benchmarking com Quem e Maior)"
+    category: "decision_framework"
+    type: "explicit"
+    confidence: 0.90
+    description: >
+      Quando Tiago encontra alguem que fatura mais ou tem resultados maiores,
+      ele se faz duas perguntas sistematicas: (1) O que ele sabe que eu nao
+      sei? (2) O que ele faz que eu nao faco? Esse modelo mental separa
+      conhecimento de execucao e direciona tanto o estudo quanto a acao.
+    application: >
+      Usado como framework de mentoria e autoavaliacao para identificar
+      gaps de conhecimento e gaps de execucao em relacao a concorrentes
+      ou referencias no mercado.
+    evidence:
+      - source: "4-passos-vender-muito-podcast-120"
+        timestamp: "[08:49]"
+        quote: >
+          "Quando eu encontro alguem mais rico do que eu, que fatura mais
+          do que eu, eu penso ne. Eu tenho dois pensamentos: primeiro e
+          o que ele sabe que eu nao sei. E a segunda e o que ele faz que
+          eu nao faco."
+      - source: "4-passos-vender-muito-podcast-120"
+        timestamp: "[09:53]"
+        quote: >
+          "Quando voce senta com alguem que e mais rico que voce, que voce
+          admira, voce tem que saber fazer as perguntas certas."
+      - source: "7-principios-podcast-111"
+        timestamp: "[04:03]"
+        quote: >
+          "O aprendizado se a gente voltasse atras, nossa, entender isso
+          aqui com certeza estariamos em um outro nivel."
+
+  - id: "MM-006"
+    name: "Modelo Growth vs Simplismo (Focar no Impacto de 20-50%, nao 0.5%)"
+    category: "decision_framework"
+    type: "explicit"
+    confidence: 0.85
+    description: >
+      Tiago diferencia otimizacoes que mudam 0.5% (trocar uma palavra no
+      anuncio, mudar uma virgula) de acoes estrategicas que podem mudar
+      20-50% dos resultados. Influenciado por growth marketing, ele prefere
+      canalizar energia para mudancas de alto impacto em vez de micro-
+      otimizacoes que nao movem a agulha.
+    application: >
+      Priorizacao de tarefas em campanhas e negocios. Antes de otimizar
+      detalhes, perguntar: essa mudanca pode gerar 20%+ de melhoria?
+      Se nao, nao e prioridade.
+    evidence:
+      - source: "trafego-estrategico-podcast-130"
+        timestamp: "[03:45]"
+        quote: >
+          "Eu prefiro pegar a minha energia e focar em algo que pode ser
+          super diferente mas seja capaz de mudar minha empresa em 50 100%
+          do que pegar minha energia e focar numa coisa que vai mudar 0,5%
+          porque aquilo nao vai trazer para o resultado."
+      - source: "trafego-estrategico-podcast-130"
+        timestamp: "[04:06]"
+        quote: >
+          "A gente precisa focar em coisas que sejam capaz de aumentar
+          20 30 40% e nao vai ser aquele simplismo, aquela palavrinha,
+          aquela virgula que a pessoa quer mudar."
+      - source: "trafego-estrategico-podcast-130"
+        timestamp: "[02:50]"
+        quote: >
+          "E de parar de se preocupar com os cliques dos botoes e o que
+          voce ve na tela especificamente ali e se pensar um pouco mais
+          no que envolve aquilo fora da ferramenta."
+
+  ##########################################################################
+  # WORLDVIEW MODELS
+  ##########################################################################
+
+  - id: "MM-007"
+    name: "Principio da Sabedoria Acima do Dinheiro"
+    category: "worldview"
+    type: "explicit"
+    confidence: 0.95
+    description: >
+      Fortemente enraizado em Proverbios (Rei Salomao), Tiago acredita que
+      sabedoria e conhecimento valem mais que ouro e prata. Ele e o irmao
+      Ramon adotaram a regra de economizar em tudo, exceto em conhecimento.
+      Investir em cursos, mentorias e educacao nunca deve ser cortado. O
+      maior patrimonio e voce mesmo.
+    application: >
+      Justificativa para investimento em mentorias caras, cursos e
+      programas de formacao. Tambem e a base do proprio modelo de negocio
+      (Conversao Extrema) -- vender educacao como ativo mais valioso.
+    evidence:
+      - source: "como-ficar-rico-9-passos"
+        timestamp: "[01:41]"
+        quote: >
+          "Sabedoria. Muita gente da uma enfase no dinheiro ne. Mas tem
+          coisas que sao mais importantes que o dinheiro."
+      - source: "como-ficar-rico-9-passos"
+        timestamp: "[02:19]"
+        quote: >
+          "Meu irmao falou: Thiago nos vamos economizar em tudo nessa vida.
+          Em roupas, despesa em casa, na empresa, ser bem economico para
+          ter uma margem de lucro maior. So que jamais economizaremos em
+          conhecimento, em cursos, em mentorias. Porque nos somos o nosso
+          maior patrimonio."
+      - source: "5-erros-mortais-podcast-125"
+        timestamp: "[00:13]"
+        quote: >
+          "Burrice custa muito caro. Qual foi o ultimo curso que voce fez
+          ate o final? Nao estudar e o principal problema."
+      - source: "como-ficar-rico-9-passos"
+        timestamp: "[02:56]"
+        quote: >
+          "De mais valor a sabedoria, ao seu conhecimento, aos seus estudos
+          do que ao dinheiro em si. Nao coma a semente. Nunca economize
+          dinheiro investindo na sua educacao."
+
+  - id: "MM-008"
+    name: "Principio da Reputacao (Marca Pessoal como Ativo Principal)"
+    category: "worldview"
+    type: "explicit"
+    confidence: 0.90
+    description: >
+      Tiago ensina que a reputacao (pessoal e profissional) vale mais que
+      dinheiro. Cada pessoa e uma marca, sendo observada e julgada
+      constantemente. Nunca se deve perder reputacao por dinheiro. Quem
+      tem boa reputacao sempre tera oportunidades, parcerias e crescimento.
+    application: >
+      Decisoes eticas no marketing digital, relacionamento com clientes,
+      qualidade do produto entregue, posicionamento de marca.
+    evidence:
+      - source: "como-ficar-rico-9-passos"
+        timestamp: "[04:41]"
+        quote: >
+          "A boa reputacao vale mais que grandes riquezas, ser estimado e
+          melhor que prata e ouro."
+      - source: "como-ficar-rico-9-passos"
+        timestamp: "[05:41]"
+        quote: >
+          "Faca o seu melhor porque a sua reputacao vale mais que qualquer
+          dinheiro e grandes riquezas."
+      - source: "como-ficar-rico-9-passos"
+        timestamp: "[06:00]"
+        quote: >
+          "Nunca perca a sua reputacao por dinheiro. Voce vai sair perdendo
+          nessa jogada."
+
+  - id: "MM-009"
+    name: "Mentalidade do Campo de Batalha (Afiar o Machado Durante o Corte)"
+    category: "worldview"
+    type: "explicit"
+    confidence: 0.95
+    description: >
+      Tiago acredita firmemente que voce so melhora na pratica ("no campo
+      de batalha"). Esperar o momento perfeito e fatal. O conceito "afiar
+      o machado durante o corte" significa aprender enquanto executa,
+      nao esperar estar 100% preparado para comecar. Quem espera o momento
+      certo para plantar nunca vai colher.
+    application: >
+      Filosofia de execucao para gestores de trafego e empreendedores.
+      Comecar com campanha basica, melhorar iterativamente. Nao
+      esperar dominar a teoria antes de comecar.
+    evidence:
+      - source: "pensamento-estrategico-palestra-completa"
+        timestamp: "[14:54]"
+        quote: >
+          "Afiar o machado durante o corte. Voce so melhora no campo de
+          batalha. Esquece."
+      - source: "pensamento-estrategico-palestra-completa"
+        timestamp: "[13:27]"
+        quote: >
+          "Quem aqui ta esperando o momento perfeito para entrar no digital?
+          Palavra de Deus ensina que quem espera o momento certo para
+          plantar nunca vai colher."
+      - source: "5-erros-mortais-podcast-125"
+        timestamp: "[00:27]"
+        quote: >
+          "No campo de batalha voce vai criando coisas novas, vai chegando
+          oportunidades. Agora aqui parado ai e o problema."
+      - source: "processo-conversao-podcast-74"
+        timestamp: "[00:07]"
+        quote: >
+          "Comece o mais simples possivel e depois vai melhorando com o
+          tempo. A grande sacada: comece. Para melhorar voce tem que jogar."
+
+  - id: "MM-010"
+    name: "Prontidao Permanente (Sempre Pronto Para Guerra)"
+    category: "worldview"
+    type: "explicit"
+    confidence: 0.85
+    description: >
+      Tiago valoriza profundamente a prontidao -- estar sempre pronto para
+      resolver problemas, trabalhar e fazer acontecer. O preguicoso nunca
+      vai enriquecer. Nao se trata de acordar cedo, mas de estar pronto
+      para agir no momento em que e necessario. Contrata pessoas que
+      resolvem problemas, que estao prontas a qualquer momento.
+    application: >
+      Criterio de contratacao e autoavaliacao. Valoriza pessoas que agem
+      sem fazer corpo mole. Aplicado na gestao da equipe de 120+
+      colaboradores da Conversao Extrema.
+    evidence:
+      - source: "como-ficar-rico-9-passos"
+        timestamp: "[06:50]"
+        quote: >
+          "Prontidao. Sempre estou pronto para trabalhar, para fazer
+          acontecer, para resolver problemas."
+      - source: "como-ficar-rico-9-passos"
+        timestamp: "[07:16]"
+        quote: >
+          "O preguicoso logo empobrece. Mas os que trabalham com dedicacao
+          enriquece."
+      - source: "como-ficar-rico-9-passos"
+        timestamp: "[07:57]"
+        quote: >
+          "Quando eu abro os meus olhos eu to pronto para trabalhar.
+          Quando eu abro os meus olhos e alguem me chamar eu estou pronto
+          para resolver. Eu estou pronto para guerra."
+
+  ##########################################################################
+  # DOMAIN-SPECIFIC MODELS (Google Ads / Traffic / Conversion)
+  ##########################################################################
+
+  - id: "MM-011"
+    name: "Modelo do Funil de Metricas (Impressoes a Vendas)"
+    category: "domain_specific"
+    type: "explicit"
+    confidence: 0.95
+    description: >
+      Tiago estrutura toda operacao de trafego pago como um funil mensuravel:
+      Impressoes > Cliques > Leads > Leads Qualificados > Vendas. Cada
+      etapa tem suas metricas (CTR, CPC, taxa de conversao, CPA, ROAS).
+      O diagnostico de problemas sempre comeca pela analise de qual etapa
+      do funil esta quebrando.
+    application: >
+      Framework padrao para diagnostico de campanhas, treinamento de
+      gestores de trafego, e otimizacao de resultados.
+    evidence:
+      - source: "google-ads-prestadores-servicos-blog"
+        quote: >
+          "O funil completo funciona assim: Impressoes > Cliques > Leads >
+          Leads Qualificados > Vendas."
+      - source: "google-ads-prestadores-servicos-blog"
+        quote: >
+          "CPC: custo por clique. Caro nem sempre e ruim se gera leads
+          qualificados. Taxa de Conversao da Landing Page: minimo 10%,
+          ideal 20-30%. CPA: quanto custa adquirir um cliente. ROAS:
+          retorno sobre investimento."
+      - source: "como-aprender-trafego-pago-blog"
+        quote: >
+          "Monitore indicadores-chave: CTR (Taxa de Cliques), CPC (Custo
+          por Clique), ROAS (Retorno sobre Investimento em Anuncio)."
+
+  - id: "MM-012"
+    name: "Modelo do Trafego como Amplificador"
+    category: "domain_specific"
+    type: "explicit"
+    confidence: 0.90
+    description: >
+      Tiago ensina que trafego pago e como um amplificador -- se a base
+      (landing page, oferta, processo de venda) nao esta solida, investir
+      em trafego so vai amplificar os problemas. Antes de investir em
+      trafego, os fundamentos de conversao precisam estar corretos. Os
+      10 elementos essenciais de uma pagina devem estar implementados
+      antes de ligar os anuncios.
+    application: >
+      Checklist pre-campanha para e-commerce e prestadores de servico.
+      Garante que a estrutura de conversao existe antes de investir
+      dinheiro em trafego.
+    evidence:
+      - source: "e-commerce-10-elementos-blog"
+        quote: >
+          "Trafego pago e como um amplificador -- se a base nao esta
+          solida, investimento rende mal."
+      - source: "e-commerce-10-elementos-blog"
+        quote: >
+          "Muitos empreendedores falham com publicidade paga porque ignoram
+          principios fundamentais de conversao nas paginas de produto.
+          Antes de investir em trafego, voce precisa estabelecer elementos
+          fundamentais solidos."
+      - source: "4-passos-vender-muito-podcast-120"
+        timestamp: "[00:05]"
+        quote: >
+          "Cria primeira campanha sem historico nenhum, vai ter a pior
+          performance da historia. A maquina nao funciona muito bem.
+          Voce tem que estar ali ajustando ajustando."
+      - source: "google-ads-prestadores-servicos-blog"
+        quote: >
+          "Antes de investir em anuncios, voce precisa de uma base solida.
+          Sua pagina deve ser simples e direta. Ideal e uma taxa de
+          conversao entre 20-30%."
+
+  - id: "MM-013"
+    name: "Modelo de Inteligencia Artificial como Aliada (nao Substituta)"
+    category: "domain_specific"
+    type: "explicit"
+    confidence: 0.85
+    description: >
+      Sobre Performance Max e automacao do Google, Tiago ve a IA como
+      ferramenta que vai melhorar com o tempo, pois e do interesse
+      financeiro do Google que funcione (mais anunciantes = mais receita).
+      Porem, a IA nao substitui a estrategia humana -- os indicadores
+      sao sugestoes, nao segmentacoes. O gestor precisa dar "sinais"
+      inteligentes para a maquina otimizar.
+    application: >
+      Abordagem para campanhas PMax: fornecer bons sinais (publico,
+      criativos, conversoes), mas nao delegar 100% para a maquina.
+      Manter controle estrategico.
+    evidence:
+      - source: "performance-max-podcast-139"
+        timestamp: "[00:00]"
+        quote: >
+          "O Google ta testando a sua inteligencia artificial para trazer
+          resultados para voce sem que voce tenha um controle do publico
+          nem dos anuncios."
+      - source: "performance-max-podcast-139"
+        timestamp: "[06:38]"
+        quote: >
+          "Quanto mais facil eu deixar plataforma pro anunciante, mais
+          pessoas vao botar dinheiro aqui. So que tambem para mais pessoas
+          botar dinheiro aqui eu tenho que dar resultado para essa galera."
+      - source: "performance-max-podcast-139"
+        timestamp: "[07:17]"
+        quote: >
+          "Nao ha segmentacao, nao tem como segmentar essa campanha. Tem
+          apenas como voce sugerir."
+
+  ##########################################################################
+  # BUSINESS MODELS
+  ##########################################################################
+
+  - id: "MM-014"
+    name: "Formula da Riqueza (Vendas > Escala > Gestao)"
+    category: "business"
+    type: "explicit"
+    confidence: 0.95
+    description: >
+      Tiago defende que a base de todo negocio de sucesso e a area
+      comercial (vendas). O primeiro passo da formula da riqueza e dominar
+      a arte de vender. Entrada de caixa e o que mantem uma empresa viva.
+      Depois vem escalabilidade (dominar a arte de vender pela internet)
+      e gestao. Empreendedores que fracassam geralmente nao sabem vender,
+      ficam no operacional e nao investem em equipe comercial.
+    application: >
+      Priorizacao para empreendedores: primeiro resolver vendas (trafego
+      pago + processo comercial), depois escalar, depois otimizar gestao.
+    evidence:
+      - source: "4-passos-vender-muito-podcast-120"
+        timestamp: "[03:33]"
+        quote: >
+          "Toda empresa grande tem uma caracteristica muito em comum que e
+          o poder de saber vender da forma certa. A partir do momento que
+          voce sabe vender, voce dificilmente vai passar trabalho na sua vida."
+      - source: "4-passos-vender-muito-podcast-120"
+        timestamp: "[11:00]"
+        quote: >
+          "O primeiro passo e vendas. Eu tenho que dominar a arte de vender."
+      - source: "4-passos-vender-muito-podcast-120"
+        timestamp: "[06:11]"
+        quote: >
+          "O que que mantem uma empresa viva hoje? Na minha visao e entrada
+          de caixa. Se voce nao tem entrada de caixa, obviamente voce nao
+          paga funcionario."
+      - source: "5-erros-mortais-podcast-125"
+        timestamp: "[03:05]"
+        quote: >
+          "A gente trabalha com duas perspectivas que sao as vendas online
+          e os negocios. Porque a gente percebe que as pessoas elas engrenam
+          nas vendas online e daqui a pouco elas precisam estruturar um negocio."
+
+  - id: "MM-015"
+    name: "Principio do Foco Unico (Um Projeto de Cada Vez)"
+    category: "business"
+    type: "explicit"
+    confidence: 0.95
+    description: >
+      Um dos 7 principios fundamentais: focar em um unico projeto por vez.
+      Tiago usa a metafora da lupa que concentra raios solares num ponto
+      unico ate produzir fogo. Perseguir varios "coelhos" ao mesmo tempo
+      e o erro mais comum. Estar ocupado nao significa ser produtivo.
+      A repeticao focada numa unica atividade leva a mestria e resultados
+      acima da media. Quanto mais voce cresce, mais oportunidades aparecem,
+      e mais dificil e manter o foco -- isso e a prova de fogo.
+    application: >
+      Decisao estrategica de quais projetos tocar, quando pivotar vs
+      quando persistir. Organizar agenda e equipe em torno de um
+      indicador principal por periodo.
+    evidence:
+      - source: "7-principios-podcast-111"
+        timestamp: "[06:09]"
+        quote: >
+          "Primeiro pilar e foco. E a gente era desfocado para caramba cara.
+          A gente tentava perseguir varios coelhos ao mesmo tempo."
+      - source: "7-principios-podcast-111"
+        timestamp: "[06:40]"
+        quote: >
+          "Quando tu foca numa coisa so, num projeto so por vez, e dedica
+          ali toda energia, cara, tem muito mais chance de dar muito certo
+          ou dar errado e voce identificar rapido que aquilo nao vai ser
+          aquilo que voce vai dedicar sua vida."
+      - source: "7-principios-podcast-111"
+        timestamp: "[08:26]"
+        quote: >
+          "Voce esta ocupado nao significa produtivo. Voce pensa que voce
+          esta produzindo mas na verdade voce esta ocupado, que e diferente."
+      - source: "7-principios-podcast-111"
+        timestamp: "[09:07]"
+        quote: >
+          "Foco eu tenho a imagem na minha cabeca de uma lupa. Voce quando
+          da um dia ensolarado voce pega e concentra os raios solares todos
+          num so ponto capaz de produzir fogo."
+      - source: "pensamento-estrategico-palestra-completa"
+        timestamp: "[09:22]"
+        quote: >
+          "O foco e o principal problema dos empreendedores porque eles
+          encontram oportunidades em tudo, perdem o foco, lancam 50 produtos
+          e continua sem faturar nada."
+
+  - id: "MM-016"
+    name: "Modelo de Escala com Dados Validados (50+ Conversoes)"
+    category: "business"
+    type: "explicit"
+    confidence: 0.85
+    description: >
+      Tiago defende um modelo disciplinado de escalacao: so aumentar
+      orcamento com dados validados. A regra pratica e ter pelo menos 50
+      conversoes ou 2 semanas de dados antes de escalar. Comecar pequeno
+      (R$5-20/dia), medir, otimizar semanalmente, e so entao aumentar
+      investimento. Escalar de R$300 para R$10.000/mes e um processo
+      sistematico, nao um salto de fe.
+    application: >
+      Framework para gestores de trafego e empreendedores escalarem
+      campanhas de forma sustentavel sem queimar orcamento.
+    evidence:
+      - source: "google-ads-prestadores-servicos-blog"
+        quote: >
+          "Escale apenas campanhas com 50+ conversoes ou 2 semanas de dados.
+          Investimento minimo? Comece com R$5-20 por dia, ajustando conforme
+          resultados."
+      - source: "google-ads-prestadores-servicos-blog"
+        quote: >
+          "A formula simples: 1. Crie campanhas que geram resultado. 2. Meca,
+          melhore e otimize semanalmente. 3. Aumente orcamento apenas com
+          dados validados."
+      - source: "como-aprender-trafego-pago-blog"
+        quote: >
+          "Escalabilidade: Com um funil validado, voce pode aumentar
+          investimentos para multiplicar ganhos."
+
+##############################################################################
+# CROSS-REFERENCES AND PATTERNS
+##############################################################################
+
+cross_references:
+  - pattern: "Indicadores antes de acoes"
+    models: ["MM-001", "MM-006", "MM-011", "MM-016"]
+    description: >
+      Tiago consistentemente exige medicao e indicadores claros antes de
+      qualquer decisao. Isso aparece na bussola de negocios (MM-001),
+      na priorizacao de impacto (MM-006), no funil de metricas (MM-011)
+      e na escala com dados (MM-016).
+
+  - pattern: "Simplicidade estrategica"
+    models: ["MM-002", "MM-003", "MM-012"]
+    description: >
+      Rejeicao da complexidade desnecessaria. O ventilador (MM-002), o
+      diagnostico de um parafuso de cada vez (MM-003) e a preparacao da
+      base antes do trafego (MM-012) mostram preferencia por solucoes
+      simples e sequenciais.
+
+  - pattern: "Execucao acima da teoria"
+    models: ["MM-009", "MM-010", "MM-015"]
+    description: >
+      O campo de batalha (MM-009), a prontidao (MM-010) e o foco unico
+      (MM-015) se reforcam: nao esperar, estar pronto, e colocar toda
+      energia num unico ponto de execucao.
+
+  - pattern: "Valores biblicos como fundamento"
+    models: ["MM-007", "MM-008", "MM-009", "MM-010"]
+    description: >
+      Proverbios de Salomao sao citados explicitamente como fonte de
+      principios de negocios: sabedoria > dinheiro, reputacao > riqueza,
+      nao esperar o momento perfeito, prontidao e dedicacao.
+
+  - pattern: "Demanda como variavel central"
+    models: ["MM-004", "MM-012", "MM-014"]
+    description: >
+      O preco (MM-004), o trafego como amplificador (MM-012) e a formula
+      da riqueza (MM-014) todos convergem na ideia de que gerar demanda
+      (via vendas/trafego) e a alavanca central de qualquer negocio.

@@ -1,0 +1,199 @@
+---
+mind:
+  name: "Pedro Sobral"
+  slug: "pedro-sobral"
+  type: "brownfield"
+  status: "in_progress"
+  created_at: "2026-02-14"
+  updated_at: "2026-02-14"
+  current_phase: "system_prompts"
+  progress_percentage: 85
+
+special_case:
+  type: "public_content_creator"
+  subtype: "traffic_management_educator"
+  reason: "Public figure with massive live content — 373+ weekly lives, 50K+ community"
+  standard_mmos_applicable: true
+  blocking_issue: null
+  requires_new_workflow: false
+  advantages:
+    - "373+ weekly lives — richest behavioral and linguistic data"
+    - "Multiple long-form interviews (Os Socios, PrimoCast, FodCast) — deep psychological profile"
+    - "66 blog posts — structured written voice samples"
+    - "~1.63M words total — Top 10% source density"
+    - "Triple persona architecture consistently observable across all sources"
+
+archetype:
+  primary: "traffic_management_educator"
+  secondary: "community_builder_coach"
+  note: "O Coach de Bancada — Professor-Competidor que ensina por generosidade e compete por obsessao"
+
+pipeline:
+  version: "3.0"
+  methodology: "DNA Mental (full 8-layer framework)"
+  workflow_status: "executing"
+  fidelity_target: "85-90%"
+  estimated_timeline: "2-3 days"
+
+viability_assessment:
+  date: "2026-02-14"
+  status: "GO_APPROVED"
+  confidence_level: 90
+
+  apex_score:
+    total: 82
+    percentage: 82
+    tier: "auto_approve"
+    breakdown:
+      availability: 17  # /20 (85%) — YouTube lives + blog public, some community content gated
+      public_persona: 14  # /15 (93%) — extremely strong, consistent triple persona
+      expertise_depth: 16  # /20 (80%) — deep domain (traffic) + broad philosophy (mindset, discipline)
+      x_factor: 13  # /15 (87%) — created an entire profession in Brazil, unique positioning
+      temporal_relevance: 12  # /15 (80%) — actively producing weekly content
+      value_density: 10  # /15 (67%) — high density within domain, some repetition across lives
+
+  overall_viability:
+    percentage: 82
+    decision: "GO"
+    tier: "standard"
+    confidence: "high"
+
+  unique_factors:
+    - factor: "Created the profession of 'gestor de trafego' in Brazil"
+      impact: "Unique historical positioning — no other mind has this claim"
+    - factor: "373+ consecutive weekly lives (7+ years without missing)"
+      impact: "Unmatched consistency — behavioral patterns highly observable"
+    - factor: "Triple persona with fluid switching"
+      impact: "Complex but well-documented voice architecture"
+    - factor: "16+ proprietary frameworks (GCA, PAO E OVO, Gangorra)"
+      impact: "Rich cognitive toolkit easily extractable"
+
+phases:
+  initialization:
+    status: "complete"
+    completed_at: "2026-02-14"
+    note: "Directory structure created, mmos-state initialized"
+
+  research:
+    status: "complete"
+    progress_percentage: 100
+    sources_collected: 120
+    total_words: 1630000
+    note: "43 YouTube lives + 11 interviews + 66 blog posts collected and processed"
+    categories:
+      youtube_lives: 43
+      interviews: 11
+      blog_posts: 66
+      total: 120
+
+  analysis:
+    status: "complete"
+    progress_percentage: 100
+    confidence: "high"
+    note: "Full 8-layer DNA Mental extraction complete — 6 analysis files, 2550 lines"
+    deliverables:
+      - "analysis/cognitive-spec.yaml (564 lines)"
+      - "analysis/linguistic-patterns.yaml (676 lines)"
+      - "analysis/thinking-dna.yaml (539 lines)"
+      - "analysis/mental-models.yaml (244 lines)"
+      - "analysis/decision-matrix.yaml (256 lines)"
+      - "analysis/psychometric-profile.yaml (271 lines)"
+
+  build_artifacts:
+    status: "complete"
+    progress_percentage: 100
+    note: "All 16 artifact files generated — layers + synthesis"
+    deliverables:
+      - "artifacts/behavioral_patterns.yaml (677 lines)"
+      - "artifacts/writing_style.yaml (491 lines)"
+      - "artifacts/routine_analysis.yaml (482 lines)"
+      - "artifacts/recognition_patterns.yaml (396 lines)"
+      - "artifacts/values_hierarchy.yaml (486 lines)"
+      - "artifacts/core_obsessions.yaml (373 lines)"
+      - "artifacts/contradictions.yaml (581 lines)"
+      - "artifacts/anecdotes.yaml (434 lines)"
+      - "artifacts/voice_guide.md (389 lines)"
+      - "artifacts/identity-core.yaml (503 lines)"
+      - "artifacts/memory-system.yaml (363 lines)"
+      - "artifacts/frameworks_synthesized.md (860 lines)"
+      - "artifacts/communication_templates.md (783 lines)"
+      - "artifacts/tools.md (657 lines)"
+      - "artifacts/decision_patterns.md (346 lines)"
+      - "artifacts/psychometric_profile.json (205 lines)"
+
+  system_prompts:
+    status: "complete"
+    completed_at: "2026-02-14"
+    note: "Generalista v1.0 generated (682 lines). Specialized prompts (tecnico, coach) optional."
+    deliverables:
+      - "system_prompts/system-prompt-generalista.md (v1.0 — 682 lines)"
+
+  validation:
+    status: "pending"
+    estimated_hours: "6-10"
+    fidelity_target: "85-90%"
+    note: "Requires test scenario creation and blind testing"
+    target_deliverables:
+      - "validation/test-scenarios.yaml (30-50 scenarios)"
+      - "validation/fidelity-report.md"
+
+  finalization:
+    status: "pending"
+    estimated_hours: "2-4"
+    target_deliverables:
+      - "README.md"
+      - "deployment package"
+
+source_quality:
+  tier_1_critical:
+    count: 11
+    note: "Long-form interviews (Os Socios 116/187, PrimoCast 415, FodCast) — richest psychological data"
+  tier_2_validation:
+    count: 43
+    note: "YouTube lives — behavioral, voice, and framework validation"
+  tier_3_supporting:
+    count: 66
+    note: "Blog posts — structured written voice, condensed frameworks"
+
+dna_mental_coverage:
+  layer_1_behavioral: 95
+  layer_2_communication: 98
+  layer_3_routines: 90
+  layer_4_recognition: 85
+  layer_5_mental_models: 95
+  layer_6_values: 95
+  layer_7_obsessions: 90
+  layer_8_paradoxes: 92
+  average_coverage: 93
+
+next_actions:
+  immediate:
+    - "Phase 5: System prompts complete"
+    - "Phase 6: Create validation scenarios"
+    - "Phase 6: Run fidelity tests"
+
+  medium_term:
+    - "Phase 7: Finalize and package"
+    - "PRODUCTION: Deploy Clone Pedro Sobral"
+
+success_metrics:
+  milestone_1_mvp:
+    target_fidelity: "80-85%"
+    status: "pending"
+
+  milestone_2_production:
+    target_fidelity: "85-90%"
+    status: "pending"
+
+notes:
+  - date: "2026-02-14"
+    note: "Mind profile created. Sources: 43 lives + 11 interviews + 66 blog posts (~1.63M words)"
+
+  - date: "2026-02-14"
+    note: "Full 8-layer DNA Mental analysis extracted. 6 analysis files (2550 lines) + 16 artifact files generated"
+
+  - date: "2026-02-14"
+    note: "Identity-core.yaml synthesized from Layers 6-8. Triple persona architecture (Professor 40%, Coach 35%, Irmao 25%)"
+
+  - date: "2026-02-14"
+    note: "System prompt generalista v1.0 generated (682 lines). APEX score 82/100. Fidelity projection 85-90%"

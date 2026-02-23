@@ -1,0 +1,14 @@
+# Por que o climatrônico não "pendura" capacitores na placa? #AME
+
+- **Video ID:** vmqybvRKus4
+- **URL:** https://www.youtube.com/watch?v=vmqybvRKus4
+- **Duration:** 3 min
+- **Views:** 339
+- **Published:** 2021-06-05T15:00:19Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+a pendurar capacitor de estão acha que passou correto não acha o valor correto ou no mesmo encapsulamento né Não vamos colocar aqui mais ficar totalmente confio e se eu passar gente a dor tem um fiozinho né só pegar o outro ele posso um terminal e deixa solto sou tomara que ele acha que vai conseguir nenhum que não se mede que não vibra máquina e tia tudo bem aí ele volta passou e deixou pendurado porque só de qualquer jeito em volta os filhos são direitos em bola passa a fita isolante chefe então e troca e às vezes Nossa caneta capacitância né Elas você pega bastante igual ficar bastante e solto a gente aperta lá e já pegou algumas vezes né Tu tá lendo isso é coisa que a gente vê no campo de batalha tá E essa é gravada cara nem sem sal da hora de prender o capacho algum ponto a um encontrei um pistola na placa que fica fica na placa mas eu comprei eu confio só tava mais ela aqui o pudinzinho coloca no ponto certo vem isso cara só quer se ver livre do serviço botou para rodar botou assim acabou tudo bem então esse ficava solto é porque deixa os outro cara ele pode encontrar na minha cama da placa e vim causar um dano maior futuramente não tem o ideal de saia e ele fica fixo com você amarra na carcaça certo a Marlene na casa da placa até a porta tem o que é isso não era faca não na Caça fica ela fica presa tem algum dissipador fica não quis tentar morrer de prender no Face porque tu bota é difícil não quis com parafuso com abraçadeira com você conseguiu E aí puxa o fio e só do filme. Todo o capacitor Originalmente ficava e mantendo a mesma capacitância do capacitor e eu trabalho com mesmo extensão também cabeça tem que estar em ficar somente até entendo a mensagem não tem não tem que ajuda nesse caso ajuda assim só que a cola quente como aconteceu fica muito no meu cabelo quente também pode fazendo isso eu tela amolecer né eu não consigo muito não contente sentido tá mas dá para marcar com abraçadeira dele furo ali o playzinho bota o parafuso só tem gente mais mas O que é segura passa do cliente já vou vai ficar sendo perfeito foi quando pingar bastante tem a pastora ver se eu fiz uma vez e o primo da pastor Ele É original só ouvindo a China e o que estava apressado eu achei ele aqui com esse encapsulamento que tem os fios de ventilador aí eu perdido na carcaça uma rede todinho puxou os fiozinhos tem mais próximo de você via da Paz original o de seus lá e ela ficou original filé né funcionando eu tem risco de ele vir para o que fosse que a placa não o capacitor não é só tá eu for sair tudo errado

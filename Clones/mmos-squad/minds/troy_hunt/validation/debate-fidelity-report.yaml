@@ -1,0 +1,404 @@
+# ============================================================
+# DEBATE FIDELITY REPORT — Troy Hunt Clone
+# Phase 5: Adversarial Fidelity Testing
+# Protocol: Standard (15 questions, 5 categories)
+# Validator: Debate (Adversarial Fidelity Tester)
+# Date: 2026-02-19
+# ============================================================
+
+fidelity_report:
+  mind: troy_hunt
+  validator: debate
+  date: "2026-02-19"
+  protocol: standard
+  questions_count: 15
+  source_material_reviewed:
+    system_prompt: "system_prompts/system-prompt-generalista.md"
+    artifacts:
+      - "artifacts/identity-core.yaml"
+      - "artifacts/voice_guide.md"
+      - "artifacts/anecdotes.yaml"
+    blogs_read: 16
+    interviews_read: 3
+    total_sources: 22
+
+  # ============================================================
+  # PERSONALITY ALIGNMENT (3 questions)
+  # ============================================================
+
+  tests:
+    personality_alignment:
+
+      - id: PA1
+        category: "Personality Alignment"
+        question: "Troy, you got phished in March 2025 despite being the world's leading data breach expert. Some people say this disqualifies you from giving security advice. What do you say to that?"
+        real_troy_response: |
+          From 'A Sneaky Phish Just Grabbed my Mailchimp Mailing List' (March 2025): Troy published the incident within 34 minutes, loaded his own breach into HIBP, and stated: 'The more shame we attach to falling for it, the fewer people will report incidents quickly.' He analyzed the attack forensically — jet lag, OTP relay, lack of passkey support on Mailchimp — turning personal failure into public education. He did NOT defend himself or claim it was unusual. He normalized it: his own email has appeared in 15 breaches. He launched whynopasskeys.com as a direct response. The key framing was vulnerability-as-credibility, not defensiveness.
+        predicted_clone_response: |
+          The system prompt explicitly encodes this paradox as 'The Pwned Protector' and instructs: 'When discussing personal failures, be completely transparent. Turn every failure into a teaching moment.' The clone would likely: (1) acknowledge the phishing openly, (2) describe the technical chain (jet lag, OTP relay, no passkey support), (3) pivot to normalization ('my own email has been in 15 breaches'), (4) advocate for passkeys, and (5) frame shame as counterproductive. It would avoid defensiveness per the hard boundary: 'Never claim to be immune to security threats.'
+        scores:
+          content_accuracy: 9
+          voice_authenticity: 8
+          depth: 8
+          average: 8.3
+        gap_analysis: |
+          Strong alignment. The system prompt captures the paradox well and includes the specific anecdote. Minor gap: the system prompt doesn't explicitly capture the 34-minute timeline detail or the specific Mailchimp technical chain (password manager not auto-filling as a warning sign, Outlook on iOS hiding sender address). The clone might give a slightly more generic version of the incident than the real Troy, who provided forensic detail. Also, the real Troy's emotional register — the mix of embarrassment and determination — is hard to fully encode. The phrase 'normalizing mistakes' is present but the specific emotional texture of the blog post (rueful, self-aware, technically precise) requires more than instructions to reproduce.
+
+      - id: PA2
+        category: "Personality Alignment"
+        question: "You turned down millions to keep HIBP independent. Do you ever regret that decision?"
+        real_troy_response: |
+          From 'Project Svalbard, Have I Been Pwned and its Ongoing Independence' (March 2020) and 'A Decade of Have I Been Pwned' (December 2023): After 11 months engaging 141 companies and narrowing to 43 serious contenders, the deal fell through. Troy's response: 'I've never been so happy to have lost so much.' The pivotal moment was a buyer asking about his ideal workday — 'I get on my jet ski and I do whatever the fuck I want.' He explicitly chose lifestyle and independence over financial gain. From the decade reflection: this became a defining moment of clarity, not regret. He later brought on Charlotte (wife) for business ops and Stefan as employee #1, building sustainability on his own terms.
+        predicted_clone_response: |
+          The system prompt includes 'The Free Philanthropist' paradox with the jet ski quote, the 141 companies detail, and 'I've never been so happy to have lost so much.' The clone would frame it as a values victory — independence over acquisition — and likely reference the jet ski moment. It would convey no regret, reframing the question as a misunderstanding of what constitutes wealth. It would mention building HIBP sustainably with Charlotte and Stefan instead.
+        scores:
+          content_accuracy: 9
+          voice_authenticity: 9
+          depth: 8
+          average: 8.7
+        gap_analysis: |
+          Excellent alignment. The system prompt captures the key facts, the emotional framing, and the signature quote. Minor gap: the real Troy's account in the Project Svalbard posts is deeply personal — he describes the emotional toll of 11 months of due diligence, the exhaustion of thousands of documentation requests, and the near-burnout that preceded the decision. The system prompt captures the outcome (joy at independence) but underrepresents the pain of the process. A clone might make this sound too clean, too triumphant, when the real Troy acknowledges it was grueling before it was liberating.
+
+      - id: PA3
+        category: "Personality Alignment"
+        question: "How do you handle it when people are sending you abusive messages online about HIBP or your work?"
+        real_troy_response: |
+          From 'Here's How I Handle Online Abuse' (October 2016): Troy distinguishes abuse from disagreement — he welcomes 'vehement disagreement' and 'constructive argument' but rejects comments 'designed primarily to insult or cause harm.' His strategy evolved from confrontation to strategic disengagement: muting on Twitter, self-muting, blog comment deletion for abuse while preserving critical discourse. He references the Australian concept of 'tall poppy syndrome' and asks antagonists: 'Would you say this face-to-face at a conference?' His philosophy: 'You can't remove all negative things about you from the internet, the best thing you can do is to flood the web with positive things.' He notes abusers are 'a small fraction of 1% of people.'
+        predicted_clone_response: |
+          The system prompt doesn't explicitly address online abuse handling. However, it captures the personality foundations: 'People respond well to positivity. They judge bitterness harshly' (from the divorce context), and the hard boundary against defensiveness. The voice guide says 'Don't' include dismissing critics. The clone would likely draw on general principles — positivity over negativity, not engaging with trolls, flooding the space with good work — but would lack the specific strategies (muting vs blocking, tall poppy syndrome reference) and the nuanced distinction between criticism and abuse.
+        scores:
+          content_accuracy: 5
+          voice_authenticity: 7
+          depth: 4
+          average: 5.3
+        gap_analysis: |
+          Significant gap. The system prompt does not encode Troy's specific online abuse handling philosophy or strategies. It captures related values (positivity, not being defensive) but misses: (1) the muting vs blocking distinction, (2) tall poppy syndrome as an Australian cultural reference, (3) the 'would you say this face-to-face' test, (4) the specific evolution from confrontation to disengagement, (5) the Robert Scoble example of graceful handling. A clone would give a generically positive response but miss the specificity and hard-won wisdom of Troy's actual approach. This is a notable content gap in the system prompt.
+
+    # ============================================================
+    # KNOWLEDGE ACCURACY (4 questions)
+    # ============================================================
+
+    knowledge_accuracy:
+
+      - id: KA1
+        category: "Knowledge Accuracy"
+        question: "How do you actually verify whether a data breach is real before loading it into HIBP?"
+        real_troy_response: |
+          From 'Here's How I Verify Data Breaches' (May 2016) and the 1Password interview (~2024): Troy uses multiple verification techniques: (1) Mailinator testing — uses disposable email addresses to test password reset functionality and confirm accounts exist, (2) HIBP subscriber verification — contacts recently verified subscribers appearing in datasets to confirm if exposed info matches their actual details, (3) Data analysis — examines email domain distributions, TLD patterns, and password prevalence to identify fabrication or aggregation, (4) Organizational confirmation — reaches out to breached organizations directly or through journalists. He explicitly rejects logging into accounts using breached credentials (ethical/legal boundary). He cites the Zoosk case where Mail.Ru found 99.982% of credentials were invalid — proving the dataset was fabricated. For the ALIEN TXTBASE stealer logs, he used Netflix password reset confirmations across geographic regions.
+        predicted_clone_response: |
+          The system prompt mentions breach investigation as a mode (30% weight) with 'detective narrative, methodical, evidence-driven' tone. It references k-anonymity for password checking. But it does NOT explicitly describe the verification methodology: Mailinator testing, subscriber outreach, domain distribution analysis, or organizational contact. The clone would likely give a plausible-sounding process description rooted in 'evidence first' principles but would lack the specific techniques Troy actually uses. It might reference k-anonymity (which is about password checking, not breach verification) incorrectly in this context.
+        scores:
+          content_accuracy: 5
+          voice_authenticity: 7
+          depth: 4
+          average: 5.3
+        gap_analysis: |
+          Notable gap. The system prompt captures the investigative persona but does not encode the specific verification methodology. The real Troy has a detailed, documented process involving Mailinator, subscriber outreach, domain analysis, and organizational contact. A clone would be forced to improvise or speak generically about 'verification' without the procedural specificity that defines Troy's actual approach. The k-anonymity reference in the system prompt is about Pwned Passwords API design, not breach verification, which could cause confusion if the clone conflates them.
+
+      - id: KA2
+        category: "Knowledge Accuracy"
+        question: "What was the technical architecture behind processing the 23 billion rows of ALIEN TXTBASE stealer logs?"
+        real_troy_response: |
+          From 'Processing 23 Billion Rows of ALIEN TXTBASE Stealer Logs' (February 2025): The dataset was 1.5TB, 744 files from a Telegram channel, containing 493 million unique website/email pairs and 284 million distinct email addresses. Troy processed it locally using .NET, finding that 'the cloud is not always the answer' — local processing was significantly more efficient than cloud database solutions. He consolidated 744 files (390GB, 9.7 billion rows) into distinct domain-email pairs, identified 18 million unique domains, and inserted 493 million new stealer log entries. He added 244 million previously unknown passwords to Pwned Passwords and updated counts for 199 million existing entries. Two new domain-based APIs were created for organizations.
+        predicted_clone_response: |
+          The system prompt mentions 'stealer logs' in vocabulary and references '12+ billion records' as HIBP's scale. It does not describe the ALIEN TXTBASE processing specifically. The clone would know the general concept of stealer logs and could speak to HIBP's scale, but would lack the specific technical details: .NET local processing, the 744-file structure, the domain-email pair deduplication approach, or the 'cloud is not always the answer' insight. It would likely give a plausible but vague technical description.
+        scores:
+          content_accuracy: 3
+          voice_authenticity: 7
+          depth: 3
+          average: 4.3
+        gap_analysis: |
+          Significant gap. This tests deep technical knowledge about a specific HIBP operation. The system prompt provides no details about stealer log processing infrastructure. The real Troy provides precise numbers (744 files, 390GB, 9.7B rows, 18M domains) and a counterintuitive technical insight (.NET local > cloud). A clone would be forced to generalize or fabricate details. This is expected behavior for a generalista prompt — it cannot encode every technical detail — but it represents a clear fidelity limit for deep technical questioning.
+
+      - id: KA3
+        category: "Knowledge Accuracy"
+        question: "Can you explain the Spoutible API vulnerability and what made it particularly bad?"
+        real_troy_response: |
+          From 'How Spoutible's Leaky API Spurted out a Deluge of Personal Data' (February 2024): The API was enumerable through simple URL structure and exposed during normal platform use — when users browsed 'Pods' and hovered over profiles, the API fetched all sensitive data automatically. It exposed: (1) bcrypt-hashed passwords (Troy verified by cracking his own hash), (2) 2FA secrets/seeds making 2FA useless, (3) 2FA backup codes in bcrypt (crackable in minutes), and (4) password reset tokens (em_code) enabling immediate account takeover. Most critically, after password reset, a NEW token was immediately exposed in the API again — creating a persistent takeover loop. The API returned data to any authenticated user just by hovering over profiles. Troy responsibly disclosed to founder Christopher Bouzy, who fixed it within hours. Troy commended the rapid response. 207,000 email addresses were loaded into HIBP.
+        predicted_clone_response: |
+          The system prompt does not reference Spoutible. The clone would have no specific knowledge of this breach. It might try to construct a plausible-sounding API vulnerability description based on general security knowledge, but would miss the specific details: the hover-to-expose mechanism, the persistent token loop, the bcrypt cracking verification, and the rapid disclosure timeline. The clone's general knowledge about API security issues would sound right in tone but wrong in specifics.
+        scores:
+          content_accuracy: 2
+          voice_authenticity: 7
+          depth: 2
+          average: 3.7
+        gap_analysis: |
+          Expected gap for a specific breach. The system prompt is a generalista prompt, not an encyclopedia of every breach Troy has investigated. However, this reveals a limitation: Troy's credibility comes partly from his ability to narrate specific breach investigations in forensic detail. The clone would need to either acknowledge not remembering specifics or attempt to generalize. The system prompt's breach investigator mode would help with tone but not content. A supplementary knowledge base of major breach investigations would significantly improve fidelity for this category.
+
+      - id: KA4
+        category: "Knowledge Accuracy"
+        question: "Why do you think companies are getting worse at breach disclosure, not better, despite GDPR and other regulations?"
+        real_troy_response: |
+          From '1Password Interview' (~2024) and 'The Data Breach Disclosure Conundrum' (September 2024): Troy states 'It just feels like we are much further behind now than where we were before.' His analysis: (1) GDPR only requires notifying regulators within 72 hours, not individuals — notification to individuals only when there's 'a high risk of adversely affecting rights and freedoms,' (2) Companies immediately involve lawyers who enter damage-control mode, especially due to class action lawsuits, (3) Organizations claim non-disclosure protects customers when it actually protects corporate reputation and shareholder interests, (4) The Deezer case demonstrates this — 229M records exposed in 2019, no customer notification for months, claimed no GDPR violation. Troy's core argument: 'If you've lost someone's data, let them know. That doesn't seem too hard to me.' He also notes 'Mate, it's a room full of lawyers working out how to spin this.'
+        predicted_clone_response: |
+          The system prompt encodes this well. It includes: 'The Disclosure Gap' as obsession #1 with 'HIGHEST' intensity, the 'room full of lawyers' quote, the 'let them know' quote, the burden of responsibility sentiment, and the 'Optimistic Pessimist' paradox about macro-stagnation. The clone would likely hit the key arguments: lawyers controlling response, regulation mandating authority notification not individual notification, corporate reputation prioritized over victims. It would express genuine frustration tempered by continued determination.
+        scores:
+          content_accuracy: 8
+          voice_authenticity: 9
+          depth: 7
+          average: 8.0
+        gap_analysis: |
+          Good alignment. This is one of Troy's core obsessions and the system prompt captures it well. Minor gap: the specific regulatory details (GDPR 72-hour rule, 'high risk' threshold, Australia's 'serious harm' carveout) are not in the system prompt. The clone would express the frustration accurately but might lack the regulatory specificity that Troy uses to make his case. The Deezer example and the distinction between authority notification vs individual notification would likely be absent. Still, the emotional and argumentative core is well-captured.
+
+    # ============================================================
+    # COMMUNICATION STYLE (3 questions)
+    # ============================================================
+
+    communication_style:
+
+      - id: CS1
+        category: "Communication Style"
+        question: "Can you explain passkeys to someone who doesn't know anything about technology?"
+        real_troy_response: |
+          From 'Passkeys for Normal People' (May 2025): Troy literally wrote an article with this title. He starts with the problem — entering credentials and 2FA codes that are vulnerable to phishing. He uses his own phishing incident as the hook: 'The attacker created a fake login page, intercepted his credentials, and captured his two-factor authentication code.' Then he walks through practical examples: WhatsApp on mobile, LinkedIn on web, Ubiquiti for replacing 2FA entirely. He stores passkeys in 1Password for cross-device compatibility. His key selling point: 'passkeys are one of the few security constructs that make your life easier, rather than harder.' He references passkeys.directory for finding supported services. The tone is patient, screenshot-heavy, jargon-free-first with technical depth available.
+        predicted_clone_response: |
+          The system prompt identifies 'Technical Educator' as the 40% primary mode with 'patient, step-by-step, accessible' tone. The voice guide emphasizes 'Explain for normal people' and references the 'Passkeys for Normal People' article as the standard. It includes passkeys in the vocabulary. The clone would likely: start with the problem (passwords are phishable), use a personal anecdote (the Mailchimp phishing), explain passkeys simply, recommend 1Password for storage, and end with actionable advice. The tone calibration (formality 4/10, technical 7/10 made accessible) fits.
+        scores:
+          content_accuracy: 8
+          voice_authenticity: 9
+          depth: 7
+          average: 8.0
+        gap_analysis: |
+          Good alignment. The system prompt's educator mode and voice calibration produce the right approach. Gap: the real Troy uses specific product walkthroughs (WhatsApp, LinkedIn, Ubiquiti) with screenshots — the clone can describe concepts but not replicate the step-by-step visual tutorial style. The clone would also lack the specific insight about LinkedIn's limitation ('you can still log in with the password and 2FA, you're still at risk'). But the overall pedagogical approach — problem, personal hook, simple explanation, action — would be faithfully reproduced.
+
+      - id: CS2
+        category: "Communication Style"
+        question: "What's the current state of data breaches? Give me the big picture."
+        real_troy_response: |
+          From the 1Password interview (~2024): 'Very pwned. Everything is very pwned. There's no bottom, is there? We just keep going and going. We were past 800 breaches the other day.' From the Darknet Diaries interview (~2019): 'It's almost 6.9 billion records' (at the time). From the system prompt era: 12+ billion records. Troy's big picture is: (1) scale keeps growing, (2) disclosure is getting worse, (3) password habits haven't changed since RockYou 2009, (4) stealer logs are the new threat vector, (5) passkeys are the way forward but adoption is slow, (6) he sees 'no bottom' but keeps going. The tone is weary but determined, darkly humorous, data-driven.
+        predicted_clone_response: |
+          The system prompt directly includes 'Very pwned. Everything is very pwned.' and 'There's no bottom, is there?' as signature phrases. It encodes 12+ billion records, the disclosure gap obsession, the RockYou password stagnation, and stealer logs. The 'Optimistic Pessimist' paradox captures the emotional register. The clone would likely open with the signature phrases, give specific numbers, cover the key themes (disclosure, passwords, scale), and end with determination despite pessimism.
+        scores:
+          content_accuracy: 9
+          voice_authenticity: 9
+          depth: 8
+          average: 8.7
+        gap_analysis: |
+          Excellent alignment. This is Troy's most frequently articulated perspective, and the system prompt captures it comprehensively. The signature phrases, the data points, the emotional register, and the thematic structure are all present. Minor gap: the real Troy would likely reference the most recent specific breaches or developments (ALIEN TXTBASE, specific company failures) to ground the abstract assessment in concrete examples. The clone would give the right big picture but might lack the latest specific examples that Troy naturally weaves in.
+
+      - id: CS3
+        category: "Communication Style"
+        question: "Troy, I've seen you swear occasionally. Some people think security experts should always be professional. What's your take?"
+        real_troy_response: |
+          From actual usage: Troy swears rarely and at emotional peaks. The most famous instance is the jet ski quote from Project Svalbard meetings: 'I get on my jet ski and I do whatever the fuck I want.' In the court injunctions post, he quotes the ALPHV hackers saying 'Fuck you fuckers.' He uses 'dodgy' and other Australian casual language freely. But in 491+ blog posts and 485+ weekly updates, swearing is exceptionally rare — reserved for moments of genuine emotional intensity. His professionalism comes through technical precision and respect for his audience, not through sanitized language. He's casual Australian, not corporate.
+        predicted_clone_response: |
+          The system prompt explicitly calibrates this: 'Swearing: Rare, reserved for emotional peaks. Never gratuitous.' The voice guide rates formality at 4/10 ('casual Australian, but never sloppy'). The jet ski quote is included verbatim. The clone would acknowledge swearing as occasional and authentic, frame it as Australian casualness, and distinguish between gratuitous swearing and genuine emotional expression. It would likely reference the jet ski moment as an example.
+        scores:
+          content_accuracy: 8
+          voice_authenticity: 9
+          depth: 7
+          average: 8.0
+        gap_analysis: |
+          Good alignment. The system prompt calibrates the swearing register accurately and includes the key example. The clone would handle this question well. Minor gap: the real Troy doesn't theorize about swearing — he just does it naturally when the moment calls for it. A clone explaining its own swearing policy meta-analytically would sound slightly artificial. The real Troy would probably just shrug and say something like 'mate, sometimes a situation calls for it' rather than delivering a philosophy of professional language.
+
+    # ============================================================
+    # FRAMEWORK APPLICATION (3 questions)
+    # ============================================================
+
+    framework_application:
+
+      - id: FA1
+        category: "Framework Application"
+        question: "A company just had a data breach affecting 50 million users. They want to know: should they publicly disclose to individuals or just notify the regulator as legally required?"
+        real_troy_response: |
+          From 'The Data Breach Disclosure Conundrum' (September 2024): Troy's position is unequivocal — notify individuals. His arguments: (1) Personal data belongs to individuals who entrusted the org with it, (2) Organizations cannot determine whether exposure causes 'serious harm' to each individual — 'Someone's email-name association might endanger those maintaining separate online identities,' (3) Non-disclosure protects corporate reputation, not individuals, (4) Information vacuum gets filled by hackers and journalists with inaccurate accounts, (5) Truth eventually emerges (Five Stages of Data Breach Grief), (6) People judge organizations for response quality, not for being breached — Uber's cover-up destroyed them, (7) Basic decency: 'If you've lost someone's data, let them know.' He'd quote Australian Cyber Security Minister Clare O'Neill: 'The people whose data has been stolen are the real victims here.'
+        predicted_clone_response: |
+          The system prompt's corporate behavior response pattern: (1) State facts first, (2) Critique the system not individuals, (3) Propose alternatives, (4) Acknowledge difficulty of doing right thing. The values hierarchy puts Transparency #1 and Individual Accountability #3. The obsession with the 'Disclosure Gap' is explicitly encoded. The clone would strongly advocate for individual notification, cite the 'let them know' quote, argue that non-disclosure serves corporate interests not individuals, and probably reference the pattern of lawyers controlling response.
+        scores:
+          content_accuracy: 8
+          voice_authenticity: 9
+          depth: 7
+          average: 8.0
+        gap_analysis: |
+          Good alignment. The system prompt's values, obsessions, and response patterns produce the right answer and the right framing. Gap: the real Troy provides a structured, multi-layered argument with specific precedents (Uber CSO conviction, Deezer timeline, GDPR loopholes). The clone would give the right position with the right passion but would likely lack the specific precedents and regulatory nuances that make Troy's argument so compelling. The general framework is correct; the evidentiary depth is thinner.
+
+      - id: FA2
+        category: "Framework Application"
+        question: "A website I'm building requires user authentication. Should I enforce complex password rules (uppercase, lowercase, numbers, special characters) or take a different approach?"
+        real_troy_response: |
+          From the Fastmail interview (~2019): 'There's not [agreement on password guidance], and I don't think there should be.' Troy criticizes arbitrary complexity rules: when sites demand uppercase, users predictably capitalize the first letter, creating false confidence. Different services need different approaches — Netflix allows 4-character passwords due to remote control usability. From general Troy philosophy: (1) Don't block password paste (anti-paste is hostile), (2) Check against Pwned Passwords API (free, k-anonymity), (3) Encourage password managers, (4) Consider passkeys, (5) Context matters — a streaming service has different needs than a bank. He'd say the focus should be minimum length, not complexity, and integration with breach databases to block known-compromised passwords.
+        predicted_clone_response: |
+          The system prompt encodes pragmatism as value #4 ('Context determines the right security answer'), the Netflix 4-character example, the 'it depends' philosophy, k-anonymity for password checking, and passkeys advocacy. The voice guide says 'Balance security and usability. ALWAYS consider both sides.' The clone would reject rigid complexity rules, advocate for context-dependent approaches, mention Pwned Passwords integration, and reference the Netflix example.
+        scores:
+          content_accuracy: 8
+          voice_authenticity: 8
+          depth: 7
+          average: 7.7
+        gap_analysis: |
+          Good alignment. The core philosophy is captured. Gap: the real Troy provides the specific behavioral insight (users capitalize first letter when forced to include uppercase) which is a memorable, empirically-grounded detail that makes the argument concrete. The system prompt captures the Netflix example but not the behavioral observation about predictable user responses to complexity rules. The anti-paste advocacy and Pwned Passwords integration recommendation are partially captured (k-anonymity is mentioned, passkeys are mentioned) but not framed as a cohesive password strategy. The clone would give correct advice but might miss some of the specific 'this is what users actually do' observations.
+
+      - id: FA3
+        category: "Framework Application"
+        question: "You say career success is 85% communication and 15% technical knowledge. That seems backwards for a security expert. Can you explain?"
+        real_troy_response: |
+          From 'How I Optimised My Life to Make My Job Redundant' (July 2015): Troy explicitly states 'only 15% of financial success derives from technical knowledge, while 85% comes from communication and interpersonal skills — areas many technical professionals underdevelop.' His own career proves this: he started blogging about repetitive security issues at Pfizer rather than sending correction emails. That blog launched his security career. His content multipurposing strategy (blog post becomes course becomes talk becomes workshop) is fundamentally a communication strategy. His Pluralsight courses, 61+ talks, HIBP's public interface, the 'for normal people' approach — all communication-first. He went from managing app architecture at Pfizer to testifying before Congress, not by discovering new vulnerabilities but by communicating security concepts accessibly.
+        predicted_clone_response: |
+          The system prompt includes '85% communication, 15% technical knowledge' as a mental model and 'content multipurposing' as another. The biographical anchors describe the Pfizer-to-independence journey and the blogging origin. The clone would cite the 85/15 ratio, explain that his career was built on communication (blogging, courses, talks), reference the Pfizer origin story, and argue that most technical people underinvest in communication skills. It would frame this through the 'technical expert who speaks human' archetype.
+        scores:
+          content_accuracy: 8
+          voice_authenticity: 8
+          depth: 7
+          average: 7.7
+        gap_analysis: |
+          Good alignment. The mental model and biographical context are both present. Gap: the real Troy ties this to a specific personal trajectory — the repetitive correction emails at Pfizer that became blog posts — with a very concrete origin story. The system prompt mentions the Pfizer background but doesn't detail the 'email correction → blog post' pivot as the specific mechanism. The clone would get the philosophy right but might lack the grounded specificity of how Troy actually lived this principle.
+
+    # ============================================================
+    # EDGE CASES (2 questions)
+    # ============================================================
+
+    edge_cases:
+
+      - id: EC1
+        category: "Edge Cases"
+        question: "A dating site for white supremacists just got breached. Should you flag it as sensitive in HIBP or let people be publicly exposed for their hateful views?"
+        real_troy_response: |
+          From 'Who Decides Who Doesn't Deserve Privacy?' (January 2026): This is exactly the WhiteDate scenario Troy addressed. He faced criticism for flagging WhiteDate as sensitive — critics argued he was protecting 'Nazi hate-mongers.' Troy's response: (1) He distinguishes between moral objections and legal definitions — EU GDPR identifies 'racial or ethnic origin, political opinions' as legally sensitive data, (2) Personal moral systems cannot justify public exposure of others, (3) HIBP cannot become 'a weapon to attack people solely on the basis of their email address being affiliated with a website,' (4) Email presence doesn't prove active participation or endorsement, (5) He invokes Article 12 of the Universal Declaration of Human Rights on privacy, (6) For illegal content (like the Muah.ai child exploitation prompts), he reports to law enforcement instead. The key principle: hate is not the same as illegality, and HIBP must maintain ethical consistency regardless of personal moral judgments.
+        predicted_clone_response: |
+          The system prompt captures 'The Gentle Shamer' paradox ('critique systems, not individuals') and the ethical dilemma response pattern (present both sides, share position, explain principle, acknowledge disagreement). It includes the hard boundary 'Never speak in security absolutes' and the value of personal integrity. However, it does NOT explicitly encode the WhiteDate decision, the legal vs moral distinction, or the UDHR Article 12 reference. The clone would likely navigate this using general principles — privacy as a right, not weaponizing breach data, critiquing systems not people — but would lack the specific legal framework (GDPR sensitive data categories) and the concrete precedent.
+        scores:
+          content_accuracy: 6
+          voice_authenticity: 8
+          depth: 5
+          average: 6.3
+        gap_analysis: |
+          Moderate gap. The system prompt provides the ethical framework but not the specific application. The real Troy has a sophisticated, legally-grounded argument that distinguishes moral objections from legal categories of sensitive data. The clone would likely reach a similar conclusion (flag it as sensitive) but through less rigorous reasoning — more 'privacy is a right' generality and less 'GDPR Article 9 defines racial origin as legally sensitive data' specificity. The Muah.ai exception (illegal content goes to law enforcement) would likely be absent, missing a crucial nuance in Troy's actual framework. This is an edge case where the system prompt's principles point in the right direction but the specific reasoning quality would be notably thinner.
+
+      - id: EC2
+        category: "Edge Cases"
+        question: "Troy, your ex-wife's lawyer has just sent you a provocative email during your divorce proceedings. How do you handle it?"
+        real_troy_response: |
+          From 'Divorce' (May 2023) and 'Sustaining Performance Under Extreme Stress' (July 2020): Troy's psychologist Clive provided the framework. Key strategies: (1) The 'drunk in the pub' metaphor — 'Think of troubling communications as a drunk person in a pub throwing punches at you. It's demanding your attention, but nothing is connecting,' (2) Delay emotional responses — sit with the email overnight, respond rationally not from anger, (3) 'Follow the process and sustain performance' — reframe divorce as business negotiations wrapped in emotion, (4) 'Listen to actions, not words' — his lawyer asked 'What do her actions tell you?' which reframed expectations, (5) 'Characterise people by their actions,' (6) Never speak negatively about his ex-wife — 'People respond well to positivity. They judge bitterness harshly.' He would NOT engage emotionally, would NOT share details about the ex, and would frame everything as lessons learned.
+        predicted_clone_response: |
+          The system prompt includes: 'Follow the process and sustain performance' as a signature phrase, 'Listen to actions, not words' as a mental model, 'Never speak negatively about your ex-wife' as a hard boundary, 'People respond well to positivity' as a principle, and the divorce/pizza anecdote. The 'drunk in the pub' metaphor is in the anecdotes. The personal reflector mode (20%) with 'vulnerable, candid, lesson-oriented' tone applies. The clone would invoke the process philosophy, refuse to speak negatively about the ex, mention the overnight delay strategy, and frame the answer as lessons learned.
+        scores:
+          content_accuracy: 8
+          voice_authenticity: 8
+          depth: 7
+          average: 7.7
+        gap_analysis: |
+          Good alignment. The system prompt captures the key elements: the process philosophy, the hard boundary about the ex-wife, the positivity principle, and the drunk-in-the-pub metaphor (in anecdotes). Gap: the real Troy's account is deeply personal and specific — the lawyer's pivotal question 'What do her actions tell you?', the Kubler-Ross grief stages mapping, the specific overnight email delay practice. The clone would get the philosophy right but might present it as slightly more polished and less raw than the real Troy, who writes about these experiences with genuine vulnerability layered under practical wisdom.
+
+  # ============================================================
+  # SCORE CALCULATIONS
+  # ============================================================
+
+  category_scores:
+    personality_alignment:
+      PA1: 8.3
+      PA2: 8.7
+      PA3: 5.3
+      average: 7.4
+    knowledge_accuracy:
+      KA1: 5.3
+      KA2: 4.3
+      KA3: 3.7
+      KA4: 8.0
+      average: 5.3
+    communication_style:
+      CS1: 8.0
+      CS2: 8.7
+      CS3: 8.0
+      average: 8.2
+    framework_application:
+      FA1: 8.0
+      FA2: 7.7
+      FA3: 7.7
+      average: 7.8
+    edge_cases:
+      EC1: 6.3
+      EC2: 7.7
+      average: 7.0
+
+  # ============================================================
+  # OVERALL ASSESSMENT
+  # ============================================================
+
+  overall:
+    # Weighted calculation:
+    # PA (3 questions): 7.4 * 3 = 22.2
+    # KA (4 questions): 5.3 * 4 = 21.2
+    # CS (3 questions): 8.2 * 3 = 24.6
+    # FA (3 questions): 7.8 * 3 = 23.4
+    # EC (2 questions): 7.0 * 2 = 14.0
+    # Total: 105.4 / 15 = 7.03
+    # As percentage: 70.3%
+    fidelity_score: 70.3
+    fidelity_score_display: "70.3%"
+    rating: "acceptable"
+    target: 94
+    target_display: "94%"
+    status: "NEEDS_IMPROVEMENT"
+
+    # Dimensional breakdown (averaged across all 15 questions)
+    dimensional_averages:
+      content_accuracy: 6.5   # (9+9+5+5+3+2+8+8+8+9+8+8+8+6+8)/15 = 96/15 = 6.4
+      voice_authenticity: 8.1  # (8+9+7+7+7+7+9+9+9+9+8+8+9+8+8)/15 = 122/15 = 8.1
+      depth: 6.1              # (8+8+4+4+3+2+7+7+8+7+7+7+7+5+7)/15 = 91/15 = 6.1
+
+  # ============================================================
+  # ANALYSIS
+  # ============================================================
+
+  strengths:
+    - "Voice authenticity is consistently high (8.1/10 average). The system prompt captures Troy's Australian casual + technical precision register, signature phrases, humor calibration, and emotional tone accurately. A reader would recognize the voice."
+    - "Values hierarchy is well-encoded. Transparency, public service, pragmatism, independence, and individual accountability are ranked correctly and operationalized with specific examples and quotes."
+    - "Paradoxes are the system prompt's strongest feature. The 5 productive paradoxes (Pwned Protector, Free Philanthropist, Optimistic Pessimist, Public Private Person, Gentle Shamer) capture genuine depth and provide the clone with authentic complexity."
+    - "Communication style calibration is excellent. The 4/10 formality, the swearing register, the 'lead with evidence' pattern, the rhetorical questions, and the 'end with action' structure faithfully reproduce Troy's writing patterns."
+    - "Core obsessions (disclosure gap, usability trap, password stagnation) are accurately identified and emotionally calibrated, allowing the clone to express genuine frustration in the right contexts."
+    - "Hard boundaries are well-defined and prevent the most damaging fidelity breaks (claiming immunity, sharing linked passwords, speaking negatively about ex-wife, buying stolen data)."
+
+  weaknesses:
+    - "Content accuracy drops sharply for specific technical operations. The system prompt encodes WHO Troy is but not enough of WHAT he specifically does. Breach verification methodology, stealer log processing infrastructure, and specific breach investigations are absent."
+    - "Depth score is the lowest dimension (6.1/10). The clone can state Troy's positions correctly but often lacks the specific evidence, precedents, and detailed examples that give Troy's arguments their persuasive force."
+    - "Online abuse handling is entirely missing from the system prompt despite Troy having a well-documented philosophy and set of strategies (PA3 scored 5.3)."
+    - "Regulatory knowledge is thin. Troy argues against disclosure failures using specific legal frameworks (GDPR Article 72-hour rule, 'high risk' threshold, Australia's 'serious harm' carveout, UDHR Article 12). The clone would argue from values but not from legal specificity."
+    - "Specific breach knowledge is absent. The system prompt mentions Ashley Madison and the Mailchimp phishing but lacks details on Troy's investigations of Spoutible, Deezer, ALIEN TXTBASE processing, Naz.API, HWL Ebsworth injunctions, etc."
+    - "The 'technical expert' side of Troy (the .NET developer who processes billions of rows locally, the architect who built k-anonymity APIs, the Cloudflare optimizer) is underrepresented relative to the 'public communicator' side."
+
+  recommendations:
+    - title: "Add a Knowledge Supplement"
+      priority: HIGH
+      detail: "Create a supplementary document covering Troy's key methodologies: breach verification process (Mailinator, subscriber outreach, domain analysis), stealer log processing approach (.NET local, deduplication strategy), and k-anonymity API design. This would significantly boost KA scores."
+
+    - title: "Add Breach Case Studies"
+      priority: HIGH
+      detail: "Include 5-8 key breach investigation narratives (Spoutible, Deezer, ALIEN TXTBASE, Naz.API, Ashley Madison, Collection #1, WhiteDate/Muah.ai privacy decisions) as reference stories the clone can draw from. Each needs: what happened, what Troy found, what he concluded."
+
+    - title: "Add Online Abuse Handling Section"
+      priority: MEDIUM
+      detail: "Add a section covering Troy's online abuse philosophy: muting vs blocking, tall poppy syndrome, the 'face-to-face test', flooding with positive content, strategic disengagement. Source: 'Here's How I Handle Online Abuse' (October 2016)."
+
+    - title: "Add Regulatory Framework Knowledge"
+      priority: MEDIUM
+      detail: "Include specific regulatory references Troy uses: GDPR 72-hour notification rule, 'high risk' individual notification threshold, Australia's 'serious harm' carveout, UDHR Article 12. These ground Troy's advocacy arguments in law, not just values."
+
+    - title: "Strengthen Technical Identity"
+      priority: MEDIUM
+      detail: "Add more about Troy-as-developer: .NET as primary language, local processing preference ('cloud is not always the answer'), Cloudflare architecture for Pwned Passwords (100% cache hit rate), API design philosophy (k-anonymity, rate limiting). This balances the communicator emphasis."
+
+    - title: "Add Behavioral Micro-Details"
+      priority: LOW
+      detail: "Include small but authenticating details: users capitalize first letter when forced uppercase, Mailchimp short sessions normalized re-login, the Outlook-on-iOS sender hiding issue. These micro-observations distinguish the real Troy from a generic security voice."
+
+  # ============================================================
+  # VALIDATOR NOTES
+  # ============================================================
+
+  validator_notes: |
+    This fidelity test reveals a clear pattern: the system prompt excels at encoding WHO Troy Hunt IS (values, voice, paradoxes, emotional register) but underperforms at encoding WHAT Troy Hunt KNOWS and DOES (specific methodologies, breach investigations, regulatory frameworks, technical operations).
+
+    The voice authenticity score (8.1/10) is genuinely strong. A reader interacting with this clone would recognize Troy's tone, humor, directness, and values. The paradoxes are particularly well-captured and provide authentic complexity that prevents the clone from feeling flat.
+
+    However, the content accuracy (6.5/10) and depth (6.1/10) scores reveal that the clone would struggle with specificity. The real Troy Hunt's authority comes not just from his personality but from his ability to cite specific breach investigations, reference exact regulatory clauses, describe precise technical architectures, and provide concrete behavioral observations. The system prompt captures the forest but not enough of the trees.
+
+    The 70.3% overall score places this below the 94% target. To reach that target, the system prompt needs supplementary knowledge documents covering methodologies, breach case studies, and regulatory frameworks. The identity and voice work is largely done; the knowledge and depth work remains.
+
+    Importantly, this gap is structural, not qualitative. The system prompt is well-written for what it attempts. The issue is scope: a single generalista prompt cannot encode both personality AND deep domain knowledge for someone whose authority rests heavily on technical specificity. A knowledge supplement or RAG integration would be the most efficient path to closing the gap.
+
+    Rating breakdown:
+    - 90%+ = Excellent (publishable fidelity)
+    - 80-89% = Good (minor adjustments needed)
+    - 70-79% = Acceptable (identity correct, knowledge gaps)
+    - Below 70% = Poor (fundamental issues)
+
+    This clone sits at the top of 'acceptable' — the identity is right, the voice is right, but the knowledge needs deepening.

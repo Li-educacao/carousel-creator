@@ -1,0 +1,391 @@
+# =============================================================================
+# Layer 3 — Routine & Habits
+# Subject: Jim Manico
+# Generated: 2026-02-19
+# Analyst: Daniel (Behavioral Analyst Agent)
+# Sources: 11 documents (5 podcasts, 5 blogs/websites, 1 YouTube talk)
+# =============================================================================
+
+meta:
+  layer: 3
+  layer_name: "Routine & Habits"
+  subject: "Jim Manico"
+  generated: "2026-02-19"
+  source_count: 11
+  confidence: "medium-high"
+  notes: >
+    Layer 3 captures recurring patterns in Jim Manico's professional and
+    personal routines. Some elements are directly stated; others are
+    inferred from the frequency and nature of his outputs. Personal life
+    details are limited to what he has shared publicly.
+
+# ---------------------------------------------------------------------------
+# 1. PROFESSIONAL ROUTINE
+# ---------------------------------------------------------------------------
+professional_routine:
+
+  training_schedule:
+    volume: "100+ days per year"
+    calculation: >
+      100+ training days out of ~250 working days means Jim spends roughly
+      40% of his professional time actively teaching. The remaining 60%
+      is split across content development, OWASP work, advisory roles,
+      conference preparation, and travel.
+    format_mix:
+      in_person: "Conference workshops, on-site corporate training"
+      virtual: "Live virtual courses (e.g., 'Practical Secure Code Review - AI Enhanced')"
+      downloadable: "Pre-recorded course materials via Manicode"
+    evidence:
+      - source: "T2-podcast-secure-developer-ep26"
+        detail: "100+ training days annually"
+      - source: "T3-manicode-website"
+        detail: "Live and downloadable courses"
+
+  conference_circuit:
+    description: >
+      Jim maintains a global conference presence, appearing at both
+      security-specific and developer-focused events. Based on the
+      collected sources, he speaks at multiple major conferences per year
+      across different continents.
+    observed_2025_schedule:
+      - event: "SecAppDev 2025"
+        location: "Leuven, Belgium"
+        dates: "June 2-6, 2025"
+        sessions: 2
+        detail: "90-min lecture + full-day workshop"
+        source: "T3-secappdev-2025-bio"
+      - event: "Global AppSec Barcelona"
+        location: "Barcelona, Spain"
+        dates: "May 2025"
+        detail: "ASVS 5.0.0 release event"
+        source: "T1-owasp-asvs"
+      - event: "DEF CON"
+        location: "Las Vegas, USA"
+        detail: "Training course on LLMs for AppSec"
+        source: "T2-podcast-absolute-appsec-ep27"
+    travel_pattern: >
+      The conference circuit requires significant international travel —
+      from his home in Hawaii to Europe, Las Vegas, and likely many
+      other US/international destinations. This suggests a routine
+      built around extended travel periods interspersed with home time.
+
+  owasp_maintenance_cycle:
+    description: >
+      Jim has maintained OWASP projects continuously since 2014. This
+      involves regular content reviews, version planning, community
+      coordination with co-leaders, and release management. ASVS 5.0.0
+      release in May 2025 represents the latest in a decade-long
+      maintenance cycle.
+    projects_maintained:
+      - name: "OWASP ASVS"
+        span: "2014 (v2) through 2025 (v5.0.0)"
+        co_leaders: "Daniel Cuthbert, Elar Lang, Josh Grossman"
+        source: "T1-owasp-asvs"
+      - name: "OWASP Proactive Controls"
+        span: "2014 (v1.0) through 2024"
+        co_leaders: "Andreas Happe, Katy Anton"
+        source: "T1-owasp-proactive-controls"
+      - name: "OWASP Cheatsheet Series"
+        span: "Ongoing"
+        source: "T3-secappdev-2025-bio"
+    maintenance_pattern: >
+      Multi-year version cycles (2-4 years between major versions)
+      with ongoing community management. This requires sustained
+      background effort even when not actively releasing.
+
+  curriculum_development:
+    description: >
+      Jim regularly develops and updates training content. Recent evidence
+      shows he has rapidly incorporated AI security topics into his
+      curriculum, suggesting a routine of monitoring emerging threats
+      and translating them into educational material.
+    recent_curriculum_additions:
+      - title: "Practical Secure Code Review - AI Enhanced"
+        format: "Virtual course"
+        source: "T2-podcast-absolute-appsec-ep27"
+      - title: "Harnessing LLMs for Application Security"
+        format: "DEF CON training"
+        source: "T2-podcast-absolute-appsec-ep27"
+      - title: "Using AI to Write Secure React.JS Code"
+        format: "Conference lecture"
+        source: "T3-secappdev-2025-bio"
+      - title: "AI security (prompt injection, model poisoning, data theft)"
+        format: "Dedicated training module"
+        source: "T2-podcast-tromzo-owasp-top10"
+    development_pattern: >
+      Jim appears to develop new content in response to market demand
+      and emerging threat categories. He mentioned 'significant demand'
+      for AI security training, indicating he tracks demand signals
+      and responds with new curriculum.
+
+  investment_advisory_routine:
+    description: >
+      As a fund-limited investor with Aviso Ventures, Jim likely
+      evaluates security startups regularly, attends board meetings or
+      advisory calls, and leverages his conference network for deal flow.
+      With 10 portfolio companies, this represents a meaningful time
+      commitment alongside his primary teaching work.
+    portfolio_size: 10
+    vehicle: "Aviso Ventures"
+    evidence:
+      - source: "T3-secappdev-2025-bio"
+    inferred_activities:
+      - "Startup evaluation and due diligence"
+      - "Advisory board participation"
+      - "Network-based deal flow (conference connections)"
+      - "Portfolio company mentorship"
+
+# ---------------------------------------------------------------------------
+# 2. CONTENT CREATION PATTERNS
+# ---------------------------------------------------------------------------
+content_creation_patterns:
+
+  primary_outputs:
+    description: >
+      Jim's content creation centers on three main output types:
+      training materials, OWASP project documentation, and public
+      speaking. He does not appear to be a prolific blog writer or
+      social media content creator — his content flows through
+      live teaching and standards work.
+    output_types:
+      - type: "Training courses and workshops"
+        frequency: "Continuously updated, multiple active courses"
+        distribution: "Live delivery + Manicode platform"
+      - type: "OWASP project documentation"
+        frequency: "Major versions every 2-4 years, ongoing maintenance"
+        distribution: "OWASP website, PDF/Word/CSV/JSON formats"
+      - type: "Conference presentations"
+        frequency: "Multiple per year across global events"
+        distribution: "Live audiences + some recorded (NDC YouTube)"
+      - type: "Podcast appearances"
+        frequency: "Regular (5+ observed in collected sources)"
+        distribution: "Various podcast platforms"
+
+  book_authorship:
+    title: "Iron-Clad Java"
+    description: >
+      Jim authored 'Iron-Clad Java,' a book on secure Java development.
+      This represents a more traditional, long-form content creation
+      effort. No evidence of subsequent books, suggesting this was a
+      one-time effort rather than a regular habit.
+    evidence:
+      - source: "T3-secappdev-2025-bio"
+
+  ai_augmented_content_creation:
+    description: >
+      Jim has begun using AI tools in his content creation and training
+      development process. He described accomplishing 'the work of teams
+      of people on his own' by leveraging AI agents, suggesting AI has
+      become integrated into his content production routine.
+    evidence:
+      - source: "T2-podcast-resilient-cyber"
+        detail: "Completing tasks that used to take tens of hundreds of hours"
+      - source: "T2-podcast-itspmagazine-brand-story"
+        detail: "Integrates AI tools into training: assist with complex questions, identify knowledge gaps, refine content"
+
+# ---------------------------------------------------------------------------
+# 3. COMMUNITY ENGAGEMENT PATTERNS
+# ---------------------------------------------------------------------------
+community_engagement_patterns:
+
+  owasp_volunteering:
+    description: >
+      Jim's OWASP involvement is not casual volunteering — it is a
+      central pillar of his professional identity. He has led projects
+      for over a decade, maintains active co-leadership roles, and his
+      company (Manicode) is listed as a 'Maintaining Supporter' of ASVS.
+    depth: "Deep — project leadership, not just contribution"
+    duration: "11+ years (2014-2025+)"
+    financial_support: "Manicode as Maintaining Supporter"
+    evidence:
+      - source: "T1-owasp-asvs"
+        detail: "Manicode is a Maintaining Supporter"
+      - source: "T1-owasp-proactive-controls"
+        detail: "Created v1.0 in 2014, still active"
+
+  conference_community:
+    description: >
+      Jim is a fixture in the AppSec conference community. His
+      relationships with conference organizers, podcast hosts, and
+      fellow speakers suggest deep social capital in this ecosystem.
+    indicators:
+      - "Regular podcast guest across multiple shows"
+      - "Invited speaker/trainer at premier events (DEF CON, NDC, SecAppDev, Global AppSec)"
+      - "Known by first name in the community"
+
+  developer_community_bridge:
+    description: >
+      Jim intentionally engages with developer communities (not just
+      security communities). His presence at NDC (a developer conference)
+      and his focus on React/framework-specific security training
+      demonstrate deliberate outreach beyond the security bubble.
+    evidence:
+      - source: "T1-ndc-owasp-top10-to-asvs"
+        detail: "Speaking at NDC — a developer conference, not a security conference"
+      - source: "T3-secappdev-2025-bio"
+        detail: "AI + React.JS secure coding — meeting developers where they work"
+
+# ---------------------------------------------------------------------------
+# 4. KNOWN PERSONAL DETAILS
+# ---------------------------------------------------------------------------
+personal_details:
+
+  residence:
+    location: "Kauai, Hawaii"
+    detail: "Lives on Kauai with wife Tracey"
+    lifestyle_implication: >
+      Living in Hawaii while maintaining a 100+ day training schedule
+      and global conference circuit means Jim has built a life that
+      accommodates extensive travel from a remote location. This
+      suggests high tolerance for travel and deliberate choice of
+      quality of life in non-work time.
+
+  family:
+    spouse: "Tracey"
+    detail: "Mentioned in public biographical contexts"
+
+  professional_titles:
+    - "Founder, Manicode Security"
+    - "CEO, Manicode Security"
+    - "Java Champion"
+    - "Author, Iron-Clad Java"
+    - "OWASP Project Leader (ASVS, Proactive Controls, Cheatsheet Series)"
+    - "Investor, Aviso Ventures"
+    evidence:
+      - source: "T3-secappdev-2025-bio"
+
+# ---------------------------------------------------------------------------
+# 5. TEMPORAL PATTERNS — CAREER EVOLUTION
+# ---------------------------------------------------------------------------
+career_evolution:
+
+  phase_1:
+    period: "Late 1990s - ~2008"
+    label: "Developer Phase"
+    description: >
+      Pure software development, primarily Java. A decade of programming
+      that built the technical foundation for everything that followed.
+    evidence:
+      - source: "T2-podcast-absolute-appsec-ep27"
+        detail: "Began as Java developer in late 1990s (decade of programming)"
+      - source: "T2-podcast-secure-developer-ep26"
+        detail: "Developer for 30 years (as of 2019)"
+
+  phase_2:
+    period: "~2008 - ~2012"
+    label: "Security Immersion Phase"
+    description: >
+      Pivotal transition triggered by Stephen Northcutt mentorship.
+      Intensive immersion at SANS (100-hour work weeks), deep AppSec
+      study, and the shift from practitioner to educator.
+    key_events:
+      - "Met Stephen Northcutt — career-changing mentorship"
+      - "SANS: 100-hour work weeks, deep AppSec immersion"
+      - "Aspect Security: software development under NDA"
+    evidence:
+      - source: "T2-podcast-absolute-appsec-ep27"
+
+  phase_3:
+    period: "~2012 - ~2016"
+    label: "Industry Role Phase"
+    description: >
+      Moved through industry positions — WhiteHat Security acquired his
+      static analysis startup, took evangelist role. During this period,
+      also launched OWASP leadership (ASVS v2 in 2014, Proactive
+      Controls v1.0 in 2014).
+    key_events:
+      - "WhiteHat Security: acquired his static analysis startup"
+      - "OWASP ASVS v2 (2014) — Lead Author"
+      - "OWASP Proactive Controls v1.0 (2014) — Co-author"
+      - "Published Iron-Clad Java"
+    evidence:
+      - source: "T2-podcast-absolute-appsec-ep27"
+      - source: "T1-owasp-asvs"
+      - source: "T1-owasp-proactive-controls"
+
+  phase_4:
+    period: "~2016 - ~2023"
+    label: "Independent Educator Phase"
+    description: >
+      Founded Manicode Security. Established independent training
+      practice with 100+ day annual schedule. Continued OWASP
+      leadership. Began investment activity with Aviso Ventures.
+    key_events:
+      - "Founded Manicode Security"
+      - "Established 100+ training days/year routine"
+      - "Java Champion designation"
+      - "Investment portfolio building (10 companies)"
+    evidence:
+      - source: "T2-podcast-absolute-appsec-ep27"
+      - source: "T3-secappdev-2025-bio"
+
+  phase_5:
+    period: "~2023 - present"
+    label: "AI Integration Phase"
+    description: >
+      Jim has rapidly integrated AI into his practice — both as a topic
+      he teaches (AI security, prompt injection, LLM security) and as
+      a tool he uses (AI-enhanced code review, AI-augmented content
+      creation). This represents the current evolutionary edge.
+    key_events:
+      - "Launched AI security training courses"
+      - "Integrated AI into personal productivity (teams of people on his own)"
+      - "ASVS 5.0.0 release (May 2025)"
+      - "AI-enhanced secure coding workshops"
+    evidence:
+      - source: "T2-podcast-resilient-cyber"
+      - source: "T2-podcast-tromzo-owasp-top10"
+      - source: "T3-secappdev-2025-bio"
+      - source: "T2-podcast-itspmagazine-brand-story"
+
+  evolution_pattern: >
+    Jim's career follows a clear trajectory: build deep technical
+    skills -> get mentored into security -> immerse intensively ->
+    work in industry -> go independent -> scale through teaching ->
+    integrate AI. Each phase builds on the previous, and he never
+    abandons earlier commitments (still teaching, still maintaining
+    OWASP projects, still investing). Accumulative, not sequential.
+
+# ---------------------------------------------------------------------------
+# 6. INFERRED WEEKLY ROUTINE (APPROXIMATE)
+# ---------------------------------------------------------------------------
+inferred_weekly_routine:
+  note: >
+    This is an approximation based on the 100+ training days,
+    conference schedule, OWASP responsibilities, and investment
+    activities. Actual routine varies by week.
+
+  training_weeks:
+    description: >
+      During training weeks (~20-25 weeks per year if averaging 4-5
+      training days per week), Jim's routine is dominated by live
+      instruction, travel, and preparation.
+    activities:
+      - "Travel to training location"
+      - "Deliver 1-5 day training sessions"
+      - "Engage with attendees before/after sessions"
+      - "Adapt content to audience needs"
+
+  home_weeks:
+    description: >
+      During home weeks in Kauai (~25-30 weeks per year), Jim likely
+      focuses on content development, OWASP project work, advisory
+      calls, and course material updates.
+    inferred_activities:
+      - "Curriculum development and updates"
+      - "OWASP project coordination with co-leaders"
+      - "Investment/advisory portfolio management"
+      - "Podcast recordings and interviews"
+      - "AI tool experimentation and integration"
+      - "Research on emerging security threats"
+
+  conference_weeks:
+    description: >
+      Conference weeks involve travel, speaking, networking, and
+      often follow-up connections. With multiple major conferences
+      per year, this represents 5-10 weeks annually.
+    activities:
+      - "Conference presentations and workshops"
+      - "Networking with peers, potential clients, portfolio companies"
+      - "Podcast recordings (often at conference venues)"
+      - "OWASP community meetings"

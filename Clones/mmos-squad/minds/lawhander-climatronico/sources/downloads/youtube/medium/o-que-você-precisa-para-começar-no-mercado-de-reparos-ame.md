@@ -1,0 +1,14 @@
+# O que você precisa para começar no MERCADO DE REPAROS? #AME
+
+- **Video ID:** BECSFzT5f7o
+- **URL:** https://www.youtube.com/watch?v=BECSFzT5f7o
+- **Duration:** 4 min
+- **Views:** 173
+- **Published:** 2021-08-08T15:00:09Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+a melhor coisa aprender reparar porque tem que a partir de então a gente tá falando de números então a parte técnica então conhecimento no caminho para chegar nos faz o que é chance de faturamento não é para veículos Ah tá você chegar de 25 mil por mês não é de placas só tem que saber pela boca simples assim então o primeiro passo é o caminho melhor é fundamental né então vai conseguir Mas você não vai ter longo prazo quem tá falando de uma poção Tá certo de kit se formar uma profissão Então tem um estado na produção e ninguém vai se somaram para São Paulo ele é ser um heliponto é tão de maneira duradoura aqui colocar na sua mente o Felipe tem paz quem sabe tocar umas fundamentos aprender os fundamentos Então ela trinca fundo bom para você e para você conseguir de qualidade né Consegui fazer e fazer com qualidade e quantidade qualitativamente e quantitativamente e qualitativamente o que eu reparo em placa de um convencional eu pago ao uso correto tá hoje pacotes que eu cobro usar aquele porque acho que você vai entender posso ter só uma coisa eu colo minha placa de papéis sabe fazendo apagou convencional viu reais dois qualitativamente e quantitativamente e qualitativamente eu falei é o se fosse reparo em um reparou consegui cobrar mil outro tomar 2 mil isso nos escovar 5.000 ou 10.000 15 mil o número de votantes internet aqui às vezes no mesmo mês esforço a mesma pessoa mesma bancada na mesma mesa e ferramentas reparo equipamento que custa mais Poucos Anos consegui cobrar mais o melhor qualitativamente ou posso melhorar meu serviço quantitativamente e participante Ativa é o reparo uma por dia agora para duas problema mental se eu consigo aqui essa merda né É então até amanhã de melhorar a quantitativamente e essa quantitativa Você vai precisar ter uma base eletrônica porque você precisa ter um fogo de reparo tem uma metodologia de reparo metodologia de análise na tua que no Amarante bastante popular do método o IP mas de nada se eu desenvolvi que limpar analisar maneira mais eficiente você consegue melhorar quantitativamente Oi e eu vou se você quer falar mais fracas mas o espaço de tempo se um dia vai parar vamos lá nós falamos com o dia que eu melhorei quantitativamente agora eu disse que ia levar mais habilidade só consegui reparar duas aí vai ter uma folha e essa habilidade sabe o sol O que é verdade já disse que a demanda é de quase sim tem a cada só não tem a habilidade para conseguir é é ali que esse e também vai para conseguir adquirir esse principal Luciana eles são quantos ativamente qualitativamente se vou sair fazer isso da maneira correta

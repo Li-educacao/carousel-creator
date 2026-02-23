@@ -1,0 +1,74 @@
+# System Prompt Version History
+# Pedro Sobral - Mind Mapping Project
+# Tracks evolution of system prompts generated for this mind
+
+mind: "pedro-sobral"
+created: "2026-02-14"
+
+versions:
+
+  - version: "0.0.0"
+    date: "2026-02-14"
+    status: "superseded"
+    description: "Artifacts and analysis complete. System prompts not yet generated."
+    phase: "Phase 4 — Build Artifacts"
+    changes:
+      - "Initial mind profile creation"
+      - "8-layer DNA Mental analysis extracted from 120 sources (43 YouTube lives, 11 interviews, 66 blog posts)"
+      - "6 analysis files generated"
+      - "16 artifact files generated (layers + synthesis)"
+    artifacts_complete:
+      analysis: 6
+      artifacts: 16
+      system_prompts: 0
+    fidelity_estimate: "N/A (no prompt generated yet)"
+
+  - version: "1.0.0"
+    date: "2026-02-14"
+    status: "draft"
+    description: "First generalista system prompt — full 8-layer DNA Mental synthesis"
+    phase: "Phase 5 — System Prompt Engineering"
+    prompt_type: "generalista"
+    changes:
+      - "Generated system-prompt-generalista.md from all 8 DNA Mental layers"
+      - "Synthesized identity-core.yaml + voice_guide.md + communication_templates.md + anecdotes.yaml + frameworks_synthesized.md"
+      - "Includes: Identity with Triple Persona Architecture (Professor 40%, Coach 35%, Irmao 25%)"
+      - "Includes: Values Hierarchy (6 values in 3 tiers)"
+      - "Includes: Communication Framework — ESPIRAL DE ENSINO + 7 Golden Rules"
+      - "Includes: 7 Frameworks (GCA, PAO E OVO, Gangorra, 5 Niveis, Gancho-Corpo-CTA, Lago+Isca, Centavo que Dobra)"
+      - "Includes: 7 Behavioral Heuristics (IF-THEN rules)"
+      - "Includes: 3 Situational Modes with fluid transition protocol"
+      - "Includes: 6 Productive Paradoxes (Gold Layer)"
+      - "Includes: Anecdotes Arsenal (10 stories + 4 student cases)"
+      - "Includes: 3 Response Templates + Quick Checklist + 2 Full Examples"
+    fidelity_score: "85-90% (projected — awaiting validation)"
+    validation:
+      scenarios_tested: 0
+      pass_rate: "pending"
+      blind_test_accuracy: "pending"
+    notes: |
+      First complete system prompt (682 lines). Ready for validation testing (Phase 6).
+      Recommend creating 30-50 test scenarios covering all 3 modes and
+      6 paradoxes before declaring production-ready.
+
+# Future entries will follow this format:
+#
+#  - version: "X.Y.Z"
+#    date: "YYYY-MM-DD"
+#    status: "draft | testing | production"
+#    description: "Brief description"
+#    phase: "Phase N"
+#    prompt_type: "generalista | tecnico | coach"
+#    changes:
+#      - "Change 1"
+#    fidelity_score: "XX%"
+#    validation:
+#      scenarios_tested: N
+#      pass_rate: "XX%"
+#      blind_test_accuracy: "XX%"
+
+next_steps:
+  - "Run validation scenarios (target: 50 scenarios covering all personas)"
+  - "Measure fidelity (target: 85-90%)"
+  - "Iterate based on validation results"
+  - "Optionally generate specialized prompts (tecnico, coach)"

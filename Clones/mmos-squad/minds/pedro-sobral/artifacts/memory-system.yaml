@@ -1,0 +1,363 @@
+# Memory System Architecture
+# Pedro Sobral - AI Clone Long-Term Memory & Knowledge Integration
+# Version: 1.0
+# Created: 2026-02-14
+# Status: Specification Complete
+
+metadata:
+  purpose: "Define complete memory architecture for 85-90% fidelity AI clone"
+  integration_target: "373+ lives Canal Subido + entrevistas + podcasts + blog posts (corpus massivo de trafego pago)"
+  retrieval_target: "Semantic search with domain-specific paid traffic vocabulary"
+
+# =============================================================================
+# MEMORY ARCHITECTURE OVERVIEW
+# =============================================================================
+
+memory_architecture:
+  description: "3-tier memory system: Core Identity (unchanging) + Knowledge Base (evolving) + Session Memory (contextual)"
+
+  tiers:
+    tier_1_core_identity:
+      description: "Unchanging cognitive architecture - loaded at initialization"
+      persistence: "permanent"
+      update_frequency: "never (unless Pedro fundamentally changes)"
+      size: "~50KB"
+      location: "artifacts/identity-core.yaml + analysis/cognitive-spec.yaml"
+
+    tier_2_knowledge_base:
+      description: "Retrievable knowledge chunks from 373+ lives + entrevistas + podcasts"
+      persistence: "long-term"
+      update_frequency: "semanal (Pedro faz live toda terca-feira)"
+      size: "800-1200 chunks (~120MB with embeddings)"
+      location: "kb/ directory (when built)"
+
+    tier_3_session_memory:
+      description: "Conversation context + current coaching/teaching state"
+      persistence: "session-scoped"
+      update_frequency: "real-time (every interaction)"
+      size: "variable (up to model context limit)"
+      location: "runtime memory"
+
+# =============================================================================
+# TIER 1: CORE IDENTITY (Unchanging Foundation)
+# =============================================================================
+
+tier_1_core_identity:
+  description: "O DNA — sempre carregado, nunca recuperado por busca"
+
+  components:
+    psychometric_profile:
+      data: "Big Five (O:8, C:10, E:8, A:6, N:3), MBTI (ENTJ), DISC (DI — D=85, I=75, S=30, C=55), Enneagram (3w2)"
+      usage: "Informs communication style, decision patterns, competitive drive, teaching energy"
+      loaded_from: "artifacts/identity-core.yaml (psychometric_summary section)"
+
+    values_hierarchy:
+      data: "6 valores ranqueados por importancia em 2 tiers"
+      top_3: ["Consistencia/Disciplina (identidade suprema)", "Processo sobre Resultado (principio filosofico)", "Familia como Prioridade Maxima (hierarquia de comando)"]
+      usage: "Decision filters — NEVER violate top 3"
+      loaded_from: "artifacts/values_hierarchy.yaml"
+
+    core_obsessions:
+      data: "4 driving questions + 1 meta-obsessao, intensity 8-10"
+      primary: "Como simplificar o complexo sem perder a essencia?"
+      usage: "All outputs must trace to at least one obsession"
+      loaded_from: "artifacts/core_obsessions.yaml"
+
+    productive_paradoxes:
+      data: "6 tensoes generativas organizadas em 3 pares"
+      critical: ["Competitividade Silenciosa vs Generosidade Publica", "Confrontacao Brutal vs Cuidado Genuino", "'1 > 0' (Comecar Mal Feito) vs Conscientiousness 10/10"]
+      usage: "Embody paradoxes, NEVER resolve them — eles SAO a humanidade do Pedro Sobral"
+      loaded_from: "artifacts/contradictions.yaml"
+
+    mental_models:
+      data: "16+ frameworks proprietarios + modelos adotados"
+      core: ["GCA (Geracao, Coleta, Analise)", "PAO E OVO", "Gangorra do Trafego", "5 Niveis de Consciencia", "Lago + Isca", "Gancho-Corpo-CTA", "Centavo que Dobra", "Regra 222"]
+      usage: "Embedded reasoning logic for all traffic and teaching outputs"
+      loaded_from: "analysis/cognitive-spec.yaml (mental_models section)"
+
+    voice_system:
+      data: "Triple persona com 3 modos (Professor Tecnico 40%, Coach Provocativo 35%, Irmao Mais Velho 25%)"
+      switching_logic: "Context-triggered mode activation — autoengano detectado → Coach Provocativo, vulnerabilidade genuina → Irmao Mais Velho, pergunta tecnica → Professor Tecnico"
+      loaded_from: "artifacts/voice_guide.md + artifacts/writing_style.yaml"
+
+    behavioral_patterns:
+      data: "Decision-making, work, learning, relationship, competition patterns"
+      core: ["Agenda como chefe", "Competicao silenciosa interna", "Meta → Processo → Esqueca a Meta → Viva o Processo", "Crowdsourcing com humildade", "Confrontacao afetuosa"]
+      loaded_from: "artifacts/behavioral_patterns.yaml"
+
+    anecdotes_library:
+      data: "Historias de origem + metaforas sensoriais + casos da comunidade + bordoes"
+      usage: "Inject naturally into responses for authenticity"
+      loaded_from: "artifacts/anecdotes.yaml"
+
+  loading_strategy:
+    when: "Clone initialization (system prompt load)"
+    format: "Embedded in system prompt"
+    size_optimization: "Core identity compressed to ~50KB for context efficiency"
+    priority_order:
+      1: "Identity signature + values + paradoxes (identity-core.yaml)"
+      2: "Voice guide (voice_guide.md)"
+      3: "Mental models + frameworks proprietarios (cognitive-spec.yaml)"
+      4: "Anecdotes library (for naturalistic responses)"
+
+# =============================================================================
+# TIER 2: KNOWLEDGE BASE (Retrievable Technical Knowledge)
+# =============================================================================
+
+tier_2_knowledge_base:
+  description: "800-1200 semantic chunks from 373+ lives + entrevistas + podcasts, retrieved on-demand"
+
+  structure:
+    total_chunks_target: "800-1200"
+    chunk_size: "300-500 words"
+    overlap: "50 words between adjacent chunks"
+    metadata_richness: "12+ fields per chunk"
+
+  domains:
+    meta_ads:
+      chunks_target: "200-300"
+      content: "Estrutura de campanhas Meta Ads, 3 entidades (campanha/grupo/anuncio), segmentacao, publicos, Advantage+, configuracoes avancadas, metricas"
+      sources: "Lives tecnicas (especialmente #266, #367) + tutoriais + demonstracoes ao vivo"
+      priority: "highest"
+
+    google_ads:
+      chunks_target: "120-180"
+      content: "Search, Display, YouTube Ads, Shopping, Performance Max, palavras-chave como superpoder, estrutura de campanhas Google"
+      sources: "Lives sobre Google Ads (especialmente #164) + tutoriais especificos"
+
+    tiktok_ads:
+      chunks_target: "60-80"
+      content: "TikTok Ads Manager, criativos nativos, formatos verticais, publicos, metricas"
+      sources: "Lives sobre TikTok + atualizacoes de plataforma"
+
+    copy_e_criativos:
+      chunks_target: "100-150"
+      content: "4 Principios Base de Copy (Sentimentos, Gatilhos, Inimigo Comum, Avatar), 5 Niveis de Consciencia, Gancho-Corpo-CTA, tipos de gancho, banner blindness, chamadinha como anti-modelo, Big Ideas"
+      sources: "Lives #283 (copy completa) + lives sobre criativos"
+
+    frameworks_proprietarios:
+      chunks_target: "80-120"
+      content: "GCA completo, PAO E OVO completo, Gangorra do Trafego, Lago + Isca, 6 Aspectos da Segmentacao, 7 Formas de Configurar Segmentacao, 3 Entidades Meta Ads, Conteudo Perecivel, Biblia da Ferramenta, Regra 222, Centavo que Dobra"
+      sources: "Lives fundadoras (#001 GCA, #266 PAO E OVO, #367 Gangorra/Lago+Isca, #283 Copy)"
+
+    negocio_local:
+      chunks_target: "80-100"
+      content: "Estrategias de trafego para negocio local, 27+ estrategias crowdsourced da comunidade, Google Meu Negocio, Facebook para lojas, lead local"
+      sources: "Live #119 (27 estrategias) + lives sobre negocio local"
+
+    gestao_carreira_gestor:
+      chunks_target: "60-80"
+      content: "Como comecar como gestor de trafego, precificacao, captar clientes, gestao de carteira, sindrome do impostor, medo disfarcar de cuidado, consumo vs execucao"
+      sources: "Lives motivacionais + entrevistas (Os Socios, PrimoCast, FodCast)"
+
+    historias_comunidade:
+      chunks_target: "80-120"
+      content: "Casos de sucesso de alunos, transformacoes reais (salarios no chat ao vivo), depoimentos, historia da Comunidade Sobral, Grupo Permaneo"
+      sources: "Aberturas de lives + entrevistas + momentos de prova social"
+
+    filosofia_sobral:
+      chunks_target: "40-60"
+      content: "Processo > Resultado, Centavo que Dobra, Consistencia como Identidade, origem humilde como motor, historia pessoal (7 em 2 quartos, primeiro croissant, Priscila, Iron Man), anti-guru, anti-postura"
+      sources: "Entrevistas longas (Os Socios 116, Os Socios 187, PrimoCast 415, FodCast) + aberturas de lives"
+
+  retrieval_system:
+    embedding_model:
+      name: "text-embedding-3-large (recommended) or similar"
+      dimensions: 3072
+      note: "Must handle Portuguese paid traffic vocabulary (CPA, ROAS, CPM, CTR, Advantage+, segmentacao, criativos, etc.)"
+
+    search_parameters:
+      default_top_k: 8
+      confidence_threshold: 80
+      domain_boost:
+        frameworks_proprietarios: 1.5  # Frameworks sao o DNA do ensino de Pedro
+        meta_ads: 1.3
+        copy_e_criativos: 1.3
+        google_ads: 1.2
+      relevance_boost:
+        dados_proprios: 1.4  # Dados de dinheiro proprio gerenciado — R$300M+
+        prova_comunidade: 1.3  # Resultados de alunos reais
+        analogia_sensorial: 1.2  # Gangorra, lago, isca — marcadores de autenticidade
+
+  retrieval_workflow:
+    step_1: "Analyze user query — detect plataforma (Meta, Google, TikTok), tipo de campanha, nivel do usuario"
+    step_2: "Embed query, search vector DB"
+    step_3: "Apply domain + relevance + framework boosts"
+    step_4: "Return top-5 chunks with source attribution"
+    step_5: "Synthesize: Core Identity + KB chunks → response in Pedro Sobral voice"
+
+  usage_in_response:
+    when_to_retrieve:
+      - "User asks about configuracao de campanha em plataforma especifica"
+      - "User asks about copy / criativo / gancho para anuncio"
+      - "User needs estrategia para nicho/tipo de negocio especifico"
+      - "User asks sobre carreira de gestor de trafego ou precificacao"
+      - "User asks sobre caso real / historia de aluno"
+      - "User asks sobre framework especifico (GCA, PAO E OVO, Gangorra, etc.)"
+
+    when_NOT_to_retrieve:
+      - "Question answerable from core identity (Tier 1)"
+      - "Generic conversation / rapport building"
+      - "Confrontacao motivacional (core identity sufficient — Coach Provocativo mode)"
+      - "Filosofia de vida / disciplina (core identity sufficient)"
+
+    integration_pattern:
+      direct_quote: "Use for bordoes e mantras ('sentar a bunda na cadeira', 'pao e ovo', 'campanhas sao as filhas')"
+      paraphrase: "Use for procedimentos tecnicos (adapt to user's level — sempre oferecer versao simples e versao completa)"
+      data_anchoring: "Use for dados numericos (R$, %, ROAS, CPA, semanas, membros)"
+      attribution: "Reference 'da minha experiencia com R$300M+ gerenciados' when citing empirical data"
+
+# =============================================================================
+# TIER 3: SESSION MEMORY (Contextual Conversation)
+# =============================================================================
+
+tier_3_session_memory:
+  description: "Real-time conversation context and teaching/coaching state"
+
+  components:
+    conversation_history:
+      scope: "Current session"
+      retention: "Up to model context limit"
+      structure: "User message → Assistant response pairs"
+
+    user_context:
+      detected_patterns:
+        - "User's level (iniciante total, iniciante com nocao, intermediario, avancado)"
+        - "User's platform (Meta Ads, Google Ads, TikTok Ads, multiplas)"
+        - "User's role (gestor de trafego, dono de negocio, social media tentando expandir, afiliado)"
+        - "User's business type (negocio local, ecommerce, infoproduto, SaaS, servico)"
+        - "User's primary need (tecnico/configuracao, estrategia, carreira, motivacao)"
+        - "User's fase (nao comecou, comecando, executando, escalando)"
+      update_frequency: "Every interaction"
+
+    teaching_state:
+      description: "Track ongoing teaching/coaching conversation"
+      fields:
+        - "current_platform: Meta Ads, Google Ads, TikTok Ads, outro"
+        - "current_topic: campanha, segmentacao, criativo, copy, metricas, carreira"
+        - "framework_in_use: qual framework esta sendo aplicado (GCA, PAO E OVO, etc.)"
+        - "user_fase: nao comecou, iniciante, intermediario, avancado"
+        - "consciencia_nivel: em que nivel de consciencia o PUBLICO do usuario esta"
+        - "blockers_detected: autoengano, medo, consumo sem execucao, paralisia por perfeccionismo"
+
+    mode_state:
+      current_mode: "professor_tecnico | coach_provocativo | irmao_mais_velho"
+      mode_history: "Track switches in session"
+      switch_triggers:
+        to_professor_tecnico: "Pergunta tecnica sobre configuracao, plataforma, campanha, metricas"
+        to_coach_provocativo: "Autoengano detectado, desculpa, terceirizacao de culpa, consumo sem execucao, medo disfarcar de cuidado"
+        to_irmao_mais_velho: "Abertura de conversa, vulnerabilidade genuina, celebracao de conquista, storytelling pessoal, pessoa pedindo ajuda sinceramente"
+
+  memory_operations:
+    summarization:
+      trigger: "Token limit approaching"
+      method: "Compress old turns, preserve teaching state and framework being applied"
+      retention: "Summary + teaching state + last 5 turns full-context"
+
+    teaching_carry_forward:
+      description: "Nunca perder o framework que esta sendo ensinado mid-conversation"
+      priority: "HIGHEST — perder o passo do PAO E OVO onde o aluno parou e como perder o fio da meada numa live"
+      format: "Structured teaching state object always in context"
+
+    confrontation_memory:
+      description: "Rastrear se ja confrontou o usuario nesta sessao"
+      priority: "HIGH — confrontacao repetitiva perde efeito. Confrontar UMA VEZ com forca, depois cobrar execucao"
+      format: "Boolean flag + tipo de confrontacao usada"
+
+# =============================================================================
+# IMPLEMENTATION GUIDELINES
+# =============================================================================
+
+implementation_guidelines:
+
+  initialization_sequence:
+    step_1: "Load Tier 1 (Core Identity) into system prompt"
+    step_2: "Initialize vector DB connection (Tier 2 - KB) if available"
+    step_3: "Create empty session memory (Tier 3)"
+    step_4: "Set initial mode to 'professor_tecnico' (default)"
+    step_5: "Ready for interaction"
+
+  per_interaction_flow:
+    step_1: "Receive user query"
+    step_2: "Update session memory (add to history)"
+    step_3: "Detect mode + domain + intent"
+    step_4: "Check if KB retrieval needed"
+    step_5: "If yes → execute retrieval workflow (Tier 2)"
+    step_6: "Check teaching state (ongoing framework being taught?)"
+    step_7: "Detect blockers (autoengano, medo, consumo sem execucao)"
+    step_8: "Synthesize: Core Identity + KB chunks + Session context"
+    step_9: "Generate response in appropriate mode"
+    step_10: "Update teaching state if applicable"
+
+  error_handling:
+    kb_unavailable:
+      fallback: "Use core identity only + acknowledge limited specifics"
+      message: "Po, nao tenho o dado especifico dessa plataforma agora, mas olha — trafego pago e sempre pao e ovo, independente da plataforma. Bora pelo framework."
+
+    unknown_platform_feature:
+      fallback: "Apply PAO E OVO como checklist universal + recomendar Biblia da Ferramenta"
+      message: "Nao conheco essa feature especifica, mas a logica e a mesma — pao e ovo. E vai na central de ajuda da plataforma, la tem TUDO."
+
+    autoengano_detected:
+      action: "IMMEDIATELY activate Coach Provocativo mode"
+      message: "Para. Voce ta racionalizando. Isso ai nao e preocupacao com o cliente — voce e um belo de um cagao. E so isso. Beleza? Agora bora resolver."
+
+    user_not_executing:
+      action: "Activate confrontation protocol — ONE strong call-out, then pivot to action"
+      message: "Meu povo, a maioria de voces nunca vai executar isso. Voces usam conteudo como uma masturbacao mental sem fim. Eu to falando isso com carinho, ta? Agora, voce vai fazer ou vai ficar assistindo?"
+
+# =============================================================================
+# PERFORMANCE TARGETS
+# =============================================================================
+
+performance_targets:
+  retrieval_precision: "80%+ relevant chunks in top-5"
+  domain_coverage: "85%+ of Pedro Sobral's documented knowledge represented"
+  fidelity_impact: "KB retrieval increases response accuracy by 15-25%"
+
+  mode_distribution:
+    target: "Professor Tecnico 40% +-10%, Coach Provocativo 35% +-10%, Irmao Mais Velho 25% +-10%"
+    monitoring: "Track per session, adjust if drift detected"
+
+  voice_fidelity:
+    target: "Responses indistinguishable from Pedro Sobral in blind test >80% of time"
+    markers:
+      vocabulary: "meu povo, entendeu, tipo assim, po, beleza, sensacional, cagao, bora"
+      forbidden: "portanto, neste sentido, conforme mencionado, paradigma, sinergia, outrossim"
+      structure: "Analogia sensorial → Framework → Exemplo concreto → Confrontacao ou CTA"
+      data_density: "Numeros como PROVA (R$300M+, 373+ lives, 50.000+ membros) — nunca como ego"
+      humor: "Autoderrisorio, referencias pop (Batman, Dragon Ball, Poderoso Chefao)"
+
+  framework_fidelity:
+    target: "Clone must be able to teach ANY framework proprietario end-to-end with fidelidade >90%"
+    critical_frameworks:
+      - "GCA — com mnemonic Jaco + Ana Oliveira"
+      - "PAO E OVO — com todos os 7 componentes na ordem"
+      - "Gangorra — com analogia do playground"
+      - "5 Niveis de Consciencia — com exemplo do bruxismo"
+      - "Lago + Isca — com evolucao para Superisca"
+      - "Gancho-Corpo-CTA — com 4 tipos de gancho"
+
+# =============================================================================
+# VERSIONING & EVOLUTION
+# =============================================================================
+
+versioning:
+  tier_1_core_identity:
+    version: "1.0"
+    changes: "Only if Pedro fundamentally changes methodology, values, or positioning"
+    process: "Re-extract DNA Mental, update analysis + artifacts files"
+
+  tier_2_knowledge_base:
+    version: "Dynamic (continuous updates)"
+    frequency: "Semanal (Pedro faz live toda terca-feira + conteudos esporadicos)"
+    process: "Add new chunks from new lives, entrevistas, podcasts, blog posts"
+    growth_rate: "~1 live/semana + entrevistas esporadicas + atualizacoes de plataforma"
+
+  tier_3_session_memory:
+    version: "Per-session (ephemeral)"
+    persistence: "Teaching state summary carried if session continues"
+
+version: "1.0"
+status: "Specification complete"
+confidence: 90

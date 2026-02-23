@@ -1,0 +1,14 @@
+# MANUTENÇÃO DE AR-CONDICIONADO: É possível reparar usando poucas ferramentas? #AME
+
+- **Video ID:** KjJC_15UpPw
+- **URL:** https://www.youtube.com/watch?v=KjJC_15UpPw
+- **Duration:** 4 min
+- **Views:** 178
+- **Published:** 2022-06-21T15:00:19Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+e quando você colocou começou a falar é sobre placa que tem conserto até então foi isso que me que me chamou atenção seus métodos seu trabalho você faz é isso aí que eu corria atrás e nesse ele escrever e também resposta de vocês descrição a primeira vez eu não escrevi né faltou grana uma plena mais esperto e não é a segunda vez fale agora não posso deixar passar vamos conversar com eles mas graças a Deus eu consegui fazer bola e no pedido não eu acho que ele arrepender se não tivesse feito é grátis é muito gratificante né a gente não pode esperar o céu né Mas a gente pode correr atrás a gente pode ir eu é isso eu estou Maravilhado concurso Não tenho nada que falar reclamar não é só aprendizagem Nossa conhecimento e daqui para frente mais e mais só isso é só começo né tá o porco tem um dia que é isto tudo bem nunca mais um emprego fixo assim e como é que é é uma estrutura é a minha estrutura você fala de trabalho aqui na hora extra isso em casa mesmo e é assim eu tenho minha bancada aqui eu tô falando contigo é aqui não é isso aqui ela eu faço serviço coragem né em casa das placa tem alguns equipamento aqui que você me deram a ideia de comprar né e Que carai é impressionante eu não sei se eu acho assim não é muito mandar para fazer massa de coisa né eu tenho eu multímetro aqui o que eu uso tem uma ligar eu tinha uma tela de solda você ver aprendida tem um carro de só daqui a potência é muito baixa eu vi ela tava sofrendo vocês me deram dela comprou 40 60 comprimidos 60 Nossa é a dificuldade acabou tá eu tenho a um sugador de solda solda muito bom então tudo que vocês passaram em mim o que eu tenho hoje que eu trabalho para te falar que tenha dinheiro eu tenho um amperímetro o ferro de solda em um sugador a soda pasta né Essa bancada que eu fiz só cara só com isso eu faço muitas coisas aí tá Através disso eu vou adquirindo outros equipamentos vou criticando preço né mas por isso aqui hoje eu faço bastante coisa bastante né voltar eu não imaginaria que ia fazer mais eu estou fazendo me organizei aqui com as minhas coisas né que é uma bagunça só falta ótimo não mas eu vou adquirir mais coisas né mas equipamento uma estação de solda né e eu vejo se der para os menino Coloca aí muitos equipamentos bacana A ideia é no futuro então ideia Opa isso aqui tá tá tô conseguindo pagar minha casa para meu calça que deve empresa aí ele é mais confortável é meu é mais é garantido só que né eu tô com Deus quiser trabalhando aqui nesse seguinte eu vou conseguir sim favor não é a receita fácil

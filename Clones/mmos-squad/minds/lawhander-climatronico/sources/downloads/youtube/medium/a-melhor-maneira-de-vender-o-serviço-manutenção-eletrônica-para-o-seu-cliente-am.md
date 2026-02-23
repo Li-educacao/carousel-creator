@@ -1,0 +1,14 @@
+# A MELHOR MANEIRA de vender o serviço MANUTENÇÃO ELETRÔNICA para o seu cliente #AME
+
+- **Video ID:** mnVxUnIXLro
+- **URL:** https://www.youtube.com/watch?v=mnVxUnIXLro
+- **Duration:** 3 min
+- **Views:** 210
+- **Published:** 2022-06-12T15:00:31Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+é trazer a inteligência do cliente as minhas contrário a manutenção eletrônica que é você economizar o dinheiro do cliente é um ganho tempos não sei que é um Ganda é o ganho ela eu ganho dinheiro com reparar placa não tem que economizar vai para o quarto e quando tem o teto do intermediário que ele ganhou porque ele porque ele tem um sapato também então por exemplo o Olá grande r$ 2000 o ar condicionado LG dual inverter LG Smart veto a universo o universo foi dois e três heróis fauna e foi duas vezes e aí perdeu a voz r$ 2000 e o Castilla coisa o celular então tá o verdade trocava dele e aí dá uma foto técnica agora e disse só bater reparo seu você vai vai tirar casa do Renan e vai levar para o piloto música para dar aquele aspecto reparo no máximo para o valor deles vamos supor valores aqui ó tomar com dois minerais que vai ser condenado a tua casa eu quero que era placa o cliente pergunta eu acho que até a placa a placa dessa na frente e ele 500 canais Ah beleza entendi ela mas não vou ver se vou levar no final que ele vai aparecer Patati isso é porque o reparo tá vai ser nós mesmos r$ 600 beleza melhor melhor certeza o que 1501 3.000 do meu vai funcionar eu relacionou Caraca bater tudo isso mesmo qualquer mais da metade do ar condicionado muitas vezes eu vou confirmar pela frente já parou cobrou r$ 350 parece que você acha que não tem maçônico 250 ficou ou técnico que foi lá e tirou e o cliente final pagou uma fração do valor da batedeira pagou menos de trinta por cento voltar a fazer isso é horroroso vendo aí então o crente ao menos o técnico é o dele e o final aprender até que pegou a visão então é o é assim que se vende um serviço uma pessoa tanto assim clareza do cliente sem falar garantia você falar na garantia do reparo É mas não adiantou nada não velho pra ver a garantia mesmo então vem desse eles porque a gente é muito fácil é melhor perguntar direito agora vai gastar mais virais não é só ou seissentos agora só 500 não vai ficar não vai querer mas eu aguento mais rápido que se for comprar uma ela vai anotar não vai demorar para chegar levaram pode ser entregue no mesmo dia dependendo do tipo de defeito tá então de novo ela é muito fácil de verdade sem mentira sem enrolada né Tem uma garota Instagram tipo de vendedor né é o cara que vende som mis vem enganação é só falar a verdade a melhor vértebra vai ser funcional porque por causa disso Disse isso que eu vi energia conforto térmico mais precioso interface DVD aí deu defeito desse da placa tem que rebati aqui a máquina esperado

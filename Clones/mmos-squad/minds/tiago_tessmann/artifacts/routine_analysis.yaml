@@ -1,0 +1,566 @@
+# =============================================================================
+# LAYER 3 — ROUTINE & HABITS ANALYSIS
+# Subject: Tiago Tessmann
+# Pipeline: MMOS DNA Mental v3.0 — Phase 2
+# Agent: @daniel-behavioral-analyst (L2-L3)
+# Generated: 2026-02-15
+# Sources: 17 YouTube transcripts (canal proprio + podcasts)
+# =============================================================================
+
+metadata:
+  subject: "Tiago Tessmann"
+  layer: 3
+  layer_name: "Routine & Habits"
+  version: "1.0.0"
+  generated_at: "2026-02-15"
+  confidence: 0.88
+  source_count: 17
+  primary_sources:
+    - "como-ter-alta-performance-10-hbitos-para-ter-mais-produtividade.md"
+    - "10-pilares-essenciais-para-viver-em-alta-performance-dicas-prticas-para-alcanar-seus-objetivos.md"
+    - "20-ferramentas-essenciais-para-voc-ser-mais-produtivo-e-faturar-mais-podcast-extremo-126.md"
+    - "abrindo-a-caixa-preta-das-minhas-empresas-tudo-sobre-o-universo-extremo-podcast-extremo-129.md"
+    - "como-construir-um-pensamento-estratgico-com-ramon-tessmann-podcast-extremo-109.md"
+    - "5-processos-de-uma-agncia-de-marketing-de-alta-performance-podcast-extremo-102.md"
+    - "como-evitar-os-6-erros-mais-comuns-no-google-ads.md"
+    - "os-maiores-erros-que-esto-fazendo-empresrios-perder-dinheiro-podcast-extremo-144.md"
+    - "como-crescer-sua-agncia-de-forma-organizada-com-ramon-tessmann-podcast-extremo-96.md"
+    - "gestor-de-trfego-como-atender-muitos-clientes-e-faturar-25-mil-por-ms-podcast-extremo-105.md"
+
+# =============================================================================
+# TEMPORAL PATTERNS — Daily/Weekly/Monthly/Annual Structure
+# =============================================================================
+
+temporal_patterns:
+
+  daily_structure:
+    morning:
+      wake_up:
+        description: "Acorda cedo, mas NAO e madrugador extremo. Prioriza sono de qualidade sobre acordar as 5h."
+        evidence:
+          - quote: "tenho que dormir no minimo 8 horas"
+            source: "como-ter-alta-performance-10-hbitos"
+          - quote: "eu decidi nao trabalhar pela manha como eu faco mentorias a noite"
+            source: "10-pilares-essenciais"
+        pattern: "Manha e tempo pessoal, nao de trabalho"
+
+      breakfast_and_gym:
+        time: "~10:00"
+        description: "Cafe da manha seguido de academia. Descobriu empiricamente que 10h e seu horario ideal de treino."
+        evidence:
+          - quote: "percebi que as 10 horas da manha e o meu treino perfeito"
+            source: "como-ter-alta-performance-10-hbitos"
+          - quote: "tomo cafe da manha e vou para academia"
+            source: "10-pilares-essenciais"
+        duration: "~1-1.5 horas"
+        non_negotiable: true
+
+    afternoon:
+      work_block:
+        description: "Bloco principal de trabalho comeca apos a academia. Foco em tarefas estrategicas, gravacoes, reunioes."
+        evidence:
+          - quote: "trabalho ate as 7, 8 horas da noite"
+            source: "como-ter-alta-performance-10-hbitos"
+        pattern: "Trabalho concentrado no periodo da tarde"
+
+    evening:
+      mentorias:
+        description: "Mentorias acontecem a noite. Escolheu esse horario para preservar a manha."
+        evidence:
+          - quote: "eu faco mentorias a noite"
+            source: "10-pilares-essenciais"
+        pattern: "Noite dedicada a mentorias e atendimento a alunos"
+
+      wind_down:
+        meditation:
+          tool: "Headspace"
+          description: "Meditacao guiada antes de dormir usando o app Headspace."
+          evidence:
+            - quote: "eu uso um aplicativo chamado Headspace... antes de dormir de noite eu coloco o aplicativo e ele vai te guiando"
+              source: "como-ter-alta-performance-10-hbitos"
+
+        devotional:
+          description: "Devocional diario/oracao como pratica espiritual antes de dormir."
+          evidence:
+            - quote: "faco o meu devocional e oro antes de dormir"
+              source: "como-ter-alta-performance-10-hbitos"
+          non_negotiable: true
+
+      sleep:
+        bedtime: "~23:00"
+        hours: 8
+        description: "Dorme no minimo 8 horas. Prioriza sono como pilar de alta performance."
+        evidence:
+          - quote: "tenho que dormir no minimo 8 horas... dormir as 11 e o minimo"
+            source: "como-ter-alta-performance-10-hbitos"
+        non_negotiable: true
+
+  weekly_structure:
+    monday:
+      description: "Dia de Mentoria Extrema. Faz mentorias ao vivo com alunos do programa."
+      evidence:
+        - quote: "toda segunda-feira eu faco uma mentoria extrema"
+          source: "como-evitar-os-6-erros-mais-comuns-no-google-ads"
+      recurring: true
+
+    thursday:
+      description: "Quinta-feira a noite e dia da familia. Inegociavel."
+      evidence:
+        - quote: "toda quinta-feira a noite e o dia da familia"
+          source: "como-ter-alta-performance-10-hbitos"
+      non_negotiable: true
+
+    sunday:
+      description: "Igreja todo domingo. Inegociavel."
+      evidence:
+        - quote: "na igreja todo domingo e inegociavel"
+          source: "10-pilares-essenciais"
+      non_negotiable: true
+
+    content_days:
+      description: "Gravacao de podcasts e conteudo em dias especificos (nao revelados exatamente, mas concentrados)."
+      pattern: "Prefere gravar em blocos longos (1 hora) e cortar em pecas menores"
+
+  monthly_patterns:
+    events_and_lives:
+      description: "Participa de eventos, faz lives, grava Podcast Extremo regularmente."
+      evidence:
+        - quote: "eu faco o Podcast Extremo... convido pessoas que faturam muito"
+          source: "abrindo-a-caixa-preta-das-minhas-empresas"
+      cadence: "Semanal a quinzenal para podcast"
+
+    financial_review:
+      description: "Acompanhamento financeiro das empresas. Defende controle diario."
+      evidence:
+        - quote: "voce nao pode nao acompanhar o fluxo de caixa diariamente"
+          source: "os-maiores-erros-empresarios-perder-dinheiro"
+
+  quarterly_patterns:
+    mini_vacations:
+      description: "Mini-ferias a cada 2-3 meses. Considera fundamental para ideias estrategicas."
+      evidence:
+        - quote: "as minhas melhores ideias e de negocios estrategias Eu Tenho Em Momentos de ferias"
+          source: "como-ter-alta-performance-10-hbitos"
+        - quote: "a cada dois tres meses eu tiro de cinco a sete dias de ferias"
+          source: "como-ter-alta-performance-10-hbitos"
+      duration: "5-7 dias"
+      purpose: "Recarregar energia + gerar ideias estrategicas"
+      non_negotiable: true
+
+  annual_patterns:
+    health_checkups:
+      description: "Checkups medicos 2x por ano."
+      evidence:
+        - quote: "eu faco 2 checkups por ano"
+          source: "como-ter-alta-performance-10-hbitos"
+      frequency: "semestral"
+
+    events_calendar:
+      description: "Eventos presenciais do Conversao Extrema e Altitude ao longo do ano."
+      pattern: "Eventos maiores concentrados em periodos estrategicos"
+
+# =============================================================================
+# PRODUCTIVITY SYSTEM
+# =============================================================================
+
+productivity_system:
+
+  core_philosophy:
+    description: "Alta performance nao e sobre trabalhar mais horas, e sobre ser saudavel e estrategico."
+    evidence:
+      - quote: "nem tudo que cresce e saudavel mas tudo que e saudavel cresce"
+        source: "como-ter-alta-performance-10-hbitos"
+      - quote: "alta performance nao e trabalhar 18 horas por dia"
+        source: "10-pilares-essenciais"
+
+  tools:
+    primary:
+      - name: "Google Calendar"
+        usage: "Agenda principal. Tudo passa pelo calendario."
+        evidence:
+          - quote: "se nao ta na agenda nao existe... Google Agenda"
+            source: "como-ter-alta-performance-10-hbitos"
+
+      - name: "Google Ads"
+        usage: "Ferramenta #1 de trabalho. Veiculo principal de trafego pago."
+        evidence:
+          - quote: "Google Ads e sem duvida a ferramenta que mais me gerou resultados"
+            source: "20-ferramentas-essenciais"
+
+      - name: "Meta Ads (Facebook/Instagram)"
+        usage: "Segunda plataforma de trafego. Foco em desejo/descoberta."
+        evidence:
+          - quote: "o Instagram e a plataforma do desejo"
+            source: "20-ferramentas-essenciais"
+
+      - name: "Headspace"
+        usage: "Meditacao guiada antes de dormir"
+        evidence:
+          - quote: "eu uso um aplicativo chamado Headspace"
+            source: "como-ter-alta-performance-10-hbitos"
+
+    business_management:
+      - name: "Basecamp"
+        usage: "Gestao de projetos na agencia (usado nos primordios, referenciado por Ramon)"
+        evidence:
+          - quote: "a gente usava o Basecamp"
+            source: "como-crescer-sua-agncia-de-forma-organizada"
+
+      - name: "Controle (SaaS proprio)"
+        usage: "Plataforma financeira propria para gestores de trafego e agencias."
+        evidence:
+          - quote: "a gente tem uma plataforma de gestao financeira chamada Controle"
+            source: "os-maiores-erros-empresarios-perder-dinheiro"
+
+  delegation_philosophy:
+    description: "Delegar cedo e estrategicamente. Primeira contratacao foi um editor de video."
+    evidence:
+      - quote: "a primeira pessoa que eu contratei foi o Rafa Duarte que era meu editor de video"
+        source: "como-ter-alta-performance-10-hbitos"
+      - quote: "a primeira pessoa que eu contratei em 2016 foi um editor de video"
+        source: "como-criar-o-tipo-de-anncio-que-mais-gera-vendas"
+    principles:
+      - "Delegar o que voce nao e bom ou o que consome tempo desproporcional"
+      - "Primeiro contratacao: video editor (Rafa Duarte, 2016)"
+      - "Assistente pessoal para gerenciar agenda"
+      - "Brother Ramon como socio operacional/estrategico"
+
+  energy_management:
+    description: "Gerencia energia, nao apenas tempo. Investe em saude como pilar de produtividade."
+    supplements:
+      count: "7-8 suplementos diarios"
+      evidence:
+        - quote: "eu tomo de sete a oito suplementos por dia"
+          source: "como-ter-alta-performance-10-hbitos"
+      professionals:
+        - "Nutricionista"
+        - "Nutrologista"
+      evidence_professionals:
+        - quote: "eu tenho uma nutricionista e um nutrologo"
+          source: "como-ter-alta-performance-10-hbitos"
+
+# =============================================================================
+# HEALTH & WELLNESS HABITS
+# =============================================================================
+
+health_habits:
+
+  exercise:
+    type: "Academia/musculacao"
+    time: "10:00"
+    frequency: "Diaria"
+    description: "Treino e pilar central. Descobriu horario ideal por experimentacao."
+    evidence:
+      - quote: "percebi que as 10 horas da manha e o meu treino perfeito"
+        source: "como-ter-alta-performance-10-hbitos"
+    non_negotiable: true
+
+  nutrition:
+    approach: "Acompanhamento profissional duplo"
+    description: "Nutricionista para alimentacao + nutrologo para suplementacao."
+    evidence:
+      - quote: "eu tenho uma nutricionista e um nutrologo"
+        source: "como-ter-alta-performance-10-hbitos"
+    supplements:
+      daily_count: "7-8"
+      purpose: "Energia, foco, sono, performance geral"
+      evidence:
+        - quote: "eu tomo de sete a oito suplementos por dia... vitamina D, omega 3, creatina"
+          source: "como-ter-alta-performance-10-hbitos"
+
+  sleep:
+    hours: 8
+    bedtime: "23:00"
+    priority: "Maxima — considera sono o pilar mais importante de performance"
+    evidence:
+      - quote: "tenho que dormir no minimo 8 horas"
+        source: "como-ter-alta-performance-10-hbitos"
+
+  mental_health:
+    meditation:
+      frequency: "Diaria (antes de dormir)"
+      tool: "Headspace"
+    spirituality:
+      practices:
+        - "Devocional diario"
+        - "Oracao antes de dormir"
+        - "Igreja todo domingo"
+      evidence:
+        - quote: "faco o meu devocional e oro antes de dormir"
+          source: "como-ter-alta-performance-10-hbitos"
+        - quote: "na igreja todo domingo e inegociavel"
+          source: "10-pilares-essenciais"
+
+  preventive_care:
+    checkups:
+      frequency: "2x por ano"
+      evidence:
+        - quote: "eu faco 2 checkups por ano"
+          source: "como-ter-alta-performance-10-hbitos"
+
+# =============================================================================
+# CONTENT CREATION CADENCE
+# =============================================================================
+
+content_creation:
+
+  philosophy:
+    description: "Conteudo e combustivel para autoridade e vendas. Produzir em volume e cortar."
+    evidence:
+      - quote: "eu gravo uma hora de conversa e o meu time pega e transforma em 30 40 criativos"
+        source: "como-evitar-os-6-erros-mais-comuns-no-google-ads"
+
+  formats:
+    podcast:
+      name: "Podcast Extremo"
+      description: "Principal veiculo de conteudo. Entrevista alunos e cases de sucesso."
+      cadence: "Semanal a quinzenal"
+      style: "Conversacional, com cases reais e numeros"
+      evidence:
+        - quote: "eu faco o Podcast Extremo... convido pessoas que faturam muito"
+          source: "abrindo-a-caixa-preta-das-minhas-empresas"
+
+    video_ads:
+      description: "Produz videos longos (1 hora) cortados em dezenas de criativos para anuncios."
+      evidence:
+        - quote: "eu gravo uma hora de conversa... 30 40 criativos"
+          source: "como-evitar-os-6-erros-mais-comuns-no-google-ads"
+      production_model:
+        input: "1 hora de gravacao"
+        output: "30-40 pecas criativas (cortes, adaptacoes)"
+        team: "Editor de video + time criativo"
+
+    lives:
+      description: "Lives e eventos ao vivo para engajamento e lancamentos."
+      pattern: "Sazonais, ligadas a lancamentos"
+
+    events:
+      description: "Eventos presenciais (palestras, workshops do Conversao Extrema/Altitude)."
+      pattern: "Periodicos ao longo do ano"
+
+  creative_process:
+    description: "Delega edicao desde 2016. Foco em gravar conteudo bruto e deixar time refinar."
+    first_hire: "Rafa Duarte (editor de video, 2016)"
+    evidence:
+      - quote: "a primeira pessoa que eu contratei foi o Rafa Duarte que era meu editor de video"
+        source: "como-ter-alta-performance-10-hbitos"
+    approach: "Grava em blocos longos, corta em pecas. Volume > perfeicao."
+    testing: "Testa 100 videos para encontrar 5 'garanhoes' (vencedores)."
+    evidence_testing:
+      - quote: "a gente testa 100 videos para encontrar 5 garanhoes"
+        source: "como-criar-o-tipo-de-anncio-que-mais-gera-vendas"
+
+# =============================================================================
+# SOCIAL & RELATIONAL RHYTHMS
+# =============================================================================
+
+social_rhythms:
+
+  family:
+    thursday_night:
+      description: "Quinta-feira a noite dedicada a familia. Inegociavel."
+      evidence:
+        - quote: "toda quinta-feira a noite e o dia da familia"
+          source: "como-ter-alta-performance-10-hbitos"
+      non_negotiable: true
+
+    mini_vacations:
+      description: "Ferias em familia a cada 2-3 meses, 5-7 dias."
+      evidence:
+        - quote: "a cada dois tres meses eu tiro de cinco a sete dias de ferias"
+          source: "como-ter-alta-performance-10-hbitos"
+
+  spirituality:
+    sunday_church:
+      description: "Igreja todo domingo. Inegociavel."
+      evidence:
+        - quote: "na igreja todo domingo e inegociavel"
+          source: "10-pilares-essenciais"
+      non_negotiable: true
+
+  business_partner:
+    name: "Ramon Tessmann"
+    relationship: "Irmao e socio"
+    dynamic: "Ramon e o organizador/estrategista, Tiago e o comunicador/executor."
+    evidence:
+      - quote: "o Ramon que e meu socio e meu irmao"
+        source: "como-crescer-sua-agncia-de-forma-organizada"
+    history: "Agencia comecou no apartamento do Ramon (73m2) em 2009/2010. Tiago entrou em marco de 2011."
+
+  mentoring_community:
+    description: "Relacao ativa com alunos do Conversao Extrema e membros do Altitude."
+    mentorias:
+      day: "Segunda-feira"
+      format: "Mentoria ao vivo com alunos"
+      evidence:
+        - quote: "toda segunda-feira eu faco uma mentoria extrema"
+          source: "como-evitar-os-6-erros-mais-comuns-no-google-ads"
+
+    podcast_guests:
+      description: "Convida alunos de sucesso para o Podcast Extremo como cases."
+      evidence:
+        - quote: "eu faco o Podcast Extremo... convido pessoas que faturam muito com trafego pago"
+          source: "abrindo-a-caixa-preta-das-minhas-empresas"
+
+  team:
+    agency: "Blueberry"
+    size: "60+ pessoas"
+    key_people:
+      - name: "Marina Cardoso"
+        role: "COO da Blueberry"
+        evidence:
+          - quote: "a Marina Cardoso que e a diretora operacional da Blueberry"
+            source: "5-processos-de-uma-agncia"
+      - name: "Rafa Duarte"
+        role: "Editor de video (primeira contratacao, 2016)"
+      - name: "Ramon Tessmann"
+        role: "Socio e irmao"
+    growth_history: "De 6-10 pessoas para 60+ ao longo dos anos."
+    evidence:
+      - quote: "a gente cresceu de 6 10 pessoas para mais de 60"
+        source: "5-processos-de-uma-agncia"
+
+# =============================================================================
+# BUSINESS MANAGEMENT ROUTINES
+# =============================================================================
+
+business_routines:
+
+  financial_management:
+    description: "Controle financeiro diario. Separacao PF/PJ. Fluxo de caixa rigido."
+    evidence:
+      - quote: "voce nao pode nao acompanhar o fluxo de caixa diariamente"
+        source: "os-maiores-erros-empresarios-perder-dinheiro"
+    principles:
+      - "Separar financas pessoais de empresariais (PF vs PJ)"
+      - "Acompanhar fluxo de caixa diariamente"
+      - "Ter contador e sistema de gestao financeira"
+      - "Nao misturar dinheiro da empresa com despesas pessoais"
+
+  agency_processes:
+    description: "5 processos-chave na agencia Blueberry"
+    evidence:
+      - quote: "80% do Sucesso do seu cliente a satisfacao ta baseada no atendimento ne e 20% na parte tecnica"
+        source: "5-processos-de-uma-agncia"
+    key_processes:
+      - "Atendimento ao cliente (80% do sucesso)"
+      - "Parte tecnica de trafego (20%)"
+      - "Treinamento continuo do time"
+      - "Processos nunca estao 100% prontos — melhoria continua"
+      - "Organizacao antes de escala"
+
+  strategic_planning:
+    approach: "Planejamento por fases (Ready Fire Aim / Where Fire Aim)"
+    evidence:
+      - quote: "de todas as estrategias nao existe a melhor existe a que voce vai focar e ser consistente"
+        source: "como-construir-um-pensamento-estratgico"
+    tools:
+      - "Metas SMART"
+      - "Metafora da escada (proximo degrau)"
+      - "Pensar no proximo nivel, nao 10 niveis acima"
+
+  client_management:
+    peak_capacity: "100 clientes simultaneos (periodo de gestor solo)"
+    evidence:
+      - quote: "eu ja cheguei a atender 100 clientes ao mesmo tempo"
+        source: "gestor-de-trfego-como-atender-muitos-clientes"
+    evolution: "De gestor solo atendendo 100 clientes para CEO de ecossistema com 60+ pessoas"
+    philosophy: "Foco em faturamento por cliente, nao quantidade"
+
+# =============================================================================
+# LEARNING & GROWTH CADENCE
+# =============================================================================
+
+learning_cadence:
+
+  books:
+    approach: "Referencias a livros especificos em contextos de ensino"
+    mentioned:
+      - title: "Ready Fire Aim"
+        context: "Estrategia de crescimento por fases"
+        evidence:
+          - quote: "tem um livro chamado Where Fire Aim... ele fala sobre as fases de crescimento de um negocio"
+            source: "como-construir-um-pensamento-estratgico"
+
+  mentoring_received:
+    description: "Busca mentorias e eventos de alto nivel para crescimento pessoal."
+    evidence:
+      - quote: "eu invisto em mentorias, eu invisto em eventos"
+        source: "10-pilares-essenciais"
+
+  continuous_improvement:
+    philosophy: "Trafego e teste. Processo nunca esta pronto. Evolucao constante."
+    evidence:
+      - quote: "teste e eterno"
+        source: "o-que-e-como-fazer-testes-no-trfego-pago"
+      - quote: "o que funcionava em 2018 nao funciona hoje"
+        source: "como-criar-o-tipo-de-anncio-que-mais-gera-vendas"
+
+  teaching_as_learning:
+    description: "Ensinar e sua principal forma de aprender. Mentorias, podcast, eventos."
+    pattern: "Ensina o que pratica na agencia Blueberry para os alunos do Conversao Extrema"
+
+# =============================================================================
+# NON-NEGOTIABLES (Inegociaveis)
+# =============================================================================
+
+non_negotiables:
+  - item: "8 horas de sono"
+    category: "saude"
+    quote: "tenho que dormir no minimo 8 horas"
+
+  - item: "Treino na academia (10h)"
+    category: "saude"
+    quote: "percebi que as 10 horas da manha e o meu treino perfeito"
+
+  - item: "Igreja todo domingo"
+    category: "espiritualidade"
+    quote: "na igreja todo domingo e inegociavel"
+
+  - item: "Quinta-feira a noite = familia"
+    category: "familia"
+    quote: "toda quinta-feira a noite e o dia da familia"
+
+  - item: "Mini-ferias a cada 2-3 meses"
+    category: "recuperacao"
+    quote: "a cada dois tres meses eu tiro de cinco a sete dias de ferias"
+
+  - item: "Devocional e oracao antes de dormir"
+    category: "espiritualidade"
+    quote: "faco o meu devocional e oro antes de dormir"
+
+  - item: "Meditacao (Headspace) antes de dormir"
+    category: "saude_mental"
+    quote: "eu uso um aplicativo chamado Headspace"
+
+  - item: "Separacao financas PF/PJ"
+    category: "negocios"
+    quote: "voce nao pode misturar o dinheiro pessoal com o dinheiro da empresa"
+
+# =============================================================================
+# SIGNATURE PHRASES (Frases que revelam rotina/habitos)
+# =============================================================================
+
+signature_phrases:
+  - phrase: "nem tudo que cresce e saudavel mas tudo que e saudavel cresce"
+    context: "Filosofia central de vida e negocios"
+    frequency: "Repetida em multiplos conteudos"
+    sources:
+      - "como-ter-alta-performance-10-hbitos"
+      - "como-crescer-sua-agncia-de-forma-organizada"
+
+  - phrase: "se nao ta na agenda nao existe"
+    context: "Organizacao pessoal via Google Calendar"
+    frequency: "Alta"
+
+  - phrase: "alta performance nao e trabalhar 18 horas por dia"
+    context: "Contra-narrativa ao hustle culture"
+    frequency: "Media"
+
+  - phrase: "as minhas melhores ideias eu tenho em momentos de ferias"
+    context: "Justificativa para mini-ferias regulares"
+    frequency: "Media"
+
+  - phrase: "o que ganha jogo nao e talento e comprometimento"
+    context: "Filosofia de trabalho e disciplina"
+    frequency: "Alta"

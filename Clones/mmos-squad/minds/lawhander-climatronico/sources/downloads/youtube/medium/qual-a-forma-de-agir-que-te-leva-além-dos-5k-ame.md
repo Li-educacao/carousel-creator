@@ -1,0 +1,14 @@
+# Qual a forma de agir que te leva ALÉM DOS 5k? #AME
+
+- **Video ID:** Gp1vlskbVb0
+- **URL:** https://www.youtube.com/watch?v=Gp1vlskbVb0
+- **Duration:** 3 min
+- **Views:** 174
+- **Published:** 2021-10-23T15:00:06Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+e quando chegar Nossa Filosofia é o que a gente se importa com o reparo a gente não quer só ganhar um dinheiro reparo sim bem dinheiro dá para depender parte sobre mas é Além disso não é só reparar para Mentir é parar porque a gente goste reparar Édipo médico que trabalha com orgulho também a gente que gosta de sensação de tava reparando está aprendendo a gente é uma prendedor constantemente aprendendo na manutenção A tônica instalado condicionamentos que fazem evoluir constantemente ou se você gosta dessa evolução por exemplo é muito em site empresa de trabalho na empresa e só lembrando que esse estagnado uma cinco seis a dez não posso mesmo eu faço essa coisa aí eu não sinto o que eu um patamar maior é às vezes me incomoda muita gente tem que ficar tudo isso e também aí né nas pessoas mas muitas vezes o cara ele se compara com esse Pituaçu bom então sinal que marca aqui ó filosofia Jéssica a pérola Filosofia de análise de trabalho de posicionamento no mercado da de entender um reparo saber qual componente de trocar saber o porquê que tá trazendo componente embora às vezes tem que trocar mas o controle para testar tem café trouxe trocar devem usufruir desse bem como é que você disse que tá com isso aí para você ver de terra e nós preciso trocar o concorrente é só um tocador de coco a gente faz isso não necessariamente se eu souber eu tô fazendo caso eu coloquei aqui eu restringe o refeitório banheiro eu vou trocar aí para ver se é mesmo então aí aí você você você tá trabalhando com lógica com os fundamentos de eletrônica na conta telefônica da necessidade tá sabe utilizar um multímetro você sabe fazer medições com um jeito ele tem um multímetro você utilizar hoje então tente ver no mercado é que o eletricista o cara o cara não é fácil e ele só na parte usa um teste não é o único pensamento o cara tem uma casa para fazer aferições eu tirava edições nem pagamento me fez alérgicas é compaixão dois tem dinheiro na casa pouco dessa onda e deixar um queimar para fica verde quando aquela Detenção já estão eu consigo ou seja com 220 entendeu então tá dessa hoje eu vim aqui na nossa mental hoje política é igualzinho são eu achei o sagu energia ouvir na casa daí a gente coloca tava no teste hooka la cocina es dica não fecha ele é uma ligeira tensão alternada lá vamos ter enfim é Então faz contra com climatronic toda essa galera que ele não tem fundamento de fato isso é o que leva o garoto muito para tomar essa passa fundamente não é um nome que julgo mais

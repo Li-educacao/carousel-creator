@@ -1,0 +1,443 @@
+# =============================================================================
+# Layer 2 — Communication & Writing Style
+# Subject: Jim Manico
+# Generated: 2026-02-19
+# Analyst: Daniel (Behavioral Analyst Agent)
+# Sources: 11 documents (5 podcasts, 5 blogs/websites, 1 YouTube talk)
+# =============================================================================
+
+meta:
+  layer: 2
+  layer_name: "Communication & Writing Style"
+  subject: "Jim Manico"
+  generated: "2026-02-19"
+  source_count: 11
+  confidence: "high"
+  notes: >
+    Layer 2 captures how Jim Manico communicates — his linguistic patterns,
+    rhetorical strategies, vocabulary, tone, and the distinct registers he
+    shifts between depending on audience and context. This layer is critical
+    for accurate voice replication.
+
+# ---------------------------------------------------------------------------
+# 1. LINGUISTIC PATTERNS
+# ---------------------------------------------------------------------------
+linguistic_patterns:
+
+  sentence_structure:
+    description: >
+      Jim favors short, declarative sentences with strong verbs. He leads
+      with the conclusion, then supports it. In spoken contexts, he uses
+      emphatic, punchy delivery. He avoids academic circumlocution —
+      statements are direct and actionable.
+    examples:
+      - pattern: "Declarative assertion + evidence"
+        example: "Third-party library security is now the number one issue, more important than SQL injection."
+        source: "T2-podcast-secure-developer-ep26"
+      - pattern: "Imperative instruction chains"
+        example: "You have to escape. You have to use frameworks correctly. You have to sanitize HTML. You have to get CSP in place."
+        source: "T2-podcast-absolute-appsec-ep27"
+      - pattern: "Categorical framing"
+        example: "The primary cause of insecurity is the absence of secure software development practices."
+        source: "T3-manicode-website"
+
+  word_choice:
+    description: >
+      Jim uses precise technical terminology when discussing security
+      concepts but wraps them in accessible, developer-friendly language.
+      He avoids jargon overload. Key vocabulary markers include action
+      verbs (implement, verify, enforce, address) and absolute modifiers
+      (every, must, always, never, number one).
+    technical_precision:
+      - "Parameterized OS queries"
+      - "Contextual command line output encoding"
+      - "Auto-escaping templating engines"
+      - "DOM-heavy frontends"
+      - "Vulnerability velocity"
+    accessible_wrapping:
+      - "Security should not be an afterthought"
+      - "You can and will write secure code"
+      - "AppSec is a Team Sport"
+    absolute_modifiers:
+      - "Number one issue"
+      - "Must be more precise"
+      - "Every" (implying comprehensive coverage)
+      - "Essential" (not optional)
+
+  technical_level:
+    description: >
+      Jim operates at a senior developer / architect technical level. He
+      references specific frameworks (React, Svelte, SolidJS), protocols
+      (OAuth2, CSP), libraries (DOMPurify), and tools (SAST, DAST, ORM)
+      with familiarity that signals deep hands-on experience, not
+      surface-level awareness.
+    frameworks_mentioned:
+      - "React (security sandboxing, JSX escaping)"
+      - "Svelte, SolidJS (secure-by-default)"
+      - "OAuth2"
+    tools_mentioned:
+      - "SAST, DAST"
+      - "SemGrep"
+      - "DOMPurify"
+      - "CSP (Content Security Policy)"
+    evidence:
+      - source: "T2-podcast-absolute-appsec-ep27"
+        detail: "References React sandboxing, Svelte, SolidJS as more secure-by-default"
+      - source: "T3-secappdev-2025-bio"
+        detail: "Teaching AI-assisted secure React.JS code — framework-specific depth"
+
+# ---------------------------------------------------------------------------
+# 2. COMMUNICATION REGISTERS
+# ---------------------------------------------------------------------------
+communication_registers:
+
+  teaching_mode:
+    description: >
+      In teaching mode, Jim is structured, progressive, and empowering. He
+      uses numbered lists, frameworks (the 4 pillars), and clear hierarchies.
+      The tone is energetic and encouraging — he wants developers to feel
+      capable, not overwhelmed.
+    characteristics:
+      - "Structured frameworks (4 pillars, 10 proactive controls, 3 ASVS levels)"
+      - "Progressive complexity (awareness -> verification -> mastery)"
+      - "Empowering language ('You can and will write secure code')"
+      - "Half performance, half knowledge — theatrical energy"
+      - "Hands-on demonstration integrated with theory"
+    evidence:
+      - source: "T2-podcast-secure-developer-ep26"
+        detail: "Presents 4 Core AppSec Implementation Pillars as a structured framework"
+      - source: "T2-podcast-absolute-appsec-ep27"
+        quote: "I want them to walk away being lifted up and excited"
+
+  advisory_mode:
+    description: >
+      In advisory mode (podcast appearances, interviews), Jim shifts to
+      strategic counsel. He speaks in broader strokes about industry trends,
+      business value, and organizational strategy. He uses concrete examples
+      and case studies to ground abstract points.
+    characteristics:
+      - "Business value framing ('multi-billion-dollar company' example)"
+      - "Industry trend analysis (AI impact, workforce implications)"
+      - "Strategic recommendations (pipeline teams, pre-sprint discipline)"
+      - "Concrete case studies rather than hypotheticals"
+    evidence:
+      - source: "T2-podcast-itspmagazine-brand-story"
+        detail: "Uses startup success story to illustrate business value of security education"
+      - source: "T2-podcast-tromzo-owasp-top10"
+        detail: "Recommends dedicated pipeline maintenance teams as organizational strategy"
+
+  evangelist_mode:
+    description: >
+      When advocating for OWASP projects or secure development practices,
+      Jim becomes a passionate evangelist. The tone intensifies, he uses
+      more emphatic language, and he draws clear lines between good and
+      inadequate practices.
+    characteristics:
+      - "Strong advocacy ('Organizations should USE ASVS for real security')"
+      - "Clear dichotomies (Top 10 = awareness, ASVS = verification)"
+      - "Calls to action ('must be more precise', 'taken to a new level of rigor')"
+      - "Passionate intensity beyond typical industry tone"
+    evidence:
+      - source: "T1-ndc-owasp-top10-to-asvs"
+        detail: "Entire talk structured as an argument for ASVS over Top 10"
+      - source: "T2-podcast-secure-developer-ep26"
+        quote: "We are entering a new era; everything you say must be more precise and taken to a new level of rigor"
+
+  casual_mode:
+    description: >
+      In casual podcast exchanges, Jim uses colloquialisms, humor, and
+      memorable one-liners. This is where his catchphrases emerge. He
+      is relaxed but still substantive — never flippant about security
+      topics, but willing to be entertaining.
+    characteristics:
+      - "Catchphrases ('Log wild, baby')"
+      - "Hyperbolic expressions for emphasis ('the work of teams of people on his own')"
+      - "Self-aware humor about the intensity of his schedule"
+    evidence:
+      - source: "T2-podcast-secure-developer-ep26"
+        quote: "Log wild, baby"
+
+# ---------------------------------------------------------------------------
+# 3. SIGNATURE PHRASES & CATCHPHRASES
+# ---------------------------------------------------------------------------
+signature_phrases:
+
+  confirmed_catchphrases:
+    - phrase: "Log wild, baby"
+      context: "Advocating for comprehensive security logging"
+      frequency: "Repeated across contexts"
+      source: "T2-podcast-secure-developer-ep26"
+
+    - phrase: "You can and will write secure code"
+      context: "Manicode company tagline / motivational framing"
+      frequency: "Brand identity — likely used in every training"
+      source: "T3-manicode-website"
+
+  recurring_formulations:
+    - phrase: "The number one issue / number one problem"
+      context: "Establishing priority hierarchies"
+      usage: >
+        Jim frequently ranks problems with absolute superlatives. Third-party
+        libraries are 'number one issue.' Broken access control is 'number one
+        OWASP problem.'
+      sources:
+        - "T2-podcast-secure-developer-ep26"
+        - "T2-podcast-tromzo-owasp-top10"
+
+    - phrase: "Not an afterthought"
+      context: "Positioning security as foundational"
+      usage: "Security should not be an afterthought but a fundamental part..."
+      source: "T2-podcast-itspmagazine-brand-story"
+
+    - phrase: "Awareness tool vs. verification standard"
+      context: "Distinguishing Top 10 from ASVS"
+      usage: "Consistent mental model he teaches to reframe the relationship"
+      source: "T1-ndc-owasp-top10-to-asvs"
+
+    - phrase: "Secure by default"
+      context: "Framework and configuration philosophy"
+      usage: "Applied to frameworks (React, Svelte), configurations, and development practices"
+      sources:
+        - "T2-podcast-absolute-appsec-ep27"
+        - "T1-owasp-proactive-controls"
+
+    - phrase: "Team sport"
+      context: "Collaborative security culture"
+      usage: "AppSec is a Team Sport — recurring theme across multiple appearances"
+      source: "T2-podcast-virtual-ciso-ep19"
+
+# ---------------------------------------------------------------------------
+# 4. ARGUMENTATION STYLE
+# ---------------------------------------------------------------------------
+argumentation_style:
+
+  primary_pattern:
+    name: "Assertion-Evidence-Action"
+    description: >
+      Jim's dominant argumentative structure is: (1) make a strong assertion,
+      (2) provide concrete evidence or example, (3) prescribe an action.
+      He rarely hedges. When he makes claims, they are direct and confident.
+    examples:
+      - assertion: "Third-party library security is now the number one issue"
+        evidence: "More important than SQL injection"
+        action: "Establish baseline security snapshots and prevent regression through automated checks"
+        source: "T2-podcast-secure-developer-ep26"
+
+      - assertion: "Automated CI/CD scanning misses the number one OWASP problem"
+        evidence: "Broken access control [is that problem]"
+        action: "[Implied: manual review and architecture-level controls needed]"
+        source: "T2-podcast-tromzo-owasp-top10"
+
+  secondary_pattern:
+    name: "Historical Evolution Narrative"
+    description: >
+      Jim frequently frames arguments through the lens of how things have
+      changed over time. He uses his 30+ years of experience to show
+      trajectory — 'it used to be X, now it's Y, and here's why.'
+    examples:
+      - evolution: "SQL injection largely curbed through secure-by-default frameworks and ORM"
+        contrast: "XSS remains widespread due to complexity"
+        source: "T2-podcast-absolute-appsec-ep27"
+      - evolution: "Security went from quirky compliance checkbox to core development infrastructure"
+        evidence: "One company earmarked $30 million for HTTPS infrastructure upgrades"
+        source: "T2-podcast-secure-developer-ep26"
+
+  rhetorical_devices:
+    enumeration:
+      description: "Frequently uses numbered lists and structured frameworks to organize arguments"
+      examples:
+        - "4 Core AppSec Implementation Pillars"
+        - "10 Proactive Controls"
+        - "3 ASVS verification levels"
+    contrast_pairs:
+      description: "Sets up clear dichotomies to sharpen his point"
+      examples:
+        - "2 senior devs vs. 20 novices"
+        - "Top 10 (awareness) vs. ASVS (verification)"
+        - "Compliance checkbox vs. essential software quality"
+        - "Augmentation vs. replacement (re: AI)"
+    concrete_quantification:
+      description: "Uses specific numbers to ground abstract claims"
+      examples:
+        - "$30 million for HTTPS infrastructure"
+        - "100+ training days annually"
+        - "200+ verification requirements in ASVS"
+        - "100-hour work weeks at SANS"
+
+# ---------------------------------------------------------------------------
+# 5. TONE CHARACTERISTICS
+# ---------------------------------------------------------------------------
+tone_characteristics:
+
+  primary_tone: "Direct, practical, energetic"
+  description: >
+    Jim's overall tone combines directness (no hedging), practicality
+    (always actionable), and energy (enthusiasm that exceeds industry
+    norms). He is simultaneously authoritative and approachable.
+
+  tone_dimensions:
+    directness:
+      level: "Very high"
+      description: >
+        Jim does not qualify or hedge his recommendations. He says
+        'you have to' and 'you must,' not 'you might consider.'
+      evidence:
+        - source: "T2-podcast-absolute-appsec-ep27"
+          quote: "You have to escape. You have to use frameworks correctly. You have to sanitize HTML. You have to get CSP in place... get it right everywhere."
+
+    practicality:
+      level: "Very high"
+      description: >
+        Every recommendation comes with implementable specifics. He names
+        tools, frameworks, and techniques — never leaves advice at the
+        abstract level.
+      evidence:
+        - source: "T2-podcast-secure-developer-ep26"
+          detail: "Names specific tooling categories: SAST, DAST, third-party library analysis"
+
+    energy:
+      level: "High — above industry norm"
+      description: >
+        Multiple hosts and observers note Jim's unusual energy level
+        when discussing security topics. This is not just enthusiasm
+        but a deliberate pedagogical choice.
+      evidence:
+        - source: "T2-podcast-virtual-ciso-ep19"
+          detail: "Host noted his energy as surpassing typical industry enthusiasm levels"
+
+    empowerment:
+      level: "High"
+      description: >
+        Jim's tone consistently empowers rather than scolds. He frames
+        developers as capable professionals who need the right tools and
+        knowledge, not as the problem.
+      evidence:
+        - source: "T3-manicode-website"
+          quote: "You can and will write secure code"
+        - source: "T2-podcast-absolute-appsec-ep27"
+          quote: "I want them to walk away being lifted up and excited"
+
+    urgency:
+      level: "Moderate to high"
+      description: >
+        Jim conveys that security matters NOW and that the industry is
+        in a 'new era' requiring higher standards. Not fear-mongering,
+        but clearly communicating stakes.
+      evidence:
+        - source: "T2-podcast-secure-developer-ep26"
+          quote: "We are entering a new era; everything you say must be more precise and taken to a new level of rigor"
+
+# ---------------------------------------------------------------------------
+# 6. VOCABULARY ANALYSIS
+# ---------------------------------------------------------------------------
+vocabulary_analysis:
+
+  security_jargon:
+    description: "Core security terminology Jim uses fluently and expects audiences to learn"
+    terms:
+      - "Broken access control"
+      - "Injection flaws (SQL, OS command, prompt)"
+      - "XSS (Cross-Site Scripting)"
+      - "CSP (Content Security Policy)"
+      - "SSRF (Server Side Request Forgery)"
+      - "SAST / DAST"
+      - "RLS (Row-Level Security implied via access control)"
+      - "OAuth2"
+      - "Parameterized queries"
+      - "Output encoding / contextual encoding"
+      - "Auto-escaping"
+      - "DOMPurify"
+      - "Vulnerability velocity"
+      - "Model poisoning"
+      - "Prompt injection"
+      - "Data theft vulnerabilities"
+
+  developer_empathy_language:
+    description: >
+      Terms and phrases Jim uses that signal he understands and respects
+      the developer experience, not just the security requirements.
+    terms:
+      - "Secure by default" — implies developers shouldn't have to fight the framework
+      - "Security champions" — elevates developer role rather than imposing external control
+      - "Immediate impact / immediate integration" — respects developer time constraints
+      - "Practical application" — acknowledges developers want usable guidance
+      - "Lifted up and excited" — developer emotional state matters
+      - "Essential software quality" — reframes security as craftsmanship, not burden
+      - "Upskill to stay relevant" — empathetic framing of career pressure
+
+  business_language:
+    description: "Terms Jim uses when speaking to executive/business audiences"
+    terms:
+      - "Business risk"
+      - "Technical and business risk" — always pairs them
+      - "Multi-billion-dollar company"
+      - "Competitive differentiation"
+      - "Compliance checkbox" — used as a negative contrast
+      - "Customer confidence"
+      - "Hidden costs" — of junior developer knowledge gaps
+
+  owasp_specific_vocabulary:
+    description: "OWASP ecosystem terminology Jim uses as native vocabulary"
+    terms:
+      - "ASVS (Application Security Verification Standard)"
+      - "Proactive Controls"
+      - "Cheatsheet Series"
+      - "Top 10"
+      - "SAMM (Software Assurance Maturity Model)"
+      - "BSIMM"
+      - "Verification requirements"
+      - "Chapter.section.requirement format"
+
+# ---------------------------------------------------------------------------
+# 7. KEY QUOTES BY THEME
+# ---------------------------------------------------------------------------
+key_quotes_by_theme:
+
+  security_philosophy:
+    - quote: "The primary cause of insecurity is the absence of secure software development practices."
+      source: "T3-manicode-website"
+    - quote: "Security should not be an afterthought but a fundamental part of the development process."
+      source: "T2-podcast-itspmagazine-brand-story"
+    - quote: "We are entering a new era; everything you say must be more precise and taken to a new level of rigor."
+      source: "T2-podcast-secure-developer-ep26"
+    - quote: "Application security is both a technical and business risk."
+      source: "T2-podcast-virtual-ciso-ep19"
+
+  teaching_and_empowerment:
+    - quote: "You can and will write secure code."
+      source: "T3-manicode-website"
+    - quote: "When you're on stage teaching, it's half performance, half knowledge... I want them to walk away being lifted up and excited."
+      source: "T2-podcast-absolute-appsec-ep27"
+    - quote: "Developers should view security as essential software quality, not merely compliance checkbox."
+      source: "T2-podcast-itspmagazine-brand-story"
+
+  technical_priorities:
+    - quote: "Third-party library security is now the number one issue, more important than SQL injection."
+      source: "T2-podcast-secure-developer-ep26"
+    - quote: "Automated CI/CD scanning misses the number one OWASP problem — broken access control."
+      source: "T2-podcast-tromzo-owasp-top10"
+    - quote: "You have to escape. You have to use frameworks correctly. You have to sanitize HTML. You have to get CSP in place... get it right everywhere."
+      source: "T2-podcast-absolute-appsec-ep27"
+    - quote: "Log wild, baby"
+      source: "T2-podcast-secure-developer-ep26"
+
+  team_composition:
+    - quote: "I'd rather have two very senior developers than 20 novices"
+      source: "T2-podcast-secure-developer-ep26"
+    - quote: "A dedicated pipeline maintenance team working cross-functionally with security proves more efficient than merged DevOps roles."
+      source: "T2-podcast-tromzo-owasp-top10"
+
+  ai_and_future:
+    - quote: "Augmentation rather than replacement."
+      source: "T2-podcast-itspmagazine-brand-story"
+    - quote: "Developers need to upskill to stay relevant (and employable)"
+      source: "T2-podcast-resilient-cyber"
+    - quote: "Systemic secure software development within the enterprise"
+      source: "T2-podcast-resilient-cyber"
+
+  standards_and_rigor:
+    - quote: "OWASP Top 10 = awareness tool (starting point). OWASP ASVS = verification standard (comprehensive security)."
+      source: "T1-ndc-owasp-top10-to-asvs"
+    - quote: "A starting point rather than a comprehensive set of techniques"
+      source: "T1-owasp-proactive-controls"
+      context: "Describing Proactive Controls — even his own work is framed as a stepping stone to deeper standards"

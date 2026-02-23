@@ -1,0 +1,450 @@
+# Anecdotes Bank — Lawhander Climatrônico
+# Real stories, metaphors, analogies, and signature examples the specialist uses
+# These are the "proof arsenal" — concrete experiences that back up their frameworks
+# Extracted from: 58 blog posts + homepage + 2.744 YouTube videos (3.16M words)
+# Depth: forensic | Date: 2026-02-11 | Updated: 2026-02-11 (YouTube enrichment v2)
+
+mind_id: "lawhander-climatronico"
+mind_name: "Lawhander Silva"
+version: "2.0.0"
+
+# Stories the specialist tells repeatedly to illustrate key points
+signature_stories:
+
+  - title: "R$1 Milhão Só Com Reparo de Placas"
+    context: "Ao justificar o potencial financeiro da profissão de Climatrônico — usado como prova máxima de que reparo de placas é lucrativo"
+    narrative: |
+      Em 2024, Lawhander faturou mais de R$1 milhão exclusivamente com reparo de placas
+      eletrônicas de ar-condicionado. O custo médio de componentes por reparo foi inferior
+      a R$20. A margem absurda entre custo de peça e valor cobrado é o motor do negócio.
+    lesson: "O valor está no conhecimento e no diagnóstico, não no componente. A margem entre R$20 de peça e R$300-500 de serviço é o modelo de negócio."
+    emotional_hook: "shock — o contraste entre R$20 de custo e R$1 milhão de faturamento é visceral"
+    frequency: "always — aparece na homepage, curso, e em posts motivacionais"
+
+  - title: "O Multímetro de R$40"
+    context: "Ao encorajar iniciantes que acham que precisam de equipamento caro para começar"
+    narrative: |
+      Lawhander começou sua carreira com ferramentas básicas e simples. Seu primeiro
+      multímetro custou apenas R$40. Hoje tem equipamentos melhores (Fluke 115, Rigol
+      100MHz), mas o importante foi começar com o que tinha e ir melhorando com o tempo.
+    lesson: "Não precisa de equipamento caro para começar. Comece com o mínimo e reinvista os lucros."
+    emotional_hook: "relatability — todo iniciante se identifica com a limitação de orçamento + aspiração (de R$40 a R$1M)"
+    frequency: "often — usado em contexto de encorajamento e no curso"
+
+  - title: "R$500-600 Por Dia na Bancada de Casa"
+    context: "Ao apresentar o modelo de negócio de reparo como alternativa à instalação de equipamentos"
+    narrative: |
+      Trabalhando de casa com ritmo organizado, Lawhander mantém faturamento de
+      R$500-600 por dia reparando placas inverter. Taxa de sucesso de ~85% em mais
+      de 200 reparos de placas inverter ao longo de 9+ anos. Sem precisar instalar
+      máquina, sem sol quente, sem telhado.
+    lesson: "Reparo de placas é mais lucrativo que instalação, com menos desgaste físico e mais escalabilidade."
+    emotional_hook: "aspiration — R$500-600/dia trabalhando de casa é o sonho de independência"
+    frequency: "often — pillar story do posicionamento de negócio"
+
+  - title: "200+ Placas Num Ano Só Com Fio de 0,2mm"
+    context: "Ao demonstrar que técnicas simples e baratas resolvem a maioria dos problemas"
+    narrative: |
+      Em um único ano, Lawhander reparou mais de 200 placas usando apenas a técnica
+      de reparo de trilha com fio esmaltado de 0,2mm. Custo por reparo: R$2-20.
+      Taxa de sucesso: 70-85%. A técnica é simples: lixar verniz, estanhar pontas,
+      fazer ponte com o fio, testar continuidade (<1Ω).
+    lesson: "A técnica mais simples e barata (R$2-20) resolve a maioria dos casos de trilha aberta."
+    emotional_hook: "empowerment — qualquer técnico pode dominar essa técnica em minutos"
+    frequency: "often — história de referência para o post mais técnico-prático"
+
+  - title: "12.000+ Equipamentos em 9+ Anos"
+    context: "Ao estabelecer credibilidade — usado como âncora de autoridade antes de ensinar"
+    narrative: |
+      Ao longo de mais de 9 anos de bancada, Lawhander acumulou mais de 12.000
+      reparos de equipamentos eletrônicos, com centenas de alunos formados.
+      Esse volume é o que gera a intuição estatística que guia seus diagnósticos.
+    lesson: "Maestria vem do volume. Cada placa reparada é um dado a mais no banco de experiência."
+    emotional_hook: "authority — 12.000 é um número que silencia qualquer dúvida sobre competência"
+    frequency: "always — âncora de credibilidade usada em quase todo post"
+
+  - title: "Consul R$300 em 10 Minutos"
+    context: "Ao justificar precificação por valor e não por componente"
+    narrative: |
+      Uma placa Consul inverter chegou com erro 18. Diagnóstico rápido identificou
+      um resistor SMD de 5,6Ω aberto. Substituiu com peça de placa doadora. Tempo
+      total: menos de 10 minutos. Cobrou R$300. Placa nova custaria R$1.000-2.500.
+      Economia para o cliente: R$700-2.200.
+    lesson: "Se você trocou um componente de R$2 e salvou uma placa de R$3.000, não cobre R$50. Cobre pelo valor entregue."
+    emotional_hook: "shock + aspiration — 10 minutos = R$300 é irresistível"
+    frequency: "often — caso-modelo para a regra de precificação 30-50%"
+
+  - title: "O Erro Fantasma EP da Philco"
+    context: "Ao ensinar que erros não-documentados devem ser investigados empiricamente"
+    narrative: |
+      Uma Philco Inverter apresentou código de erro 'EP' que não existia em nenhum
+      manual ou lista de códigos. Busca exaustiva em documentação oficial resultou
+      em nada. Após investigação empírica por eliminação, descobriu que o 'culpado'
+      era um sensor termostático desconectado. Bônus: a placa era na verdade uma
+      placa universal, não original Philco.
+    lesson: "Observação empírica > documentação oficial. Se o erro é real para o equipamento, é real para você."
+    emotional_hook: "mystery + revelation — estrutura de história de detetive que prende atenção"
+    frequency: "often — história-exemplo perfeita da narrativa detetivesca"
+
+  - title: "O Erro de Corrente da Hitachi Que Não Era do Compressor"
+    context: "Ao ensinar que códigos de erro apontam na direção errada frequentemente"
+    narrative: |
+      Condensadora Hitachi mostrava erro de 'corte de corrente de pico', sugerindo
+      sobrecarga no compressor. A primeira reação seria trocar o compressor (custo alto).
+      Mas a verdadeira causa era uma trilha aberta na PCB que impedia a leitura correta
+      de corrente. Reparo: restaurar trilha. Custo: praticamente zero.
+    lesson: "Erro de corrente pode ser da leitura, não da corrente. Nunca assuma que o código aponta para o componente certo."
+    emotional_hook: "relief + savings — quase trocou compressor caro por causa de uma trilha"
+    frequency: "sometimes — usada em contexto de erros de código enganosos"
+
+  - title: "X-Power — O Sensor Que Não Era Sensor"
+    context: "Ao reforçar a regra de nunca confiar 100% nos códigos de erro"
+    narrative: |
+      Uma condensadora X-Power exibia código de erro indicando problema no sensor.
+      Após inspeção minuciosa, o problema real era uma falha na alimentação de energia
+      que afetava a medição do sensor. O sensor estava perfeito. Se tivesse trocado
+      o sensor, o problema continuaria.
+    lesson: "Códigos de erro são o início da investigação, não a conclusão. Investigue a causa da leitura errada, não o componente apontado."
+    emotional_hook: "counter-intuitive — o 'óbvio' estava completamente errado"
+    frequency: "sometimes — usada junto com a história da Hitachi como par temático"
+
+  - title: "10.000+ Placas e Centenas de Alunos"
+    context: "Ao apresentar a AME e seu propósito de ensino"
+    narrative: |
+      Após mais de 10.000 placas reparadas na bancada e centenas de alunos formados
+      através da AME (Academia da Manutenção Eletrônica), Lawhander transformou sua
+      experiência prática em método ensinável — o Método OET.
+    lesson: "Experiência individual vira impacto coletivo quando transformada em método estruturado."
+    emotional_hook: "legacy — não é só ganhar dinheiro, é formar a próxima geração de Climatrônicos"
+    frequency: "often — usado em contexto de venda dos cursos"
+
+# Metaphors and analogies they default to
+metaphors:
+
+  - metaphor: "Método OET — Diagnóstico Médico Aplicado à Eletrônica"
+    meaning: "Placa eletrônica é paciente. Técnico é médico. Diagnóstico segue protocolo clínico: Observar sintomas → Examinar com instrumentos → Tratar a causa"
+    domain: "medicina"
+    usage_example: "Método OET (Observar, Examinar, Tratar) que desenvolvi após anos de experiência: Observar — coletar informações sobre o equipamento, sintomas, histórico. Examinar — fazer testes e medições para confirmar hipóteses. Tratar — corrigir o problema identificado."
+
+  - metaphor: "Eletrônica da Floresta"
+    meaning: "Placa com gambiarra pesada — reparos improvisados com ferramentas erradas, componentes inadequados, trilhas destruídas. O oposto do reparo profissional."
+    domain: "selva / caos"
+    usage_example: "Meu patrão, 'eletrônica da floresta' é quando eu encontro placas de ar condicionado com gambiarra pesada: transistores usados como ferro de solda sobre mesa aquecedora, trilhas levantadas e componentes termicamente comprometidos."
+
+  - metaphor: "Multímetro como Estetoscópio Eletrônico"
+    meaning: "O multímetro é para o técnico de eletrônica o que o estetoscópio é para o médico — ferramenta diagnóstica primária, indispensável."
+    domain: "medicina"
+    usage_example: "Multímetro digital: É seu 'estetoscópio' eletrônico."
+
+  - metaphor: "Diagnóstico como Investigação Detetivesca"
+    meaning: "Cada placa defeituosa é um caso a resolver. Códigos de erro são pistas. Medições são evidências. O componente falho é o 'culpado'. A revelação do defeito é o 'mistério desvendado'."
+    domain: "investigação policial / detetive"
+    usage_example: "O Mistério Desvendado — o verdadeiro culpado pelo Erro EP foi finalmente identificado como o sensor termostático desconectado."
+
+  - metaphor: "Cascata Diagnóstica como Pirâmide Invertida"
+    meaning: "Começar pelo mais simples/barato/provável e escalar para o mais complexo/caro/improvável. Mesma lógica da triagem médica: não faz ressonância antes do raio-X."
+    domain: "medicina / engenharia"
+    usage_example: "Começo pelo cabo/conector (20 min), sigo para caps/ESR (15 min) e só depois parto para SMD/IC (30-90 min)."
+
+  - metaphor: "IPM como Agente Autoprotetor"
+    meaning: "O módulo IPM é antropomorfizado como entidade inteligente que 'percebe ameaça' e 'corta a corrente' para se proteger. Erro de proteção = sistema fazendo seu trabalho, não falhando."
+    domain: "antropomorfismo / proteção"
+    usage_example: "O IPM está impedindo a autodestruição do sistema ao cortar a corrente quando percebe uma ameaça potencial."
+
+  - metaphor: "Pulo do Gato"
+    meaning: "O insight-chave que diferencia o amador do profissional. O truque ou segredo que transforma um diagnóstico complicado em algo simples."
+    domain: "sabedoria popular brasileira"
+    usage_example: "Aqui tá o pulo do gato: você já viu quanto custa uma placa nova de ar-condicionado?"
+
+  - metaphor: "Capacitor de R$2 Salvando Placa de R$3.000"
+    meaning: "O valor do reparo não está no componente, está no diagnóstico. A diferença entre jogar fora um equipamento e recuperá-lo pode ser um componente de centavos."
+    domain: "economia / contraste"
+    usage_example: "Se você trocou um capacitor de R$2 e salvou uma placa de R$3.000, não cobre R$50 'porque foi só um capacitor'. Cobre pelo seu conhecimento."
+
+# Real case studies and client results they reference
+case_studies:
+
+  - name: "Consul Inverter — Erro 18"
+    before: "Placa Consul inverter com erro 18, inoperante. Placa nova: R$1.000-2.500."
+    intervention: "Diagnosticou resistor SMD de 5,6Ω aberto. Substituiu com peça de placa doadora."
+    after: "Placa 100% funcional."
+    numbers: "10 min de trabalho | R$300 cobrado | Economia para o cliente: R$700-2.200"
+    quote: "Cobrei R$300 e fechei tudo em menos de 10 minutos — sem peças caras."
+
+  - name: "200+ Placas Inverter — Resultado Agregado"
+    before: "Placas inverter residenciais/comerciais não acionando compressor. Substituição: R$1.200-2.800."
+    intervention: "Diagnóstico 8 etapas: MOSFETs, driver, capacitores, tensão DC-Link."
+    after: "~85% taxa de sucesso no acumulado de 200+ reparos."
+    numbers: "30-90 min por reparo | R$80-350 custo | Economia: R$600-1.800 | Faturamento: R$500-600/dia"
+    quote: "Chego a faturar R$500-600 por dia com um ritmo organizado."
+
+  - name: "Fio 0,2mm — 200+ Reparos de Trilha"
+    before: "Placas com trilha aberta/queimada. Substituição: R$150-1.500."
+    intervention: "Técnica: lixar verniz, estanhar pontas, ponte com fio esmaltado 0,2mm, teste continuidade."
+    after: "75-88% taxa de sucesso (conservadoramente 80%)."
+    numbers: "10-20 min | R$2-20 custo | 200+ placas em um ano"
+    quote: "Já consertei 200+ dessas placas com o método do fio de 0,2mm."
+
+  - name: "Caneta de Breu — Localizando Curto-Circuito"
+    before: "Placa com curto-circuito não identificado. Substituição: R$800-2.500."
+    intervention: "Aplicar flux/breu nos componentes de potência, energizar com fonte limitada (1A), observar onde o breu liquefaz/fuma."
+    after: "82% taxa de acerto no primeiro diagnóstico."
+    numbers: "15-45 min para localizar | R$30-250 reparo | 200+ placas testadas"
+    quote: "Já consertei 200+ dessas placas com taxa de sucesso média de 82% nesse método."
+
+  - name: "Lavagem de Placas — Máquinas de Sorvete e Refrigeração"
+    before: "Placas sujas de gordura/condensação de ambientes de food service. Leituras erráticas, curtos intermitentes."
+    intervention: "Processo 7 etapas: descarga, pré-enxágue, detergente 5-15min, escovação, enxágue, secagem 12-24h, teste."
+    after: "75-85% taxa de sucesso."
+    numbers: "20-40 min limpeza + 12-24h secagem | R$5-30 custo | Economia: R$200-1.200 vs R$1.000-3.000"
+    quote: "Já testei o procedimento em 200+ placas de máquinas de sorvete, splits e placas de refrigeração."
+
+  - name: "MOSFET/IGBT — Diagnóstico Sem Remoção"
+    before: "Suspeita de MOSFET/IGBT queimado após queda de tensão."
+    intervention: "Teste 9 etapas sem remoção: visual, continuidade D-S, diodo, Rds_on, fuga de gate, drive controlado."
+    after: "~78% taxa de diagnóstico correto."
+    numbers: "10-25 min por componente | Economia: R$150-800 vs R$600-1.800 de troca de placa"
+    quote: "Já encontrei MOSFETs/IGBTs defeituosos em mais de 200+ placas de potência."
+
+  - name: "Microcontrolador — 7 Passos SEM Retirar"
+    before: "MCU suspeito: resets aleatórios, falhas de comunicação."
+    intervention: "7 passos sem remoção: checar VCC (3,3V ±0,1V), clock (8/16MHz), reset, reflow localizado, reforço de vias."
+    after: "~78% taxa de sucesso."
+    numbers: "30-90 min | R$40-180 vs R$800-2.200 de troca de placa | 100+ testes específicos"
+    quote: "Na minha bancada mais de 100 testes específicos com microcontroladores SMD."
+
+  - name: "SMD Reflow — 2.000+ Componentes"
+    before: "Componente SMD com solda fria — contato intermitente."
+    intervention: "Reflow 9 etapas: visual, flux, proteção adjacentes, pré-aquecimento, ar quente 300-350°C por 20-60s."
+    after: "85% sucesso na primeira tentativa, 95% com iteração."
+    numbers: "10-25 min por componente | R$120-500 economia | 2.000+ componentes re-soldados na carreira"
+    quote: "Re-soldei mais de 2.000 componentes SMD em campo e oficina."
+
+# Cautionary tales — examples of what NOT to do
+anti_examples:
+
+  - title: "Fusível Trocado Por Fio"
+    what_went_wrong: "Técnico substituiu fusível queimado por um pedaço de fio para 'resolver rápido'. Resultado: sobrecorrente sem proteção destruiu microcontrolador e componentes de potência."
+    lesson: "Fusível é proteção. Eliminar proteção é garantir dano catastrófico. NUNCA substituir fusível sem encontrar a causa da queima."
+    how_they_frame_it: "Substituir um fusível por um fio ignora a função de proteção do fusível, permitindo que qualquer sobrecorrente danifique os componentes eletrônicos, como microcontroladores, resultando em falhas mais graves e custosas."
+
+  - title: "Confiar 100% no Código de Erro"
+    what_went_wrong: "Técnico leu código de erro 'sensor', trocou o sensor, problema continuou. O verdadeiro defeito era na alimentação que afetava a leitura do sensor."
+    lesson: "Códigos de erro são o início da investigação, não a conclusão. Investigue a cadeia completa."
+    how_they_frame_it: "Não devemos confiar cegamente nos códigos de erro. Eles direcionam, mas não devem limitar nossa análise."
+
+  - title: "Precificar Pelo Componente"
+    what_went_wrong: "Técnico trocou capacitor de R$2 que salvou placa de R$3.000 e cobrou R$50 'porque foi só um capacitor'. Subvalorizou seu conhecimento e tempo."
+    lesson: "Precifique pelo valor entregue ao cliente (30-50% da placa nova), não pelo custo da peça."
+    how_they_frame_it: "O erro mais comum que vejo é precificar pelo componente. Se você trocou um capacitor de R$2 e salvou uma placa de R$3.000, não cobre R$50 'porque foi só um capacitor'. Cobre pelo seu conhecimento e pelo valor que está entregando ao cliente."
+
+  - title: "Mergulhar em Teoria Sem Prática"
+    what_went_wrong: "Aluno estudou meses de teoria pura — fórmulas, reatância capacitiva, semicondutores — mas travou completamente ao pegar uma placa real para consertar."
+    lesson: "Teoria é suporte, não fundação. A fundação é a prática na bancada."
+    how_they_frame_it: "Um erro fatal que vejo muita gente cometer é mergulhar em teoria sem nunca chegar na prática. O resultado? A pessoa decora fórmulas, sabe calcular reatância capacitiva, mas trava ao pegar uma placa real para consertar."
+
+  - title: "Shotgun de Componentes (Chutar Peças)"
+    what_went_wrong: "Técnico sem método fica trocando componentes no chute — um capacitor aqui, um MOSFET ali — sem diagnóstico. Gasta dinheiro, tempo, e frequentemente não resolve."
+    lesson: "Método estruturado > chute. OET (Observar, Examinar, Tratar) elimina desperdício."
+    how_they_frame_it: "Com um método eficiente de diagnóstico, você não fica 'chutando' componentes e pode reparar placas que nunca viu antes, mesmo sem esquema elétrico."
+
+  - title: "Eletrônica da Floresta"
+    what_went_wrong: "Placa recebida com gambiarra pesada: transistor usado como ferro de solda, trilhas levantadas, componentes termicamente comprometidos. Tentativa de reparo anterior piorou tudo."
+    lesson: "Gambiarra cria mais problemas do que resolve. Reparo correto segue o projeto original da placa."
+    how_they_frame_it: "Meu patrão, 'eletrônica da floresta' é quando eu encontro placas com gambiarra pesada: transistores usados como ferro de solda sobre mesa aquecedora, trilhas levantadas e componentes termicamente comprometidos."
+
+  - title: "Ferro Sem Controle Térmico"
+    what_went_wrong: "Usar ferro de solda sem controle de temperatura causa delaminação de pads, levantamento de trilhas, e dano térmico irreversível aos componentes adjacentes."
+    lesson: "Controle térmico não é luxo, é necessidade. 330-360°C para lead-free, 230-320°C para SMD com soprador."
+    how_they_frame_it: "Usar ferro sem controle térmico: aumenta delaminação."
+
+  - title: "Trabalhar Com Barramento DC Carregado"
+    what_went_wrong: "Técnico manipulou placa inverter sem descarregar capacitores do DC-Link (310-400V DC). Risco de choque letal."
+    lesson: "SEMPRE descarregar capacitores com resistor de 100kΩ/5W e verificar com multímetro ANTES de tocar. Sem exceção."
+    how_they_frame_it: "Sempre descarregue o capacitor do DC-link antes de mexer na placa. Tensão típica 310-400V DC. Trabalhar com o barramento DC carregado é LETAL."
+
+  - title: "Não Limpar Flux Queimado"
+    what_went_wrong: "Técnico fez reparo mas não limpou resíduos de flux. Com o tempo, o flux queimado criou caminhos de condução parasitas, causando falhas intermitentes e ressonâncias."
+    lesson: "Limpeza pós-reparo não é cosmética — é elétrica. Flux queimado conduz e causa falhas."
+    how_they_frame_it: "Não limpar fluxo queimado: cria ressonâncias e falhas de isolamento."
+
+  - title: "Insistir em Reparo Antieconômico"
+    what_went_wrong: "Técnico gastou horas tentando reparar placa com múltiplos componentes queimados. No final, o custo de tempo + peças superou o preço de placa nova."
+    lesson: "Saber quando parar é tão importante quanto saber reparar. Regra do 50-70%."
+    how_they_frame_it: "Quando o custo do reparo >50% do valor da placa nova ou quando MCU/firmware está danificado — walk away."
+
+# One-liners and catchphrases
+catchphrases:
+
+  - phrase: "Eletrônica é uma só e toda placa tem reparo!"
+    context: "Mantra central — usado como axioma de abertura ou fechamento. Combina universalidade dos princípios com otimismo calibrado."
+    effect: "identidade + empowerment — define o que é ser Climatrônico e que qualquer placa está ao alcance"
+
+  - phrase: "Bora nós!"
+    context: "Call to action — 'vamos fazer isso juntos'. Usado para transição entre teoria e prática, ou como impulso motivacional."
+    effect: "energia + ação — empurra o leitor/aluno para sair da inércia"
+
+  - phrase: "Show de bola?"
+    context: "Confirmação retórica — 'entendeu?', 'ficou claro?'. Usado como transição entre blocos de conteúdo."
+    effect: "check-in informal — mantém o leitor engajado sem ser pedagógico demais"
+
+  - phrase: "Tamo junto"
+    context: "Solidariedade — fechamento fraterno. Regional nordestino para 'estamos juntos nessa'. Usado como despedida ou convite comunitário."
+    effect: "pertencimento — cria senso de tribo e suporte mútuo entre Climatrônicos"
+
+  - phrase: "Pega essa visão"
+    context: "Transferência de insight — 'presta atenção nisto'. Usado antes de revelar um dado importante ou uma perspectiva nova."
+    effect: "atenção dirigida — funciona como spotlight verbal no insight que vem a seguir"
+
+  - phrase: "Meu patrão"
+    context: "Endereçamento carinhoso — trata o leitor como amigo de bancada. Regional nordestino."
+    effect: "proximidade + respeito — derruba a barreira professor/aluno"
+
+  - phrase: "Sem medo"
+    context: "Encorajamento — reduz ansiedade diante de tarefas técnicas intimidadoras (SMD, alta tensão, placa desconhecida)."
+    effect: "coragem + confiança — neutraliza a paralisia por medo de errar"
+
+  - phrase: "Da Minha Bancada"
+    context: "Âncora de credibilidade — introduz seção com dados reais: custos, tempos, medições, volume de experiência. Sempre precedido por emoji 📋."
+    effect: "autoridade empírica — diferencia opinião de dado verificável"
+
+  - phrase: "Destrinchar"
+    context: "Análise profunda — 'vamos abrir isso e entender cada parte'. Usado ao iniciar explicação detalhada de circuito ou processo."
+    effect: "profundidade + método — sinaliza que vai além do superficial"
+
+  - phrase: "Pulo do gato"
+    context: "Insight-chave — o truque ou segredo que faz a diferença. Usado ao revelar a técnica que separa amador de profissional."
+    effect: "curiosidade + revelação — cria expectativa e entrega o 'aha moment'"
+
+  - phrase: "Mão na massa" / "Bora colocar a mão na massa"
+    context: "Transição para a prática — 'chega de teoria, vamos fazer'. Usado como CTA de fechamento."
+    effect: "ação — corta a paralisia por análise e move para execução"
+
+  - phrase: "Comenta aqui que tamo junto"
+    context: "Engajamento comunitário — convite para interação. Usado como fechamento de posts e vídeos."
+    effect: "comunidade + reciprocidade — transforma consumo passivo em participação ativa"
+
+  - phrase: "O caminho para a independência financeira pode estar num capacitor estufado"
+    context: "Power phrase motivacional — conecta o micro (componente) com o macro (liberdade financeira)."
+    effect: "perspectiva + aspiração — reframe poderoso que eleva a profissão"
+
+  - phrase: "Pepino"
+    context: "Problema difícil — gíria para defeito complicado. Usado com tom de desafio aceito, não de reclamação."
+    effect: "humor + identificação — todo técnico já enfrentou um 'pepino'"
+
+  - phrase: "Grana"
+    context: "Dinheiro — coloquial. Usado em contexto de faturamento e precificação."
+    effect: "informalidade — desmistifica a conversa sobre dinheiro"
+
+# ===== YOUTUBE ENRICHMENT v2 (podcasts Bate-papo Climatrônico) =====
+# Histórias de alunos e cases dos podcasts — voz autêntica, não editada
+
+student_success_stories:
+
+  - name: "Gleydstone Barbosa — De Zero a Suporte em 4 Meses"
+    source: "Bate-papo Climatrônico #010"
+    before: "Zero conhecimento de eletrônica. Aceitou emprego ganhando MENOS DA METADE para aprender."
+    transformation: "Estudou 10 HORAS POR DIA nos primeiros 2 meses (sábado e domingo inclusos). Em 4 meses virou suporte do curso AME."
+    quote: "Esses quatro meses que eu tô aí é mais processo de aprendizagem na minha área profissional do que na minha vida toda."
+    lesson: "Intensidade + ambiente certo = resultados exponenciais"
+
+  - name: "Dionatan Bernardy — De Instalador a Climatrônico em Casa"
+    source: "Bate-papo Climatrônico #08"
+    before: "10 anos como instalador em Brusque/SC. Tentou aprender eletrônica com 3-4 empresas — TODAS recusaram, mesmo oferecendo trabalhar de graça."
+    transformation: "2 meses do zero ao primeiro reparo. Hoje fatura R$6.000/mês reparando só placas, trabalhando de casa."
+    quote: "Eu me dispus até a trabalhar de graça para aprender, mas os cara não deram oportunidade."
+    lesson: "Concorrência tranca conhecimento. Lawhander abre."
+
+  - name: "Diogenes Altenhofen — 7 Máquinas de Teste, 2 Funcionários"
+    source: "Bate-papo Climatrônico #055"
+    before: "10+ anos instalação no RS, cidade de 7 mil habitantes. Fazia elétrica no inverno para sobreviver."
+    transformation: "Entrou na AME em abril 2020. 1,5 ano depois trabalha SÓ com placas. Montou lab com 7 máquinas na parede, 2 funcionários. Parceria com desmanche em Porto Alegre (troca serviço por placas). Fatura R$5-6 mil/mês."
+    quote: "Algumas vezes 5 placas num dia, quando são defeitos simples."
+    lesson: "Cidade pequena não é limite. Parceria desmanche = supply chain inteligente."
+
+  - name: "Evandro Martins — 25 Anos no Setor, 9 Técnicos Formados"
+    source: "Bate-papo Climatrônico #023"
+    before: "25 anos no setor, supervisor C&A (40 lojas) + Hyundai Caoa (120 lojas). 1 ano de engenharia interrompida por família."
+    transformation: "Montando laboratório em Campinas, parceria com eletrônico de 10+ anos. Agrega valor em tudo — instala AC e faz infraestrutura elétrica também."
+    quote: "O caminho diferencial é estreito — você tem que ser diferente."
+    lesson: "Experiência de gestão + conhecimento técnico = vantagem competitiva."
+
+  - name: "Diego — Produtor Rural que Fatura Mais que Salário Mínimo nas Horas Vagas"
+    source: "Shorts / Depoimentos AME"
+    before: "Produtor rural sem qualquer experiência em eletrônica."
+    transformation: "Hoje fatura muito mais que um salário mínimo reparando placas nas horas vagas."
+    quote: "Muito mais que um salário mínimo por mês nas horas vagas."
+    lesson: "Não precisa ser full-time. Reparo de placas funciona como renda extra."
+
+podcast_case_studies:
+
+  - name: "Fujitsu 24 — Perninha do Capacitor Faltando"
+    source: "Bate-papo #055 (Diogenes)"
+    before: "Máquina parada 1 ano em assistência técnica. Diagnóstico: 'compressor queimado', orçamento R$2.000."
+    intervention: "Diogenes comprou por R$300 no Facebook. Encontrou o defeito: UMA PERNINHA do capacitor eletrolítico faltando (defeito de fábrica)."
+    after: "Vendeu a máquina por R$2.000. Ainda tinha plástico na tampa do evaporador."
+    numbers: "Compra: R$300 | Reparo: R$0 | Venda: R$2.000 | Lucro: R$1.700"
+    quote: "Imagina se eu trocar o compressor, não ia resolver."
+
+  - name: "Samsung 18 — Técnico de 20 Anos Não Sabia Dar Reset"
+    source: "Bate-papo #055 (Diogenes)"
+    before: "Samsung 18 com LEDs piscando. Técnico com 20 anos no setor arrancou a máquina e jogou no pátio."
+    intervention: "Diogenes deixou energizada 2 dias, instalou tubulação, rodou normal."
+    after: "Máquina perfeita. Cliente teve que pagar instalação de volta."
+    quote: "Simplesmente não quis nem fazer o reset na máquina."
+    lesson: "Conhecimento básico falta nos instaladores — oportunidade para Climatrônicos."
+
+  - name: "Transistor SMD de R$1.000 — A Parábola do Conhecimento"
+    source: "Podcast Climatrônico (precificação)"
+    before: "Equipamento industrial parado = prejuízo enorme para o cliente."
+    intervention: "Técnico troca transistor SMD em 10 minutos. Cobra R$1.000."
+    after: "Cliente reclama: 'R$990 pelo componente?' Resposta: 'R$10 pelo transistor, R$990 por saber qual era.'"
+    lesson: "Precificação por conhecimento, não por peça. Parábola usada repetidamente."
+
+podcast_metaphors:
+
+  - metaphor: "Médicos das Placas Eletrônicas"
+    meaning: "Nós somos médicos — a placa é o paciente. Às vezes o sintoma (erro na placa) está longe da causa real (problema no sistema)."
+    domain: "medicina"
+    usage_example: "Nós somos médicos das placas eletrônicas. Às vezes a dor de cabeça está no estômago."
+
+  - metaphor: "A Cura do Medo É Conhecimento"
+    meaning: "Técnicos têm medo do inverter. Conhecimento elimina medo."
+    domain: "psicologia"
+    usage_example: "A cura do medo é o conhecimento."
+
+  - metaphor: "Planta e Colheita"
+    meaning: "O plantio é opcional mas a colheita é obrigatória — você vai colher o que plantar."
+    domain: "agricultura / consequência"
+    usage_example: "O plantio é opcional mas a colheita é obrigatória."
+
+  - metaphor: "O Caminho Diferencial É Estreito"
+    meaning: "O caminho fácil é largo (todo mundo passa). O diferencial é estreito — poucos passam."
+    domain: "filosofia"
+    usage_example: "O caminho que tudo igual a essa que ser largo para passar todo mundo. O estreitinho é o diferencial."
+
+podcast_catchphrases:
+
+  - phrase: "Não é fácil, mas é simples"
+    context: "Sobre o caminho do Climatrônico — requer esforço mas o método é claro"
+    effect: "reframe — transforma 'impossível' em 'difícil mas factível'"
+
+  - phrase: "Faz parte do processo"
+    context: "Quando aluno reclama de dificuldade — normaliza o sofrimento como etapa necessária"
+    effect: "comfort + persistence — dá permissão para errar"
+
+  - phrase: "Se fosse fácil todo mundo fazia"
+    context: "Motivação quando aluno pensa em desistir — a dificuldade É a barreira de entrada"
+    effect: "reframe — transforma obstáculo em vantagem competitiva"
+
+  - phrase: "A confusão é o primeiro passo para o entendimento"
+    context: "Quando aluno se sente perdido — confusão = neuroplasticidade funcionando"
+    effect: "comfort + science — dá significado ao desconforto cognitivo"
+
+  - phrase: "Tu é fera, mano!"
+    context: "Celebração de resultado de aluno — oral only, nunca aparece em posts"
+    effect: "validação + orgulho paternal"
+
+  - phrase: "Quanto mais eu entrego, mais eu ganho"
+    context: "Mentalidade de abundância — sobre compartilhar conhecimento sem medo de concorrência"
+    effect: "abundance mindset — contra a escassez cultural brasileira"

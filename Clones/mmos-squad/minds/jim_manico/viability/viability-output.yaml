@@ -1,0 +1,268 @@
+# MMOS Viability Assessment - Jim Manico
+# Generated: 2026-02-19
+# Analyst: Mind Mapper (Cognitive Archaeologist)
+# Pipeline: greenfield / public mode
+
+subject:
+  name: "Jim Manico"
+  slug: "jim_manico"
+  domain: "Application Security / Secure Coding Education / OWASP Standards"
+  context: "Leader do projeto OWASP, fundador da Manicode Security, co-lead do ASVS, Proactive Controls, AISVS e Cheatsheet Series"
+
+source_type: "public"
+workflow_type: "greenfield"
+
+# ============================================================
+# APEX SCORING (6 Dimensions, 100 points total)
+# ============================================================
+
+apex_scoring:
+
+  # --- Dimension 1: Availability (Max: 20) ---
+  availability:
+    books_published: 3  # /5 — "Iron-Clad Java" (Oracle Press), contributor "Tribe of Hackers" (Wiley)
+    long_form_content: 4  # /5 — Regular: OWASP publications, Manicode catalog, Dark Reading articles, cheat sheets (50-99 items)
+    interviews_appearances: 4  # /5 — 21+ podcast appearances tracked (OwlTail), numerous conference interviews
+    social_media_activity: 3  # /3 — Highly active on X (@manicode), LinkedIn (substantive posts on ASVS, AppSec, AI)
+    video_content: 2  # /2 — Numerous conference talks on YouTube: NDC, OWASP Global AppSec, SecAppDev, AppSec California
+    total: 16  # /20
+
+    evidence:
+      books:
+        - "Iron-Clad Java: Building Secure Web Applications (Oracle Press/McGraw-Hill)"
+        - "Tribe of Hackers: Cybersecurity Advice from the Best Hackers in the World (Wiley, Chapter 42)"
+      podcasts:
+        - "The Secure Developer Ep. 26 (Snyk/Heavybit)"
+        - "Absolute AppSec Ep. 27"
+        - "The Virtual CISO Podcast Ep. 19"
+        - "Resilient Cyber — Enhancing Software Security in the Era of AI"
+        - "CSCP S03E07 — AppSec in Modern World and DevSecOps"
+        - "Future of Application Security (Tromzo)"
+        - "AppSec Builders"
+        - "21+ episodes tracked on OwlTail"
+      interviews:
+        - "ITSPmagazine Brand Story"
+        - "Cobalt Blog: Rethinking Application Security"
+        - "Dark Reading author column"
+      social:
+        - "X/Twitter @manicode — active, substantive (ASVS 5.0, AI+AppSec, secure coding tips)"
+        - "LinkedIn /in/jmanico — regular posts, 14+ comment threads"
+        - "GitHub /jmanico — active contributor"
+      video:
+        - "NDC Conferences: From the OWASP Top Ten to the OWASP ASVS (Class Central)"
+        - "OWASP Global AppSec Lisbon 2024 — ASVS keynote"
+        - "AppSec California 2017, 2019, 2020"
+        - "SecAppDev 2023, 2024, 2025"
+        - "Open Security Summit — OWASP Top Ten 2021"
+
+    notes: "Extremely well-covered across all source types. YouTube conference talks are abundant. Active social media presence with technical depth."
+
+  # --- Dimension 2: Public Persona (Max: 15) ---
+  public_persona:
+    recognition_level: 4  # /5 — Industry-famous, conference keynote level. OWASP Global Board, Java Champion.
+    media_coverage: 3  # /5 — Niche/industry publications (Dark Reading, Cobalt, ITSPmagazine, Phoenix Security). Not mainstream press.
+    teaching_presence: 5  # /5 — Manicode training programs, Udemy courses, conference talks worldwide, OWASP educational projects
+    total: 12  # /15
+
+    evidence:
+      media:
+        - "Dark Reading — author/contributor"
+        - "ITSPmagazine — Brand Story feature"
+        - "Cobalt Blog — featured author"
+        - "Phoenix Security — advisory board"
+      wikipedia: false  # No dedicated Wikipedia page found
+      courses:
+        - "Manicode Secure Coding Education (catalog: manicode.com/ManicodeCatalog.pdf)"
+        - "Udemy — Secure Coding Educator profile"
+        - "SecAppDev training (annual, 2023-2025)"
+      speaking:
+        - "NDC London 2026, NDC Security Oslo 2026, NDC Security 2025, NDC Porto 2025, NDC AI 2025"
+        - "SecAppDev 2023, 2024, 2025"
+        - "OWASP Global AppSec Lisbon 2024 (keynote)"
+        - "AppSec California 2019, 2020"
+        - "LocoMocoSec (Hawai'i)"
+        - "Open Security Summit"
+
+    assessment: "Top-tier presence within AppSec industry. Not a mainstream celebrity, but a household name for any developer or security professional who takes application security seriously."
+
+  # --- Dimension 3: Expertise Depth (Max: 20) ---
+  expertise_depth:
+    demonstrated_results: 6  # /7 — OWASP Board Member, co-lead ASVS/Proactive Controls/AISVS/Cheatsheet Series, Manicode Security founder, Java Champion, advisor to Semgrep/EdgeScan/Nucleus/DefectDojo/RAD Security
+    domain_tenure: 5  # /5 — 20+ years in cybersecurity, 19+ years software development (since late 90s)
+    methodology_development: 5  # /5 — Co-created/led OWASP ASVS (200+ requirements), Proactive Controls, AISVS, Cheatsheet Series — globally adopted standards
+    peer_recognition: 3  # /3 — Java Champion, OWASP Board, JavaOne Rock Star, cited by security community globally
+    total: 19  # /20
+
+    evidence:
+      results: "Founded Manicode Security (2014), OWASP Global Board Member, co-lead of 4 major OWASP projects, strategic advisor to 6+ security companies (Semgrep, EdgeScan, Nucleus Security, DefectDojo, RAD Security, LunaSec)"
+      tenure: "20+ years in cybersecurity since late 90s. BS Computer Science Siena College (1993-1997). Java development → security specialization → education → standards leadership."
+      frameworks:
+        - "OWASP ASVS (Application Security Verification Standard) — 200+ requirements, used worldwide"
+        - "OWASP Proactive Controls — top 10 security techniques for developers"
+        - "OWASP AISVS (AI Security Verification Standard) — new project"
+        - "OWASP Cheatsheet Series — practical security guides"
+        - "Developer-centric ASVS 5 fork — actionable guidance for software engineers"
+      citations: "Constantly referenced in AppSec talks, courses, standards. 'As Jim Manico says...' is common in security education circles."
+
+    assessment: "Elite-tier credibility. One of the most recognized and impactful figures in application security education worldwide."
+
+  # --- Dimension 4: X-Factor (Max: 15) ---
+  x_factor:
+    contrarian_thinking: 4  # /5 — Challenges 'OWASP Top 10 is enough' orthodoxy. Pushes ASVS over Top 10. Argues security is developer education problem, not tooling. Developer-centric security vs. traditional security gatekeeping.
+    storytelling_communication: 3  # /5 — Good communicator with practical focus. Known for clear technical explanations and real-world examples. More educator than storyteller.
+    pattern_synthesis: 4  # /5 — Cross-domain: Java + security + education + AI + standards + business advisory. Connects developer experience with security policy, standards, and business value.
+    total: 11  # /15
+
+    evidence:
+      contrarian_examples:
+        - "Argues OWASP Top 10 is insufficient — ASVS is the real standard"
+        - "Security as developer education, not just tooling or gatekeeping"
+        - "Developer-centric fork of ASVS 5 — opinionated, actionable, not bureaucratic"
+        - "'After 20 years in cybersecurity I never felt like I fit in' — carved unique path between dev and security"
+        - "AI as force multiplier for security, not a threat"
+      communication_style: "Clear, practical, no-nonsense educator. Combines lecture with live security testing demonstrations and code review. Passionate but grounded."
+      synthesis_examples:
+        - "Java development experience → security standards creation"
+        - "Education methodology → OWASP global standards"
+        - "AI innovation → AppSec evolution (AISVS)"
+        - "Business advisory → security ROI for organizations"
+
+    unique_qualities: "Jim's X-factor is the rare combination of deep technical developer experience with security standards leadership AND education ability. He bridges the gap between developers and security professionals in a way few others can."
+
+  # --- Dimension 5: Temporal Relevance (Max: 15) ---
+  temporal_relevance:
+    current_activity: 5  # /5 — Highly active: NDC London 2026, NDC Security Oslo 2026, ASVS 5.0, AISVS, Manicode training
+    trend_alignment: 5  # /5 — AI security (AISVS), secure coding in AI era, security-centric prompting — directly addresses biggest current trend
+    future_applicability: 5  # /5 — Timeless principles (secure coding, ASVS) + cutting-edge AI application. Relevant 5+ years.
+    total: 15  # /15
+
+    evidence:
+      last_activity: "2026-02 — Active on X, scheduled for NDC London 2026 and NDC Security Oslo 2026"
+      trend_assessment: "Application security is a permanently growing domain. AI security (AISVS) is the hottest new frontier. Jim is at the intersection of both."
+      longevity: "Secure coding principles are timeless. OWASP standards evolve but never become obsolete. AI security is a multi-decade trend just starting."
+
+    relevance_window: "10+ years — timeless foundations plus active evolution with AI security"
+
+  # --- Dimension 6: Value Density (Max: 15) ---
+  value_density:
+    actionable_frameworks: 6  # /6 — OWASP ASVS (200+ requirements), Proactive Controls (top 10 techniques), AISVS, Cheatsheet Series, Manicode training methodology
+    tactical_specificity: 5  # /5 — Specific, step-by-step: code review demonstrations, hands-on security testing, implementation guidance
+    case_studies_examples: 3  # /4 — Rich examples through training courses, conference demos, real-world code review sessions
+    total: 14  # /15
+
+    evidence:
+      frameworks:
+        - "OWASP ASVS — 200+ verification requirements with implementation guidance"
+        - "OWASP Proactive Controls — top 10 security techniques every developer should know"
+        - "OWASP AISVS — AI-specific security verification"
+        - "OWASP Cheatsheet Series — practical how-to guides"
+        - "Manicode training methodology — lecture + demo + code review"
+        - "Developer-centric ASVS 5 fork — actionable for engineers"
+      specificity_level: "tactical — Jim provides specific code examples, step-by-step implementation, and live demonstrations"
+      examples_count: 50+  # Across all training materials, talks, books, and OWASP projects
+
+    practical_value: "Extremely high. Jim's content is inherently actionable — it's designed to teach developers HOW to code securely, not just WHAT to avoid."
+
+# ============================================================
+# APEX TOTAL
+# ============================================================
+
+apex_total:
+  availability: 16  # /20
+  public_persona: 12  # /15
+  expertise_depth: 19  # /20
+  x_factor: 11  # /15
+  temporal_relevance: 15  # /15
+  value_density: 14  # /15
+  total: 87  # /100
+  percentage: 87
+
+  decision: "AUTO-APPROVE"
+  rationale: "Jim Manico scores 87/100 — well above the 75-point auto-approve threshold. Exceptional expertise depth (19/20), perfect temporal relevance (15/15), and outstanding value density (14/15). The only moderate area is X-factor storytelling (3/5), as Jim is more of a practical educator than a dramatic storyteller — but this actually FITS his domain perfectly."
+
+  strengths:
+    - "Unparalleled expertise depth: 20+ years, OWASP Board, co-lead of 4 major standards"
+    - "Perfect temporal relevance: AI security (AISVS) is the hottest emerging domain"
+    - "Maximum actionability: frameworks, standards, and training designed for developers"
+    - "Active and prolific: scheduled for 5+ conferences in 2025-2026"
+
+  weaknesses:
+    - "No dedicated Wikipedia page (reduces discoverability for non-technical audiences)"
+    - "Communication style is practical/educational rather than charismatic/storytelling"
+    - "Only 1 primary-author book (though quality is high)"
+
+# ============================================================
+# ICP (Ideal Clone Profile) MATCHING
+# ============================================================
+
+icp_analysis:
+  potential_use_cases:
+    - use_case: "Secure Coding Mentor for Developers"
+      target_audience: "Software developers building web applications"
+      primary_value: "Real-time secure coding guidance based on OWASP standards"
+      match_strength: "High"
+      icp_score: 95
+
+    - use_case: "AppSec Program Advisor"
+      target_audience: "Security leads, CTOs, engineering managers"
+      primary_value: "Strategic guidance on building application security programs using ASVS"
+      match_strength: "High"
+      icp_score: 90
+
+    - use_case: "DevSecOps Education Coach"
+      target_audience: "DevOps/DevSecOps engineers integrating security into CI/CD"
+      primary_value: "Practical security automation and verification guidance"
+      match_strength: "High"
+      icp_score: 85
+
+    - use_case: "AI Security Standards Advisor"
+      target_audience: "Teams building AI/ML applications"
+      primary_value: "OWASP AISVS guidance, security-centric prompting"
+      match_strength: "Medium-High"
+      icp_score: 80
+
+    - use_case: "Security Training Curriculum Designer"
+      target_audience: "Security educators, training program managers"
+      primary_value: "Manicode-style secure coding education methodology"
+      match_strength: "Medium"
+      icp_score: 75
+
+  primary_icp:
+    domain_alignment: 10  # /10 (weight: 30%)
+    audience_fit: 9  # /10 (weight: 25%)
+    use_case_specificity: 9  # /10 (weight: 20%)
+    accessibility: 8  # /10 (weight: 15%)
+    roi_potential: 9  # /10 (weight: 10%)
+    weighted_score: 9.3  # /10
+    percentage: 93
+
+# ============================================================
+# ROI PROJECTION
+# ============================================================
+
+roi_projection:
+  investment_estimate:
+    time: "20-30 hours (with parallelization)"
+    tokens: "3-5M tokens"
+    cost_estimate: "$30-50 (at Claude pricing)"
+  expected_value:
+    use_case_value: "High — fills critical gap in secure coding education and OWASP standards guidance"
+    audience_size: "Millions of developers worldwide need secure coding guidance"
+    value_per_use: "High — each interaction prevents potential security vulnerabilities"
+  roi_assessment: "High"
+  recommendation: "PROCEED"
+
+# ============================================================
+# FINAL DECISION
+# ============================================================
+
+final_decision:
+  apex_score: 87
+  icp_match: 93
+  combined_viability: 90
+  decision: "GO"
+  confidence: "HIGH"
+  rationale: "Jim Manico is an exceptional candidate for cognitive cloning. His deep expertise, active presence, prolific output, and position at the intersection of AppSec + AI make him a high-value, high-fidelity clone target."
+
+assessed_at: "2026-02-19T00:00:00Z"
+pipeline_version: "3.0"

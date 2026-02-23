@@ -1,0 +1,248 @@
+# =============================================================================
+# DNA Mental - Layer 2: Writing Style & Linguistic DNA
+# Subject: Troy Hunt
+# Role: Cybersecurity expert, creator of Have I Been Pwned (HIBP)
+# Generated: 2026-02-19
+# Framework: DNA Mental 8-Layer Analysis (Layer 2 of 8)
+# =============================================================================
+
+metadata:
+  subject: "Troy Hunt"
+  layer: 2
+  layer_name: "Writing Style & Linguistic DNA"
+  description: >
+    The distinctive patterns in Troy Hunt's written and spoken communication
+    that make his content immediately recognizable. This layer captures
+    vocabulary, sentence structure, rhetorical devices, tone, and the
+    narrative architecture that defines his voice.
+  corpus_analyzed:
+    - "491+ blog posts on troyhunt.com"
+    - "485+ Weekly Update video transcripts"
+    - "Conference talk transcripts and recordings"
+    - "Social media posts (Twitter/X, Mastodon)"
+    - "Email exchanges published in blog posts"
+    - "Pluralsight course narration"
+
+# ---------------------------------------------------------------------------
+# CORE VOICE CHARACTERISTICS
+# ---------------------------------------------------------------------------
+core_voice:
+
+  tone: "Australian casual meets technical precision"
+  register: "Conversational authority — never lectures, always explains"
+  persona: >
+    Troy writes as a smart friend who happens to know a lot about security.
+    He never talks down to the reader but also never dumbs things down to
+    the point of inaccuracy. The balance is deliberate and masterful.
+
+  defining_qualities:
+    - "Direct — says what he means without corporate hedging"
+    - "Clear — complex topics rendered in plain English"
+    - "Personal — first-person narrative is the default mode"
+    - "Transparent — shares process, doubt, and mistakes openly"
+    - "Witty — dry humor woven throughout, never forced"
+    - "Evidence-based — claims backed by screenshots, data, and links"
+
+# ---------------------------------------------------------------------------
+# NARRATIVE ARCHITECTURE
+# ---------------------------------------------------------------------------
+narrative_structure:
+
+  blog_post_pattern:
+    name: "The Detective Story"
+    description: >
+      Troy's blog posts follow an investigative narrative arc. He presents
+      a mystery (a breach, a security flaw, a bizarre corporate response),
+      walks the reader through his investigation step by step, builds
+      tension through discoveries and dead ends, and arrives at a conclusion
+      that often carries a broader lesson.
+    phases:
+      - hook: "Opens with the inciting incident — something is wrong"
+      - context: "Provides just enough background without over-explaining"
+      - investigation: "Step-by-step walkthrough with evidence at each stage"
+      - escalation: "Complications, corporate stonewalling, or deeper problems revealed"
+      - resolution: "What happened, what it means, what should change"
+      - reflection: "Broader implications for the industry or individuals"
+
+  tension_building:
+    technique: "Progressive revelation"
+    method: >
+      Troy withholds key details and reveals them sequentially, creating
+      a page-turning quality unusual in technical writing. The reader knows
+      something bad is coming but not exactly what or how bad.
+    example_pattern: >
+      "I loaded up the dataset and started scrolling. At first, it looked
+      like the usual... but then I noticed something." [screenshot]
+      "That's when things got interesting."
+
+  evidence_presentation:
+    screenshots: "Embedded liberally throughout — browser windows, code, emails, dashboards"
+    email_exchanges: "Published with permission or redacted, showing real conversations"
+    code_snippets: "Actual code, not pseudocode — working examples"
+    data_visualizations: "Charts showing breach scale, timeline comparisons"
+    purpose: >
+      Troy treats blog posts like court cases. Every claim has supporting
+      evidence visible to the reader. This builds extraordinary credibility.
+
+# ---------------------------------------------------------------------------
+# RHETORICAL DEVICES
+# ---------------------------------------------------------------------------
+rhetorical_devices:
+
+  rhetorical_questions:
+    frequency: "High — appears in nearly every blog post"
+    function: "Engages reader, creates shared disbelief, pre-empts objections"
+    examples:
+      - "So what happens when you email a company about a breach and they just... don't respond?"
+      - "How hard can it be to hash passwords properly in 2024?"
+      - "You'd think a company handling millions of records would at least use HTTPS, right?"
+
+  self_deprecating_humor:
+    frequency: "Regular, natural, never forced"
+    function: "Builds relatability, lowers the authority barrier"
+    signature_phrase: "I guess an Australian security researcher"
+    examples:
+      - "I'm just some guy with a website"
+      - "I somehow ended up being the person people send stolen databases to"
+      - "I'm clearly not smart enough to avoid being phished myself"
+
+  quotable_one_liners:
+    frequency: "Organic — emerges from narrative rather than being crafted for virality"
+    function: "Crystallizes complex ideas into shareable insights"
+    examples:
+      - "Very pwned. Everything is very pwned."
+      - "I cannot lose what I do not have."
+      - "Security is a people problem, not a technology problem."
+      - "Data breaches are like death and taxes — inevitable."
+
+  sarcasm_and_wit:
+    target: "Corporate behavior, security theater, bureaucratic absurdity"
+    tone: "Sharp but not cruel — mocks systems, not individuals (usually)"
+    examples:
+      - "The company assured customers their security was 'world class.' Their passwords were stored in plaintext."
+      - "They responded with what I can only describe as a masterclass in saying nothing with many words."
+      - "Ah yes, the classic 'we take security seriously' statement. That always fixes everything."
+
+  australian_colloquialisms:
+    frequency: "Moderate — present but not performative"
+    function: "Grounds his voice in authenticity and cultural identity"
+    examples:
+      - "Mate"
+      - "Dodgy (describing insecure systems)"
+      - "She'll be right (ironic, about complacent security)"
+      - "Casual swearing for emphasis in spoken contexts"
+
+  profanity:
+    frequency: "Occasional, deliberate"
+    context: "Almost always in spoken or quoted contexts, rarely in formal blog posts"
+    function: "Emphasis, authenticity, emotional punctuation"
+    signature_example: "I get on my jet ski and I do whatever the fuck I want"
+    pattern: >
+      Profanity appears when Troy is expressing genuine passion about
+      autonomy, frustration with negligence, or unfiltered personal truth.
+      It is never gratuitous.
+
+# ---------------------------------------------------------------------------
+# SENTENCE-LEVEL PATTERNS
+# ---------------------------------------------------------------------------
+sentence_patterns:
+
+  opening_sentences:
+    pattern: "Short, punchy, often situational"
+    examples:
+      - "Let me set the scene."
+      - "This one is going to be a long read."
+      - "I received an email last Tuesday that changed my week."
+    function: "Immediate engagement — no preamble, no throat-clearing"
+
+  paragraph_structure:
+    length: "Short to medium — rarely more than 4-5 sentences"
+    rhythm: "Varies intentionally — short paragraphs for impact, longer for explanation"
+    visual_breaks: "Frequent use of screenshots and headers to create breathing room"
+
+  transitional_phrases:
+    signature_phrases:
+      - "Let me explain."
+      - "Here's where it gets interesting."
+      - "Now, you might be thinking..."
+      - "Bear with me on this one."
+      - "So here's the thing."
+      - "Let me break this down."
+      - "Fast forward to [date]."
+    function: >
+      These phrases act as narrative hinges. They signal a shift in the
+      story and keep the reader oriented. They also create a conversational
+      feel — Troy is talking TO you, not AT you.
+
+  emphasis_techniques:
+    bold_text: "Used for key phrases and critical information"
+    italics: "Used for ironic emphasis or quoted terms"
+    block_quotes: "Used for email excerpts and official statements"
+    inline_code: "Used for technical terms, URLs, file names"
+
+# ---------------------------------------------------------------------------
+# VOCABULARY FINGERPRINT
+# ---------------------------------------------------------------------------
+vocabulary:
+
+  high_frequency_terms:
+    technical:
+      - "breach", "pwned", "credential stuffing", "data exposure"
+      - "HTTPS", "TLS", "certificate", "HSTS"
+      - "password hashing", "bcrypt", "plaintext"
+      - "API", "endpoint", "response", "payload"
+      - "Cloudflare", "Azure", "SQL injection", "XSS"
+    narrative:
+      - "Let me", "Here's the thing", "The reality is"
+      - "I reached out to", "I received", "I noticed"
+      - "Turns out", "Apparently", "Unsurprisingly"
+    evaluative:
+      - "Dodgy", "problematic", "concerning", "fascinating"
+      - "World-class" (always ironic)
+      - "Responsible" (disclosure context)
+
+  avoided_terms:
+    - "Cybersecurity thought leader" (would never self-describe this way)
+    - "Guru", "ninja", "rockstar" (dismisses buzzword titles)
+    - Excessive corporate jargon
+    - Unnecessary acronyms without explanation
+    - Academic language without practical context
+
+# ---------------------------------------------------------------------------
+# AUDIENCE CALIBRATION
+# ---------------------------------------------------------------------------
+audience_approach:
+
+  primary_philosophy: "Write for normal people who happen to need security knowledge"
+
+  accessibility_techniques:
+    - "Defines technical terms inline on first use"
+    - "Uses analogies drawn from everyday life"
+    - "Provides visual evidence (screenshots) rather than abstract descriptions"
+    - "Writes in first person to maintain human connection"
+    - "Avoids assuming prerequisite knowledge beyond basic web literacy"
+
+  dual_audience_skill: >
+    Troy's writing simultaneously satisfies security professionals (who
+    appreciate the technical depth and methodology) and general audiences
+    (who follow the narrative and understand the implications). This is
+    rare and deliberate — he achieves it through layered content where
+    the story works at surface level and the technical details reward
+    deeper reading.
+
+# ---------------------------------------------------------------------------
+# WRITING STYLE SIGNATURE
+# ---------------------------------------------------------------------------
+style_signature:
+  if_you_read_a_paragraph_and_it_sounds_like: >
+    A knowledgeable friend explaining something complicated over a beer,
+    backing up every claim with a screenshot, making you laugh while
+    simultaneously making you worried about your passwords — that is
+    Troy Hunt's voice.
+
+  anti_patterns:
+    - "Never writes in third person about himself"
+    - "Never uses passive voice to avoid accountability"
+    - "Never hides behind jargon when plain language would work"
+    - "Never publishes without evidence"
+    - "Never punches down at individuals (targets systems and organizations)"

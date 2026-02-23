@@ -1,0 +1,14 @@
+# Se você quer FATURAR BEM no segmento da climatização, JAMAIS FAÇA ISSO #AME
+
+- **Video ID:** XDKN1hoVsjQ
+- **URL:** https://www.youtube.com/watch?v=XDKN1hoVsjQ
+- **Duration:** 4 min
+- **Views:** 139
+- **Published:** 2021-07-27T15:00:13Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+é porque aí você vai você vai o cara pega um dia fazer aqui outra acolá hoje mesmo ou tem coisas os meus aconteceu no grupo de alunos do ensino da dez anos aqui que aconteceu isso aí que é um defeito que eu cara chegou a gente foi nosso shared para analisar o defeito ele ele pediu tipo um atalho não tem uma coisa mais rápida que eu possa fazer lá e analisar não tipo a gente passou o norte né faz isso isso isso mais vezes mas aquilo lá é isso nós aqui em pé extenso aqui eu quero fazer um apanhado Geral do direito E aí ele queria tipo a diquinha né chegar lá fazer duas transmissão tirar informação para fazer assim não é assim que funciona e muitas pessoas pensam que é desse jeito não troca de componentes trabalho desse jeito e vai achismo ou polpa ligou o bater o outro tava aqui which deu uma outra coisa troca aqui da loteria toca toca toca toca tudo deu certo caraca tropidurus é o Windows certo sei lá eu troquei do certo aí só se fala nisso eu não sei deu certo então o cara ficou Barça com isso e vai levar na na no achismo ah e tem coisas que você não tem Eu poderia até dar uma explicação sim só que não ela teme ter Então tá não vai ficar tão simples só não consegui lá tá só uma dicazinha mas fora isso é muitas vezes nele gente fazer isso então era pra gente que a mesma lógica cara eu posso chegar aí está a explicação completa do defeito para tu ter caminho para seguir Ou posso assim eu posso ele gente que eu já diferente ainda não ser assim que eu nem falo nada vocês isso aqui em casa sob esse ponto aqui estou aqui para ficar pastor para mim E aí eu vou tá só eu sei um professor eu sei que eu não tô entendendo nada eu já baixei disse assim cara só isso aqui troca só isso que eu tô te ensinando nada a próxima vez para outro efeito que não foi aquele ponto que eu te falei faz um correr quem amigo a pedir de novo outra dica você aprendeu nada só pegou um piso é um bisu que não vai ter lugar nenhum tá mandando errado do cara que isso a entrar nesse mercado forte Jessie demanda é ficar só no improviso um só nível trocador de componente casca nesse nível aí a mãe dele que ela vai trabalhar muito mais clara vai muitas vezes vai se estressar demais vai perder a paciência em aonde ele bastante errado aí o cara começa e muitas vezes ou até trabalhar muito mesmo também dele então é muito menos a gente trabalhar mais trabalhar também nem compensa né não compensa não compensa mesmo não sei

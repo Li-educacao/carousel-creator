@@ -1,0 +1,14 @@
+# SAMSUNG WINDFREE | ANÁLISE E ALGUMAS CARACTERÍSTICAS
+
+- **Video ID:** 7rZtoOZ-hE8
+- **URL:** https://www.youtube.com/watch?v=7rZtoOZ-hE8
+- **Duration:** 3 min
+- **Views:** 538
+- **Published:** 2024-12-13T22:00:03Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+Fala meu povo bom dia professor Valdei Araújo aqui da da Equipe técnica e pedagógica de lauand aqui da academia da manutenção eletrônica troue algumas características dessa máquina Samsung Ultra Samsung free diferenças sutis que confundem os alunos ó aqui perto da ponte retificadora tem um chip deveria ter um chip aqui né o circuito integrado aqui de oito pinos algumas delas vem de fábrica sem ele sem esse chip algumas dessas placas e outras vem com ele que chip é esse é o drive de acionamento do igbt drive do igbt algunas vem com ele é normal algunas vem sem ele também é normal quando a placa vem sem o drive de acionamento do igbt é porque ela não usa o igbt certo então consequentemente o circuito PFC dela é passivo é Inativo não é ativo quando ela vem com ele com o drive de acionamento esse carinha ela usa o igbt aciona o igbt Isso significa que o circuito PFC correção de fator de potência é ativo beleza outra diferenç é esse cara aqui ó algumas delas vem com esse chipinho aqui que a memória é eprom e outras vem sem ele quando ela vem com a eprom aqui esse chipz é porque a eprom dela é externa a micro fica a memória da máquina fica aqui ó aqui e quando vem sem sem esse chip sem a memória aprom significa que a memória da máquina fica aqui dentro do microcontrolador o micro também tem pode guardar a memória da máquina certo ele tem uma memóri Zinha dedicada a ele outra diferença comunicação certo algumas máquinas Samsung Wind free usam um canal F1 F2 na comunicação essa usa apenas Apas um canal unidirecional onde a comunicação vem da evaporadora entra aqui na condensadora por esse cabo passa por esse circuitinho de comunicação pelo óp acoplador e daqui vai pro microcontrolador aqui ó certo mas não tem comunicação voltando não tem comunicação da condensadora para evaporadora apenas da evaporadora pra condensadora mas não tem comunicação voltando da condensadora pra evaporadora não tem por isso que só tem um óbito aqui ó canalzinho unidirecional beleza outra coisa essa placa ela não utiliza o transformador Zinho já viram aí ó ela não usa aquele transformador Zinho de ferrit o trafo certo ela não usa Então ela usa aqui um conversor dcdc Buck como fonte chaveador Zinho aqui certamente é um lnk certo ele é comumente usado em Fontes É desse tipo conversou com dcdc Buck Então é isso aí algumas diferenças sutis depois trago mais e se quiserem se aprofundar no no assunto fiquem de olho aí no Instagram do lawand ou Garanta sua vaga na academia da manutenção eletrônica e se torne um climatronic m

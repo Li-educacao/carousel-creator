@@ -1,0 +1,14 @@
+# A MAIOR SACADA para quem não quer ou não sabe divulgar seu serviço de reparo #AME
+
+- **Video ID:** xG5BW4SgEiE
+- **URL:** https://www.youtube.com/watch?v=xG5BW4SgEiE
+- **Duration:** 4 min
+- **Views:** 116
+- **Published:** 2022-06-10T15:00:37Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+e no boca a boca é uma bosta hoje o meu ontem eu tava bombando no Recife surrealmente muito serviços já deve surpreendi com a demora dele e você corre atrás tudo que tu usa só de vendas tem algum vão comercial ativo Olha só o Instagram época pouco dos meus clientes então torceu você é muito escasso que o batom e quando melhor cara é de produtividade entregar muitos reparos sabendo parar e fazer acontecer ele quanto guardar o cara é nesse sentido mais demorado você consegue atrair para ele e um calor que acontece muito rápido porque o mercado é fechado os cara da Federação se conhece e aí por exemplo tá porque ela sempre meu irmão saiu só esses dias com farda não somente tá instalado não sei que eu falar eu não sei aprovado ela até que nós estamos nova geração e os caras viram eu vou falar igual o carnaval Tech então a gente é parceiro dos doces O que ocorre nos estados do país com climatronic é parceiro e como entre si eles conversam bastante quando aparece um cara que é parceiro aqui surpresa estar deles que traz um reparo que assim desejarem fazer para não perder esse trabalho dos técnicos gostam decidiram que resolveu tô falando dos clientes quando acontece isso eles eles comunicam às vezes nós conversa aqui ele não tem cartão aí ela tá reparando quarta Leão tem uma uma menina que tava falando no quarto ali e acreditava-se garante ando pode ela para lá que ela é desenrolada sei lá então eu ficava boca-a-boca pudesse muito então difícil é maravilhoso boca-a-boca porque se somente porque geralmente no início tem-se Uma demanda enxame demanda reprimida tem muita placa parada muitos técnicos lá na palavra também que não vai aparecer um cara que é válido embora se essa essa demanda o mercado todinho entendeu E aí e vai receber o eu sou louca porque eu não vou arriscar dizer que a maioria eu conheço eu tenho um aluno que eu lembro que o batom que eu levo assim a cabeça agora que utiliza propagandas on lines para captar clientes e ele faz aí consegue o cliente paga entendeu porque ele não dá conta ele faz logo uma agenda preparo 1 Oi Bruna eu lembro eu lembro bem porque o Bruno eu não eu vi né se você comer recentemente então tipo ainda tá ele tava com bastante o tempo que ele trabalha né já que ele já tá nessa área que se tornou Climatempo Cascavel faz mais de um ano e até hoje ele não se divulga isso amor eu estou com calor divulga porque se eu me divulgar eu não vou dar conta porque eu já tô quase não dando conta você pedir divulgação agência não divulgados

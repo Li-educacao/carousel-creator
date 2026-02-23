@@ -1,0 +1,351 @@
+# Sources Master — Troy Hunt
+# Pipeline: MMOS v3.0.1 | DNA Mental™
+# Date: 2026-02-19
+# Status: Phase 1 Complete
+
+subject:
+  name: "Troy Hunt"
+  slug: "troy_hunt"
+
+summary:
+  total_sources: 40
+  total_categories: 4
+  categories:
+    blog_posts: 35
+    interviews: 3
+    conference_talks: 61  # catalogued, not transcribed
+    biographical: 1
+  gate_passed: true  # >= 5 sources, 2+ categories
+
+# ============================================================
+# BLOG POSTS (35 files collected)
+# ============================================================
+blog_posts:
+
+  # --- Ethics & Values ---
+  - file: "blogs/ethics-of-running-data-breach-search-service.md"
+    url: "https://www.troyhunt.com/the-ethics-of-running-a-data-breach-search-service/"
+    category: "ethics_values"
+    layer_relevance: [L6, L7, L8]
+    priority: "tier_1"
+
+  - file: "blogs/who-decides-who-doesnt-deserve-privacy.md"
+    url: "https://www.troyhunt.com/who-decides-who-doesnt-deserve-privacy/"
+    category: "ethics_values"
+    layer_relevance: [L6, L8]
+    priority: "tier_1"
+
+  - file: "blogs/effectiveness-publicly-shaming-bad-security.md"
+    url: "https://www.troyhunt.com/the-effectiveness-of-publicly-shaming-bad-security/"
+    category: "ethics_values"
+    layer_relevance: [L6, L7]
+    priority: "tier_1"
+
+  - file: "blogs/how-i-handle-online-abuse.md"
+    url: "https://www.troyhunt.com/heres-how-i-handle-online-abuse/"
+    category: "ethics_values"
+    layer_relevance: [L1, L3, L6]
+    priority: "tier_1"
+
+  - file: "blogs/court-injunctions-thoughts-prayers.md"
+    url: "https://www.troyhunt.com/court-injunctions-are-the-thoughts-and-prayers-of-data-breach-response/"
+    category: "ethics_values"
+    layer_relevance: [L6, L7, L8]
+    priority: "tier_1"
+
+  - file: "blogs/how-i-decide-what-i-endorse.md"
+    url: "https://www.troyhunt.com/heres-how-i-decide-what-i-endorse-and-how-i-ensure-transparency/"
+    category: "ethics_values"
+    layer_relevance: [L6]
+    priority: "tier_1"
+
+  - file: "blogs/not-paying-consuming-goodwill.md"
+    url: "https://www.troyhunt.com/if-youre-not-paying-for-the-product-you-are-possibly-just-consuming-goodwill-for-free/"
+    category: "ethics_values"
+    layer_relevance: [L6, L7]
+    priority: "tier_1"
+
+  # --- Methodology & Process ---
+  - file: "blogs/streamlining-data-breach-disclosures.md"
+    url: "https://www.troyhunt.com/streamlining-data-breach-disclosures-a-step-by-step-process/"
+    category: "methodology"
+    layer_relevance: [L4, L5]
+    priority: "tier_1"
+
+  - file: "blogs/how-i-verify-data-breaches.md"
+    url: "https://www.troyhunt.com/heres-how-i-verify-data-breaches/"
+    category: "methodology"
+    layer_relevance: [L4, L5]
+    priority: "tier_1"
+
+  - file: "blogs/data-breach-disclosure-conundrum.md"
+    url: "https://www.troyhunt.com/the-data-breach-disclosure-conundrum/"
+    category: "methodology"
+    layer_relevance: [L5, L6, L8]
+    priority: "tier_1"
+
+  - file: "blogs/breach-disclosure-blow-by-blow.md"
+    url: "https://www.troyhunt.com/breach-disclosure-blow-by-blow-heres-why-its-so-hard/"
+    category: "methodology"
+    layer_relevance: [L5, L7]
+    priority: "tier_1"
+
+  - file: "blogs/cant-trust-hackers-verification-tales.md"
+    url: "https://www.troyhunt.com/you-cant-trust-hackers-and-other-data-breach-verification-tales/"
+    category: "methodology"
+    layer_relevance: [L4, L5]
+    priority: "tier_1"
+
+  - file: "blogs/data-breach-misattribution.md"
+    url: "https://www.troyhunt.com/data-breach-misattribution-acxiom-live-ramp/"
+    category: "methodology"
+    layer_relevance: [L4, L5]
+    priority: "tier_2"
+
+  # --- Personal & Reflective ---
+  - file: "blogs/decade-of-hibp.md"
+    url: "https://www.troyhunt.com/a-decade-of-have-i-been-pwned/"
+    category: "personal"
+    layer_relevance: [L6, L7, L8]
+    priority: "tier_1"
+
+  - file: "blogs/divorce.md"
+    url: "https://www.troyhunt.com/divorce/"
+    category: "personal"
+    layer_relevance: [L6, L7, L8]
+    priority: "tier_1"
+
+  - file: "blogs/sustaining-performance-extreme-stress.md"
+    url: "https://www.troyhunt.com/sustaining-performance-under-extreme-stress/"
+    category: "personal"
+    layer_relevance: [L1, L3, L6, L7]
+    priority: "tier_1"
+
+  - file: "blogs/personal-finance-lessons-tech.md"
+    url: "https://www.troyhunt.com/10-personal-finance-lessons-for-technology-professionals/"
+    category: "personal"
+    layer_relevance: [L5, L6]
+    priority: "tier_2"
+
+  - file: "blogs/international-speaking-trip.md"
+    url: "https://www.troyhunt.com/heres-everything-that-goes-into-a-massive-international-speaking-trip/"
+    category: "personal"
+    layer_relevance: [L1, L3]
+    priority: "tier_2"
+
+  - file: "blogs/optimised-life-for-job.md"
+    url: "https://www.troyhunt.com/how-i-optimised-my-life-to-make-my-job/"
+    category: "personal"
+    layer_relevance: [L1, L3, L5]
+    priority: "tier_1"
+
+  - file: "blogs/project-svalbard-hibp-independence.md"
+    url: "https://www.troyhunt.com/project-svalbard-have-i-been-pwned-and-its-ongoing-independence/"
+    category: "personal"
+    layer_relevance: [L6, L7]
+    priority: "tier_1"
+
+  - file: "blogs/project-svalbard-future-hibp.md"
+    url: "https://www.troyhunt.com/project-svalbard-the-future-of-have-i-been-pwned/"
+    category: "personal"
+    layer_relevance: [L6, L7]
+    priority: "tier_1"
+
+  - file: "blogs/hibp-employee-1.md"
+    url: "https://www.troyhunt.com/have-i-been-pwned-employee-1-0-stefan-jokull-sigurdarson/"
+    category: "personal"
+    layer_relevance: [L1, L6]
+    priority: "tier_2"
+
+  - file: "blogs/hibp-2-0-live.md"
+    url: "https://www.troyhunt.com/have-i-been-pwned-2-0-is-now-live/"
+    category: "personal"
+    layer_relevance: [L7]
+    priority: "tier_2"
+
+  - file: "blogs/pwned-the-book.md"
+    url: "https://www.troyhunt.com/pwned-the-book-is-finally-here/"
+    category: "personal"
+    layer_relevance: [L2, L7]
+    priority: "tier_2"
+
+  # --- Technical Deep-Dives ---
+  - file: "blogs/passkeys-for-normal-people.md"
+    url: "https://www.troyhunt.com/passkeys-for-normal-people/"
+    category: "technical"
+    layer_relevance: [L2, L5]
+    priority: "tier_1"
+
+  - file: "blogs/hyperscaling-hibp-cloudflare.md"
+    url: "https://www.troyhunt.com/closer-to-the-edge-hyperscaling-have-i-been-pwned-with-cloudflare-workers-and-caching/"
+    category: "technical"
+    layer_relevance: [L4, L5]
+    priority: "tier_2"
+
+  - file: "blogs/inside-naz-api-credential-stuffing.md"
+    url: "https://www.troyhunt.com/inside-the-massive-naz-api-credential-stuffing-list/"
+    category: "technical"
+    layer_relevance: [L4, L5]
+    priority: "tier_2"
+
+  - file: "blogs/inside-att-data-breach.md"
+    url: "https://www.troyhunt.com/inside-the-massive-alleged-att-data-breach/"
+    category: "technical"
+    layer_relevance: [L4, L5]
+    priority: "tier_2"
+
+  - file: "blogs/processing-23-billion-stealer-logs.md"
+    url: "https://www.troyhunt.com/processing-23-billion-rows-of-alien-txtbase-stealer-logs/"
+    category: "technical"
+    layer_relevance: [L4, L5]
+    priority: "tier_2"
+
+  - file: "blogs/sneaky-phish-mailchimp.md"
+    url: "https://www.troyhunt.com/a-sneaky-phish-just-grabbed-my-mailchimp-mailing-list/"
+    category: "technical"
+    layer_relevance: [L1, L6, L8]
+    priority: "tier_1"
+
+  - file: "blogs/630-million-pwned-passwords-fbi.md"
+    url: "https://www.troyhunt.com/processing-630-million-more-pwned-passwords-courtesy-of-the-fbi/"
+    category: "technical"
+    layer_relevance: [L4, L5]
+    priority: "tier_2"
+
+  - file: "blogs/state-of-data-breaches.md"
+    url: "https://www.troyhunt.com/the-state-of-data-breaches/"
+    category: "technical"
+    layer_relevance: [L5, L7]
+    priority: "tier_1"
+
+  # --- Communication Style & Misc ---
+  - file: "blogs/iot-unravelled-home-assistant.md"
+    url: "https://www.troyhunt.com/iot-unravelled-part-1-its-a-mess-but-then-theres-home-assistant/"
+    category: "lifestyle_tech"
+    layer_relevance: [L1, L2]
+    priority: "tier_2"
+
+  - file: "blogs/spoutible-leaky-api.md"
+    url: "https://www.troyhunt.com/how-spoutibles-leaky-api-spurted-out-a-deluge-of-personal-data/"
+    category: "technical"
+    layer_relevance: [L2, L4, L5]
+    priority: "tier_2"
+
+  - file: "blogs/hacktivism-dead-opportunism.md"
+    url: "https://www.troyhunt.com/hacktivism-is-dead-long-live-opportunism/"
+    category: "opinion"
+    layer_relevance: [L5, L6]
+    priority: "tier_2"
+
+  - file: "blogs/data-breach-personal-stash.md"
+    url: "https://www.troyhunt.com/the-data-breach-personal-stash-ecosystem/"
+    category: "technical"
+    layer_relevance: [L4, L5]
+    priority: "tier_2"
+
+  - file: "blogs/3d-printing-magic.md"
+    url: "https://www.troyhunt.com/from-dreams-to-reality-the-magic-of-3d-printing-with-elle-hunt/"
+    category: "lifestyle_tech"
+    layer_relevance: [L1, L2]
+    priority: "tier_2"
+
+  # --- Weekly Update Samples ---
+  - file: "blogs/weekly-update-491.md"
+    url: "https://www.troyhunt.com/weekly-update-491/"
+    category: "weekly_update"
+    layer_relevance: [L1, L2, L3]
+    priority: "tier_2"
+
+  - file: "blogs/weekly-update-400.md"
+    url: "https://www.troyhunt.com/weekly-update-400/"
+    category: "weekly_update"
+    layer_relevance: [L1, L2, L3]
+    priority: "tier_2"
+
+  - file: "blogs/weekly-update-300.md"
+    url: "https://www.troyhunt.com/weekly-update-300/"
+    category: "weekly_update"
+    layer_relevance: [L1, L2, L3]
+    priority: "tier_2"
+
+# ============================================================
+# INTERVIEWS (3 files collected)
+# ============================================================
+interviews:
+
+  - file: "interviews/1password-data-breaches-interview.md"
+    url: "https://1password.com/blog/managing-data-breaches-troy-hunt-interview"
+    category: "interview"
+    layer_relevance: [L2, L6, L7, L8]
+    priority: "tier_1"
+
+  - file: "interviews/fastmail-interview-part2.md"
+    url: "https://www.fastmail.com/digitalcitizen/upgrade-your-cyber-security-with-troy-hunt-part-2/"
+    category: "interview"
+    layer_relevance: [L1, L2, L5, L6]
+    priority: "tier_1"
+
+  - file: "interviews/darknet-diaries-ep33-rockyou.md"
+    url: "https://darknetdiaries.com/transcript/33/"
+    category: "interview"
+    layer_relevance: [L2, L6, L7, L8]
+    priority: "tier_1"
+
+# ============================================================
+# BIOGRAPHICAL (1 file)
+# ============================================================
+biographical:
+
+  - file: "blogs/about-troy-hunt.md"
+    url: "https://www.troyhunt.com/about/"
+    category: "biographical"
+    layer_relevance: [L1, L3]
+    priority: "tier_1"
+
+# ============================================================
+# CONFERENCE TALKS (catalogued, not transcribed)
+# ============================================================
+conference_talks:
+  catalogue_file: "blogs/recorded-talks-catalogue.md"
+  total_recorded: 61
+  date_range: "2012-2025"
+  key_talks:
+    - title: "Why You've Already Been Hacked"
+      event: "SSW User Group Sydney"
+      date: "2025-10"
+      youtube: "https://www.youtube.com/watch?v=6F6LY7x8gg8"
+    - title: "Oxford Programme for Cyber and Technology Policy"
+      event: "University of Oxford"
+      date: "2025-03"
+      youtube: "https://www.youtube.com/live/lfQb8o4xQdQ"
+    - title: "Hack Your Way to the Top"
+      event: "NDC Oslo"
+      date: "2024-06"
+      youtube: "https://www.youtube.com/watch?v=5eD85cdqXhQ"
+    - title: "Lesson from Billions of Breached Records"
+      event: "GOTO Aarhus"
+      date: "2023-05"
+      youtube: "https://www.youtube.com/watch?v=pxPEdUFdayA"
+
+# ============================================================
+# EXTERNAL REFERENCES (not downloaded)
+# ============================================================
+external_references:
+  - type: "sitemap"
+    url: "https://www.troyhunt.com/sitemap-posts.xml"
+    total_posts: 491
+    note: "Full blog archive — 491 posts, 2014-2026"
+  - type: "podcast"
+    url: "https://podcasts.apple.com/us/podcast/troy-hunts-weekly-update-podcast/id1176454699"
+    episodes: 485
+    note: "Weekly Update podcast (audio of video updates)"
+  - type: "wikipedia"
+    url: "https://en.wikipedia.org/wiki/Troy_Hunt"
+  - type: "pluralsight"
+    url: "https://www.pluralsight.com/authors/troy-hunt"
+    courses: 30
+  - type: "twitter"
+    url: "https://twitter.com/troyhunt"
+    followers: "241K+"
+  - type: "mastodon"
+    url: "https://infosec.exchange/@troyhunt"

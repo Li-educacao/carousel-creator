@@ -1,0 +1,14 @@
+# TER O PRÓRIO NEGÓCIO DE REPARO DE PLACAS ELETRÔNICAS ERA QUASE IMPOSSÍVEL | CLIMATRÔNICO | #09 #AME
+
+- **Video ID:** nODLMewA-9A
+- **URL:** https://www.youtube.com/watch?v=nODLMewA-9A
+- **Duration:** 3 min
+- **Views:** 113
+- **Published:** 2023-09-28T22:00:09Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+antes da tua esposa vir com a sementinha o que que fez você enxergar essa parada velho então ela o papo dela comigo sobre a sobre a visão dela não era um papo querendo me convencer de que eu tinha que aprender não era simplesmente apaixonado por ela e ela falava que ela queria emprender sim entendeu E aí eu comecei E aí a faculdade embora o professor trazia essa essa visão mas é um ambiente muito Miss genado e eu tinha alguns amigos que já falava de empresa aí eu conheci alguns conteúdos da internet comecei a seguir os caras tipo Flávio Augusto da vida né um cara diferenciado mentalidade diferenciada e pô esses car T falando uma coisa que eu nunca ouvi falar Nunca essas ment essas visão de mentalidade questionar o status de Sabe tem um outro caminho diferente tem um caminho diferente aqui e tal e eu comecei a questionar pô é assim eu sou eu sou um cético inteligente tipo assim vai dier vai me dizer uma coisa muito Absurda aí eu digo assim Caraca prato isso aí é [ __ ] meu cérebro não consegue conceber ainda mas eu não digo é mentira isso é mentira Man é doido é prato não existe não não eu tu vai me dizer eu vou achar eu vou achar absurdo talvez alguma coisa muito fora da curva da minha cabeça que consigo conceber Mas será que é verdade isso é doido entendeu porque aí quando eu se eu pelo menos questionar eu tenho a chance de de eu entender e aquilo fazer sentido para minha cabeça e desde que eu me deparei com essa visão empreendedora que eu putz é interessante aí qu eu comecei a ver evidências como eu falei olhei pra minha família eu disse Caraca a minha esposaa ela queria assim ó queria fazer com Olha como como olha como é louco as coisas que vão passando na nossa cabeça ela tinha essa visão de prender de prender de prender só que na cabeça dela era assim ó eu vou fazer um concurso era para auditor fiscal ela saber até o salário vou ganhar r000 Tipo R 14$ 14.000 vou viver com 4.000 e 10.000 vou empreender a eu disse pera aí tu quer estudar para [ __ ] para passar no concurso para depois empreender tira curso do Meio Bora pegar o teu sonho teu trabalho para caramba e juntar com empreender agora e aí meio que depois até eu ajudei ela acelerar o processo eu te falei mais cedo que eu eu sou o cara mais pilhador de fazer eu sou mais fazedor meu perfil e tem que ter um cara meio pé no chão e ela é mais pé no chão entendeu então eu ajudo ela a ser mais rápida e ela me ajuda também a não viajar demais que a gente se a gente se autodestrói né jeito não tem não tem jeito

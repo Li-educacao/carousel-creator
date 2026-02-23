@@ -1,0 +1,14 @@
+# ONLINE ou PRESENCIAL: Qual o melhor pra aprender manutenção eletrônica? #AME
+
+- **Video ID:** DtZ2R8y3dOQ
+- **URL:** https://www.youtube.com/watch?v=DtZ2R8y3dOQ
+- **Duration:** 3 min
+- **Views:** 74
+- **Published:** 2022-01-06T15:00:14Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+e quando chegar o curso presencial eu vou fazer contigo cara não sei o que é o que eu vejo que estão enxergando cada vem um cara cartaz imitando aí perdendo o anos de mercado né não conseguia nos mercados o cara fala comigo pegada compromisso aí há dois anos atrás e o cara perde esse tempo no mercado e dois vamos apanhar um bom mesmo assim dois anos trabalho preparatório cara pega essa parcela de mercado aí porque tem uma crença limitante que não atendeu online era o aluno não vai então aluno Paraguai eu tenho um Japão em todo o Brasil Eu só consigo isso porque tava online você Fortaleza no Ceará não saiu com sobra de Fortaleza no Ceará é eu não sei se a mente eu trabalho além de tá aqui que eu não sei Vital para nosso trabalho assim a gente eu tô na vontade também tem uma técnica gerenciar então tempo para analisar a placa não é bancada tem que dar um tempo para gerenciar eu não consigo tirar três meses do meu tempo ela tá focado noturno e esse tempo que eu precisaria para nossa um treinamento completo para 100 e falou que o moço não tava todas as informações que nada nem precisa em toda a baixo uma coisa preciso pelo menos três meses cara intensivo mãe tarde uma escola integral para você passar um com três vezes não interessando o que eles têm você antecipar a gente então é muito se alimentar demais nós estamos tendo que nós não podemos nem se ver pessoalmente é que nos estados do Brasil estão em top-down se eu passar dentro de casa a gente quer uma coisa presencial é tudo aberto eu acho que apresentar vai tirar de sol enquanto a gente que Aproveita porque está em casa para adquirir o novo possam transforma o problema não pega um limão que a vida te deu e transformou em um lado gostosa para caramba porque porque acredita que não fica duvidando que for lá me dá certo é porque online ou presencial não pego na mão do aluno para fazer porque a presencial não eu dava presencial e vou levar baixo prática por exemplo que o laboratório deve sempre ficar lá no fundão nas bancadas não tirando onda brincando que dá vontade todos entendeu cavalo para adultos colocar aqui é o cara quer velho não é diferente de John ainda presencial tem como carro não tem o cara não quer onde um curso presencial que eu fiz isso aí na faculdade falou há cinco anos e no outro mesma instituição passam o dia lá em um trabalho que time hoje eu não faço mas não tem nem tempo para tirar para fazer um presente a sós e esse foi um curto período da outra ele tava cheio de um curso eu tô fazendo você dormir meia-noite e professor está aí disponível para ver a noite passa a ser a qual o meu horário

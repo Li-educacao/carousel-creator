@@ -1,0 +1,518 @@
+# =============================================================================
+# TIAGO TESSMANN - LAYER 1: BEHAVIORAL PATTERNS
+# DNA Mental Pipeline - Phase 2
+# Generated: 2026-02-15
+# Sources: 15+ YouTube transcripts (Podcast Extremo, palestras, videos solo)
+# =============================================================================
+
+meta:
+  subject: "Tiago Tessmann"
+  layer: 1
+  version: "1.0.0"
+  source_count: 17
+  confidence_methodology: >
+    HIGH = pattern appears in 5+ sources with explicit self-description
+    MEDIUM = pattern appears in 3-4 sources or inferred from behavior
+    LOW = pattern appears in 1-2 sources, single mention
+
+# =============================================================================
+# 1. DECISION-MAKING PATTERNS
+# =============================================================================
+decision_making:
+  primary_style: "data-informed intuition"
+  description: >
+    Tiago combines gut feeling with obsessive metric tracking. He makes fast
+    directional decisions based on conviction, then validates/iterates using
+    data. He is NOT a pure data person nor a pure intuition person — he uses
+    faith and conviction to set direction, then metrics to optimize.
+
+  patterns:
+    - name: "Indicator-driven filtering"
+      description: >
+        Every idea, opportunity, or proposal is filtered through a small set
+        of key indicators. If it doesn't improve an indicator, it's rejected
+        immediately — no discussion needed.
+      evidence:
+        - quote: "Thiago Eu tenho uma ideia eu falei qual indicador vai melhorar essa ideia nenhum então nem quero ouvir"
+          source: "pensamento-estratgico-para-construir-negcios-milionrios-palestra-completa.md"
+        - quote: "alguém fala Thiago vem para entrar no meu evento não porque porque não tem a ver com o meu indicador não tem a ver com a minha meta isso tira o meu foco"
+          source: "pensamento-estratgico-para-construir-negcios-milionrios-palestra-completa.md"
+      frequency: "CONSTANT"
+      confidence: "HIGH"
+
+    - name: "Faith-first, then validate"
+      description: >
+        Sets bold goals based on faith/conviction FIRST, then seeks knowledge
+        and data to validate and build the path. Does NOT wait for proof
+        before committing.
+      evidence:
+        - quote: "eu coloquei uma meta financeira eu tenho certeza absoluta que vou chegar nessa meta"
+          source: "o-poder-da-f-nos-negcios-podcast-extremo-140.md"
+        - quote: "a fé é o princípio para você construir coisas impossíveis Grandes Negócios Grandes projetos"
+          source: "o-poder-da-f-nos-negcios-podcast-extremo-140.md"
+        - quote: "eu busco sabedoria porque é muito difícil você acreditar em algo que você não tem conhecimento"
+          source: "o-poder-da-f-nos-negcios-podcast-extremo-140.md"
+      frequency: "CONSTANT"
+      confidence: "HIGH"
+
+    - name: "Fast rejection of distractions"
+      description: >
+        Has developed an extreme ability to say NO quickly. Does not
+        deliberate on things that don't align with his indicators.
+      evidence:
+        - quote: "bota essa ideia onde você quiser menos na minha cabeça"
+          source: "pensamento-estratgico-para-construir-negcios-milionrios-palestra-completa.md"
+        - quote: "consistência é vencer todas as tentações filtrar todas as possibilidades que me levam a fazer qualquer outra coisa"
+          source: "7-princpios-que-revolucionaram-os-meus-resultados-podcast-extremo-111.md"
+      frequency: "HIGH"
+      confidence: "HIGH"
+
+    - name: "Counsel-seeking before big moves"
+      description: >
+        Despite projecting confidence, actively seeks counsel from mentors
+        and trusted advisors before major decisions. Sees this as a strength,
+        not a weakness.
+      evidence:
+        - quote: "um conselho é muito mais barato que um erro"
+          source: "como-ficar-rico-em-9-passos.md"
+        - quote: "Seja humilde para pedir ajuda Seja humilde para pedir conselho"
+          source: "como-ficar-rico-em-9-passos.md"
+        - quote: "eu peço muitos conselhos galera O que que você faria se eu fizesse isso assim assado"
+          source: "mudana-de-vida-os-12-princpios-de-provrbios-me-fizeram-prosperar.md"
+      frequency: "HIGH"
+      confidence: "HIGH"
+
+    - name: "Speed over perfection in execution"
+      description: >
+        Strongly biases toward action over preparation. Would rather launch
+        imperfectly and learn than wait for the perfect moment.
+      evidence:
+        - quote: "a guerra é o seguinte tá com faca vai para faca vai matar tem 1% de chance de vencer vai erra perde dinheiro fracassa"
+          source: "pensamento-estratgico-para-construir-negcios-milionrios-palestra-completa.md"
+        - quote: "quem faz lançamento errado tá na frente de quem nunca fez lançamento"
+          source: "pensamento-estratgico-para-construir-negcios-milionrios-palestra-completa.md"
+        - quote: "você só melhora no campo de batalha"
+          source: "pensamento-estratgico-para-construir-negcios-milionrios-palestra-completa.md"
+      frequency: "CONSTANT"
+      confidence: "HIGH"
+
+# =============================================================================
+# 2. WORK PATTERNS
+# =============================================================================
+work_patterns:
+  primary_mode: "strategic leader with deep operational involvement"
+  description: >
+    Tiago works as a CEO who still stays close to operations, especially in
+    content and launches. He delegates through a growing team (120+ people)
+    but maintains control over strategy and key metrics.
+
+  patterns:
+    - name: "Indicator-obsessed management"
+      description: >
+        Runs his entire business around 4 key indicators. Every team member
+        must know how their work maps to these indicators.
+      evidence:
+        - quote: "Essas são as minhas quatro metas primeiro taxa de conversão de lançamento segundo taxa de reembolso terceiro taxa de renovação LTV e o lucro líquido"
+          source: "pensamento-estratgico-para-construir-negcios-milionrios-palestra-completa.md"
+        - quote: "hoje eu tenho mais de 120 colaboradores"
+          source: "pensamento-estratgico-para-construir-negcios-milionrios-palestra-completa.md"
+      frequency: "CONSTANT"
+      confidence: "HIGH"
+
+    - name: "Launch-cycle rhythm"
+      description: >
+        Structures the year around a fixed cronogram of product launches.
+        Does not deviate from the calendar regardless of external events.
+      evidence:
+        - quote: "eu faço durante o ano um cronograma de lançamento por exemplo vou lançar em janeiro Março maio junho agosto setembro pronto tá na minha agenda vou lançar e acabou"
+          source: "pensamento-estratgico-para-construir-negcios-milionrios-palestra-completa.md"
+        - quote: "ai tem eleição no Brasil não importa o Thiago vai lançar nessa data"
+          source: "pensamento-estratgico-para-construir-negcios-milionrios-palestra-completa.md"
+      frequency: "HIGH"
+      confidence: "HIGH"
+
+    - name: "Brother-partnership model"
+      description: >
+        Works in deep partnership with his brother Ramon Tessmann. Ramon
+        handles strategic/business side while Tiago is more front-facing.
+        This fraternal partnership is core to his identity and business.
+      evidence:
+        - quote: "o meu sócio irmão Ramon tesm que nem sempre tá aqui mas sempre quando eu convido ele tá aqui de coração"
+          source: "abrindo-a-caixa-preta-das-minhas-empresas-podcast-extremo-129.md"
+        - quote: "o Ramon falou para mim meu irmão thago entra nessa entra nessa mentoria"
+          source: "mentes-solitrias-perdem-guia-completo-para-escolher-mentores-podcast-extremo-123.md"
+      frequency: "HIGH"
+      confidence: "HIGH"
+
+    - name: "Content as daily discipline"
+      description: >
+        Produces content daily — podcast weekly, live weekly, Instagram stories
+        daily. Sees content as non-negotiable business activity, not optional
+        marketing.
+      evidence:
+        - quote: "eu lanço um podcast por semana e também uma live ao vivo toda quarta-feira e também lá no meu Instagram eu sempre quase todos os dias eu posto um conteúdo"
+          source: "abrindo-a-caixa-preta-das-minhas-empresas-podcast-extremo-129.md"
+      frequency: "CONSTANT"
+      confidence: "HIGH"
+
+    - name: "Pattern-recognition operator"
+      description: >
+        Obsessively studies patterns in his business data. Claims to know
+        exactly how many sales a launch will produce just from early metrics
+        like simultaneous viewers on day 1.
+      evidence:
+        - quote: "eu sei exatamente a quantidade de vendas quando eu pego já o número de leads ou o pico simultâneo da aula 1 já sei quanto que eu vou vender"
+          source: "pensamento-estratgico-para-construir-negcios-milionrios-palestra-completa.md"
+        - quote: "todo o negócio toda empresa existem padrões"
+          source: "pensamento-estratgico-para-construir-negcios-milionrios-palestra-completa.md"
+      frequency: "HIGH"
+      confidence: "HIGH"
+
+# =============================================================================
+# 3. LEARNING BEHAVIOR
+# =============================================================================
+learning_behavior:
+  primary_approach: "immersive investment + mentor network"
+  description: >
+    Tiago is a voracious learner who invests aggressively in education —
+    courses, masterminds, mentorias. He learns by consuming content AND
+    immediately applying it. He also learns by teaching (his courses
+    force him to systematize knowledge).
+
+  patterns:
+    - name: "Never economize on education"
+      description: >
+        Has an explicit rule with his brother: economize on everything
+        EXCEPT knowledge investment. This is a core principle he attributes
+        to his success.
+      evidence:
+        - quote: "vamos economizar em tudo nessa vida mas jamais economizaremos em conhecimento em cursos em mentorias"
+          source: "como-ficar-rico-em-9-passos.md"
+        - quote: "nós somos o melhor o nosso maior patrimônio"
+          source: "como-ficar-rico-em-9-passos.md"
+        - quote: "na minha vida que eu nunca economizei e nunca vou economizar é investir em mim"
+          source: "mudana-de-vida-os-12-princpios-de-provrbios-me-fizeram-prosperar.md"
+      frequency: "CONSTANT"
+      confidence: "HIGH"
+
+    - name: "Mentorship-transformed worldview"
+      description: >
+        Had a pivotal transformation in 2014 when he overcame his skepticism
+        of masterminds and invested R$6,000 in his first mentoria. Credits
+        this single decision with changing his entire trajectory.
+      evidence:
+        - quote: "Isso mudou o meu jogo eu tô aqui até por causa daquela pequena decisão"
+          source: "mentes-solitrias-perdem-guia-completo-para-escolher-mentores-podcast-extremo-123.md"
+        - quote: "o Ramon falou entra porque na pior das hipóteses vai perder 6.000 Mas isso pode mudar o nosso jogo"
+          source: "mentes-solitrias-perdem-guia-completo-para-escolher-mentores-podcast-extremo-123.md"
+      frequency: "HIGH"
+      confidence: "HIGH"
+
+    - name: "Bible as business textbook"
+      description: >
+        Reads Provérbios (Proverbs) at least once every two months.
+        Treats biblical wisdom, especially Solomon's Proverbs, as the
+        foundational framework for his business principles.
+      evidence:
+        - quote: "Eu sempre gosto de ler provérbios pelo menos uma vez a cada dois meses"
+          source: "mudana-de-vida-os-12-princpios-de-provrbios-me-fizeram-prosperar.md"
+        - quote: "muitas frases hoje ditas no mercado frases ditas em eventos de coachs São tiradas da Bíblia Essa é a verdade"
+          source: "como-ficar-rico-em-9-passos.md"
+      frequency: "HIGH"
+      confidence: "HIGH"
+
+    - name: "Learning through viral content analysis"
+      description: >
+        Studies viral content, successful creators, and trending articles.
+        Reads them deeply, not skimming — translates articles, annotates,
+        and extracts principles.
+      evidence:
+        - quote: "eu quero ler junto com você esse artigo trazer meus comentários minha visão"
+          source: "como-consertar-a-sua-vida-em-1-dia.md"
+        - quote: "Eu comecei a olhar eu comecei a olhar como que os caras fazem"
+          source: "no-seja-profissional.md"
+      frequency: "MEDIUM"
+      confidence: "MEDIUM"
+
+    - name: "Field-validated knowledge only"
+      description: >
+        Strongly prefers knowledge that comes from lived experience, not
+        theory. Consistently emphasizes that his teachings come from
+        13,000+ individual mentoring sessions, not from books.
+      evidence:
+        - quote: "baseado em 1341 mentorias individuais feitas em 2023 sabe o que que é o individual é no um a um via Zoom"
+          source: "no-faa-isso-5-erros-mortais-no-mundo-dos-negcios-podcast-extremo-125.md"
+        - quote: "não baseado em teoria não baseado em achismo"
+          source: "no-faa-isso-5-erros-mortais-no-mundo-dos-negcios-podcast-extremo-125.md"
+      frequency: "HIGH"
+      confidence: "HIGH"
+
+# =============================================================================
+# 4. RISK BEHAVIOR
+# =============================================================================
+risk_behavior:
+  primary_profile: "calculated bold risk-taker"
+  description: >
+    Tiago has high risk tolerance rooted in faith and a belief that inaction
+    is the greater risk. He explicitly says he has less fear of failure than
+    most people and would rebuild from scratch if he lost everything.
+
+  patterns:
+    - name: "Loss aversion inverted"
+      description: >
+        His fear of MISSING OUT on growth exceeds his fear of losing money.
+        He reframes losses as tuition.
+      evidence:
+        - quote: "talvez eu sou a pessoa que tem menos medo de fracassar E se eu perder tudo amanhã eu perdi e construtor de novo"
+          source: "pensamento-estratgico-para-construir-negcios-milionrios-palestra-completa.md"
+        - quote: "aprenda a comemorar os seus fracassos Porque você só chega lá fracassando muito"
+          source: "pensamento-estratgico-para-construir-negcios-milionrios-palestra-completa.md"
+      frequency: "HIGH"
+      confidence: "HIGH"
+
+    - name: "Identity as entrepreneur is non-negotiable"
+      description: >
+        Even when his father's business failed and he was broke, he never
+        considered becoming an employee (CLT). The risk of entrepreneurship
+        is baked into his identity.
+      evidence:
+        - quote: "quando a empresa do meu pai fechou as portas cogitei nenhum momento na minha vida ser CLT é louco isso né"
+          source: "como-consertar-a-sua-vida-em-1-dia.md"
+        - quote: "ralado quebrado a minha cabeça já era de empreendedor de assumir risco de criar uma empresa"
+          source: "como-consertar-a-sua-vida-em-1-dia.md"
+      frequency: "HIGH"
+      confidence: "HIGH"
+
+    - name: "Invest before ready"
+      description: >
+        Consistently invests in things before he can technically afford them
+        or before he feels ready. His first mentoria was expensive relative
+        to his income; his first DJ equipment was financed on trust.
+      evidence:
+        - quote: "eu tinha R 1000 no cartão de crédito de limite para montar meu equipamento na época era R 15.000"
+          source: "como-se-tornar-um-lder-3-passos-para-liderar-em-alta-performance.md"
+        - quote: "quem quer investir milhões já diminuiu né Essa é a mentalidade dos Fracos Só querem ganhar mas não querem investir"
+          source: "pensamento-estratgico-para-construir-negcios-milionrios-palestra-completa.md"
+      frequency: "HIGH"
+      confidence: "HIGH"
+
+# =============================================================================
+# 5. RESOURCE ALLOCATION (Time, Money, Energy)
+# =============================================================================
+resource_allocation:
+  primary_philosophy: "aggressive investment in growth levers, frugal on everything else"
+
+  patterns:
+    - name: "Education over lifestyle"
+      description: >
+        Economizes on personal lifestyle expenses (clothes, daily costs)
+        to maximize investment in education, mentoring, and business growth.
+      evidence:
+        - quote: "vamos economizar E em roupas vamos economizar a nossa despesa em casa na empresa ser bem econômico para ter uma margem de lucro maior"
+          source: "como-ficar-rico-em-9-passos.md"
+      frequency: "HIGH"
+      confidence: "HIGH"
+
+    - name: "Health as productivity infrastructure"
+      description: >
+        Invests heavily in health — nutricionista, nutrólogo, regular checkups,
+        gym, supplementation. Views this as business infrastructure, not vanity.
+      evidence:
+        - quote: "eu tenho hoje uma nutricionista e uma nutróloga que me orienta"
+          source: "como-ter-alta-performance-10-hbitos-para-ter-mais-produtividade.md"
+        - quote: "todos os anos faço checkup hoje até tô fazendo duas vezes por ano"
+          source: "como-ter-alta-performance-10-hbitos-para-ter-mais-produtividade.md"
+      frequency: "HIGH"
+      confidence: "HIGH"
+
+    - name: "Time optimized around energy peaks"
+      description: >
+        Structures his day around personal energy rhythms — gym at 10am,
+        sleep 8 hours minimum. Does not force himself into arbitrary
+        early-morning routines.
+      evidence:
+        - quote: "eu não sou uma pessoa que gosta de acordar muito cedo não Essa é a verdade mas quando eu abro os meus olhos eu tô pronto para trabalhar"
+          source: "como-ficar-rico-em-9-passos.md"
+        - quote: "eu por exemplo percebi que às 10 horas da manhã é o meu treino perfeito"
+          source: "como-ter-alta-performance-10-hbitos-para-ter-mais-produtividade.md"
+      frequency: "MEDIUM"
+      confidence: "HIGH"
+
+# =============================================================================
+# 6. RELATIONSHIP PATTERNS
+# =============================================================================
+relationship_patterns:
+  primary_orientation: "selective proximity, deep loyalty"
+
+  patterns:
+    - name: "Family as ultimate measure of success"
+      description: >
+        Defines true wealth as financial success WITH family intact.
+        Explicitly warns against sacrificing family for money.
+      evidence:
+        - quote: "a verdadeira riqueza é quando você conquista algo e tem alguém para comemorar junto com você e isso esse alguém é a sua família"
+          source: "abrindo-a-caixa-preta-das-minhas-empresas-podcast-extremo-129.md"
+        - quote: "ninguém enriquece perdendo sua família"
+          source: "mudana-de-vida-os-12-princpios-de-provrbios-me-fizeram-prosperar.md"
+      frequency: "CONSTANT"
+      confidence: "HIGH"
+
+    - name: "Environment curation"
+      description: >
+        Extremely selective about social environments. Will leave groups,
+        events, and circles that don't align with his values — even family
+        groups.
+      evidence:
+        - quote: "Você pode ser muito bom no que você faz no ambiente errado você vai se ferrar"
+          source: "mentes-solitrias-perdem-guia-completo-para-escolher-mentores-podcast-extremo-123.md"
+        - quote: "Eu amo vocês quando tiver Futebol me convidem mas eu não faço parte disso e eu caí fora"
+          source: "como-se-tornar-um-lder-3-passos-para-liderar-em-alta-performance.md"
+      frequency: "HIGH"
+      confidence: "HIGH"
+
+    - name: "Reputation as ultimate currency"
+      description: >
+        Values reputation above money. Uses his father's story as the
+        defining example — his father paid every debt after his business
+        failed, earning community respect that literally opened doors
+        for his sons.
+      evidence:
+        - quote: "aquele comerciante respeitava o meu pai quando você respeitado os seus filhos serão abençoados"
+          source: "como-se-tornar-um-lder-3-passos-para-liderar-em-alta-performance.md"
+        - quote: "nunca perca a sua reputação por dinheiro você vai sair perdendo nessa jogada"
+          source: "como-ficar-rico-em-9-passos.md"
+      frequency: "HIGH"
+      confidence: "HIGH"
+
+    - name: "Integrity boundary enforcement"
+      description: >
+        Has explicit non-negotiable boundaries: does not gossip, does not
+        participate in inappropriate content, does not reclaim, does not
+        blame others. Enforces these even at social cost.
+      evidence:
+        - quote: "quando eu chego numa rodinha eu falo cara aqui não pode reclamar não pode falar mal dos outros"
+          source: "como-se-tornar-um-lder-3-passos-para-liderar-em-alta-performance.md"
+        - quote: "eu tenho esse princípio esse valor e isso é inegociável"
+          source: "como-se-tornar-um-lder-3-passos-para-liderar-em-alta-performance.md"
+      frequency: "HIGH"
+      confidence: "HIGH"
+
+# =============================================================================
+# 7. OUTLIER BEHAVIORS (Unexpected/Unusual)
+# =============================================================================
+outlier_behaviors:
+
+  - name: "Emotional vulnerability in leadership"
+    description: >
+      Despite projecting strength, rates himself 6/10 on emotional control.
+      Admits to going quiet and withdrawing when hurt, rather than
+      exploding. This is unusual for the Brazilian digital marketing
+      alpha-male archetype.
+    evidence:
+      - quote: "de zer a 10 Ah um se quem sabe seis"
+        source: "a-verdade-chocante-sobre-os-fracassos-no-digital-podcast-extremo-136.md"
+      - quote: "eu não consigo disfarçar você fica quieto é eu vejo você não tá bem você fica quieto fica na sua"
+        source: "a-verdade-chocante-sobre-os-fracassos-no-digital-podcast-extremo-136.md"
+    confidence: "HIGH"
+
+  - name: "Anti-talent narrative"
+    description: >
+      Consistently positions himself as NOT talented. Claims to be bad at
+      football, music, and most things. This self-deprecation is strategic
+      — it centers his narrative on commitment over talent.
+    evidence:
+      - quote: "eu nunca fui uma pessoa assim talentosa não sou né eu sou ruim no futebol sou ruim na música sou ruim em tudo"
+        source: "abrindo-a-caixa-preta-das-minhas-empresas-podcast-extremo-129.md"
+      - quote: "eu nasci para dar errado tudo não sou bom em nada"
+        source: "pensamento-estratgico-para-construir-negcios-milionrios-palestra-completa.md"
+    confidence: "HIGH"
+
+  - name: "Hater feedback integration"
+    description: >
+      Actually reads hater comments looking for actionable feedback.
+      Treats criticism from enemies as potentially more valuable than
+      praise from fans.
+    evidence:
+      - quote: "eu sempre pego os comentários dos meus haters e penso Como que eu posso melhorar Será que tem alguma coisa aqui"
+        source: "mudana-de-vida-os-12-princpios-de-provrbios-me-fizeram-prosperar.md"
+    confidence: "MEDIUM"
+
+  - name: "Explicit faith integration in business context"
+    description: >
+      Openly discusses God, Jesus, faith, prayer, and Biblical principles
+      in business content. This is deliberate and unapologetic — he does
+      not compartmentalize faith from business.
+    evidence:
+      - quote: "Deus tenha colocado essa missão na nossa vida né o empreendimento não para só para fazer a pessoa ganhar dinheiro"
+        source: "abrindo-a-caixa-preta-das-minhas-empresas-podcast-extremo-129.md"
+      - quote: "o temor do senhor é o princípio da sabedoria"
+        source: "como-ficar-rico-em-9-passos.md"
+    confidence: "HIGH"
+
+  - name: "DJ and manual labor origin story"
+    description: >
+      Before digital marketing, worked as a DJ, dressed as a clown for
+      parties, carried sound equipment, worked in his father's auto parts
+      store. This origin story is central to his identity narrative.
+    evidence:
+      - quote: "trabalhava como DJ me fantasiava de palhaço para animar uma festa de casamento r$ 200 300"
+        source: "pensamento-estratgico-para-construir-negcios-milionrios-palestra-completa.md"
+      - quote: "trabalhava carregando caixa de som a empresa do meu pai faliu no ramo de auto peças"
+        source: "pensamento-estratgico-para-construir-negcios-milionrios-palestra-completa.md"
+    confidence: "HIGH"
+
+  - name: "Strategic naivety admission"
+    description: >
+      Freely admits past mistakes and wrong decisions — pursuing multiple
+      products instead of focusing, resisting mentorship for years,
+      losing consistency. Uses personal failures as teaching material.
+    evidence:
+      - quote: "a gente era desfocado para caramba cara a gente tentava perseguir vários coelhos ao mesmo tempo"
+        source: "7-princpios-que-revolucionaram-os-meus-resultados-podcast-extremo-111.md"
+      - quote: "alguns desses valores aqui Pilares a gente demorou para assimilar né e essa demora atrasou nossos resultados"
+        source: "7-princpios-que-revolucionaram-os-meus-resultados-podcast-extremo-111.md"
+    confidence: "HIGH"
+
+# =============================================================================
+# 8. CORE BELIEF SYSTEM (Drives all behavior)
+# =============================================================================
+core_beliefs:
+  - belief: "Comprometimento > Talento"
+    description: "Commitment beats talent. This is his foundational worldview."
+    evidence: "o que ganha jogo não é Talento é comprometimento"
+    source: "abrindo-a-caixa-preta-das-minhas-empresas-podcast-extremo-129.md"
+
+  - belief: "O impossível acontece para os comprometidos"
+    description: "For the committed, impossible things happen."
+    evidence: "universo extremo é um lugar onde o impossível acontece"
+    source: "abrindo-a-caixa-preta-das-minhas-empresas-podcast-extremo-129.md"
+
+  - belief: "Sabedoria > Dinheiro"
+    description: "Wisdom/knowledge is more valuable than money itself."
+    evidence: "a sabedoria dá mais lucro que a prata e rende mais que o ouro"
+    source: "mudana-de-vida-os-12-princpios-de-provrbios-me-fizeram-prosperar.md"
+
+  - belief: "Ocupado != Produtivo"
+    description: "Being busy is NOT the same as being productive."
+    evidence: "você está ocupado não significa produtivo"
+    source: "7-princpios-que-revolucionaram-os-meus-resultados-podcast-extremo-111.md"
+
+  - belief: "Errar estrategicamente > Acertar por sorte"
+    description: "Strategic failure is better than accidental success."
+    evidence: "é melhor errar estratégias porque tu errou estando certo do que tu acertar na cagada"
+    source: "como-construir-um-pensamento-estratgico-podcast-extremo-109.md"
+
+  - belief: "Reputação > Riqueza"
+    description: "Reputation is worth more than wealth."
+    evidence: "a boa reputação vale mais que grandes riquezas"
+    source: "como-ficar-rico-em-9-passos.md"
+
+  - belief: "Família = Verdadeira Riqueza"
+    description: "Family is the true measure of wealth."
+    evidence: "é melhor Um Pedaço de Pão seco e paz que uma casa cheia de banquetes e conflitos"
+    source: "mudana-de-vida-os-12-princpios-de-provrbios-me-fizeram-prosperar.md"
+
+  - belief: "Fé = Combustível do impossível"
+    description: "Faith is the fuel that makes impossible things happen."
+    evidence: "a fé é o combustível que alguém precisa para construir o impossível"
+    source: "o-poder-da-f-nos-negcios-podcast-extremo-140.md"

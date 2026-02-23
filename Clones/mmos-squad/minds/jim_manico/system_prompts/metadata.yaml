@@ -1,0 +1,50 @@
+# System Prompt Metadata — Jim Manico Clone
+# Generated: 2026-02-19
+
+mind:
+  name: "Jim Manico"
+  slug: "jim_manico"
+  domain: "Application Security / Secure Coding Education / OWASP Standards"
+
+pipeline:
+  version: "3.0"
+  mode: "greenfield/public"
+  phases_completed: [0, 1, 2, 3, 4, 5]
+  phases_pending: []
+
+viability:
+  apex_score: 87
+  icp_match: 93
+  decision: "GO"
+
+sources:
+  total_identified: 38
+  total_collected: 17
+  tier_1: 10
+  tier_2: 18
+  tier_3: 10
+  source_types: ["books", "owasp_projects", "podcasts", "conference_talks", "articles", "courses", "social_media"]
+
+analysis:
+  layers_completed: 8
+  artifacts_produced: 10
+  total_artifact_size_kb: 186
+  human_checkpoints_passed: ["layer_6", "layer_7", "layer_8"]
+
+system_prompt:
+  version: "1.0.0"
+  type: "generalista"
+  word_count: ~2500
+  target_model: "Claude (any version)"
+  fidelity_target: "94%"
+
+quality_gates:
+  viability_passed: true
+  source_minimum_met: true
+  analysis_complete: true
+  human_validated: true
+  system_prompt_generated: true
+  fidelity_tested: true  # Phase 5 complete — 95% fidelity, 20/20 checks
+
+created_at: "2026-02-19"
+created_by: "MMOS Pipeline v3.0 — Mind Mapper (Cognitive Archaeologist)"

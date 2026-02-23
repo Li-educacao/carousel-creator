@@ -1,0 +1,14 @@
+# 3 FATORES-CHAVE QUE TORNAM SUA MÃO DE OBRA MAIS VALIOSA | MANUTENÇÃO ELETRÔNICA PARA CLIMATIZAÇÃO
+
+- **Video ID:** nEZyvSAUHJk
+- **URL:** https://www.youtube.com/watch?v=nEZyvSAUHJk
+- **Duration:** 3 min
+- **Views:** 80
+- **Published:** 2022-05-07T15:00:31Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+O que que a senhora vai fazer ação tecnologia embarcada o copo já tá aí últimas tecnologias mas novidade é mais caro tem acertar o ângulo diverso surgiu no mercado é uma tecnologia nova era muito mais caro do que uma das coisas canal Hoje eu fui barat ano foi se tornando mais comum no mercado é o pelo mais qualidade tendo a oferta tá maior de máquinas invés Então ela pegar o não sei se o preço da Iveco caiu o preço da concessionária mandou mas também que equivalente ali e aí tem graça um preço mais porque eu tive mercado por quê Porque a você vai para esse cara aí produtividade produção das Indústrias lhe aparece à frente né então como tem muita inverno na casa um dia delas deram explicar em relação ao que era no passado tá ah ah mas tá caro ainda beleza da Carne por outros motivos de valorização do real falando de mim mas outros de que era antes é o preço do inverno O que é hoje proporcionalmente pegar ser mais o pé esse também lanche pode vir reparo não tem a volta para vender até tem mas demora aqueles que vem na China caríssima e o cara só tem a opção de trocar ao banco já vem só de plástico RS sabe um time Goiás dorme direto já 20 mil reais o cara tem que trocar tem que esperar o marido chegar E aí Ricardo que escassez parece um carvão colar de 15 no Brasil entrava em uma semana ele comprar isso mas não tinha é um escassez encarece aumento do preço os detalhes umidade do mercado tecnologia quando deve mercado fazendo pode vir serviço tá a qualidade do serviço gostaram iguais o preço para saber das duas será diferença de preço e não tem diferencial nenhum eu vou comprar mais barato da mesma coisa mais se ontem with por exemplo aí ela ganha valor ela falou eu e você o serviço de é pa por exemplo é para com os tá alguns casos levar o placar aí ela vai para a placa Ah pois ela é um trabalhar mas eu tenho um serviço melhor e atuação a garantia é não tem como dar até mais fizeram comigo filho tempo Iara Eu tenho um tratamento melhor cliente a era toda abusada não recebe o cartão tudo isto faz o cliente optar pelo serviço melhor e somente eu tento têm poço dar certo colocar mais a empresa legal texturado ter que era que atende ele tá indo cara que é só ir lá lá mexendo na placa e ele responde ninguém o Perry procura-oferta também né ou permitindo a oferta o tem muita procura e pouca oferta é esse valorizados também todo esse influencia no a precificação antes da luta contra o serviço

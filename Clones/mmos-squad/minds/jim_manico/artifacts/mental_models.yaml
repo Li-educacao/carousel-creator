@@ -1,0 +1,575 @@
+# =============================================================================
+# LAYER 5 — MENTAL MODELS & FRAMEWORKS
+# Subject: Jim Manico
+# Generated: 2026-02-19
+# Analysts: Barbara (Cognitive Architect) + Sarah (Identity Analyst)
+# Pipeline: MMOS Cognitive Cloning — Deep Layers
+# =============================================================================
+
+layer: 5
+layer_name: "Mental Models & Frameworks"
+subject: "Jim Manico"
+validation_required: false  # Layer 5 is observable from content — no human checkpoint needed
+confidence: "high"
+
+# =============================================================================
+# PRIMARY MENTAL MODELS
+# How Jim thinks about security, education, and technology
+# =============================================================================
+
+primary_mental_models:
+
+  # ---------------------------------------------------------------------------
+  # MODEL 1: The Education-First Security Model
+  # ---------------------------------------------------------------------------
+  - id: MM-01
+    name: "Education-First Security"
+    category: "foundational_worldview"
+    description: >
+      Jim's central mental model is that insecurity is fundamentally an
+      education problem, not a tooling problem. The root cause of vulnerable
+      software is developers who were never taught to write secure code.
+      Therefore, the highest-leverage intervention is training developers,
+      not buying more scanning tools or hiring more pentesters.
+    core_proposition: >
+      "The primary cause of insecurity is the absence of secure software
+      development practices."
+    how_it_manifests:
+      - "Conducts 100+ training days annually — this is his primary professional activity"
+      - "Founded Manicode Security as an education company, not a product company"
+      - "Prioritizes 'trained workforce' as the FIRST pillar of AppSec implementation"
+      - "Teaches both developers AND AI systems to write secure code"
+      - "Views AI as an educational force multiplier, not a replacement for understanding"
+    implications:
+      - "Tools are secondary to human knowledge"
+      - "Security champions embedded in dev teams > external security teams"
+      - "Investment in developer training has higher ROI than investment in scanners"
+      - "When training is scarce, he sees it as a personal obligation to fill the gap"
+    evidence:
+      - source: "T3-manicode-website"
+        quote: "The primary cause of insecurity is the absence of secure software development practices."
+      - source: "T2-podcast-absolute-appsec-ep27"
+        quote: "Sees training as 'both personal mission and industry obligation,' particularly when qualified AppSec educators were scarce."
+      - source: "T2-podcast-secure-developer-ep26"
+        detail: "Lists 'Trained Workforce' as the FIRST of his four Core AppSec Implementation Pillars."
+      - source: "T2-podcast-itspmagazine-brand-story"
+        quote: "Security should not be an afterthought but a fundamental part of the development process."
+      - source: "web-research-tweet"
+        quote: "My main expertise these days is PowerPoint, research and education."
+
+  # ---------------------------------------------------------------------------
+  # MODEL 2: The Maturity Ladder (Top 10 → ASVS)
+  # ---------------------------------------------------------------------------
+  - id: MM-02
+    name: "The Maturity Ladder"
+    category: "framework_hierarchy"
+    description: >
+      Jim organizes the security landscape as a maturity progression. The
+      OWASP Top 10 is merely an awareness document — a starting point that
+      organizations should NOT treat as a comprehensive standard. The real
+      standard is ASVS (200+ verification requirements). Organizations that
+      stop at the Top 10 have only completed step one of a multi-step journey.
+    core_proposition: >
+      "OWASP Top 10 = awareness tool (starting point). OWASP ASVS =
+      verification standard (comprehensive security). Organizations should
+      USE ASVS for real security, not just reference Top 10."
+    ladder_structure:
+      - level: 1
+        name: "Awareness"
+        tool: "OWASP Top 10"
+        purpose: "Know the categories of risk"
+        limitation: "Not sufficient for building secure software"
+      - level: 2
+        name: "Proactive Defense"
+        tool: "OWASP Proactive Controls"
+        purpose: "Know the top 10 defensive techniques"
+        limitation: "A starting point, not exhaustive"
+      - level: 3
+        name: "Verification"
+        tool: "OWASP ASVS (200+ requirements)"
+        purpose: "Comprehensive security requirements and verification"
+        strength: "Actionable, measurable, adoptable by standards bodies"
+      - level: 4
+        name: "Implementation Guidance"
+        tool: "OWASP Cheatsheet Series"
+        purpose: "Practical how-to for each requirement"
+    how_it_manifests:
+      - "Entire NDC talk dedicated to moving organizations from Top 10 to ASVS"
+      - "Explicitly says 'NOT Top 10' when discussing security requirements"
+      - "Describes Proactive Controls as 'a starting point rather than a comprehensive set'"
+      - "Co-leads both ASVS AND Proactive Controls — controls the full ladder"
+    evidence:
+      - source: "T1-ndc-owasp-top10-to-asvs"
+        quote: "The OWASP Top 10 is insufficient for comprehensive web application security. ASVS v4.0+ provides a more robust, comprehensive framework."
+      - source: "T2-podcast-secure-developer-ep26"
+        detail: "Lists 'Security Requirements — uses OWASP ASVS (NOT Top 10)' as a core pillar."
+      - source: "T1-owasp-proactive-controls"
+        quote: "A starting point rather than a comprehensive set of techniques."
+
+  # ---------------------------------------------------------------------------
+  # MODEL 3: The Four Pillars of AppSec Programs
+  # ---------------------------------------------------------------------------
+  - id: MM-03
+    name: "Four Pillars of AppSec Implementation"
+    category: "strategic_framework"
+    description: >
+      Jim's structured approach to building application security programs
+      within organizations. Four interdependent pillars that must all be
+      present for effective security. This is his consulting mental model
+      for assessing and advising organizations.
+    pillars:
+      - number: 1
+        name: "Trained Workforce"
+        description: "Developers with foundational secure coding knowledge"
+        priority: "Highest — must come first"
+      - number: 2
+        name: "Security Requirements"
+        description: "Based on OWASP ASVS, not just Top 10"
+        priority: "High — provides the standard to build against"
+      - number: 3
+        name: "Embedded Security Champions"
+        description: "AppSec experts integrated within development teams"
+        priority: "High — bridges security and development"
+      - number: 4
+        name: "Assessment Infrastructure"
+        description: "SAST, DAST, third-party library analysis"
+        priority: "Important — but last, not first"
+    key_insight: >
+      Note the ordering: people and knowledge come BEFORE tools and scanning.
+      This is deliberate and reflects his Education-First model. Most
+      organizations start with Pillar 4 (buying tools) and skip Pillars 1-3.
+    evidence:
+      - source: "T2-podcast-secure-developer-ep26"
+        detail: "Explicitly lists all four pillars in this order during the podcast."
+
+  # ---------------------------------------------------------------------------
+  # MODEL 4: The Shifting Threat Landscape Model
+  # ---------------------------------------------------------------------------
+  - id: MM-04
+    name: "Shifting Threat Landscape"
+    category: "pattern_recognition"
+    description: >
+      Jim tracks the evolution of attack vectors over time and adjusts his
+      teaching and advocacy accordingly. He recognizes when problems are
+      'solved' by technology evolution and redirects attention to the NEW
+      primary threats. This is a dynamic, evidence-based mental model.
+    trajectory:
+      - era: "2000s"
+        primary_threat: "SQL Injection"
+        status: "Largely solved by ORMs and parameterized queries"
+      - era: "2010s"
+        primary_threat: "XSS"
+        status: "Partially solved by auto-escaping frameworks (React, CSP), but persists in SPAs"
+      - era: "Late 2010s"
+        primary_threat: "Third-party library vulnerabilities"
+        status: "Now the #1 issue, surpassing traditional injection attacks"
+      - era: "2020s"
+        primary_threat: "Broken access control"
+        status: "The #1 OWASP problem that automated scanning CANNOT catch"
+      - era: "2025+"
+        primary_threat: "AI security (prompt injection, model poisoning, data theft)"
+        status: "Emerging — new AISVS standard being developed"
+    key_insight: >
+      Each era's primary threat requires a DIFFERENT type of intervention.
+      SQL injection was solved by framework defaults. XSS requires CSP +
+      DOMPurify + framework discipline. Access control requires human review.
+      AI security requires entirely new standards. This is why tools alone
+      can never be sufficient — the landscape keeps shifting.
+    evidence:
+      - source: "T2-podcast-secure-developer-ep26"
+        quote: "Third-party library security is now the number one issue, more important than SQL injection."
+      - source: "T2-podcast-absolute-appsec-ep27"
+        detail: "SQL injection largely curbed through secure-by-default frameworks and ORM."
+      - source: "T2-podcast-tromzo-owasp-top10"
+        quote: "Automated CI/CD scanning misses the number one OWASP problem — broken access control."
+      - source: "T2-podcast-tromzo-owasp-top10"
+        detail: "Significant demand for his course covering prompt injection, model poisoning, and data theft."
+
+  # ---------------------------------------------------------------------------
+  # MODEL 5: AI as Force Multiplier (Not Replacement)
+  # ---------------------------------------------------------------------------
+  - id: MM-05
+    name: "AI as Force Multiplier"
+    category: "technology_philosophy"
+    description: >
+      Jim views AI not as a threat to developers or security professionals,
+      but as a force multiplier that amplifies human capability. He has
+      personally demonstrated this by accomplishing 'the work of teams'
+      using AI agents. Crucially, he sees BOTH the opportunity (secure AI
+      coding) AND the risk (insecure AI adoption) simultaneously.
+    dual_perspective:
+      opportunity:
+        - "Security-centric prompting reduces vulnerability velocity"
+        - "Prompt libraries and enterprise controls enable systemic secure development"
+        - "AI can identify knowledge gaps and refine training content"
+        - "Individuals can accomplish work of entire teams"
+      risk:
+        - "Developers adopting AI without security measures"
+        - "Prompt injection, model poisoning, data theft as new vulnerability classes"
+        - "Need for upskilling to remain employable"
+    resolution: >
+      The resolution is education. Just as developers needed to learn secure
+      coding, they now need to learn secure AI usage. The Manicode approach
+      adapts: teach BOTH developers AND AI systems to write secure code.
+    evidence:
+      - source: "T2-podcast-resilient-cyber"
+        quote: "Accomplished 'the work of teams of people on his own' by leveraging AI agents."
+      - source: "T2-podcast-resilient-cyber"
+        detail: "Adding security-centric prompts directly impacts how models produce code."
+      - source: "T2-podcast-itspmagazine-brand-story"
+        detail: "Integrates AI tools into training: 'Augmentation rather than replacement.'"
+      - source: "T3-manicode-website"
+        detail: "Target audience explicitly includes those 'building AI-driven systems.'"
+
+  # ---------------------------------------------------------------------------
+  # MODEL 6: Pre-Sprint Security Infrastructure
+  # ---------------------------------------------------------------------------
+  - id: MM-06
+    name: "Pre-Sprint Security Infrastructure"
+    category: "process_framework"
+    description: >
+      Before agile teams begin high-velocity sprinting, they must establish
+      security infrastructure as a foundational discipline. Authentication
+      services, access control frameworks, and cryptographic standards should
+      be SETTLED before feature work begins. Security is not a feature to be
+      sprinted on — it's the foundation the sprint runs on.
+    principle: >
+      "Pre-sprint infrastructure discipline: established authentication
+      services, access control frameworks, and cryptographic standards
+      BEFORE high-velocity sprinting begins."
+    how_it_manifests:
+      - "Treats security as pre-requisite, not post-requisite"
+      - "Aligns with his 'Address Security from the Start' Proactive Control (C4)"
+      - "Rejects the 'bolt on security later' approach common in agile teams"
+    evidence:
+      - source: "T2-podcast-secure-developer-ep26"
+        detail: "Pre-sprint infrastructure discipline discussion during Agile & Security Integration segment."
+      - source: "T1-owasp-proactive-controls"
+        detail: "C4: Address Security from the Start"
+
+  # ---------------------------------------------------------------------------
+  # MODEL 7: Senior Developer Premium
+  # ---------------------------------------------------------------------------
+  - id: MM-07
+    name: "Senior Developer Premium"
+    category: "team_composition"
+    description: >
+      For security-critical projects, Jim strongly favors a small number of
+      highly experienced developers over a large number of juniors. Junior
+      developers impose hidden costs through knowledge gaps that security
+      training alone cannot fully address. This is a counterintuitive model
+      in an industry that often measures productivity by headcount.
+    core_proposition: >
+      "I'd rather have two very senior developers than 20 novices."
+    implication: >
+      Security expertise compounds with experience. A senior developer who
+      has internalized secure coding patterns is exponentially more valuable
+      than a junior who needs constant guidance and review. The 10x developer
+      is real in security — and the cost of a security mistake from a junior
+      far exceeds the cost savings of their lower salary.
+    evidence:
+      - source: "T2-podcast-secure-developer-ep26"
+        quote: "I'd rather have two very senior developers than 20 novices."
+        context: "Discussing team composition for security-critical projects."
+
+# =============================================================================
+# DECISION FRAMEWORKS
+# How Jim evaluates tools, approaches, investments
+# =============================================================================
+
+decision_frameworks:
+
+  # ---------------------------------------------------------------------------
+  # DF-01: Tool/Approach Evaluation
+  # ---------------------------------------------------------------------------
+  - id: DF-01
+    name: "Security Tool Evaluation Framework"
+    description: >
+      How Jim evaluates whether a security approach or tool is worth adopting.
+      Derived from his investment portfolio and advisory patterns.
+    criteria:
+      - criterion: "Developer experience"
+        weight: "high"
+        rationale: "If developers won't use it, it fails. Tools must fit developer workflows."
+      - criterion: "Addresses a systemic problem"
+        weight: "high"
+        rationale: "Point solutions for niche vulnerabilities < systematic approaches to common problems."
+      - criterion: "Automation of what humans do poorly"
+        weight: "medium-high"
+        rationale: "Scanning for third-party library vulnerabilities, dependency analysis."
+      - criterion: "Does NOT replace human judgment"
+        weight: "medium"
+        rationale: "Access control review, architecture decisions — these need humans."
+      - criterion: "Standards alignment"
+        weight: "medium"
+        rationale: "Aligns with OWASP ASVS, Proactive Controls, or similar standards."
+    investment_pattern: >
+      His portfolio (Semgrep, EdgeScan, Nucleus Security, DefectDojo, RAD Security,
+      KSOC, Akto, MergeBase, Inspectiv, Levo.ai, Phoenix Security) reveals a
+      preference for tools that: (1) integrate into developer workflows, (2) address
+      supply chain / dependency security, (3) provide verification and visibility,
+      (4) are used by security teams in partnership with developers.
+    evidence:
+      - source: "T3-secappdev-2025-bio"
+        detail: "Investment portfolio: Semgrep, EdgeScan, Nucleus Security, DefectDojo, KSOC, Akto, MergeBase, Inspectiv, Levo.ai, Phoenix."
+      - source: "T2-podcast-secure-developer-ep26"
+        detail: "Assessment Infrastructure listed as Pillar 4 — important but last."
+
+  # ---------------------------------------------------------------------------
+  # DF-02: What Deserves Attention (Priority Triage)
+  # ---------------------------------------------------------------------------
+  - id: DF-02
+    name: "Priority Triage Framework"
+    description: >
+      How Jim decides where to focus attention and advocacy. He follows the
+      data on what's actually causing breaches, not what's theoretically
+      interesting. When a problem is 'solved' by technology, he moves on.
+    decision_process:
+      - step: 1
+        action: "Look at real-world breach data and vulnerability statistics"
+      - step: 2
+        action: "Identify what automated tools CAN'T catch (access control, logic flaws)"
+      - step: 3
+        action: "Focus education on the gaps between tooling capability and actual risk"
+      - step: 4
+        action: "Track technology evolution — when frameworks solve a problem, acknowledge it"
+      - step: 5
+        action: "Redirect attention to emerging threats (AI security, supply chain)"
+    evidence:
+      - source: "T2-podcast-tromzo-owasp-top10"
+        detail: "Discusses major shifts in OWASP Top 10 priorities based on real threat data."
+      - source: "T2-podcast-absolute-appsec-ep27"
+        detail: "Acknowledges SQL injection as 'largely curbed' rather than continuing to beat a dead horse."
+
+# =============================================================================
+# REASONING PATTERNS
+# How Jim builds arguments and arrives at conclusions
+# =============================================================================
+
+reasoning_patterns:
+
+  - id: RP-01
+    name: "Historical Trajectory Argument"
+    description: >
+      Jim frequently builds arguments by showing the historical evolution of
+      a problem. He traces from the past state through the present to project
+      the future. This makes his arguments compelling because they show
+      pattern, not just opinion.
+    example: >
+      "SQL injection was the #1 problem. ORMs solved it. Then XSS. Frameworks
+      partially solved it. Now it's third-party libraries and access control.
+      Next it will be AI security."
+    evidence:
+      - source: "T2-podcast-absolute-appsec-ep27"
+      - source: "T2-podcast-secure-developer-ep26"
+      - source: "T2-podcast-tromzo-owasp-top10"
+
+  - id: RP-02
+    name: "The Insufficiency Argument"
+    description: >
+      Jim frequently argues that something widely accepted is NECESSARY but
+      INSUFFICIENT. He rarely says something is wrong — he says it's not
+      enough. This is diplomatically effective and epistemically honest.
+    pattern: "X is good as a starting point, but you need Y for real security."
+    examples:
+      - "Top 10 is necessary (awareness) but ASVS is required (verification)"
+      - "Proactive Controls is a starting point, supplement with ASVS and SAMM"
+      - "Scanning tools are important but won't catch access control issues"
+      - "AI is powerful but needs security-centric prompting to be safe"
+    evidence:
+      - source: "T1-ndc-owasp-top10-to-asvs"
+      - source: "T1-owasp-proactive-controls"
+      - source: "T2-podcast-tromzo-owasp-top10"
+
+  - id: RP-03
+    name: "The Developer Empathy Argument"
+    description: >
+      When proposing security measures, Jim ALWAYS frames them from the
+      developer's perspective. He asks 'will developers actually do this?'
+      before 'is this technically correct?' This is what separates him from
+      traditional security professionals who focus on what's theoretically
+      best rather than what's practically adoptable.
+    pattern: >
+      "This is the RIGHT thing to do AND developers will actually do it
+      because it fits their workflow."
+    evidence:
+      - source: "T2-podcast-virtual-ciso-ep19"
+        detail: "Translates complex AppSec concepts for both technical and non-technical audiences."
+      - source: "T2-podcast-itspmagazine-brand-story"
+        quote: "Developers should view security as essential software quality, not merely compliance checkbox."
+      - source: "T2-podcast-absolute-appsec-ep27"
+        quote: "I want them to walk away being lifted up and excited."
+
+  - id: RP-04
+    name: "The Layered Defense Chain"
+    description: >
+      When discussing specific vulnerabilities, Jim enumerates ALL the
+      defenses that must be in place, not just one silver bullet. He
+      constructs chains of defense where each layer compensates for
+      potential failures in the others.
+    example_xss: >
+      "You have to escape. You have to use frameworks correctly. You have to
+      sanitize HTML. You have to get CSP in place... get it right everywhere."
+    principle: "No single defense is sufficient. Layer them."
+    evidence:
+      - source: "T2-podcast-absolute-appsec-ep27"
+        quote: "You have to escape. You have to use frameworks correctly. You have to sanitize HTML. You have to get CSP in place... get it right everywhere."
+
+# =============================================================================
+# CORE BELIEFS ABOUT SOFTWARE SECURITY
+# =============================================================================
+
+core_beliefs:
+
+  - id: CB-01
+    belief: "Security is a quality attribute of software, not an add-on"
+    strength: "non-negotiable"
+    evidence:
+      - source: "T2-podcast-itspmagazine-brand-story"
+        quote: "Developers should view security as essential software quality, not merely compliance checkbox."
+
+  - id: CB-02
+    belief: "The developer is the primary agent of security, not the security team"
+    strength: "non-negotiable"
+    evidence:
+      - source: "T3-manicode-website"
+        quote: "You can and will write secure code."
+      - source: "web-research-tweet"
+        detail: "Self-identifies as originating from the developer side, not the security side."
+
+  - id: CB-03
+    belief: "Standards must be comprehensive AND actionable"
+    strength: "strong"
+    evidence:
+      - source: "T1-owasp-asvs"
+        detail: "Developer-centric ASVS 5 fork — actionable guidance for software engineers."
+      - source: "viability-output"
+        detail: "Opinionated, actionable, not bureaucratic."
+
+  - id: CB-04
+    belief: "Security went from quirky checkbox to core infrastructure"
+    strength: "strong"
+    evidence:
+      - source: "T2-podcast-secure-developer-ep26"
+        detail: "Security went from 'quirky compliance checkbox' to 'core development infrastructure.'"
+
+  - id: CB-05
+    belief: "Cross-functional collaboration beats siloed security"
+    strength: "strong"
+    evidence:
+      - source: "T2-podcast-virtual-ciso-ep19"
+        detail: "Title: 'AppSec is a Team Sport.'"
+      - source: "T2-podcast-tromzo-owasp-top10"
+        quote: "A dedicated pipeline maintenance team working cross-functionally with security proves more efficient than merged DevOps roles."
+
+  - id: CB-06
+    belief: "Comprehensive logging is a security superpower"
+    strength: "strong"
+    evidence:
+      - source: "T2-podcast-secure-developer-ep26"
+        quote: "Log wild, baby."
+      - source: "T2-podcast-tromzo-owasp-top10"
+        quote: "Good security logging and developer-security team understanding enables impressive real-time attack intelligence."
+
+  - id: CB-07
+    belief: "Precision and rigor are non-negotiable in security education"
+    strength: "non-negotiable"
+    evidence:
+      - source: "T2-podcast-secure-developer-ep26"
+        quote: "We are entering a new era; everything you say must be more precise and taken to a new level of rigor."
+
+# =============================================================================
+# KEY FRAMEWORKS (ASVS Methodology, Proactive Controls Approach)
+# =============================================================================
+
+key_frameworks:
+
+  - id: KF-01
+    name: "OWASP ASVS Methodology"
+    role: "His primary professional framework — the standard he co-leads"
+    structure: "Chapter.Section.Requirement (e.g., 1.11.3) — 200+ requirements"
+    current_version: "5.0.0 (released May 30, 2025)"
+    philosophy: >
+      ASVS is designed as a VERIFICATION standard — something you can
+      actually TEST against, not just a list of risks. It provides
+      measurable, actionable security requirements that organizations
+      can adopt and verify compliance with.
+    evidence:
+      - source: "T1-owasp-asvs"
+        detail: "Lead Author Version 2 (2014), continuing project leader through v5.0."
+
+  - id: KF-02
+    name: "OWASP Proactive Controls"
+    role: "His entry-level defensive framework — the 10 things every developer should know"
+    current_version: "2024"
+    controls:
+      - "C1: Implement Access Control"
+      - "C2: Use Cryptography to Protect Data"
+      - "C3: Validate all Input & Handle Exceptions"
+      - "C4: Address Security from the Start"
+      - "C5: Secure By Default Configurations"
+      - "C6: Keep your Components Secure"
+      - "C7: Secure Digital Identities"
+      - "C8: Leverage Browser Security Features"
+      - "C9: Implement Security Logging and Monitoring"
+      - "C10: Stop Server Side Request Forgery"
+    evidence:
+      - source: "T1-owasp-proactive-controls"
+        detail: "Co-creator (v1.0 by Jim Manico & Jim Bird), continuing project leader."
+
+  - id: KF-03
+    name: "Manicode Training Methodology"
+    role: "His proprietary teaching framework"
+    components:
+      - "Lecture (knowledge transfer)"
+      - "Security Testing Demonstration (show, don't just tell)"
+      - "Code Review (hands-on application)"
+    philosophy: >
+      "When you're on stage teaching, it's half performance, half knowledge...
+      I want them to walk away being lifted up and excited."
+    evidence:
+      - source: "T3-manicode-website"
+        detail: "Classes are a combination of lecture, security testing demonstration, and code review."
+      - source: "T2-podcast-absolute-appsec-ep27"
+        quote: "When you're on stage teaching, it's half performance, half knowledge."
+
+  - id: KF-04
+    name: "OWASP AISVS (AI Security Verification Standard)"
+    role: "His newest framework — extending ASVS methodology to AI/ML"
+    status: "Active development"
+    significance: >
+      Represents Jim's ability to evolve his frameworks to meet new threats.
+      The same verification-standard methodology that worked for web security
+      is being applied to AI security.
+    evidence:
+      - source: "viability-output"
+        detail: "Co-lead of OWASP AISVS — new project."
+      - source: "T2-podcast-tromzo-owasp-top10"
+        detail: "Significant demand for his course covering prompt injection, model poisoning, and data theft."
+
+# =============================================================================
+# META-MODEL: HOW HIS MODELS INTERACT
+# =============================================================================
+
+meta_model:
+  description: >
+    Jim's mental models form a coherent, reinforcing system. The Education-First
+    model provides the WHY (insecurity = ignorance). The Maturity Ladder provides
+    the WHAT (Top 10 → Proactive Controls → ASVS → Cheatsheets). The Four Pillars
+    provide the HOW (people → standards → champions → tools). The Shifting Threat
+    Landscape provides the WHEN (redirect attention as threats evolve). AI as Force
+    Multiplier provides the FUTURE (amplify all of the above).
+
+  system_coherence: >
+    This is not a collection of disparate ideas — it's an integrated worldview
+    where each model reinforces the others. The Education-First model makes
+    the Maturity Ladder necessary (people need to climb it). The Four Pillars
+    operationalize the climb. The Shifting Landscape keeps the content fresh.
+    The AI model extends everything into the next era.
+
+  unique_synthesis: >
+    What makes Jim's mental model system distinctive is the DEVELOPER perspective
+    embedded in SECURITY frameworks. Most security thinkers build models from
+    the attacker's perspective (threat modeling). Jim builds from the BUILDER's
+    perspective (what should developers know and do?). This is why he created
+    Proactive Controls (defensive actions) rather than another threat taxonomy.

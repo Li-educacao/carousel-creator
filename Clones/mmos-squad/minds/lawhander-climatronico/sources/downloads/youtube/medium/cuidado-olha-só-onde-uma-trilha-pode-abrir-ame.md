@@ -1,0 +1,14 @@
+# CUIDADO! Olha só onde uma trilha pode abrir... #AME
+
+- **Video ID:** oaKYd5xxQsI
+- **URL:** https://www.youtube.com/watch?v=oaKYd5xxQsI
+- **Duration:** 4 min
+- **Views:** 285
+- **Published:** 2020-09-16T15:00:28Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+a atividade né Trindade sob Olha esses dois resistores ó porque a cidade de todas as aulas já musical da zero11 o motivo não consegue medir as isso gente é muito muito baixa mesmo porque ó um piso desse resistor ó tenho dois resistores SMD aqui eu aproximar mais aqui a ter dois estojos SMD ou rb3016 o a gente veio três esse lado de cá dele vendo pin do Xande ou é 16 vai de seu primo distante quando o mestre de um para o outro aqui esse lado aqui direito eu tô medindo conforto nos terminais do chanti da aberta puxar eu né então é um dia aqui aí eu vim o seguindo a trilha de lhe seguir na trilha eu vi que as duas trilhas só vem passa aqui debaixo esse capacitor vai querer esse lado vem para cá oc23 tá vendo que não tem nada eu ia pastor resistores eu fui para aí aqui ó e pediu de baixo esse lado o espinho que você 23 eu tô para multímetro que esse lado você 2013 Ok com esse estou ok Oi tá zero um iPhone de cima crônica sendo que eu voltei aqui ó ele não me pouco tá sabe para agora eu já Consertei mas ele não bipou e não me podes pronto vamo lá e agora aqui ó se você perceber aqui é como é como é engraçado às vezes não têm de falar é só trilha vai achar ele aqui cara vai achava que vê se tu encontra fácil então eu vim aqui Seguindo aqui ó a de baixo tava boa certo que é se bastava raspar aqui o rasto e depois para ver se abre tal Raspei Eu sou gay mas tava boa tava limpando aqui para cá então tá ok aí de cima também não tava limpando aí eu acho eu vi essa oxidação que tava Preto antes tá já tá é saudade já só veio tava Preto antes aí eu ver se uma situação aqui mas eu limpei daqui para cá e dava aqui para cá dava mas daqui ó daqueles pontos né até aqui vi pava Ah mas daqui até que não ipava e aqui não tinha nada até que não tem não eu não mexi na telha aqui ó mexer um pouco aqui que eu preciso raspar aqui até para pegar mais a ele mas só que não tem nada aí eu onde é que tá será que aqui debaixo É de fato é que tira aí e se capacitou e isso daí retirei ele e aqui embaixo tinha uma tá filha Roberta debaixo dele tava bem oxidado eu raspei refiz a ilha a trilha né já motivar as vezes o canal como é que vai fazer a trilha tá eu ia fazer com você mas dessa vez não deu tempo não vai dar tempo então eu te mostro aqui ó debaixo desse capacitor de baixo do capacitor tinha uma trilha aberta e uma trilha aberto eu tinha outro aberta eu fui Restitui a trilha vou ter que o capacitou quando eu voltei capacitor aí ó presta atenção é que reconstitui a trilha botei o capacitor bípede aqui para cá tava esperando para eu te mostrar agora tá limpando aqui pra cá Beleza então é um defeito muito pertinente

@@ -1,0 +1,14 @@
+# + 1 placa reparada AO VIVO! Que treinamento é esse meus amigos
+
+- **Video ID:** 39T0tmt-r7s
+- **URL:** https://www.youtube.com/watch?v=39T0tmt-r7s
+- **Duration:** 3 min
+- **Views:** 756
+- **Published:** 2025-09-09T12:00:07Z
+- **Category:** medium
+
+---
+
+## Transcript
+
+Certo. Bota mais um para conta. Opa. Láou Samsung aí. Beleza. Ela vai, ela vai ligar, não vai ligar o ventilador, né? >> Vai aparecer aquele mesmo código. Ela quebrou, tu refez as trilhas. >> Eu tinha até mandado as fotos lá no grupo lá, sei que eu cheguei hoje. >> Foi. Vamos dar uma analisada aqui nessas fotos. Aí eu testei até aquele teste direitinho de continuidade para ver direitinho para ver se tava passando. Continuidade tá batendo certinho. Não sei o que que pode tá vendo. Ó, isso aqui só título de curiosidade. Todo circuito tem uma sequência de resistores assim, ó. Esses resistores eles estão >> em série, ligado um no outro. >> Sério? Ligado em sequência um no outro. E aí eles derrubam a tensão. Qual? Tensão AC, ó, que vem da bobina aqui, ó. Bobina. AC derruba a tensão. Eles são de 500 e alguma coisa, ó. 513. 513 é 51 K. Resistor alto, derrubou a tensão e vai para onde, ó? Pra entrada do ópto. Isso aqui é um óto acopulador. Então isso aqui é uma leitura de tensão AC. Uma dica interessante, esse circuito der problema, a placa não aciona o o ventilador. Levantamos aqui a primeira suspeita, pode ser um causador desse problema. Deu para entender alguma coisa? >> Deu, deu para entender. Deu para entender bastante. Agora >> é, ela faz a leitura de tensão AC, porque sem sem leitura de tensão AC, esse micro ele entende que não tem que ligar o ventilador, dá logo a falha. >> Entendi. >> Vamos para esse circuito aqui da leitura de tensão a C. Eu vou energizar a minha, tá? Vou pegar aqui a minha que eu tava analisando ontem. Vou energizar. Aí tu vai energizar tu. Aí nós vamos fazer uma medição comparativa da leitura de tensão. Vem aqui assim, ó. Nela, no meio dela, tem um uma poeirinha de cobra, que a gente chama. Tu pega o teu multímetro, bipa daqui para cá, ele bipa, mas quando passa uma corrente, ela não consegue passar aqui, ela abre. Ela só abre em funcionamento. Certo? Então, faça uma revisão aí nessa nessa sua solda, nesse seu trilha que você refez e veja se dá para refazer. Reforça ela porque a trilha deve a trilha tá falhando aí em algum ponto. >> Eu vou tentar refazer aqui agora. Vou vou tentar refazer e vou seguir essa trilha para mim ver onde é que vai dar. >> Tu refez a trilha? Refez, >> fiz. Vai, ó. >> Mas deu certo. Botou mais um pacote. Iara mais um pacote. Essa semana tá sensacional. >> Deu bom. Já testei o sinal aqui já pro condensador. Sinal também bem, tão OK? Tudo direitinho. É só embrulhar e pacotar. Alegria. Satisfeito. Muito satisfeito. Muito satisfeito. Você é louco. Muito satisfeito, cara. Satisfeito comigo mesmo. >> É isso aí. Parabéns. Parabéns.

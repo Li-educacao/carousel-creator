@@ -1,0 +1,15 @@
+{
+  "id": "source_011",
+  "title": "Perpetual Traffic Podcast (Co-host Archive)",
+  "url": "https://perpetualtraffic.com/",
+  "type": "podcast_series",
+  "episode_count": "100+",
+  "publication_date": "2015-2025",
+  "tier": 1,
+  "status": "QUEUED",
+  "priority": "HIGHEST",
+  "collection_strategy": "Collect last 50 episodes + 'best of' compilations",
+  "notes": "GOLDMINE - Authentic voice, daily decision patterns, communication style",
+  "estimated_size_mb": 500,
+  "estimated_hours": 100
+}

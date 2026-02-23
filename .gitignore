@@ -1,0 +1,84 @@
+# ═══════════════════════════════════════════════════════════════
+# Synkra AIOS Custom Framework — .gitignore
+# Repo: AIOS + Squads + Clones (exclui projetos individuais)
+# ═══════════════════════════════════════════════════════════════
+
+# ─── Projetos individuais (têm repos próprios) ───────────────
+grupo-lawteck/
+climatronico-blog/
+relatorios_lawteck/
+RepairHub/
+ads-integration-service/
+oraculo-lawteck/
+Criador de PDFs/
+Landing page Lawteck peças/
+Scripts Live/
+aliexpress-csv-exporter/
+codex-aios-standalone/
+transcritor de reels/
+
+# ─── Ferramentas externas ────────────────────────────────────
+.codex/
+.playwright-cli/
+
+# ─── Imagens soltas no root ──────────────────────────────────
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.ico
+
+# ─── Dependências e build ────────────────────────────────────
+node_modules/
+.turbo/
+dist/
+build/
+*.tgz
+
+# ─── Secrets e credenciais ───────────────────────────────────
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+
+# ─── OS e IDE ────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ─── Logs ────────────────────────────────────────────────────
+*.log
+logs/
+
+# ─── Runtime e cache ─────────────────────────────────────────
+.aios-core/local/
+.aios/logs/
+.aios/*-state.yaml
+.aios/install-log.txt
+.synapse/cache/
+.synapse/sessions/
+ralph/agent-log.jsonl
+
+# ─── Snapshots timestamped (só o latest é útil) ──────────────
+.claude/snapshots/pre-compact-2*.md
+
+# ─── Agent memory (sessão, não versionável) ──────────────────
+.claude/agent-memory/
+
+# ─── Local settings ─────────────────────────────────────────
+.claude/settings.local.json
+
+# ─── Repos com .git interno (evita embedded repo warning) ────
+Clones/aios-core/
+aios-squads/
+squads
+
+# ─── Backups antigos ─────────────────────────────────────────
+.aios-core.backup-*/
+*.backup
+*.bak

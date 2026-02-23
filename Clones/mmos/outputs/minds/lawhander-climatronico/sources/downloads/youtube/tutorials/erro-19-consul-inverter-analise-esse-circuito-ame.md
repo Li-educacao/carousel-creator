@@ -1,0 +1,14 @@
+# Erro 19 Consul inverter | analise esse circuito #AME
+
+- **Video ID:** KzG3F_ccDR8
+- **URL:** https://www.youtube.com/watch?v=KzG3F_ccDR8
+- **Duration:** 5 min
+- **Views:** 4,184
+- **Published:** 2020-06-28T15:00:13Z
+- **Category:** tutorials
+
+---
+
+## Transcript
+
+e vamos lá erro-19 né por causa esses 19 dessa mente já levantei que já não usam aula que organizei 1819 que na consul ela trata com o mesmo erro no aconteceu não parte ou não inicia até uma aula já falando sobre 19 esse que isso que eu estava no 19 horas tá tava dando 19 e aí como é de praxe eu sempre vou analisar o circuito de conexão entre o igp-m e o micro eu tenho que o racionamento de pm são seis igbts internamente de pm da cg bts se você gbts eu espero ter seis resistores que acionam o o ip m eu percebi agora ó tem esse eu estou aqui tá esse 3 1 2 3 4 5 que baixo do verniz e seis aqui no cantinho um dois três quatro cinco seis esses dores são as stores baixos festores baixos tá e aí o comportamento que a placa apresentavam bancada é o seguinte eu tirava parte do compressor compressor menor de 9 mil e lembrando que o teste começou aberto em uma cada um de 9000 ele tentava partir partir um pouco ali e parava tava o erro só olhava um pouco que dava o erro eu voltava de 18 mil nessa parte de 9 que eu sei que é de 9 porém 18.000 aberto e bancada ele não puxa né a corrente nominal do do compressor de 9000 com carga certo tá aberto e talvez a corrente de partida seja um pouco maior e aí o igp-m tem seus proteções não permite que ele dani se danifique tá ok então você que 18 outro 18 ele tentava a partir vibrava né livre brava assim e parava os pronto eles davam erro nem partiu 19 deixa a partir todas as vezes todos a gente vai esses todos que isso também uma maneira aqui depois chega direitinho e no 10 anos certo ó ó tá aqui embaixo os 10 roms ben 10 há dez once se você conhecesse bem baixo todos tem que dar 10 anos há dez anos i e ii os 10 ohms quando eu fui medir eu primeiro mais todos esse daqui estava alterado devido eu troquei ele aqui ó ele tava fazendo 30k alguma coisa assim sabe quando eu tirei vi que estava alterado e voltei outro de 10 carro beleza fiz isso tá beleza achou desse jeito né vou botar funcionar tá mesma coisa como assim cara eu vou deixando continuidade bote escala de consumo idade e volmir continuidade do resistor para o pino é mas estou procurando tem que ver meu certo pois estou com pena dele pm e do resistor para o pino do micro há de melhor e aí o que perguntas estou doadoras estou e ele vai para algum pino do micro e todos são assim tá o cláudio registou g1 e tá pagando pelo do micro

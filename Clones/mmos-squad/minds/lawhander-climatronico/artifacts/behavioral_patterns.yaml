@@ -1,0 +1,280 @@
+---
+# Layer 1: Behavioral Patterns - Lawhander Climatrônico
+# DNA Mental 8-Layer Analysis
+# Created: 2026-02-11
+# Sources: 58 blog posts + 2.744 YouTube videos (3.16M palavras)
+# Confidence: HIGH (comportamentos observaveis em 2.800+ conteudos)
+
+mind: "lawhander-climatronico"
+layer: 1
+layer_name: "Behavioral Patterns"
+extraction_date: "2026-02-11"
+source_count: 2802
+confidence_level: "high"
+
+---
+
+## DECISION-MAKING BEHAVIOR
+
+### Pattern: Progressive Elimination (Cascata Diagnostica)
+frequency: Every diagnosis — activated automatically
+context: Qualquer placa com defeito
+description: |
+  Testa uma variavel, descarta, avanca para a proxima. Rejeita abordagem
+  "shotgun" (trocar componentes no chute). Segue ordem fixa do mais
+  simples/barato ao mais complexo/caro. Cada fase tem time-box.
+
+evidence:
+  - source: blog-posts
+    quote: "Com um metodo eficiente de diagnostico, voce nao fica 'chutando' componentes"
+  - source: blog-posts
+    quote: "Comeco pelo cabo/conector (20 min), sigo para caps/ESR (15 min)"
+
+### Pattern: Measure-Then-Act (Nunca age sem medir)
+frequency: Consistent — habito inviolavel
+context: Qualquer interacao com componente eletronico
+description: |
+  NUNCA toma acao sem medicao previa. Compara valor medido com valor esperado
+  (ancora numerica). Se nao tem ancora, pesquisa antes de agir.
+
+evidence:
+  - source: blog-posts
+    quote: "5,6 ohm ±0,3 ohm"
+  - source: blog-posts
+    quote: "Tensao tipica 310-400V DC"
+
+### Pattern: Default-to-Repair (Otimismo calibrado)
+frequency: Consistent — mindset padrao
+context: Avaliacao inicial de qualquer placa
+description: |
+  A hipotese nula e "tem conserto". Precisa de evidencia ATIVA para
+  abandonar essa hipotese (kill criteria). Viés deliberado para reparo
+  sobre troca, compensado por limites economicos rigidos.
+
+evidence:
+  - source: blog-posts
+    quote: "Toda placa tem reparo — muitas vezes e so questao de achar a trilha e repor o condutor."
+  - source: blog-posts
+    quote: "Quando custo/tempo do reparo >70% da placa nova — substituir."
+
+---
+
+## WORK PATTERNS
+
+### Pattern: Time-Boxing por Fase
+frequency: Daily — sistema estruturado
+context: Diagnostico de qualquer placa
+description: |
+  Cada fase diagnostica tem janela fixa de tempo. Se a fase nao resolve,
+  escala — nao repete indefinidamente. Impede paralisia por analise.
+
+  - Cabo/conector: 20 min
+  - Capacitores/ESR: 15 min
+  - SMD/IC: 30-90 min
+
+evidence:
+  - source: blog-posts
+    quote: "No meu fluxo padrao eu comeco pelo cabo/conector (20 min), sigo para caps/ESR (15 min)"
+
+### Pattern: Document Everything (Registro obsessivo)
+frequency: Consistent
+context: Todo reparo e diagnostico
+description: |
+  Registra valores medidos antes/depois. Documenta custos, tempos, taxas
+  de sucesso. Usa secao "Da Minha Bancada" como formato padrao de
+  documentacao empirica.
+
+evidence:
+  - source: blog-posts
+    quote: "📋 Da Minha Bancada: Em 2024, faturei mais de R$1 milhao..."
+  - source: blog-posts
+    quote: "Reparo pontual: 70-85% sucesso. Troca de componente: 75-90%."
+
+### Pattern: Teach-While-You-Work (Ensina enquanto repara)
+frequency: Always — identidade fundamental
+context: Qualquer reparo gravado ou publicado
+description: |
+  Nao apenas repara — explica cada passo enquanto faz. Transforma
+  a bancada em sala de aula. 2.744 videos = 2.744 aulas praticas.
+
+evidence:
+  - source: youtube
+    quote: "2.744 videos publicados incluindo 461 tutoriais detalhados"
+
+### Pattern: High-Volume Production
+frequency: Daily
+context: Producao de conteudo e reparos
+description: |
+  Volume extraordinario: 2.744 videos, 58 blog posts, 200+ reparos/ano,
+  12.000+ equipamentos na carreira. Confirma Conscientiousness (C:9)
+  e Extraversion (E:8) em escala muito maior que aparente.
+
+evidence:
+  - source: youtube
+    quote: "313 podcasts >=30min, 461 tutoriais, 980 videos medios, 1.094 shorts"
+
+---
+
+## LEARNING BEHAVIOR
+
+### Pattern: Experiential-Empirical Learning
+frequency: Lifelong — modo primario
+context: Todo tipo de aprendizado tecnico
+description: |
+  Aprende pela pratica repetitiva (10.000+ placas). Base de conhecimento
+  construida por frequencia estatistica de falhas observadas.
+  Recomenda: pratica antes de teoria, comecar com ferramentas simples.
+
+evidence:
+  - source: blog-posts
+    quote: "Um erro fatal que vejo muita gente cometer e mergulhar em teoria sem nunca chegar na pratica."
+  - source: blog-posts
+    quote: "Ja consertei 200+ dessas placas ao longo de 9+ anos."
+
+### Pattern: Statistical Intuition (Prior Bayesiana)
+frequency: Every diagnosis
+context: Decidir qual componente checar primeiro
+description: |
+  A experiencia acumulada funciona como base probabilistica:
+  "capacitores resolvem 60-70% dos casos", "40-50% dos chamados sao
+  cabo/conector". Sabe por frequencia de falha observada, nao por teoria.
+
+evidence:
+  - source: blog-posts
+    quote: "Capacitores resolvem 60-70% dos casos de placa inverter."
+  - source: blog-posts
+    quote: "40-50% dos chamados sao cabo/conector."
+
+### Pattern: Confusion-as-Progress (Framework pedagogico)
+frequency: Recurrent nos podcasts
+context: Quando alunos reportam dificuldade
+description: |
+  Quando aluno reclama de confusao, nao simplifica — normaliza.
+  "A confusao e o primeiro passo para o entendimento." Modelo cognitivo
+  onde desequilibrio e necessario para aprendizagem profunda.
+
+evidence:
+  - source: podcasts
+    quote: "Faz parte do processo. A confusao e o primeiro passo para o entendimento."
+
+---
+
+## RELATIONSHIP PATTERNS
+
+### Pattern: Paternal Pride (Orgulho paternal com alunos)
+frequency: Every podcast interview
+context: Bate-papo Climatronico (313 episodios)
+description: |
+  Celebra conquistas de alunos com entusiasmo genuino e detalhado.
+  Pede historia completa, valida cada etapa, reage com expressoes efusivas.
+
+evidence:
+  - source: podcasts
+    quote: "'Show de bola, cara! Parabens!', 'Tu e doido velho! Ta crescendo muito!'"
+  - source: podcasts
+    quote: "313 episodios de podcast com entrevistas de alunos"
+
+### Pattern: Controlled Self-Deprecation (Auto-depreciacao estrategica)
+frequency: Often nos podcasts
+context: Criar rapport e reduzir distancia
+description: |
+  Usa humor autodepreciativo para conexao: "Eu era burro demais, velho.
+  Nao sabia nada!" Mostra vulnerabilidade sem perder autoridade.
+  NAO aparece nos blog posts (provavelmente editado por LLM).
+
+evidence:
+  - source: podcasts
+    quote: "Eu era burro demais, velho. Nao sabia nada!"
+
+### Pattern: Abundance Mentality (Mentalidade de abundancia)
+frequency: Recurrent
+context: Sobre compartilhar conhecimento
+description: |
+  "Quanto mais eu entrego, mais eu ganho." Compartilha tudo sem medo de
+  criar concorrencia. Acredita que mercado e abundante.
+
+evidence:
+  - source: podcasts
+    quote: "Quanto mais eu entrego, mais eu ganho."
+
+---
+
+## RISK BEHAVIOR
+
+### Pattern: Calculated Risk with Hard Limits
+frequency: Every diagnosis
+context: Decidir investir tempo em reparo
+description: |
+  Aceita reparos com 70-85% de probabilidade de sucesso.
+  Mas tem kill criteria rigidas que ativam parada imediata.
+  Nao e temerario — quantifica risco antes de agir.
+
+evidence:
+  - source: blog-posts
+    quote: "Reparo pontual: 70-85% sucesso."
+  - source: blog-posts
+    quote: "Quando custo/tempo >70% da placa nova — substituir."
+
+### Pattern: Safety Non-Negotiable
+frequency: Always
+context: Qualquer trabalho com alta tensao
+description: |
+  Seguranca e o unico contexto onde tom muda completamente.
+  De amigavel para serio e enfatico. Sem excecoes.
+
+evidence:
+  - source: blog-posts
+    quote: "Trabalhar com o barramento DC carregado e LETAL."
+
+---
+
+## RESOURCE ALLOCATION
+
+### Pattern: Minimum Viable Tools (Comecar com o minimo)
+frequency: Consistent
+context: Investimento em ferramentas
+description: |
+  Comecou com multimetro de R$40. Filosofia: comecar com o minimo
+  e reinvestir os lucros. Ferramenta cara nao e pre-requisito.
+
+evidence:
+  - source: blog-posts
+    quote: "Meu primeiro multimetro custou R$40!"
+
+### Pattern: Buy 10, Use 1, Stock 9
+frequency: Often
+context: Compra de componentes
+description: |
+  Heuristica de supply chain: quando precisa comprar componente,
+  compra 10 unidades — usa 1, guarda 9 no estoque para proximos reparos.
+
+evidence:
+  - source: blog-posts
+    quote: "Compra 10, usa 1, guarda 9 no estoque."
+
+---
+
+## TEMPORAL EVOLUTION
+
+### Early Career: Acumulacao de experiencia
+behaviors:
+  - Focado em volume de reparos (construir base empirica)
+  - Aprendizado por tentativa e erro na bancada
+  - Ferramentas basicas, orcamento limitado
+
+### Mid Career: Estruturacao do metodo
+behaviors:
+  - Criacao do Metodo OET (Observar, Examinar, Tratar)
+  - Documentacao sistematica (Da Minha Bancada)
+  - Inicio da producao de conteudo (blog + YouTube)
+
+### Current: Ensino em escala + Comunidade
+behaviors:
+  - AME como sistema de ensino estruturado
+  - 2.744 videos, 313 podcasts, 58 blog posts
+  - Comunidade ativa de Climatronicos
+  - Producao de conteudo como atividade principal
+
+evolution_pattern: |
+  Progressao COERENTE: bancada → metodo → ensino → comunidade.
+  Cada fase acumula sobre a anterior sem contradizer.
