@@ -2,7 +2,7 @@ markdownExploder: true
 project:
   type: brownfield
   installedAt: '2026-02-04T02:43:19.546Z'
-  version: 4.0.4
+  version: 4.3.0-cherry-pick
 ide:
   selected:
     - claude-code
@@ -48,8 +48,9 @@ lazyLoading:
   enabled: true
   heavySections:
     - pvMindContext
-    - expansionPacks
+    - squads
     - registry
+    - codeIntel
 git:
   showConfigWarning: true
   cacheTimeSeconds: 300
@@ -66,6 +67,15 @@ scriptsLocation: .aios-core/scripts
 dataLocation: .aios-core/data
 elicitationLocation: .aios-core/elicitation
 expansionPacksLocation: expansion-packs
+codeIntel:
+  enabled: true
+  provider: registry
+  entityRegistryPath: .aios-core/data/entity-registry.yaml
+  circuitBreaker:
+    threshold: 3
+    resetMs: 60000
+  cache:
+    ttlMs: 300000
 squads:
   enabled: true
   squadsLocation: ./squads
