@@ -43,89 +43,6 @@ PYTHONPATH=src python3 scripts/place_auto.py output-NOME/circuito.net
 
 ---
 
-## Desde a Foto (Entry A) — Sketch → JSON → PCB
-
-Pipeline para transformar um circuito desenhado a mao em PCB completo.
-
-### Fluxo
-
-```
-Foto do circuito (papel/quadro)
-    |
-    v
-Claude Vision analisa a foto
-    |
-    v
-JSON com componentes + conexoes (validado pelo usuario)
-    |
-    v
-sketch_to_pcb.py → gera .net + auto-size board + PCB
-    |
-    v
-Pipeline normal (DSN → Freerouter → Logo → DRC → Gerbers)
-```
-
-### Passo a Passo
-
-1. Tirar foto do circuito desenhado a mao
-2. Enviar a foto na conversa do Claude Code
-3. Claude analisa e gera JSON:
-```json
-{
-  "project": "meu-circuito",
-  "components": [
-    {"ref": "R1", "value": "10k", "footprint": "Resistor_SMD:R_0805_2012Metric",
-     "pins": {"1": "VCC", "2": "Net-R1-U1"}},
-    {"ref": "U1", "value": "ATtiny85", "footprint": "Package_DIP:DIP-8_W7.62mm_Socket",
-     "pins": {"1": "~RESET", "2": "PB3", "4": "GND", "8": "VCC"}}
-  ]
-}
-```
-4. Validar a tabela de componentes e nets
-5. Salvar JSON no diretorio do projeto
-6. Rodar:
-```bash
-cd pcb-autoplacer
-# Direto para PCB:
-PYTHONPATH=src python3 scripts/sketch_to_pcb.py output-NOME/circuit.json
-
-# Com esquematico visual para validacao no KiCad:
-PYTHONPATH=src python3 scripts/sketch_to_pcb.py output-NOME/circuit.json --gen-sch
-```
-7. Se usou `--gen-sch`: abrir `output-NOME/projeto.kicad_sch` no KiCad para conferir visualmente
-8. Continuar pipeline normal a partir do Passo 2 (Export DSN)
-
-### Argumentos
-
-| Argumento | Default | Descricao |
-|-----------|---------|-----------|
-| `--output-dir` | mesmo dir do JSON | Diretorio de saida |
-| `--logo-width` | 15 | Largura da logo em mm |
-| `--no-logo` | — | Desabilita reserva de espaco para logo |
-| `--min-size` | 30 | Tamanho minimo do board em mm |
-| `--fill-ratio` | 0.25 | Target fill ratio (0.25 = 25%) |
-| `--gen-sch` | — | Gera `.kicad_sch` para validacao visual no KiCad |
-
----
-
-## Desde Esquematico KiCad (Entry B)
-
-Para quem ja tem um `.kicad_sch` pronto, converte direto em PCB.
-
-```bash
-cd pcb-autoplacer
-PYTHONPATH=src python3 scripts/sch_to_pcb.py meu-projeto.kicad_sch
-PYTHONPATH=src python3 scripts/sch_to_pcb.py meu-projeto.kicad_sch --output-dir output-NOME
-```
-
-**O que faz:**
-1. Chama `kicad-cli sch export netlist` para gerar `.net`
-2. Executa o pipeline auto (parse → footprints → auto-size → PCB)
-
-Depois, continuar pipeline normal a partir do Passo 2 (Export DSN).
-
----
-
 ## Pipeline Visual
 
 ```
@@ -412,15 +329,10 @@ LABEL_CONFIG = {
 
 | Arquivo | Funcao |
 |---------|--------|
-| `scripts/place_auto.py` | Auto-placement universal (netlist → PCB) |
-| `scripts/sketch_to_pcb.py` | Entry A: JSON (foto) → .net → PCB |
-| `scripts/sch_to_pcb.py` | Entry B: .kicad_sch → .net → PCB |
 | `scripts/place_XX_manual.py` | Posicionamento manual + labels + ground zone |
 | `scripts/import_ses_routes.py` | Importa rotas SES para o PCB |
 | `scripts/inject_logo.py` | Injeta logo Lawteck na serigrafia |
 | `scripts/kicad_bridge.py` | Bridge para pcbnew (export DSN, import SES) |
-| `src/pcb_autoplacer/generators/netlist_gen.py` | Gera .net a partir de JSON |
-| `src/pcb_autoplacer/generators/schematic_gen.py` | Gera .kicad_sch para validacao visual |
 | `src/pcb_autoplacer/generators/kicad_pcb.py` | Gera S-expression do PCB |
 | `src/pcb_autoplacer/generators/board_setup.py` | Layers, setup, nets, ground zone |
 | `src/pcb_autoplacer/generators/sexpr_writer.py` | Serializa S-expressions |
