@@ -22,35 +22,29 @@ from rich.table import Table
 console = Console()
 
 
-def main():
-    parser = argparse.ArgumentParser(
-        description="Auto-size board and place components from a KiCad netlist.",
-    )
-    parser.add_argument("netlist", type=Path, help="Path to .net netlist file")
-    parser.add_argument("--output-dir", type=Path, default=None,
-                        help="Output directory (default: same as netlist)")
-    parser.add_argument("--logo-width", type=float, default=15.0,
-                        help="Logo width in mm (default: 15)")
-    parser.add_argument("--no-logo", action="store_true",
-                        help="Disable logo space reservation")
-    parser.add_argument("--min-size", type=float, default=30.0,
-                        help="Minimum board dimension in mm (default: 30)")
-    parser.add_argument("--fill-ratio", type=float, default=0.25,
-                        help="Target fill ratio (default: 0.25)")
-    args = parser.parse_args()
+def run_auto_pipeline(
+    netlist_path: Path,
+    output_dir: Path | None = None,
+    logo_width: float = 15.0,
+    no_logo: bool = False,
+    min_size: float = 30.0,
+    fill_ratio: float = 0.25,
+) -> Path:
+    """Executa o pipeline completo: parse netlist → footprints → auto-size → PCB.
 
-    netlist_path = args.netlist
+    Retorna o caminho do .kicad_pcb gerado.
+    """
     if not netlist_path.exists():
         console.print(f"[red]Netlist not found: {netlist_path}[/red]")
         sys.exit(1)
 
-    output_dir = args.output_dir or netlist_path.parent
+    output_dir = output_dir or netlist_path.parent
     output_dir.mkdir(parents=True, exist_ok=True)
     output_path = output_dir / "board.kicad_pcb"
 
     # Logo space reservation
-    logo_height = args.logo_width * 0.47  # ~aspect ratio from Lawteck logo
-    logo_space = (0.0, 0.0) if args.no_logo else (args.logo_width, logo_height)
+    logo_height = logo_width * 0.47  # ~aspect ratio from Lawteck logo
+    logo_space = (0.0, 0.0) if no_logo else (logo_width, logo_height)
 
     # 1. Parse netlist
     console.print("[cyan]Parsing netlist...[/cyan]")
@@ -78,8 +72,8 @@ def main():
     board, placed = auto_size_board(
         components, nets, footprints,
         logo_space_mm=logo_space,
-        target_fill_ratio=args.fill_ratio,
-        min_size=args.min_size,
+        target_fill_ratio=fill_ratio,
+        min_size=min_size,
     )
 
     # 4. Validate
@@ -106,7 +100,7 @@ def main():
     table.add_row("Fill ratio", f"{fill:.1f}%")
     table.add_row("Components placed", str(len(placed)))
     table.add_row("Logo space", f"{logo_space[0]:.0f} x {logo_space[1]:.1f} mm"
-                  if not args.no_logo else "disabled")
+                  if not no_logo else "disabled")
     table.add_row("Overlaps", str(len(validation["overlaps"])))
     table.add_row("Boundary violations", str(len(validation["boundary_violations"])))
     table.add_row("Valid", "[green]YES[/green]" if validation["valid"]
@@ -122,8 +116,42 @@ def main():
                       f"{', '.join(validation['boundary_violations'][:10])}[/yellow]")
 
     console.print(f"\n[green bold]PCB generated: {output_path}[/green bold]")
-    if not args.no_logo:
+    if not no_logo:
         console.print(f"[dim]Logo position suggestion: bottom-right area of the board[/dim]")
+
+    return output_path
+
+
+def _build_argparser() -> argparse.ArgumentParser:
+    """Constroi o argument parser compartilhado."""
+    parser = argparse.ArgumentParser(
+        description="Auto-size board and place components from a KiCad netlist.",
+    )
+    parser.add_argument("netlist", type=Path, help="Path to .net netlist file")
+    parser.add_argument("--output-dir", type=Path, default=None,
+                        help="Output directory (default: same as netlist)")
+    parser.add_argument("--logo-width", type=float, default=15.0,
+                        help="Logo width in mm (default: 15)")
+    parser.add_argument("--no-logo", action="store_true",
+                        help="Disable logo space reservation")
+    parser.add_argument("--min-size", type=float, default=30.0,
+                        help="Minimum board dimension in mm (default: 30)")
+    parser.add_argument("--fill-ratio", type=float, default=0.25,
+                        help="Target fill ratio (default: 0.25)")
+    return parser
+
+
+def main():
+    parser = _build_argparser()
+    args = parser.parse_args()
+    run_auto_pipeline(
+        netlist_path=args.netlist,
+        output_dir=args.output_dir,
+        logo_width=args.logo_width,
+        no_logo=args.no_logo,
+        min_size=args.min_size,
+        fill_ratio=args.fill_ratio,
+    )
 
 
 if __name__ == "__main__":
