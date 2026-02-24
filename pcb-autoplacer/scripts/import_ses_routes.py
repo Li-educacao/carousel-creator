@@ -144,8 +144,22 @@ def inject_routes(pcb_path: Path, segments: list[dict], vias: list[dict]) -> Non
 
 
 def main():
-    ses_path = Path("output-lg/board.ses")
-    pcb_path = Path("output-lg/board.kicad_pcb")
+    import argparse
+
+    parser = argparse.ArgumentParser(description="Import Specctra SES routes into .kicad_pcb")
+    parser.add_argument("ses", help="Caminho do arquivo .ses")
+    parser.add_argument("pcb", help="Caminho do arquivo .kicad_pcb")
+    args = parser.parse_args()
+
+    ses_path = Path(args.ses)
+    pcb_path = Path(args.pcb)
+
+    if not ses_path.exists():
+        print(f"ERROR: SES not found: {ses_path}")
+        return
+    if not pcb_path.exists():
+        print(f"ERROR: PCB not found: {pcb_path}")
+        return
 
     print(f"Parsing SES: {ses_path}")
     segments, vias = parse_ses_routes(ses_path)

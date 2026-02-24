@@ -12,17 +12,16 @@ Executa todos os passos do workflow automaticamente:
   7. Gerbers + Drill
   8. ZIP para fabricacao
 
-Uso:
+Uso via CLI:
   python3 scripts/run_pipeline.py output-consul/consul_comm.net
 
-Opcoes:
-  --fill-ratio 0.30   Target fill ratio (default 0.30)
-  --logo-width 12     Largura da logo em mm (default 12)
-  --no-logo           Pula a injecao da logo
-  --skip-route        Pula autoroute (gera board sem trilhas)
+Uso via import:
+  from run_pipeline import run_pipeline
+  run_pipeline("output-xxx/circuit.net", fill_ratio=0.30)
 """
 
 import argparse
+import glob
 import json
 import os
 import re
@@ -68,7 +67,6 @@ def run(cmd, timeout=120, check=True):
 def find_board_bounds(pcb_path):
     """Encontra os limites do board outline (Edge.Cuts)."""
     text = pcb_path.read_text()
-    # Pega edge cuts
     edges = re.findall(
         r'\(gr_line\s+\(start ([\d.]+) ([\d.]+)\)\s+\(end ([\d.]+) ([\d.]+)\).*?Edge\.Cuts',
         text, re.DOTALL
@@ -80,20 +78,20 @@ def find_board_bounds(pcb_path):
     return min(xs), min(ys), max(xs), max(ys)
 
 
-def main():
-    parser = argparse.ArgumentParser(description="Pipeline completo: Netlist -> Gerbers")
-    parser.add_argument("netlist", help="Caminho do netlist (.net)")
-    parser.add_argument("--fill-ratio", type=float, default=0.30,
-                        help="Target fill ratio (default 0.30)")
-    parser.add_argument("--logo-width", type=float, default=12,
-                        help="Largura da logo em mm (default 12)")
-    parser.add_argument("--no-logo", action="store_true",
-                        help="Pula injecao da logo")
-    parser.add_argument("--skip-route", action="store_true",
-                        help="Pula autoroute")
-    args = parser.parse_args()
+def run_pipeline(netlist_path, fill_ratio=0.30, logo_width=12, no_logo=False, skip_route=False):
+    """Executa pipeline completo: Netlist -> PCB com trilhas, logo e gerbers.
 
-    netlist = Path(args.netlist)
+    Args:
+        netlist_path: caminho do netlist (.net)
+        fill_ratio: target fill ratio (default 0.30)
+        logo_width: largura da logo em mm (default 12)
+        no_logo: pula injecao da logo (default False)
+        skip_route: pula autoroute (default False)
+
+    Returns:
+        dict com paths dos artefatos gerados
+    """
+    netlist = Path(netlist_path)
     if not netlist.exists():
         log("X", f"Netlist nao encontrado: {netlist}")
         sys.exit(1)
@@ -106,11 +104,13 @@ def main():
     drc_report = output_dir / "drc-report.json"
     gerbers_zip = output_dir / "gerbers-jlcpcb.zip"
 
-    total_steps = 9 if not args.skip_route else 7
-    if args.no_logo:
+    total_steps = 9 if not skip_route else 7
+    if no_logo:
         total_steps -= 1
 
     step = 0
+    errors = 0
+    warnings = 0
 
     # ── Step 1: Placement ──
     step += 1
@@ -120,10 +120,10 @@ def main():
         sys.executable, str(SCRIPTS_DIR / "place_auto.py"),
         str(netlist),
         "--output-dir", str(output_dir),
-        "--fill-ratio", str(args.fill_ratio),
+        "--fill-ratio", str(fill_ratio),
     ]
-    if not args.no_logo:
-        cmd += ["--logo-width", str(args.logo_width)]
+    if not no_logo:
+        cmd += ["--logo-width", str(logo_width)]
     else:
         cmd += ["--no-logo"]
 
@@ -134,7 +134,7 @@ def main():
         sys.exit(1)
 
     # ── Step 2: Export DSN ──
-    if not args.skip_route:
+    if not skip_route:
         step += 1
         log_step(step, total_steps, "Export DSN para Freerouter")
 
@@ -164,7 +164,6 @@ def main():
             step += 1
             log_step(step, total_steps, "Import trilhas (SES)")
 
-            # Import inline para evitar hardcoded paths
             sys.path.insert(0, str(SCRIPTS_DIR))
             from import_ses_routes import parse_ses_routes, inject_routes
 
@@ -175,7 +174,7 @@ def main():
             log("!", "board.ses nao encontrado, pulando import")
 
     # ── Step 5: Logo ──
-    if not args.no_logo:
+    if not no_logo:
         step += 1
         log_step(step, total_steps, "Injetar logo Lawteck")
 
@@ -184,8 +183,7 @@ def main():
             bx1, by1, bx2, by2 = bounds
             board_w = bx2 - bx1
             board_h = by2 - by1
-            # Logo no canto inferior direito
-            logo_x = bx2 - args.logo_width / 2 - 2
+            logo_x = bx2 - logo_width / 2 - 2
             logo_y = by2 - 4
             log("OK", f"Board: {board_w:.0f}x{board_h:.0f}mm, logo em ({logo_x:.1f}, {logo_y:.1f})")
         else:
@@ -197,7 +195,7 @@ def main():
                 sys.executable, str(SCRIPTS_DIR / "inject_logo.py"),
                 "--board", str(board_pcb),
                 "--svg", LOGO_SVG,
-                "--width", str(args.logo_width),
+                "--width", str(logo_width),
                 "--position", f"{logo_x:.1f},{logo_y:.1f}",
                 "--layer", "F.SilkS"
             ])
@@ -208,7 +206,7 @@ def main():
     step += 1
     log_step(step, total_steps, "Fill All Zones (ground plane)")
 
-    fill_result = run([
+    run([
         KICAD_PYTHON, "-c",
         f"""
 import pcbnew
@@ -245,7 +243,7 @@ print(f'  Zones preenchidas: {{len(zones)}}')
         if unconnected > 0:
             log("!", f"{unconnected} itens desconectados")
 
-    # ── Step 7: Gerbers + Drill ──
+    # ── Step: Gerbers + Drill ──
     step += 1
     log_step(step, total_steps, "Gerbers + Drill")
 
@@ -269,11 +267,10 @@ print(f'  Zones preenchidas: {{len(zones)}}')
         str(board_pcb)
     ])
 
-    # ── Step 8: ZIP ──
+    # ── Step: ZIP ──
     step += 1
     log_step(step, total_steps, "ZIP para fabricacao")
 
-    import glob
     gerber_files = (
         glob.glob(str(gerbers_dir / "*.gtl"))
         + glob.glob(str(gerbers_dir / "*.gbl"))
@@ -306,6 +303,36 @@ print(f'  Zones preenchidas: {{len(zones)}}')
     print(f"  Proximo: abrir {board_pcb.name} no KiCad")
     print("           verificar visualmente (zones ja preenchidas)")
     print("=" * 60)
+
+    return {
+        "board_pcb": str(board_pcb),
+        "gerbers_zip": str(gerbers_zip),
+        "drc_report": str(drc_report),
+        "errors": errors,
+        "warnings": warnings,
+    }
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Pipeline completo: Netlist -> Gerbers")
+    parser.add_argument("netlist", help="Caminho do netlist (.net)")
+    parser.add_argument("--fill-ratio", type=float, default=0.30,
+                        help="Target fill ratio (default 0.30)")
+    parser.add_argument("--logo-width", type=float, default=12,
+                        help="Largura da logo em mm (default 12)")
+    parser.add_argument("--no-logo", action="store_true",
+                        help="Pula injecao da logo")
+    parser.add_argument("--skip-route", action="store_true",
+                        help="Pula autoroute")
+    args = parser.parse_args()
+
+    run_pipeline(
+        args.netlist,
+        fill_ratio=args.fill_ratio,
+        logo_width=args.logo_width,
+        no_logo=args.no_logo,
+        skip_route=args.skip_route,
+    )
 
 
 if __name__ == "__main__":
