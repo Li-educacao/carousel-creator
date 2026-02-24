@@ -1,0 +1,44 @@
+# JLCPCB 2-Layer PCB Design Rules
+# Reference: https://jlcpcb.com/capabilities/pcb-capabilities
+manufacturer: JLCPCB
+layers: 2
+
+trace:
+  min_width_mm: 0.2
+  default_width_mm: 0.25
+  power_width_mm: 0.5
+
+clearance:
+  min_mm: 0.2
+  trace_to_trace_mm: 0.2
+  trace_to_pad_mm: 0.2
+  pad_to_pad_mm: 0.2
+
+via:
+  min_diameter_mm: 0.45
+  min_drill_mm: 0.2
+  min_annular_ring_mm: 0.125
+
+board:
+  thickness_mm: 1.6
+  copper_weight_oz: 1.0
+  min_dimension_mm: 6.0
+  max_dimension_mm: 500.0
+
+silkscreen:
+  min_line_width_mm: 0.15
+  min_text_height_mm: 1.0
+  min_text_width_mm: 0.8
+
+solder_mask:
+  min_opening_mm: 0.1
+  min_bridge_mm: 0.1
+
+edge:
+  min_clearance_mm: 0.3
+  min_radius_mm: 0.0
+
+drill:
+  min_hole_mm: 0.2
+  max_hole_mm: 6.3
+  min_slot_width_mm: 0.5
