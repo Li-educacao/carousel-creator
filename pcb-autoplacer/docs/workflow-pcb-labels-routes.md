@@ -6,6 +6,43 @@ Testado com: KiCad 9.0.5, Freerouter, Python 3.12
 
 ---
 
+## Modo Automatico (Recomendado para novos projetos)
+
+Para novos projetos, basta fornecer o netlist — o sistema calcula o tamanho ideal da placa automaticamente, incluindo espaco para a logo Lawteck.
+
+**Comando unico:**
+```
+Gera a placa completa do projeto [NOME] com o netlist [CAMINHO]. Logo Lawteck. Entrega os Gerbers.
+```
+
+**Script:**
+```bash
+cd pcb-autoplacer
+PYTHONPATH=src python3 scripts/place_auto.py output-NOME/circuito.net
+```
+
+**O que faz automaticamente:**
+1. Parseia o netlist → componentes + nets
+2. Carrega footprints de todas as bibliotecas KiCad
+3. Calcula tamanho ideal da placa (area-based + iterativo)
+4. Reserva espaco para logo Lawteck (15x7mm default)
+5. Posiciona componentes em grid com anti-overlap
+6. Gera `.kicad_pcb` com ground zone em B.Cu
+7. Imprime resumo: board size, fill ratio, component count
+
+**Argumentos opcionais:**
+| Argumento | Default | Descricao |
+|-----------|---------|-----------|
+| `--output-dir` | mesmo dir do netlist | Diretorio de saida |
+| `--logo-width` | 15 | Largura da logo em mm |
+| `--no-logo` | — | Desabilita reserva de espaco para logo |
+| `--min-size` | 30 | Tamanho minimo do board em mm |
+| `--fill-ratio` | 0.25 | Target fill ratio (0.25 = 25%) |
+
+**Depois do auto-placement**, continue com o pipeline normal a partir do Passo 2 (Export DSN → Freerouter → Import trilhas → Logo → DRC → Gerbers).
+
+---
+
 ## Pipeline Visual
 
 ```
@@ -245,6 +282,15 @@ LABEL_CONFIG = {
 ---
 
 ## Criando para um Novo Projeto
+
+### Opcao A: Modo Automatico (recomendado)
+
+1. Criar diretorio: `mkdir output-NOVO`
+2. Colocar o netlist em `output-NOVO/nome.net`
+3. `PYTHONPATH=src python3 scripts/place_auto.py output-NOVO/nome.net`
+4. Seguir pipeline a partir do Passo 2 (Export DSN)
+
+### Opcao B: Modo Manual (controle total)
 
 1. Copiar `scripts/place_lg_manual.py` → `scripts/place_NOVO_manual.py`
 2. Atualizar:

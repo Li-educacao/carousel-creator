@@ -13,6 +13,7 @@ from pcb_autoplacer.models import (
     NetNode,
     PlacedComponent,
 )
+from pcb_autoplacer.placer.constraints import resolve_overlaps, validate_placement
 
 
 def snap_to_grid(value: float, grid: float = DEFAULT_GRID_MM) -> float:
@@ -26,12 +27,13 @@ def calculate_board_size(
     target_fill_ratio: float = 0.25,
     min_size: float = 30.0,
     grid: float = 5.0,
+    logo_space_mm: tuple[float, float] = (15.0, 7.0),
 ) -> tuple[float, float]:
     """Calculate optimal board size based on component areas.
 
     Uses a fill ratio target (25% = plenty of routing space) and finds the
-    largest component to set a minimum dimension. Returns (width, height)
-    rounded up to the nearest grid (5mm).
+    largest component to set a minimum dimension. Reserves space for an
+    optional logo. Returns (width, height) rounded up to the nearest grid (5mm).
 
     Args:
         components: List of components to place
@@ -39,6 +41,7 @@ def calculate_board_size(
         target_fill_ratio: Target component area / board area (0.25 = 25%)
         min_size: Minimum board dimension in mm
         grid: Round up dimensions to this grid (mm)
+        logo_space_mm: (width, height) in mm reserved for logo on the board
     """
     total_area = 0.0
     max_w = 0.0
@@ -52,21 +55,75 @@ def calculate_board_size(
         max_w = max(max_w, w)
         max_h = max(max_h, h)
 
+    # Add logo area to total before calculating required board area
+    logo_area = logo_space_mm[0] * logo_space_mm[1]
+    total_area += logo_area
+
     # Required board area based on fill ratio
     required_area = total_area / target_fill_ratio
 
-    # Start with a square board, then adjust
-    side = math.sqrt(required_area)
+    # Use a 4:3 aspect ratio (wider boards work better for grid placement)
+    aspect = 4.0 / 3.0
+    width_est = math.sqrt(required_area * aspect)
+    height_est = required_area / width_est
 
-    # Ensure the board is wide enough for the widest component + margins
-    width = max(side, max_w + 10.0, min_size)
-    height = max(required_area / width, max_h + 10.0, min_size)
+    # Content height: tallest component + logo + margin between them
+    max_content_height = max_h + logo_space_mm[1] + 2.0
+
+    # Ensure the board fits the widest component + margins
+    width = max(width_est, max_w + 10.0, logo_space_mm[0] + 10.0, min_size)
+    height = max(height_est, max_content_height + 10.0, min_size)
 
     # Round up to grid
     width = math.ceil(width / grid) * grid
     height = math.ceil(height / grid) * grid
 
     return width, height
+
+
+def auto_size_board(
+    components: list[Component],
+    nets: list[Net],
+    footprints: dict[str, FootprintDef],
+    logo_space_mm: tuple[float, float] = (15.0, 7.0),
+    target_fill_ratio: float = 0.25,
+    min_size: float = 30.0,
+    max_iterations: int = 10,
+) -> tuple[BoardConfig, list[PlacedComponent]]:
+    """Auto-calculate board size and place components iteratively.
+
+    Estimates board size via calculate_board_size(), generates a fallback
+    grid placement, validates it, and grows the board by 5mm per axis if
+    placement is invalid. Repeats up to max_iterations times.
+
+    Returns:
+        (board_config, placed_components)
+    """
+    width, height = calculate_board_size(
+        components, footprints,
+        target_fill_ratio=target_fill_ratio,
+        min_size=min_size,
+        logo_space_mm=logo_space_mm,
+    )
+
+    for _ in range(max_iterations):
+        board = BoardConfig(width_mm=width, height_mm=height)
+        ai_placements = fallback_placement(components, footprints, board)
+        placed = apply_placement(components, nets, footprints, ai_placements, board)
+
+        # Resolve overlaps by pushing components apart (500 iterations)
+        placed, remaining = resolve_overlaps(placed, board, max_iterations=500)
+        result = validate_placement(placed, board)
+
+        if result["valid"]:
+            return board, placed
+
+        # Grow board (more width than height for better grid packing)
+        width += 5.0
+        height += 5.0
+
+    # Return last attempt even if not fully valid
+    return board, placed
 
 
 def apply_placement(
@@ -155,28 +212,47 @@ def fallback_placement(
     """Simple grid-based fallback placement if AI is unavailable.
 
     Places components in a grid pattern with spacing based on component size.
+    Sorts largest-first for better packing. Uses visual bbox centers to avoid
+    offset-related overlaps.
     """
-    placements = []
-    x_cursor = board.edge_clearance_mm + 5.0
-    y_cursor = board.edge_clearance_mm + 5.0
-    row_height = 0.0
+    # Sort by footprint area (largest first) for better grid packing
+    def _comp_area(comp: Component) -> float:
+        fp = footprints.get(comp.ref)
+        return (fp.bbox_width * fp.bbox_height) if fp else 25.0
 
-    for comp in components:
+    sorted_comps = sorted(components, key=_comp_area, reverse=True)
+
+    placements = []
+    margin = board.edge_clearance_mm + 2.0
+    x_cursor = margin
+    y_cursor = margin
+    row_height = 0.0
+    spacing = 2.5  # mm between components
+
+    for comp in sorted_comps:
         fp = footprints.get(comp.ref)
         w = fp.bbox_width if fp else 5.0
         h = fp.bbox_height if fp else 5.0
-        spacing = 2.0  # mm between components
+        ox = fp.bbox_offset_x if fp else 0.0
+        oy = fp.bbox_offset_y if fp else 0.0
 
         # Check if component fits in current row
-        if x_cursor + w + spacing > board.width_mm - board.edge_clearance_mm:
-            x_cursor = board.edge_clearance_mm + 5.0
+        if x_cursor + w + spacing > board.width_mm - margin:
+            x_cursor = margin
             y_cursor += row_height + spacing
             row_height = 0.0
 
+        # Place at visual center, then subtract offset to get origin position
+        # (apply_placement adds board.origin, so we work in local coords)
+        visual_cx = x_cursor + w / 2
+        visual_cy = y_cursor + h / 2
+        origin_x = visual_cx - ox
+        origin_y = visual_cy - oy
+
         placements.append({
             "ref": comp.ref,
-            "x": snap_to_grid(x_cursor + w / 2),
-            "y": snap_to_grid(y_cursor + h / 2),
+            "x": snap_to_grid(origin_x),
+            "y": snap_to_grid(origin_y),
             "rotation": 0,
             "layer": "F.Cu",
         })
