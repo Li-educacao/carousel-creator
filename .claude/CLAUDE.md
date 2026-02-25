@@ -30,7 +30,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Workspace Overview
 
-This is a **multi-project workspace** managed by the **Synkra AIOS framework** (v3.11.3+git, brownfield mode). It contains 7 independent projects under a shared AIOS orchestration layer. The root is NOT a git repo; individual projects have their own git repos.
+This is a **multi-project workspace** managed by the **Synkra AIOS framework** (v3.11.3+git, brownfield mode). It contains multiple independent projects under a shared AIOS orchestration layer. The root is NOT a git repo; individual projects have their own git repos. Grupo Lawteck projects are consolidated under `grupo-lawteck/`.
 
 AIOS core installed from GitHub main (2026-02-11) with features ahead of npm release: Synapse (WIS), Constitution, Quality Gates, Schemas V3. Clone at `Clones/aios-core/` for future updates (`git pull`).
 
@@ -166,13 +166,15 @@ Each project has its own `.claude/CLAUDE.md` with full details. Summary:
 
 | # | Project | Tech | Path |
 |---|---------|------|------|
-| 1 | **Grupo Lawteck** | React + Vite, Supabase | `grupo-lawteck/` |
-| 2 | **Climatronico Blog** | Astro 5, MDX | `climatronico-blog/` |
-| 3 | **Relatorios Lawteck** | Python, Selenium | `relatorios_lawteck/` |
-| 4 | **Criador de PDFs** | Python | `Criador de PDFs/` |
-| 5 | **Landing Page Lawteck** | Static | `Landing page Lawteck peças/` |
-| 6 | **Scripts Live** | Shell | `Scripts Live/` |
-| 7 | **RepairHub** | React + Vite, Supabase | `RepairHub/` |
+| 1 | **Grupo Lawteck (ERP)** | React + Vite, Supabase | `grupo-lawteck/apps/erp/` |
+| 2 | **Oráculo Lawteck** | React + Vite, Supabase | `grupo-lawteck/apps/oraculo/` |
+| 3 | **Tráfego (Ads)** | Express + React, Supabase | `grupo-lawteck/apps/trafego/` |
+| 4 | **Relatórios Lawteck** | Python, Selenium | `grupo-lawteck/tools/relatorios/` |
+| 5 | **Landing Page Peças** | Static | `grupo-lawteck/assets/landing-pecas/` |
+| 6 | **Climatronico Blog** | Astro 5, MDX | `climatronico-blog/` |
+| 7 | **Criador de PDFs** | Python | `Criador de PDFs/` |
+| 8 | **Scripts Live** | Shell | `Scripts Live/` |
+| 9 | **PCB Autoplacer** | Python | `pcb-autoplacer/` |
 
 ## AIOS Squads
 
