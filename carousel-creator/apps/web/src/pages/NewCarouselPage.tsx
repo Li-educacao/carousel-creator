@@ -5,6 +5,7 @@ import { Button, Card, CardContent, CardHeader, CardTitle, Input, Modal } from '
 import { cn } from '../lib/utils';
 import { useCarousel } from '../hooks/useCarousel';
 import { useRender } from '../hooks/useRender';
+import { useExport } from '../hooks/useExport';
 import { SlidePreview } from '../components/SlidePreview';
 import { useAuth } from '../contexts/AuthContext';
 
@@ -507,6 +508,7 @@ export default function NewCarouselPage() {
 
   const { generateText, getCarousel, updateSlide, validateCarousel, error, clearError } = useCarousel();
   const { renderCarousel, renderSlide, uploadImage, rendering: renderingAll, renderingSlides } = useRender();
+  const { downloadZip, downloadSlide, markExported, loading: exporting, error: exportError } = useExport();
   const { user } = useAuth();
 
   // Wizard state
@@ -929,13 +931,108 @@ export default function NewCarouselPage() {
           />
         )}
 
-        {/* Step 4 — Export placeholder */}
-        {step === 4 && (
-          <div className="text-center py-16">
-            <p className="text-brand-gray font-body">Em breve: {STEPS[3].label}</p>
-            <Button variant="ghost" onClick={() => setStep(3)} className="mt-4">
-              Voltar
-            </Button>
+        {/* Step 4 — Export */}
+        {step === 4 && carousel && (
+          <div className="space-y-6">
+            <div>
+              <h2 className="text-2xl font-heading text-white mb-1">Exportar Carrossel</h2>
+              <p className="text-sm font-body text-brand-gray">
+                Baixe os slides para publicar no Instagram
+              </p>
+            </div>
+
+            {/* Slides preview grid */}
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+              {slides.filter(s => s.image_url).map((slide) => (
+                <div key={slide.position} className="relative group">
+                  <img
+                    src={slide.image_url!}
+                    alt={`Slide ${slide.position}`}
+                    className="w-full rounded-lg"
+                  />
+                  <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity rounded-lg flex items-center justify-center">
+                    <button
+                      onClick={() => downloadSlide(slide.image_url!, slide.position)}
+                      className="text-white text-sm font-subtitle bg-brand-blue/80 hover:bg-brand-blue px-4 py-2 rounded-lg transition-colors"
+                    >
+                      Baixar Slide {slide.position}
+                    </button>
+                  </div>
+                  <span className="absolute top-2 left-2 w-7 h-7 rounded-full bg-brand-blue flex items-center justify-center text-xs font-heading text-white">
+                    {slide.position}
+                  </span>
+                </div>
+              ))}
+            </div>
+
+            {slides.filter(s => s.image_url).length === 0 && (
+              <div className="text-center py-8">
+                <p className="text-brand-gray font-body mb-2">Nenhuma imagem renderizada</p>
+                <p className="text-sm text-brand-gray/60 font-body">Volte ao passo Design para renderizar os slides</p>
+              </div>
+            )}
+
+            {/* Caption & hashtags */}
+            {meta && (
+              <Card className="border-brand-gray/20">
+                <CardHeader>
+                  <CardTitle className="text-sm">Legenda para copiar</CardTitle>
+                </CardHeader>
+                <CardContent className="space-y-3">
+                  <div
+                    className="text-sm font-body text-brand-gray bg-white/5 rounded-lg p-3 cursor-pointer hover:bg-white/10 transition-colors"
+                    onClick={() => {
+                      const fullCaption = `${meta.suggested_caption}\n\n${meta.suggested_hashtags.join(' ')}`;
+                      navigator.clipboard.writeText(fullCaption);
+                    }}
+                    title="Clique para copiar"
+                  >
+                    <p className="mb-2">{meta.suggested_caption}</p>
+                    <p className="text-brand-blue/70 text-xs">{meta.suggested_hashtags.join(' ')}</p>
+                    <p className="text-xs text-brand-gray/40 mt-2 text-right">Clique para copiar</p>
+                  </div>
+                </CardContent>
+              </Card>
+            )}
+
+            {/* Export error */}
+            {exportError && (
+              <p className="text-sm text-red-400 font-body bg-red-500/10 rounded-lg px-4 py-3">
+                {exportError}
+              </p>
+            )}
+
+            {/* Export actions */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              <Button
+                variant="primary"
+                size="lg"
+                onClick={async () => {
+                  await downloadZip(carousel.id, carousel.title ?? carousel.theme ?? 'carrossel');
+                }}
+                disabled={exporting || slides.filter(s => s.image_url).length === 0}
+              >
+                {exporting ? 'Preparando ZIP...' : 'Baixar ZIP (todos os slides)'}
+              </Button>
+              <Button
+                variant="secondary"
+                size="lg"
+                onClick={async () => {
+                  await markExported(carousel.id);
+                  navigate('/');
+                }}
+                disabled={exporting}
+              >
+                Marcar como Exportado
+              </Button>
+            </div>
+
+            {/* Back */}
+            <div className="flex gap-3 pt-2">
+              <Button variant="ghost" onClick={() => setStep(3)}>
+                Voltar
+              </Button>
+            </div>
           </div>
         )}
       </div>
