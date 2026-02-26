@@ -17,13 +17,15 @@ const IMAGE_MODEL = 'imagen-4.0-generate-001';
 
 // Brand visual identity keywords for consistent generation
 const BRAND_STYLE = [
-  'dark background',
-  'deep black #010101',
-  'electric blue #0084C8 accent',
+  'very dark background predominantly black #010101',
+  'subtle electric blue #0084C8 accent glow',
   'professional tech aesthetic',
-  'clean modern minimal',
-  'high contrast',
-  'no text no letters no words no watermark',
+  'clean modern minimal composition',
+  'high contrast between dark areas and accent light',
+  'large empty dark areas for text overlay',
+  'content pushed to edges leaving center clean',
+  'no text no letters no numbers no words no watermark no logos',
+  'no faces no people no hands',
 ].join(', ');
 
 // ─── Prompt builders ──────────────────────────────────────────────────────────
@@ -36,9 +38,9 @@ function buildBackgroundPrompt(
   totalSlides: number,
 ): string {
   const roleDescriptions: Record<SlideRole, string> = {
-    cover: 'eye-catching hero background with dramatic lighting and depth, central focus area for overlay text',
-    content: 'subtle atmospheric background with dark tones, large clean area for text overlay',
-    cta: 'energetic background with blue accent glow, strong visual pull, clean center for call-to-action button',
+    cover: 'dramatic hero background, visual elements concentrated on edges and corners, large dark central area empty and clean for text overlay, depth-of-field blur in foreground',
+    content: 'subtle dark atmospheric background, 70% of image should be dark empty space for text, small tech details only on edges and corners, very minimal visual elements',
+    cta: 'energetic background with blue accent glow on edges, strong visual pull toward center, large clean dark center area for call-to-action button overlay',
   };
 
   const templateVibes: Record<string, string> = {
@@ -52,14 +54,18 @@ function buildBackgroundPrompt(
   const roleDesc = roleDescriptions[slideRole];
 
   return [
-    `Professional Instagram carousel background image for air conditioning and electronics repair education brand.`,
+    `Professional Instagram carousel background image for air conditioning and electronics repair education brand "Climatrônico".`,
     `Theme: "${theme}".`,
     `Slide ${position} of ${totalSlides} — ${slideRole} slide.`,
     `Visual direction: ${roleDesc}.`,
     `Visual elements: ${vibe}.`,
     `Style: ${BRAND_STYLE}.`,
-    `CRITICAL: Do NOT include any text, letters, numbers, words, watermarks, or logos in the image.`,
-    `The image must be a pure background/visual — all text will be overlaid programmatically.`,
+    `CRITICAL REQUIREMENTS:`,
+    `1. Do NOT include any text, letters, numbers, words, watermarks, or logos.`,
+    `2. The image is a BACKGROUND ONLY — all text will be overlaid programmatically.`,
+    `3. Keep 60-70% of the image as dark, clean, empty space suitable for white text overlay.`,
+    `4. Visual elements should be subtle, blurred, or pushed to edges/corners.`,
+    `5. The overall image should be VERY DARK (predominantly #010101 black) with subtle tech elements.`,
     `Aspect ratio: 1:1, 1080x1080 pixels equivalent quality.`,
   ].join(' ');
 }

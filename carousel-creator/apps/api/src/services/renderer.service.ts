@@ -150,14 +150,14 @@ async function renderSlide(
       const img = await loadImage(aiBackground.buffer);
       ctx.drawImage(img, 0, 0, WIDTH, HEIGHT);
 
-      // Dark overlay for text readability
-      ctx.fillStyle = 'rgba(1, 1, 1, 0.55)';
+      // Dark overlay for text readability (strong)
+      ctx.fillStyle = 'rgba(1, 1, 1, 0.65)';
       ctx.fillRect(0, 0, WIDTH, HEIGHT);
 
-      // Gradient overlay from bottom for extra contrast
-      const textGrad = ctx.createLinearGradient(0, HEIGHT * 0.4, 0, HEIGHT);
+      // Gradient overlay from bottom for extra contrast on text areas
+      const textGrad = ctx.createLinearGradient(0, HEIGHT * 0.3, 0, HEIGHT);
       textGrad.addColorStop(0, 'rgba(1, 1, 1, 0)');
-      textGrad.addColorStop(1, 'rgba(1, 1, 1, 0.6)');
+      textGrad.addColorStop(1, 'rgba(1, 1, 1, 0.7)');
       ctx.fillStyle = textGrad;
       ctx.fillRect(0, 0, WIDTH, HEIGHT);
     } catch (err) {
