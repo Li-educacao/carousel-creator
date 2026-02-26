@@ -35,7 +35,13 @@ interface GenerateCarouselParams {
 
 // ─── Constants ────────────────────────────────────────────────────────────────
 
-const MODEL_ID = 'gemini-2.5-flash';
+// Model routing — best model per function
+// Text: gemini-2.5-pro (copywriting) | gemini-2.5-flash (validation)
+// Images: imagen-4.0-generate-001 (backgrounds) — see imagen.service.ts
+const MODELS = {
+  textGeneration: 'gemini-2.5-pro',
+  validation: 'gemini-2.5-flash',
+} as const;
 
 const SYSTEM_PROMPT = `Você é um copywriter especialista em carrosséis para Instagram no nicho de educação técnica em manutenção eletrônica de ar-condicionado.
 Sua marca é "Climatrônico" criada por Lawhander Silva (@lawhander).
@@ -179,7 +185,7 @@ Importante:
 
     const result = await withRetry(async () => {
       const model = this.genAI.getGenerativeModel({
-        model: MODEL_ID,
+        model: MODELS.textGeneration,
         systemInstruction,
         generationConfig: GENERATION_CONFIG,
       });

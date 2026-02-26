@@ -1,8 +1,9 @@
-import { createCanvas, registerFont, type Canvas, type CanvasRenderingContext2D } from 'canvas';
+import { createCanvas, loadImage, registerFont, type Canvas, type CanvasRenderingContext2D } from 'canvas';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { supabaseAdmin } from '../lib/supabase.js';
 import { BRAND_COLORS, FONT_FAMILIES } from '@carousel/shared';
+import { getImagenService, type GeneratedImage } from './imagen.service.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const FONTS_DIR = path.resolve(__dirname, '../../../../fonts');
@@ -123,11 +124,12 @@ function drawWrappedText(
 
 // ─── Slide renderer ────────────────────────────────────────────────────────────
 
-function renderSlide(
+async function renderSlide(
   slide: SlideData,
   layout: SlideLayout,
-  config: TemplateConfig
-): Buffer {
+  config: TemplateConfig,
+  aiBackground?: GeneratedImage | null
+): Promise<Buffer> {
   ensureFontsRegistered();
 
   const format = config.format ?? 'square';
@@ -142,17 +144,39 @@ function renderSlide(
   const canvas: Canvas = createCanvas(WIDTH, HEIGHT);
   const ctx = canvas.getContext('2d');
 
-  // ── Background ──
-  ctx.fillStyle = bgColor;
-  ctx.fillRect(0, 0, WIDTH, HEIGHT);
+  // ── Background: AI-generated or solid color ──
+  if (aiBackground) {
+    try {
+      const img = await loadImage(aiBackground.buffer);
+      ctx.drawImage(img, 0, 0, WIDTH, HEIGHT);
 
-  // ── Optional gradient overlay ──
-  if (config.gradient) {
-    const grad = ctx.createLinearGradient(0, 0, 0, HEIGHT);
-    grad.addColorStop(0, `${accentColor}20`);
-    grad.addColorStop(1, `${bgColor}ff`);
-    ctx.fillStyle = grad;
+      // Dark overlay for text readability
+      ctx.fillStyle = 'rgba(1, 1, 1, 0.55)';
+      ctx.fillRect(0, 0, WIDTH, HEIGHT);
+
+      // Gradient overlay from bottom for extra contrast
+      const textGrad = ctx.createLinearGradient(0, HEIGHT * 0.4, 0, HEIGHT);
+      textGrad.addColorStop(0, 'rgba(1, 1, 1, 0)');
+      textGrad.addColorStop(1, 'rgba(1, 1, 1, 0.6)');
+      ctx.fillStyle = textGrad;
+      ctx.fillRect(0, 0, WIDTH, HEIGHT);
+    } catch (err) {
+      console.warn(`[renderer] Failed to load AI background, using solid color:`, (err as Error).message);
+      ctx.fillStyle = bgColor;
+      ctx.fillRect(0, 0, WIDTH, HEIGHT);
+    }
+  } else {
+    ctx.fillStyle = bgColor;
     ctx.fillRect(0, 0, WIDTH, HEIGHT);
+
+    // ── Optional gradient overlay (only for solid backgrounds) ──
+    if (config.gradient) {
+      const grad = ctx.createLinearGradient(0, 0, 0, HEIGHT);
+      grad.addColorStop(0, `${accentColor}20`);
+      grad.addColorStop(1, `${bgColor}ff`);
+      ctx.fillStyle = grad;
+      ctx.fillRect(0, 0, WIDTH, HEIGHT);
+    }
   }
 
   // ── Brand stripe ──
@@ -516,13 +540,26 @@ export async function renderCarouselById(carouselId: string): Promise<RenderResu
 
   // Use bg_color from first slide if set, or carousel's template_type defaults
   const templateType: string = (carousel as Record<string, unknown>)['template_type'] as string ?? 'educational';
+  const theme: string = (carousel as Record<string, unknown>)['theme'] as string ?? '';
   const totalSlides = slides.length;
+
+  // Generate AI backgrounds for all slides (Imagen 4)
+  let aiBackgrounds = new Map<number, GeneratedImage>();
+  try {
+    const imagenService = getImagenService();
+    console.log(`[renderer] Generating AI backgrounds for ${totalSlides} slides...`);
+    aiBackgrounds = await imagenService.generateCarouselBackgrounds(theme, templateType, totalSlides);
+    console.log(`[renderer] AI backgrounds generated: ${aiBackgrounds.size}/${totalSlides}`);
+  } catch (err) {
+    console.warn(`[renderer] AI background generation failed, using solid colors:`, (err as Error).message);
+  }
 
   const results: RenderResult[] = [];
 
   for (const slide of slides as SlideData[]) {
     const layout = determineLayout(slide.position, totalSlides, templateType);
-    const buffer = renderSlide(slide, layout, templateConfig);
+    const aiBg = aiBackgrounds.get(slide.position) ?? null;
+    const buffer = await renderSlide(slide, layout, templateConfig, aiBg);
 
     const userId: string = (carousel as Record<string, unknown>)['user_id'] as string;
     const url = await uploadSlideImage(buffer, userId, carouselId, slide.position);
@@ -584,16 +621,29 @@ export async function renderSingleSlide(
 
   const totalSlides = count ?? 1;
   const templateType: string = (carousel as Record<string, unknown>)['template_type'] as string ?? 'educational';
+  const theme: string = (carousel as Record<string, unknown>)['theme'] as string ?? '';
   const layout = determineLayout(position, totalSlides, templateType);
 
-  const config: TemplateConfig = {
+  const templateConfig: TemplateConfig = {
     accent_color: BRAND_COLORS.blue,
     bg_color: BRAND_COLORS.black,
     gradient: true,
     format: 'square',
   };
 
-  const buffer = renderSlide(slide as SlideData, layout, config);
+  // Generate AI background for this slide
+  let aiBg: GeneratedImage | null = null;
+  try {
+    const imagenService = getImagenService();
+    let slideRole: 'cover' | 'content' | 'cta' = 'content';
+    if (position === 1) slideRole = 'cover';
+    else if (position === totalSlides) slideRole = 'cta';
+    aiBg = await imagenService.generateSlideBackground(theme, slideRole, templateType, position, totalSlides);
+  } catch (err) {
+    console.warn(`[renderer] AI background failed for slide ${position}, using solid color:`, (err as Error).message);
+  }
+
+  const buffer = await renderSlide(slide as SlideData, layout, templateConfig, aiBg);
   const userId: string = (carousel as Record<string, unknown>)['user_id'] as string;
   const url = await uploadSlideImage(buffer, userId, carouselId, position);
 
