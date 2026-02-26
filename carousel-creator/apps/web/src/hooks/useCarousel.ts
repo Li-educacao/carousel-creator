@@ -38,6 +38,10 @@ interface ValidateResponse {
 
 // ─── Hook ─────────────────────────────────────────────────────────────────────
 
+interface DuplicateResponse {
+  carousel: Carousel;
+}
+
 interface UseCarouselReturn {
   loading: boolean;
   error: string | null;
@@ -50,7 +54,8 @@ interface UseCarouselReturn {
   getCarousels: (
     page?: number,
     limit?: number,
-    status?: string
+    status?: string,
+    search?: string
   ) => Promise<CarouselListResponse | null>;
   getCarousel: (id: string) => Promise<CarouselDetailResponse | null>;
   updateSlide: (
@@ -60,6 +65,7 @@ interface UseCarouselReturn {
   ) => Promise<SlideUpdateResponse | null>;
   validateCarousel: (id: string) => Promise<ValidateResponse | null>;
   deleteCarousel: (id: string) => Promise<boolean>;
+  duplicateCarousel: (id: string) => Promise<DuplicateResponse | null>;
 }
 
 export function useCarousel(): UseCarouselReturn {
@@ -91,7 +97,7 @@ export function useCarousel(): UseCarouselReturn {
   );
 
   const getCarousels = useCallback(
-    async (page = 1, limit = 10, status?: string) => {
+    async (page = 1, limit = 10, status?: string, search?: string) => {
       setLoading(true);
       setError(null);
 
@@ -100,6 +106,7 @@ export function useCarousel(): UseCarouselReturn {
         limit: String(limit),
       });
       if (status) params.set('status', status);
+      if (search && search.trim().length > 0) params.set('search', search.trim());
 
       const { data, error: apiError } = await api.get<CarouselListResponse>(
         `/api/v1/carousels?${params.toString()}`
@@ -192,6 +199,25 @@ export function useCarousel(): UseCarouselReturn {
     return true;
   }, []);
 
+  const duplicateCarousel = useCallback(async (id: string) => {
+    setLoading(true);
+    setError(null);
+
+    const { data, error: apiError } = await api.post<DuplicateResponse>(
+      `/api/v1/carousels/${id}/duplicate`,
+      {}
+    );
+
+    setLoading(false);
+
+    if (apiError) {
+      setError(apiError.message);
+      return null;
+    }
+
+    return data;
+  }, []);
+
   return {
     loading,
     error,
@@ -202,5 +228,6 @@ export function useCarousel(): UseCarouselReturn {
     updateSlide,
     validateCarousel,
     deleteCarousel,
+    duplicateCarousel,
   };
 }

@@ -162,6 +162,7 @@ router.get('/', async (req: Request, res: Response): Promise<void> => {
   const page = Math.max(1, Number(req.query['page']) || 1);
   const limit = Math.min(50, Math.max(1, Number(req.query['limit']) || 10));
   const status = req.query['status'] as string | undefined;
+  const search = req.query['search'] as string | undefined;
   const offset = (page - 1) * limit;
 
   let query = supabaseAdmin
@@ -174,6 +175,11 @@ router.get('/', async (req: Request, res: Response): Promise<void> => {
   const validStatuses = ['draft', 'text_validated', 'images_generated', 'exported'];
   if (status && validStatuses.includes(status)) {
     query = query.eq('status', status);
+  }
+
+  if (search && search.trim().length > 0) {
+    // Search by title or theme (case-insensitive)
+    query = query.or(`title.ilike.%${search.trim()}%,theme.ilike.%${search.trim()}%`);
   }
 
   const { data, error, count } = await query;
@@ -408,6 +414,85 @@ router.delete('/:id', async (req: Request, res: Response): Promise<void> => {
   }
 
   res.status(204).send();
+});
+
+// ─── POST /:id/duplicate — Clone a carousel (status=draft, no images) ─────────
+router.post('/:id/duplicate', async (req: Request, res: Response): Promise<void> => {
+  const { user } = req as AuthenticatedRequest;
+  const { id } = req.params as { id: string };
+
+  // Fetch original carousel + verify ownership
+  const { data: original, error: fetchError } = await supabaseAdmin
+    .from('carousels')
+    .select('*')
+    .eq('id', id)
+    .eq('user_id', user.id)
+    .single();
+
+  if (fetchError || !original) {
+    res.status(404).json({ error: { message: 'Carrossel não encontrado', code: 'NOT_FOUND' } });
+    return;
+  }
+
+  // Create new carousel record
+  const { data: newCarousel, error: createError } = await supabaseAdmin
+    .from('carousels')
+    .insert({
+      user_id: user.id,
+      title: `${(original as Record<string, unknown>)['title'] as string} (cópia)`,
+      theme: (original as Record<string, unknown>)['theme'] as string,
+      template_type: (original as Record<string, unknown>)['template_type'] as string,
+      status: 'draft',
+      slide_count: (original as Record<string, unknown>)['slide_count'] as number,
+      persona_id: (original as Record<string, unknown>)['persona_id'] ?? null,
+    })
+    .select()
+    .single();
+
+  if (createError || !newCarousel) {
+    console.error('[carousels/duplicate] create error:', createError);
+    res.status(500).json({ error: { message: 'Falha ao duplicar carrossel', code: 'DB_ERROR' } });
+    return;
+  }
+
+  // Fetch original slides
+  const { data: originalSlides, error: slidesError } = await supabaseAdmin
+    .from('carousel_slides')
+    .select('position, headline, body_text, cta_text')
+    .eq('carousel_id', id)
+    .order('position');
+
+  if (slidesError) {
+    console.error('[carousels/duplicate] slides fetch error:', slidesError);
+    // Rollback new carousel
+    await supabaseAdmin.from('carousels').delete().eq('id', (newCarousel as Record<string, unknown>)['id'] as string);
+    res.status(500).json({ error: { message: 'Falha ao buscar slides do original', code: 'DB_ERROR' } });
+    return;
+  }
+
+  // Insert cloned slides (no image_url — status is draft)
+  if (originalSlides && originalSlides.length > 0) {
+    const clonedSlides = originalSlides.map((s) => ({
+      carousel_id: (newCarousel as Record<string, unknown>)['id'] as string,
+      position: s.position as number,
+      headline: s.headline as string ?? '',
+      body_text: s.body_text as string ?? '',
+      cta_text: s.cta_text as string ?? '',
+    }));
+
+    const { error: insertSlidesError } = await supabaseAdmin
+      .from('carousel_slides')
+      .insert(clonedSlides);
+
+    if (insertSlidesError) {
+      console.error('[carousels/duplicate] insert slides error:', insertSlidesError);
+      await supabaseAdmin.from('carousels').delete().eq('id', (newCarousel as Record<string, unknown>)['id'] as string);
+      res.status(500).json({ error: { message: 'Falha ao clonar slides', code: 'DB_ERROR' } });
+      return;
+    }
+  }
+
+  res.status(201).json({ carousel: newCarousel });
 });
 
 export default router;

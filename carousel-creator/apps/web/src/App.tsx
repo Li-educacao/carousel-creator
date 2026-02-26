@@ -1,11 +1,15 @@
 import { type ReactNode } from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { AuthProvider, useAuth } from './contexts/AuthContext';
+import { ToastProvider } from './contexts/ToastContext';
+import { ToastContainer } from './components/Toast';
+import { Layout } from './components/Layout';
 import LoginPage from './pages/LoginPage';
 import DashboardPage from './pages/DashboardPage';
 import NewCarouselPage from './pages/NewCarouselPage';
 import FeedbackPage from './pages/FeedbackPage';
 import SettingsPage from './pages/SettingsPage';
+import TemplatesPage from './pages/TemplatesPage';
 
 function LoadingScreen() {
   return (
@@ -20,7 +24,7 @@ function ProtectedRoute({ children }: { children: ReactNode }) {
 
   if (loading) return <LoadingScreen />;
   if (!user) return <Navigate to="/login" replace />;
-  return <>{children}</>;
+  return <Layout>{children}</Layout>;
 }
 
 function AppRoutes() {
@@ -59,6 +63,14 @@ function AppRoutes() {
         }
       />
       <Route
+        path="/templates"
+        element={
+          <ProtectedRoute>
+            <TemplatesPage />
+          </ProtectedRoute>
+        }
+      />
+      <Route
         path="/feedback"
         element={
           <ProtectedRoute>
@@ -83,7 +95,10 @@ export default function App() {
   return (
     <BrowserRouter>
       <AuthProvider>
-        <AppRoutes />
+        <ToastProvider>
+          <AppRoutes />
+          <ToastContainer />
+        </ToastProvider>
       </AuthProvider>
     </BrowserRouter>
   );

@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
 import type { WritingPersona } from '@carousel/shared';
 import { Button, Card, CardHeader, CardTitle, CardContent, CardFooter, Badge, Input, Textarea, Modal } from '../components/ui';
 import { cn } from '../lib/utils';
@@ -285,7 +284,6 @@ function PersonaCard({
 // ─── Main Page ────────────────────────────────────────────────────────────────
 
 export default function SettingsPage() {
-  const navigate = useNavigate();
   const { loading, error, clearError, getPersonas, createPersona, updatePersona, deletePersona } = usePersonas();
 
   const [personas, setPersonas] = useState<WritingPersona[]>([]);
@@ -359,23 +357,8 @@ export default function SettingsPage() {
     : undefined;
 
   return (
-    <div className="min-h-screen bg-brand-black">
-      {/* Header */}
-      <header className="border-b border-brand-gray/10 px-6 py-4">
-        <div className="max-w-4xl mx-auto flex items-center justify-between">
-          <h1 className="text-xl font-heading text-brand-blue">Carousel Creator</h1>
-          <div className="flex items-center gap-3">
-            <Button size="sm" variant="ghost" onClick={() => navigate('/')}>
-              Dashboard
-            </Button>
-            <Button size="sm" variant="ghost" onClick={() => navigate('/feedback')}>
-              Aprendizado
-            </Button>
-          </div>
-        </div>
-      </header>
-
-      <main className="max-w-4xl mx-auto px-6 py-8">
+    <div className="px-6 py-8">
+      <div className="max-w-4xl mx-auto">
         <div className="flex items-start justify-between mb-6">
           <div>
             <h2 className="text-2xl font-heading text-white">Personas de Escrita</h2>
@@ -426,7 +409,7 @@ export default function SettingsPage() {
             ))}
           </div>
         )}
-      </main>
+      </div>
 
       {/* Create / Edit modal */}
       <Modal

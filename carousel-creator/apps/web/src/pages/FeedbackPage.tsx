@@ -143,23 +143,8 @@ export default function FeedbackPage() {
     : [];
 
   return (
-    <div className="min-h-screen bg-brand-black">
-      {/* Header */}
-      <header className="border-b border-brand-gray/10 px-6 py-4">
-        <div className="max-w-4xl mx-auto flex items-center justify-between">
-          <h1 className="text-xl font-heading text-brand-blue">Carousel Creator</h1>
-          <div className="flex items-center gap-3">
-            <Button size="sm" variant="ghost" onClick={() => navigate('/')}>
-              Dashboard
-            </Button>
-            <Button size="sm" variant="ghost" onClick={() => navigate('/settings')}>
-              Configuracoes
-            </Button>
-          </div>
-        </div>
-      </header>
-
-      <main className="max-w-4xl mx-auto px-6 py-8">
+    <div className="px-6 py-8">
+      <div className="max-w-4xl mx-auto">
         <div className="mb-6">
           <h2 className="text-2xl font-heading text-white">Aprendizado da IA</h2>
           <p className="text-sm font-body text-brand-gray mt-1">
@@ -313,7 +298,7 @@ export default function FeedbackPage() {
             )}
           </div>
         )}
-      </main>
+      </div>
     </div>
   );
 }
