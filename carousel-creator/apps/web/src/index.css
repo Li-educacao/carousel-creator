@@ -1,0 +1,100 @@
+@import "tailwindcss";
+
+/* ============================================================
+   MADE Tommy Font Family
+   Files served from /fonts/ (public/fonts/*.otf)
+   ============================================================ */
+
+@font-face {
+  font-family: 'MADE Tommy ExtraBold';
+  src: url('/fonts/MADETommy-ExtraBold.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'MADE Tommy Medium';
+  src: url('/fonts/MADETommy-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'MADE Tommy Regular';
+  src: url('/fonts/MADETommy-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'MADE Tommy Bold';
+  src: url('/fonts/MADETommy-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'MADE Tommy Light';
+  src: url('/fonts/MADETommy-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ============================================================
+   Tailwind v4 Theme — Brand Design Tokens
+   Generates utility classes: bg-brand-*, text-brand-*, etc.
+   ============================================================ */
+
+@theme {
+  /* Colors */
+  --color-brand-black: #010101;
+  --color-brand-white: #ffffff;
+  --color-brand-gray: #76777a;
+  --color-brand-blue: #0084c8;
+  --color-brand-blue-dark: #0e4c93;
+
+  /* Font families */
+  --font-heading: 'MADE Tommy ExtraBold', sans-serif;
+  --font-subtitle: 'MADE Tommy Medium', sans-serif;
+  --font-body: 'MADE Tommy Regular', 'Inter', sans-serif;
+}
+
+/* ============================================================
+   Base styles
+   ============================================================ */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: #010101;
+  color: #ffffff;
+  font-family: 'MADE Tommy Regular', 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ============================================================
+   Utility classes for typography
+   ============================================================ */
+
+.font-heading {
+  font-family: 'MADE Tommy ExtraBold', sans-serif;
+}
+
+.font-subtitle {
+  font-family: 'MADE Tommy Medium', sans-serif;
+}
+
+.font-body {
+  font-family: 'MADE Tommy Regular', sans-serif;
+}
