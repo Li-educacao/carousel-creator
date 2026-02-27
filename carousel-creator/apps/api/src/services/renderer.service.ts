@@ -105,6 +105,37 @@ function wrapText(
   return lines;
 }
 
+function setTextShadow(ctx: CanvasRenderingContext2D, blur: number = 12, color: string = 'rgba(0,0,0,0.8)'): void {
+  ctx.shadowColor = color;
+  ctx.shadowBlur = blur;
+  ctx.shadowOffsetX = 2;
+  ctx.shadowOffsetY = 2;
+}
+
+function clearTextShadow(ctx: CanvasRenderingContext2D): void {
+  ctx.shadowColor = 'transparent';
+  ctx.shadowBlur = 0;
+  ctx.shadowOffsetX = 0;
+  ctx.shadowOffsetY = 0;
+}
+
+/** Draw a frosted dark panel behind text for readability */
+function drawTextPanel(
+  ctx: CanvasRenderingContext2D,
+  x: number,
+  y: number,
+  width: number,
+  height: number,
+  radius: number = 20,
+  opacity: number = 0.6,
+): void {
+  ctx.save();
+  ctx.fillStyle = `rgba(1, 1, 1, ${opacity})`;
+  drawRoundedRect(ctx, x, y, width, height, radius);
+  ctx.fill();
+  ctx.restore();
+}
+
 function drawWrappedText(
   ctx: CanvasRenderingContext2D,
   text: string,
@@ -150,14 +181,15 @@ async function renderSlide(
       const img = await loadImage(aiBackground.buffer);
       ctx.drawImage(img, 0, 0, WIDTH, HEIGHT);
 
-      // Dark overlay for text readability (strong)
-      ctx.fillStyle = 'rgba(1, 1, 1, 0.65)';
+      // Moderate overlay — let the photo show through
+      ctx.fillStyle = 'rgba(1, 1, 1, 0.35)';
       ctx.fillRect(0, 0, WIDTH, HEIGHT);
 
-      // Gradient overlay from bottom for extra contrast on text areas
-      const textGrad = ctx.createLinearGradient(0, HEIGHT * 0.3, 0, HEIGHT);
-      textGrad.addColorStop(0, 'rgba(1, 1, 1, 0)');
-      textGrad.addColorStop(1, 'rgba(1, 1, 1, 0.7)');
+      // Gradient: stronger on left (where text goes), lighter on right (show photo)
+      const textGrad = ctx.createLinearGradient(0, 0, WIDTH, 0);
+      textGrad.addColorStop(0, 'rgba(1, 1, 1, 0.40)');
+      textGrad.addColorStop(0.5, 'rgba(1, 1, 1, 0.15)');
+      textGrad.addColorStop(1, 'rgba(1, 1, 1, 0.05)');
       ctx.fillStyle = textGrad;
       ctx.fillRect(0, 0, WIDTH, HEIGHT);
     } catch (err) {
@@ -179,8 +211,12 @@ async function renderSlide(
     }
   }
 
-  // ── Brand stripe ──
-  ctx.fillStyle = accentColor;
+  // ── Brand stripe (left edge accent) ──
+  const stripeGrad = ctx.createLinearGradient(0, 0, 0, HEIGHT);
+  stripeGrad.addColorStop(0, accentColor);
+  stripeGrad.addColorStop(0.5, `${accentColor}80`);
+  stripeGrad.addColorStop(1, accentColor);
+  ctx.fillStyle = stripeGrad;
   ctx.fillRect(0, 0, 6, HEIGHT);
 
   // ── Layout-specific rendering ──
@@ -224,48 +260,64 @@ function renderCoverSlide(
   _width: number,
   height: number
 ): void {
-  // Large decorative circle
-  ctx.fillStyle = `${accentColor}15`;
-  ctx.beginPath();
-  ctx.arc(_width * 0.8, height * 0.25, 300, 0, Math.PI * 2);
-  ctx.fill();
+  // ── Brand badge top-left ──
+  drawTextPanel(ctx, padding - 16, 40, 260, 48, 12, 0.5);
+  setTextShadow(ctx, 6);
+  ctx.fillStyle = accentColor;
+  ctx.font = `bold 26px "${FONT_FAMILIES.subtitle}"`;
+  ctx.textAlign = 'left';
+  ctx.fillText('CLIMATRONICO', padding, 72);
+  clearTextShadow(ctx);
 
-  // Small accent circle
-  ctx.fillStyle = `${accentColor}25`;
-  ctx.beginPath();
-  ctx.arc(_width * 0.15, height * 0.75, 150, 0, Math.PI * 2);
-  ctx.fill();
-
-  // Main headline — large, centered
-  const centerY = height * 0.45;
-  ctx.fillStyle = BRAND_COLORS.white;
-  ctx.font = `bold 72px "${FONT_FAMILIES.heading}"`;
-  const lines = wrapText(ctx, slide.headline, contentWidth);
-  const lineHeight = 84;
+  // ── Calculate text block dimensions ──
+  ctx.font = `bold 88px "${FONT_FAMILIES.heading}"`;
+  const lines = wrapText(ctx, slide.headline, contentWidth - 40);
+  const lineHeight = 100;
   const totalHeight = lines.length * lineHeight;
-  const startY = centerY - totalHeight / 2 + 72;
+  const centerY = height * 0.46;
+  const headlineStartY = centerY - totalHeight / 2 + 88;
+
+  // Measure body text
+  let bodyLines: string[] = [];
+  if (slide.body_text) {
+    ctx.font = `400 34px "${FONT_FAMILIES.body}"`;
+    bodyLines = wrapText(ctx, slide.body_text, contentWidth - 40);
+  }
+  const bodyHeight = bodyLines.length * 46;
+
+  // ── Dark panel behind all text ──
+  const panelTop = headlineStartY - 100;
+  const panelBottom = headlineStartY + totalHeight + (bodyLines.length > 0 ? 40 + bodyHeight : 0) + 20;
+  drawTextPanel(ctx, padding - 24, panelTop, contentWidth + 48, panelBottom - panelTop, 24, 0.55);
+
+  // ── Blue accent bar inside panel ──
+  ctx.fillStyle = accentColor;
+  ctx.fillRect(padding - 24, panelTop, 5, panelBottom - panelTop);
+
+  // ── Headline — white, bold ──
+  setTextShadow(ctx, 16, 'rgba(0,0,0,0.7)');
+  ctx.fillStyle = BRAND_COLORS.white;
+  ctx.font = `bold 88px "${FONT_FAMILIES.heading}"`;
   ctx.textAlign = 'left';
   for (let i = 0; i < lines.length; i++) {
-    ctx.fillText(lines[i], padding, startY + i * lineHeight);
+    ctx.fillText(lines[i], padding, headlineStartY + i * lineHeight);
   }
 
-  // Body text below headline
-  if (slide.body_text) {
-    ctx.fillStyle = BRAND_COLORS.gray;
-    ctx.font = `400 32px "${FONT_FAMILIES.body}"`;
-    drawWrappedText(
-      ctx,
-      slide.body_text,
-      padding,
-      startY + totalHeight + 24,
-      contentWidth,
-      42
-    );
+  // ── Body text — lighter for hierarchy ──
+  if (bodyLines.length > 0) {
+    setTextShadow(ctx, 8);
+    ctx.fillStyle = '#CCCCCC';
+    ctx.font = `400 34px "${FONT_FAMILIES.body}"`;
+    for (let i = 0; i < bodyLines.length; i++) {
+      ctx.fillText(bodyLines[i], padding, headlineStartY + totalHeight + 40 + i * 46);
+    }
   }
 
-  // Bottom accent line
+  clearTextShadow(ctx);
+
+  // ── Bottom accent line ──
   ctx.fillStyle = accentColor;
-  ctx.fillRect(padding, height * 0.85, 80, 4);
+  ctx.fillRect(padding, height * 0.90, 120, 4);
 }
 
 function renderCtaSlide(
@@ -277,55 +329,77 @@ function renderCtaSlide(
   width: number,
   height: number
 ): void {
-  // Background gradient for CTA emphasis
-  const grad = ctx.createLinearGradient(0, 0, 0, height);
-  grad.addColorStop(0, `${accentColor}30`);
-  grad.addColorStop(0.5, `${accentColor}10`);
-  grad.addColorStop(1, '#00000000');
-  ctx.fillStyle = grad;
-  ctx.fillRect(0, 0, width, height);
-
   const centerX = width / 2;
-  const midY = height * 0.4;
 
-  // Headline
+  // ── Calculate text block for centering ──
+  ctx.font = `bold 80px "${FONT_FAMILIES.heading}"`;
+  const headlineLines = wrapText(ctx, slide.headline, contentWidth - 60);
+  const lineH = 92;
+
+  let bodyLines: string[] = [];
+  if (slide.body_text) {
+    ctx.font = `400 32px "${FONT_FAMILIES.body}"`;
+    bodyLines = wrapText(ctx, slide.body_text, contentWidth - 60);
+  }
+  const bodyHeight = bodyLines.length * 44;
+  const headlineHeight = headlineLines.length * lineH;
+  const totalTextHeight = headlineHeight + (bodyLines.length > 0 ? 30 + bodyHeight : 0);
+
+  const midY = height * 0.38;
+  const startY = midY - totalTextHeight / 2 + 80;
+
+  // ── Central dark panel ──
+  const panelPadX = 40;
+  const panelTop = startY - 90;
+  const panelBottom = startY + totalTextHeight + 30;
+  drawTextPanel(ctx, panelPadX, panelTop, width - panelPadX * 2, panelBottom - panelTop, 24, 0.55);
+
+  // Blue top accent on panel
+  ctx.fillStyle = accentColor;
+  ctx.fillRect(centerX - 60, panelTop, 120, 4);
+
+  // ── Headline — WHITE, centered ──
+  setTextShadow(ctx, 16, 'rgba(0,0,0,0.7)');
   ctx.fillStyle = BRAND_COLORS.white;
-  ctx.font = `bold 64px "${FONT_FAMILIES.heading}"`;
-  const headlineLines = wrapText(ctx, slide.headline, contentWidth);
-  const lineH = 76;
-  const startY = midY - (headlineLines.length * lineH) / 2 + 64;
+  ctx.font = `bold 80px "${FONT_FAMILIES.heading}"`;
   ctx.textAlign = 'center';
   for (let i = 0; i < headlineLines.length; i++) {
     ctx.fillText(headlineLines[i], centerX, startY + i * lineH);
   }
 
-  // Body text
-  if (slide.body_text) {
-    ctx.fillStyle = BRAND_COLORS.gray;
-    ctx.font = `400 30px "${FONT_FAMILIES.body}"`;
-    drawWrappedText(
-      ctx,
-      slide.body_text,
-      centerX,
-      startY + headlineLines.length * lineH + 20,
-      contentWidth,
-      40,
-      'center'
-    );
+  // ── Body text — light gray ──
+  if (bodyLines.length > 0) {
+    setTextShadow(ctx, 8);
+    ctx.fillStyle = '#CCCCCC';
+    ctx.font = `400 32px "${FONT_FAMILIES.body}"`;
+    ctx.textAlign = 'center';
+    for (let i = 0; i < bodyLines.length; i++) {
+      ctx.fillText(bodyLines[i], centerX, startY + headlineHeight + 30 + i * 44);
+    }
   }
+
+  clearTextShadow(ctx);
 
   // CTA button
   if (slide.cta_text) {
-    const btnY = height * 0.72;
+    const btnY = height * 0.74;
     const btnText = slide.cta_text;
-    ctx.font = `bold 32px "${FONT_FAMILIES.subtitle}"`;
-    const btnWidth = Math.min(ctx.measureText(btnText).width + 80, contentWidth);
-    const btnHeight = 72;
+    ctx.font = `bold 36px "${FONT_FAMILIES.subtitle}"`;
+    const btnWidth = Math.min(ctx.measureText(btnText).width + 100, contentWidth);
+    const btnHeight = 80;
     const btnX = centerX - btnWidth / 2;
 
+    // Button shadow
+    ctx.shadowColor = 'rgba(0, 132, 200, 0.4)';
+    ctx.shadowBlur = 20;
+    ctx.shadowOffsetX = 0;
+    ctx.shadowOffsetY = 4;
+
     ctx.fillStyle = accentColor;
-    drawRoundedRect(ctx, btnX, btnY, btnWidth, btnHeight, 36);
+    drawRoundedRect(ctx, btnX, btnY, btnWidth, btnHeight, 40);
     ctx.fill();
+
+    clearTextShadow(ctx);
 
     ctx.fillStyle = BRAND_COLORS.white;
     ctx.textAlign = 'center';
@@ -342,43 +416,74 @@ function renderContentSlide(
   _width: number,
   height: number
 ): void {
-  // Headline
-  ctx.fillStyle = accentColor;
-  ctx.font = `bold 16px "${FONT_FAMILIES.subtitle}"`;
-  ctx.textAlign = 'left';
-  ctx.fillText(`SLIDE ${slide.position}`, padding, 120);
+  // ── Calculate all text dimensions first ──
+  ctx.font = `bold 68px "${FONT_FAMILIES.heading}"`;
+  const headlineLines = wrapText(ctx, slide.headline, contentWidth - 40);
+  const lineH = 80;
+  const labelY = 100;
+  const startY = labelY + 50;
+  const headlineBottom = startY + headlineLines.length * lineH;
 
-  ctx.fillStyle = BRAND_COLORS.white;
-  ctx.font = `bold 56px "${FONT_FAMILIES.heading}"`;
-  const headlineLines = wrapText(ctx, slide.headline, contentWidth);
-  const lineH = 68;
-  const startY = 180;
+  let bodyLines: string[] = [];
+  if (slide.body_text) {
+    ctx.font = `400 36px "${FONT_FAMILIES.body}"`;
+    bodyLines = wrapText(ctx, slide.body_text, contentWidth - 40);
+  }
+  const bodyHeight = bodyLines.length * 50;
+
+  // ── Dark panel behind text ──
+  const panelTop = labelY - 30;
+  const panelBottom = headlineBottom + 40 + (bodyLines.length > 0 ? bodyHeight + 20 : 0);
+  drawTextPanel(ctx, padding - 24, panelTop, contentWidth + 48, panelBottom - panelTop, 20, 0.6);
+
+  // Blue accent bar on left of panel
+  ctx.fillStyle = accentColor;
+  ctx.fillRect(padding - 24, panelTop, 5, panelBottom - panelTop);
+
+  // ── Slide label ──
+  setTextShadow(ctx, 6);
+  ctx.fillStyle = accentColor;
+  ctx.font = `bold 22px "${FONT_FAMILIES.subtitle}"`;
+  ctx.textAlign = 'left';
+  ctx.fillText(`SLIDE ${slide.position}`, padding, labelY);
+
+  // ── Headline — BLUE ──
+  setTextShadow(ctx, 14, 'rgba(0,0,0,0.8)');
+  ctx.fillStyle = accentColor;
+  ctx.font = `bold 68px "${FONT_FAMILIES.heading}"`;
   for (let i = 0; i < headlineLines.length; i++) {
     ctx.fillText(headlineLines[i], padding, startY + i * lineH);
   }
 
-  // Separator
-  const sepY = startY + headlineLines.length * lineH + 28;
-  ctx.fillStyle = accentColor;
+  // ── Separator ──
+  clearTextShadow(ctx);
+  const sepY = headlineBottom + 16;
+  ctx.fillStyle = BRAND_COLORS.white;
   ctx.fillRect(padding, sepY, 60, 3);
 
-  // Body text
-  if (slide.body_text) {
+  // ── Body text — white ──
+  if (bodyLines.length > 0) {
+    setTextShadow(ctx, 8);
     ctx.fillStyle = BRAND_COLORS.white;
-    ctx.font = `400 34px "${FONT_FAMILIES.body}"`;
-    drawWrappedText(ctx, slide.body_text, padding, sepY + 48, contentWidth, 50);
+    ctx.font = `400 36px "${FONT_FAMILIES.body}"`;
+    for (let i = 0; i < bodyLines.length; i++) {
+      ctx.fillText(bodyLines[i], padding, sepY + 40 + i * 50);
+    }
+    clearTextShadow(ctx);
   }
 
   // CTA if present
   if (slide.cta_text) {
-    const ctaY = height - padding - 72;
-    ctx.fillStyle = `${accentColor}20`;
-    drawRoundedRect(ctx, padding, ctaY, contentWidth, 56, 8);
+    const ctaY = height - padding - 80;
+    ctx.fillStyle = `${accentColor}40`;
+    drawRoundedRect(ctx, padding, ctaY, contentWidth, 64, 12);
     ctx.fill();
-    ctx.fillStyle = accentColor;
-    ctx.font = `bold 26px "${FONT_FAMILIES.subtitle}"`;
+    setTextShadow(ctx, 6);
+    ctx.fillStyle = BRAND_COLORS.white;
+    ctx.font = `bold 28px "${FONT_FAMILIES.subtitle}"`;
     ctx.textAlign = 'left';
-    ctx.fillText(slide.cta_text, padding + 24, ctaY + 38);
+    ctx.fillText(slide.cta_text, padding + 24, ctaY + 42);
+    clearTextShadow(ctx);
   }
 }
 
@@ -391,41 +496,63 @@ function renderTipSlide(
   width: number,
   height: number
 ): void {
-  // Large number in background
-  ctx.fillStyle = `${accentColor}12`;
-  ctx.font = `bold 400px "${FONT_FAMILIES.heading}"`;
-  ctx.textAlign = 'right';
-  ctx.fillText(String(slide.position), width - 20, height * 0.7);
+  // ── Calculate text dimensions ──
+  ctx.font = `bold 60px "${FONT_FAMILIES.heading}"`;
+  const lines = wrapText(ctx, slide.headline, contentWidth - 40);
+  const headlineBottom = 340 + lines.length * 72;
+
+  let bodyLinesArr: string[] = [];
+  if (slide.body_text) {
+    ctx.font = `400 34px "${FONT_FAMILIES.body}"`;
+    bodyLinesArr = wrapText(ctx, slide.body_text, contentWidth - 40);
+  }
+  const bodyH = bodyLinesArr.length * 48;
+
+  // ── Dark panel behind all text ──
+  const panelTop = 90;
+  const panelBottom = headlineBottom + 40 + (bodyLinesArr.length > 0 ? bodyH + 30 : 0);
+  drawTextPanel(ctx, padding - 24, panelTop, contentWidth + 48, panelBottom - panelTop, 20, 0.6);
+
+  // Blue accent bar
+  ctx.fillStyle = accentColor;
+  ctx.fillRect(padding - 24, panelTop, 5, panelBottom - panelTop);
 
   // "DICA" label
+  setTextShadow(ctx, 6);
   ctx.fillStyle = accentColor;
-  ctx.font = `bold 20px "${FONT_FAMILIES.subtitle}"`;
+  ctx.font = `bold 24px "${FONT_FAMILIES.subtitle}"`;
   ctx.textAlign = 'left';
   ctx.fillText('DICA', padding, 130);
 
-  // Number badge
+  // Number badge — big blue
   ctx.fillStyle = accentColor;
-  ctx.font = `bold 80px "${FONT_FAMILIES.heading}"`;
-  ctx.fillText(`#${slide.position}`, padding, 260);
+  ctx.font = `bold 90px "${FONT_FAMILIES.heading}"`;
+  ctx.fillText(`#${slide.position}`, padding, 265);
 
-  // Headline
-  ctx.fillStyle = BRAND_COLORS.white;
-  ctx.font = `bold 50px "${FONT_FAMILIES.heading}"`;
-  const lines = wrapText(ctx, slide.headline, contentWidth);
+  // Headline — BLUE
+  setTextShadow(ctx, 14, 'rgba(0,0,0,0.8)');
+  ctx.fillStyle = accentColor;
+  ctx.font = `bold 60px "${FONT_FAMILIES.heading}"`;
   for (let i = 0; i < lines.length; i++) {
-    ctx.fillText(lines[i], padding, 330 + i * 62);
+    ctx.fillText(lines[i], padding, 340 + i * 72);
   }
 
-  // Separator
-  const sepY = 330 + lines.length * 62 + 24;
-  ctx.fillStyle = accentColor;
+  clearTextShadow(ctx);
+
+  // Separator — white
+  const sepY = headlineBottom + 16;
+  ctx.fillStyle = BRAND_COLORS.white;
   ctx.fillRect(padding, sepY, 60, 3);
 
-  // Body text
-  if (slide.body_text) {
-    ctx.fillStyle = BRAND_COLORS.gray;
-    ctx.font = `400 32px "${FONT_FAMILIES.body}"`;
-    drawWrappedText(ctx, slide.body_text, padding, sepY + 44, contentWidth, 46);
+  // Body text — white
+  if (bodyLinesArr.length > 0) {
+    setTextShadow(ctx, 8);
+    ctx.fillStyle = BRAND_COLORS.white;
+    ctx.font = `400 34px "${FONT_FAMILIES.body}"`;
+    for (let i = 0; i < bodyLinesArr.length; i++) {
+      ctx.fillText(bodyLinesArr[i], padding, sepY + 40 + i * 48);
+    }
+    clearTextShadow(ctx);
   }
 }
 
@@ -441,32 +568,37 @@ function renderTestimonialSlide(
   const centerX = width / 2;
 
   // Large quote mark
-  ctx.fillStyle = `${accentColor}20`;
-  ctx.font = `bold 200px serif`;
+  ctx.fillStyle = `${accentColor}30`;
+  ctx.font = `bold 240px serif`;
   ctx.textAlign = 'center';
   ctx.fillText('"', centerX, height * 0.3);
 
   // Headline as quote
+  setTextShadow(ctx, 16, 'rgba(0,0,0,0.9)');
   ctx.fillStyle = BRAND_COLORS.white;
-  ctx.font = `400 40px "${FONT_FAMILIES.body}"`;
+  ctx.font = `400 46px "${FONT_FAMILIES.body}"`;
   ctx.textAlign = 'center';
   const lines = wrapText(ctx, slide.headline, contentWidth - 40);
-  const lineH = 56;
-  const startY = height * 0.45;
+  const lineH = 62;
+  const startY = height * 0.42;
   for (let i = 0; i < lines.length; i++) {
     ctx.fillText(lines[i], centerX, startY + i * lineH);
   }
 
+  clearTextShadow(ctx);
+
   // Accent line
   const lineY = startY + lines.length * lineH + 32;
   ctx.fillStyle = accentColor;
-  ctx.fillRect(centerX - 40, lineY, 80, 3);
+  ctx.fillRect(centerX - 40, lineY, 80, 4);
 
   // Body text (attribution / context)
   if (slide.body_text) {
-    ctx.fillStyle = BRAND_COLORS.gray;
-    ctx.font = `400 28px "${FONT_FAMILIES.body}"`;
-    drawWrappedText(ctx, slide.body_text, centerX, lineY + 40, contentWidth, 40, 'center');
+    setTextShadow(ctx, 8);
+    ctx.fillStyle = BRAND_COLORS.white;
+    ctx.font = `400 32px "${FONT_FAMILIES.body}"`;
+    drawWrappedText(ctx, slide.body_text, centerX, lineY + 40, contentWidth, 44, 'center');
+    clearTextShadow(ctx);
   }
 }
 

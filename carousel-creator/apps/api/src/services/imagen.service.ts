@@ -12,21 +12,7 @@ type SlideRole = 'cover' | 'content' | 'cta';
 
 // ─── Constants ────────────────────────────────────────────────────────────────
 
-// Imagen 4 Ultra — highest quality for carousel backgrounds
 const IMAGE_MODEL = 'imagen-4.0-generate-001';
-
-// Brand visual identity keywords for consistent generation
-const BRAND_STYLE = [
-  'very dark background predominantly black #010101',
-  'subtle electric blue #0084C8 accent glow',
-  'professional tech aesthetic',
-  'clean modern minimal composition',
-  'high contrast between dark areas and accent light',
-  'large empty dark areas for text overlay',
-  'content pushed to edges leaving center clean',
-  'no text no letters no numbers no words no watermark no logos',
-  'no faces no people no hands',
-].join(', ');
 
 // ─── Prompt builders ──────────────────────────────────────────────────────────
 
@@ -34,39 +20,60 @@ function buildBackgroundPrompt(
   theme: string,
   slideRole: SlideRole,
   templateType: string,
-  position: number,
-  totalSlides: number,
+  _position: number,
+  _totalSlides: number,
 ): string {
-  const roleDescriptions: Record<SlideRole, string> = {
-    cover: 'dramatic hero background, visual elements concentrated on edges and corners, large dark central area empty and clean for text overlay, depth-of-field blur in foreground',
-    content: 'subtle dark atmospheric background, 70% of image should be dark empty space for text, small tech details only on edges and corners, very minimal visual elements',
-    cta: 'energetic background with blue accent glow on edges, strong visual pull toward center, large clean dark center area for call-to-action button overlay',
+  // Each role gets a different "camera shot" for visual variety
+  const shots: Record<SlideRole, string> = {
+    cover: [
+      'Top-down flat lay photograph of an electronics repair workbench.',
+      'A Fluke multimeter with red and black probes, a Hantek oscilloscope showing waveforms on screen,',
+      'multiple green PCB circuit boards with visible copper traces and SMD components,',
+      'electrolytic capacitors, a soldering station with iron resting on holder,',
+      'scattered resistors, transistors, and IC chips on a matte black anti-static mat.',
+      'Blue LED strip lighting along the edges casts cool blue glow on the metal tools.',
+      'Professional stock photography, Canon EOS R5, 24-70mm f/2.8 lens, ISO 400, studio lighting.',
+    ].join(' '),
+    content: [
+      'Close-up macro photograph of electronic components on a dark workbench surface.',
+      'Sharp focus on capacitors, resistors, and IC chips with solder joints visible.',
+      'A PCB board with copper traces and through-hole components in the foreground.',
+      'Multimeter probes touching a circuit board in soft focus in the background.',
+      'Moody dark ambient lighting with blue LED edge accent creating rim light on components.',
+      'Professional macro photography, shallow depth of field, beautiful bokeh.',
+      'Canon EOS R5, 100mm macro lens f/2.8, studio lighting with blue gel.',
+    ].join(' '),
+    cta: [
+      'Wide angle photograph of a well-organized professional electronics repair workshop.',
+      'Workbench with multimeter, oscilloscope, soldering station, PCB holder, and circuit boards.',
+      'Tools neatly arranged: screwdrivers, tweezers, flux pen, solder wire, heat gun.',
+      'Blue LED ambient lighting creating a premium, inviting atmosphere.',
+      'Clean and professional workspace that inspires confidence and expertise.',
+      'Professional interior photography, wide angle 16mm lens, dramatic blue accent lighting.',
+    ].join(' '),
   };
 
-  const templateVibes: Record<string, string> = {
-    educational: 'technical, electronic circuit boards, PCB traces, solder points, multimeter, oscilloscope, subtle tech elements',
-    social_proof: 'warm and trustworthy, subtle human connection, achievement feel, clean workspace',
-    tips_list: 'organized, structured, numbered feel, clean tech workspace, tools neatly arranged',
-    cover_cta: 'bold and impactful, dramatic lighting, strong visual contrast, premium feel',
+  // Template-specific subject additions
+  const subjects: Record<string, string> = {
+    educational: 'Focus on diagnostic tools: multimeter display, oscilloscope waveforms, component tester, magnifying lamp over PCB.',
+    social_proof: 'Repaired circuit boards stacked neatly, a working air conditioner inverter board, tools of the trade showing mastery.',
+    tips_list: 'Individual tools and components isolated on dark surface: numbered feel, each tool in its place, organized grid layout.',
+    cover_cta: 'Hero shot with the most impressive tools front and center: oscilloscope, multimeter, and a complex inverter PCB board.',
   };
 
-  const vibe = templateVibes[templateType] ?? templateVibes.educational;
-  const roleDesc = roleDescriptions[slideRole];
+  const subject = subjects[templateType] ?? subjects.educational;
 
   return [
-    `Professional Instagram carousel background image for air conditioning and electronics repair education brand "Climatrônico".`,
-    `Theme: "${theme}".`,
-    `Slide ${position} of ${totalSlides} — ${slideRole} slide.`,
-    `Visual direction: ${roleDesc}.`,
-    `Visual elements: ${vibe}.`,
-    `Style: ${BRAND_STYLE}.`,
-    `CRITICAL REQUIREMENTS:`,
-    `1. Do NOT include any text, letters, numbers, words, watermarks, or logos.`,
-    `2. The image is a BACKGROUND ONLY — all text will be overlaid programmatically.`,
-    `3. Keep 60-70% of the image as dark, clean, empty space suitable for white text overlay.`,
-    `4. Visual elements should be subtle, blurred, or pushed to edges/corners.`,
-    `5. The overall image should be VERY DARK (predominantly #010101 black) with subtle tech elements.`,
-    `Aspect ratio: 1:1, 1080x1080 pixels equivalent quality.`,
+    `MAIN SUBJECT: A realistic photograph specifically about "${theme}".`,
+    `The main objects in the scene must directly relate to this topic.`,
+    `If the topic mentions a specific component (capacitor, IGBT, IPM, relay, transformer, etc), that component must be prominently visible and in focus.`,
+    `If the topic mentions a tool (multimeter, oscilloscope, capacimeter, etc), that tool must be the hero of the image.`,
+    `If the topic is about a specific board type (inverter, condensadora, evaporadora), show that type of PCB board prominently.`,
+    shots[slideRole],
+    subject,
+    'CRITICAL: This must be a realistic photograph of real physical objects. NOT an illustration, NOT abstract art.',
+    'The image contains NO text, NO letters, NO numbers, NO words, NO watermarks, NO logos anywhere.',
+    'Dark moody atmosphere with blue LED accent lighting.',
   ].join(' ');
 }
 
@@ -82,9 +89,6 @@ class ImagenService {
     this.ai = new GoogleGenAI({ apiKey: config.geminiApiKey });
   }
 
-  /**
-   * Generate a background image for a single slide using Imagen 4.
-   */
   async generateSlideBackground(
     theme: string,
     slideRole: SlideRole,
@@ -95,6 +99,7 @@ class ImagenService {
     const prompt = buildBackgroundPrompt(theme, slideRole, templateType, position, totalSlides);
 
     console.log(`[Imagen] Generating background for slide ${position}/${totalSlides} (${slideRole})...`);
+    console.log(`[Imagen] Prompt length: ${prompt.length} chars`);
 
     const response = await this.ai.models.generateImages({
       model: IMAGE_MODEL,
@@ -120,10 +125,6 @@ class ImagenService {
     return { buffer, mimeType: 'image/png' };
   }
 
-  /**
-   * Generate backgrounds for all slides in a carousel.
-   * Processes sequentially to respect API rate limits.
-   */
   async generateCarouselBackgrounds(
     theme: string,
     templateType: string,
@@ -147,10 +148,8 @@ class ImagenService {
         results.set(pos, image);
       } catch (err) {
         console.error(`[Imagen] Failed to generate slide ${pos}:`, (err as Error).message);
-        // Continue with remaining slides — renderer will use solid color fallback
       }
 
-      // Small delay between requests to avoid rate limits
       if (pos < totalSlides) {
         await new Promise((r) => setTimeout(r, 500));
       }
