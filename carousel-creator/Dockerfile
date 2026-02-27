@@ -48,6 +48,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 WORKDIR /app
 
+# Copy entire workspace structure (npm workspaces hoists node_modules to root)
 COPY --from=builder /app/package.json /app/package-lock.json ./
 COPY --from=builder /app/packages/shared/package.json packages/shared/
 COPY --from=builder /app/packages/shared/dist/ packages/shared/dist/
@@ -55,8 +56,6 @@ COPY --from=builder /app/apps/api/package.json apps/api/
 COPY --from=builder /app/apps/api/dist/ apps/api/dist/
 COPY --from=builder /app/fonts/ fonts/
 COPY --from=builder /app/node_modules/ node_modules/
-COPY --from=builder /app/apps/api/node_modules/ apps/api/node_modules/
-COPY --from=builder /app/packages/shared/node_modules/ packages/shared/node_modules/
 
 ENV NODE_ENV=production
 
