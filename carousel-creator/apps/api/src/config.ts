@@ -4,8 +4,10 @@ import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
-// Load .env from project root (two levels up from apps/api/src)
-dotenv.config({ path: path.resolve(__dirname, '../../../.env') });
+// Load .env — Railway sets env vars directly; in dev, load from project root
+if (process.env.NODE_ENV !== 'production') {
+  dotenv.config({ path: path.resolve(__dirname, '../../../.env') });
+}
 
 export const config = {
   port: Number(process.env.PORT) || 3001,
