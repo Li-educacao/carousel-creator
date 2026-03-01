@@ -64,6 +64,14 @@ function determineLayout(position: number, totalSlides: number, templateType: st
   return 'content';
 }
 
+// ─── Text sanitizer (strip emojis — Node Canvas can't render them) ───────────
+
+const EMOJI_REGEX = /[\u{1F600}-\u{1F64F}\u{1F300}-\u{1F5FF}\u{1F680}-\u{1F6FF}\u{1F1E0}-\u{1F1FF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}\u{FE00}-\u{FE0F}\u{1F900}-\u{1F9FF}\u{1FA00}-\u{1FA6F}\u{1FA70}-\u{1FAFF}\u{200D}\u{20E3}\u{E0020}-\u{E007F}]/gu;
+
+function stripEmojis(text: string): string {
+  return text.replace(EMOJI_REGEX, '').replace(/\s{2,}/g, ' ').trim();
+}
+
 // ─── Draw helpers ─────────────────────────────────────────────────────────────
 
 function drawRoundedRect(
@@ -225,22 +233,30 @@ async function renderSlide(
   ctx.fillStyle = stripeGrad;
   ctx.fillRect(0, 0, 6, HEIGHT);
 
+  // ── Strip emojis from all text fields (Node Canvas can't render them) ──
+  const cleanSlide: SlideData = {
+    ...slide,
+    headline: stripEmojis(slide.headline),
+    body_text: stripEmojis(slide.body_text),
+    cta_text: slide.cta_text ? stripEmojis(slide.cta_text) : slide.cta_text,
+  };
+
   // ── Layout-specific rendering ──
   switch (layout) {
     case 'cover':
-      renderCoverSlide(ctx, slide, accentColor, PADDING, CONTENT_WIDTH, WIDTH, HEIGHT);
+      renderCoverSlide(ctx, cleanSlide, accentColor, PADDING, CONTENT_WIDTH, WIDTH, HEIGHT);
       break;
     case 'cta':
-      renderCtaSlide(ctx, slide, accentColor, PADDING, CONTENT_WIDTH, WIDTH, HEIGHT);
+      renderCtaSlide(ctx, cleanSlide, accentColor, PADDING, CONTENT_WIDTH, WIDTH, HEIGHT);
       break;
     case 'tip':
-      renderTipSlide(ctx, slide, accentColor, PADDING, CONTENT_WIDTH, WIDTH, HEIGHT);
+      renderTipSlide(ctx, cleanSlide, accentColor, PADDING, CONTENT_WIDTH, WIDTH, HEIGHT);
       break;
     case 'testimonial':
-      renderTestimonialSlide(ctx, slide, accentColor, PADDING, CONTENT_WIDTH, WIDTH, HEIGHT);
+      renderTestimonialSlide(ctx, cleanSlide, accentColor, PADDING, CONTENT_WIDTH, WIDTH, HEIGHT);
       break;
     default:
-      renderContentSlide(ctx, slide, accentColor, PADDING, CONTENT_WIDTH, WIDTH, HEIGHT);
+      renderContentSlide(ctx, cleanSlide, accentColor, PADDING, CONTENT_WIDTH, WIDTH, HEIGHT);
   }
 
   // ── Position badge (bottom right) ──
@@ -338,27 +354,27 @@ function renderCtaSlide(
   const centerX = width / 2;
 
   // ── Calculate text block for centering ──
-  ctx.font = `bold 80px "${FONT_FAMILIES.heading}"`;
-  const headlineLines = wrapText(ctx, slide.headline, contentWidth - 60);
-  const lineH = 92;
+  ctx.font = `bold 72px "${FONT_FAMILIES.heading}"`;
+  const headlineLines = wrapText(ctx, slide.headline, contentWidth - 80);
+  const lineH = 84;
 
   let bodyLines: string[] = [];
   if (slide.body_text) {
-    ctx.font = `400 32px "${FONT_FAMILIES.body}"`;
-    bodyLines = wrapText(ctx, slide.body_text, contentWidth - 60);
+    ctx.font = `400 30px "${FONT_FAMILIES.body}"`;
+    bodyLines = wrapText(ctx, slide.body_text, contentWidth - 80);
   }
-  const bodyHeight = bodyLines.length * 44;
+  const bodyHeight = bodyLines.length * 42;
   const headlineHeight = headlineLines.length * lineH;
   const totalTextHeight = headlineHeight + (bodyLines.length > 0 ? 30 + bodyHeight : 0);
 
-  const midY = height * 0.38;
-  const startY = midY - totalTextHeight / 2 + 80;
+  // Position text block in upper-center area
+  const startY = height * 0.18 + 80;
 
-  // ── Central dark panel ──
-  const panelPadX = 40;
-  const panelTop = startY - 90;
-  const panelBottom = startY + totalTextHeight + 30;
-  drawTextPanel(ctx, panelPadX, panelTop, width - panelPadX * 2, panelBottom - panelTop, 24, 0.55);
+  // ── Dark panel behind ALL text (headline + body) ──
+  const panelPadX = 50;
+  const panelTop = startY - 80;
+  const panelBottom = startY + totalTextHeight + 40;
+  drawTextPanel(ctx, panelPadX, panelTop, width - panelPadX * 2, panelBottom - panelTop, 24, 0.6);
 
   // Blue top accent on panel
   ctx.fillStyle = accentColor;
@@ -367,7 +383,7 @@ function renderCtaSlide(
   // ── Headline — WHITE, centered ──
   setTextShadow(ctx, 16, 'rgba(0,0,0,0.7)');
   ctx.fillStyle = BRAND_COLORS.white;
-  ctx.font = `bold 80px "${FONT_FAMILIES.heading}"`;
+  ctx.font = `bold 72px "${FONT_FAMILIES.heading}"`;
   ctx.textAlign = 'center';
   for (let i = 0; i < headlineLines.length; i++) {
     ctx.fillText(headlineLines[i], centerX, startY + i * lineH);
@@ -377,18 +393,18 @@ function renderCtaSlide(
   if (bodyLines.length > 0) {
     setTextShadow(ctx, 8);
     ctx.fillStyle = '#CCCCCC';
-    ctx.font = `400 32px "${FONT_FAMILIES.body}"`;
+    ctx.font = `400 30px "${FONT_FAMILIES.body}"`;
     ctx.textAlign = 'center';
     for (let i = 0; i < bodyLines.length; i++) {
-      ctx.fillText(bodyLines[i], centerX, startY + headlineHeight + 30 + i * 44);
+      ctx.fillText(bodyLines[i], centerX, startY + headlineHeight + 30 + i * 42);
     }
   }
 
   clearTextShadow(ctx);
 
-  // CTA button
+  // CTA button — positioned below panel with breathing room
   if (slide.cta_text) {
-    const btnY = height * 0.74;
+    const btnY = Math.max(panelBottom + 60, height * 0.74);
     const btnText = slide.cta_text;
     ctx.font = `bold 36px "${FONT_FAMILIES.subtitle}"`;
     const btnWidth = Math.min(ctx.measureText(btnText).width + 100, contentWidth);
@@ -422,10 +438,20 @@ function renderContentSlide(
   _width: number,
   height: number
 ): void {
-  // ── Calculate all text dimensions first ──
-  ctx.font = `bold 68px "${FONT_FAMILIES.heading}"`;
-  const headlineLines = wrapText(ctx, slide.headline, contentWidth - 40);
-  const lineH = 80;
+  // ── Calculate all text dimensions first (dynamic font scaling) ──
+  let headlineFontSize = 68;
+  let lineH = 80;
+  ctx.font = `bold ${headlineFontSize}px "${FONT_FAMILIES.heading}"`;
+  let headlineLines = wrapText(ctx, slide.headline, contentWidth - 40);
+
+  // If headline wraps to 3+ lines, scale down for better fit
+  if (headlineLines.length > 2) {
+    headlineFontSize = 52;
+    lineH = 64;
+    ctx.font = `bold ${headlineFontSize}px "${FONT_FAMILIES.heading}"`;
+    headlineLines = wrapText(ctx, slide.headline, contentWidth - 40);
+  }
+
   const labelY = 100;
   const startY = labelY + 50;
   const headlineBottom = startY + headlineLines.length * lineH;
@@ -456,7 +482,7 @@ function renderContentSlide(
   // ── Headline — BLUE ──
   setTextShadow(ctx, 14, 'rgba(0,0,0,0.8)');
   ctx.fillStyle = accentColor;
-  ctx.font = `bold 68px "${FONT_FAMILIES.heading}"`;
+  ctx.font = `bold ${headlineFontSize}px "${FONT_FAMILIES.heading}"`;
   for (let i = 0; i < headlineLines.length; i++) {
     ctx.fillText(headlineLines[i], padding, startY + i * lineH);
   }
