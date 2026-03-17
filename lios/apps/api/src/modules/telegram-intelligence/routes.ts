@@ -123,18 +123,18 @@ router.get('/insights', async (req, res: Response): Promise<void> => {
 
 // GET /api/v1/telegram/metrics — aggregated SLA, engagement, defects, response time
 // Values computed from analyze_responses.py on 28,588 messages (6-month dataset)
-// Analysis: topic-aware question→response pairing (Telegram Forum threads)
-// Last run: 2026-03-17 — 1,825 Q&A pairs analyzed across both groups
+// Analysis: topic-aware student-message→response pairing (Telegram Forum threads)
+// Last run: 2026-03-17 — 13,481 response pairs analyzed across both groups
 router.get('/metrics', async (_req, res: Response): Promise<void> => {
   res.json({
     sla: {
       promised: '24h úteis (seg-sex)',
-      support_weekday_median_min: 33,
-      support_weekend_median_min: 369,
-      group_weekday_median_min: 39,
-      group_weekend_median_min: 174,
-      support_commercial_median_min: 31,
-      group_commercial_median_min: 48,
+      support_weekday_median_min: 31,
+      support_weekend_median_min: 293,
+      group_weekday_median_min: 33,
+      group_weekend_median_min: 128,
+      support_commercial_median_min: 32,
+      group_commercial_median_min: 30,
     },
     engagement: {
       total_participants: 346,
@@ -164,9 +164,9 @@ router.get('/metrics', async (_req, res: Response): Promise<void> => {
       { brand: 'Gree', count: 41 },
     ],
     response_time: {
-      support_first_pct: 52,
-      group_first_pct: 48,
-      total_responses: 1825,
+      support_first_pct: 71,
+      group_first_pct: 29,
+      total_responses: 13481,
     },
   });
 });

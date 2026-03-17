@@ -21,8 +21,13 @@ load_dotenv("../../.env")
 SUPABASE_URL = os.environ["SUPABASE_URL"]
 SUPABASE_KEY = os.environ["SUPABASE_SERVICE_ROLE_KEY"]
 
-# Support staff identification — Waldeir has NULL telegram_id (sends as channel admin)
-SUPPORT_NAMES = ["Prof. Waldeir (Suporte)", "Waldeir"]
+# Support staff identification:
+# - "Prof. Waldeir (Suporte)" — main account, posts as channel admin (telegram_id=NULL)
+# - Also posts with telegram_id=7052154409 (personal account, rare)
+# - "Suporte - Eletrônica Para Climatização" — secondary support account
+# - Any sender with NULL telegram_id in these groups = Waldeir (only admin)
+SUPPORT_NAMES = ["waldeir", "suporte", "climatização"]
+SUPPORT_TELEGRAM_IDS = {7052154409}
 
 GROUPS = {
     "start": "b4d31f2b-d399-4af6-93f2-ddfa504d2774",
@@ -54,26 +59,62 @@ def fetch_all_messages(sb, group_id):
     return all_msgs
 
 
-def is_support(sender_name):
-    """Check if sender is support staff."""
-    if not sender_name:
+def is_support(msg):
+    """Check if message sender is support staff (Waldeir).
+
+    Waldeir posts primarily as channel admin (telegram_id=NULL) or with his
+    personal account. Also catches secondary support accounts.
+    """
+    name = msg.get("sender_name") or ""
+    tid = msg.get("sender_telegram_id")
+
+    # NULL telegram_id = channel admin = Waldeir (only admin in these groups)
+    if tid is None:
+        return True
+
+    # Known support telegram IDs
+    if tid in SUPPORT_TELEGRAM_IDS:
+        return True
+
+    # Name-based match
+    name_lower = name.lower()
+    return any(s in name_lower for s in SUPPORT_NAMES)
+
+
+def is_student_message(msg):
+    """Check if a message is a substantive student message worth responding to.
+
+    Includes text messages, photos (of defective boards), voice notes, and
+    documents — anything a student might send seeking help.
+    """
+    if is_support(msg):
         return False
-    return any(s.lower() in sender_name.lower() for s in SUPPORT_NAMES)
 
+    msg_type = msg.get("message_type", "")
 
-def is_question(msg):
-    """Check if a message is a question — contains ? and has actual text."""
+    # Skip stickers, forwards, polls — not help requests
+    if msg_type in ("sticker", "forward", "poll"):
+        return False
+
     text = msg.get("message_text") or ""
-    if "?" not in text:
-        return False
-    # Skip very short messages (just "?" or "??")
-    clean = text.strip().replace("?", "").strip()
-    if len(clean) < 5:
-        return False
-    # Skip forwarded or media-only
-    if msg.get("message_type") in ("forward", "sticker", "poll"):
-        return False
-    return True
+
+    # Text messages: need some substance (not just "ok", emojis, etc.)
+    if msg_type == "text":
+        clean = text.strip()
+        if len(clean) < 3:
+            return False
+        # Skip pure greeting/acknowledgment
+        ack_words = {"ok", "obrigado", "obg", "vlw", "valeu", "entendi", "certo",
+                     "sim", "não", "top", "show", "boa", "blz", "beleza", "tmj"}
+        if clean.lower().rstrip(".!,") in ack_words:
+            return False
+        return True
+
+    # Photos, voice, video, documents — students send board photos, voice questions
+    if msg_type in ("photo", "voice", "video", "document"):
+        return True
+
+    return False
 
 
 def parse_dt(iso_str):
@@ -98,9 +139,9 @@ def analyze_group(sb, group_name, group_id):
     for m in messages:
         msg_index[m["telegram_msg_id"]] = m
 
-    # Find questions
-    questions = [m for m in messages if is_question(m)]
-    print(f"Questions identified: {len(questions)}")
+    # Find student messages (any substantive non-support message)
+    questions = [m for m in messages if is_student_message(m)]
+    print(f"Student messages identified: {len(questions)}")
 
     # Detect topic-based group (Telegram Forum): many messages share the same
     # reply_to_msg_id pointing to a low-numbered topic root.
@@ -146,7 +187,13 @@ def analyze_group(sb, group_name, group_id):
             topic_msg_idx[m["telegram_msg_id"]] = (tid, pos)
 
     def find_first_response(q):
-        """Find first response via: topic thread > direct reply > sequential."""
+        """Find first response to a student message.
+
+        Strategies (in priority order):
+        1. Direct reply to this message (reply_to_msg_id = q's telegram_msg_id)
+        2. Next message in same topic from a different person (24h window)
+        3. Sequential fallback for non-forum groups (2h window)
+        """
         q_msg_id = q["telegram_msg_id"]
         q_sender = q["sender_name"]
         q_time = parse_dt(q["sent_at"])
@@ -155,12 +202,19 @@ def analyze_group(sb, group_name, group_id):
 
         candidates = []
 
-        # Strategy 1: Same topic — next message in topic from different sender (24h window)
+        # Strategy 1: Direct reply to this specific message (highest confidence)
+        replies = replies_by_parent.get(q_msg_id, [])
+        for r in replies:
+            if r["sender_name"] != q_sender:
+                candidates.append(r)
+                break
+
+        # Strategy 2: Same topic — next message from different person (24h window)
         topic_info = topic_msg_idx.get(q_msg_id)
         if topic_info:
             tid, pos = topic_info
             topic_msgs = msgs_by_topic[tid]
-            for j in range(pos + 1, min(pos + 30, len(topic_msgs))):
+            for j in range(pos + 1, min(pos + 50, len(topic_msgs))):
                 m = topic_msgs[j]
                 if m["sender_name"] == q_sender:
                     continue
@@ -168,19 +222,12 @@ def analyze_group(sb, group_name, group_id):
                 if not m_time:
                     continue
                 delta = (m_time - q_time).total_seconds() / 60
-                if delta > 1440:  # 24h window for topic responses
+                if delta > 1440:  # 24h
                     break
                 candidates.append(m)
                 break
 
-        # Strategy 2: Direct reply to this specific message
-        replies = replies_by_parent.get(q_msg_id, [])
-        for r in replies:
-            if r["sender_name"] != q_sender:
-                candidates.append(r)
-                break
-
-        # Strategy 3: Sequential (non-forum fallback, 2h window)
+        # Strategy 3: Sequential fallback for non-forum groups
         if not candidates and not is_forum:
             idx = msg_by_idx.get(q_msg_id)
             if idx is not None:
@@ -238,7 +285,7 @@ def analyze_group(sb, group_name, group_id):
         if delta_min < 0 or delta_min > 10080:
             continue
 
-        if is_support(first_reply["sender_name"]):
+        if is_support(first_reply):
             support_first += 1
             response_times_support.append(delta_min)
         else:
@@ -318,7 +365,7 @@ def analyze_group(sb, group_name, group_id):
         is_weekday = q_time.weekday() < 5
         is_commercial_hour = is_weekday and 8 <= q_time.hour < 18
 
-        if is_support(first_reply["sender_name"]):
+        if is_support(first_reply):
             if is_weekday:
                 support_weekday.append(delta_min)
                 if is_commercial_hour:
@@ -345,7 +392,7 @@ def analyze_group(sb, group_name, group_id):
     support_dates = defaultdict(int)
     for q in questions:
         first_reply = find_first_response(q)
-        if first_reply and is_support(first_reply["sender_name"]):
+        if first_reply and is_support(first_reply):
             r_time = parse_dt(first_reply["sent_at"])
             if r_time:
                 support_dates[r_time.strftime("%Y-%m-%d")] += 1
