@@ -132,44 +132,51 @@ function isSupportSender(senderTelegramId: number | null): boolean {
 // Static values computed from analyze_responses.py (13,481 Q&A pairs)
 // daily_volume is computed live from tg_messages (last 14 days)
 router.get('/metrics', async (req, res: Response): Promise<void> => {
-  const authReq = req as AuthenticatedRequest;
-  const sb = createSupabaseClient(authReq.token);
+  // Compute daily_volume from live DB data (best-effort, won't break if query fails)
+  let dailyVolume: Array<{ date: string; weekday: string; total: number; support: number; community: number }> = [];
 
-  // Fetch last 14 days of messages for daily volume (live data)
-  const cutoff = new Date(Date.now() - 14 * 24 * 60 * 60 * 1000).toISOString();
-  const { data: recentMsgs } = await sb
-    .from('tg_messages')
-    .select('sender_telegram_id, sender_name, sent_at')
-    .gte('sent_at', cutoff)
-    .order('sent_at');
+  try {
+    const authReq = req as AuthenticatedRequest;
+    const sb = createSupabaseClient(authReq.token);
 
-  const WEEKDAYS: Record<number, string> = {
-    0: 'Dom', 1: 'Seg', 2: 'Ter', 3: 'Qua', 4: 'Qui', 5: 'Sex', 6: 'Sáb',
-  };
+    const cutoff = new Date(Date.now() - 14 * 24 * 60 * 60 * 1000).toISOString();
+    const { data: recentMsgs } = await sb
+      .from('tg_messages')
+      .select('sender_telegram_id, sent_at')
+      .gte('sent_at', cutoff)
+      .order('sent_at')
+      .limit(5000);
 
-  const dayMap = new Map<string, { total: number; support: number; community: number }>();
-  for (const msg of recentMsgs || []) {
-    const d = new Date(msg.sent_at);
-    const dateKey = d.toISOString().slice(0, 10);
-    if (!dayMap.has(dateKey)) {
-      dayMap.set(dateKey, { total: 0, support: 0, community: 0 });
+    const WEEKDAYS: Record<number, string> = {
+      0: 'Dom', 1: 'Seg', 2: 'Ter', 3: 'Qua', 4: 'Qui', 5: 'Sex', 6: 'Sáb',
+    };
+
+    const dayMap = new Map<string, { total: number; support: number; community: number }>();
+    for (const msg of recentMsgs || []) {
+      const d = new Date(msg.sent_at);
+      const dateKey = d.toISOString().slice(0, 10);
+      if (!dayMap.has(dateKey)) {
+        dayMap.set(dateKey, { total: 0, support: 0, community: 0 });
+      }
+      const entry = dayMap.get(dateKey)!;
+      entry.total++;
+      if (isSupportSender(msg.sender_telegram_id)) {
+        entry.support++;
+      } else {
+        entry.community++;
+      }
     }
-    const entry = dayMap.get(dateKey)!;
-    entry.total++;
-    if (isSupportSender(msg.sender_telegram_id)) {
-      entry.support++;
-    } else {
-      entry.community++;
-    }
+
+    dailyVolume = Array.from(dayMap.entries())
+      .sort(([a], [b]) => a.localeCompare(b))
+      .map(([date, counts]) => ({
+        date,
+        weekday: WEEKDAYS[new Date(date + 'T12:00:00Z').getUTCDay()],
+        ...counts,
+      }));
+  } catch {
+    // daily_volume fails gracefully — returns empty array
   }
-
-  const dailyVolume = Array.from(dayMap.entries())
-    .sort(([a], [b]) => a.localeCompare(b))
-    .map(([date, counts]) => ({
-      date,
-      weekday: WEEKDAYS[new Date(date + 'T12:00:00Z').getUTCDay()],
-      ...counts,
-    }));
 
   res.json({
     sla: {
