@@ -7,7 +7,10 @@ import { StatsBar } from '../components/StatsBar';
 import { GroupCard } from '../components/GroupCard';
 import { InsightCard } from '../components/InsightCard';
 import { CategoryFilter } from '../components/CategoryFilter';
-import type { TgStats, InsightCategory, TgGroup, TgInsight } from '../types';
+import { SLACard } from '../components/SLACard';
+import { EngagementTiers } from '../components/EngagementTiers';
+import { TopDefects } from '../components/TopDefects';
+import type { TgStats, TgMetrics, InsightCategory, TgGroup, TgInsight } from '../types';
 import { CATEGORY_LABELS } from '../types';
 
 // ─── Category breakdown ────────────────────────────────────────────────────────
@@ -85,12 +88,14 @@ function GroupCardSkeleton() {
 export default function IntelligenceDashboard() {
   const [stats, setStats] = useState<TgStats | null>(null);
   const [statsLoading, setStatsLoading] = useState(true);
+  const [metrics, setMetrics] = useState<TgMetrics | null>(null);
+  const [metricsLoading, setMetricsLoading] = useState(true);
   const [categoryFilter, setCategoryFilter] = useState<InsightCategory | null>(null);
 
   const { groups, loading: groupsLoading, fetchGroups } = useGroups();
   const { insights, loading: insightsLoading, fetchInsights } = useInsights();
 
-  // Load stats
+  // Load stats and metrics in parallel
   const loadStats = useCallback(async () => {
     setStatsLoading(true);
     const { data } = await api.get<TgStats>('/api/v1/telegram/stats');
@@ -98,8 +103,16 @@ export default function IntelligenceDashboard() {
     if (data) setStats(data);
   }, []);
 
+  const loadMetrics = useCallback(async () => {
+    setMetricsLoading(true);
+    const { data } = await api.get<TgMetrics>('/api/v1/telegram/metrics');
+    setMetricsLoading(false);
+    if (data) setMetrics(data);
+  }, []);
+
   useEffect(() => {
     loadStats();
+    loadMetrics();
     fetchGroups();
     fetchInsights({ limit: 50 });
   // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -138,6 +151,13 @@ export default function IntelligenceDashboard() {
         {/* Stats bar */}
         <StatsBar stats={stats} loading={statsLoading} />
 
+        {/* SLA Card */}
+        {metricsLoading ? (
+          <div className="rounded-xl border border-lios-border bg-lios-surface p-6 mb-6 h-48 animate-pulse" />
+        ) : metrics ? (
+          <SLACard sla={metrics.sla} responseTime={metrics.response_time} />
+        ) : null}
+
         {/* Groups section */}
         <section className="mb-10">
           <h3 className="text-base font-subtitle text-white mb-4">
@@ -171,6 +191,23 @@ export default function IntelligenceDashboard() {
             </div>
           )}
         </section>
+
+        {/* Engagement + Defects */}
+        {(metricsLoading || metrics) && (
+          <section className="mb-10">
+            {metricsLoading ? (
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+                <div className="rounded-xl border border-lios-border bg-lios-surface h-52 animate-pulse" />
+                <div className="rounded-xl border border-lios-border bg-lios-surface h-52 animate-pulse" />
+              </div>
+            ) : metrics ? (
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+                <EngagementTiers engagement={metrics.engagement} />
+                <TopDefects defects={metrics.top_defects} />
+              </div>
+            ) : null}
+          </section>
+        )}
 
         {/* Category breakdown */}
         {totalInsights > 0 && (

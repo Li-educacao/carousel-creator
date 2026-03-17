@@ -121,6 +121,44 @@ router.get('/insights', async (req, res: Response): Promise<void> => {
   res.json({ data: data || [], total: data?.length || 0 });
 });
 
+// GET /api/v1/telegram/metrics — aggregated SLA, engagement, defects, response time
+// Values are pre-computed from 6-month dataset analysis (static until DB aggregation is built)
+router.get('/metrics', async (_req, res: Response): Promise<void> => {
+  res.json({
+    sla: {
+      promised: '24h úteis (seg-sex)',
+      support_weekday_median_min: 81,
+      support_weekend_median_min: 535,
+      group_weekday_median_min: 45,
+      group_weekend_median_min: 137,
+      support_commercial_median_min: 55,
+      group_commercial_median_min: 48,
+    },
+    engagement: {
+      total_participants: 346,
+      high: 111,
+      medium: 116,
+      low: 102,
+      zero: 17,
+    },
+    top_defects: [
+      { name: 'Erro de Comunicação', count: 187 },
+      { name: 'Chaveador/Fonte (TNY276)', count: 133 },
+      { name: 'Capacitor Defeituoso', count: 97 },
+      { name: 'Micro Defeituoso', count: 49 },
+      { name: 'Sensor Alterado', count: 45 },
+      { name: 'Compressor Não Parte', count: 38 },
+      { name: 'IPM em Curto', count: 37 },
+      { name: 'Trilha Aberta/Rompida', count: 36 },
+    ],
+    response_time: {
+      support_first_pct: 54,
+      group_first_pct: 46,
+      total_responses: 4522,
+    },
+  });
+});
+
 // GET /api/v1/telegram/stats
 router.get('/stats', async (req, res: Response): Promise<void> => {
   const authReq = req as AuthenticatedRequest;

@@ -8,6 +8,8 @@ import {
   Star,
   Link2,
   Brain,
+  ShieldCheck,
+  Wrench,
 } from 'lucide-react';
 import { useGroups } from '../hooks/useGroups';
 import { useInsights } from '../hooks/useInsights';
@@ -21,6 +23,7 @@ import { cn } from '../../../lib/utils';
 import type {
   TgGroup,
   TgNotableMember,
+  TgMetrics,
   InsightCategory,
   RelationshipMap as RelationshipMapType,
 } from '../types';
@@ -34,6 +37,13 @@ function formatDate(dateStr: string | null): string {
     month: 'short',
     year: 'numeric',
   });
+}
+
+function formatMinutes(totalMin: number): string {
+  if (totalMin < 60) return `${totalMin}min`;
+  const h = Math.floor(totalMin / 60);
+  const m = totalMin % 60;
+  return m === 0 ? `${h}h` : `${h}h${String(m).padStart(2, '0')}`;
 }
 
 function formatNumber(n: number | null): string {
@@ -147,6 +157,7 @@ export default function GroupDetailPage() {
 
   const [group, setGroup] = useState<TgGroup | null>(null);
   const [notableMembers, setNotableMembers] = useState<TgNotableMember[]>([]);
+  const [metrics, setMetrics] = useState<TgMetrics | null>(null);
   const [activeTab, setActiveTab] = useState<Tab>('resumo');
   const [categoryFilter, setCategoryFilter] = useState<InsightCategory | null>(null);
 
@@ -165,11 +176,13 @@ export default function GroupDetailPage() {
 
     if (groupData) setGroup(groupData);
 
-    // Fetch notable members
-    const { data } = await api.get<{ data: TgNotableMember[] }>(
-      `/api/v1/telegram/groups/${groupId}/members`
-    );
-    if (data) setNotableMembers(data.data);
+    // Fetch notable members and global metrics in parallel
+    const [membersRes, metricsRes] = await Promise.all([
+      api.get<{ data: TgNotableMember[] }>(`/api/v1/telegram/groups/${groupId}/members`),
+      api.get<TgMetrics>('/api/v1/telegram/metrics'),
+    ]);
+    if (membersRes.data) setNotableMembers(membersRes.data.data);
+    if (metricsRes.data) setMetrics(metricsRes.data);
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [groupId]);
 
@@ -299,7 +312,7 @@ export default function GroupDetailPage() {
 
         {/* Tab: Resumo Executivo */}
         {activeTab === 'resumo' && (
-          <div>
+          <div className="space-y-6">
             {summariesLoading ? (
               <div className="space-y-3">
                 {Array.from({ length: 3 }).map((_, i) => (
@@ -311,7 +324,7 @@ export default function GroupDetailPage() {
                 Nenhum resumo disponível para este grupo.
               </div>
             ) : (
-              <div className="space-y-6">
+              <>
                 <div className="rounded-xl border border-lios-border bg-lios-surface p-6">
                   <div className="flex items-center gap-2 mb-4">
                     <span className="text-xs font-body text-lios-gray-400">
@@ -340,6 +353,75 @@ export default function GroupDetailPage() {
                     )}
                   </div>
                 )}
+              </>
+            )}
+
+            {/* SLA snapshot — always shown when metrics available */}
+            {metrics && (
+              <div className="rounded-xl border border-lios-border bg-lios-surface p-5">
+                <div className="flex items-center gap-2 mb-4">
+                  <ShieldCheck size={14} className="text-lios-green" />
+                  <h4 className="text-sm font-subtitle text-white">SLA do Suporte</h4>
+                  <span className="text-xs font-body text-lios-gray-400">
+                    — {metrics.sla.promised}
+                  </span>
+                </div>
+                <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+                  <div>
+                    <p className="text-[10px] font-body text-lios-gray-400 mb-1">Suporte Seg–Sex</p>
+                    <p className="text-base font-heading text-lios-green">
+                      {formatMinutes(metrics.sla.support_weekday_median_min)}
+                    </p>
+                  </div>
+                  <div>
+                    <p className="text-[10px] font-body text-lios-gray-400 mb-1">Comunidade Seg–Sex</p>
+                    <p className="text-base font-heading text-white">
+                      {formatMinutes(metrics.sla.group_weekday_median_min)}
+                    </p>
+                  </div>
+                  <div>
+                    <p className="text-[10px] font-body text-lios-gray-400 mb-1">Suporte Fim Sem.</p>
+                    <p className="text-base font-heading text-white">
+                      {formatMinutes(metrics.sla.support_weekend_median_min)}
+                    </p>
+                  </div>
+                  <div>
+                    <p className="text-[10px] font-body text-lios-gray-400 mb-1">Responde 1º</p>
+                    <p className="text-base font-heading text-lios-green">
+                      Suporte {metrics.response_time.support_first_pct}%
+                    </p>
+                  </div>
+                </div>
+              </div>
+            )}
+
+            {/* Top defects snapshot — always shown when metrics available */}
+            {metrics && metrics.top_defects.length > 0 && (
+              <div className="rounded-xl border border-lios-border bg-lios-surface p-5">
+                <div className="flex items-center gap-2 mb-4">
+                  <Wrench size={14} className="text-lios-green" />
+                  <h4 className="text-sm font-subtitle text-white">Defeitos Mais Recorrentes</h4>
+                  <span className="text-xs font-body text-lios-gray-400">(6 meses)</span>
+                </div>
+                <div className="space-y-2.5">
+                  {metrics.top_defects.slice(0, 5).map((defect) => {
+                    const pct = Math.round((defect.count / metrics.top_defects[0].count) * 100);
+                    return (
+                      <div key={defect.name}>
+                        <div className="flex items-center justify-between mb-1 gap-2">
+                          <span className="text-xs font-body text-lios-gray-300 truncate">{defect.name}</span>
+                          <span className="text-xs font-subtitle text-white shrink-0">{defect.count}</span>
+                        </div>
+                        <div className="h-1.5 rounded-full bg-lios-surface-2 overflow-hidden">
+                          <div
+                            className="h-full rounded-full bg-lios-green"
+                            style={{ width: `${pct}%` }}
+                          />
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
               </div>
             )}
           </div>

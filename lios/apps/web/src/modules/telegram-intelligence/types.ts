@@ -81,6 +81,42 @@ export interface TgStats {
   last_analysis: string | null;
 }
 
+export interface TgMetricsSLA {
+  promised: string;
+  support_weekday_median_min: number;
+  support_weekend_median_min: number;
+  group_weekday_median_min: number;
+  group_weekend_median_min: number;
+  support_commercial_median_min: number;
+  group_commercial_median_min: number;
+}
+
+export interface TgMetricsEngagement {
+  total_participants: number;
+  high: number;
+  medium: number;
+  low: number;
+  zero: number;
+}
+
+export interface TgMetricsDefect {
+  name: string;
+  count: number;
+}
+
+export interface TgMetricsResponseTime {
+  support_first_pct: number;
+  group_first_pct: number;
+  total_responses: number;
+}
+
+export interface TgMetrics {
+  sla: TgMetricsSLA;
+  engagement: TgMetricsEngagement;
+  top_defects: TgMetricsDefect[];
+  response_time: TgMetricsResponseTime;
+}
+
 // ─── Insight categories (match DB CHECK constraint) ──────────────────────────
 
 export type InsightCategory =
