@@ -1,10 +1,17 @@
-import { useEffect } from 'react';
+import { useEffect, useState, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Users, GraduationCap, BookOpen, TrendingUp } from 'lucide-react';
 import { useStudents } from '../hooks/useStudents';
 import { useClasses } from '../hooks/useClasses';
 import { STATUS_LABELS, STATUS_COLORS } from '../types';
+import { api } from '../../../lib/api';
 import { cn } from '../../../lib/utils';
+
+interface Metrics {
+  students: { total: number; active: number; inactive: number; cancelled: number; refunded: number };
+  classes: { total: number; active: number };
+  enrollments: { total: number };
+}
 
 function StatCard({ icon: Icon, label, value, color }: { icon: typeof Users; label: string; value: number | string; color: string }) {
   return (
@@ -22,17 +29,25 @@ function StatCard({ icon: Icon, label, value, color }: { icon: typeof Users; lab
 
 export default function DashboardPage() {
   const navigate = useNavigate();
-  const { students, total: totalStudents, loading: loadingStudents, fetchStudents } = useStudents();
+  const { students, loading: loadingStudents, fetchStudents } = useStudents();
   const { classes, loading: loadingClasses, fetchClasses } = useClasses();
+  const [metrics, setMetrics] = useState<Metrics | null>(null);
+  const [loadingMetrics, setLoadingMetrics] = useState(true);
+
+  const fetchMetrics = useCallback(async () => {
+    setLoadingMetrics(true);
+    const { data } = await api.get<Metrics>('/api/v1/pedagogico/metrics');
+    if (data) setMetrics(data);
+    setLoadingMetrics(false);
+  }, []);
 
   useEffect(() => {
+    fetchMetrics();
     fetchStudents();
     fetchClasses();
-  }, [fetchStudents, fetchClasses]);
+  }, [fetchMetrics, fetchStudents, fetchClasses]);
 
-  const loading = loadingStudents || loadingClasses;
-  const activeStudents = students.filter(s => s.status === 'active').length;
-  const activeClasses = classes.filter(c => c.status === 'active').length;
+  const loading = loadingStudents || loadingClasses || loadingMetrics;
   const recentStudents = students.slice(0, 5);
 
   return (
@@ -53,10 +68,10 @@ export default function DashboardPage() {
           </div>
         ) : (
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-8">
-            <StatCard icon={Users} label="Total Alunos" value={totalStudents} color="bg-lios-green/20" />
-            <StatCard icon={TrendingUp} label="Alunos Ativos" value={activeStudents} color="bg-emerald-500/20" />
-            <StatCard icon={GraduationCap} label="Turmas Ativas" value={activeClasses} color="bg-blue-500/20" />
-            <StatCard icon={BookOpen} label="Total Turmas" value={classes.length} color="bg-purple-500/20" />
+            <StatCard icon={Users} label="Total Alunos" value={metrics?.students.total ?? 0} color="bg-lios-green/20" />
+            <StatCard icon={TrendingUp} label="Alunos Ativos" value={metrics?.students.active ?? 0} color="bg-emerald-500/20" />
+            <StatCard icon={GraduationCap} label="Turmas Ativas" value={metrics?.classes.active ?? 0} color="bg-blue-500/20" />
+            <StatCard icon={BookOpen} label="Total Turmas" value={metrics?.classes.total ?? 0} color="bg-purple-500/20" />
           </div>
         )}
 
@@ -73,7 +88,7 @@ export default function DashboardPage() {
               </button>
             </div>
             <div className="divide-y divide-lios-border">
-              {loading ? (
+              {loadingStudents ? (
                 [1, 2, 3].map(i => (
                   <div key={i} className="px-5 py-3 h-14 animate-pulse" />
                 ))
@@ -117,7 +132,7 @@ export default function DashboardPage() {
               </button>
             </div>
             <div className="divide-y divide-lios-border">
-              {loading ? (
+              {loadingClasses ? (
                 [1, 2, 3].map(i => (
                   <div key={i} className="px-5 py-3 h-14 animate-pulse" />
                 ))
