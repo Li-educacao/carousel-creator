@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Search } from 'lucide-react';
+import { Search, Download } from 'lucide-react';
 import { useStudents } from '../hooks/useStudents';
 import { useClasses } from '../hooks/useClasses';
 import { STATUS_LABELS, STATUS_COLORS } from '../types';
@@ -38,6 +38,12 @@ export default function StudentsPage() {
             <h2 className="text-2xl font-heading text-white">Alunos</h2>
             <p className="text-sm font-body text-lios-gray-400 mt-1">{total} alunos cadastrados</p>
           </div>
+          <a
+            href={`${import.meta.env.VITE_API_URL || ''}/api/v1/pedagogico/export/csv`}
+            className="flex items-center gap-2 px-3 py-2 rounded-lg bg-lios-surface-2 text-sm font-subtitle text-white hover:bg-white/10 transition-colors"
+          >
+            <Download size={14} /> Exportar CSV
+          </a>
         </div>
 
         {/* Filters */}

@@ -5,6 +5,7 @@ import studentRoutes from './routes/student.routes.js';
 import classRoutes from './routes/class.routes.js';
 import enrollmentRoutes from './routes/enrollment.routes.js';
 import webhookLogRoutes from './routes/webhook-log.routes.js';
+import exportRoutes from './routes/export.routes.js';
 
 const pedagogicoRouter = Router();
 
@@ -17,5 +18,6 @@ pedagogicoRouter.use('/students', studentRoutes);
 pedagogicoRouter.use('/classes', classRoutes);
 pedagogicoRouter.use('/enrollments', enrollmentRoutes);
 pedagogicoRouter.use('/webhook-logs', webhookLogRoutes);
+pedagogicoRouter.use('/export', exportRoutes);
 
 export default pedagogicoRouter;

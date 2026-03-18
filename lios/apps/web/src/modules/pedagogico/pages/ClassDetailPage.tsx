@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { ArrowLeft, Users, Calendar } from 'lucide-react';
+import { ArrowLeft, Users, Calendar, Download } from 'lucide-react';
 import { useClasses } from '../hooks/useClasses';
 import { STATUS_LABELS, STATUS_COLORS } from '../types';
 import type { PedClass } from '../types';
@@ -64,6 +64,12 @@ export default function ClassDetailPage() {
             <div className="flex items-center gap-3">
               <span className="text-lg font-heading text-lios-green">[{cls.abbreviation}]</span>
               <h2 className="text-2xl font-heading text-white">{cls.name}</h2>
+              <a
+                href={`${import.meta.env.VITE_API_URL || ''}/api/v1/pedagogico/export/csv/${cls.id}`}
+                className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg bg-lios-surface-2 text-xs font-subtitle text-white hover:bg-white/10 transition-colors"
+              >
+                <Download size={12} /> CSV
+              </a>
             </div>
             <div className="flex items-center gap-3 mt-2">
               <span className={cn(
