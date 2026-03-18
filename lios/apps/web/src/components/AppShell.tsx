@@ -14,6 +14,7 @@ import {
   Layers,
   ChevronDown,
   ChevronRight,
+  GraduationCap,
   LogOut,
   Menu,
   Settings,
@@ -58,11 +59,12 @@ const NAV_GROUPS: NavGroup[] = [
     label: 'Pedagógico',
     sector: 'green',
     modules: [
-      { label: 'Cursos', path: '/app/cursos', icon: <BookOpen size={18} />, comingSoon: true },
+      { label: 'Dashboard', path: '/app/pedagogico', icon: <BarChart3 size={18} />, permission: 'pedagogico:read' },
+      { label: 'Alunos', path: '/app/pedagogico/alunos', icon: <Users size={18} />, permission: 'pedagogico:read' },
+      { label: 'Turmas', path: '/app/pedagogico/turmas', icon: <GraduationCap size={18} />, permission: 'pedagogico:read' },
       { label: 'Inteligência Telegram', path: '/app/alunos/inteligencia', icon: <Brain size={18} />, permission: 'pedagogico:read' },
-      { label: 'Alunos', path: '/app/pedagogico', icon: <Users size={18} />, permission: 'pedagogico:read' },
+      { label: 'Cursos', path: '/app/cursos', icon: <BookOpen size={18} />, comingSoon: true },
       { label: 'Conteúdo', path: '/app/conteudo', icon: <FileText size={18} />, comingSoon: true },
-      { label: 'Relatórios', path: '/app/pedagogico/relatorios', icon: <BarChart3 size={18} />, comingSoon: true },
     ],
   },
 ];
