@@ -187,7 +187,8 @@ function Breadcrumb({ pathname }: { pathname: string }) {
     'turmas':        { label: 'Turmas', color: 'text-lios-green' },
     'inteligencia':  { label: 'Inteligência Telegram', color: 'text-lios-green' },
     'conteudo':      { label: 'Conteúdo', color: 'text-lios-green' },
-    'admin': { label: 'Admin' },
+    'admin': { label: 'Administração', color: 'text-amber-400' },
+    'usuarios': { label: 'Usuários', color: 'text-amber-400' },
   };
 
   if (segments.length === 0) {

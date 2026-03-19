@@ -3,6 +3,7 @@ import socialMediaRouter from '../modules/social-media/index.js';
 import telegramRouter from '../modules/telegram-intelligence/routes.js';
 import pedagogicoRouter from '../modules/pedagogico/index.js';
 import webhookRoutes from '../modules/pedagogico/routes/webhook.routes.js';
+import adminRouter from '../modules/admin/index.js';
 
 const router = Router();
 
@@ -18,6 +19,9 @@ router.use('/v1/telegram', telegramRouter);
 
 // Mount pedagógico module (authenticated)
 router.use('/v1/pedagogico', pedagogicoRouter);
+
+// Mount admin module (admin role only)
+router.use('/v1/admin', adminRouter);
 
 // Mount webhook routes (public — validated by hottok, NOT JWT)
 router.use('/v1/webhooks', webhookRoutes);

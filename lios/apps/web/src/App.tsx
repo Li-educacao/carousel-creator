@@ -12,6 +12,7 @@ import ComingSoonPage from './pages/ComingSoonPage';
 import { socialMediaRoutes } from './modules/social-media/routes';
 import { telegramIntelligenceRoutes } from './modules/telegram-intelligence/routes';
 import { pedagogicoRoutes } from './modules/pedagogico/routes';
+import { adminRoutes } from './modules/admin/routes';
 
 function LoadingScreen() {
   return (
@@ -86,8 +87,10 @@ function AppRoutes() {
           <Route path="conteudo" element={<ComingSoonPage moduleName="Conteúdo" />} />
           <Route path="pedagogico/relatorios" element={<ComingSoonPage moduleName="Relatórios Pedagógicos" />} />
 
-          {/* Admin */}
-          <Route path="admin" element={<ComingSoonPage moduleName="Administração" />} />
+          {/* Admin module (user management) */}
+          <Route path="admin">
+            {adminRoutes}
+          </Route>
 
           {/* Catch-all inside /app */}
           <Route path="*" element={<Navigate to="social-media" replace />} />
