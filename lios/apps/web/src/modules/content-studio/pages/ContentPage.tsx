@@ -22,7 +22,7 @@ export default function ContentPage() {
   } = useContentStudio();
 
   const [search, setSearch] = useState('');
-  const [activeSection, setActiveSection] = useState<Section>('historico');
+  const [activeSection, setActiveSection] = useState<Section>('top10');
 
   useEffect(() => {
     fetchVideos();
