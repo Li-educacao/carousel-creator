@@ -13,6 +13,7 @@ import { socialMediaRoutes } from './modules/social-media/routes';
 import { telegramIntelligenceRoutes } from './modules/telegram-intelligence/routes';
 import { pedagogicoRoutes } from './modules/pedagogico/routes';
 import { adminRoutes } from './modules/admin/routes';
+import { knowledgeGraphRoutes } from './modules/knowledge-graph/routes';
 
 function LoadingScreen() {
   return (
@@ -82,6 +83,11 @@ function AppRoutes() {
           {/* Pedagógico module (Student Management) */}
           <Route path="pedagogico">
             {pedagogicoRoutes}
+          </Route>
+
+          {/* Knowledge Graph module */}
+          <Route path="grafo">
+            {knowledgeGraphRoutes}
           </Route>
 
           <Route path="conteudo" element={<ComingSoonPage moduleName="Conteúdo" />} />

@@ -20,6 +20,7 @@ import {
   Settings,
   Lock,
   Brain,
+  Network,
 } from 'lucide-react';
 
 /* ─── Types ──────────────────────────────────────────────────────────────────── */
@@ -63,6 +64,7 @@ const NAV_GROUPS: NavGroup[] = [
       { label: 'Alunos', path: '/app/pedagogico/alunos', icon: <Users size={18} />, permission: 'pedagogico:read' },
       { label: 'Turmas', path: '/app/pedagogico/turmas', icon: <GraduationCap size={18} />, permission: 'pedagogico:read' },
       { label: 'Inteligência Telegram', path: '/app/alunos/inteligencia', icon: <Brain size={18} />, permission: 'pedagogico:read' },
+      { label: 'Grafo de Conhecimento', path: '/app/grafo', icon: <Network size={18} />, permission: 'pedagogico:read' },
       { label: 'Cursos', path: '/app/cursos', icon: <BookOpen size={18} />, comingSoon: true },
       { label: 'Conteúdo', path: '/app/conteudo', icon: <FileText size={18} />, comingSoon: true },
     ],
@@ -186,6 +188,7 @@ function Breadcrumb({ pathname }: { pathname: string }) {
     'alunos':        { label: 'Alunos', color: 'text-lios-green' },
     'turmas':        { label: 'Turmas', color: 'text-lios-green' },
     'inteligencia':  { label: 'Inteligência Telegram', color: 'text-lios-green' },
+    'grafo':         { label: 'Grafo de Conhecimento', color: 'text-lios-green' },
     'conteudo':      { label: 'Conteúdo', color: 'text-lios-green' },
     'admin': { label: 'Administração', color: 'text-amber-400' },
     'usuarios': { label: 'Usuários', color: 'text-amber-400' },
