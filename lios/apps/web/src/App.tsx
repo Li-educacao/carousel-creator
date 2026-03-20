@@ -86,7 +86,7 @@ function AppRoutes() {
           </Route>
 
           {/* Knowledge Graph module */}
-          <Route path="grafo">
+          <Route path="inteligencia">
             {knowledgeGraphRoutes}
           </Route>
 

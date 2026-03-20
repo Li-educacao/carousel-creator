@@ -82,7 +82,7 @@ export default function KnowledgeGraphDashboard() {
       {/* Header */}
       <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
         <div>
-          <h1 className="text-2xl font-heading text-white">Grafo de Conhecimento</h1>
+          <h1 className="text-2xl font-heading text-white">Inteligência</h1>
           <p className="text-sm font-body text-lios-gray-400 mt-1">Visão geral das entidades e relações do LIOS.</p>
         </div>
         <button
