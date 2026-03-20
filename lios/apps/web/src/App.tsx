@@ -15,6 +15,7 @@ import { pedagogicoRoutes } from './modules/pedagogico/routes';
 import { adminRoutes } from './modules/admin/routes';
 import { knowledgeGraphRoutes } from './modules/knowledge-graph/routes';
 import { contentStudioRoutes } from './modules/content-studio/routes';
+import { youtubeResponderRoutes } from './modules/youtube-responder/routes';
 
 function LoadingScreen() {
   return (
@@ -89,6 +90,11 @@ function AppRoutes() {
           {/* Knowledge Graph module */}
           <Route path="inteligencia">
             {knowledgeGraphRoutes}
+          </Route>
+
+          {/* YouTube Responder module */}
+          <Route path="youtube">
+            {youtubeResponderRoutes}
           </Route>
 
           {/* Content Studio module */}

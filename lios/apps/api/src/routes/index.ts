@@ -4,6 +4,7 @@ import telegramRouter from '../modules/telegram-intelligence/routes.js';
 import pedagogicoRouter from '../modules/pedagogico/index.js';
 import webhookRoutes from '../modules/pedagogico/routes/webhook.routes.js';
 import adminRouter from '../modules/admin/index.js';
+import youtubeRouter from '../modules/youtube-responder/routes.js';
 
 const router = Router();
 
@@ -19,6 +20,9 @@ router.use('/v1/telegram', telegramRouter);
 
 // Mount pedagógico module (authenticated)
 router.use('/v1/pedagogico', pedagogicoRouter);
+
+// Mount YouTube responder module
+router.use('/v1/youtube', youtubeRouter);
 
 // Mount admin module (admin role only)
 router.use('/v1/admin', adminRouter);
