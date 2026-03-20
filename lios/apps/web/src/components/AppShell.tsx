@@ -66,7 +66,7 @@ const NAV_GROUPS: NavGroup[] = [
       { label: 'Inteligência Telegram', path: '/app/alunos/inteligencia', icon: <Brain size={18} />, permission: 'pedagogico:read' },
       { label: 'Inteligência', path: '/app/inteligencia', icon: <Network size={18} />, permission: 'pedagogico:read' },
       { label: 'Cursos', path: '/app/cursos', icon: <BookOpen size={18} />, comingSoon: true },
-      { label: 'Conteúdo', path: '/app/conteudo', icon: <FileText size={18} />, comingSoon: true },
+      { label: 'Conteúdo', path: '/app/conteudo', icon: <FileText size={18} />, permission: 'pedagogico:read' },
     ],
   },
 ];
@@ -187,7 +187,6 @@ function Breadcrumb({ pathname }: { pathname: string }) {
     'pedagogico':    { label: 'Pedagógico', color: 'text-lios-green' },
     'alunos':        { label: 'Alunos', color: 'text-lios-green' },
     'turmas':        { label: 'Turmas', color: 'text-lios-green' },
-    'inteligencia':  { label: 'Inteligência Telegram', color: 'text-lios-green' },
     'inteligencia':  { label: 'Inteligência', color: 'text-lios-green' },
     'conteudo':      { label: 'Conteúdo', color: 'text-lios-green' },
     'admin': { label: 'Administração', color: 'text-amber-400' },

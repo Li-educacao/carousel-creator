@@ -14,6 +14,7 @@ import { telegramIntelligenceRoutes } from './modules/telegram-intelligence/rout
 import { pedagogicoRoutes } from './modules/pedagogico/routes';
 import { adminRoutes } from './modules/admin/routes';
 import { knowledgeGraphRoutes } from './modules/knowledge-graph/routes';
+import { contentStudioRoutes } from './modules/content-studio/routes';
 
 function LoadingScreen() {
   return (
@@ -90,7 +91,10 @@ function AppRoutes() {
             {knowledgeGraphRoutes}
           </Route>
 
-          <Route path="conteudo" element={<ComingSoonPage moduleName="Conteúdo" />} />
+          {/* Content Studio module */}
+          <Route path="conteudo">
+            {contentStudioRoutes}
+          </Route>
           <Route path="pedagogico/relatorios" element={<ComingSoonPage moduleName="Relatórios Pedagógicos" />} />
 
           {/* Admin module (user management) */}
